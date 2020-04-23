@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>logo is present</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8cc6198d-283f-46e3-8bf4-9217421607b0</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>c0ebc493-fa00-43c1-985a-010299b39c4d</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>
