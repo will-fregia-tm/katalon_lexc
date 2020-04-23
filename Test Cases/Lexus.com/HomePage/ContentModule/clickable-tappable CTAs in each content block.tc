@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Each content block will contain 1 CTA. These CTAs will always be present/visible. Image and CTA will be clickable/tappable.</description>
+   <name>clickable-tappable CTAs in each content block</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>211aee4f-3125-4e9d-9fcb-3a7162da49ef</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>f94d2359-dde4-4494-965d-4e0026a4b0a3</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>

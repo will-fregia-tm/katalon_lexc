@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Content module will have 3 content blocks.</description>
+   <name>3 content blocks in content module</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a0ac6cff-1aa1-48af-81d7-4a9aa569d0ca</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>2ce36487-34ad-45b7-bc43-231809b7a18d</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>
