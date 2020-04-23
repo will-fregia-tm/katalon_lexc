@@ -19,7 +19,17 @@ WebUI.openBrowser(GlobalVariable.TS_Domain + GlobalVariable.Header)
 
 WebUI.navigateToUrl(GlobalVariable.SC_Domain)
 
-WebUI.verifyElementPresent(findTestObject('GlobalNav/lexus logo'), 5)
+WebUI.waitForElementPresent(findTestObject('HomePage/ContentModule/content module - heading'), 0)
+
+WebUI.scrollToElement(findTestObject('HomePage/ContentModule/content module - heading'), 0)
+
+WebUI.scrollToElement(findTestObject('HomePage/ContentModule/see offers CTA'), 0)
+
+WebUI.verifyElementVisible(findTestObject('HomePage/ContentModule/see offers CTA'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.scrollToElement(findTestObject('HomePage/ContentModule/explore CTA'), 0)
+
+WebUI.verifyElementVisible(findTestObject('HomePage/ContentModule/explore CTA'), FailureHandling.STOP_ON_FAILURE)
 
 @com.kms.katalon.core.annotation.TearDownIfPassed
 def passed() {

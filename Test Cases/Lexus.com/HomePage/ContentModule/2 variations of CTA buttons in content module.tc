@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
-   <name>logo is not present</name>
+   <description>This module will support 2 variations of CTA buttons.</description>
+   <name>2 variations of CTA buttons in content module</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>13164f62-3bf4-490d-ad75-d7a758de0e3a</testCaseGuid>
+   <testCaseGuid>f81e04c7-5d95-4853-919c-f18b6720f4ca</testCaseGuid>
    <variable>
       <defaultValue>'Header'</defaultValue>
       <description></description>
-      <id>3c7e665a-b2d6-46ac-bcc9-9f18dfaee789</id>
+      <id>f1dd80ef-8190-49bf-86cd-49bf2497773f</id>
       <masked>false</masked>
       <name>GlobalNav</name>
    </variable>
