@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Page should be responsive.</description>
+   <name>page responsiveness</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>10d7277d-5c61-474f-9c1e-219dfb015385</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>893cadb6-29f9-4580-beda-db2fd8cc68b2</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>

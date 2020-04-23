@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Global navigation bar will have a solid white background to ensure legibility.</description>
+   <name>nav bar has solid white background</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>50c53bf9-b6a0-4440-8ed4-0c8fa2fad002</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>53bdc76b-6f48-481b-bd5a-e4924d5605c5</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>
