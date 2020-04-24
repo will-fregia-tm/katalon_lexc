@@ -36,13 +36,13 @@ if (WebUI.verifyGreaterThan(pageWidth, '960', FailureHandling.OPTIONAL)) {
 
     WebUI.setViewPortSize(1920, 1080)
 
-    WebUI.scrollToElement(findTestObject('GlobalNav/header/header - Lexus logo'), 0)
-
-    WebUI.scrollToElement(findTestObject('GlobalNav/footer large'), 0)
-
     WebUI.verifyElementVisible(findTestObject('GlobalNav/footer large'))
 
     WebUI.verifyElementNotVisible(findTestObject('GlobalNav/footer small'))
+
+    WebUI.scrollToElement(findTestObject('GlobalNav/header/header - Lexus logo'), 0)
+
+    WebUI.verifyElementNotVisible(findTestObject('GlobalNav/header/mobile menu button'))
 }
 
 @com.kms.katalon.core.annotation.TearDownIfPassed
