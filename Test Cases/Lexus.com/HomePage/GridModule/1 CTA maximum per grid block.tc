@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>No more that 1 CTA should appear in a grid block.</description>
+   <name>1 CTA maximum per grid block</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0cb02686-fa87-4fa2-b163-9a6a942579a8</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>493ce025-0e68-4d4c-809d-4a82e8a0fe23</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Images in the content grid can be clicked/tapped.</description>
+   <name>grid images, CTAs are clickable-tappable</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7c1f348a-9b02-4182-90c0-b3e8682c9f49</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>f4e16ead-d356-4f9e-8819-9d99545105ed</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>

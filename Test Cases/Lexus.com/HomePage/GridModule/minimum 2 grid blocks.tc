@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Grid must contain a minimum of 2 content grid blocks.</description>
+   <name>minimum 2 grid blocks</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ee8ec939-d254-41d3-a352-45bf211f0867</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>211d1e8f-0ddb-4863-a1a2-8cef1b49fc86</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>

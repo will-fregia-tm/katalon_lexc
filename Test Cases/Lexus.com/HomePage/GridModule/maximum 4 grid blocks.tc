@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Grid must contain a maximum of 4 content grid blocks.</description>
+   <name>maximum 4 grid blocks</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6c5c9f78-0e73-4c2c-b9d9-02a8ac23996e</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>15cbdb89-1b64-4010-85bf-6359dfa96f16</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>
