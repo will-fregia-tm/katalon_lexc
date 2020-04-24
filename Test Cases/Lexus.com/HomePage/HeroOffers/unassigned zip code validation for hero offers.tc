@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Zip code validation will contain the following error rule:
+
+- Zip code does exist, but zip code is not assigned to an existing market
+
+- default message will display</description>
+   <name>unassigned zip code validation for hero offers</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0fc40ecd-9d67-410a-9a9c-fa4b7d546afc</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>c11d423f-8720-424c-86ee-8c87fe288046</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>

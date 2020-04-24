@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Tool tip will display offer details disclaimer on user selection.</description>
+   <name>tooltip displays hero offer details</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3356feb5-9cda-4fdb-8ee8-8db490b22ab9</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>26fabb99-22dd-4dd0-83fd-444d2844d83b</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>

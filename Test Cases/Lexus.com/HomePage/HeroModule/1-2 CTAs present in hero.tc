@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Will contain 1-2 CTAs. Target field will be specified in CMS.</description>
+   <name>1-2 CTAs present in hero</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8d6278ed-8351-42c3-966a-af3ef870d5dd</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>d313fa6e-b3a3-4b90-b24a-558ab8723b0d</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>

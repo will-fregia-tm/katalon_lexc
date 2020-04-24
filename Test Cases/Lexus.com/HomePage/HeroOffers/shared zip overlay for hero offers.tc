@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Shared regions will display overlay.</description>
+   <name>shared zip overlay for hero offers</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4b962f18-b251-4f5d-855b-d852603de173</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>914869ca-fd3a-4d64-920b-02dbdeaff423</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>

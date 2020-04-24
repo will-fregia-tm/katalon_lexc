@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Market LDA title will be pulled from LOD.</description>
+   <name>market LDA title for hero offers</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>60ce9e17-23c6-44be-b29d-4da27eb32b6b</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>8600d10e-55e9-4ba8-a499-c910f802ad6c</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Zip code field will be capped to 5 characters.</description>
+   <name>zip code character cap for hero offers</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c391ca77-a087-4d33-bcde-1540a108316d</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>9351a19a-8c1d-418c-9eb3-f2827635fa04</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>

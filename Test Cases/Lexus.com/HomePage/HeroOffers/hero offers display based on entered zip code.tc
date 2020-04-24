@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Offers will display based on zip code entered in Hero Offer Module.</description>
+   <name>hero offers display based on entered zip code</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>33e7b284-81e0-497a-9696-206d8abd3342</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>f9ae7309-c5dc-45e8-8f35-baa6cef9f715</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>

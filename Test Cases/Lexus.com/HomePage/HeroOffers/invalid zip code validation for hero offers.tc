@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Zip code validation will contain the following error rule:
+
+- Zip code doesn't exist (Invalid Zip)</description>
+   <name>invalid zip code validation for hero offers</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fdba1448-75ef-4bee-bcc2-3872cb80a3b0</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>88c2af10-c728-4396-83d2-dcbd57004f48</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>

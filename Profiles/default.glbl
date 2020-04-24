@@ -39,4 +39,19 @@
       <initValue>''</initValue>
       <name>currentTestCaseID</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'http://api.lexusofferdatabase.com'</initValue>
+      <name>LOD_Domain</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'/v4/offers?zip=08008&amp;apiKey=32'</initValue>
+      <name>LOD_Offers_08008</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'/v4/offers?zip=53128&amp;apiKey=32'</initValue>
+      <name>LOD_Offers_53128</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
