@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Primary tile and secondary tiles are visible and function properly on load.</description>
+   <name>On Load - Tiles</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5f587b47-1ad3-4a19-97fc-40471ad89c81</testCaseGuid>
+   <variable>
+      <defaultValue>'GridLayer'</defaultValue>
+      <description></description>
+      <id>704eeb3f-d90e-4722-87b3-5827796701eb</id>
+      <masked>false</masked>
+      <name>BrandCampaign</name>
+   </variable>
+</TestCaseEntity>

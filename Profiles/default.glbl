@@ -31,12 +31,17 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Prod,GlobalNav'</initValue>
+      <initValue>'Prod,BrandCampaign'</initValue>
       <name>profileTags</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>''</initValue>
       <name>currentTestCaseID</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'/curiosity/'</initValue>
+      <name>Curiosity</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

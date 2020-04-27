@@ -26,7 +26,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Staging,GlobalNav'</initValue>
+      <initValue>'Staging,BrandCampaign'</initValue>
       <name>profileTags</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

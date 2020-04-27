@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Gallery module is present below video, with video-related images.</description>
+   <name>Campaign - Gallery Module</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7ec6e251-aaa3-4b35-9700-00a6046c0758</testCaseGuid>
+   <variable>
+      <defaultValue>'DetailLayer'</defaultValue>
+      <description></description>
+      <id>696c3248-8810-4507-a3d7-7d6539f28920</id>
+      <masked>false</masked>
+      <name>BrandCampaign</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Close 'X' button exits overlay.</description>
+   <name>Campaign - Close X Button</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fdc18138-2a95-4fa2-bcc3-a2265aa765e3</testCaseGuid>
+   <variable>
+      <defaultValue>'DetailLayer'</defaultValue>
+      <description></description>
+      <id>904531e3-c18c-41a8-a673-367310f700a0</id>
+      <masked>false</masked>
+      <name>BrandCampaign</name>
+   </variable>
+</TestCaseEntity>

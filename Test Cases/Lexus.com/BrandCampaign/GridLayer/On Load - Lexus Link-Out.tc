@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Lexus logo is visible and functions properly on load.</description>
+   <name>On Load - Lexus Link-Out</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fc55949b-c544-4e50-883c-ea0ccf6c28e6</testCaseGuid>
+   <variable>
+      <defaultValue>'GridLayer'</defaultValue>
+      <description></description>
+      <id>b7975f5e-7227-4190-bcfa-0c3200d4eccc</id>
+      <masked>false</masked>
+      <name>BrandCampaign</name>
+   </variable>
+</TestCaseEntity>
