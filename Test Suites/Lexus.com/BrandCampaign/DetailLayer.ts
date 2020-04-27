@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>DetailLayer</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>20</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>afad5fd3-8fe1-405a-889e-f0ee7603a7a1</testSuiteGuid>
+   <testCaseLink>
+      <guid>1a6dd620-0b7b-4ba6-a96c-5c850fe652c7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/BrandCampaign/DetailLayer/Campaign - Close X Button</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>904531e3-c18c-41a8-a673-367310f700a0</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>55c054b9-8ee3-4ffb-872a-73d67e5ab246</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/BrandCampaign/DetailLayer/Campaign - Gallery Module</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>696c3248-8810-4507-a3d7-7d6539f28920</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>21ebc7c7-d8c9-47af-9ba6-3a18d09b480d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/BrandCampaign/DetailLayer/Campaign - More Information Module</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>bef432e0-25c9-4207-8b64-8a6f8f2a5e8e</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

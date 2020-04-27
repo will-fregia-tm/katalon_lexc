@@ -16,3 +16,24 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.openBrowser(GlobalVariable.TS_Domain + GlobalVariable.Curiosity)
+
+WebUI.verifyElementVisible(findTestObject('BrandCampaign/GridLayer/primary tile'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('BrandCampaign/GridLayer/primary tile'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.waitForElementPresent(findTestObject('BrandCampaign/DetailLayer/continue button'), 0)
+
+WebUI.scrollToElement(findTestObject('BrandCampaign/DetailLayer/continue button'), 0)
+
+WebUI.verifyElementVisible(findTestObject('BrandCampaign/DetailLayer/more information module'), FailureHandling.STOP_ON_FAILURE)
+
+@com.kms.katalon.core.annotation.TearDownIfPassed
+def passed() {
+	WebUI.executeJavaScript('sauce:job-result=passed', [])
+}
+
+@com.kms.katalon.core.annotation.TearDownIfFailed
+def failed() {
+	WebUI.executeJavaScript('sauce:job-result=failed', [])
+}

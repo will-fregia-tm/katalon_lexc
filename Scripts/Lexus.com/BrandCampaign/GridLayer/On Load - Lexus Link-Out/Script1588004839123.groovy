@@ -16,3 +16,23 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.openBrowser(GlobalVariable.TS_Domain + GlobalVariable.Curiosity)
+
+WebUI.verifyElementVisible(findTestObject('BrandCampaign/GridLayer/Lexus logo link'))
+
+WebUI.click(findTestObject('BrandCampaign/GridLayer/Lexus logo link'))
+
+WebUI.waitForPageLoad(0, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyElementPresent(findTestObject('HomePage/shopping tools - heading'), 0)
+
+@com.kms.katalon.core.annotation.TearDownIfPassed
+def passed() {
+    WebUI.executeJavaScript('sauce:job-result=passed', [])
+}
+
+@com.kms.katalon.core.annotation.TearDownIfFailed
+def failed() {
+    WebUI.executeJavaScript('sauce:job-result=failed', [])
+}
+
