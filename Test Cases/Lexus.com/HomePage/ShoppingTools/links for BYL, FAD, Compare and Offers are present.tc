@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Module will contain but not be limited to the following shopping links: Build your Lexus, Find a Dealer, Compare, and Offers.</description>
+   <name>links for BYL, FAD, Compare and Offers are present</name>
+   <tag>Homepage; ShoppingTools</tag>
+   <comment></comment>
+   <testCaseGuid>33edacf5-b23e-4b0c-83b5-e70bbb296230</testCaseGuid>
+   <variable>
+      <defaultValue>'ShoppingTools'</defaultValue>
+      <description></description>
+      <id>cd75ff91-e956-431f-9229-422cce762bcc</id>
+      <masked>false</masked>
+      <name>HomePage</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>A maximum of 6 links shown at a time.</description>
+   <name>maximum 6 shopping links</name>
+   <tag>Homepage; ShoppingTools</tag>
+   <comment></comment>
+   <testCaseGuid>0655b358-f842-4a84-bb4f-60d41e4f61af</testCaseGuid>
+   <variable>
+      <defaultValue>'ShoppingTools'</defaultValue>
+      <description></description>
+      <id>a692e03b-a640-4c5d-a29e-b0e867ee0e2e</id>
+      <masked>false</masked>
+      <name>HomePage</name>
+   </variable>
+</TestCaseEntity>
