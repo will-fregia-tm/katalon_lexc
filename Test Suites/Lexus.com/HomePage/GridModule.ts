@@ -10,4 +10,52 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>912ea52b-823d-4d71-b84f-a667bb3727be</testSuiteGuid>
+   <testCaseLink>
+      <guid>55d7c7e2-7b82-4409-acc9-9c534f1cc849</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/HomePage/GridModule/1 CTA maximum per grid block</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>493ce025-0e68-4d4c-809d-4a82e8a0fe23</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>25e0e518-6ab1-4fb0-a020-a58b2a92dacd</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/HomePage/GridModule/grid images, CTAs are clickable-tappable</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f4e16ead-d356-4f9e-8819-9d99545105ed</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>74d7e52d-093b-476f-9a56-cfa835e95831</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/HomePage/GridModule/maximum 4 grid blocks</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>15cbdb89-1b64-4010-85bf-6359dfa96f16</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1e62d374-8805-4d7b-bc3e-addbb71b8245</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/HomePage/GridModule/minimum 2 grid blocks</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>211d1e8f-0ddb-4863-a1a2-8cef1b49fc86</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>

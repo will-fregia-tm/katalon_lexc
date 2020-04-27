@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Offers will display based on zip code entered (and market selected) in Hero Offer Module</description>
+   <name>vehicle selector offers match zip code in hero module</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d0750ae9-73a3-4bbd-b777-fcc5e94f4279</testCaseGuid>
+   <variable>
+      <defaultValue>'VehicleSelectorOffers'</defaultValue>
+      <description></description>
+      <id>44a8da24-fd8f-4415-bac2-04753a8f6931</id>
+      <masked>false</masked>
+      <name>HomePage</name>
+   </variable>
+</TestCaseEntity>

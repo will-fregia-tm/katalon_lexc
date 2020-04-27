@@ -10,4 +10,76 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>6eaeed5c-c39c-4fb8-9cc5-e0bdae5ba344</testSuiteGuid>
+   <testCaseLink>
+      <guid>5b4fccd1-aec5-43b9-a224-e2d341ac077c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/HomePage/PromoModule/1 CTA maximum per promo tile</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>65973b69-6ddb-459f-bbe7-85440241ac9b</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>5bd6390e-7490-4882-b76f-079f197b88e4</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/HomePage/PromoModule/3 promo tile minimum</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f377adaf-1952-42a4-a362-e72728ee0cd6</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>909f6c66-34de-438b-840a-c88d86541c45</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/HomePage/PromoModule/6 promo tile maximum</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>fb539c9e-8063-4ac5-9741-551e1e86a711</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4de60637-9f7c-43d6-ac0e-a43668392f59</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/HomePage/PromoModule/clickable-tappable promo image-CTA</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>21a274bb-91a2-47fe-b995-6125baf19bc1</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f6637489-7592-48be-a96e-644446eb0384</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/HomePage/PromoModule/promo carousel for 4 or more tiles</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>8b0248e6-9eb7-4bfb-9c56-1426530640c9</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>43a43202-09ca-4d46-8ac0-54b0a9abb901</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/HomePage/PromoModule/promo carousel progression-loop</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>478b7581-4bd0-4ea5-baa2-bce32174be1a</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>

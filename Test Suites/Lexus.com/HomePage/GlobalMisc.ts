@@ -10,4 +10,40 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>d3fc6ea4-f6ec-4be9-99c4-d632317d258b</testSuiteGuid>
+   <testCaseLink>
+      <guid>fd7c41ac-16be-4d16-8282-0d16154a6eda</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/HomePage/GlobalMisc/clickable disclaimer asterisks</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>5876f4ca-d7f5-4376-838e-3c0cfed83670</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d4aee30f-eeeb-4cde-a1a4-6b7a6bd1239f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/HomePage/GlobalMisc/nav bar has solid white background</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>53bdc76b-6f48-481b-bd5a-e4924d5605c5</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>0036037d-03f3-4819-b720-69adbf589829</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/HomePage/GlobalMisc/page responsiveness</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>893cadb6-29f9-4580-beda-db2fd8cc68b2</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>

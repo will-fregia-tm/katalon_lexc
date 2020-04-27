@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>vehicle selector - coupes - LC starting at price</name>
+   <tag></tag>
+   <elementGuidId>da3eccaf-6578-4581-8ac7-734418f3ede1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@data-category = 'Coupes' and @data-model = 'LC']//span[@class = 'price']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@data-category = 'Coupes' and (contains(text(), '$92,950') or contains(., '$92,950')) and @data-model = 'LC']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-category</name>
+      <type>Main</type>
+      <value>Coupes</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>$92,950</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-model</name>
+      <type>Main</type>
+      <value>LC</value>
+   </webElementProperties>
+</WebElementEntity>

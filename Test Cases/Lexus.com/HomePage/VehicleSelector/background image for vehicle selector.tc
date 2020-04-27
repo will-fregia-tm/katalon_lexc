@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Background will contain static image or video background. Video background for desktop only.</description>
+   <name>background image for vehicle selector</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5d92c39a-92f5-45b6-a5ad-1c7d1fa1a60f</testCaseGuid>
+   <variable>
+      <defaultValue>'VehicleSelectorOffers'</defaultValue>
+      <description></description>
+      <id>80a15271-f520-4acb-8c1e-28e64fe93a5a</id>
+      <masked>false</masked>
+      <name>HomePage</name>
+   </variable>
+</TestCaseEntity>

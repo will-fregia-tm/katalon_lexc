@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>BlueKai personalization</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4d5d6678-ad63-45bc-ba73-bf8eba395bc8</testCaseGuid>
+   <variable>
+      <defaultValue>'VehicleSelector'</defaultValue>
+      <description></description>
+      <id>c58a1e2f-4287-4062-927d-e60fbc5c5a08</id>
+      <masked>false</masked>
+      <name>HomePage</name>
+   </variable>
+</TestCaseEntity>

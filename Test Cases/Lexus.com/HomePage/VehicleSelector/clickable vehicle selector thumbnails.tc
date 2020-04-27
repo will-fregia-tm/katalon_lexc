@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Image thumbnails will be clickable.</description>
+   <name>clickable vehicle selector thumbnails</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8d17116d-04ac-4f97-b1f4-0e0ab74378e8</testCaseGuid>
+   <variable>
+      <defaultValue>'VehicleSelectorOffers'</defaultValue>
+      <description></description>
+      <id>587ff40d-9d81-4d2e-bd84-9c7215b71476</id>
+      <masked>false</masked>
+      <name>HomePage</name>
+   </variable>
+</TestCaseEntity>

@@ -54,4 +54,19 @@
       <initValue>'/v4/offers?zip=53128&amp;apiKey=32'</initValue>
       <name>LOD_Offers_53128</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'/compare'</initValue>
+      <name>Compare</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'/?default=true'</initValue>
+      <name>HPdefault</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'/models/UX'</initValue>
+      <name>Overview_UX</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

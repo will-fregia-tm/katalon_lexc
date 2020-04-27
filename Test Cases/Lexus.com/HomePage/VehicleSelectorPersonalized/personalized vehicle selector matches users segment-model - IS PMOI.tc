@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>For in-market personalized state of homepage, will default to user’s specific segment/model.</description>
+   <name>personalized vehicle selector matches users segment-model - IS PMOI</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>940702a4-b6b4-4d4b-b236-bcb3c4f18011</testCaseGuid>
+   <variable>
+      <defaultValue>'VehicleSelector'</defaultValue>
+      <description></description>
+      <id>4b178cb7-0182-4e91-b837-0ca7d3116123</id>
+      <masked>false</masked>
+      <name>HomePage</name>
+   </variable>
+</TestCaseEntity>

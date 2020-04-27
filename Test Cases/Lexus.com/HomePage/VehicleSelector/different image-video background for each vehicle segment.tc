@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Image/video background will be able to change for each vehicle segment.</description>
+   <name>different image-video background for each vehicle segment</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c3f9a2e6-8b93-41f9-bfcd-4e930108cd6b</testCaseGuid>
+   <variable>
+      <defaultValue>'VehicleSelector'</defaultValue>
+      <description></description>
+      <id>1765a01e-cfac-41c7-9ed2-74194e05bc54</id>
+      <masked>false</masked>
+      <name>HomePage</name>
+   </variable>
+</TestCaseEntity>

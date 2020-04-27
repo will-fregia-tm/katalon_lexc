@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Color swatches will have left and right arrows if swatches exceed 8 colors.</description>
+   <name>nav arrows for 9 or more vehicle selector color swatches</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c7187249-a0e1-4789-9842-672f78df01f5</testCaseGuid>
+   <variable>
+      <defaultValue>'VehicleSelectorOffers'</defaultValue>
+      <description></description>
+      <id>45225ea3-cc75-4f51-8197-e32d25e0e051</id>
+      <masked>false</masked>
+      <name>HomePage</name>
+   </variable>
+</TestCaseEntity>

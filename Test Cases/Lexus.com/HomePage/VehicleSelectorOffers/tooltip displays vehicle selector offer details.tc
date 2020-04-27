@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Tool tip will display offer details on user selection</description>
+   <name>tooltip displays vehicle selector offer details</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d75a190c-85b8-4232-a040-4bf011f662e7</testCaseGuid>
+   <variable>
+      <defaultValue>'VehicleSelectorOffers'</defaultValue>
+      <description></description>
+      <id>04560770-55de-4cef-9cd6-683e1413848f</id>
+      <masked>false</masked>
+      <name>HomePage</name>
+   </variable>
+</TestCaseEntity>
