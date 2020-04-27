@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Will have a minimum of 3 content items.</description>
+   <name>3 promo tile minimum</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>847c027e-9263-4e9b-81b1-476ab073d769</testCaseGuid>
+   <variable>
+      <defaultValue>'PromoModule'</defaultValue>
+      <description></description>
+      <id>f377adaf-1952-42a4-a362-e72728ee0cd6</id>
+      <masked>false</masked>
+      <name>HomePage</name>
+   </variable>
+</TestCaseEntity>

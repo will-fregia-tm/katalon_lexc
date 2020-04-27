@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Image and CTA will be clickable/tappable.</description>
+   <name>clickable-tappable promo image-CTA</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>605ad56c-b362-4fb3-9842-fbc5bea28a89</testCaseGuid>
+   <variable>
+      <defaultValue>'PromoModule'</defaultValue>
+      <description></description>
+      <id>21a274bb-91a2-47fe-b995-6125baf19bc1</id>
+      <masked>false</masked>
+      <name>HomePage</name>
+   </variable>
+</TestCaseEntity>

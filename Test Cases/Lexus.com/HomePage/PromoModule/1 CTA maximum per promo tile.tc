@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Contains a maximum of 1 CTA per content item.</description>
+   <name>1 CTA maximum per promo tile</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b813a6e0-a728-4aca-9f58-82cd09dab26e</testCaseGuid>
+   <variable>
+      <defaultValue>'PromoModule'</defaultValue>
+      <description></description>
+      <id>65973b69-6ddb-459f-bbe7-85440241ac9b</id>
+      <masked>false</masked>
+      <name>HomePage</name>
+   </variable>
+</TestCaseEntity>

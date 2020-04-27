@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>On desktop view, carousel shall appear with a maximum of 6 items.</description>
+   <name>6 promo tile maximum</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ac7c4837-cee4-4441-a59d-d4765f036c50</testCaseGuid>
+   <variable>
+      <defaultValue>'PromoModule'</defaultValue>
+      <description></description>
+      <id>fb539c9e-8063-4ac5-9741-551e1e86a711</id>
+      <masked>false</masked>
+      <name>HomePage</name>
+   </variable>
+</TestCaseEntity>

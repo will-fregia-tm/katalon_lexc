@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>On desktop view, carousel shall appear with a minimum of 4 items.</description>
+   <name>promo carousel for 4 or more tiles</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ca03c373-45a5-43d4-8252-30da7bf5c293</testCaseGuid>
+   <variable>
+      <defaultValue>'PromoModule'</defaultValue>
+      <description></description>
+      <id>8b0248e6-9eb7-4bfb-9c56-1426530640c9</id>
+      <masked>false</masked>
+      <name>HomePage</name>
+   </variable>
+</TestCaseEntity>
