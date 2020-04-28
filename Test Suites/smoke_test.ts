@@ -1065,7 +1065,7 @@
             <profileName>prod</profileName>
             <runConfigurationId>saucelabs_edge_win10</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
+         <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/HomePage/VehicleSelector</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
