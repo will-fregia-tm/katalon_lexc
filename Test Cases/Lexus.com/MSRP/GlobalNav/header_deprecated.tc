@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>header_deprecated</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>974fbf5c-3673-4686-be71-276272a336c7</testCaseGuid>
+   <variable>
+      <defaultValue>'GlobalNav'</defaultValue>
+      <description></description>
+      <id>06c262cf-a20e-4440-b4a1-862740772f7f</id>
+      <masked>false</masked>
+      <name>MSRP</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>350 Luxury</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>15c16678-d6bb-49e8-bde3-71f705190528</testCaseGuid>
+   <variable>
+      <defaultValue>'Compare'</defaultValue>
+      <description></description>
+      <id>957fab84-7a27-4799-9c2e-d1dfd046114d</id>
+      <masked>false</masked>
+      <name>MSRP</name>
+   </variable>
+</TestCaseEntity>

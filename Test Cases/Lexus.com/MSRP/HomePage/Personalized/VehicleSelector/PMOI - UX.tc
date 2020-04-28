@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PMOI - UX</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a5e1901b-4d2b-4573-8c3c-afdbebcd5a61</testCaseGuid>
+   <variable>
+      <defaultValue>'HomePage'</defaultValue>
+      <description></description>
+      <id>cf5752ca-5edc-4361-96f3-aaee991c6676</id>
+      <masked>false</masked>
+      <name>MSRP</name>
+   </variable>
+</TestCaseEntity>

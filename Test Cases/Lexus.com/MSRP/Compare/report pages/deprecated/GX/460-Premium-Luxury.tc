@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>460-Premium-Luxury</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2d347398-24aa-4604-85ad-73c83012405f</testCaseGuid>
+   <variable>
+      <defaultValue>'Compare'</defaultValue>
+      <description></description>
+      <id>2563d805-44e7-47cb-bc4f-9563d6bfaeff</id>
+      <masked>false</masked>
+      <name>MSRP</name>
+   </variable>
+</TestCaseEntity>

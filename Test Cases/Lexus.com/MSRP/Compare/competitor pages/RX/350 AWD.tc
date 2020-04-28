@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>350 AWD</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>63ccb06b-7c70-408e-a5ed-c7da71862b06</testCaseGuid>
+   <variable>
+      <defaultValue>'Compare'</defaultValue>
+      <description></description>
+      <id>5ce0ef2b-ce78-48ee-8e93-404486bb473c</id>
+      <masked>false</masked>
+      <name>MSRP</name>
+   </variable>
+</TestCaseEntity>

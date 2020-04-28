@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>350 Ultra Luxury</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c601eb33-89a7-411a-a022-9a2964daf74e</testCaseGuid>
+   <variable>
+      <defaultValue>'Compare'</defaultValue>
+      <description></description>
+      <id>52ad3032-e5c7-479d-9eea-da627364be8e</id>
+      <masked>false</masked>
+      <name>MSRP</name>
+   </variable>
+</TestCaseEntity>

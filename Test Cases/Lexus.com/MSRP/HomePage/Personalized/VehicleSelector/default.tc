@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>default</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ff43e02d-21ea-4efc-a1e7-2b3b0971e1ef</testCaseGuid>
+   <variable>
+      <defaultValue>'HomePage'</defaultValue>
+      <description></description>
+      <id>2c560579-764b-48b6-8910-2838ad19c238</id>
+      <masked>false</masked>
+      <name>MSRP</name>
+   </variable>
+</TestCaseEntity>

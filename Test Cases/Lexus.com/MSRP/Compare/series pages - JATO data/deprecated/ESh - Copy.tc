@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ESh - Copy</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>50e90cfb-05f4-4eca-8dde-d1f33e3ae53c</testCaseGuid>
+   <variable>
+      <defaultValue>'Compare'</defaultValue>
+      <description></description>
+      <id>ca2c4733-5ecc-4ddd-901e-1f781e402a62</id>
+      <masked>false</masked>
+      <name>MSRP</name>
+   </variable>
+</TestCaseEntity>

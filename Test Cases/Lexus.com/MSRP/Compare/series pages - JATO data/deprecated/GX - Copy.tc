@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>GX - Copy</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>72c00b4d-c99c-469a-aba3-bed0972f2a01</testCaseGuid>
+   <variable>
+      <defaultValue>'Compare'</defaultValue>
+      <description></description>
+      <id>28b597ee-c261-42bc-9f28-c95c76d6050c</id>
+      <masked>false</masked>
+      <name>MSRP</name>
+   </variable>
+</TestCaseEntity>

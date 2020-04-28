@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>GS F</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f212a249-90ed-408f-9320-ed43a2c122c7</testCaseGuid>
+   <variable>
+      <defaultValue>'Compare'</defaultValue>
+      <description></description>
+      <id>bfa18728-177b-401a-8d48-e836dc6730c4</id>
+      <masked>false</masked>
+      <name>MSRP</name>
+   </variable>
+</TestCaseEntity>

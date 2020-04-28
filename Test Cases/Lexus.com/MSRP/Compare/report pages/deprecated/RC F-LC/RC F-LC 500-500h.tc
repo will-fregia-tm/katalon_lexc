@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RC F-LC 500-500h</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8bd10308-1be4-4990-824e-5de66d6202bc</testCaseGuid>
+   <variable>
+      <defaultValue>'Compare'</defaultValue>
+      <description></description>
+      <id>655bae20-ae4c-40b6-8f06-2ec8c5d3193f</id>
+      <masked>false</masked>
+      <name>MSRP</name>
+   </variable>
+</TestCaseEntity>

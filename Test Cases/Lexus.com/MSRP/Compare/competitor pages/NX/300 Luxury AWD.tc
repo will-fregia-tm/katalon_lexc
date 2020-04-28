@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>300 Luxury AWD</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1adf22b2-b611-4edf-8536-61fffc257da1</testCaseGuid>
+   <variable>
+      <defaultValue>'Compare'</defaultValue>
+      <description></description>
+      <id>b4ba8058-2674-4268-98c4-d033c95a10aa</id>
+      <masked>false</masked>
+      <name>MSRP</name>
+   </variable>
+</TestCaseEntity>

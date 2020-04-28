@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PMOI - NX</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4d3559f1-14a6-4807-ad94-51f265fa4fde</testCaseGuid>
+   <variable>
+      <defaultValue>'HomePage'</defaultValue>
+      <description></description>
+      <id>047d2f2b-b643-402d-b9ee-8d35877b416c</id>
+      <masked>false</masked>
+      <name>MSRP</name>
+   </variable>
+</TestCaseEntity>

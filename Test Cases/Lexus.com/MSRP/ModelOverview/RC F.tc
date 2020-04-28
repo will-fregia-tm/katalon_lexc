@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RC F</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>de646704-f078-4a41-b97a-0e966a32b020</testCaseGuid>
+   <variable>
+      <defaultValue>'ModelOverview'</defaultValue>
+      <description></description>
+      <id>d1fa407c-d1bd-4687-b0a8-9486683a2d5d</id>
+      <masked>false</masked>
+      <name>MSRP</name>
+   </variable>
+</TestCaseEntity>

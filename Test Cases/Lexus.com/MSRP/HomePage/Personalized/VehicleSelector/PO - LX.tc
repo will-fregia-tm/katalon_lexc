@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PO - LX</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>491f7d2e-7e94-449e-9201-eb7a540fba65</testCaseGuid>
+   <variable>
+      <defaultValue>'HomePage'</defaultValue>
+      <description></description>
+      <id>5dc36006-82d0-44e2-b8a2-bbf19a774580</id>
+      <masked>false</masked>
+      <name>MSRP</name>
+   </variable>
+</TestCaseEntity>

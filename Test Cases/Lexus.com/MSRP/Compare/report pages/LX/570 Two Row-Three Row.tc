@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>570 Two Row-Three Row</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9a5101b2-84e0-4022-96fc-058110284262</testCaseGuid>
+   <variable>
+      <defaultValue>'Compare'</defaultValue>
+      <description></description>
+      <id>ff6b54d3-1e0e-4f18-85b7-1bf68e1f6157</id>
+      <masked>false</masked>
+      <name>MSRP</name>
+   </variable>
+</TestCaseEntity>

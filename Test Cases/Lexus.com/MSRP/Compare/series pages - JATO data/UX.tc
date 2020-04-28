@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>UX</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>168bb50c-0cbf-419e-a710-00253cb179b4</testCaseGuid>
+   <variable>
+      <defaultValue>'Compare'</defaultValue>
+      <description></description>
+      <id>2cf73fd9-396c-4713-8f24-34594cccbd4c</id>
+      <masked>false</masked>
+      <name>MSRP</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>350 F Sport RWD</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7fe115f6-70ce-4574-aa0a-c532212154eb</testCaseGuid>
+   <variable>
+      <defaultValue>'Compare'</defaultValue>
+      <description></description>
+      <id>31c5b2a5-a551-40ec-b7d5-f3c7979e0838</id>
+      <masked>false</masked>
+      <name>MSRP</name>
+   </variable>
+</TestCaseEntity>

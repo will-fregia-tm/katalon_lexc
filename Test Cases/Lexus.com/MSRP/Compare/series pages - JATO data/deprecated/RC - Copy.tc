@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RC - Copy</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fdff4e66-264c-4b8b-b35b-8d17d79ba78c</testCaseGuid>
+   <variable>
+      <defaultValue>'Compare'</defaultValue>
+      <description></description>
+      <id>672ef6d2-4bb3-4552-8876-52f8e796dbb3</id>
+      <masked>false</masked>
+      <name>MSRP</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PO - GX</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9a65f1e4-4c31-4947-b099-5ef49b576858</testCaseGuid>
+   <variable>
+      <defaultValue>'HomePage'</defaultValue>
+      <description></description>
+      <id>98d802b4-2aca-4ff8-972d-7ef408d008d6</id>
+      <masked>false</masked>
+      <name>MSRP</name>
+   </variable>
+</TestCaseEntity>

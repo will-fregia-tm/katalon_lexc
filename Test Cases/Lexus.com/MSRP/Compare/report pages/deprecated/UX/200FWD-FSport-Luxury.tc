@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>200FWD-FSport-Luxury</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>42dcb20d-b7d9-4c02-9a7f-745b780bab7a</testCaseGuid>
+   <variable>
+      <defaultValue>'Compare'</defaultValue>
+      <description></description>
+      <id>042e87b3-ad28-409b-a890-c7d7a0577315</id>
+      <masked>false</masked>
+      <name>MSRP</name>
+   </variable>
+</TestCaseEntity>

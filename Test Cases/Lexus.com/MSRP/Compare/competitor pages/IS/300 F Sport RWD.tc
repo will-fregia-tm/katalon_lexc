@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>300 F Sport RWD</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ec222ecd-a6ec-4dac-8610-d3415faa708c</testCaseGuid>
+   <variable>
+      <defaultValue>'Compare'</defaultValue>
+      <description></description>
+      <id>d9880ab3-96fe-4b65-81d7-2c5558dc3df6</id>
+      <masked>false</masked>
+      <name>MSRP</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PMOI - LC</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e0391c19-e9e3-4af0-afed-5128268e7541</testCaseGuid>
+   <variable>
+      <defaultValue>'HomePage'</defaultValue>
+      <description></description>
+      <id>039d0e2b-cf5c-48e6-a330-b6b9f33fc4e9</id>
+      <masked>false</masked>
+      <name>MSRP</name>
+   </variable>
+</TestCaseEntity>

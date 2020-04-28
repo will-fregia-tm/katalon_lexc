@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>300 RWD</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b7071ca2-9dc0-4792-b1de-f12c1cd656ae</testCaseGuid>
+   <variable>
+      <defaultValue>'Compare'</defaultValue>
+      <description></description>
+      <id>1a4b9f8d-79f4-47ab-941b-0b90f9df66e5</id>
+      <masked>false</masked>
+      <name>MSRP</name>
+   </variable>
+</TestCaseEntity>

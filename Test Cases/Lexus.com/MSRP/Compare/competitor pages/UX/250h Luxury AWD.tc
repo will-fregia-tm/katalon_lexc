@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>250h Luxury AWD</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b4321dce-2700-4bcd-b40f-01d491dad3c8</testCaseGuid>
+   <variable>
+      <defaultValue>'Compare'</defaultValue>
+      <description></description>
+      <id>9da4d318-2374-48f0-b544-ee31d77b42b4</id>
+      <masked>false</masked>
+      <name>MSRP</name>
+   </variable>
+</TestCaseEntity>

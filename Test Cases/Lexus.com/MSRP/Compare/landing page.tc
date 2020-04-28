@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>landing page</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>27d01e74-c4f5-4bad-a17e-c853ca24d84e</testCaseGuid>
+   <variable>
+      <defaultValue>'Compare'</defaultValue>
+      <description></description>
+      <id>64643468-af6e-4b36-9afe-e702b28ba0ec</id>
+      <masked>false</masked>
+      <name>MSRP</name>
+   </variable>
+</TestCaseEntity>

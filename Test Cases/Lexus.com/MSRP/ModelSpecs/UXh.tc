@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>UXh</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>741315ee-92ef-440b-b2a0-84e584585552</testCaseGuid>
+   <variable>
+      <defaultValue>'ModelSpecs'</defaultValue>
+      <description></description>
+      <id>71c1ce3e-f73a-40fa-8c0f-9699c5c6853b</id>
+      <masked>false</masked>
+      <name>MSRP</name>
+   </variable>
+</TestCaseEntity>

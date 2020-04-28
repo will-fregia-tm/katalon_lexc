@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>250h F Sport AWD</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0408e736-d83a-4c9a-93fd-2d86e95ff49d</testCaseGuid>
+   <variable>
+      <defaultValue>'Compare'</defaultValue>
+      <description></description>
+      <id>f28a1377-5963-4f65-99f8-dd9cd9ab0c4c</id>
+      <masked>false</masked>
+      <name>MSRP</name>
+   </variable>
+</TestCaseEntity>

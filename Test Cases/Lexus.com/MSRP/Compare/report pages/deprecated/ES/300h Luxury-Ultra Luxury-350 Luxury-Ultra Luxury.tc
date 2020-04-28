@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>300h Luxury-Ultra Luxury-350 Luxury-Ultra Luxury</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d4653549-34de-492b-9f13-a8c6008bc400</testCaseGuid>
+   <variable>
+      <defaultValue>'Compare'</defaultValue>
+      <description></description>
+      <id>7fb258e9-dc66-40f0-8cdc-f9b86d771a94</id>
+      <masked>false</masked>
+      <name>MSRP</name>
+   </variable>
+</TestCaseEntity>

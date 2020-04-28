@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Vehicle selector has correct MSRP values for each model.</description>
+   <name>correct prices in vehicle selector</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4029e805-819c-401e-8e3b-99583f791506</testCaseGuid>
+   <variable>
+      <defaultValue>'HomePage'</defaultValue>
+      <description></description>
+      <id>7cb84dbb-cebd-453d-a86a-a6937b9f3791</id>
+      <masked>false</masked>
+      <name>MSRP</name>
+   </variable>
+</TestCaseEntity>

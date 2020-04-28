@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ESh</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7180e768-2088-481f-a6fb-5f23573fac57</testCaseGuid>
+   <variable>
+      <defaultValue>'ModelSpecs'</defaultValue>
+      <description></description>
+      <id>8b619d45-8595-4104-af8a-abe6ee742b4c</id>
+      <masked>false</masked>
+      <name>MSRP</name>
+   </variable>
+</TestCaseEntity>

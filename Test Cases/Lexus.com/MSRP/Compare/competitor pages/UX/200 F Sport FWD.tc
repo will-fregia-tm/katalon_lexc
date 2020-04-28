@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>200 F Sport FWD</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bd83e922-9326-4bd8-a50d-1bb622052923</testCaseGuid>
+   <variable>
+      <defaultValue>'Compare'</defaultValue>
+      <description></description>
+      <id>b731ab59-c192-4a19-adf2-216863e98dfa</id>
+      <masked>false</masked>
+      <name>MSRP</name>
+   </variable>
+</TestCaseEntity>

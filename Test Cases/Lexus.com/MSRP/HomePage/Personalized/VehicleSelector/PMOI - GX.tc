@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PMOI - GX</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>76a7c358-d166-4fe4-8fd1-f31a0fda188b</testCaseGuid>
+   <variable>
+      <defaultValue>'HomePage'</defaultValue>
+      <description></description>
+      <id>a0ff6e0c-e3bc-4ca5-b2af-45fd13b9351a</id>
+      <masked>false</masked>
+      <name>MSRP</name>
+   </variable>
+</TestCaseEntity>

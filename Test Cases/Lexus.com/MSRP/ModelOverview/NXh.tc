@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>NXh</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1c190904-414c-44b4-a281-f1342bc995e0</testCaseGuid>
+   <variable>
+      <defaultValue>'ModelOverview'</defaultValue>
+      <description></description>
+      <id>e4a5c3da-f2bd-4110-b48a-81bb70f72435</id>
+      <masked>false</masked>
+      <name>MSRP</name>
+   </variable>
+</TestCaseEntity>

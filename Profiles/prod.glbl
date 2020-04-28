@@ -29,4 +29,9 @@
       <initValue>'Prod,MSRP'</initValue>
       <name>profileTags</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'prod'</initValue>
+      <name>DS_version</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>NX</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d9b9fd0e-fe67-447c-a1a2-5e4beaadf72e</testCaseGuid>
+   <variable>
+      <defaultValue>'ModelPackages'</defaultValue>
+      <description></description>
+      <id>83c1caf5-11c5-4732-8edb-d9c8c6626080</id>
+      <masked>false</masked>
+      <name>MSRP</name>
+   </variable>
+</TestCaseEntity>

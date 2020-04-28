@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>500h RWD-AWD</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a71b718f-8b53-4029-9858-c0400af6d67b</testCaseGuid>
+   <variable>
+      <defaultValue>'Compare'</defaultValue>
+      <description></description>
+      <id>e1061690-9986-4d5b-add4-d196e04b564c</id>
+      <masked>false</masked>
+      <name>MSRP</name>
+   </variable>
+</TestCaseEntity>

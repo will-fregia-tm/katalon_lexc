@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PO - RC</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b09f08fd-a897-4b7a-a9ed-155a44b109ce</testCaseGuid>
+   <variable>
+      <defaultValue>'HomePage'</defaultValue>
+      <description></description>
+      <id>68064e47-7ba8-4deb-8475-593c24aeff31</id>
+      <masked>false</masked>
+      <name>MSRP</name>
+   </variable>
+</TestCaseEntity>

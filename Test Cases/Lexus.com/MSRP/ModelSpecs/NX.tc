@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>NX</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>44b02a95-1f15-4017-98ef-4d1838dcb0a3</testCaseGuid>
+   <variable>
+      <defaultValue>'ModelSpecs'</defaultValue>
+      <description></description>
+      <id>a816ee85-1337-430e-9cb7-df0b08349aef</id>
+      <masked>false</masked>
+      <name>MSRP</name>
+   </variable>
+</TestCaseEntity>

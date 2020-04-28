@@ -39,4 +39,14 @@
       <initValue>''</initValue>
       <name>currentTestCaseID</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'prod'</initValue>
+      <name>DS_version</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'/compare'</initValue>
+      <name>Compare</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

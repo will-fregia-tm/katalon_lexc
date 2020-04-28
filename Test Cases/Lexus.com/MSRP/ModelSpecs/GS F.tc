@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>GS F</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a1536b1d-1130-42cc-a239-2194d4bd8a58</testCaseGuid>
+   <variable>
+      <defaultValue>'ModelSpecs'</defaultValue>
+      <description></description>
+      <id>a35beb7a-8b0b-4af1-9ea6-3a2d5e3d7580</id>
+      <masked>false</masked>
+      <name>MSRP</name>
+   </variable>
+</TestCaseEntity>

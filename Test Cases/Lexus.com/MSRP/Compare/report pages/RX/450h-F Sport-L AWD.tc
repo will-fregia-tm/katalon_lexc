@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>450h-F Sport-L AWD</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>66cfb0aa-729a-4996-9e75-90bb12df644c</testCaseGuid>
+   <variable>
+      <defaultValue>'Compare'</defaultValue>
+      <description></description>
+      <id>4d639f9d-5bb1-4db1-89df-2934df8eca35</id>
+      <masked>false</masked>
+      <name>MSRP</name>
+   </variable>
+</TestCaseEntity>

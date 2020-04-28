@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>LS</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>48d055c2-eb52-44fd-b3ed-d4ac287bb44b</testCaseGuid>
+   <variable>
+      <defaultValue>'ModelOverview'</defaultValue>
+      <description></description>
+      <id>299dd80d-8e10-440c-90ab-6c687420e4b9</id>
+      <masked>false</masked>
+      <name>MSRP</name>
+   </variable>
+</TestCaseEntity>
