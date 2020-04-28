@@ -18,9 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser(GlobalVariable.TS_Domain + GlobalVariable.Header)
 
-WebUI.navigateToUrl(GlobalVariable.SC_Domain)
-
-WebUI.navigateToUrl(GlobalVariable.SC_Domain_Unauthenticated)
+WebUI.navigateToUrl(GlobalVariable.SC_Domain + '/?default=true')
 
 WebUI.waitForElementPresent(findTestObject('HomePage/VehicleSelector/vehicle selector - heading'), 0, FailureHandling.CONTINUE_ON_FAILURE)
 
