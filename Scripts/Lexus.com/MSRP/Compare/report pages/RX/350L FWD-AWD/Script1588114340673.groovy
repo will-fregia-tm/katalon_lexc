@@ -16,35 +16,23 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser(GlobalVariable.TS_Domain + '/compare/report/80112722020/80112712020,80112702020,80112692020')
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl(GlobalVariable.TS_Domain + '/compare/report/79200512020/79200502020')
 
 WebUI.scrollToElement(findTestObject('MSRP/section objects/compare/report pages/pricing header'), 0, FailureHandling.STOP_ON_FAILURE)
 
 textWithMSRP = WebUI.getText(findTestObject('MSRP/section objects/compare/report pages/wrapper'))
 
-'ES 300h Luxury'
-expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 14)
+'RX 350L FWD'
+expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 57)
 
 textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
 
 WebUI.verifyNotMatch(textWithoutExpectedMSRP, textWithMSRP, false, FailureHandling.STOP_ON_FAILURE)
 
-'ES 300h Ultra Luxury'
-expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 15)
-
-textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
-
-WebUI.verifyNotMatch(textWithoutExpectedMSRP, textWithMSRP, false, FailureHandling.STOP_ON_FAILURE)
-
-'ES 350 Luxury'
-expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 11)
-
-textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
-
-WebUI.verifyNotMatch(textWithoutExpectedMSRP, textWithMSRP, false, FailureHandling.STOP_ON_FAILURE)
-
-'ES 350 Ultra Luxury'
-expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 12)
+'RX 350L AWD'
+expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 58)
 
 textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
 
@@ -59,5 +47,3 @@ def passed() {
 def failed() {
 	WebUI.executeJavaScript('sauce:job-result=failed', [])
 }
-
-
