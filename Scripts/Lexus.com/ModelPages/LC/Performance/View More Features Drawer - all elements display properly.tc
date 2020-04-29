@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Drawer has image, headline, body copy, and &quot;All features&quot; CTA.</description>
+   <name>View More Features Drawer - all elements display properly</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>468f49ef-39fd-4de8-a36e-44460629ea88</testCaseGuid>
+   <variable>
+      <defaultValue>'LCPerformance'</defaultValue>
+      <description></description>
+      <id>8c065035-7eec-401c-84d8-6b05d28e79bf</id>
+      <masked>false</masked>
+      <name>ModelPages</name>
+   </variable>
+</TestCaseEntity>

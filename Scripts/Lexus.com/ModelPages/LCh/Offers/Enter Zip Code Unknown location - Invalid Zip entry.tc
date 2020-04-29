@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Validation error displays when entering an invalid zip code.</description>
+   <name>Enter Zip Code Unknown location - Invalid Zip entry</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>182b67bd-2cd0-4d26-8af8-97230f5afe66</testCaseGuid>
+   <variable>
+      <defaultValue>'LChOffers'</defaultValue>
+      <description></description>
+      <id>ef1fa6af-5f20-46d7-8373-4319b7268a72</id>
+      <masked>false</masked>
+      <name>ModelPages</name>
+   </variable>
+</TestCaseEntity>

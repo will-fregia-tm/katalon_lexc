@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User is able to exit the expanded gallery and return to the default gallery.</description>
+   <name>View Expanded Gallery Overlay - close expanded gallery</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e5ebc9c6-fa0e-4250-9071-26e05d621eba</testCaseGuid>
+   <variable>
+      <defaultValue>'LChGallery'</defaultValue>
+      <description></description>
+      <id>739aa48e-45e7-4e76-9ee2-ae964fd5c797</id>
+      <masked>false</masked>
+      <name>ModelPages</name>
+   </variable>
+</TestCaseEntity>

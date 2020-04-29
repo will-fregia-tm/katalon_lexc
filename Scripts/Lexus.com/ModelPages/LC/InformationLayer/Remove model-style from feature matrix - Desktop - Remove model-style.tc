@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Remove button hides style(s) without layout issues and leaves option to add them back.</description>
+   <name>Remove model-style from feature matrix - Desktop - Remove model-style</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>598e7bd9-4a39-42a2-ade7-2a0fed7943f6</testCaseGuid>
+   <variable>
+      <defaultValue>'LCInformationLayer'</defaultValue>
+      <description></description>
+      <id>3076d864-8af1-4f0c-8f89-a3f71d773145</id>
+      <masked>false</masked>
+      <name>ModelPages</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User is prompted to select market after entering a shared market zip code.</description>
+   <name>Enter Zip Code Unknown location - Shared Market Zip Entry</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dea89a16-0db5-4430-9f9f-57327e628e66</testCaseGuid>
+   <variable>
+      <defaultValue>'LChOffers'</defaultValue>
+      <description></description>
+      <id>44be82ca-5c33-473b-91a0-06401c8f6738</id>
+      <masked>false</masked>
+      <name>ModelPages</name>
+   </variable>
+</TestCaseEntity>

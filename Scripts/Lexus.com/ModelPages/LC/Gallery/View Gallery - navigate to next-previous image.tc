@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User is able to navigate gallery by using carousel arrows.</description>
+   <name>View Gallery - navigate to next-previous image</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9204fafe-8f9f-4130-be29-d53423ec445c</testCaseGuid>
+   <variable>
+      <defaultValue>'LCGallery'</defaultValue>
+      <description></description>
+      <id>6e1a9135-0b10-40fa-a6a5-1863f8e479ae</id>
+      <masked>false</masked>
+      <name>ModelPages</name>
+   </variable>
+</TestCaseEntity>

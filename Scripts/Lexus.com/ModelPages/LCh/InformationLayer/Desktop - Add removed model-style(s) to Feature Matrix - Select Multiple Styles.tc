@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User is able to add removed styles and view updated information, including correct styles order.</description>
+   <name>Desktop - Add removed model-style(s) to Feature Matrix - Select Multiple Styles</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d04bfdbf-c154-44c1-95ef-27fc12b2cf3d</testCaseGuid>
+   <variable>
+      <defaultValue>'LChInformationLayer'</defaultValue>
+      <description></description>
+      <id>18265a95-adea-4102-b605-093886971661</id>
+      <masked>false</masked>
+      <name>ModelPages</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Clicking &quot;More &lt;features>&quot; accordion header collapses drawer and leaves only the header.</description>
+   <name>View More Features Drawer - collapses when accordion header is clicked</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d975b32a-ea6e-4706-a33d-48fd8ea4b6d4</testCaseGuid>
+   <variable>
+      <defaultValue>'LCTechnology'</defaultValue>
+      <description></description>
+      <id>d5b3e98c-4928-40ed-92fd-b58d077d2f17</id>
+      <masked>false</masked>
+      <name>ModelPages</name>
+   </variable>
+</TestCaseEntity>

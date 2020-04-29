@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Clicking link at bottom of story expands the features and auto scrolls down the page so that the &quot;More Features&quot; accordion header is visible.
+
+User is also able to collapse the &quot;More &lt;Features>&quot; drawer.</description>
+   <name>View More Features Drawer - expand accordion</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>612947ff-f6af-4068-8f81-12e19aeaf5bc</testCaseGuid>
+   <variable>
+      <defaultValue>'LCTechnology'</defaultValue>
+      <description></description>
+      <id>a395ce4a-cd27-41ba-a017-6c1bf7eebca0</id>
+      <masked>false</masked>
+      <name>ModelPages</name>
+   </variable>
+</TestCaseEntity>

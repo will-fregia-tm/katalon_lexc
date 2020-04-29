@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Default/Non-Special edition style overview includes all required elements.</description>
+   <name>View selected style overview - Style Overview - Default-Non-Special Edition</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a5592ff6-1425-4429-ac19-3baa034cc526</testCaseGuid>
+   <variable>
+      <defaultValue>'LCStyles'</defaultValue>
+      <description></description>
+      <id>545c1aea-181a-45fe-a700-a3713a26e0f5</id>
+      <masked>false</masked>
+      <name>ModelPages</name>
+   </variable>
+</TestCaseEntity>

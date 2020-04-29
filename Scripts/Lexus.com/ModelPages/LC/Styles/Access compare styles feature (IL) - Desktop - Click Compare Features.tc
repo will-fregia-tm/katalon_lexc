@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User able to access information layer from the Styles module to review compare style information more closely.</description>
+   <name>Access compare styles feature (IL) - Desktop - Click Compare Features</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>aa593ad0-1c1c-4230-9738-43a2dc804329</testCaseGuid>
+   <variable>
+      <defaultValue>'LCStyles'</defaultValue>
+      <description></description>
+      <id>3e6f7178-cb9a-4c13-a41a-6a1ab4e1e7c3</id>
+      <masked>false</masked>
+      <name>ModelPages</name>
+   </variable>
+</TestCaseEntity>

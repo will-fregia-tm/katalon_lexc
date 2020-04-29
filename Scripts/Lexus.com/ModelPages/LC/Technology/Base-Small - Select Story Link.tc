@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Base-Small story module will do the following when a story link is selected:
+* visually indicate that new story link is selected
+* unselect old story link
+* update image, headline and body copy to match new story link</description>
+   <name>Base-Small - Select Story Link</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>85b896c6-feab-4c63-a350-1bfec566a7fd</testCaseGuid>
+   <variable>
+      <defaultValue>'LCTechnology'</defaultValue>
+      <description></description>
+      <id>769d3341-648c-486d-b917-c266388c10d9</id>
+      <masked>false</masked>
+      <name>ModelPages</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>body copy text should support inline Hyperlinks that link the user to relevant Lexus.com pages and overlays</description>
+   <name>View More Features Drawer - hyperlink text in body copy</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d2e33bbc-aa33-4db1-b41f-62eec0a86137</testCaseGuid>
+   <variable>
+      <defaultValue>'LChTechnology'</defaultValue>
+      <description></description>
+      <id>c9cef5fd-5285-48f1-85f3-1001540670a4</id>
+      <masked>false</masked>
+      <name>ModelPages</name>
+   </variable>
+</TestCaseEntity>

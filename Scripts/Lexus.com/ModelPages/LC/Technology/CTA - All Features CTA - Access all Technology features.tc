@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Clicking on All Technology CTA leads to IL features tab with open Technology accordion.</description>
+   <name>CTA - All Features CTA - Access all Technology features</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d523d33a-689d-44cc-a006-d96c1a0eb80b</testCaseGuid>
+   <variable>
+      <defaultValue>'LCTechnology'</defaultValue>
+      <description></description>
+      <id>e776393a-d7d7-4422-bc2c-86611b9e0c79</id>
+      <masked>false</masked>
+      <name>ModelPages</name>
+   </variable>
+</TestCaseEntity>

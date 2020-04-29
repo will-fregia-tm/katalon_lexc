@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Entering a zip code for a market with no offers prompts the user with a choice to view offers in a wider radius.</description>
+   <name>Enter Zip Code Unknown location - Expand Zipcode</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6653f579-493a-4386-9000-6b6acd5982ba</testCaseGuid>
+   <variable>
+      <defaultValue>'LChOffers'</defaultValue>
+      <description></description>
+      <id>8f2702ad-c964-42c8-80c6-13246b1d6ff1</id>
+      <masked>false</masked>
+      <name>ModelPages</name>
+   </variable>
+</TestCaseEntity>

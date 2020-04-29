@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Selecting a different interior angle updates the shown asset and keeps the same color.</description>
+   <name>Set Interior Color - View alternative interior angle</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>09a62da4-b340-423d-98d9-a98227444c06</testCaseGuid>
+   <variable>
+      <defaultValue>'LChVisualizer'</defaultValue>
+      <description></description>
+      <id>caa1aebf-7916-4c4a-a9c1-284b3255e6f5</id>
+      <masked>false</masked>
+      <name>ModelPages</name>
+   </variable>
+</TestCaseEntity>

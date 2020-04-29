@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>When there are two tabs, selecting tabs is represented visually and displays model-style info for selected tab.</description>
+   <name>Model Picker - Tabs (Desktop Only) - 2 tabs</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fe42ceaf-2060-49bd-bce7-7e0d62428494</testCaseGuid>
+   <variable>
+      <defaultValue>'LCStyles'</defaultValue>
+      <description></description>
+      <id>c08dbb98-8277-4d20-b0f1-839956e602d3</id>
+      <masked>false</masked>
+      <name>ModelPages</name>
+   </variable>
+</TestCaseEntity>

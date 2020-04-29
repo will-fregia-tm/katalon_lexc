@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Possible to expand categories to reveal features for those categories.</description>
+   <name>Desktop - Compare Model Features - Features are grouped into Feature Categories</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ab41fcc2-62a4-4b1d-9e8a-79773edb837d</testCaseGuid>
+   <variable>
+      <defaultValue>'LCInformationLayer'</defaultValue>
+      <description></description>
+      <id>af2156df-909d-4d88-98f4-9bf690078b3e</id>
+      <masked>false</masked>
+      <name>ModelPages</name>
+   </variable>
+</TestCaseEntity>

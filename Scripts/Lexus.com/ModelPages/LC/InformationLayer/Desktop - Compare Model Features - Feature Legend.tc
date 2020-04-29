@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Legend should remain visible at all times, and should show label and icon for Standard, Package and Options.</description>
+   <name>Desktop - Compare Model Features - Feature Legend</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>18e76854-959e-45d4-9db8-7f4259a85499</testCaseGuid>
+   <variable>
+      <defaultValue>'LCInformationLayer'</defaultValue>
+      <description></description>
+      <id>d31f9c67-8709-4d98-9d9e-f8ad5bc1fdee</id>
+      <masked>false</masked>
+      <name>ModelPages</name>
+   </variable>
+</TestCaseEntity>

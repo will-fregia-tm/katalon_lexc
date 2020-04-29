@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Change zip option allows user to get offers for a different market.</description>
+   <name>Browse Offers - Change zip</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bde57d2e-32eb-44f1-b0d6-3e9910cb80a4</testCaseGuid>
+   <variable>
+      <defaultValue>'LChOffers'</defaultValue>
+      <description></description>
+      <id>ac211db6-e199-4875-9141-63664e855bc7</id>
+      <masked>false</masked>
+      <name>ModelPages</name>
+   </variable>
+</TestCaseEntity>

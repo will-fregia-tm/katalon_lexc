@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Base-Small story module does the following on landing/by default:
+* visually indicate that the first story link is selected
+* display an image, headline and body copy that align with the selected story link
+* provide the ability to access &quot;More Features&quot; in the accordion (LMPR-83)</description>
+   <name>Base-Small - Default Landing State</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6bb476ac-300e-4ec6-8952-c8de73ae6803</testCaseGuid>
+   <variable>
+      <defaultValue>'LChDesign'</defaultValue>
+      <description></description>
+      <id>9d6764b3-5427-4736-83f4-e1e9b73e2167</id>
+      <masked>false</masked>
+      <name>ModelPages</name>
+   </variable>
+</TestCaseEntity>
