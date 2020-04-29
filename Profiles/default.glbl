@@ -31,12 +31,22 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Prod,GlobalNav'</initValue>
+      <initValue>'Prod,ModelPageLC'</initValue>
       <name>profileTags</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>''</initValue>
       <name>currentTestCaseID</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'/models/LC'</initValue>
+      <name>Overview_LC</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'/models/LC-hybrid'</initValue>
+      <name>Overview_LCh</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
