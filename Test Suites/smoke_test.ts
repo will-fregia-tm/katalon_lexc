@@ -4,7 +4,7 @@
    <name>smoke_test</name>
    <tag></tag>
    <executionMode>PARALLEL</executionMode>
-   <maxConcurrentInstances>16</maxConcurrentInstances>
+   <maxConcurrentInstances>15</maxConcurrentInstances>
    <testSuiteRunConfigurations>
       <TestSuiteRunConfiguration>
          <configuration>

@@ -25,7 +25,7 @@
    <testCaseLink>
       <guid>49db818b-b151-481d-be0e-970a53ca61d2</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages/sedans/ES/300h Ultra Luxury</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -61,7 +61,7 @@
    <testCaseLink>
       <guid>10bcec05-4a66-463c-be61-80e3991d22cb</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages/sedans/ES/350 Luxury</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -85,7 +85,7 @@
    <testCaseLink>
       <guid>43840472-66b0-43cc-8651-819009ac3114</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages/sedans/ES/350</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -109,7 +109,7 @@
    <testCaseLink>
       <guid>f3a17f77-5408-4579-b66e-31fe30f80fa0</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages/sedans/GS/350 F Sport AWD</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -181,7 +181,7 @@
    <testCaseLink>
       <guid>02c99a31-fa1d-4d4f-b3a9-293ad34c9e21</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages/sedans/IS/300 F Sport RWD</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -217,7 +217,7 @@
    <testCaseLink>
       <guid>034a130f-c84b-4787-ad05-cec5a9636cf4</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages/sedans/IS/350 F Sport AWD</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -253,7 +253,7 @@
    <testCaseLink>
       <guid>1e0f0f25-1baa-4d3a-829f-e8e85033810a</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages/sedans/LS/500 AWD</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -277,7 +277,7 @@
    <testCaseLink>
       <guid>c5cd6cc7-3994-491f-a74e-583c4f486490</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages/sedans/LS/500 F Sport RWD</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>

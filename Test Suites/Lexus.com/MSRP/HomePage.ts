@@ -49,7 +49,7 @@
    <testCaseLink>
       <guid>7cdf66da-2195-4c6e-988b-3ecbe0a94ab9</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/HomePage/Personalized/PMOI - GS</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -73,7 +73,7 @@
    <testCaseLink>
       <guid>b6db1778-e33c-4fbf-9c69-1e29dbfebe91</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/HomePage/Personalized/PMOI - IS</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -97,7 +97,7 @@
    <testCaseLink>
       <guid>f7787c6a-8b21-4da7-93e3-36c2dfb74d6b</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/HomePage/Personalized/PMOI - LS</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -121,7 +121,7 @@
    <testCaseLink>
       <guid>48569489-9fff-4ed2-bf38-7f9d86ac2e32</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/HomePage/Personalized/PMOI - NX</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -145,7 +145,7 @@
    <testCaseLink>
       <guid>5b212090-9f82-4d1e-8d34-de2ba447832a</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/HomePage/Personalized/PMOI - RX</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -169,7 +169,7 @@
    <testCaseLink>
       <guid>d449fb92-e162-467c-bd77-7bfdfe315426</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/HomePage/Personalized/PO - ES</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -181,7 +181,7 @@
    <testCaseLink>
       <guid>65868d12-de45-42fd-a510-e37bda298543</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/HomePage/Personalized/PO - GS</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -193,7 +193,7 @@
    <testCaseLink>
       <guid>b03daf85-f1d6-45d8-809e-8d6118e660d2</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/HomePage/Personalized/PO - GX</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -205,7 +205,7 @@
    <testCaseLink>
       <guid>5e1b18be-6e20-4805-83d2-5ce3a704f440</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/HomePage/Personalized/PO - IS</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -217,7 +217,7 @@
    <testCaseLink>
       <guid>a9ac13e7-6931-4c71-9a06-b7671e1e29b4</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/HomePage/Personalized/PO - LC</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -229,7 +229,7 @@
    <testCaseLink>
       <guid>e3f95c7d-c694-4eac-979e-380b1aa76760</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/HomePage/Personalized/PO - LS</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -241,7 +241,7 @@
    <testCaseLink>
       <guid>1cd29e8a-933a-45e8-9f60-18d53c403a2f</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/HomePage/Personalized/PO - LX</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -253,7 +253,7 @@
    <testCaseLink>
       <guid>3756f6db-876c-4527-893f-4cecaa59f8a8</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/HomePage/Personalized/PO - NX</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -265,7 +265,7 @@
    <testCaseLink>
       <guid>3fa502c0-7dfd-44d2-9353-da8a25a4a312</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/HomePage/Personalized/PO - RC</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>

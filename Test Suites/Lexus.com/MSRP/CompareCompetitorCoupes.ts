@@ -13,7 +13,7 @@
    <testCaseLink>
       <guid>780c9181-4916-43e4-8024-d2481456b537</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages/coupes/LC/500</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -49,7 +49,7 @@
    <testCaseLink>
       <guid>5085817b-2828-4836-8fd9-c9e83725a9fc</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages/coupes/RC/300 F Sport AWD</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -73,7 +73,7 @@
    <testCaseLink>
       <guid>a1259dba-4c47-42c0-803e-8c7e566a70a5</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages/coupes/RC/300 RWD</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -97,7 +97,7 @@
    <testCaseLink>
       <guid>0be0a491-61ba-4b17-88a9-351dfedc7cf8</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages/coupes/RC/350 F Sport AWD</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -145,7 +145,7 @@
    <testCaseLink>
       <guid>586c0ce3-a416-4ce6-95d1-4fc8affef634</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages/coupes/RC F/RC F</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
