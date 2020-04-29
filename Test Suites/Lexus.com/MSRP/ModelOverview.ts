@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>ModelOverview</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>20</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>47635ab3-b19c-4026-8b23-e1b70ec6a480</testSuiteGuid>
+   <testCaseLink>
+      <guid>5cd37b70-5aff-4598-8c2e-389cfaa639ad</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/MSRP/ModelOverview/ES</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>9a60838c-ed5b-4cb9-b41f-4eccd17da505</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>47634316-af96-4e69-b741-ec3f3ab4a423</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/MSRP/ModelOverview/ESh</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>bf533a6d-7103-4ca0-9eb6-f0ee444896df</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2013e124-941d-4791-937f-3e1a2b9e1493</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/MSRP/ModelOverview/GS F</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a5743d4d-620d-4bae-a2c0-64c34a103e7f</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>43f0344d-1a2f-4ed2-8f54-22d572bd3c32</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/MSRP/ModelOverview/GS</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7ba5fb9d-d94c-4b0c-a1aa-3b25d8dea4d3</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c661e7af-2f44-408d-9674-533d3cba1d0c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/MSRP/ModelOverview/GX</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ef6a2662-450c-4b66-a860-94c6a3e6f5a5</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1df8f552-bbe0-4402-a264-1799835830af</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/MSRP/ModelOverview/IS</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>321ff20c-c146-453f-8079-fb0f8f83c065</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c85f4e7b-671f-4cf5-804c-31d8c0df0e6b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/MSRP/ModelOverview/LS</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>299dd80d-8e10-440c-90ab-6c687420e4b9</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9977a659-b324-40ac-89a4-f9028c0d4644</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/MSRP/ModelOverview/LSh</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>6fb5fc28-6a3a-47bd-b382-df5cbb2c7628</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>5795b437-daf1-48c1-be1f-f2bed78efc94</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/MSRP/ModelOverview/LX</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>eb26907d-3b16-4c3b-8c13-6722e23b2d75</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7ff8e68e-a7f8-4a18-a9a7-6acfb21978d1</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/MSRP/ModelOverview/NX</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e506c669-96b2-4da1-827f-d5293503a2b8</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3d72a8e6-1d61-4459-b3b1-7b9e61c1506f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/MSRP/ModelOverview/NXh</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e4a5c3da-f2bd-4110-b48a-81bb70f72435</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>da72b79f-f78e-4bf2-9b95-fcd8b4c8c148</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/MSRP/ModelOverview/RC F</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d1fa407c-d1bd-4687-b0a8-9486683a2d5d</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3ac8dbeb-5d19-4663-ab80-00267789f069</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/MSRP/ModelOverview/RC</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7c13d5df-3d17-4295-b4cb-8ae3d4db84b1</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>eacda746-b32d-4e5d-8954-b64fa7eba677</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/MSRP/ModelOverview/RX</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>6fa19cbf-c8bb-44ab-872d-7a44ac718db8</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>977dba60-1297-42cc-9631-2635adeb7090</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/MSRP/ModelOverview/RXh</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>4ba92c81-5611-4c16-b86e-ef0df05a9f6b</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>63683c52-4ba9-45bc-88c1-d6a6a9f09b6f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/MSRP/ModelOverview/UX</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>68285d91-e383-43b5-94d0-ce3217d0d051</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a3c72dd8-746b-4002-a33e-1765cd078a24</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/MSRP/ModelOverview/UXh</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>8a584251-c461-4496-a7aa-1dfcfc0eb397</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
