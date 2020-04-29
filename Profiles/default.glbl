@@ -54,4 +54,9 @@
       <initValue>'prod'</initValue>
       <name>DS_version</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'/offers'</initValue>
+      <name>Offers</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

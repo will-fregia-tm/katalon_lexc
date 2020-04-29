@@ -53,9 +53,9 @@ WebUI.verifyElementVisible(findTestObject('ModelPages/Offers/offer tile'), Failu
 
 WebUI.click(findTestObject('ModelPages/Offers/offer details CTA'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('ModelPages/Offers/offer details copy - 75218'), 0)
+not_run: WebUI.waitForElementVisible(findTestObject('ModelPages/Offers/offer details copy - 75218'), 0)
 
-WebUI.verifyElementVisibleInViewport(findTestObject('ModelPages/Offers/offer details copy - 75218'), 0)
+not_run: WebUI.verifyElementVisibleInViewport(findTestObject('ModelPages/Offers/offer details copy - 75218'), 0)
 
 @com.kms.katalon.core.annotation.TearDownIfPassed
 def passed() {

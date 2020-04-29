@@ -20,7 +20,7 @@ WebUI.waitForPageLoad(0)
 
 WebUI.scrollToElement(findTestObject('ModelPages/Gallery/gallery module'), 0)
 
-WebUI.scrollToElement(findTestObject('ModelPages/Gallery/gallery heading'), 0)
+not_run: WebUI.scrollToElement(findTestObject('ModelPages/Gallery/gallery heading'), 0)
 
 WebUI.verifyElementVisible(findTestObject('ModelPages/Gallery/gallery heading'), FailureHandling.STOP_ON_FAILURE)
 

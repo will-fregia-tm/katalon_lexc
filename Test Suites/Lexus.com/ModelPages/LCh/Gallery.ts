@@ -10,4 +10,40 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>cd87d7f9-028d-4738-a684-6483472b9b74</testSuiteGuid>
+   <testCaseLink>
+      <guid>5c2f3ec5-06d3-4786-8936-93e21aceb30d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/LCh/Gallery/View Expanded Gallery Overlay - close expanded gallery</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>739aa48e-45e7-4e76-9ee2-ae964fd5c797</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f8b75bb6-fcd8-49ae-b6f8-d4e70e8399fb</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/LCh/Gallery/View Gallery - navigate to next-previous image</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>9b7d467a-c865-4bed-af14-d57059b1d78f</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>557b3395-6182-4588-915f-00794b3fa101</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/LCh/Gallery/View Gallery - view content</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c369bf63-5da8-4792-8857-787351f5f710</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>
