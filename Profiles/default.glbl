@@ -49,4 +49,9 @@
       <initValue>'/models/LC-hybrid'</initValue>
       <name>Overview_LCh</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'prod'</initValue>
+      <name>DS_version</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
