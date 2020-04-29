@@ -22,62 +22,62 @@ WebUI.scrollToElement(findTestObject('ModelPages/Visualizer/visualizer'), 0)
 pageWidth = WebUI.getPageWidth()
 
 if (WebUI.verifyGreaterThan(pageWidth, '960', FailureHandling.OPTIONAL)) {
-    WebUI.waitForElementVisible(findTestObject('ModelPages/Visualizer/image - eminent white - desktop'), 0)
+    WebUI.waitForElementVisible(findTestObject('ModelPages/Visualizer/image - first color - desktop'), 0)
 }
 
 if (WebUI.verifyLessThan(pageWidth, '960', FailureHandling.OPTIONAL)) {
-    WebUI.waitForElementVisible(findTestObject('ModelPages/Visualizer/image - eminent white - mobile'), 0)
+    WebUI.waitForElementVisible(findTestObject('ModelPages/Visualizer/image - first color - mobile'), 0)
 }
 
 WebUI.verifyElementVisible(findTestObject('ModelPages/Visualizer/swatch 1 - highlighted'))
 
-WebUI.verifyElementVisible(findTestObject('ModelPages/Visualizer/color name - eminent white pearl'))
+WebUI.verifyElementVisible(findTestObject('ModelPages/Visualizer/color name - first color'))
 
 if (WebUI.verifyGreaterThan(pageWidth, '960', FailureHandling.OPTIONAL)) {
-    WebUI.verifyElementVisible(findTestObject('ModelPages/Visualizer/image - eminent white - desktop'))
+    WebUI.verifyElementVisible(findTestObject('ModelPages/Visualizer/image - first color - desktop'))
 }
 
 if (WebUI.verifyLessThan(pageWidth, '960', FailureHandling.OPTIONAL)) {
-    WebUI.verifyElementVisible(findTestObject('ModelPages/Visualizer/image - eminent white - mobile'))
+    WebUI.verifyElementVisible(findTestObject('ModelPages/Visualizer/image - first color - mobile'))
 }
 
 WebUI.verifyElementNotPresent(findTestObject('ModelPages/Visualizer/swatch 2 - highlighted'), 0)
 
-WebUI.verifyElementNotPresent(findTestObject('ModelPages/Visualizer/color name - silver lining metallic'), 0)
+WebUI.verifyElementNotPresent(findTestObject('ModelPages/Visualizer/color name - second color'), 0)
 
 if (WebUI.verifyGreaterThan(pageWidth, '960', FailureHandling.OPTIONAL)) {
-    WebUI.verifyElementNotPresent(findTestObject('ModelPages/Visualizer/image - silver lining metallic - desktop'), 0)
+    WebUI.verifyElementNotPresent(findTestObject('ModelPages/Visualizer/image - second color - desktop'), 0)
 }
 
 if (WebUI.verifyLessThan(pageWidth, '960', FailureHandling.OPTIONAL)) {
-    WebUI.verifyElementNotPresent(findTestObject('ModelPages/Visualizer/image - silver lining metallic - mobile'), 0)
+    WebUI.verifyElementNotPresent(findTestObject('ModelPages/Visualizer/image - second color - mobile'), 0)
 }
 
 WebUI.click(findTestObject('ModelPages/Visualizer/swatch 2'), FailureHandling.STOP_ON_FAILURE)
 
 if (WebUI.verifyGreaterThan(pageWidth, '960', FailureHandling.OPTIONAL)) {
-    WebUI.waitForElementVisible(findTestObject('ModelPages/Visualizer/image - silver lining metallic - desktop'), 0)
+    WebUI.waitForElementVisible(findTestObject('ModelPages/Visualizer/image - second color - desktop'), 0)
 
-    WebUI.verifyElementVisible(findTestObject('ModelPages/Visualizer/image - silver lining metallic - desktop'))
+    WebUI.verifyElementVisible(findTestObject('ModelPages/Visualizer/image - second color - desktop'))
 
-    WebUI.verifyElementNotPresent(findTestObject('ModelPages/Visualizer/image - eminent white - desktop'), 0)
+    WebUI.verifyElementNotPresent(findTestObject('ModelPages/Visualizer/image - first color - desktop'), 0)
 }
 
 if (WebUI.verifyLessThan(pageWidth, '960', FailureHandling.OPTIONAL)) {
-    WebUI.waitForElementVisible(findTestObject('ModelPages/Visualizer/image - silver lining metallic - mobile'), 0)
+    WebUI.waitForElementVisible(findTestObject('ModelPages/Visualizer/image - second color - mobile'), 0)
 
-    WebUI.verifyElementVisible(findTestObject('ModelPages/Visualizer/image - silver lining metallic - mobile'))
+    WebUI.verifyElementVisible(findTestObject('ModelPages/Visualizer/image - second color - mobile'))
 
-    WebUI.verifyElementNotPresent(findTestObject('ModelPages/Visualizer/image - eminent white - mobile'), 0)
+    WebUI.verifyElementNotPresent(findTestObject('ModelPages/Visualizer/image - first color - mobile'), 0)
 }
 
 WebUI.verifyElementVisible(findTestObject('ModelPages/Visualizer/swatch 2 - highlighted'))
 
-WebUI.verifyElementVisible(findTestObject('ModelPages/Visualizer/color name - silver lining metallic'))
+WebUI.verifyElementVisible(findTestObject('ModelPages/Visualizer/color name - second color'))
 
 WebUI.verifyElementNotPresent(findTestObject('ModelPages/Visualizer/swatch 1 - highlighted'), 0)
 
-WebUI.verifyElementNotPresent(findTestObject('ModelPages/Visualizer/color name - eminent white pearl'), 0)
+WebUI.verifyElementNotPresent(findTestObject('ModelPages/Visualizer/color name - first color'), 0)
 
 WebUI.click(findTestObject('ModelPages/Visualizer/swatch 3'), FailureHandling.STOP_ON_FAILURE)
 
@@ -85,23 +85,23 @@ WebUI.waitForElementVisible(findTestObject('ModelPages/Visualizer/swatch 1'), 0)
 
 WebUI.verifyElementNotPresent(findTestObject('ModelPages/Visualizer/swatch 2 - highlighted'), 0)
 
-WebUI.verifyElementNotPresent(findTestObject('ModelPages/Visualizer/color name - silver lining metallic'), 0)
+WebUI.verifyElementNotPresent(findTestObject('ModelPages/Visualizer/color name - second color'), 0)
 
 if (WebUI.verifyGreaterThan(pageWidth, '960', FailureHandling.OPTIONAL)) {
-    WebUI.verifyElementNotPresent(findTestObject('ModelPages/Visualizer/image - silver lining metallic - desktop'), 0)
+    WebUI.verifyElementNotPresent(findTestObject('ModelPages/Visualizer/image - second color - desktop'), 0)
 
-    WebUI.verifyElementNotPresent(findTestObject('ModelPages/Visualizer/image - eminent white - desktop'), 0)
+    WebUI.verifyElementNotPresent(findTestObject('ModelPages/Visualizer/image - first color - desktop'), 0)
 }
 
 if (WebUI.verifyLessThan(pageWidth, '960', FailureHandling.OPTIONAL)) {
-    WebUI.verifyElementNotPresent(findTestObject('ModelPages/Visualizer/image - silver lining metallic - mobile'), 0)
+    WebUI.verifyElementNotPresent(findTestObject('ModelPages/Visualizer/image - second color - mobile'), 0)
 
-    WebUI.verifyElementNotPresent(findTestObject('ModelPages/Visualizer/image - eminent white - mobile'), 0)
+    WebUI.verifyElementNotPresent(findTestObject('ModelPages/Visualizer/image - first color - mobile'), 0)
 }
 
 WebUI.verifyElementNotPresent(findTestObject('ModelPages/Visualizer/swatch 1 - highlighted'), 0)
 
-WebUI.verifyElementNotPresent(findTestObject('ModelPages/Visualizer/color name - eminent white pearl'), 0)
+WebUI.verifyElementNotPresent(findTestObject('ModelPages/Visualizer/color name - first color'), 0)
 
 WebUI.click(findTestObject('ModelPages/Visualizer/swatch 1'), FailureHandling.STOP_ON_FAILURE)
 
@@ -109,23 +109,23 @@ WebUI.waitForElementVisible(findTestObject('ModelPages/Visualizer/swatch 2'), 0)
 
 WebUI.verifyElementVisible(findTestObject('ModelPages/Visualizer/swatch 1 - highlighted'))
 
-WebUI.verifyElementVisible(findTestObject('ModelPages/Visualizer/color name - eminent white pearl'))
+WebUI.verifyElementVisible(findTestObject('ModelPages/Visualizer/color name - first color'))
 
 if (WebUI.verifyGreaterThan(pageWidth, '960', FailureHandling.OPTIONAL)) {
-    WebUI.verifyElementVisible(findTestObject('ModelPages/Visualizer/image - eminent white - desktop'))
+    WebUI.verifyElementVisible(findTestObject('ModelPages/Visualizer/image - first color - desktop'))
 
-    WebUI.verifyElementNotPresent(findTestObject('ModelPages/Visualizer/image - silver lining metallic - desktop'), 0)
+    WebUI.verifyElementNotPresent(findTestObject('ModelPages/Visualizer/image - second color - desktop'), 0)
 }
 
 if (WebUI.verifyLessThan(pageWidth, '960', FailureHandling.OPTIONAL)) {
-    WebUI.verifyElementVisible(findTestObject('ModelPages/Visualizer/image - eminent white - mobile'))
+    WebUI.verifyElementVisible(findTestObject('ModelPages/Visualizer/image - first color - mobile'))
 
-    WebUI.verifyElementNotPresent(findTestObject('ModelPages/Visualizer/image - silver lining metallic - mobile'), 0)
+    WebUI.verifyElementNotPresent(findTestObject('ModelPages/Visualizer/image - second color - mobile'), 0)
 }
 
 WebUI.verifyElementNotPresent(findTestObject('ModelPages/Visualizer/swatch 2 - highlighted'), 0)
 
-WebUI.verifyElementNotPresent(findTestObject('ModelPages/Visualizer/color name - silver lining metallic'), 0)
+WebUI.verifyElementNotPresent(findTestObject('ModelPages/Visualizer/color name - second color'), 0)
 
 @com.kms.katalon.core.annotation.TearDownIfPassed
 def passed() {
