@@ -4,7 +4,7 @@
    <name>smoke_test</name>
    <tag></tag>
    <executionMode>PARALLEL</executionMode>
-   <maxConcurrentInstances>16</maxConcurrentInstances>
+   <maxConcurrentInstances>15</maxConcurrentInstances>
    <testSuiteRunConfigurations>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -111,7 +111,7 @@
             <profileName>prod</profileName>
             <runConfigurationId>saucelabs_safari_ios12_ipad6</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
+         <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/BrandCampaign/DetailLayer</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
@@ -120,7 +120,7 @@
             <profileName>prod</profileName>
             <runConfigurationId>saucelabs_safari_ios12_iphone7</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
+         <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/BrandCampaign/DetailLayer</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
@@ -129,7 +129,7 @@
             <profileName>prod</profileName>
             <runConfigurationId>saucelabs_safari_ios13_ipadpro</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
+         <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/BrandCampaign/DetailLayer</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
@@ -165,7 +165,7 @@
             <profileName>prod</profileName>
             <runConfigurationId>saucelabs_chrome_android9_galaxys9</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
+         <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/BrandCampaign/GridLayer</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
@@ -255,7 +255,7 @@
             <profileName>prod</profileName>
             <runConfigurationId>saucelabs_safari_ios12_ipad6</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
+         <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/BrandCampaign/GridLayer</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
@@ -264,7 +264,7 @@
             <profileName>prod</profileName>
             <runConfigurationId>saucelabs_safari_ios12_iphone7</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
+         <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/BrandCampaign/GridLayer</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
@@ -273,7 +273,7 @@
             <profileName>prod</profileName>
             <runConfigurationId>saucelabs_safari_ios13_ipadpro</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
+         <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/BrandCampaign/GridLayer</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
@@ -282,7 +282,7 @@
             <profileName>prod</profileName>
             <runConfigurationId>saucelabs_safari_ios13_iphone8</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
+         <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/BrandCampaign/GridLayer</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
@@ -291,7 +291,7 @@
             <profileName>prod</profileName>
             <runConfigurationId>saucelabs_safari_ios13_iphonex</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
+         <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/BrandCampaign/GridLayer</testSuiteEntity>
       </TestSuiteRunConfiguration>
    </testSuiteRunConfigurations>
