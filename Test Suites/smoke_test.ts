@@ -1011,7 +1011,7 @@
             <profileName>prod</profileName>
             <runConfigurationId>saucelabs_edge_win10</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
+         <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/HomePage/GlobalMisc</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
@@ -1029,7 +1029,7 @@
             <profileName>prod</profileName>
             <runConfigurationId>saucelabs_edge_win10</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
+         <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/HomePage/HeroModule</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
@@ -1380,7 +1380,7 @@
             <profileName>prod</profileName>
             <runConfigurationId>saucelabs_safari11_macos10.13</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
+         <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/HomePage/GridModule</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
@@ -1407,7 +1407,7 @@
             <profileName>prod</profileName>
             <runConfigurationId>saucelabs_safari11_macos10.13</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
+         <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/HomePage/PromoModule</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
@@ -1425,7 +1425,7 @@
             <profileName>prod</profileName>
             <runConfigurationId>saucelabs_safari11_macos10.13</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
+         <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/HomePage/VehicleSelector</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
