@@ -289,7 +289,7 @@
    <testCaseLink>
       <guid>0db02237-1203-410b-ba94-44d9bd425f8a</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages/SUVs/UX/200 FWD</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
