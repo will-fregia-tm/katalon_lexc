@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>CompareCompetitorCoupes</name>
+   <name>CompareCompetitorSedans_ES_GS_GSF</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -9,149 +9,149 @@
    <pageLoadTimeout>20</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <testSuiteGuid>b6c5fa0d-dcc1-47e5-b671-5c6c23f9ae51</testSuiteGuid>
+   <testSuiteGuid>1258ca3c-331e-40fb-b9cf-85129e0b3fde</testSuiteGuid>
    <testCaseLink>
-      <guid>780c9181-4916-43e4-8024-d2481456b537</guid>
+      <guid>ba0fa85c-def3-45c2-9ebe-68156d073395</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages/coupes/LC/500</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages/sedans/ES/300h Luxury</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>7cde3ba7-3538-440f-bbd0-866016febc44</variableId>
+         <variableId>f48aa0cf-6a93-4abd-8cfe-b07a8dcd2cf8</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>34dca0c9-4a7e-4d97-9ad6-6912b1d5ef76</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages/coupes/LC/500h</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>a3df7066-c19f-4ff7-a125-5d1adba0beeb</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>bc10a536-2871-459a-8959-3ce8993666f5</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages/coupes/RC/300 AWD</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>f79d84a7-adbe-4331-bc5d-dae9252489f7</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>5085817b-2828-4836-8fd9-c9e83725a9fc</guid>
+      <guid>49db818b-b151-481d-be0e-970a53ca61d2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages/coupes/RC/300 F Sport AWD</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages/sedans/ES/300h Ultra Luxury</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>7d7259a8-dc4b-4cac-a45e-5c29019a9e31</variableId>
+         <variableId>b2737caf-47d3-490f-94a1-c4a8fe4d0176</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>8be451cf-0ff0-45de-a42b-1bbdb1c19e74</guid>
+      <guid>c96f76e7-e780-487b-b7de-c92e644bc983</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages/coupes/RC/300 F Sport RWD</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages/sedans/ES/300h</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>d1895339-1c02-4a68-aec0-ee6c65edf594</variableId>
+         <variableId>ea14027c-6881-47da-8224-b4c0817115a4</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>a1259dba-4c47-42c0-803e-8c7e566a70a5</guid>
+      <guid>cbb356e4-4719-4580-8d93-7edf81bd6de4</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages/sedans/ES/350 F Sport</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>6873e96d-7730-4733-bd8a-96de7a6ff620</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>10bcec05-4a66-463c-be61-80e3991d22cb</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages/sedans/ES/350 Luxury</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>957fab84-7a27-4799-9c2e-d1dfd046114d</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>35035213-f184-4733-9c79-1ad62edaca57</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages/sedans/ES/350 Ultra Luxury</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>52ad3032-e5c7-479d-9eea-da627364be8e</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>43840472-66b0-43cc-8651-819009ac3114</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages/coupes/RC/300 RWD</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages/sedans/ES/350</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>1a4b9f8d-79f4-47ab-941b-0b90f9df66e5</variableId>
+         <variableId>d4014b1e-8919-4893-ae5f-ef8ef6668674</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>e28bd254-8cd4-447f-b1aa-884eb4d73c87</guid>
+      <guid>d7a63a5f-b290-445f-bb2a-63d63fcd2e3c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages/coupes/RC/350 AWD</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages/sedans/GS/350 AWD</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>8031beb5-a6a4-41e9-8287-6f9ba667110a</variableId>
+         <variableId>166bf792-5db6-4155-b560-e19d05481259</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>0be0a491-61ba-4b17-88a9-351dfedc7cf8</guid>
+      <guid>f3a17f77-5408-4579-b66e-31fe30f80fa0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages/coupes/RC/350 F Sport AWD</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages/sedans/GS/350 F Sport AWD</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>13b19aff-add5-45f8-bf11-371cbd1be9ab</variableId>
+         <variableId>76d47607-3fe9-4865-b01e-d6a47c588fd9</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>132b1c93-5d18-4b6a-9250-bcc4bea78f57</guid>
+      <guid>507e54e8-30c7-436b-81e7-580450fcb38b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages/coupes/RC/350 F Sport RWD</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages/sedans/GS/350 F Sport RWD</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>45da6568-2970-4a26-bb47-e951657a0451</variableId>
+         <variableId>31c5b2a5-a551-40ec-b7d5-f3c7979e0838</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>2f1314db-cf26-477b-8e2e-3da301219ced</guid>
+      <guid>a52f2976-fc6d-4b6f-9e9d-b14a4c541189</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages/coupes/RC/350 RWD</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages/sedans/GS/350 RWD</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>c288feb2-c54c-497e-bc2b-2dcbead81c7c</variableId>
+         <variableId>c5afb9ef-c4a1-4202-8e0b-8f547653d8a7</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>7a6a9964-ef42-432f-bd29-4d40b941f210</guid>
+      <guid>481f6947-82b5-499a-96a3-51032fbf1fa1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages/coupes/RC F/RC F Track Edition</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages/sedans/GS F/GS F</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>e62c00e5-4259-4432-b882-59a6aea3570f</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>586c0ce3-a416-4ce6-95d1-4fc8affef634</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages/coupes/RC F/RC F</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>8e4cddf8-5225-49c5-91fa-b2da15476463</variableId>
+         <variableId>bb0026af-de0e-4b59-9531-983f463d3ac0</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
