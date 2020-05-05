@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>CompareCompetitorCoupes</name>
+   <name>CompareCompetitorCoupes_RC</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,30 +10,6 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>b6c5fa0d-dcc1-47e5-b671-5c6c23f9ae51</testSuiteGuid>
-   <testCaseLink>
-      <guid>780c9181-4916-43e4-8024-d2481456b537</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages/coupes/LC/500</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>7cde3ba7-3538-440f-bbd0-866016febc44</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>34dca0c9-4a7e-4d97-9ad6-6912b1d5ef76</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages/coupes/LC/500h</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>a3df7066-c19f-4ff7-a125-5d1adba0beeb</variableId>
-      </variableLink>
-   </testCaseLink>
    <testCaseLink>
       <guid>bc10a536-2871-459a-8959-3ce8993666f5</guid>
       <isReuseDriver>false</isReuseDriver>
@@ -121,37 +97,13 @@
    <testCaseLink>
       <guid>2f1314db-cf26-477b-8e2e-3da301219ced</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages/coupes/RC/350 RWD</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
          <variableId>c288feb2-c54c-497e-bc2b-2dcbead81c7c</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>7a6a9964-ef42-432f-bd29-4d40b941f210</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages/coupes/RC F/RC F Track Edition</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>e62c00e5-4259-4432-b882-59a6aea3570f</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>586c0ce3-a416-4ce6-95d1-4fc8affef634</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages/coupes/RC F/RC F</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>8e4cddf8-5225-49c5-91fa-b2da15476463</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
