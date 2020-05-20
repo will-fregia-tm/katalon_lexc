@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteCollectionEntity>
    <description></description>
-   <name>smoke_test</name>
+   <name>smoke_test_staging</name>
    <tag></tag>
    <executionMode>PARALLEL</executionMode>
    <maxConcurrentInstances>15</maxConcurrentInstances>
@@ -9,7 +9,7 @@
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Custom</groupName>
-            <profileName>prod</profileName>
+            <profileName>staging</profileName>
             <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
@@ -18,7 +18,7 @@
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Custom</groupName>
-            <profileName>prod</profileName>
+            <profileName>staging</profileName>
             <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
@@ -27,7 +27,7 @@
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Custom</groupName>
-            <profileName>prod</profileName>
+            <profileName>staging</profileName>
             <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
@@ -36,7 +36,7 @@
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Custom</groupName>
-            <profileName>prod</profileName>
+            <profileName>staging</profileName>
             <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
@@ -45,7 +45,7 @@
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Custom</groupName>
-            <profileName>prod</profileName>
+            <profileName>staging</profileName>
             <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
@@ -54,7 +54,7 @@
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Custom</groupName>
-            <profileName>prod</profileName>
+            <profileName>staging</profileName>
             <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
@@ -63,7 +63,7 @@
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Custom</groupName>
-            <profileName>prod</profileName>
+            <profileName>staging</profileName>
             <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
@@ -72,7 +72,7 @@
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Custom</groupName>
-            <profileName>prod</profileName>
+            <profileName>staging</profileName>
             <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
@@ -81,7 +81,7 @@
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Custom</groupName>
-            <profileName>prod</profileName>
+            <profileName>staging</profileName>
             <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
@@ -90,7 +90,7 @@
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Custom</groupName>
-            <profileName>prod</profileName>
+            <profileName>review</profileName>
             <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
@@ -99,16 +99,16 @@
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Custom</groupName>
-            <profileName>prod</profileName>
+            <profileName>review</profileName>
             <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
+         <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/MSRP/HomePagePersonalized</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Custom</groupName>
-            <profileName>prod</profileName>
+            <profileName>staging</profileName>
             <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
@@ -117,7 +117,7 @@
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Custom</groupName>
-            <profileName>prod</profileName>
+            <profileName>staging</profileName>
             <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
@@ -126,7 +126,7 @@
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Custom</groupName>
-            <profileName>prod</profileName>
+            <profileName>staging</profileName>
             <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
@@ -135,7 +135,7 @@
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Custom</groupName>
-            <profileName>prod</profileName>
+            <profileName>staging</profileName>
             <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>

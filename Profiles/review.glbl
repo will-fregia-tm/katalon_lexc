@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>review</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://lexus_user:G0rill@23@staging.lexus.com'</initValue>
+      <name>TS_Domain</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://lexus_user:G0rill@23@www.review.lexus.com'</initValue>
+      <name>SC_Domain</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://staging.lexus.com'</initValue>
+      <name>TS_Domain_Unauthenticated</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://www.review.lexus.com'</initValue>
+      <name>SC_Domain_Unauthenticated</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Review,MSRP'</initValue>
+      <name>profileTags</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'staging'</initValue>
+      <name>DS_version</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>
