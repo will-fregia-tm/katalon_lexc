@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GlobalVariableEntities>
    <description></description>
-   <name>staging</name>
+   <name>review</name>
    <tag></tag>
    <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
@@ -11,7 +11,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://lexus_user:G0rill@23@staging.lexus.com'</initValue>
+      <initValue>'https://lexus_user:G0rill@23@www.review.lexus.com'</initValue>
       <name>SC_Domain</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -21,12 +21,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://staging.lexus.com'</initValue>
+      <initValue>'https://www.review.lexus.com'</initValue>
       <name>SC_Domain_Unauthenticated</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Staging,HomePage'</initValue>
+      <initValue>'Review,HomePage'</initValue>
       <name>profileTags</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

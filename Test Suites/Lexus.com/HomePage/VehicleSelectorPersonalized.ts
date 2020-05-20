@@ -25,7 +25,7 @@
    <testCaseLink>
       <guid>fe71a658-ee6b-40e0-a4e6-bacccf0b345d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/HomePage/VehicleSelectorPersonalized/personalized vehicle selector matches users segment-model - GS PMOI</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -49,7 +49,7 @@
    <testCaseLink>
       <guid>d48d465b-ffb3-49f2-a425-f4a31b7102fb</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/HomePage/VehicleSelectorPersonalized/personalized vehicle selector matches users segment-model - IS PMOI</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -73,7 +73,7 @@
    <testCaseLink>
       <guid>18e5791c-54c9-4508-92db-14451789f7b4</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/HomePage/VehicleSelectorPersonalized/personalized vehicle selector matches users segment-model - LS PMOI</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -97,7 +97,7 @@
    <testCaseLink>
       <guid>df7fbd7b-2874-4e80-a593-465e8a826a17</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/HomePage/VehicleSelectorPersonalized/personalized vehicle selector matches users segment-model - NX PMOI</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -121,7 +121,7 @@
    <testCaseLink>
       <guid>f0b509f3-2089-4c4d-9bd2-b2ffc49e3342</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/HomePage/VehicleSelectorPersonalized/personalized vehicle selector matches users segment-model - RX PMOI</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
