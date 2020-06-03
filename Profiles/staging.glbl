@@ -29,4 +29,14 @@
       <initValue>'Staging,FCV'</initValue>
       <name>profileTags</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://lexus_user:G0rill@23@staging.lexus.com'</initValue>
+      <name>AEM_Domain</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://staging.lexus.com'</initValue>
+      <name>AEM_Domain_Unauthenticated</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

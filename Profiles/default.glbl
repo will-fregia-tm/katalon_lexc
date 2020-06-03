@@ -39,4 +39,14 @@
       <initValue>''</initValue>
       <name>currentTestCaseID</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'lexus.com'</initValue>
+      <name>AEM_Domain</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'lexus.com'</initValue>
+      <name>AEM_Domain_Unauthenticated</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

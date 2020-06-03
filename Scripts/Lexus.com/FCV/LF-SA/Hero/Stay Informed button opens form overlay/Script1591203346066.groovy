@@ -14,12 +14,19 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 
 WebUI.openBrowser(GlobalVariable.TS_Domain + GlobalVariable.Header)
 
-WebUI.navigateToUrl(GlobalVariable.SC_Domain)
+WebUI.navigateToUrl(GlobalVariable.AEM_Domain_Unauthenticated + '/concept/LFSA')
 
-WebUI.verifyElementNotPresent(findTestObject('GlobalNav/lexus logo'), 5)
+WebUI.verifyElementPresent(findTestObject('FCV/Stay Informed button'), 5)
+
+WebUI.verifyElementNotPresent(findTestObject('FCV/form overlay'), 0)
+
+WebUI.click(findTestObject('FCV/Stay Informed button'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyElementPresent(findTestObject('FCV/form overlay'), 0)
 
 @com.kms.katalon.core.annotation.TearDownIfPassed
 def passed() {

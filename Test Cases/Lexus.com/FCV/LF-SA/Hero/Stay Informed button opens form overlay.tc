@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>logo is not present</name>
+   <name>Stay Informed button opens form overlay</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>13164f62-3bf4-490d-ad75-d7a758de0e3a</testCaseGuid>
+   <testCaseGuid>98d9f0ca-4451-4782-827a-18c9069abbb0</testCaseGuid>
    <variable>
       <defaultValue>'Header'</defaultValue>
       <description></description>
-      <id>3c7e665a-b2d6-46ac-bcc9-9f18dfaee789</id>
+      <id>c91849b1-1038-4e03-adce-9d273727c133</id>
       <masked>false</masked>
       <name>GlobalNav</name>
    </variable>

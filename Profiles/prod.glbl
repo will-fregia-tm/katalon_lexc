@@ -29,4 +29,14 @@
       <initValue>'Prod,FCV'</initValue>
       <name>profileTags</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://www.lexus.com'</initValue>
+      <name>AEM_Domain</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://www.lexus.com'</initValue>
+      <name>AEM_Domain_Unauthenticated</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
