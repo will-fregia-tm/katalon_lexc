@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>form overlay</name>
+   <name>Share link</name>
    <tag></tag>
-   <elementGuidId>06953468-35dc-4b2c-ba26-3e13c4dafe8d</elementGuidId>
+   <elementGuidId>f33f17e5-708e-4d6e-b8a4-9095a38fcabf</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'SubPageOverlayScroll']</value>
+         <value>//*[(text() = 'SHARE' or . = 'SHARE')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -19,8 +15,8 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>text</name>
       <type>Main</type>
-      <value>SubPageOverlayScroll</value>
+      <value>SHARE</value>
    </webElementProperties>
 </WebElementEntity>

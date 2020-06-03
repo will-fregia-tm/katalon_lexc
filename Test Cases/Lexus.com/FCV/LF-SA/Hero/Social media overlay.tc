@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Social media overlay</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b48e1ac0-23c9-4b70-b6a2-165e63227aca</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>3a2a3ad3-b4e3-4568-8079-ad99753e39cd</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>

@@ -20,13 +20,29 @@ WebUI.openBrowser(GlobalVariable.TS_Domain + GlobalVariable.Header)
 
 WebUI.navigateToUrl(GlobalVariable.AEM_Domain_Unauthenticated + '/concept/LFSA')
 
-WebUI.verifyElementPresent(findTestObject('FCV/Hero/Stay Informed button'), 5)
+WebUI.scrollToElement(findTestObject('FCV/Gallery/gallery module'), 5)
 
-WebUI.verifyElementNotPresent(findTestObject('FCV/Hero/form overlay'), 0)
+WebUI.verifyElementNotPresent(findTestObject('FCV/Gallery/visible slide 1'), 5)
 
-WebUI.click(findTestObject('FCV/Hero/Stay Informed button'), FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('FCV/Gallery/thumb image 1'), 5)
 
-WebUI.verifyElementPresent(findTestObject('FCV/Hero/form overlay'), 0)
+WebUI.verifyElementPresent(findTestObject('FCV/Gallery/thumb disclaimer 1'), 5)
+
+WebUI.verifyElementPresent(findTestObject('FCV/Gallery/thumb image 2'), 5)
+
+WebUI.verifyElementPresent(findTestObject('FCV/Gallery/thumb disclaimer 2'), 5)
+
+WebUI.verifyElementPresent(findTestObject('FCV/Gallery/thumb image 3'), 5)
+
+WebUI.verifyElementPresent(findTestObject('FCV/Gallery/thumb disclaimer 3'), 5)
+
+WebUI.verifyElementPresent(findTestObject('FCV/Gallery/thumb image 4'), 5)
+
+WebUI.verifyElementPresent(findTestObject('FCV/Gallery/thumb disclaimer 4'), 5)
+
+WebUI.click(findTestObject('FCV/Gallery/thumb 1'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyElementPresent(findTestObject('FCV/Gallery/visible slide 1'), 5)
 
 @com.kms.katalon.core.annotation.TearDownIfPassed
 def passed() {
