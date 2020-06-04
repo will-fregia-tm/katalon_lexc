@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Select Promo Tile</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b4054ada-6ba2-4153-bcee-75656caa74b2</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>16c93e4a-b7e3-4ef6-806c-aae4f794c6df</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>
