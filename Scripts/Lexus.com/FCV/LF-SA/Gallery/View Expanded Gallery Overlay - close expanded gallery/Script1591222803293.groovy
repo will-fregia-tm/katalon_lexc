@@ -20,6 +20,8 @@ WebUI.openBrowser(GlobalVariable.TS_Domain + GlobalVariable.Header)
 
 WebUI.navigateToUrl(GlobalVariable.AEM_Domain_Unauthenticated + '/concept/LFSA')
 
+WebUI.waitForPageLoad(0)
+
 WebUI.scrollToElement(findTestObject('FCV/Gallery/gallery module'), 5)
 
 WebUI.verifyElementNotPresent(findTestObject('FCV/Gallery/visible slide 1'), 5)
