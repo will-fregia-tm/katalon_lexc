@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>SignupForm</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>20</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>094133f6-eb49-4fc5-93f1-a8de5786038b</testSuiteGuid>
+   <testCaseLink>
+      <guid>ac962966-05cb-4ed3-8a66-4e930c77b7d8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/FCV/LF-SA/SignupForm/Close button X</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>65a842bb-0706-4b13-a81c-29a270ad2379</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7cbfcfeb-29bc-4bd4-9554-dfaba983c22d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/FCV/LF-SA/SignupForm/Deep linking</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>cfee9148-445a-4e1f-99b3-63ff56e9ab02</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8af8d1b8-38ed-4d56-a106-d5bd3f33ac2c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/FCV/LF-SA/SignupForm/Headline outlining that user will receive further updates</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>4cf0ca58-77d6-4e38-9c9f-57cfd2a62098</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>170027d2-cf20-4dca-bcaa-4f211b719965</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/FCV/LF-SA/SignupForm/Information validation</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>1cf29760-9b82-4de7-8532-e58f85d5d9f7</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2e2b0eef-24e7-4358-95ee-8258c694b805</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/FCV/LF-SA/SignupForm/Privacy Rights</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>24280663-8c67-40a3-8dd3-cdc25abbd447</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

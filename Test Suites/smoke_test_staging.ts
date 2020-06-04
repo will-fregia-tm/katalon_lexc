@@ -10,7 +10,7 @@
          <configuration>
             <groupName>Custom</groupName>
             <profileName>staging</profileName>
-            <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
+            <runConfigurationId>saucelabs_firefox_win10</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/FCV/LF-SA/Gallery</testSuiteEntity>
@@ -19,7 +19,7 @@
          <configuration>
             <groupName>Custom</groupName>
             <profileName>staging</profileName>
-            <runConfigurationId>saucelabs_chrome_win7</runConfigurationId>
+            <runConfigurationId>saucelabs_firefox_macos10.15</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/FCV/LF-SA/Header</testSuiteEntity>
@@ -28,7 +28,7 @@
          <configuration>
             <groupName>Custom</groupName>
             <profileName>staging</profileName>
-            <runConfigurationId>saucelabs_chrome_macos10.14</runConfigurationId>
+            <runConfigurationId>saucelabs_firefox_win10</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/FCV/LF-SA/Hero</testSuiteEntity>
@@ -37,10 +37,19 @@
          <configuration>
             <groupName>Custom</groupName>
             <profileName>staging</profileName>
-            <runConfigurationId>saucelabs_chrome_macos10.15</runConfigurationId>
+            <runConfigurationId>saucelabs_firefox_macos10.15</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/FCV/LF-SA/Promo</testSuiteEntity>
+      </TestSuiteRunConfiguration>
+      <TestSuiteRunConfiguration>
+         <configuration>
+            <groupName>Custom</groupName>
+            <profileName>staging</profileName>
+            <runConfigurationId>saucelabs_firefox_win10</runConfigurationId>
+         </configuration>
+         <runEnabled>true</runEnabled>
+         <testSuiteEntity>Test Suites/Lexus.com/FCV/LF-SA/SignupForm</testSuiteEntity>
       </TestSuiteRunConfiguration>
    </testSuiteRunConfigurations>
 </TestSuiteCollectionEntity>

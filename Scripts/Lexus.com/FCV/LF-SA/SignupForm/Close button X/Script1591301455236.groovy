@@ -28,6 +28,10 @@ WebUI.click(findTestObject('FCV/Hero/Stay Informed button'), FailureHandling.STO
 
 WebUI.verifyElementPresent(findTestObject('FCV/SignupForm/form overlay'), 0)
 
+WebUI.click(findTestObject('FCV/SignupForm/close button'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyElementNotPresent(findTestObject('FCV/SignupForm/form overlay'), 0)
+
 @com.kms.katalon.core.annotation.TearDownIfPassed
 def passed() {
     WebUI.executeJavaScript('sauce:job-result=passed', [])

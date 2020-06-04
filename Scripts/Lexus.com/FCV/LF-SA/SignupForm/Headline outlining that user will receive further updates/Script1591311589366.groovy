@@ -20,13 +20,17 @@ WebUI.openBrowser(GlobalVariable.TS_Domain + GlobalVariable.Header)
 
 WebUI.navigateToUrl(GlobalVariable.AEM_Domain_Unauthenticated + '/concept/LFSA')
 
-WebUI.verifyElementPresent(findTestObject('FCV/Hero/Stay Informed button'), 5)
-
-WebUI.verifyElementNotPresent(findTestObject('FCV/SignupForm/form overlay'), 0)
+WebUI.waitForElementPresent(findTestObject('FCV/Hero/Stay Informed button'), 5)
 
 WebUI.click(findTestObject('FCV/Hero/Stay Informed button'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('FCV/SignupForm/form overlay'), 0)
+WebUI.waitForElementPresent(findTestObject('FCV/SignupForm/form overlay'), 5, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyElementPresent(findTestObject('FCV/SignupForm/headline'), 0)
+
+WebUI.verifyElementPresent(findTestObject('FCV/SignupForm/subheader'), 0)
+
+WebUI.verifyElementPresent(findTestObject('FCV/SignupForm/field required notification'), 0, FailureHandling.STOP_ON_FAILURE)
 
 @com.kms.katalon.core.annotation.TearDownIfPassed
 def passed() {

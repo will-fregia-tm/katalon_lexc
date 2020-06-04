@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Privacy Rights</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>07bb5fff-b459-45f5-a442-abfe63ca0376</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>24280663-8c67-40a3-8dd3-cdc25abbd447</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>

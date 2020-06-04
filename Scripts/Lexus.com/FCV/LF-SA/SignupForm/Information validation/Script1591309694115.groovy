@@ -20,13 +20,37 @@ WebUI.openBrowser(GlobalVariable.TS_Domain + GlobalVariable.Header)
 
 WebUI.navigateToUrl(GlobalVariable.AEM_Domain_Unauthenticated + '/concept/LFSA')
 
-WebUI.verifyElementPresent(findTestObject('FCV/Hero/Stay Informed button'), 5)
-
-WebUI.verifyElementNotPresent(findTestObject('FCV/SignupForm/form overlay'), 0)
+WebUI.waitForElementPresent(findTestObject('FCV/Hero/Stay Informed button'), 5)
 
 WebUI.click(findTestObject('FCV/Hero/Stay Informed button'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('FCV/SignupForm/form overlay'), 0)
+WebUI.waitForElementPresent(findTestObject('FCV/SignupForm/form overlay'), 5, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('FCV/SignupForm/submit button'))
+
+backgroundColor = WebUI.getCSSValue(findTestObject('FCV/SignupForm/input field - first name'), 'background-color')
+
+WebUI.verifyMatch(backgroundColor, 'rgb(254, 232, 232)', false, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyElementPresent(findTestObject('FCV/SignupForm/valid first name prompt'), 0)
+
+backgroundColor = WebUI.getCSSValue(findTestObject('FCV/SignupForm/input field - last name'), 'background-color')
+
+WebUI.verifyMatch(backgroundColor, 'rgb(254, 232, 232)', false, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyElementPresent(findTestObject('FCV/SignupForm/valid last name prompt'), 0)
+
+backgroundColor = WebUI.getCSSValue(findTestObject('FCV/SignupForm/input field - email'), 'background-color')
+
+WebUI.verifyMatch(backgroundColor, 'rgb(254, 232, 232)', false, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyElementPresent(findTestObject('FCV/SignupForm/valid email prompt'), 0)
+
+backgroundColor = WebUI.getCSSValue(findTestObject('FCV/SignupForm/input field - zip code'), 'background-color')
+
+WebUI.verifyMatch(backgroundColor, 'rgb(254, 232, 232)', false, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyElementPresent(findTestObject('FCV/SignupForm/valid zip code prompt'), 0)
 
 @com.kms.katalon.core.annotation.TearDownIfPassed
 def passed() {

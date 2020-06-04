@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Close button X</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e5e8c241-96ea-44da-8d1b-2cdcc10ac207</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>65a842bb-0706-4b13-a81c-29a270ad2379</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>

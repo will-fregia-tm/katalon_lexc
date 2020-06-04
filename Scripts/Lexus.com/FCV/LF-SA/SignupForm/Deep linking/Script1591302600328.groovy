@@ -18,15 +18,15 @@ import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 
 WebUI.openBrowser(GlobalVariable.TS_Domain + GlobalVariable.Header)
 
-WebUI.navigateToUrl(GlobalVariable.AEM_Domain_Unauthenticated + '/concept/LFSA')
+WebUI.navigateToUrl(GlobalVariable.AEM_Domain_Unauthenticated + '/concept/LFSA/?showForm=true&firstName=sendto&lastName=adf&zip=90094')
 
-WebUI.verifyElementPresent(findTestObject('FCV/Hero/Stay Informed button'), 5)
+WebUI.verifyElementPresent(findTestObject('FCV/SignupForm/form overlay'), 5)
 
-WebUI.verifyElementNotPresent(findTestObject('FCV/SignupForm/form overlay'), 0)
+WebUI.verifyElementPresent(findTestObject('FCV/SignupForm/input field - first name - sendto'), 0)
 
-WebUI.click(findTestObject('FCV/Hero/Stay Informed button'), FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('FCV/SignupForm/input field - last name - adf'), 0)
 
-WebUI.verifyElementPresent(findTestObject('FCV/SignupForm/form overlay'), 0)
+WebUI.verifyElementPresent(findTestObject('FCV/SignupForm/input field - zip code - 90094'), 0)
 
 @com.kms.katalon.core.annotation.TearDownIfPassed
 def passed() {

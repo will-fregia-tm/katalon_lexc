@@ -6,11 +6,11 @@
    <elementGuidId>06953468-35dc-4b2c-ba26-3e13c4dafe8d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@id = 'SubPageOverlayScroll']</value>
+         <key>XPATH</key>
       </entry>
       <entry>
-         <key>XPATH</key>
+         <key>BASIC</key>
+         <value>//*[@id = 'SubPageOverlayScroll']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
