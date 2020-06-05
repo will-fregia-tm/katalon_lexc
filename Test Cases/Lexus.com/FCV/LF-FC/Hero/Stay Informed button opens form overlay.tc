@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>Stay Informed button in hero opens form overlay.</description>
    <name>Stay Informed button opens form overlay</name>
    <tag></tag>
    <comment></comment>

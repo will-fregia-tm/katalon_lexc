@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Outlining that we need information from the user</description>
+   <name>Headline outlining that user will receive further updates</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8b414fd3-9f16-4402-aa0d-37cc417e1fc1</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>31925228-ccc6-424b-89af-cbc56be23c7b</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>Promo end caps follow relevant links to corresponding pages.</description>
    <name>Select Promo Tile</name>
    <tag></tag>
    <comment></comment>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>If user submits the form with empty or incorrect information in any or all requried fields, display an error message in red text. The form field should also be highlighted red.</description>
    <name>Information validation</name>
    <tag></tag>
    <comment></comment>

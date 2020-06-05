@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Clicking the &quot;X&quot; in the top right closes the lightbox</description>
+   <name>Close button X</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a4aeb7c9-0ed7-499b-9f20-d0fc4708acb4</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>5956e549-5c9c-4344-84ce-1bd669848fea</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>

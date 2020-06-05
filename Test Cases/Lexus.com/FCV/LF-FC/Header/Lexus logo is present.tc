@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>Lexus logo appears in global navigation header.</description>
    <name>Lexus logo is present</name>
    <tag></tag>
    <comment></comment>

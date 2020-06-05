@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>All required elements are present in  the gallery:
+
+Images and Video thumbnails
+Image description or disclaimer(if available in CMS)
+Carousel tabs (in both directions/if available)
+Expand image/full-screen</description>
+   <name>View Gallery - View Content</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fc1c7333-08c1-4f8c-acc2-429f64b1be1d</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>b6449281-6989-4008-927d-08f325b29499</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>

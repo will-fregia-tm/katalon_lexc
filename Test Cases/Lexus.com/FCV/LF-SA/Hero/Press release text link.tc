@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>Press Release text link in hero opens model press release pdf in a new tab.</description>
    <name>Press release text link</name>
    <tag></tag>
    <comment></comment>

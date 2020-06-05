@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>The user is able to navigate the gallery by using carousel arrows.</description>
+   <name>View Gallery - navigate to next-previous image</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9cd7d987-dede-480b-ad55-927e1594a599</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>096f00b3-f2f7-40e5-87e7-f7995bd39c54</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>

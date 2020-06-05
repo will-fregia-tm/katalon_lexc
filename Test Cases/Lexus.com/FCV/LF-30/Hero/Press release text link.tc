@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Press Release text link in hero opens model press release pdf in a new tab.</description>
+   <name>Press release text link</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7ed4d8ad-045c-43fa-bdee-e18e0c3680fe</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>77d6aa1f-871e-423d-abe7-2d81d7ae2417</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>

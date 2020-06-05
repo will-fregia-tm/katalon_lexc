@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>User is able to exit the expanded gallery and return to the default gallery.</description>
    <name>View Expanded Gallery Overlay - close expanded gallery</name>
    <tag></tag>
    <comment></comment>

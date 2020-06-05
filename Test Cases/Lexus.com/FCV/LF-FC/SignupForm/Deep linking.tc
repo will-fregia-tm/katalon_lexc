@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>When following a deep linking URL the appropriate data is displayed on the form.</description>
    <name>Deep linking</name>
    <tag></tag>
    <comment></comment>

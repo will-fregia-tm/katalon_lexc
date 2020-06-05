@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>Outlining that we need information from the user</description>
    <name>Headline outlining that user will receive further updates</name>
    <tag></tag>
    <comment></comment>

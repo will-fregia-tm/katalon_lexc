@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>Share text link in hero opens social media overlay.</description>
    <name>Social media overlay</name>
    <tag></tag>
    <comment></comment>

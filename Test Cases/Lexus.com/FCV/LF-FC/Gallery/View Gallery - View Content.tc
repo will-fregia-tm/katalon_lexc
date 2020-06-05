@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>All required elements are present in  the gallery:
+
+Images and Video thumbnails
+Image description or disclaimer(if available in CMS)
+Carousel tabs (in both directions/if available)
+Expand image/full-screen</description>
    <name>View Gallery - View Content</name>
    <tag></tag>
    <comment></comment>

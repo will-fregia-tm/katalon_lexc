@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>The user is able to navigate the gallery by using carousel arrows.</description>
    <name>View Gallery - navigate to next-previous image</name>
    <tag></tag>
    <comment></comment>
