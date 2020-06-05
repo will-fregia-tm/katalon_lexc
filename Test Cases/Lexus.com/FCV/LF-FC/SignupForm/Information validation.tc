@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Information validation</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f153969d-c574-407a-8445-9d7e849443d5</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>2b4b7b67-53df-45f9-9442-e9ca50b83e40</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>

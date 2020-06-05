@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>View Expanded Gallery Overlay - close expanded gallery</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2a5eb680-02b4-4b20-9409-8144800dc8d9</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>2a66dca1-630a-4e98-9227-4b51aa5dc2a1</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>

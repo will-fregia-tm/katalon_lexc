@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Press release text link</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2911df63-5b90-4e70-9554-d6bbfc601498</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>c5f08865-2023-4d91-85fb-e62a214cb95d</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>

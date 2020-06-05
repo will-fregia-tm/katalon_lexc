@@ -9,53 +9,53 @@
    <pageLoadTimeout>20</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <testSuiteGuid>bf5e5689-267c-43a6-a40d-3619b1180f23</testSuiteGuid>
+   <testSuiteGuid>8aee628b-a8b9-425d-8b61-19957340527b</testSuiteGuid>
    <testCaseLink>
-      <guid>44a8f67c-5ca1-470b-997b-9f0ca179b3ee</guid>
+      <guid>a18606a1-250d-4432-ad2e-aaf7df7dd455</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/FCV/LF-SA/Hero/Social media overlay</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/FCV/LF-FC/Hero/Key information displayed in hero</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>3a2a3ad3-b4e3-4568-8079-ad99753e39cd</variableId>
+         <variableId>68c3d7b2-da8e-4f93-abc9-4f85f0bd5b69</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>6ebb1609-886b-400f-81ec-2bdd5df0840c</guid>
+      <guid>6e73496b-8066-4c79-8a97-c154424076e0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/FCV/LF-SA/Hero/Stay Informed button opens form overlay</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/FCV/LF-FC/Hero/Press release text link</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>c91849b1-1038-4e03-adce-9d273727c133</variableId>
+         <variableId>c5f08865-2023-4d91-85fb-e62a214cb95d</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>af4121c2-3b9d-4623-b21b-2a5de1cf5454</guid>
+      <guid>828af5ca-83bc-44ae-a926-05dd8878c7ff</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/FCV/LF-SA/Hero/Press release text link</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/FCV/LF-FC/Hero/Social media overlay</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>d1547756-3594-4bd4-af38-7a2a0ab2703c</variableId>
+         <variableId>6900afe7-4b44-4fbe-9ea4-602f48d278eb</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>6e4a010f-05b6-4c7f-8d7e-f574a2f9aa8f</guid>
+      <guid>c8a9b77e-6018-4470-b586-7477a2166b24</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/FCV/LF-SA/Hero/Key information displayed in hero</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/FCV/LF-FC/Hero/Stay Informed button opens form overlay</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>0c005786-55f1-43d1-bcfb-5c9c85141c6c</variableId>
+         <variableId>036ec222-ceb1-495c-aa3b-eee0cfe696e4</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

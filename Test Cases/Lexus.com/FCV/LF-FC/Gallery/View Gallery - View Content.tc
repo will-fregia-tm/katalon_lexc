@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>View Gallery - View Content</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>57bee1b8-6b3b-4509-8873-eb1264751784</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>7ba72f90-8a36-4d78-9e30-896adf2e0029</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>

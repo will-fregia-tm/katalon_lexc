@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>View Gallery - navigate to next-previous image</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3efcc0d6-e1e4-4dad-8b41-43c395493e21</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>99a97955-4662-4eaa-ac57-aa47a0d6a1fd</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>

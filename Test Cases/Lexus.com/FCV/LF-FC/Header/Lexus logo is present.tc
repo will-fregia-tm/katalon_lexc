@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Lexus logo is present</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b639ce5f-4f4c-4b9b-9e1e-737314248e49</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>48781c33-d138-4fa4-a31a-20574ed477e4</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>
