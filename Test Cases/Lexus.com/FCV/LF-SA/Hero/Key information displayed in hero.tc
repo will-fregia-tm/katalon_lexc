@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Key information displayed in hero</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a0431f57-15a5-4153-ab00-cd91de55db9d</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>0c005786-55f1-43d1-bcfb-5c9c85141c6c</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>
