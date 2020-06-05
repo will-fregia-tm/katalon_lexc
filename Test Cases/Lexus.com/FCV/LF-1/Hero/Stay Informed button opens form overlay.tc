@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Stay Informed button opens form overlay</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c88f4caf-bf3d-4f9f-b3d4-3dc51c6b54c5</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>cbf1d893-6ccb-45d4-9e2a-ea631a8bcb2b</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Deep linking</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5d43fddc-9675-40bf-a169-8ae9cc078cfd</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>1e1a3ca0-fd17-4904-af6b-b9b70169c9c7</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>

@@ -10,4 +10,52 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>05bf8884-97a6-4bc6-87fd-2f7525ab7b63</testSuiteGuid>
+   <testCaseLink>
+      <guid>83029753-0026-4f9a-9fa5-c7166108317f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/FCV/LF-1/Hero/Key information displayed in hero</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>cc368952-7574-4c68-baca-02a00cf0a997</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b0a387b9-49af-48d2-bc07-121709f5678a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/FCV/LF-1/Hero/Press release text link</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e833d382-09ad-4faa-add7-09b8f5ffbaf3</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>20ae7043-dd45-4229-b603-dafcbf4dbdee</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/FCV/LF-1/Hero/Social media overlay</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>824a884c-f0f9-4ea5-8f08-ae4043f7a175</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>625c266a-33ff-473e-b161-6f29e727f576</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/FCV/LF-1/Hero/Stay Informed button opens form overlay</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>cbf1d893-6ccb-45d4-9e2a-ea631a8bcb2b</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>

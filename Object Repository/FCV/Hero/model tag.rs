@@ -14,7 +14,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;page&quot;]/div/div[1]/div/div[1]/div[1]/div[1]/div[2]/div[1]/div[(contains(text(), 'FUTURE') or contains(text(), 'CONCEPT'))]</value>
+         <value>//*[@id=&quot;page&quot;]/div/div[1]/div/div[1]/div[1]/div[1]/div[2]/div[1]/div[(contains(text(), 'FUTURE') or contains(text(), 'CONCEPT') or contains(text(), 'LEXUS'))]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

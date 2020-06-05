@@ -10,4 +10,16 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>c8569d90-d9ed-4e65-959a-b070e4934ba3</testSuiteGuid>
+   <testCaseLink>
+      <guid>e276eaf5-4f04-4944-b124-e589ac89c029</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/FCV/LF-1/Promo/Select Promo Tile</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>fbf69bda-6771-4ba6-9918-763c4b02cee8</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>
