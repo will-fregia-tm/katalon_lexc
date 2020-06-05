@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>When following a deep linking URL the appropriate data is displayed on the form.</description>
+   <name>Deep linking</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1158fa85-4a89-45c4-bb32-ab720d0767be</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>4ebb80d1-93b1-4cf5-aa82-72961375e466</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>

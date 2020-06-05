@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User is able to exit the expanded gallery and return to the default gallery.</description>
+   <name>View Expanded Gallery Overlay - close expanded gallery</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1486621b-3c48-4993-aede-eaf3222c4f9e</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>7948130f-7021-48c6-b9d0-0660bc5dca8e</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>

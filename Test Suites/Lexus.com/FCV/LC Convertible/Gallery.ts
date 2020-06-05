@@ -10,4 +10,40 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>4e98de18-71b3-4832-8002-506d385791f7</testSuiteGuid>
+   <testCaseLink>
+      <guid>a71719f0-e514-466a-bfc5-edb925e3fdc5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/FCV/LC Convertible/Gallery/View Expanded Gallery Overlay - close expanded gallery</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7948130f-7021-48c6-b9d0-0660bc5dca8e</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>526e71c8-c105-41a4-99b6-f374d093c350</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/FCV/LC Convertible/Gallery/View Gallery - navigate to next-previous image</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a4c3cc9a-56a7-47ca-acb5-0a0cba2fb1ad</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ab256b64-5e36-48bc-8544-45736206521c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/FCV/LC Convertible/Gallery/View Gallery - View Content</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7f2d1ae9-7c13-4735-9f63-efa1781e11ec</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>

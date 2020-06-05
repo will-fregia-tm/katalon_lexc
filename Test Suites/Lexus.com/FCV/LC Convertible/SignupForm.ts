@@ -10,4 +10,64 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>7299f2a6-9041-4182-84dd-b137fe5a2626</testSuiteGuid>
+   <testCaseLink>
+      <guid>b9c0c050-2045-435a-957b-b8ccfef67fcd</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/FCV/LC Convertible/SignupForm/Close button X</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>1c7b1af7-c3d0-4f33-a24c-d38aa5a042c7</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>278733c0-c867-484b-ae45-4042796c10c6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/FCV/LC Convertible/SignupForm/Deep linking</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>4ebb80d1-93b1-4cf5-aa82-72961375e466</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3010fdbc-d8d7-49df-a2a2-a507ba76dee7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/FCV/LC Convertible/SignupForm/Headline outlining that user will receive further updates</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c7b20bdb-022c-4ef8-a51c-b58dacf7849b</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>dbe5d8f4-5850-445e-a2ee-abe1159e5591</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/FCV/LC Convertible/SignupForm/Information validation</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d4d847b3-6b66-473d-96ad-210dd8b19574</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e65c6255-5185-48f1-9cc7-ce5b92a9f394</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/FCV/LC Convertible/SignupForm/Privacy Rights</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>93ff9664-9a1c-4d90-a057-8a15559a4f1a</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>

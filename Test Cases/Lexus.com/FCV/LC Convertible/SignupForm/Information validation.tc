@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>If user submits the form with empty or incorrect information in any or all requried fields, display an error message in red text. The form field should also be highlighted red.</description>
+   <name>Information validation</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b9e44820-8176-49b4-b4a2-1bb677fa5d65</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>d4d847b3-6b66-473d-96ad-210dd8b19574</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>

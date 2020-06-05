@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User is able to view the following information in FCV model hero:
+
+Hero  asset ( video or image)
+Model Name 
+Disclaimer (when applicable)
+0 to 3 CTAs</description>
+   <name>Key information displayed in hero</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>664f136b-7fbf-4ebe-bd18-ac4f7d311c1f</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>0c2dee50-be7b-4a42-a706-c9b4fa3fb1f3</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>

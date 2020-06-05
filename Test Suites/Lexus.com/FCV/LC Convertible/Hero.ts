@@ -10,4 +10,52 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>57bfd07f-62f1-4503-94da-8539a3a08a7e</testSuiteGuid>
+   <testCaseLink>
+      <guid>6fe88453-4d34-4e0c-8913-29774557ce4b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/FCV/LC Convertible/Hero/Key information displayed in hero</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>0c2dee50-be7b-4a42-a706-c9b4fa3fb1f3</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>80585fba-c619-4ad7-8d92-9f787abf81a7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/FCV/LC Convertible/Hero/Press release text link</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>0a0abc7e-22d5-468c-8a06-edaa86cdd708</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7e1457e7-e3dc-47f3-b1ef-dcedec532d8c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/FCV/LC Convertible/Hero/Social media overlay</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ed16a70f-a201-4dce-9f32-3c23e3d2f247</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4bfdf091-0718-4c6e-b8c2-dd4ce23d3ee2</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/FCV/LC Convertible/Hero/Stay Informed button opens form overlay</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>12527b4a-c248-4932-98b1-d1fbe1700454</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Stay Informed button in hero opens form overlay.</description>
+   <name>Stay Informed button opens form overlay</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>46697edf-00af-4e98-8628-36065f0d3b0e</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>12527b4a-c248-4932-98b1-d1fbe1700454</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>
