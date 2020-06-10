@@ -56,10 +56,6 @@ WebUI.click(findTestObject('FCV/Gallery/right arrow'), FailureHandling.STOP_ON_F
 
 WebUI.click(findTestObject('FCV/Gallery/right arrow'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('FCV/Gallery/right arrow'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('FCV/Gallery/left arrow'), FailureHandling.STOP_ON_FAILURE)
-
 WebUI.click(findTestObject('FCV/Gallery/left arrow'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('FCV/Gallery/left arrow'), FailureHandling.STOP_ON_FAILURE)
