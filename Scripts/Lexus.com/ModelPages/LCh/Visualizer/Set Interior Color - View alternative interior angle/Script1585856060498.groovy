@@ -23,13 +23,13 @@ WebUI.waitForElementVisible(findTestObject('ModelPages/Visualizer/interior swatc
 
 WebUI.click(findTestObject('ModelPages/Visualizer/interior swatches'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('ModelPages/Visualizer/swatch 2'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('ModelPages/Visualizer/interior swatch 2'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementPresent(findTestObject('ModelPages/Visualizer/chateau nuluxe striated black - angle 1'), 0, FailureHandling.OPTIONAL)
+WebUI.waitForElementPresent(findTestObject('ModelPages/Visualizer/interior angle 1'), 5, FailureHandling.OPTIONAL)
 
-WebUI.verifyElementPresent(findTestObject('ModelPages/Visualizer/angle 1'), 0)
+WebUI.verifyElementPresent(findTestObject('ModelPages/Visualizer/angle 1'), 5)
 
-WebUI.verifyElementPresent(findTestObject('ModelPages/Visualizer/swatch 2 - highlighted'), 0)
+WebUI.verifyElementPresent(findTestObject('ModelPages/Visualizer/interior swatch 2 - highlighted'), 0)
 
 WebUI.verifyElementNotPresent(findTestObject('ModelPages/Visualizer/angle 2'), 0)
 
@@ -43,11 +43,11 @@ if (WebUI.verifyLessThan(pageWidth, '960', FailureHandling.OPTIONAL)) {
     WebUI.click(findTestObject('ModelPages/Visualizer/carousel button 2'), FailureHandling.STOP_ON_FAILURE)
 }
 
-WebUI.waitForElementPresent(findTestObject('ModelPages/Visualizer/chateau nuluxe striated black - angle 2'), 0, FailureHandling.OPTIONAL)
+WebUI.waitForElementPresent(findTestObject('ModelPages/Visualizer/interior angle 2'), 5, FailureHandling.OPTIONAL)
 
 WebUI.verifyElementPresent(findTestObject('ModelPages/Visualizer/angle 2'), 0)
 
-WebUI.verifyElementPresent(findTestObject('ModelPages/Visualizer/swatch 2 - highlighted'), 0)
+WebUI.verifyElementPresent(findTestObject('ModelPages/Visualizer/interior swatch 2 - highlighted'), 0)
 
 @com.kms.katalon.core.annotation.TearDownIfPassed
 def passed() {

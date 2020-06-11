@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>swatch 2 - highlighted</name>
+   <name>interior swatch 2 - highlighted</name>
    <tag></tag>
-   <elementGuidId>e1f682e1-ed92-4140-8037-df5b02af667f</elementGuidId>
+   <elementGuidId>765d25d8-8424-4893-834d-59dfbdb86cfe</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[contains(@id, 'ModelVisualizer')]/div/div[5]/div/div/ul/div/div/div/div[2]/div/li[contains(@class, 'selected') and @data-swatch-index = '1']</value>
+         <value>//*[contains(@id, 'ModelVisualizer')]/div/div[5]/div/div/ul/li[contains(@class, 'selected')]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#ModelVisualizer > div > div > ul > div > div > div > div:nth-child(1)</value>
+         <value>[id^=&quot;ModelVisualizer&quot;] > div > div:nth-child(5) > div > div > ul > li:nth-child(2)</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//li[contains(@class, 'selected') and @data-swatch-index = '1']</value>
+         <value>//li[contains(@class, 'selected')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -33,12 +33,5 @@
       <name>tag</name>
       <type>Main</type>
       <value>li</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-swatch-index</name>
-      <type>Main</type>
-      <value>1</value>
    </webElementProperties>
 </WebElementEntity>
