@@ -6,7 +6,7 @@
    <containsHeaders>false</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>18404e9c-a6a3-4564-a99b-166c8b990fc6</dataFileGUID>
-   <dataSourceUrl>C:\Users\zsmith\katalon_lexc\datasheets\stagingMSRPs.xlsx</dataSourceUrl>
+   <dataSourceUrl>C:\Users\amcgu\katalon\katalon_lexc_modelpage_lc\Data Files\stagingMSRPs.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>false</isInternalPath>
    <query></query>
