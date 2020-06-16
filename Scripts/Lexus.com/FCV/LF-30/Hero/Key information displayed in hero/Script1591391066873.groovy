@@ -20,7 +20,11 @@ WebUI.openBrowser(GlobalVariable.TS_Domain + GlobalVariable.Header)
 
 WebUI.navigateToUrl(GlobalVariable.AEM_Domain_Unauthenticated + '/concept/LF-30-Electrified')
 
-WebUI.waitForElementPresent(findTestObject('FCV/Hero/hero module'), 5, FailureHandling.STOP_ON_FAILURE)
+if (WebUI.verifyElementNotPresent(findTestObject('FCV/Hero/hero module'), 3, FailureHandling.OPTIONAL)) {
+    WebUI.refresh()
+}
+
+WebUI.waitForElementPresent(findTestObject('FCV/Hero/hero module'), 3, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementPresent(findTestObject('FCV/Hero/image asset'), 0, FailureHandling.STOP_ON_FAILURE)
 

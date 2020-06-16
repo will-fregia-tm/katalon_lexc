@@ -20,6 +20,12 @@ WebUI.openBrowser(GlobalVariable.TS_Domain + GlobalVariable.Header)
 
 WebUI.navigateToUrl(GlobalVariable.AEM_Domain_Unauthenticated + '/concept/LF-30-Electrified')
 
+if (WebUI.verifyElementNotPresent(findTestObject('FCV/Hero/hero module'), 3, FailureHandling.OPTIONAL)) {
+	WebUI.refresh()
+}
+
+WebUI.waitForElementPresent(findTestObject('FCV/Hero/hero module'), 3, FailureHandling.STOP_ON_FAILURE)
+
 WebUI.verifyElementPresent(findTestObject('FCV/Hero/press release link that opens new tab'), 5, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('FCV/Hero/press release link that opens new tab'), FailureHandling.STOP_ON_FAILURE)

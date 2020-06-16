@@ -20,6 +20,12 @@ WebUI.openBrowser(GlobalVariable.TS_Domain + GlobalVariable.Header)
 
 WebUI.navigateToUrl(GlobalVariable.AEM_Domain_Unauthenticated + '/concept/LF-30-Electrified/?showForm=true&firstName=sendto&lastName=adf&zip=90094')
 
+if (WebUI.verifyElementNotPresent(findTestObject('FCV/Hero/hero module'), 3, FailureHandling.OPTIONAL)) {
+	WebUI.refresh()
+}
+
+WebUI.waitForElementPresent(findTestObject('FCV/Hero/hero module'), 3, FailureHandling.STOP_ON_FAILURE)
+
 WebUI.verifyElementPresent(findTestObject('FCV/SignupForm/form overlay'), 5)
 
 WebUI.verifyElementPresent(findTestObject('FCV/SignupForm/input field - first name - sendto'), 0)
