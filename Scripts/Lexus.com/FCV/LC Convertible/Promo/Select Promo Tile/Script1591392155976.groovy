@@ -20,6 +20,12 @@ WebUI.openBrowser(GlobalVariable.TS_Domain + GlobalVariable.Header)
 
 WebUI.navigateToUrl(GlobalVariable.AEM_Domain_Unauthenticated + '/future/LC-Convertible')
 
+if (WebUI.verifyElementNotPresent(findTestObject('FCV/Hero/hero module'), 3, FailureHandling.OPTIONAL)) {
+	WebUI.refresh()
+}
+
+WebUI.waitForElementPresent(findTestObject('FCV/Hero/hero module'), 3, FailureHandling.STOP_ON_FAILURE)
+
 WebUI.scrollToElement(findTestObject('FCV/Promo/promo module'), 5, FailureHandling.STOP_ON_FAILURE)
 
 subtagText = WebUI.getText(findTestObject('FCV/Promo/model card 1 subtag'), FailureHandling.STOP_ON_FAILURE)

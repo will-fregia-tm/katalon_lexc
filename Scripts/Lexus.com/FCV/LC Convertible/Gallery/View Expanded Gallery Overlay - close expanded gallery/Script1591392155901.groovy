@@ -22,6 +22,12 @@ WebUI.navigateToUrl(GlobalVariable.AEM_Domain_Unauthenticated + '/future/LC-Conv
 
 WebUI.waitForPageLoad(0)
 
+if (WebUI.verifyElementNotPresent(findTestObject('FCV/Hero/hero module'), 3, FailureHandling.OPTIONAL)) {
+	WebUI.refresh()
+}
+
+WebUI.waitForElementPresent(findTestObject('FCV/Hero/hero module'), 3, FailureHandling.STOP_ON_FAILURE)
+
 WebUI.scrollToElement(findTestObject('FCV/Gallery/gallery module'), 5)
 
 WebUI.verifyElementNotPresent(findTestObject('FCV/Gallery/visible slide 1'), 5)
