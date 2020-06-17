@@ -91,7 +91,7 @@
          <configuration>
             <groupName>Custom</groupName>
             <profileName>review</profileName>
-            <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
+            <runConfigurationId>saucelabs_firefox_win10</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/MSRP/HomePage</testSuiteEntity>
@@ -100,7 +100,7 @@
          <configuration>
             <groupName>Custom</groupName>
             <profileName>review</profileName>
-            <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
+            <runConfigurationId>saucelabs_firefox_win10</runConfigurationId>
          </configuration>
          <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/MSRP/HomePagePersonalized</testSuiteEntity>
