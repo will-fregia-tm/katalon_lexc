@@ -10,7 +10,7 @@
          <configuration>
             <groupName>Custom</groupName>
             <profileName>review</profileName>
-            <runConfigurationId>saucelabs_chrome_macos10.15</runConfigurationId>
+            <runConfigurationId>saucelabs_firefox_win10</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/HomePage/ContentModule</testSuiteEntity>
@@ -19,7 +19,7 @@
          <configuration>
             <groupName>Custom</groupName>
             <profileName>review</profileName>
-            <runConfigurationId>saucelabs_chrome_macos10.15</runConfigurationId>
+            <runConfigurationId>saucelabs_firefox_win10</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/HomePage/GlobalMisc</testSuiteEntity>
@@ -28,7 +28,7 @@
          <configuration>
             <groupName>Custom</groupName>
             <profileName>review</profileName>
-            <runConfigurationId>saucelabs_chrome_macos10.15</runConfigurationId>
+            <runConfigurationId>saucelabs_firefox_win10</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/HomePage/GridModule</testSuiteEntity>
@@ -37,7 +37,7 @@
          <configuration>
             <groupName>Custom</groupName>
             <profileName>review</profileName>
-            <runConfigurationId>saucelabs_chrome_macos10.15</runConfigurationId>
+            <runConfigurationId>saucelabs_firefox_win10</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/HomePage/HeroModule</testSuiteEntity>
@@ -46,7 +46,7 @@
          <configuration>
             <groupName>Custom</groupName>
             <profileName>review</profileName>
-            <runConfigurationId>saucelabs_chrome_macos10.15</runConfigurationId>
+            <runConfigurationId>saucelabs_firefox_win10</runConfigurationId>
          </configuration>
          <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/HomePage/HeroOffers</testSuiteEntity>
@@ -55,7 +55,7 @@
          <configuration>
             <groupName>Custom</groupName>
             <profileName>review</profileName>
-            <runConfigurationId>saucelabs_chrome_macos10.15</runConfigurationId>
+            <runConfigurationId>saucelabs_firefox_win10</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/HomePage/PromoModule</testSuiteEntity>
@@ -64,7 +64,7 @@
          <configuration>
             <groupName>Custom</groupName>
             <profileName>review</profileName>
-            <runConfigurationId>saucelabs_chrome_macos10.15</runConfigurationId>
+            <runConfigurationId>saucelabs_firefox_win10</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/HomePage/ShoppingTools</testSuiteEntity>
@@ -73,7 +73,7 @@
          <configuration>
             <groupName>Custom</groupName>
             <profileName>review</profileName>
-            <runConfigurationId>saucelabs_chrome_macos10.15</runConfigurationId>
+            <runConfigurationId>saucelabs_firefox_win10</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/HomePage/VehicleSelector</testSuiteEntity>
@@ -82,7 +82,7 @@
          <configuration>
             <groupName>Custom</groupName>
             <profileName>review</profileName>
-            <runConfigurationId>saucelabs_chrome_macos10.15</runConfigurationId>
+            <runConfigurationId>saucelabs_firefox_win10</runConfigurationId>
          </configuration>
          <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/HomePage/VehicleSelectorOffers</testSuiteEntity>
@@ -91,7 +91,7 @@
          <configuration>
             <groupName>Custom</groupName>
             <profileName>review</profileName>
-            <runConfigurationId>saucelabs_chrome_macos10.15</runConfigurationId>
+            <runConfigurationId>saucelabs_firefox_win10</runConfigurationId>
          </configuration>
          <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/HomePage/VehicleSelectorPersonalized</testSuiteEntity>
@@ -100,7 +100,7 @@
          <configuration>
             <groupName>Custom</groupName>
             <profileName>review</profileName>
-            <runConfigurationId>saucelabs_chrome_win7</runConfigurationId>
+            <runConfigurationId>saucelabs_firefox_macos10.15</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/HomePage/ContentModule</testSuiteEntity>
@@ -109,7 +109,7 @@
          <configuration>
             <groupName>Custom</groupName>
             <profileName>review</profileName>
-            <runConfigurationId>saucelabs_chrome_win7</runConfigurationId>
+            <runConfigurationId>saucelabs_firefox_macos10.15</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/HomePage/GlobalMisc</testSuiteEntity>
@@ -118,7 +118,7 @@
          <configuration>
             <groupName>Custom</groupName>
             <profileName>review</profileName>
-            <runConfigurationId>saucelabs_chrome_win7</runConfigurationId>
+            <runConfigurationId>saucelabs_firefox_macos10.15</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/HomePage/GridModule</testSuiteEntity>
@@ -127,7 +127,7 @@
          <configuration>
             <groupName>Custom</groupName>
             <profileName>review</profileName>
-            <runConfigurationId>saucelabs_chrome_win7</runConfigurationId>
+            <runConfigurationId>saucelabs_firefox_macos10.15</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/HomePage/HeroModule</testSuiteEntity>
@@ -136,7 +136,7 @@
          <configuration>
             <groupName>Custom</groupName>
             <profileName>review</profileName>
-            <runConfigurationId>saucelabs_chrome_win7</runConfigurationId>
+            <runConfigurationId>saucelabs_firefox_macos10.15</runConfigurationId>
          </configuration>
          <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/HomePage/HeroOffers</testSuiteEntity>
@@ -145,7 +145,7 @@
          <configuration>
             <groupName>Custom</groupName>
             <profileName>review</profileName>
-            <runConfigurationId>saucelabs_chrome_win7</runConfigurationId>
+            <runConfigurationId>saucelabs_firefox_macos10.15</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/HomePage/PromoModule</testSuiteEntity>
@@ -154,7 +154,7 @@
          <configuration>
             <groupName>Custom</groupName>
             <profileName>review</profileName>
-            <runConfigurationId>saucelabs_chrome_win7</runConfigurationId>
+            <runConfigurationId>saucelabs_firefox_macos10.15</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/HomePage/ShoppingTools</testSuiteEntity>
@@ -163,7 +163,7 @@
          <configuration>
             <groupName>Custom</groupName>
             <profileName>review</profileName>
-            <runConfigurationId>saucelabs_chrome_win7</runConfigurationId>
+            <runConfigurationId>saucelabs_firefox_macos10.15</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/HomePage/VehicleSelector</testSuiteEntity>
@@ -172,7 +172,7 @@
          <configuration>
             <groupName>Custom</groupName>
             <profileName>review</profileName>
-            <runConfigurationId>saucelabs_chrome_win7</runConfigurationId>
+            <runConfigurationId>saucelabs_firefox_macos10.15</runConfigurationId>
          </configuration>
          <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/HomePage/VehicleSelectorOffers</testSuiteEntity>
@@ -181,7 +181,7 @@
          <configuration>
             <groupName>Custom</groupName>
             <profileName>review</profileName>
-            <runConfigurationId>saucelabs_chrome_win7</runConfigurationId>
+            <runConfigurationId>saucelabs_firefox_macos10.15</runConfigurationId>
          </configuration>
          <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/HomePage/VehicleSelectorPersonalized</testSuiteEntity>
