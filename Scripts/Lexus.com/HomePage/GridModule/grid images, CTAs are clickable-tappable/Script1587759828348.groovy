@@ -19,6 +19,8 @@ WebUI.openBrowser(GlobalVariable.TS_Domain + GlobalVariable.Header)
 
 WebUI.navigateToUrl(GlobalVariable.SC_Domain)
 
+WebUI.navigateToUrl(GlobalVariable.SC_Domain_Unauthenticated)
+
 WebUI.waitForElementPresent(findTestObject('HomePage/GridModule/content grid module - heading'), 0)
 
 WebUI.scrollToElement(findTestObject('HomePage/GridModule/content grid module - heading'), 0)
@@ -44,7 +46,6 @@ WebUI.click(findTestObject('HomePage/GridModule/desktop tile 1'), FailureHandlin
 WebUI.click(findTestObject('HomePage/GridModule/mobile tile 1'), FailureHandling.OPTIONAL)
 
 WebUI.waitForPageLoad(0, FailureHandling.OPTIONAL)
-
 
 @com.kms.katalon.core.annotation.TearDownIfPassed
 def passed() {

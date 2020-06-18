@@ -20,6 +20,8 @@ WebUI.openBrowser(GlobalVariable.TS_Domain + GlobalVariable.Header)
 
 WebUI.navigateToUrl(GlobalVariable.SC_Domain)
 
+WebUI.navigateToUrl(GlobalVariable.SC_Domain_Unauthenticated)
+
 WebUI.waitForElementPresent(findTestObject('HomePage/PromoModule/promo module - heading'), 0)
 
 WebUI.scrollToElement(findTestObject('HomePage/PromoModule/promo module - heading'), 0)
@@ -32,10 +34,11 @@ WebUI.verifyElementPresent(findTestObject('HomePage/PromoModule/tile 3 - desktop
 
 @com.kms.katalon.core.annotation.TearDownIfPassed
 def passed() {
-	WebUI.executeJavaScript('sauce:job-result=passed', [])
+    WebUI.executeJavaScript('sauce:job-result=passed', [])
 }
 
 @com.kms.katalon.core.annotation.TearDownIfFailed
 def failed() {
-	WebUI.executeJavaScript('sauce:job-result=failed', [])
+    WebUI.executeJavaScript('sauce:job-result=failed', [])
 }
+

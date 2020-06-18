@@ -19,6 +19,8 @@ WebUI.openBrowser(GlobalVariable.TS_Domain + GlobalVariable.Header)
 
 WebUI.navigateToUrl(GlobalVariable.SC_Domain)
 
+WebUI.navigateToUrl(GlobalVariable.SC_Domain_Unauthenticated)
+
 WebUI.waitForElementPresent(findTestObject('HomePage/ContentModule/tile 1'), 0)
 
 WebUI.scrollToElement(findTestObject('HomePage/ContentModule/tile 1'), 0)
@@ -28,7 +30,6 @@ WebUI.verifyElementVisible(findTestObject('HomePage/ContentModule/tile 1'), Fail
 WebUI.verifyElementVisible(findTestObject('HomePage/ContentModule/tile 2'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementVisible(findTestObject('HomePage/ContentModule/tile 3'), FailureHandling.STOP_ON_FAILURE)
-
 
 @com.kms.katalon.core.annotation.TearDownIfPassed
 def passed() {

@@ -19,6 +19,8 @@ WebUI.openBrowser(GlobalVariable.TS_Domain + GlobalVariable.Header)
 
 WebUI.navigateToUrl(GlobalVariable.SC_Domain)
 
+WebUI.navigateToUrl(GlobalVariable.SC_Domain_Unauthenticated)
+
 WebUI.waitForElementPresent(findTestObject('HomePage/ContentModule/content module - heading'), 0)
 
 WebUI.scrollToElement(findTestObject('HomePage/ContentModule/content module - heading'), 0)

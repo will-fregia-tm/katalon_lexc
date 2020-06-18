@@ -19,6 +19,8 @@ WebUI.openBrowser(GlobalVariable.TS_Domain + GlobalVariable.Header)
 
 WebUI.navigateToUrl(GlobalVariable.SC_Domain)
 
+WebUI.navigateToUrl(GlobalVariable.SC_Domain_Unauthenticated)
+
 WebUI.waitForElementPresent(findTestObject('HomePage/GridModule/content grid module - heading'), 0)
 
 WebUI.scrollToElement(findTestObject('HomePage/GridModule/content grid module - heading'), 0)

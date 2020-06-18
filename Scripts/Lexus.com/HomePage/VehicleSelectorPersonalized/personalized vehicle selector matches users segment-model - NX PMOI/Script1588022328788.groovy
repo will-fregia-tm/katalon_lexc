@@ -22,10 +22,12 @@ WebUI.navigateToUrl(GlobalVariable.TS_Domain + GlobalVariable.Header)
 
 WebUI.navigateToUrl(GlobalVariable.SC_Domain + '/?personalization_id=inmarket_nx&audience=inmarket&campaign_vehicle_model=NX')
 
+WebUI.navigateToUrl(GlobalVariable.SC_Domain_Unauthenticated + '/?personalization_id=inmarket_nx&audience=inmarket&campaign_vehicle_model=NX')
+
 WebUI.scrollToElement(findTestObject('HomePage/VehicleSelector/vehicle selector - heading'), 0)
 
-WebUI.waitForElementVisible(findTestObject('MSRP/section objects/homepage/vehicle selector/vehicle selector - SUVs - NX starting at price'),
-	0)
+WebUI.waitForElementVisible(findTestObject('MSRP/section objects/homepage/vehicle selector/vehicle selector - SUVs - NX starting at price'), 
+    0)
 
 WebUI.verifyElementVisible(findTestObject('MSRP/section objects/homepage/vehicle selector/vehicle selector - SUVs - NX starting at price'))
 
@@ -33,10 +35,11 @@ WebUI.verifyElementNotVisible(findTestObject('MSRP/section objects/homepage/vehi
 
 @com.kms.katalon.core.annotation.TearDownIfPassed
 def passed() {
-	WebUI.executeJavaScript('sauce:job-result=passed', [])
+    WebUI.executeJavaScript('sauce:job-result=passed', [])
 }
 
 @com.kms.katalon.core.annotation.TearDownIfFailed
 def failed() {
-	WebUI.executeJavaScript('sauce:job-result=failed', [])
+    WebUI.executeJavaScript('sauce:job-result=failed', [])
 }
+
