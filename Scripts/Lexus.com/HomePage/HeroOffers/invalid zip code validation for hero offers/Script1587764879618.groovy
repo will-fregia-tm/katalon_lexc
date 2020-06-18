@@ -17,6 +17,10 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser(GlobalVariable.TS_Domain + GlobalVariable.Header)
 
+if (WebUI.verifyElementNotPresent(findTestObject('GlobalNav/header/header - Lexus logo'), 3, FailureHandling.OPTIONAL)) {
+    WebUI.refresh()
+}
+
 WebUI.navigateToUrl(GlobalVariable.SC_Domain)
 
 WebUI.navigateToUrl(GlobalVariable.SC_Domain_Unauthenticated)
@@ -54,7 +58,6 @@ WebUI.click(findTestObject('HomePage/HeroOffers/hero offers - search button'))
 WebUI.waitForElementVisible(findTestObject('HomePage/HeroOffers/hero offers - validation error message'), 0)
 
 WebUI.verifyElementVisibleInViewport(findTestObject('HomePage/HeroOffers/hero offers - validation error message'), 0)
-
 
 @com.kms.katalon.core.annotation.TearDownIfPassed
 def passed() {

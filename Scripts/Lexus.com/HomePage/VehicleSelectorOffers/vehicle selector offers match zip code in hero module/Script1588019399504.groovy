@@ -18,6 +18,10 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser(GlobalVariable.TS_Domain + GlobalVariable.Header)
 
+if (WebUI.verifyElementNotPresent(findTestObject('GlobalNav/header/header - Lexus logo'), 3, FailureHandling.OPTIONAL)) {
+    WebUI.refresh()
+}
+
 WebUI.navigateToUrl(GlobalVariable.SC_Domain)
 
 WebUI.navigateToUrl(GlobalVariable.SC_Domain_Unauthenticated)
@@ -64,10 +68,11 @@ WebUI.click(findTestObject('HomePage/VehicleSelector/vehicle selector - offer de
 
 @com.kms.katalon.core.annotation.TearDownIfPassed
 def passed() {
-	WebUI.executeJavaScript('sauce:job-result=passed', [])
+    WebUI.executeJavaScript('sauce:job-result=passed', [])
 }
 
 @com.kms.katalon.core.annotation.TearDownIfFailed
 def failed() {
-	WebUI.executeJavaScript('sauce:job-result=failed', [])
+    WebUI.executeJavaScript('sauce:job-result=failed', [])
 }
+

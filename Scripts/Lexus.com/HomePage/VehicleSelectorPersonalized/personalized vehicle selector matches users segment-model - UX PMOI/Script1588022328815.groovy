@@ -20,6 +20,10 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.TS_Domain + GlobalVariable.Header)
 
+if (WebUI.verifyElementNotPresent(findTestObject('GlobalNav/header/header - Lexus logo'), 3, FailureHandling.OPTIONAL)) {
+    WebUI.refresh()
+}
+
 WebUI.navigateToUrl(GlobalVariable.SC_Domain + '/?personalization_id=inmarket_ux&audience=inmarket&campaign_vehicle_model=UX')
 
 WebUI.navigateToUrl(GlobalVariable.SC_Domain_Unauthenticated + '/?personalization_id=inmarket_ux&audience=inmarket&campaign_vehicle_model=UX')

@@ -17,6 +17,10 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser(GlobalVariable.TS_Domain + GlobalVariable.Header)
 
+if (WebUI.verifyElementNotPresent(findTestObject('GlobalNav/header/header - Lexus logo'), 3, FailureHandling.OPTIONAL)) {
+    WebUI.refresh()
+}
+
 WebUI.navigateToUrl(GlobalVariable.SC_Domain)
 
 WebUI.navigateToUrl(GlobalVariable.SC_Domain_Unauthenticated)
@@ -33,8 +37,7 @@ WebUI.waitForElementVisible(findTestObject('HomePage/HeroOffers/All Offers - sha
 
 WebUI.verifyElementVisible(findTestObject('HomePage/HeroOffers/All Offers - shared zip overlay title'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('HomePage/HeroOffers/All Offers - shared zip overlay showing market'), 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('HomePage/HeroOffers/All Offers - shared zip overlay showing market'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementVisible(findTestObject('HomePage/HeroOffers/All Offers - shared zip overlay change CTA'), FailureHandling.STOP_ON_FAILURE)
 
@@ -63,8 +66,7 @@ WebUI.waitForElementVisible(findTestObject('HomePage/HeroOffers/All Offers - sha
 
 WebUI.verifyElementVisible(findTestObject('HomePage/HeroOffers/All Offers - shared zip overlay title'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('HomePage/HeroOffers/All Offers - shared zip overlay showing market'), 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('HomePage/HeroOffers/All Offers - shared zip overlay showing market'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementVisible(findTestObject('HomePage/HeroOffers/All Offers - shared zip overlay change CTA'), FailureHandling.STOP_ON_FAILURE)
 
@@ -105,7 +107,6 @@ WebUI.waitForElementPresent(findTestObject('HomePage/HeroOffers/All Offers - off
 WebUI.verifyElementPresent(findTestObject('HomePage/HeroOffers/All Offers - offer info - dollar symbol'), 0)
 
 WebUI.verifyElementVisible(findTestObject('HomePage/HeroOffers/All Offers - offer details slider'), FailureHandling.STOP_ON_FAILURE)
-
 
 @com.kms.katalon.core.annotation.TearDownIfPassed
 def passed() {

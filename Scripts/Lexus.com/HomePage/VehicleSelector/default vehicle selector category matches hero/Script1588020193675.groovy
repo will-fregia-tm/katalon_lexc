@@ -18,6 +18,10 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser(GlobalVariable.TS_Domain + GlobalVariable.Header)
 
+if (WebUI.verifyElementNotPresent(findTestObject('GlobalNav/header/header - Lexus logo'), 3, FailureHandling.OPTIONAL)) {
+    WebUI.refresh()
+}
+
 WebUI.navigateToUrl(GlobalVariable.SC_Domain)
 
 WebUI.navigateToUrl(GlobalVariable.SC_Domain_Unauthenticated + GlobalVariable.HPdefault)
@@ -26,17 +30,18 @@ WebUI.waitForElementPresent(findTestObject('HomePage/VehicleSelector/vehicle sel
 
 WebUI.scrollToElement(findTestObject('HomePage/VehicleSelector/vehicle selector - heading'), 0)
 
-WebUI.waitForElementVisible(findTestObject('MSRP/section objects/homepage/vehicle selector/vehicle selector - SUVs - RX starting at price'),
-	0)
+WebUI.waitForElementVisible(findTestObject('MSRP/section objects/homepage/vehicle selector/vehicle selector - SUVs - RX starting at price'), 
+    0)
 
 WebUI.verifyElementVisible(findTestObject('MSRP/section objects/homepage/vehicle selector/vehicle selector - SUVs - RX starting at price'))
 
 @com.kms.katalon.core.annotation.TearDownIfPassed
 def passed() {
-	WebUI.executeJavaScript('sauce:job-result=passed', [])
+    WebUI.executeJavaScript('sauce:job-result=passed', [])
 }
 
 @com.kms.katalon.core.annotation.TearDownIfFailed
 def failed() {
-	WebUI.executeJavaScript('sauce:job-result=failed', [])
+    WebUI.executeJavaScript('sauce:job-result=failed', [])
 }
+

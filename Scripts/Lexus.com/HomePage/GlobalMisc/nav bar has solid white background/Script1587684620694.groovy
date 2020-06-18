@@ -17,6 +17,10 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser(GlobalVariable.TS_Domain + GlobalVariable.Header)
 
+if (WebUI.verifyElementNotPresent(findTestObject('GlobalNav/header/header - Lexus logo'), 3, FailureHandling.OPTIONAL)) {
+    WebUI.refresh()
+}
+
 WebUI.navigateToUrl(GlobalVariable.SC_Domain)
 
 WebUI.navigateToUrl(GlobalVariable.SC_Domain_Unauthenticated)
@@ -28,9 +32,6 @@ cssValue = WebUI.getCSSValue(findTestObject('GlobalNav/header/header wrapper'), 
 if (WebUI.verifyNotEqual(cssValue, 'rgb(255, 255, 255)', FailureHandling.OPTIONAL)) {
     WebUI.verifyEqual(cssValue, 'rgba(255, 255, 255, 1)')
 }
-
-
-
 
 @com.kms.katalon.core.annotation.TearDownIfPassed
 def passed() {
