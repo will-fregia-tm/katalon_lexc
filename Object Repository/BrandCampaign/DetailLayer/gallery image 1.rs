@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#detail-layer > div > div.DetailedLayer_content__1OZUI > div.DetailedLayer_moreTiles__3R_Qg > div > div > div:nth-child(1) > img</value>
+         <value>div[class*=&quot;DetailedLayer_moreTiles&quot;] > div > div > div:nth-child(1) > img</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

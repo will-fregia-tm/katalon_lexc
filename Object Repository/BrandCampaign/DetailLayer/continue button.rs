@@ -11,9 +11,16 @@
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#detail-layer > div > div.DetailedLayer_content__1OZUI > div.react-reveal.DetailedLayer_continue__2JBAP > button</value>
+         <value>button[class*=&quot;DetailedLayer_continueButton&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
 </WebElementEntity>
