@@ -39,7 +39,7 @@
             <profileName>review</profileName>
             <runConfigurationId>saucelabs_firefox_win10</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
+         <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/HomePage/HeroModule</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
@@ -48,7 +48,7 @@
             <profileName>review</profileName>
             <runConfigurationId>saucelabs_firefox_win10</runConfigurationId>
          </configuration>
-         <runEnabled>false</runEnabled>
+         <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/HomePage/HeroOffers</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
@@ -75,7 +75,7 @@
             <profileName>review</profileName>
             <runConfigurationId>saucelabs_firefox_win10</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
+         <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/HomePage/VehicleSelector</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
@@ -84,7 +84,7 @@
             <profileName>review</profileName>
             <runConfigurationId>saucelabs_firefox_win10</runConfigurationId>
          </configuration>
-         <runEnabled>false</runEnabled>
+         <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/HomePage/VehicleSelectorOffers</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
