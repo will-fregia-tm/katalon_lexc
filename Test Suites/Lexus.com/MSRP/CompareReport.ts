@@ -181,7 +181,7 @@
    <testCaseLink>
       <guid>e98a2873-5899-4679-88b3-332896c0ea2e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/Compare/report pages/NX/300 FWD-AWD</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -193,7 +193,7 @@
    <testCaseLink>
       <guid>cef3f4d9-34ba-42e4-ac07-8bbce25b8b11</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/Compare/report pages/NX/300h-FSport FWD-AWD</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -205,7 +205,7 @@
    <testCaseLink>
       <guid>8a3d1148-c6e8-4f9d-9774-410f287992a5</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/Compare/report pages/NX/300LuxuryFWD-AWD-hAWD</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
