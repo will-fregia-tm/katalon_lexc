@@ -25,7 +25,7 @@
    <testCaseLink>
       <guid>7499caea-06df-4185-8c71-ef8395ca7bfe</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages/SUVs/GX/460 Premium</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -73,7 +73,7 @@
    <testCaseLink>
       <guid>54d2d064-a15d-45c7-82ae-6685d18129bf</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages/SUVs/NX/300 AWD</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -97,7 +97,7 @@
    <testCaseLink>
       <guid>471656c6-0e1d-4ee6-b600-1ec827767019</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages/SUVs/NX/300 F Sport FWD</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -109,7 +109,7 @@
    <testCaseLink>
       <guid>2565a1ee-ec65-4400-8241-e612669fa095</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages/SUVs/NX/300 FWD</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -121,7 +121,7 @@
    <testCaseLink>
       <guid>a1dc37b2-2d8d-4b9a-bf72-50a52b20d389</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages/SUVs/NX/300 Luxury AWD</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -133,7 +133,7 @@
    <testCaseLink>
       <guid>d75b2b3d-df1f-4194-901c-6f1d0606b329</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages/SUVs/NX/300 Luxury FWD</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -145,7 +145,7 @@
    <testCaseLink>
       <guid>276278f8-d6d4-4a0e-985d-06318677e515</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages/SUVs/NX/300h AWD</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
