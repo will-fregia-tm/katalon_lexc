@@ -37,7 +37,7 @@
    <testCaseLink>
       <guid>40210375-0a17-4493-bf0d-7d4e9f6a38e5</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/ModelPackages/NX</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -49,7 +49,7 @@
    <testCaseLink>
       <guid>1f484e9c-1347-427d-9ed3-34aba43e8c85</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/ModelPackages/NXh</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
