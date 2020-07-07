@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[(contains(text(), 'Liquid Platinum') or contains(., 'Liquid Platinum'))]</value>
+         <value>//*[(contains(text(), 'Atomic Silver') or contains(., 'Atomic Silver'))]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>contains</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Liquid Platinum</value>
+      <value>Atomic Silver</value>
    </webElementProperties>
 </WebElementEntity>

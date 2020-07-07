@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>[id^=&quot;ModelVisualizer&quot;] > div > div:nth-child(5) > div > div > ul > div > div > div > div:nth-child(2)</value>
+         <value>[id^=&quot;ModelVisualizer&quot;] > div > div:nth-child(5) > div > div > ul > li:nth-child(2)</value>
       </entry>
       <entry>
          <key>BASIC</key>

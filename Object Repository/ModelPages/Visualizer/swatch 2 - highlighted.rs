@@ -6,12 +6,12 @@
    <elementGuidId>e1f682e1-ed92-4140-8037-df5b02af667f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//*[contains(@id, 'ModelVisualizer')]/div/div[5]/div/div/ul/div/div/div/div[2]/div/li[contains(@class, 'selected') and @data-swatch-index = '1']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#ModelVisualizer > div > div > ul > div > div > div > div:nth-child(1)</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[contains(@id, 'ModelVisualizer')]/div/div[5]/div/div/ul/li[contains(@class, 'selected') and @data-swatch-index = '1']</value>
       </entry>
       <entry>
          <key>BASIC</key>

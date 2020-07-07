@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[contains(@id, 'ModelVisualizer')]/div/div[5]/div/div/ul/div/div/div/div[1]/div/li[contains(@class, 'selected')]</value>
+         <value>//*[contains(@id, 'ModelVisualizer')]/div/div[5]/div/div/ul/li[contains(@class, 'selected') and @data-swatch-index = '0']</value>
       </entry>
       <entry>
          <key>BASIC</key>

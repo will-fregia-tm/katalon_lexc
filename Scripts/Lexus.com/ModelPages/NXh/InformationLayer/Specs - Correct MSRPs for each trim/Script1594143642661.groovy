@@ -46,8 +46,8 @@ if (WebUI.verifyLessThan(pageWidth, '1204', FailureHandling.OPTIONAL)) {
 
         textWithMSRP = WebUI.getText(findTestObject('ModelPages/InformationLayer/MSRP - second trim'), FailureHandling.STOP_ON_FAILURE)
 
-        'NX 300 F SPORT'
-        expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 37)
+        'NX 300 AWD'
+        expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 36)
 
         textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
 
@@ -82,8 +82,8 @@ if (WebUI.verifyLessThan(pageWidth, '1204', FailureHandling.OPTIONAL)) {
 
         textWithMSRP = WebUI.getText(findTestObject('ModelPages/InformationLayer/MSRP mobile'), FailureHandling.STOP_ON_FAILURE)
 
-        'NX 300 F SPORT'
-        expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 37)
+        'NX 300 AWD'
+        expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 36)
 
         textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
 
@@ -113,8 +113,8 @@ if (WebUI.verifyGreaterThan(pageWidth, '1204', FailureHandling.OPTIONAL)) {
 
     textWithMSRP = WebUI.getText(findTestObject('ModelPages/InformationLayer/MSRP - second trim'), FailureHandling.STOP_ON_FAILURE)
 
-    'NX 300 F SPORT'
-    expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 37)
+    'NX 300 AWD'
+    expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 36)
 
     textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
 
