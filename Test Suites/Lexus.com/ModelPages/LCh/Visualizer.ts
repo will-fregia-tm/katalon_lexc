@@ -14,7 +14,7 @@
       <guid>5a588b9a-8fe1-4572-9f0f-61eef8b2990c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Lexus.com/ModelPages/LCh/Visualizer/Set Exterior Color - Select non-default swatch</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/NXh/Visualizer/Set Exterior Color - Select non-default swatch</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -26,7 +26,7 @@
       <guid>dc7b8d61-e13e-4fe2-b006-217d71e1a3e0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/ModelPages/LCh/Visualizer/Set Interior Color - View alternative interior angle</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/NXh/Visualizer/Set Interior Color - View alternative interior angle</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>

@@ -14,7 +14,7 @@
       <guid>a3ae9170-3543-41a9-b537-4407569ab3f0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/ModelPages/LC/Visualizer/Set Exterior Color - Select non-default swatch</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/NX/Visualizer/Set Exterior Color - Select non-default swatch</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -26,7 +26,7 @@
       <guid>39497a3b-836b-463e-951f-b6889773051b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/ModelPages/LC/Visualizer/Set Interior Color - View alternative interior angle</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/NX/Visualizer/Set Interior Color - View alternative interior angle</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>

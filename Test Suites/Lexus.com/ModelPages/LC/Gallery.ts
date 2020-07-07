@@ -14,7 +14,7 @@
       <guid>7e2ae2b5-bad1-4431-a0b7-73a9d477f588</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/ModelPages/LC/Gallery/View Expanded Gallery Overlay - close expanded gallery</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/NX/Gallery/View Expanded Gallery Overlay - close expanded gallery</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -26,7 +26,7 @@
       <guid>f4932572-aef3-47c3-adf8-43dc0988ff00</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/ModelPages/LC/Gallery/View Gallery - navigate to next-previous image</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/NX/Gallery/View Gallery - navigate to next-previous image</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -38,7 +38,7 @@
       <guid>19efbd92-edca-4c24-9192-72d6f0d55089</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/ModelPages/LC/Gallery/View Gallery - view content</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/NX/Gallery/View Gallery - view content</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>

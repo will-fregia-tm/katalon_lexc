@@ -14,7 +14,7 @@
       <guid>da30ea97-8104-4328-99e9-ce10ede2b413</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/ModelPages/LC/Performance/Base-Small - Default Landing State</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/NX/Performance/Base-Small - Default Landing State</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -26,7 +26,7 @@
       <guid>dc0b4430-5342-42cd-aea2-e9059101367d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/ModelPages/LC/Performance/Base-Small - Select Story Link</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/NX/Performance/Base-Small - Select Story Link</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -38,7 +38,7 @@
       <guid>daa3e9ec-535d-4b3d-9193-aad9dc6ba5a4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/ModelPages/LC/Performance/CTA - All Features CTA - Access all Performance features</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/NX/Performance/CTA - All Features CTA - Access all Performance features</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -50,7 +50,7 @@
       <guid>ede57e8a-f8ca-4fdb-9f5b-78e650530dd8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/ModelPages/LC/Performance/View More Features Drawer - all elements display properly</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/NX/Performance/View More Features Drawer - all elements display properly</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -62,7 +62,7 @@
       <guid>bc25998f-e5e8-48cb-827d-0168b4ea04bf</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/ModelPages/LC/Performance/View More Features Drawer - carousel when 6 or more features</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/NX/Performance/View More Features Drawer - carousel when 6 or more features</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -74,7 +74,7 @@
       <guid>37d2db6b-121a-4b5f-816b-4293d4712806</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/ModelPages/LC/Performance/View More Features Drawer - collapses when accordion header is clicked</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/NX/Performance/View More Features Drawer - collapses when accordion header is clicked</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -86,7 +86,7 @@
       <guid>ded57c8e-38e7-49bd-937e-c0e721bf7270</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/ModelPages/LC/Performance/View More Features Drawer - expand accordion</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/NX/Performance/View More Features Drawer - expand accordion</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -98,7 +98,7 @@
       <guid>e20ebefa-d3dd-4e66-86da-fe8748d060ed</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Lexus.com/ModelPages/LC/Performance/View More Features Drawer - hyperlink text in body copy</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/NX/Performance/View More Features Drawer - hyperlink text in body copy</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>

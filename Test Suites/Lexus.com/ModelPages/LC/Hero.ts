@@ -14,7 +14,7 @@
       <guid>c1570b01-f9fb-4088-9064-40bb2e597159</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/ModelPages/LC/Hero/Correct MSRP for gas model</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/NX/Hero/Correct MSRP for gas model</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -26,7 +26,7 @@
       <guid>52b03cdc-70fb-4617-a229-e9da86483a8a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/ModelPages/LC/Hero/View Hero - view gas hero</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/NX/Hero/View Hero - view gas hero</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>

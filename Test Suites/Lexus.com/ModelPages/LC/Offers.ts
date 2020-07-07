@@ -14,7 +14,7 @@
       <guid>3522f50a-064f-497b-88dd-d071463cef43</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/ModelPages/LC/Offers/Browse Offers - Change zip</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/NX/Offers/Browse Offers - Change zip</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -26,7 +26,7 @@
       <guid>9c3170a6-b9bc-4e5e-a3e8-6e358cd62156</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/ModelPages/LC/Offers/Change Zipcode - Click Change</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/NX/Offers/Change Zipcode - Click Change</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -38,7 +38,7 @@
       <guid>92024952-b214-4a16-a398-d58550c3ca0b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/ModelPages/LC/Offers/Change Zipcode - Submit new valid zip-code</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/NX/Offers/Change Zipcode - Submit new valid zip-code</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -50,7 +50,7 @@
       <guid>9fe901f4-5a71-4acf-866f-199df2e0a153</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/ModelPages/LC/Offers/Enter Zip Code - Information systems required to submit offers are not functioning</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/NX/Offers/Enter Zip Code - Information systems required to submit offers are not functioning</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -62,7 +62,7 @@
       <guid>3091bf84-58e1-4dcb-8cc2-aaf18af4dfec</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/ModelPages/LC/Offers/Enter Zip Code Unknown location - Enter Valid Zip code</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/NX/Offers/Enter Zip Code Unknown location - Enter Valid Zip code</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -74,7 +74,7 @@
       <guid>60c9119f-0021-42c2-83a9-38494fd9d7bd</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/ModelPages/LC/Offers/Enter Zip Code Unknown location - Expand Zipcode</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/NX/Offers/Enter Zip Code Unknown location - Expand Zipcode</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -86,7 +86,7 @@
       <guid>e79dc755-8188-4ab3-9d6a-0fd8d6dec328</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/ModelPages/LC/Offers/Enter Zip Code Unknown location - Invalid Zip entry</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/NX/Offers/Enter Zip Code Unknown location - Invalid Zip entry</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -98,7 +98,7 @@
       <guid>ab339866-bdc8-4cb4-accc-a85dfe6ca3ab</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/ModelPages/LC/Offers/Enter Zip Code Unknown location - Non-Continental US Zip code Entry</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/NX/Offers/Enter Zip Code Unknown location - Non-Continental US Zip code Entry</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -110,7 +110,7 @@
       <guid>25a48c46-574c-426d-b602-a3fb8cc85733</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/ModelPages/LC/Offers/Enter Zip Code Unknown location - Shared Market Zip Entry</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/NX/Offers/Enter Zip Code Unknown location - Shared Market Zip Entry</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>

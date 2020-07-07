@@ -14,7 +14,7 @@
       <guid>7a3a1ea5-e7d0-484e-8b36-3a2c6bb1a8d7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/ModelPages/LC/Disclaimers/View Disclaimers - Tap-Click</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/NX/Disclaimers/View Disclaimers - Tap-Click</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>

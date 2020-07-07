@@ -14,7 +14,7 @@
       <guid>5c2f3ec5-06d3-4786-8936-93e21aceb30d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/ModelPages/LCh/Gallery/View Expanded Gallery Overlay - close expanded gallery</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/NXh/Gallery/View Expanded Gallery Overlay - close expanded gallery</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -26,7 +26,7 @@
       <guid>f8b75bb6-fcd8-49ae-b6f8-d4e70e8399fb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/ModelPages/LCh/Gallery/View Gallery - navigate to next-previous image</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/NXh/Gallery/View Gallery - navigate to next-previous image</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -38,7 +38,7 @@
       <guid>557b3395-6182-4588-915f-00794b3fa101</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/ModelPages/LCh/Gallery/View Gallery - view content</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/NXh/Gallery/View Gallery - view content</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>

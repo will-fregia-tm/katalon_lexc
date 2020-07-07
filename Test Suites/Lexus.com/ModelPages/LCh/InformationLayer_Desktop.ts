@@ -14,7 +14,7 @@
       <guid>fea61f5f-eca5-402c-b60d-2f4306dd9e3b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Lexus.com/ModelPages/LCh/InformationLayer/Desktop - Add removed model-style(s) to Feature Matrix - Select Multiple Styles</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/NXh/InformationLayer/Desktop - Add removed model-style(s) to Feature Matrix - Select Multiple Styles</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -26,7 +26,7 @@
       <guid>e4fa9784-5a4a-4c30-a481-6b0f3daec18c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/ModelPages/LCh/InformationLayer/Desktop - Add removed model-style(s) to Feature Matrix - Select One Style</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/NXh/InformationLayer/Desktop - Add removed model-style(s) to Feature Matrix - Select One Style</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -38,7 +38,7 @@
       <guid>5f6b95f7-7623-4b16-98d2-877cb3b344aa</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/ModelPages/LCh/InformationLayer/Desktop - Compare Model Features - Feature Legend</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/NXh/InformationLayer/Desktop - Compare Model Features - Feature Legend</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -50,7 +50,7 @@
       <guid>e3a56c1a-a314-470d-97ee-bdf1f5c4a728</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/ModelPages/LCh/InformationLayer/Desktop - Compare Model Features - Features are grouped into Feature Categories</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/NXh/InformationLayer/Desktop - Compare Model Features - Features are grouped into Feature Categories</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -62,7 +62,7 @@
       <guid>9ed2d31d-e188-4118-9a3c-7a4b1031de48</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/ModelPages/LCh/InformationLayer/Features - Correct MSRPs for each trim</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/NXh/InformationLayer/Features - Correct MSRPs for each trim</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -74,7 +74,7 @@
       <guid>1ca8a907-1d1a-49d3-aad1-284938e40462</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/ModelPages/LCh/InformationLayer/Remove model-style from feature matrix - Desktop - Remove model-style</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/NXh/InformationLayer/Remove model-style from feature matrix - Desktop - Remove model-style</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -86,7 +86,7 @@
       <guid>8a42007c-ac27-4322-8630-c95dfcffb8ca</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/ModelPages/LCh/InformationLayer/Specs - Correct MSRPs for each trim</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/NXh/InformationLayer/Specs - Correct MSRPs for each trim</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>

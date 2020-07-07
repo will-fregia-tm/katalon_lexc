@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Correct MSRP values appear for each trim in IL features tab.</description>
+   <name>Features - Correct MSRPs for each trim</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0d5904c8-9d8e-4d80-98d1-2762d04bc66c</testCaseGuid>
+   <variable>
+      <defaultValue>'LChInformationLayerMSRP'</defaultValue>
+      <description></description>
+      <id>8bb3813f-fbcc-4945-938b-95b04a16e984</id>
+      <masked>false</masked>
+      <name>ModelPages</name>
+   </variable>
+</TestCaseEntity>

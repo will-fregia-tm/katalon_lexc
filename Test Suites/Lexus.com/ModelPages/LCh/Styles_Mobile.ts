@@ -14,7 +14,7 @@
       <guid>4c162133-323e-4e27-9a2c-73035fb27c7e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/ModelPages/LCh/Styles/Correct MSRPs for each trim</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/NXh/Styles/Correct MSRPs for each trim</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -26,7 +26,7 @@
       <guid>c7db4ad7-f073-4ec4-a67d-f15758ed54f7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/ModelPages/LCh/Styles/View selected style overview - Style Overview - Default-Non-Special Edition</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/NXh/Styles/View selected style overview - Style Overview - Default-Non-Special Edition</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
