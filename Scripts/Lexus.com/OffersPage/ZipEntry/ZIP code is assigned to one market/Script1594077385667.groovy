@@ -22,6 +22,8 @@ WebUI.navigateToUrl(GlobalVariable.SC_Domain + '/offers')
 
 WebUI.waitForElementPresent(findTestObject('OffersPage/ZipEntry/ZIP entry gate'), 0, FailureHandling.STOP_ON_FAILURE)
 
+WebUI.waitForElementPresent(findTestObject('OffersPage/ZipEntry/ZIP input field'), 0, FailureHandling.STOP_ON_FAILURE)
+
 WebUI.setText(findTestObject('OffersPage/ZipEntry/ZIP input field'), '75218', FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('OffersPage/ZipEntry/search button'), FailureHandling.STOP_ON_FAILURE)
@@ -30,9 +32,9 @@ WebUI.waitForElementPresent(findTestObject('OffersPage/AllOffersView/All Offers 
 
 WebUI.verifyElementPresent(findTestObject('OffersPage/AllOffersView/offer row'), 0, FailureHandling.STOP_ON_FAILURE)
 
-showingZip = WebUI.getText(findTestObject('OffersPage/AllOffersView/showing ZIP'), FailureHandling.OPTIONAL)
+showingZip = WebUI.getText(findTestObject('OffersPage/AllOffersView/showing ZIP'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyMatch(showingZip, '75218', false, FailureHandling.OPTIONAL)
+WebUI.verifyMatch(showingZip, '75218', false, FailureHandling.STOP_ON_FAILURE)
 
 @com.kms.katalon.core.annotation.TearDownIfPassed
 def passed() {
