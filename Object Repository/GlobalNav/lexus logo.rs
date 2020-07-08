@@ -9,8 +9,12 @@
          <key>BASIC</key>
          <value>//*[@id = 'logo']</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#logo</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
