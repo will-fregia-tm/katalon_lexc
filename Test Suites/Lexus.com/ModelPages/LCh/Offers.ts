@@ -98,7 +98,7 @@
       <guid>3a051f51-50a2-42f8-922a-95db8d6d38a4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/ModelPages/LCh/Offers/Enter Zip Code Unknown location - Non-Continental US Zip code Entry</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/LCh/Offers/Enter Zip Code Unknown location - Non-Continental US Zip code Entry - Puerto Rico</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -116,6 +116,18 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>44be82ca-5c33-473b-91a0-06401c8f6738</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d2eb8473-0289-41a2-bf1a-5dc732f377c4</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/LCh/Offers/Enter Zip Code Unknown location - Non-Continental US Zip code Entry - Hawaii</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>51c5f7b3-550e-43ad-9d40-47b8eb31ddc1</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

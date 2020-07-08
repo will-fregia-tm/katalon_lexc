@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Non-continental zip codes return error message, with appropriate website links provided for Hawaii and Puerto Rico zip codes.</description>
+   <name>Enter Zip Code Unknown location - Non-Continental US Zip code Entry - Hawaii</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ddb95556-c210-46c8-9dfa-5bbb526c5572</testCaseGuid>
+   <variable>
+      <defaultValue>'LChOffers'</defaultValue>
+      <description></description>
+      <id>51c5f7b3-550e-43ad-9d40-47b8eb31ddc1</id>
+      <masked>false</masked>
+      <name>ModelPages</name>
+   </variable>
+</TestCaseEntity>
