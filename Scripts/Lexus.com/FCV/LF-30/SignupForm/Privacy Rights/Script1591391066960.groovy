@@ -21,12 +21,14 @@ WebUI.openBrowser(GlobalVariable.TS_Domain + GlobalVariable.Header)
 WebUI.navigateToUrl(GlobalVariable.AEM_Domain_Unauthenticated + '/concept/LF-30-Electrified')
 
 if (WebUI.verifyElementNotPresent(findTestObject('FCV/Hero/hero module'), 3, FailureHandling.OPTIONAL)) {
-	WebUI.refresh()
+    WebUI.refresh()
 }
 
 WebUI.waitForElementPresent(findTestObject('FCV/Hero/hero module'), 3, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForElementPresent(findTestObject('FCV/Hero/Stay Informed button'), 5)
+
+WebUI.verifyElementPresent(findTestObject('GlobalNav/lexus logo'), 0)
 
 WebUI.click(findTestObject('FCV/Hero/Stay Informed button'), FailureHandling.STOP_ON_FAILURE)
 
