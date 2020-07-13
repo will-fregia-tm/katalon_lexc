@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Design</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>15</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>6ff7c926-54f1-423d-80af-190ab6cd4dba</testSuiteGuid>
+   <testCaseLink>
+      <guid>e4065d39-f12d-4f92-97e1-82ffa891e67e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/LCC/Design/Base-Small - Default Landing State</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>42aeb59b-d314-46c9-b1b6-9a154a300007</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b4515939-3c93-49a9-9a24-40e5c03d5e50</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/LCC/Design/Base-Small - Select Story Link</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f9356532-a0ff-44e5-95d1-be7fab933308</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>5aba0a0a-50e4-4d01-b03b-778a72d0d669</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/LCC/Design/CTA - All Features CTA - Access all Design features</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>88316b9a-b4d4-481d-bd1d-18de0912f296</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>51aa0b7b-00a9-45c8-a9b4-00cc21c38490</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/LCC/Design/View More Features Drawer - all elements display properly</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>89829bbf-bb72-473d-9e9c-74708af9c133</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>00f10743-8e51-4788-92e0-03a3886af9f0</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/LCC/Design/View More Features Drawer - carousel when 6 or more features</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>6408e1f5-8af8-435b-b047-8ecedaba1bbe</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>24c0586f-8a77-4df4-bc77-8fcda0c4a6ab</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/LCC/Design/View More Features Drawer - collapses when accordion header is clicked</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>bf481df7-c3af-4eb1-9a1f-9ff5df0b9c80</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8af9fe6f-59f2-4827-914e-d1de6ab937c6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/LCC/Design/View More Features Drawer - expand accordion</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a37bb310-1d30-4091-8164-bb6b311ae13d</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a4d73bb1-22cb-41ec-8568-d6ac6234009a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/LCC/Design/View More Features Drawer - hyperlink text in body copy</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>4255e98b-3057-4b8f-b5f9-351ddcafd880</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

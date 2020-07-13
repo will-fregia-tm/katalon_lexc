@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Styles_Desktop</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>20</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>f0917676-b2e8-4e0d-ba5e-f3d4e671ddd3</testSuiteGuid>
+   <testCaseLink>
+      <guid>6f6f67bf-a345-4550-9f44-3f726ea5cc56</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/LCC/Styles/Access compare styles feature (IL) - Desktop - Click Compare Features</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>0afbb9f0-e448-4ea2-aac8-ad43015ac4f6</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f6ab00f3-524d-47a0-bfe3-6d2ac1e17761</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/LCC/Styles/Correct MSRPs for each trim</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>b7a3073a-ba18-4467-8e37-5e78a789828c</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>22a6bf55-f6bd-4a9c-bd02-4ef3aff62345</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/LCC/Styles/Model Picker - Tabs (Desktop Only) - 2 tabs</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>250a61d5-08be-4df5-a011-68d5eaa8d8df</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a07aee13-66bb-4b20-bf4a-6c30e00d8907</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/LCC/Styles/View selected style overview - Style Overview - Default-Non-Special Edition</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d2209dd5-0b6c-4267-b1e9-f58cf4d9da3d</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

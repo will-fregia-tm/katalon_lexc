@@ -13,7 +13,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser((GlobalVariable.TS_Domain + GlobalVariable.Overview_LCh) + '/technology')
+WebUI.openBrowser((GlobalVariable.TS_Domain + GlobalVariable.Overview_LCC) + '/technology')
 
 WebUI.waitForPageLoad(0)
 

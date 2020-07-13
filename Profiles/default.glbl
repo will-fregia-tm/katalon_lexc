@@ -59,4 +59,9 @@
       <initValue>'/offers'</initValue>
       <name>Offers</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'/models/LC-Convertible'</initValue>
+      <name>Overview_LCC</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

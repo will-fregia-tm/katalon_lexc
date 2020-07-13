@@ -13,7 +13,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser(GlobalVariable.TS_Domain + GlobalVariable.Overview_LCh)
+WebUI.openBrowser(GlobalVariable.TS_Domain + GlobalVariable.Overview_LCC)
 
 WebUI.waitForPageLoad(0)
 
@@ -21,7 +21,7 @@ WebUI.verifyElementVisibleInViewport(findTestObject('ModelPages/Hero/hero'), 0, 
 
 WebUI.verifyElementVisibleInViewport(findTestObject('ModelPages/Hero/image'), 0, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementVisibleInViewport(findTestObject('ModelPages/Hero/model name - LCh'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementVisibleInViewport(findTestObject('ModelPages/Hero/model name - LC Convertible'), 0, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementVisibleInViewport(findTestObject('ModelPages/Hero/model year - 2021'), 0, FailureHandling.STOP_ON_FAILURE)
 
@@ -53,7 +53,7 @@ if (WebUI.verifyElementPresent(findTestObject('ModelPages/Hero/CTA3'), 5, Failur
 
     WebUI.waitForPageLoad(0, FailureHandling.OPTIONAL)
 
-    WebUI.navigateToUrl(GlobalVariable.TS_Domain + GlobalVariable.Overview_ES, FailureHandling.OPTIONAL)
+    WebUI.navigateToUrl(GlobalVariable.TS_Domain + GlobalVariable.Overview_LCC, FailureHandling.OPTIONAL)
 }
 
 if (WebUI.verifyElementPresent(findTestObject('ModelPages/Hero/CTA2'), 5, FailureHandling.OPTIONAL)) {
@@ -63,7 +63,7 @@ if (WebUI.verifyElementPresent(findTestObject('ModelPages/Hero/CTA2'), 5, Failur
 
     WebUI.waitForPageLoad(0, FailureHandling.OPTIONAL)
 
-    WebUI.navigateToUrl(GlobalVariable.TS_Domain + GlobalVariable.Overview_ES, FailureHandling.OPTIONAL)
+    WebUI.navigateToUrl(GlobalVariable.TS_Domain + GlobalVariable.Overview_LCC, FailureHandling.OPTIONAL)
 }
 
 if (WebUI.verifyElementPresent(findTestObject('ModelPages/Hero/CTA1'), 5, FailureHandling.OPTIONAL)) {

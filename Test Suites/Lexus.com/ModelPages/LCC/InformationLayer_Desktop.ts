@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>InformationLayer_Desktop</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>20</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>c3ec2d8c-1d2a-4e99-a56c-5efa37a34648</testSuiteGuid>
+   <testCaseLink>
+      <guid>fc389435-6ac0-44fd-8d68-ccc04a926032</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/LCC/InformationLayer/Desktop - Add removed model-style(s) to Feature Matrix - Select Multiple Styles</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>de9c4cf3-b987-4ef7-bbec-51ffc38d621a</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1755682e-0bea-4594-9333-d22183c29ac0</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/LCC/InformationLayer/Desktop - Add removed model-style(s) to Feature Matrix - Select One Style</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>96b41dbe-5e6a-45b9-bb82-79040e7c7737</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8e9609a9-cb98-4e19-9a9b-3bbe2579877a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/LCC/InformationLayer/Desktop - Compare Model Features - Feature Legend</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>1fef92b8-fb7b-4b92-9c26-94588b42b475</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1c12d03f-e9b0-441f-ae38-49367307a522</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/LCC/InformationLayer/Desktop - Compare Model Features - Features are grouped into Feature Categories</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>269ddff2-a73c-4893-a42b-49b9c3722d17</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e37e0851-5050-493b-9487-75b415f5740e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/LCC/InformationLayer/Features - Correct MSRPs for each trim</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a4cc9efc-8b56-4faa-b128-c5a2cafe95af</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>655def59-dad4-47d0-837d-083dccbad914</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/LCC/InformationLayer/Remove model-style from feature matrix - Desktop - Remove model-style</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>9ab7fd66-5618-41cc-94b9-2749a49821d2</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>54344022-bb3a-49a7-bc8d-78a857ff50c6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/LCC/InformationLayer/Specs - Correct MSRPs for each trim</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>b98b957b-75c8-4ce4-a073-c39d3e1760ec</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

@@ -13,7 +13,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser(GlobalVariable.TS_Domain + GlobalVariable.Overview_LCh)
+WebUI.openBrowser(GlobalVariable.TS_Domain + GlobalVariable.Overview_LCC)
 
 WebUI.waitForPageLoad(0)
 
@@ -23,8 +23,8 @@ WebUI.verifyElementVisible(findTestObject('ModelPages/Hero/starting at MSRP'), F
 
 textWithMSRP = WebUI.getText(findTestObject('ModelPages/Hero/starting at MSRP'), FailureHandling.STOP_ON_FAILURE)
 
-'LC HYBRID'
-expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 71)
+'LC CONVERTIBLE'
+expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 72)
 
 textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
 
