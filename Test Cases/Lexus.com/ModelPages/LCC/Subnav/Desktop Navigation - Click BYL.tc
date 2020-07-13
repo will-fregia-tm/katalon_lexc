@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>BYL CTA in nav bar links to correct BYL model page.</description>
+   <name>Desktop Navigation - Click BYL</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8466f851-9978-4bc5-a528-39b39145b3a2</testCaseGuid>
+   <variable>
+      <defaultValue>'LChSubnav'</defaultValue>
+      <description></description>
+      <id>b7c8e639-1148-4156-8974-a323ca10631b</id>
+      <masked>false</masked>
+      <name>ModelPages</name>
+   </variable>
+</TestCaseEntity>

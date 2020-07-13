@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Correct MSRP values appear for each trim in Styles module.</description>
+   <name>Correct MSRPs for each trim</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f08abedc-ff92-457d-af21-77d2c4d9ddac</testCaseGuid>
+   <variable>
+      <defaultValue>'LChStylesMSRP'</defaultValue>
+      <description></description>
+      <id>b7a3073a-ba18-4467-8e37-5e78a789828c</id>
+      <masked>false</masked>
+      <name>ModelPages</name>
+   </variable>
+</TestCaseEntity>

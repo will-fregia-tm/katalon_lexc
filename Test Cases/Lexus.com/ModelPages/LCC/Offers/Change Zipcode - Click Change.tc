@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Zip entry field appears when change zip CTA is clicked.</description>
+   <name>Change Zipcode - Click Change</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>40f830c9-2539-48a0-b9d0-c10f30d131ae</testCaseGuid>
+   <variable>
+      <defaultValue>'LChOffers'</defaultValue>
+      <description></description>
+      <id>6281c457-8e8d-4562-958c-787cd7a61979</id>
+      <masked>false</masked>
+      <name>ModelPages</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Valid zip code is accepted without errors, and available offers are displayed.</description>
+   <name>Change Zipcode - Submit new valid zip-code</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>25e01136-7862-4a05-9350-454d40a9265a</testCaseGuid>
+   <variable>
+      <defaultValue>'LChOffers'</defaultValue>
+      <description></description>
+      <id>a22a49f4-97d2-420f-a51b-242d5026e0c8</id>
+      <masked>false</masked>
+      <name>ModelPages</name>
+   </variable>
+</TestCaseEntity>

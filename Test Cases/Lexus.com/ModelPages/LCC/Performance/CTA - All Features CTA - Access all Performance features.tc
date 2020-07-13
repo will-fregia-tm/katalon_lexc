@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Clicking on All Performance CTA leads to IL features tab with open Performance accordion.</description>
+   <name>CTA - All Features CTA - Access all Performance features</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>96acaf84-a342-4abe-b994-b6670111f268</testCaseGuid>
+   <variable>
+      <defaultValue>'LChPerformance'</defaultValue>
+      <description></description>
+      <id>b57c2b63-d7d9-4740-a3fc-9b138c52af5e</id>
+      <masked>false</masked>
+      <name>ModelPages</name>
+   </variable>
+</TestCaseEntity>

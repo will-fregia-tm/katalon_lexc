@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Changing exterior color in visualizer updates the visual indication, highlighting, swatch name and asset appropriately.</description>
+   <name>Set Exterior Color - Select non-default swatch</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8f7b9f49-afe3-4e38-96b3-e5ffbc2c5bb6</testCaseGuid>
+   <variable>
+      <defaultValue>'LChVisualizer'</defaultValue>
+      <description></description>
+      <id>5a908d8e-2a40-4aff-9281-db8faa9ccc23</id>
+      <masked>false</masked>
+      <name>ModelPages</name>
+   </variable>
+</TestCaseEntity>

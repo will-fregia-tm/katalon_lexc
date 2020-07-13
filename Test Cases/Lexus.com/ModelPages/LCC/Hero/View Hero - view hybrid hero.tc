@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Correct hybrid model base MSRP appears in hero module.</description>
+   <name>View Hero - view hybrid hero</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5f2031c7-4667-4209-84a2-7ba29304675d</testCaseGuid>
+   <variable>
+      <defaultValue>'LChHero'</defaultValue>
+      <description></description>
+      <id>9ca5b252-c4d3-4cfa-8b05-64f958e7b1c0</id>
+      <masked>false</masked>
+      <name>ModelPages</name>
+   </variable>
+</TestCaseEntity>

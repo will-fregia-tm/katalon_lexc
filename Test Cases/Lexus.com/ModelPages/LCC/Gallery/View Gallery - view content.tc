@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>All required elements are present in the gallery:
+
+1 primary, 2 secondary images
+Pagination (1 of N)
+Image description (if available in CMS)
+Carousel tabs (in both directions, desktop only)
+Expand image/full screen</description>
+   <name>View Gallery - view content</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>64faeede-a600-48d0-861c-f86b65684b9c</testCaseGuid>
+   <variable>
+      <defaultValue>'LChGallery'</defaultValue>
+      <description></description>
+      <id>1439b503-0615-4dab-96a3-8746a4a5acba</id>
+      <masked>false</masked>
+      <name>ModelPages</name>
+   </variable>
+</TestCaseEntity>

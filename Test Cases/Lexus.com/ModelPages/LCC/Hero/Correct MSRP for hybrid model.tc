@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User is able to view the following information in gas model hero:
+
+gas asset ( video or image)
+Model Name 
+Model Year
+Starting at MSRP
+As shown vehicle pricing 
+Disclaimer (when applicable)
+0 to 3 CTAs
+Sub-header text (TBD through CMS)</description>
+   <name>Correct MSRP for hybrid model</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f7e8a845-1840-4ad4-ae79-d50e5939f06f</testCaseGuid>
+   <variable>
+      <defaultValue>'LChHeroMSRP'</defaultValue>
+      <description></description>
+      <id>1cdd0ad7-8839-422d-bb7f-f1851cc85432</id>
+      <masked>false</masked>
+      <name>ModelPages</name>
+   </variable>
+</TestCaseEntity>

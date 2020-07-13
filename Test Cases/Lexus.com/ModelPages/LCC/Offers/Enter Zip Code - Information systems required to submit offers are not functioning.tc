@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User enters  00000  as zip code -> message that offers are temporarily unavailable</description>
+   <name>Enter Zip Code - Information systems required to submit offers are not functioning</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c78ad9ce-44ef-4d74-930b-578d9bc5b98f</testCaseGuid>
+   <variable>
+      <defaultValue>'LChOffers'</defaultValue>
+      <description></description>
+      <id>0aec959b-e37e-4b4c-afb9-c3c633323fe8</id>
+      <masked>false</masked>
+      <name>ModelPages</name>
+   </variable>
+</TestCaseEntity>

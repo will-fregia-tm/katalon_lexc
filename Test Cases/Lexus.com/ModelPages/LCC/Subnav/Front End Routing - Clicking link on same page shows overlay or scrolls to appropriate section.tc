@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Page scrolls to or shows overlay for appropriate section after same-page link is clicked.</description>
+   <name>Front End Routing - Clicking link on same page shows overlay or scrolls to appropriate section</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f32804ac-141a-4c07-994d-184269d848e2</testCaseGuid>
+   <variable>
+      <defaultValue>'LChSubnav'</defaultValue>
+      <description></description>
+      <id>008d59ed-0fda-40a1-baf4-771a70f42353</id>
+      <masked>false</masked>
+      <name>ModelPages</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Selecting a different interior angle updates the shown asset and keeps the same color.</description>
+   <name>Desktop - Add removed model-style(s) to Feature Matrix - Select One Style</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>db92c73c-800e-45d3-9b3c-8f9a5bd9161d</testCaseGuid>
+   <variable>
+      <defaultValue>'LChInformationLayer'</defaultValue>
+      <description></description>
+      <id>96b41dbe-5e6a-45b9-bb82-79040e7c7737</id>
+      <masked>false</masked>
+      <name>ModelPages</name>
+   </variable>
+</TestCaseEntity>

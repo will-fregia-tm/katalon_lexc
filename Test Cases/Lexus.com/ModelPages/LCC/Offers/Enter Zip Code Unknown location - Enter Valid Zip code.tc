@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>When starting with no cookied zip, entering valid zip displays available offers or message stating no offers are available.</description>
+   <name>Enter Zip Code Unknown location - Enter Valid Zip code</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3f571d49-3735-481d-9779-192c398f876a</testCaseGuid>
+   <variable>
+      <defaultValue>'LChOffers'</defaultValue>
+      <description></description>
+      <id>6bf3ed4e-5b5b-4c56-ae65-535a4d4d84b3</id>
+      <masked>false</masked>
+      <name>ModelPages</name>
+   </variable>
+</TestCaseEntity>

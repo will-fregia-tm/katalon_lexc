@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Carousel is present when there are 5+ features in feature set.</description>
+   <name>View More Features Drawer - carousel when 6 or more features</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a628d0d5-9ab4-4bcf-873a-8c1ea05b0012</testCaseGuid>
+   <variable>
+      <defaultValue>'LChDesign'</defaultValue>
+      <description></description>
+      <id>6408e1f5-8af8-435b-b047-8ecedaba1bbe</id>
+      <masked>false</masked>
+      <name>ModelPages</name>
+   </variable>
+</TestCaseEntity>

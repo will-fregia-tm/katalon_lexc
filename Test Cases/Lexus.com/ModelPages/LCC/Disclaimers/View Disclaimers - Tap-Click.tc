@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Tapping/clicking on a disclaimer displays disclaimer text in a tooltip dialog box, which can be closed by tapping/clicking the close (X) button.</description>
+   <name>View Disclaimers - Tap-Click</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>333edd56-0095-4897-aad1-51f153721d20</testCaseGuid>
+   <variable>
+      <defaultValue>'LChDisclaimers'</defaultValue>
+      <description></description>
+      <id>13d1dbb4-ef79-41a4-b3a5-551e72fb966a</id>
+      <masked>false</masked>
+      <name>ModelPages</name>
+   </variable>
+</TestCaseEntity>
