@@ -13,7 +13,7 @@
    <testCaseLink>
       <guid>7e2ae2b5-bad1-4431-a0b7-73a9d477f588</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/ModelPages/LC/Gallery/View Expanded Gallery Overlay - close expanded gallery</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>

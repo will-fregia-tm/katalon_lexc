@@ -24,6 +24,19 @@ WebUI.scrollToElement(findTestObject('ModelPages/Visualizer/visualizer'), 0)
 if (WebUI.verifyGreaterThan(pageWidth, '1204', FailureHandling.OPTIONAL)) {
     WebUI.scrollToElement(findTestObject('ModelPages/Styles/styles heading'), 0)
 
+    WebUI.verifyElementVisible(findTestObject('ModelPages/Styles/model-style 3 starting at price - desktop'), FailureHandling.STOP_ON_FAILURE)
+
+    textWithMSRP = WebUI.getText(findTestObject('ModelPages/Styles/model-style 3 starting at price - desktop'), FailureHandling.STOP_ON_FAILURE)
+
+    'LC CONVERTIBLE'
+    expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 72)
+
+    textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
+
+    WebUI.verifyNotMatch(textWithoutExpectedMSRP, textWithMSRP, false, FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.click(findTestObject('ModelPages/Styles/trim 2 link'), FailureHandling.STOP_ON_FAILURE)
+
     WebUI.verifyElementVisible(findTestObject('ModelPages/Styles/model-style 2 starting at price - desktop'), FailureHandling.STOP_ON_FAILURE)
 
     textWithMSRP = WebUI.getText(findTestObject('ModelPages/Styles/model-style 2 starting at price - desktop'), FailureHandling.STOP_ON_FAILURE)
@@ -53,9 +66,9 @@ if (WebUI.verifyLessThan(pageWidth, '1204', FailureHandling.OPTIONAL)) {
     if (WebUI.verifyGreaterThan(pageWidth, '960', FailureHandling.OPTIONAL)) {
         WebUI.scrollToElement(findTestObject('ModelPages/Styles/styles heading'), 0)
 
-        WebUI.verifyElementVisible(findTestObject('ModelPages/Styles/model-style 2 starting at price - tablet'), FailureHandling.STOP_ON_FAILURE)
+        WebUI.verifyElementVisible(findTestObject('ModelPages/Styles/model-style 3 starting at price - tablet'), FailureHandling.STOP_ON_FAILURE)
 
-        textWithMSRP = WebUI.getText(findTestObject('ModelPages/Styles/model-style 2 starting at price - tablet'), FailureHandling.STOP_ON_FAILURE)
+        textWithMSRP = WebUI.getText(findTestObject('ModelPages/Styles/model-style 3 starting at price - tablet'), FailureHandling.STOP_ON_FAILURE)
 
         'LC HYBRID'
         expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 71)
@@ -83,9 +96,9 @@ if (WebUI.verifyLessThan(pageWidth, '1204', FailureHandling.OPTIONAL)) {
     if (WebUI.verifyLessThan(pageWidth, '960', FailureHandling.OPTIONAL)) {
         WebUI.scrollToElement(findTestObject('ModelPages/Styles/styles heading'), 0)
 
-        WebUI.verifyElementVisible(findTestObject('ModelPages/Styles/model-style 2 starting at price - mobile'), FailureHandling.STOP_ON_FAILURE)
+        WebUI.verifyElementVisible(findTestObject('ModelPages/Styles/model-style 3 starting at price - mobile'), FailureHandling.STOP_ON_FAILURE)
 
-        textWithMSRP = WebUI.getText(findTestObject('ModelPages/Styles/model-style 2 starting at price - mobile'), FailureHandling.STOP_ON_FAILURE)
+        textWithMSRP = WebUI.getText(findTestObject('ModelPages/Styles/model-style 3 starting at price - mobile'), FailureHandling.STOP_ON_FAILURE)
 
         'LC HYBRID'
         expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 71)

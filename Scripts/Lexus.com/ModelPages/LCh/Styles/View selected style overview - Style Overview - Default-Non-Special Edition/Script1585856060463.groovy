@@ -13,11 +13,9 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser(GlobalVariable.TS_Domain + GlobalVariable.Overview_LCh)
+WebUI.openBrowser((GlobalVariable.TS_Domain + GlobalVariable.Overview_LCh) + '/styles')
 
 WebUI.waitForPageLoad(0)
-
-WebUI.scrollToElement(findTestObject('ModelPages/Styles/styles module'), 0)
 
 pageWidth = WebUI.getPageWidth()
 
@@ -32,9 +30,9 @@ if (WebUI.verifyGreaterThan(pageWidth, '1204', FailureHandling.OPTIONAL)) {
 
     WebUI.verifyElementPresent(findTestObject('ModelPages/Styles/horizontal bar - desktop'), 0, FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.scrollToElement(findTestObject('ModelPages/divider 1'), 0)
+    not_run: WebUI.scrollToElement(findTestObject('ModelPages/divider 1'), 0)
 
-    WebUI.scrollToElement(findTestObject('ModelPages/Styles/styles heading'), 0)
+    not_run: WebUI.scrollToElement(findTestObject('ModelPages/Styles/styles heading'), 0)
 
     WebUI.click(findTestObject('ModelPages/Styles/trim 1 link'), FailureHandling.STOP_ON_FAILURE)
 
@@ -132,6 +130,8 @@ if (WebUI.verifyLessThan(pageWidth, '1204', FailureHandling.OPTIONAL)) {
         WebUI.verifyElementPresent(findTestObject('ModelPages/Styles/Accessories link - mobile'), 0, FailureHandling.STOP_ON_FAILURE)
     }
 }
+
+WebUI.scrollToElement(findTestObject('ModelPages/Styles/styles module'), 0)
 
 @com.kms.katalon.core.annotation.TearDownIfPassed
 def passed() {
