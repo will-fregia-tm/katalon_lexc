@@ -32,13 +32,13 @@ WebUI.click(findTestObject('ModelPages/Gallery/expand image button'), FailureHan
 
 WebUI.verifyElementPresent(findTestObject('ModelPages/Gallery/expanded gallery overlay'), 0)
 
-WebUI.click(findTestObject('ModelPages/Gallery/exit button'))
-
-if (WebUI.verifyElementVisible(findTestObject('ModelPages/Gallery/exit button'), FailureHandling.OPTIONAL)) {
-    WebUI.focus(findTestObject('ModelPages/Gallery/exit button'))
-
-    WebUI.sendKeys(findTestObject('ModelPages/Gallery/exit button'), Keys.chord(Keys.ENTER))
+not_run: if (WebUI.verifyElementPresent(findTestObject('ModelPages/development build button'), 0, FailureHandling.OPTIONAL)) {
+    not_run: WebUI.click(findTestObject('ModelPages/Gallery/exit button'))
 }
+
+WebUI.focus(findTestObject('ModelPages/Gallery/exit button'))
+
+WebUI.sendKeys(findTestObject('ModelPages/Gallery/exit button'), Keys.chord(Keys.ENTER))
 
 WebUI.verifyElementVisible(findTestObject('ModelPages/Gallery/gallery heading'), FailureHandling.STOP_ON_FAILURE)
 
