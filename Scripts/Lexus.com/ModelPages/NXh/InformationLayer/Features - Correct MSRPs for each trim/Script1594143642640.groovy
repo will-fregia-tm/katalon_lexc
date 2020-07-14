@@ -119,6 +119,39 @@ if (WebUI.verifyGreaterThan(pageWidth, '1204', FailureHandling.OPTIONAL)) {
     textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
 
     WebUI.verifyNotMatch(textWithoutExpectedMSRP, textWithMSRP, false, FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.verifyElementVisible(findTestObject('ModelPages/InformationLayer/MSRP - third trim'), FailureHandling.STOP_ON_FAILURE)
+
+    textWithMSRP = WebUI.getText(findTestObject('ModelPages/InformationLayer/MSRP - third trim'), FailureHandling.STOP_ON_FAILURE)
+
+    'NX 300 LUXURY'
+    expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 39)
+
+    textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
+
+    WebUI.verifyNotMatch(textWithoutExpectedMSRP, textWithMSRP, false, FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.verifyElementVisible(findTestObject('ModelPages/InformationLayer/MSRP - fourth trim'), FailureHandling.STOP_ON_FAILURE)
+
+    textWithMSRP = WebUI.getText(findTestObject('ModelPages/InformationLayer/MSRP - fourth trim'), FailureHandling.STOP_ON_FAILURE)
+
+    'NX 300h AWD'
+    expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 41)
+
+    textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
+
+    WebUI.verifyNotMatch(textWithoutExpectedMSRP, textWithMSRP, false, FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.verifyElementVisible(findTestObject('ModelPages/InformationLayer/MSRP - fifth trim'), FailureHandling.STOP_ON_FAILURE)
+
+    textWithMSRP = WebUI.getText(findTestObject('ModelPages/InformationLayer/MSRP - fifth trim'), FailureHandling.STOP_ON_FAILURE)
+
+    'NX 300h LUXURY AWD'
+    expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 42)
+
+    textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
+
+    WebUI.verifyNotMatch(textWithoutExpectedMSRP, textWithMSRP, false, FailureHandling.STOP_ON_FAILURE)
 }
 
 @com.kms.katalon.core.annotation.TearDownIfPassed
