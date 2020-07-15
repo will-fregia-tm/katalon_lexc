@@ -61,7 +61,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'/models/LC-Convertible'</initValue>
+      <initValue>'/models/LC-convertible'</initValue>
       <name>Overview_LCC</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
