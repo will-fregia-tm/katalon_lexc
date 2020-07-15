@@ -14,7 +14,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser(GlobalVariable.TS_Domain + GlobalVariable.Overview_NX)
+WebUI.openBrowser(GlobalVariable.TS_Domain + GlobalVariable.Header)
+
+WebUI.navigateToUrl(GlobalVariable.TS_Domain + GlobalVariable.Overview_NX)
 
 WebUI.waitForPageLoad(0)
 
