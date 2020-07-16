@@ -137,6 +137,13 @@ WebUI.click(findTestObject('HomePage/VehicleSelector/models/Coupes - LCh'))
 WebUI.waitForElementVisible(findTestObject('MSRP/section objects/homepage/vehicle selector/vehicle selector - coupes - LCh starting at price'), 
     0, FailureHandling.OPTIONAL)
 
+if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelector/models/Coupes - LC C'), 0, FailureHandling.OPTIONAL)) {
+    WebUI.click(findTestObject('Homepage/VehicleSelector/models/Coupes - LC C'))
+
+    WebUI.waitForElementVisible(findTestObject('MSRP/section objects/homepage/vehicle selector/vehicle selector - coupes - LC C starting at price'), 
+        0, FailureHandling.OPTIONAL)
+}
+
 WebUI.click(findTestObject('HomePage/VehicleSelector/categories/Hybrids'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForElementVisible(findTestObject('HomePage/VehicleSelector/models/Hybrids - UXh'), 0)
@@ -194,6 +201,13 @@ WebUI.click(findTestObject('HomePage/VehicleSelector/models/Performance - LCh'))
 
 WebUI.waitForElementVisible(findTestObject('MSRP/section objects/homepage/vehicle selector/vehicle selector - performance - LCh starting at price'), 
     0, FailureHandling.OPTIONAL)
+
+if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelector/models/Performance - LC C'), 0, FailureHandling.OPTIONAL)) {
+    WebUI.click(findTestObject('Homepage/VehicleSelector/models/Performance - LC C'))
+
+    WebUI.waitForElementVisible(findTestObject('MSRP/section objects/homepage/vehicle selector/vehicle selector - performance - LC C starting at price'), 
+        0, FailureHandling.OPTIONAL)
+}
 
 @com.kms.katalon.core.annotation.TearDownIfPassed
 def passed() {
