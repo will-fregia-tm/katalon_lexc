@@ -386,6 +386,23 @@ textWithMSRP = WebUI.getText(findTestObject('MSRP/section objects/homepage/vehic
 
 WebUI.verifyMatch(textWithMSRP, expectedMSRP, false, FailureHandling.STOP_ON_FAILURE)
 
+if (WebUI.verifyElementPresent(findTestObject('HomePage/VehicleSelector/models/Coupes - LC C'), 0, FailureHandling.OPTIONAL)) {
+    WebUI.click(findTestObject('HomePage/VehicleSelector/models/Coupes - LC C'), FailureHandling.CONTINUE_ON_FAILURE)
+
+    WebUI.waitForElementVisible(findTestObject('MSRP/section objects/homepage/vehicle selector/vehicle selector - coupes - LC C starting at price'), 
+        0, FailureHandling.CONTINUE_ON_FAILURE)
+
+    WebUI.verifyElementVisible(findTestObject('MSRP/section objects/homepage/vehicle selector/vehicle selector - coupes - LC C starting at price'), 
+        FailureHandling.CONTINUE_ON_FAILURE)
+
+    expectedMSRP = (('$' + findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 72)) + '*')
+
+    textWithMSRP = WebUI.getText(findTestObject('MSRP/section objects/homepage/vehicle selector/vehicle selector - coupes - LC C starting at price'), 
+        FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.verifyMatch(textWithMSRP, expectedMSRP, false, FailureHandling.STOP_ON_FAILURE)
+}
+
 WebUI.click(findTestObject('HomePage/VehicleSelector/categories/Hybrids'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.scrollToElement(findTestObject('HomePage/VehicleSelector/categories/Hybrids'), 0)
@@ -577,6 +594,23 @@ textWithMSRP = WebUI.getText(findTestObject('MSRP/section objects/homepage/vehic
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyMatch(textWithMSRP, expectedMSRP, false, FailureHandling.STOP_ON_FAILURE)
+
+if (WebUI.verifyElementPresent(findTestObject('HomePage/VehicleSelector/models/Performance - LC C'), 0, FailureHandling.OPTIONAL)) {
+    WebUI.click(findTestObject('HomePage/VehicleSelector/models/Performance - LC C'), FailureHandling.CONTINUE_ON_FAILURE)
+
+    WebUI.waitForElementVisible(findTestObject('MSRP/section objects/homepage/vehicle selector/vehicle selector - performance - LC C starting at price'), 
+        0, FailureHandling.CONTINUE_ON_FAILURE)
+
+    WebUI.verifyElementVisible(findTestObject('MSRP/section objects/homepage/vehicle selector/vehicle selector - performance - LC C starting at price'), 
+        FailureHandling.CONTINUE_ON_FAILURE)
+
+    expectedMSRP = (('$' + findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 72)) + '*')
+
+    textWithMSRP = WebUI.getText(findTestObject('MSRP/section objects/homepage/vehicle selector/vehicle selector - performance - LC C starting at price'), 
+        FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.verifyMatch(textWithMSRP, expectedMSRP, false, FailureHandling.STOP_ON_FAILURE)
+}
 
 @com.kms.katalon.core.annotation.TearDownIfPassed
 def passed() {
