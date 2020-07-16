@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>special edition module</name>
+   <name>overlay CTA</name>
    <tag></tag>
-   <elementGuidId>2f1196a3-6a4a-4581-80c9-b6eab8d4e4d4</elementGuidId>
+   <elementGuidId>5ae42761-663e-45cb-b18a-363d1c9beba0</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>[id^=&quot;promo&quot;]</value>
+         <value>a[href*=&quot;SpecialEditionHero&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

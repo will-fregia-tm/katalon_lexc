@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>special edition module</name>
+   <name>overlay MSRP</name>
    <tag></tag>
-   <elementGuidId>2f1196a3-6a4a-4581-80c9-b6eab8d4e4d4</elementGuidId>
+   <elementGuidId>21fb1d53-8fc4-4c3e-84bc-1b256cfd4ace</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>[id^=&quot;promo&quot;]</value>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;SpecialEditionHeroInner&quot;]//*[(contains(text(), '$') or contains(., '$'))]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
 </WebElementEntity>
