@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#offers > div:nth-child(4)</value>
+         <value>[id^=&quot;offersModule&quot;] </value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

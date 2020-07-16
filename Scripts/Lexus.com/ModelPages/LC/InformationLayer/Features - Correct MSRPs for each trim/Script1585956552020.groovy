@@ -119,6 +119,19 @@ if (WebUI.verifyGreaterThan(pageWidth, '1204', FailureHandling.OPTIONAL)) {
     textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
 
     WebUI.verifyNotMatch(textWithoutExpectedMSRP, textWithMSRP, false, FailureHandling.STOP_ON_FAILURE)
+
+    if (WebUI.verifyElementPresent(findTestObject('ModelPages/InformationLayer/MSRP - third trim'), 0, FailureHandling.OPTIONAL)) {
+        WebUI.verifyElementVisible(findTestObject('ModelPages/InformationLayer/MSRP - third trim'), FailureHandling.STOP_ON_FAILURE)
+
+        textWithMSRP = WebUI.getText(findTestObject('ModelPages/InformationLayer/MSRP - third trim'), FailureHandling.STOP_ON_FAILURE)
+
+        'LC CONVERTIBLE'
+        expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 72)
+
+        textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
+
+        WebUI.verifyNotMatch(textWithoutExpectedMSRP, textWithMSRP, false, FailureHandling.STOP_ON_FAILURE)
+    }
 }
 
 @com.kms.katalon.core.annotation.TearDownIfPassed
