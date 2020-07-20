@@ -123,7 +123,7 @@ if (WebUI.verifyGreaterThan(pageWidth, '1204', FailureHandling.OPTIONAL)) {
         FailureHandling.STOP_ON_FAILURE)
 
     'NX 300h F SPORT AWD BLACK LINE SPECIAL EDITION'
-    not_run: expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 44)
+    not_run: expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 43)
 
     not_run: textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
 
