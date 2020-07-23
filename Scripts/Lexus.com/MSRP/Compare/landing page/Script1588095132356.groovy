@@ -224,13 +224,6 @@ textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
 
 WebUI.verifyNotMatch(textWithoutExpectedMSRP, textWithMSRP, false, FailureHandling.STOP_ON_FAILURE)
 
-'LC CONVERTIBLE'
-expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 72)
-
-textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
-
-WebUI.verifyNotMatch(textWithoutExpectedMSRP, textWithMSRP, false, FailureHandling.STOP_ON_FAILURE)
-
 WebUI.scrollToElement(findTestObject('MSRP/section objects/compare/landing page/performance - starting at prices'), 0)
 
 WebUI.verifyElementVisible(findTestObject('MSRP/section objects/compare/landing page/performance - starting at prices'))
@@ -260,6 +253,13 @@ WebUI.verifyNotMatch(textWithoutExpectedMSRP, textWithMSRP, false, FailureHandli
 
 'LC HYBRID'
 expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 71)
+
+textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
+
+WebUI.verifyNotMatch(textWithoutExpectedMSRP, textWithMSRP, false, FailureHandling.STOP_ON_FAILURE)
+
+'LC CONVERTIBLE'
+expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 72)
 
 textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
 
