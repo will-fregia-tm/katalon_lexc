@@ -35,6 +35,18 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
+      <guid>3d8d2389-d04a-4847-9243-e9bc0cf0b586</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages/coupes/LC/500 Convertible</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>68717c11-6ee4-44fc-b9ef-ed447b4bd3c4</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
       <guid>7a6a9964-ef42-432f-bd29-4d40b941f210</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
