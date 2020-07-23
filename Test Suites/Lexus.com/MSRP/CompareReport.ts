@@ -254,7 +254,7 @@
       <guid>727be3fa-da7f-47a2-8c0c-be5e0a0aae46</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/MSRP/Compare/report pages/RC F-LC/RC F-LC 500-500h</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/MSRP/Compare/report pages/RC F-LC/RC F-LC 500-500h-Convertible</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>

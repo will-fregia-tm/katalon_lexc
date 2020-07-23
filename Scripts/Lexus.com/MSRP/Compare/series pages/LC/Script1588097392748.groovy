@@ -38,12 +38,22 @@ textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
 
 WebUI.verifyNotMatch(textWithoutExpectedMSRP, textWithMSRP, false, FailureHandling.STOP_ON_FAILURE)
 
+textWithMSRP = WebUI.getText(findTestObject('MSRP/section objects/compare/series pages - JATO IDs/LC/LC 500 Convertible - starting at price'))
+
+'LC 500 Convertible'
+expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 72)
+
+textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
+
+WebUI.verifyNotMatch(textWithoutExpectedMSRP, textWithMSRP, false, FailureHandling.STOP_ON_FAILURE)
+
 @com.kms.katalon.core.annotation.TearDownIfPassed
 def passed() {
-	WebUI.executeJavaScript('sauce:job-result=passed', [])
+    WebUI.executeJavaScript('sauce:job-result=passed', [])
 }
 
 @com.kms.katalon.core.annotation.TearDownIfFailed
 def failed() {
-	WebUI.executeJavaScript('sauce:job-result=failed', [])
+    WebUI.executeJavaScript('sauce:job-result=failed', [])
 }
+
