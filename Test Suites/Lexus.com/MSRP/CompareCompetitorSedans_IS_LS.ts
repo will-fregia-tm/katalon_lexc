@@ -85,7 +85,7 @@
    <testCaseLink>
       <guid>1f6d22a2-d74f-4023-9dd7-58922697ae97</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages/sedans/IS/350 F Sport RWD</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -157,7 +157,7 @@
    <testCaseLink>
       <guid>d85fe739-15d4-428d-ad7c-1f1ac432d71f</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages/sedans/LS/500h AWD</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>

@@ -49,7 +49,7 @@
    <testCaseLink>
       <guid>cbb356e4-4719-4580-8d93-7edf81bd6de4</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages/sedans/ES/350 F Sport</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
