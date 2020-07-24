@@ -354,7 +354,7 @@
             <profileName>prod</profileName>
             <runConfigurationId>saucelabs_safari_ios12_iphone7</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
+         <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/ModelPages/NX/Styles_Mobile</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
