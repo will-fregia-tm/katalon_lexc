@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Project>
    <description></description>
-   <name>katalon_lexc_modelpage_nx</name>
+   <name>katalon_lexc_modelpage_gx</name>
    <tag></tag>
    <UUID>893513ed-4668-43cc-8241-3537b00324d3</UUID>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
-   <projectFileLocation>C:\Users\amcgu\OneDrive\Desktop\katalon_lexc\katalon_lexc_modelpage_nx\katalon_lexc_modelpage_nx.prj</projectFileLocation>
+   <projectFileLocation>C:\Users\zsmith\Desktop\katalon_lexc\katalon_lexc_modelpage_gx\katalon_lexc_modelpage_nx.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>
