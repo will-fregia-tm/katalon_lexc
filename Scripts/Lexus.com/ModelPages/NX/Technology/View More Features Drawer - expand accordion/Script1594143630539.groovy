@@ -29,6 +29,10 @@ WebUI.scrollToElement(findTestObject('ModelPages/Performance/performance module'
 
 WebUI.scrollToElement(findTestObject('ModelPages/Technology/technology module'), 0)
 
+if (WebUI.verifyElementNotVisibleInViewport(findTestObject('ModelPages/Technology/base-small'), 3, FailureHandling.OPTIONAL)) {
+    WebUI.scrollToElement(findTestObject('ModelPages/Technology/technology module'), 0)
+}
+
 WebUI.verifyElementVisible(findTestObject('ModelPages/Technology/base-small'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementNotPresent(findTestObject('ModelPages/Technology/expanded feature'), 0)

@@ -316,9 +316,9 @@
          <configuration>
             <groupName>Custom</groupName>
             <profileName>prod</profileName>
-            <runConfigurationId>saucelabs_edge_win10</runConfigurationId>
+            <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
-         <runEnabled>false</runEnabled>
+         <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/ModelPages/NX/Offers</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
@@ -333,7 +333,7 @@
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Custom</groupName>
-            <profileName>default</profileName>
+            <profileName>prod</profileName>
             <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
@@ -342,7 +342,7 @@
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Custom</groupName>
-            <profileName>default</profileName>
+            <profileName>prod</profileName>
             <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
