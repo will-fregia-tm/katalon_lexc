@@ -15,7 +15,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser(GlobalVariable.TS_Domain + GlobalVariable.Header)
 
-WebUI.navigateToUrl(GlobalVariable.TS_Domain + GlobalVariable.Overview_NX)
+WebUI.navigateToUrl(GlobalVariable.TS_Domain + GlobalVariable.Overview_GX)
 
 WebUI.waitForPageLoad(0)
 
@@ -23,7 +23,7 @@ WebUI.verifyElementVisibleInViewport(findTestObject('ModelPages/Hero/hero'), 0, 
 
 WebUI.verifyElementVisibleInViewport(findTestObject('ModelPages/Hero/image'), 0, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementVisibleInViewport(findTestObject('ModelPages/Hero/model name - NX'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementVisibleInViewport(findTestObject('ModelPages/Hero/model name - GX'), 0, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementVisibleInViewport(findTestObject('ModelPages/Hero/model year - 2021'), 0, FailureHandling.STOP_ON_FAILURE)
 
@@ -55,7 +55,7 @@ if (WebUI.verifyElementPresent(findTestObject('ModelPages/Hero/CTA3'), 5, Failur
 
     WebUI.waitForPageLoad(0, FailureHandling.OPTIONAL)
 
-    WebUI.navigateToUrl(GlobalVariable.TS_Domain + GlobalVariable.Overview_NX, FailureHandling.OPTIONAL)
+    WebUI.navigateToUrl(GlobalVariable.TS_Domain + GlobalVariable.Overview_GX, FailureHandling.OPTIONAL)
 }
 
 if (WebUI.verifyElementPresent(findTestObject('ModelPages/Hero/CTA2'), 5, FailureHandling.OPTIONAL)) {
@@ -65,7 +65,7 @@ if (WebUI.verifyElementPresent(findTestObject('ModelPages/Hero/CTA2'), 5, Failur
 
     WebUI.waitForPageLoad(0, FailureHandling.OPTIONAL)
 
-    WebUI.navigateToUrl(GlobalVariable.TS_Domain + GlobalVariable.Overview_NX, FailureHandling.OPTIONAL)
+    WebUI.navigateToUrl(GlobalVariable.TS_Domain + GlobalVariable.Overview_GX, FailureHandling.OPTIONAL)
 }
 
 if (WebUI.verifyElementPresent(findTestObject('ModelPages/Hero/CTA1'), 5, FailureHandling.OPTIONAL)) {
