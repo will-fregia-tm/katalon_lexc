@@ -85,7 +85,7 @@
    <testCaseLink>
       <guid>355bfde8-1c6d-4f8a-a11c-9336bac62087</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages/SUVs/RX/450h AWD</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -109,7 +109,7 @@
    <testCaseLink>
       <guid>34ce694e-0917-407e-95df-3acdad811472</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages/SUVs/RX/450hL AWD</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -157,7 +157,7 @@
    <testCaseLink>
       <guid>a42e8282-cb9c-4ded-8ebe-240d6590a0e2</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages/SUVs/UX/250h AWD</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>

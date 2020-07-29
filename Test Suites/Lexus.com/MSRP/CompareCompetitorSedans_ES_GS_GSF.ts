@@ -73,7 +73,7 @@
    <testCaseLink>
       <guid>35035213-f184-4733-9c79-1ad62edaca57</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages/sedans/ES/350 Ultra Luxury</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -133,7 +133,7 @@
    <testCaseLink>
       <guid>a52f2976-fc6d-4b6f-9e9d-b14a4c541189</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages/sedans/GS/350 RWD</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
