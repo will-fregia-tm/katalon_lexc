@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[(contains(text(), '$53,000') or contains(., '$53,000')) and @class = 'car-group car-group-Suvs']</value>
+         <value>//div[(contains(text(), '$') or contains(., '$')) and @class = 'car-group car-group-Suvs']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -24,7 +24,7 @@
       <matchCondition>contains</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>$53,000</value>
+      <value>$</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>

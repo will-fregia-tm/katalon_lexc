@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('', FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl(GlobalVariable.TS_Domain + '/compare/NX/competitor/74015082020', FailureHandling.STOP_ON_FAILURE)
+WebUI.navigateToUrl(GlobalVariable.TS_Domain + '/compare/NX/competitor/74015082021', FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForElementPresent(findTestObject('MSRP/section objects/compare/trim pages/sedans/sedans - add vehicle CTA 01'),
 	0)
