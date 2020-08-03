@@ -6,19 +6,19 @@
    <elementGuidId>2c417155-8021-4e41-91a5-44d1d677509f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#design > div:nth-child(2) > div > div > div > div > div:nth-child(2) > div > div > div</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//*[contains(@class, 'App')]/div[3]/div/div/div/div[2]</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//*[@id = 'AllSafety']</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id='design']//a[(contains(text(), 'ALL DESIGN') or contains(., 'ALL DESIGN'))]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#design > div:nth-child(2) > div > div > div > div > div:nth-child(2) > div > div > div</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

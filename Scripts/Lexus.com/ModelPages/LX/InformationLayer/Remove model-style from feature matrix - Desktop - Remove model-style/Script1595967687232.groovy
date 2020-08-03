@@ -36,15 +36,15 @@ if (WebUI.verifyGreaterThan(pageWidth, '960', FailureHandling.OPTIONAL)) {
 
     not_run: WebUI.verifyEqual(column1width, column3width)
 
-    WebUI.verifyElementPresent(findTestObject('ModelPages/InformationLayer/trim heading - NX 300'), 0)
+    WebUI.verifyElementPresent(findTestObject('ModelPages/InformationLayer/trim heading - LX 570 TWO-ROW'), 0)
 
     WebUI.waitForElementPresent(findTestObject('ModelPages/InformationLayer/remove CTA - first column'), 0)
 
     WebUI.click(findTestObject('ModelPages/InformationLayer/remove CTA - first column'), FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.waitForElementNotPresent(findTestObject('ModelPages/InformationLayer/trim heading - NX 300'), 0, FailureHandling.STOP_ON_FAILURE)
+    WebUI.waitForElementNotPresent(findTestObject('ModelPages/InformationLayer/trim heading - LX 570 TWO-ROW'), 0, FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.verifyElementNotPresent(findTestObject('ModelPages/InformationLayer/trim heading - NX 300'), 0)
+    WebUI.verifyElementNotPresent(findTestObject('ModelPages/InformationLayer/trim heading - LX 570 TWO-ROW'), 0)
 
     WebUI.verifyElementPresent(findTestObject('ModelPages/InformationLayer/add feature option'), 0)
 

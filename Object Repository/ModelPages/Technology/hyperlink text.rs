@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>carousel next button</name>
+   <name>hyperlink text</name>
    <tag></tag>
-   <elementGuidId>ef2d41c0-6bcb-44f9-aae7-6c9f51ee833c</elementGuidId>
+   <elementGuidId>502db66d-7db7-43f9-8334-6d444871eade</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id = 'design']/div[2]/div/div/div/div/button</value>
+         <value>//*[@id = 'design']/div[2]/div/div/div/div/div/div/div/div[1]/div/div/div[2]/div/p/a</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
+         <value>#technology > [id^=&quot;moreTechnology&quot;] > div > div > div > div > div a[href]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
 </WebElementEntity>
