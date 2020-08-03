@@ -28,9 +28,9 @@ if (WebUI.verifyGreaterThan(pageWidth, '960', FailureHandling.OPTIONAL)) {
 
     WebUI.click(findTestObject('ModelPages/Styles/Compare CTA - desktop'), FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.waitForElementPresent(findTestObject('ModelPages/InformationLayer/trim heading - NX 300'), 0)
+    WebUI.waitForElementPresent(findTestObject('ModelPages/InformationLayer/trim heading - GX 460'), 0)
 
-    WebUI.verifyElementPresent(findTestObject('ModelPages/InformationLayer/trim heading - NX 300'), 0)
+    WebUI.verifyElementPresent(findTestObject('ModelPages/InformationLayer/trim heading - GX 460'), 0)
 
     WebUI.verifyElementPresent(findTestObject('ModelPages/InformationLayer/trim heading - NX 300h AWD'), 0)
 
@@ -58,9 +58,9 @@ if (WebUI.verifyGreaterThan(pageWidth, '960', FailureHandling.OPTIONAL)) {
 
     WebUI.click(findTestObject('ModelPages/InformationLayer/apply button'))
 
-    WebUI.waitForElementPresent(findTestObject('ModelPages/InformationLayer/trim heading - NX 300'), 0)
+    WebUI.waitForElementPresent(findTestObject('ModelPages/InformationLayer/trim heading - GX 460'), 0)
 
-    WebUI.verifyElementPresent(findTestObject('ModelPages/InformationLayer/trim heading - NX 300'), 0)
+    WebUI.verifyElementPresent(findTestObject('ModelPages/InformationLayer/trim heading - GX 460'), 0)
 
     WebUI.verifyElementPresent(findTestObject('ModelPages/InformationLayer/trim heading - NX 300h AWD'), 0)
 }

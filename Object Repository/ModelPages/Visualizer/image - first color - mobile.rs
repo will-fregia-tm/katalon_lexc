@@ -6,16 +6,16 @@
    <elementGuidId>d1ecdb70-0164-4325-a462-7dfacd936593</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[contains(@src, 'eminent white')]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>#ModelVisualizer > div > div > ul > div > div > div > div:nth-child(1) > div > li > img</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[contains(@id, 'ModelVisualizer')]/div/div[3]/div/div[1]/div/div/div/div[2]/div/div/img[contains(@src, 'eminent-white')]</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[contains(@src, 'eminent white')]</value>
+         <value>//*[contains(@id, 'ModelVisualizer')]/div/div[3]/div/div[1]/div/div/div/div[2]/div/div/img[contains(@src, 'starfire-pearl')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

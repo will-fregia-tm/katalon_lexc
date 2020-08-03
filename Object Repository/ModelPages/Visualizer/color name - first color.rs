@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[(contains(text(), 'Eminent White') or contains(., 'Eminent White'))]</value>
+         <value>//*[(contains(text(), 'Starfire Pearl') or contains(., 'Starfire Pearl'))]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>contains</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Eminent White</value>
+      <value>Starfire Pearl</value>
    </webElementProperties>
 </WebElementEntity>

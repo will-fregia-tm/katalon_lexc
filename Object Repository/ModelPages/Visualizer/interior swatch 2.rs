@@ -6,11 +6,11 @@
    <elementGuidId>b10527d5-a3f0-4a69-a423-e52fe26fbcee</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
+         <key>CSS</key>
+         <value>[id^=&quot;ModelVisualizer&quot;] > div > div:nth-child(5) div[data-index*=&quot;1&quot;]</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>[id^=&quot;ModelVisualizer&quot;] > div > div:nth-child(5) > div > div > ul > li:nth-child(2)</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

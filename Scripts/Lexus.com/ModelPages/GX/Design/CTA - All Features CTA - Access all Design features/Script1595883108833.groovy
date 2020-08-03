@@ -25,6 +25,10 @@ WebUI.scrollToElement(findTestObject('ModelPages/Styles/styles module'), 0)
 
 WebUI.scrollToElement(findTestObject('ModelPages/Design/design module'), 0)
 
+if (WebUI.verifyElementNotVisibleInViewport(findTestObject('ModelPages/Design/base-small'), 3, FailureHandling.OPTIONAL)) {
+	WebUI.scrollToElement(findTestObject('ModelPages/Design/design module'), 0)
+}
+
 WebUI.verifyElementVisible(findTestObject('ModelPages/Design/base-small'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('ModelPages/Design/more features CTA'), FailureHandling.STOP_ON_FAILURE)
