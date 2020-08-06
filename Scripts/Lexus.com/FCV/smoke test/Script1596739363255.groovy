@@ -50,7 +50,7 @@ if (WebUI.verifyNotMatch(currentFeedData, previousFeedData, false, FailureHandli
 	
 	WebUI.openBrowser(GlobalVariable.TS_Domain + GlobalVariable.Header)
 	
-	WebUI.navigateToUrl(GlobalVariable.AEM_Domain_Unauthenticated + '/future/LC-Convertible')
+	WebUI.navigateToUrl(GlobalVariable.AEM_Domain_Unauthenticated + '/concept/LFSA')
 	
 	if (WebUI.verifyElementNotPresent(findTestObject('FCV/Hero/hero module'), 3, FailureHandling.OPTIONAL)) {
 		WebUI.refresh()
@@ -73,6 +73,114 @@ if (WebUI.verifyNotMatch(currentFeedData, previousFeedData, false, FailureHandli
 	WebUI.verifyElementPresent(findTestObject('FCV/Hero/subhead - body copy'), 0, FailureHandling.STOP_ON_FAILURE)
 	
 	WebUI.verifyElementPresent(findTestObject('FCV/Hero/Stay Informed button'), 0, FailureHandling.STOP_ON_FAILURE)
+	
+	WebUI.navigateToUrl(GlobalVariable.AEM_Domain_Unauthenticated + '/concept/lf-1-limitless')
+	
+	if (WebUI.verifyElementNotPresent(findTestObject('FCV/Hero/hero module'), 3, FailureHandling.OPTIONAL)) {
+		WebUI.refresh()
+	}
+	
+	WebUI.waitForElementPresent(findTestObject('FCV/Hero/hero module'), 3, FailureHandling.STOP_ON_FAILURE)
+	
+	WebUI.verifyElementPresent(findTestObject('FCV/Hero/Stay Informed button'), 5)
+	
+	WebUI.verifyElementNotPresent(findTestObject('FCV/SignupForm/form overlay'), 0)
+	
+	WebUI.click(findTestObject('FCV/Hero/Stay Informed button'), FailureHandling.STOP_ON_FAILURE)
+	
+	WebUI.verifyElementPresent(findTestObject('FCV/SignupForm/form overlay'), 0)
+	
+	WebUI.click(findTestObject('FCV/SignupForm/close button'), FailureHandling.STOP_ON_FAILURE)
+	
+	WebUI.verifyElementNotPresent(findTestObject('FCV/SignupForm/form overlay'), 0)
+	
+	WebUI.navigateToUrl(GlobalVariable.AEM_Domain_Unauthenticated + '/concept/LF-30-Electrified')
+	
+	if (WebUI.verifyElementNotPresent(findTestObject('FCV/Hero/hero module'), 3, FailureHandling.OPTIONAL)) {
+		WebUI.refresh()
+	}
+	
+	WebUI.waitForElementPresent(findTestObject('FCV/Hero/hero module'), 3, FailureHandling.STOP_ON_FAILURE)
+	
+	WebUI.waitForPageLoad(0)
+	
+	WebUI.scrollToElement(findTestObject('FCV/Gallery/gallery module'), 5)
+	
+	WebUI.verifyElementNotPresent(findTestObject('FCV/Gallery/visible slide 1'), 5)
+	
+	WebUI.click(findTestObject('FCV/Gallery/thumb 1'), FailureHandling.STOP_ON_FAILURE)
+	
+	WebUI.verifyElementPresent(findTestObject('FCV/Gallery/visible slide 1'), 5)
+	
+	WebUI.click(findTestObject('FCV/Gallery/exit button'))
+	
+	WebUI.verifyElementNotPresent(findTestObject('FCV/Gallery/visible slide 1'), 5)
+	
+	WebUI.navigateToUrl(GlobalVariable.AEM_Domain_Unauthenticated + '/concept/LFFC')
+	
+	if (WebUI.verifyElementNotPresent(findTestObject('FCV/Hero/hero module'), 3, FailureHandling.OPTIONAL)) {
+		WebUI.refresh()
+	}
+	
+	WebUI.waitForElementPresent(findTestObject('FCV/Hero/hero module'), 3, FailureHandling.STOP_ON_FAILURE)
+	
+	WebUI.scrollToElement(findTestObject('FCV/Promo/promo module'), 5, FailureHandling.STOP_ON_FAILURE)
+	
+	subtagText = WebUI.getText(findTestObject('FCV/Promo/model card 1 subtag'), FailureHandling.STOP_ON_FAILURE)
+	
+	WebUI.click(findTestObject('FCV/Promo/model card 1'), FailureHandling.STOP_ON_FAILURE)
+	
+	WebUI.waitForPageLoad(0)
+	
+	WebUI.verifyTextPresent(subtagText, false)
+	
+	WebUI.back()
+	
+	WebUI.scrollToElement(findTestObject('FCV/Promo/promo module'), 5)
+	
+	subtagText = WebUI.getText(findTestObject('FCV/Promo/model card 2 subtag'), FailureHandling.STOP_ON_FAILURE)
+	
+	WebUI.click(findTestObject('FCV/Promo/model card 2'), FailureHandling.STOP_ON_FAILURE)
+	
+	WebUI.waitForPageLoad(0)
+	
+	WebUI.verifyTextPresent(subtagText, false)
+	
+	WebUI.back()
+	
+	WebUI.scrollToElement(findTestObject('FCV/Promo/promo module'), 5)
+	
+	subtagText = WebUI.getText(findTestObject('FCV/Promo/model card 3 subtag'), FailureHandling.STOP_ON_FAILURE)
+	
+	WebUI.click(findTestObject('FCV/Promo/model card 3'), FailureHandling.STOP_ON_FAILURE)
+	
+	WebUI.waitForPageLoad(0)
+	
+	WebUI.verifyTextPresent(subtagText, false)
+	
+	WebUI.back()
+	
+	WebUI.scrollToElement(findTestObject('FCV/Promo/promo module'), 5)
+	
+	subtagText = WebUI.getText(findTestObject('FCV/Promo/model card 4 subtag'), FailureHandling.STOP_ON_FAILURE)
+	
+	WebUI.click(findTestObject('FCV/Promo/model card 4'), FailureHandling.STOP_ON_FAILURE)
+	
+	WebUI.waitForPageLoad(0)
+	
+	WebUI.verifyTextPresent(subtagText, false)
+	
+	WebUI.back()
+	
+	WebUI.scrollToElement(findTestObject('FCV/Promo/promo module'), 5)
+	
+	subtagText = WebUI.getText(findTestObject('FCV/Promo/model card 5 subtag'), FailureHandling.STOP_ON_FAILURE)
+	
+	WebUI.click(findTestObject('FCV/Promo/model card 5 subtag'), FailureHandling.STOP_ON_FAILURE)
+	
+	WebUI.waitForPageLoad(0)
+	
+	WebUI.verifyTextPresent(subtagText, false)
 }
 
 @com.kms.katalon.core.annotation.TearDownIfPassed
