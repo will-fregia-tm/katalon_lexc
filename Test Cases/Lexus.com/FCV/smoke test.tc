@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>send request</name>
+   <name>smoke test</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>45b81d14-0d83-4d44-9447-145011bdb14f</testCaseGuid>

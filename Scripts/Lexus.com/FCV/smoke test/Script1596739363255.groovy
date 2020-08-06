@@ -31,21 +31,49 @@ currentFeedData = WS.sendRequest(findTestObject('assets version')).getResponseTe
 
 WebUI.verifyMatch(currentFeedData, previousFeedData, false, FailureHandling.OPTIONAL)
 
-String excelFilePath = 'Data Files/log.xlsx'
+if (WebUI.verifyNotMatch(currentFeedData, previousFeedData, false, FailureHandling.OPTIONAL)) {
+    String excelFilePath = 'Data Files/log.xlsx'
 
-String sheetName = 'Sheet1'
+    String sheetName = 'Sheet1'
 
-String textToWrite = currentFeedData
+    String textToWrite = currentFeedData
 
-workbook01 = ExcelKeywords.getWorkbook(excelFilePath)
+    workbook01 = ExcelKeywords.getWorkbook(excelFilePath)
 
-sheet01 = ExcelKeywords.getExcelSheet(workbook01, sheetName)
+    sheet01 = ExcelKeywords.getExcelSheet(workbook01, sheetName)
 
-for (int rowIndex = 2; rowIndex < 5; rowIndex++) {
-    ExcelKeywords.setValueToCellByIndex(sheet01, 1, 0, textToWrite)
+    for (int rowIndex = 2; rowIndex < 5; rowIndex++) {
+        ExcelKeywords.setValueToCellByIndex(sheet01, 1, 0, textToWrite)
+    }
+    
+    ExcelKeywords.saveWorkbook(excelFilePath, workbook01)
+	
+	WebUI.openBrowser(GlobalVariable.TS_Domain + GlobalVariable.Header)
+	
+	WebUI.navigateToUrl(GlobalVariable.AEM_Domain_Unauthenticated + '/future/LC-Convertible')
+	
+	if (WebUI.verifyElementNotPresent(findTestObject('FCV/Hero/hero module'), 3, FailureHandling.OPTIONAL)) {
+		WebUI.refresh()
+	}
+	
+	WebUI.waitForElementPresent(findTestObject('FCV/Hero/hero module'), 3, FailureHandling.STOP_ON_FAILURE)
+	
+	WebUI.waitForElementPresent(findTestObject('FCV/Hero/hero module'), 5, FailureHandling.STOP_ON_FAILURE)
+	
+	WebUI.verifyElementPresent(findTestObject('FCV/Hero/image asset'), 0, FailureHandling.STOP_ON_FAILURE)
+	
+	WebUI.verifyElementPresent(findTestObject('FCV/Hero/model name'), 0, FailureHandling.STOP_ON_FAILURE)
+	
+	WebUI.verifyElementPresent(findTestObject('FCV/Hero/model tag'), 0, FailureHandling.STOP_ON_FAILURE)
+	
+	WebUI.verifyElementPresent(findTestObject('FCV/Hero/disclaimer'), 0, FailureHandling.STOP_ON_FAILURE)
+	
+	WebUI.verifyElementPresent(findTestObject('FCV/Hero/headline'), 0, FailureHandling.STOP_ON_FAILURE)
+	
+	WebUI.verifyElementPresent(findTestObject('FCV/Hero/subhead - body copy'), 0, FailureHandling.STOP_ON_FAILURE)
+	
+	WebUI.verifyElementPresent(findTestObject('FCV/Hero/Stay Informed button'), 0, FailureHandling.STOP_ON_FAILURE)
 }
-
-ExcelKeywords.saveWorkbook(excelFilePath, workbook01)
 
 @com.kms.katalon.core.annotation.TearDownIfPassed
 def passed() {
