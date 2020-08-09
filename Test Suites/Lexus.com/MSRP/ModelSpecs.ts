@@ -61,7 +61,7 @@
    <testCaseLink>
       <guid>05c66de1-def2-4c5e-a904-3e92e9f89d6a</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/ModelSpecs/GX</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -109,7 +109,7 @@
    <testCaseLink>
       <guid>6c574299-dbda-4a8d-90d6-527e9997ca3a</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/ModelSpecs/LX</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>

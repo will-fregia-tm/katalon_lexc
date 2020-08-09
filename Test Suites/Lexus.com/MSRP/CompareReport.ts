@@ -73,7 +73,7 @@
    <testCaseLink>
       <guid>7d18893a-f8f2-43aa-8062-5dddc0f098d4</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/Compare/report pages/GX/460-Premium-Luxury</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -169,7 +169,7 @@
    <testCaseLink>
       <guid>ed8a03ab-76e4-49aa-a5f9-f423770821dc</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/Compare/report pages/LX/570 Two Row-Three Row</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
