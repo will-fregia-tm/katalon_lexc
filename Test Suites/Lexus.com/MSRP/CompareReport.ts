@@ -9,11 +9,12 @@
    <pageLoadTimeout>20</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>83457e67-4ff0-4944-8f96-99d3ca765fc3</testSuiteGuid>
    <testCaseLink>
       <guid>80ce59ce-9c1b-465d-95a1-b158cf705c9e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/Compare/report pages/ES/300h Luxury-Ultra Luxury-350 Luxury-Ultra Luxury</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -25,7 +26,7 @@
    <testCaseLink>
       <guid>881f2528-487a-4108-8dbc-cd1fedb6d60b</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/Compare/report pages/ES/300h-350-F Sport</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -265,7 +266,7 @@
    <testCaseLink>
       <guid>3a7d394b-3309-48fb-b919-ed199bd9b3fc</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/Compare/report pages/RX/350 F Sport FWD-AWD</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -277,7 +278,7 @@
    <testCaseLink>
       <guid>c7d47e62-f7ad-48d5-8b67-74eec5ec9a90</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/Compare/report pages/RX/350 FWD-AWD</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -289,7 +290,7 @@
    <testCaseLink>
       <guid>fbab4554-2ce8-4732-bee2-f34735b3d874</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/Compare/report pages/RX/350L FWD-AWD</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -301,7 +302,7 @@
    <testCaseLink>
       <guid>2a63820b-d435-4852-9605-ed84c66d5a79</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/Compare/report pages/RX/450h-F Sport-L AWD</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>

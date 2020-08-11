@@ -9,11 +9,12 @@
    <pageLoadTimeout>20</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>9241459e-16da-475b-84af-d15421924c0e</testSuiteGuid>
    <testCaseLink>
       <guid>fc472b5c-ed9d-4bf0-bf2d-450e32fe1e34</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/ModelSpecs/ES</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -25,7 +26,7 @@
    <testCaseLink>
       <guid>fac5c72f-4c6b-41bd-971a-cb2fb80644c3</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/ModelSpecs/ESh</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -169,7 +170,7 @@
    <testCaseLink>
       <guid>7f3069ac-227f-4143-bab7-0c83169da8b0</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/ModelSpecs/RX</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -181,7 +182,7 @@
    <testCaseLink>
       <guid>8739de2c-fe32-40fb-b5f8-3bbad843fd95</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/ModelSpecs/RXh</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>

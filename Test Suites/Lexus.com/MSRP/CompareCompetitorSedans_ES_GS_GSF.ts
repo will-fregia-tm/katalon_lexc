@@ -9,11 +9,12 @@
    <pageLoadTimeout>20</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>1258ca3c-331e-40fb-b9cf-85129e0b3fde</testSuiteGuid>
    <testCaseLink>
       <guid>ba0fa85c-def3-45c2-9ebe-68156d073395</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages/sedans/ES/300h Luxury</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -37,7 +38,7 @@
    <testCaseLink>
       <guid>c96f76e7-e780-487b-b7de-c92e644bc983</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages/sedans/ES/300h</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -61,7 +62,7 @@
    <testCaseLink>
       <guid>10bcec05-4a66-463c-be61-80e3991d22cb</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages/sedans/ES/350 Luxury</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>

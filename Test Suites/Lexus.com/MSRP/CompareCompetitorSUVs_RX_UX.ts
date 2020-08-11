@@ -9,11 +9,12 @@
    <pageLoadTimeout>20</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>a340ffd7-0361-453f-9cfb-a3c8a5dbf48e</testSuiteGuid>
    <testCaseLink>
       <guid>ac89bc99-2241-4739-b3dd-cd9e385b4687</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages/SUVs/RX/350 AWD</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -37,7 +38,7 @@
    <testCaseLink>
       <guid>9fcc3b28-ec12-4182-be47-8ec3483dcfd2</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages/SUVs/RX/350 F Sport FWD</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -61,7 +62,7 @@
    <testCaseLink>
       <guid>4d773b0b-6cb5-417a-86a8-f4e00b624c4b</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages/SUVs/RX/350L AWD</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -97,7 +98,7 @@
    <testCaseLink>
       <guid>33c356ca-8e3c-4d52-a788-2db30e4be758</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages/SUVs/RX/450h F Sport AWD</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>

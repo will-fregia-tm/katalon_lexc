@@ -9,11 +9,12 @@
    <pageLoadTimeout>20</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>0bedeb46-49a1-4b5f-9f79-a5afdd5e8d97</testSuiteGuid>
    <testCaseLink>
       <guid>16081a55-1859-45ac-8440-381306a22fcd</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/ModelPackages/ES</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -25,7 +26,7 @@
    <testCaseLink>
       <guid>ad5b85e1-2442-44bc-8883-a73cd6cf26c7</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/ModelPackages/ESh</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
