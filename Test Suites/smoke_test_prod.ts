@@ -129,7 +129,7 @@
             <profileName>prod</profileName>
             <runConfigurationId>saucelabs_safari_ios13_ipadpro</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
+         <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/ModelPages/GX/Visualizer</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>

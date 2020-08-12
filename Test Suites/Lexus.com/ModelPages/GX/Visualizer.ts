@@ -9,11 +9,12 @@
    <pageLoadTimeout>20</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>cd0972a2-4328-4da2-8481-2862d02e8ff5</testSuiteGuid>
    <testCaseLink>
       <guid>a3ae9170-3543-41a9-b537-4407569ab3f0</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/ModelPages/GX/Visualizer/Set Exterior Color - Select non-default swatch</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
