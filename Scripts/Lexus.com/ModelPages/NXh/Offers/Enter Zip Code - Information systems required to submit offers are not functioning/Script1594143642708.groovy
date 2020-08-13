@@ -17,9 +17,9 @@ WebUI.openBrowser(GlobalVariable.SC_Domain + GlobalVariable.Offers)
 
 WebUI.navigateToUrl(GlobalVariable.TS_Domain + GlobalVariable.Header)
 
-WebUI.navigateToUrl(GlobalVariable.TS_Domain + GlobalVariable.Overview_NXh)
+WebUI.navigateToUrl(GlobalVariable.TS_Domain + GlobalVariable.Overview_RXh)
 
-WebUI.navigateToUrl(GlobalVariable.TS_Domain_Unauthenticated + GlobalVariable.Overview_NXh)
+WebUI.navigateToUrl(GlobalVariable.TS_Domain_Unauthenticated + GlobalVariable.Overview_RXh)
 
 WebUI.waitForPageLoad(0)
 
