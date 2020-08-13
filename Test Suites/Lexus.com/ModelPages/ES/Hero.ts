@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>c1570b01-f9fb-4088-9064-40bb2e597159</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/ModelPages/ES/Hero/Correct MSRP for gas model</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
