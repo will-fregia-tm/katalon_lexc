@@ -37,8 +37,8 @@ if (WebUI.verifyLessThan(pageWidth, '1204', FailureHandling.OPTIONAL)) {
 
         textWithMSRP = WebUI.getText(findTestObject('ModelPages/InformationLayer/MSRP - first trim'), FailureHandling.STOP_ON_FAILURE)
 
-        'NX 300'
-        expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 35)
+        'ES 250 AWD'
+        expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 81)
 
         textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
 
@@ -48,8 +48,30 @@ if (WebUI.verifyLessThan(pageWidth, '1204', FailureHandling.OPTIONAL)) {
 
         textWithMSRP = WebUI.getText(findTestObject('ModelPages/InformationLayer/MSRP - second trim'), FailureHandling.STOP_ON_FAILURE)
 
-        'NX 300 F SPORT'
-        expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 37)
+        'ES 350'
+        expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 10)
+
+        textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
+
+        WebUI.verifyNotMatch(textWithoutExpectedMSRP, textWithMSRP, false, FailureHandling.STOP_ON_FAILURE)
+
+        WebUI.verifyElementVisible(findTestObject('ModelPages/InformationLayer/MSRP - third trim'), FailureHandling.STOP_ON_FAILURE)
+
+        textWithMSRP = WebUI.getText(findTestObject('ModelPages/InformationLayer/MSRP - third trim'), FailureHandling.STOP_ON_FAILURE)
+
+        'ES 250 LUXURY AWD'
+        expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 82)
+
+        textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
+
+        WebUI.verifyNotMatch(textWithoutExpectedMSRP, textWithMSRP, false, FailureHandling.STOP_ON_FAILURE)
+
+        WebUI.verifyElementVisible(findTestObject('ModelPages/InformationLayer/MSRP - fourth trim'), FailureHandling.STOP_ON_FAILURE)
+
+        textWithMSRP = WebUI.getText(findTestObject('ModelPages/InformationLayer/MSRP - fourth trim'), FailureHandling.STOP_ON_FAILURE)
+
+        'ES 350 LUXURY'
+        expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 11)
 
         textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
 
@@ -69,8 +91,8 @@ if (WebUI.verifyLessThan(pageWidth, '1204', FailureHandling.OPTIONAL)) {
 
         textWithMSRP = WebUI.getText(findTestObject('ModelPages/InformationLayer/MSRP mobile'), FailureHandling.STOP_ON_FAILURE)
 
-        'NX 300'
-        expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 35)
+        'ES 250 AWD'
+        expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 81)
 
         textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
 
@@ -84,8 +106,8 @@ if (WebUI.verifyLessThan(pageWidth, '1204', FailureHandling.OPTIONAL)) {
 
         textWithMSRP = WebUI.getText(findTestObject('ModelPages/InformationLayer/MSRP mobile'), FailureHandling.STOP_ON_FAILURE)
 
-        'NX 300 F SPORT'
-        expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 37)
+        'ES 350'
+        expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 10)
 
         textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
 
@@ -104,8 +126,8 @@ if (WebUI.verifyGreaterThan(pageWidth, '1204', FailureHandling.OPTIONAL)) {
 
     textWithMSRP = WebUI.getText(findTestObject('ModelPages/InformationLayer/MSRP - first trim'), FailureHandling.STOP_ON_FAILURE)
 
-    'NX 300'
-    expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 35)
+    'ES 250 AWD'
+    expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 81)
 
     textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
 
@@ -115,8 +137,8 @@ if (WebUI.verifyGreaterThan(pageWidth, '1204', FailureHandling.OPTIONAL)) {
 
     textWithMSRP = WebUI.getText(findTestObject('ModelPages/InformationLayer/MSRP - second trim'), FailureHandling.STOP_ON_FAILURE)
 
-    'NX 300 F SPORT'
-    expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 37)
+    'ES 350'
+    expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 10)
 
     textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
 
@@ -126,8 +148,8 @@ if (WebUI.verifyGreaterThan(pageWidth, '1204', FailureHandling.OPTIONAL)) {
 
     textWithMSRP = WebUI.getText(findTestObject('ModelPages/InformationLayer/MSRP - third trim'), FailureHandling.STOP_ON_FAILURE)
 
-    'NX 300 LUXURY'
-    expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 39)
+    'ES 250 LUXURY AWD'
+    expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 82)
 
     textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
 
@@ -137,8 +159,8 @@ if (WebUI.verifyGreaterThan(pageWidth, '1204', FailureHandling.OPTIONAL)) {
 
     textWithMSRP = WebUI.getText(findTestObject('ModelPages/InformationLayer/MSRP - fourth trim'), FailureHandling.STOP_ON_FAILURE)
 
-    'NX 300h AWD'
-    expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 41)
+    'ES 350 LUXURY'
+    expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 11)
 
     textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
 
@@ -148,8 +170,85 @@ if (WebUI.verifyGreaterThan(pageWidth, '1204', FailureHandling.OPTIONAL)) {
 
     textWithMSRP = WebUI.getText(findTestObject('ModelPages/InformationLayer/MSRP - fifth trim'), FailureHandling.STOP_ON_FAILURE)
 
-    'NX 300h LUXURY AWD'
-    expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 42)
+    'ES 250 ULTRA LUXURY AWD'
+    expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 83)
+
+    textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
+
+    WebUI.verifyNotMatch(textWithoutExpectedMSRP, textWithMSRP, false, FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.verifyElementVisible(findTestObject('ModelPages/InformationLayer/MSRP - sixth trim'), FailureHandling.STOP_ON_FAILURE)
+
+    textWithMSRP = WebUI.getText(findTestObject('ModelPages/InformationLayer/MSRP - sixth trim'), FailureHandling.STOP_ON_FAILURE)
+
+    'ES 350 ULTRA LUXURY'
+    expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 12)
+
+    textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
+
+    WebUI.verifyNotMatch(textWithoutExpectedMSRP, textWithMSRP, false, FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.verifyElementVisible(findTestObject('ModelPages/InformationLayer/MSRP - seventh trim'), FailureHandling.STOP_ON_FAILURE)
+
+    textWithMSRP = WebUI.getText(findTestObject('ModelPages/InformationLayer/MSRP - seventh trim'), FailureHandling.STOP_ON_FAILURE)
+
+    'ES 250 F SPORT AWD'
+    expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 84)
+
+    textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
+
+    WebUI.verifyNotMatch(textWithoutExpectedMSRP, textWithMSRP, false, FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.verifyElementVisible(findTestObject('ModelPages/InformationLayer/MSRP - eighth trim'), FailureHandling.STOP_ON_FAILURE)
+
+    textWithMSRP = WebUI.getText(findTestObject('ModelPages/InformationLayer/MSRP - eighth trim'), FailureHandling.STOP_ON_FAILURE)
+
+    'ES 350 F SPORT'
+    expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 16)
+
+    textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
+
+    WebUI.verifyNotMatch(textWithoutExpectedMSRP, textWithMSRP, false, FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.verifyElementVisible(findTestObject('ModelPages/InformationLayer/MSRP - ninth trim'), FailureHandling.STOP_ON_FAILURE)
+
+    textWithMSRP = WebUI.getText(findTestObject('ModelPages/InformationLayer/MSRP - ninth trim'), FailureHandling.STOP_ON_FAILURE)
+
+    'ES 350 F SPORT BLACK LINE SPECIAL EDITION'
+    expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 85)
+
+    textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
+
+    WebUI.verifyNotMatch(textWithoutExpectedMSRP, textWithMSRP, false, FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.verifyElementVisible(findTestObject('ModelPages/InformationLayer/MSRP - tenth trim'), FailureHandling.STOP_ON_FAILURE)
+
+    textWithMSRP = WebUI.getText(findTestObject('ModelPages/InformationLayer/MSRP - tenth trim'), FailureHandling.STOP_ON_FAILURE)
+
+    'ES 300h'
+    expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 13)
+
+    textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
+
+    WebUI.verifyNotMatch(textWithoutExpectedMSRP, textWithMSRP, false, FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.verifyElementVisible(findTestObject('ModelPages/InformationLayer/MSRP - eleventh trim'), FailureHandling.STOP_ON_FAILURE)
+
+    textWithMSRP = WebUI.getText(findTestObject('ModelPages/InformationLayer/MSRP - eleventh trim'), FailureHandling.STOP_ON_FAILURE)
+
+    'ES 300h LUXURY'
+    expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 14)
+
+    textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
+
+    WebUI.verifyNotMatch(textWithoutExpectedMSRP, textWithMSRP, false, FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.verifyElementVisible(findTestObject('ModelPages/InformationLayer/MSRP - twelfth trim'), FailureHandling.STOP_ON_FAILURE)
+
+    textWithMSRP = WebUI.getText(findTestObject('ModelPages/InformationLayer/MSRP - twelfth trim'), FailureHandling.STOP_ON_FAILURE)
+
+    'ES 300h ULTRA LUXURY'
+    expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 15)
 
     textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
 
