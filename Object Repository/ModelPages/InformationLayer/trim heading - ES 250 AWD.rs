@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>trim heading - NX 300</name>
+   <name>trim heading - ES 250 AWD</name>
    <tag></tag>
    <elementGuidId>c215521e-d3f3-4f3a-9e05-fee4e36c3953</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;SubPageOverlayScroll&quot;]/div/div/div/div/div[2]/div/div/div[2]/div/div/div[2]/div/div/div[1]/div[1][(text() = 'NX 300' or . = 'NX 300')]</value>
+         <value>//*[@id=&quot;SubPageOverlayScroll&quot;]/div/div/div/div/div[2]/div/div/div[2]/div/div/div[2]/div/div/div[1]/div[1][(text() = 'ES 250 AWD' or . = 'ES 250 AWD')]</value>
       </entry>
       <entry>
          <key>BASIC</key>
