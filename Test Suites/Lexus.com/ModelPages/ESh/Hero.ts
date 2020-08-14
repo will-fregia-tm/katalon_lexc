@@ -26,7 +26,7 @@
    <testCaseLink>
       <guid>a0f57d5e-d699-499f-81e7-f13737e0a710</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Lexus.com/ModelPages/ESh/Hero/View Hero - view hybrid hero</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>

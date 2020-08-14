@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>special edition module</name>
+   <name>ES tab</name>
    <tag></tag>
-   <elementGuidId>2f1196a3-6a4a-4581-80c9-b6eab8d4e4d4</elementGuidId>
+   <elementGuidId>66c92fee-912d-4a4d-bef5-b2eb9664946b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>[id^=&quot;specialEdition&quot;]</value>
+         <value>#styles > div > div > div:nth-child(2) > div > div > ul > li</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>
