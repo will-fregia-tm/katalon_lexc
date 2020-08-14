@@ -38,7 +38,7 @@
    <testCaseLink>
       <guid>df2f88b1-5cd4-40b4-8e10-3f693359eda6</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/ModelPages/RXh/Design/CTA - All Features CTA - Access all Design features</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -62,7 +62,7 @@
    <testCaseLink>
       <guid>78186b0e-039a-41a9-a8d5-84fa42a0eda3</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/ModelPages/RXh/Design/View More Features Drawer - carousel when 6 or more features</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
