@@ -50,7 +50,7 @@
    <testCaseLink>
       <guid>1cf8aeba-b897-47b9-9809-913d3b9b0ba8</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/ModelPages/ESh/Styles/View selected style overview - Style Overview - Default-Non-Special Edition</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>

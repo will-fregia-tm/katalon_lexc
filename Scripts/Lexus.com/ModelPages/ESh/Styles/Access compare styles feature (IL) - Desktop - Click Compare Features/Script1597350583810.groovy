@@ -24,9 +24,9 @@ pageWidth = WebUI.getPageWidth()
 if (WebUI.verifyGreaterThan(pageWidth, '960', FailureHandling.OPTIONAL)) {
     WebUI.scrollToElement(findTestObject('ModelPages/Styles/styles module'), 0)
 
-    WebUI.verifyElementVisibleInViewport(findTestObject('ModelPages/Styles/trim 2 link'), 0, FailureHandling.OPTIONAL)
+    WebUI.verifyElementVisibleInViewport(findTestObject('ModelPages/Styles/trim 10 link'), 0, FailureHandling.OPTIONAL)
 
-    WebUI.click(findTestObject('ModelPages/Styles/trim 2 link'), FailureHandling.STOP_ON_FAILURE)
+    not_run: WebUI.click(findTestObject('ModelPages/Styles/trim 10 link'), FailureHandling.STOP_ON_FAILURE)
 
     WebUI.click(findTestObject('ModelPages/Styles/Compare CTA - desktop'), FailureHandling.STOP_ON_FAILURE)
 
@@ -36,7 +36,7 @@ if (WebUI.verifyGreaterThan(pageWidth, '960', FailureHandling.OPTIONAL)) {
 
     WebUI.verifyElementNotPresent(findTestObject('ModelPages/InformationLayer/second category'), 0)
 
-    activeHighlight = WebUI.getCSSValue(findTestObject('ModelPages/InformationLayer/column 2'), 'background', FailureHandling.STOP_ON_FAILURE)
+    activeHighlight = WebUI.getCSSValue(findTestObject('ModelPages/InformationLayer/column 10'), 'background', FailureHandling.STOP_ON_FAILURE)
 
     WebUI.verifyMatch(activeHighlight, '5px solid rgb(182, 161, 113)', false, FailureHandling.OPTIONAL)
 
