@@ -25,8 +25,8 @@ WebUI.verifyElementVisible(findTestObject('ModelPages/Hero/starting at MSRP'), F
 
 textWithMSRP = WebUI.getText(findTestObject('ModelPages/Hero/starting at MSRP'), FailureHandling.STOP_ON_FAILURE)
 
-'NX HYBRID'
-expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 41)
+'RX HYBRID'
+expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 61)
 
 textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
 
