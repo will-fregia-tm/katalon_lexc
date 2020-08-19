@@ -24,25 +24,17 @@ pageWidth = WebUI.getPageWidth()
 if (WebUI.verifyGreaterThan(pageWidth, '960', FailureHandling.OPTIONAL)) {
     WebUI.scrollToElement(findTestObject('ModelPages/Styles/styles module'), 0)
 
-    WebUI.verifyElementPresent(findTestObject('ModelPages/Styles/model-style tab 1'), 0)
+    if (WebUI.verifyElementNotVisibleInViewport(findTestObject('ModelPages/Styles/styles heading'), 3, FailureHandling.OPTIONAL)) {
+        WebUI.scrollToElement(findTestObject('ModelPages/Visualizer/visualizer'), 0)
 
-    selectedState = WebUI.getAttribute(findTestObject('ModelPages/Styles/model-style tab 1'), 'aria-selected')
+        WebUI.scrollToElement(findTestObject('ModelPages/Styles/styles module'), 0)
+    }
+    
+    WebUI.scrollToElement(findTestObject('ModelPages/Visualizer/visualizer'), 0)
 
-    WebUI.verifyMatch(selectedState, 'true', false)
+    WebUI.scrollToElement(findTestObject('ModelPages/Styles/styles module'), 0)
 
-    unselectedState = WebUI.getAttribute(findTestObject('ModelPages/Styles/model-style tab 2'), 'aria-selected')
-
-    WebUI.verifyMatch(unselectedState, 'false', false)
-
-    WebUI.verifyElementPresent(findTestObject('ModelPages/Styles/base model-style specific jelly - desktop'), 0)
-
-    WebUI.verifyElementPresent(findTestObject('ModelPages/Styles/model-style tab 1'), 0)
-
-    selectedState = WebUI.getAttribute(findTestObject('ModelPages/Styles/model-style tab 1'), 'aria-selected')
-
-    WebUI.verifyMatch(selectedState, 'true', false)
-
-    WebUI.click(findTestObject('ModelPages/Styles/model-style tab 2'), FailureHandling.STOP_ON_FAILURE)
+    WebUI.verifyElementPresent(findTestObject('ModelPages/Styles/model-style tab 2'), 0)
 
     selectedState = WebUI.getAttribute(findTestObject('ModelPages/Styles/model-style tab 2'), 'aria-selected')
 
@@ -56,7 +48,25 @@ if (WebUI.verifyGreaterThan(pageWidth, '960', FailureHandling.OPTIONAL)) {
 
     WebUI.verifyElementPresent(findTestObject('ModelPages/Styles/model-style tab 1'), 0)
 
-    unselectedState = WebUI.getAttribute(findTestObject('ModelPages/Styles/model-style tab 1'), 'aria-selected')
+    selectedState = WebUI.getAttribute(findTestObject('ModelPages/Styles/model-style tab 2'), 'aria-selected')
+
+    WebUI.verifyMatch(selectedState, 'true', false)
+
+    WebUI.click(findTestObject('ModelPages/Styles/model-style tab 1'), FailureHandling.STOP_ON_FAILURE)
+
+    selectedState = WebUI.getAttribute(findTestObject('ModelPages/Styles/model-style tab 1'), 'aria-selected')
+
+    WebUI.verifyMatch(selectedState, 'true', false)
+
+    unselectedState = WebUI.getAttribute(findTestObject('ModelPages/Styles/model-style tab 2'), 'aria-selected')
+
+    WebUI.verifyMatch(unselectedState, 'false', false)
+
+    WebUI.verifyElementPresent(findTestObject('ModelPages/Styles/base model-style specific jelly - desktop'), 0)
+
+    WebUI.verifyElementPresent(findTestObject('ModelPages/Styles/model-style tab 2'), 0)
+
+    unselectedState = WebUI.getAttribute(findTestObject('ModelPages/Styles/model-style tab 2'), 'aria-selected')
 
     WebUI.verifyMatch(unselectedState, 'false', false)
 }

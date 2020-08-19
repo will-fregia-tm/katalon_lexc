@@ -38,7 +38,7 @@
    <testCaseLink>
       <guid>b1acc102-c612-4bd3-aa8d-d1ad77433702</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Lexus.com/ModelPages/ES/Styles/Model Picker - Tabs (Desktop Only) - 2 tabs</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>

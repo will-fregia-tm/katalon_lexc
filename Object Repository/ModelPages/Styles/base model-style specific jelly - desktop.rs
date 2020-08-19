@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#styles > div > div > div:nth-child(3) > div > div > div > div > div > div:nth-child(3) > div > div > img</value>
+         <value>[id^=&quot;styles&quot;] img[alt*=&quot;ES 250 AWD&quot;]</value>
       </entry>
       <entry>
          <key>BASIC</key>

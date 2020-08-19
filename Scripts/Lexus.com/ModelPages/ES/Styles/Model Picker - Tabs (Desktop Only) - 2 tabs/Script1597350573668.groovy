@@ -24,6 +24,12 @@ pageWidth = WebUI.getPageWidth()
 if (WebUI.verifyGreaterThan(pageWidth, '960', FailureHandling.OPTIONAL)) {
     WebUI.scrollToElement(findTestObject('ModelPages/Styles/styles module'), 0)
 
+    if (WebUI.verifyElementNotVisibleInViewport(findTestObject('ModelPages/Styles/styles heading'), 3, FailureHandling.OPTIONAL)) {
+        WebUI.scrollToElement(findTestObject('ModelPages/Visualizer/visualizer'), 0)
+
+        WebUI.scrollToElement(findTestObject('ModelPages/Styles/styles module'), 0)
+    }
+    
     WebUI.verifyElementPresent(findTestObject('ModelPages/Styles/model-style tab 1'), 0)
 
     selectedState = WebUI.getAttribute(findTestObject('ModelPages/Styles/model-style tab 1'), 'aria-selected')
