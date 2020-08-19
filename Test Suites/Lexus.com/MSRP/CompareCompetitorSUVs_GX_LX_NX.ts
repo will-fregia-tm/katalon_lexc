@@ -9,6 +9,7 @@
    <pageLoadTimeout>20</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>75185a00-0ddb-49fe-8524-4bd458f94dda</testSuiteGuid>
    <testCaseLink>
       <guid>f349780c-a8b1-4844-aa33-d2a09626b136</guid>
@@ -49,7 +50,7 @@
    <testCaseLink>
       <guid>ad60cae3-e620-47ae-bb9c-ce58e3eed963</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages/SUVs/LX/570 Three-Row</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -61,7 +62,7 @@
    <testCaseLink>
       <guid>65d6d12d-ffa4-44e0-ba12-398df9fbed77</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages/SUVs/LX/570 Two-Row</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -121,7 +122,7 @@
    <testCaseLink>
       <guid>a1dc37b2-2d8d-4b9a-bf72-50a52b20d389</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages/SUVs/NX/300 Luxury AWD</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -157,7 +158,7 @@
    <testCaseLink>
       <guid>06ea46c5-5e96-461e-9fbb-acf4f3c628da</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages/SUVs/NX/300h Luxury AWD</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>

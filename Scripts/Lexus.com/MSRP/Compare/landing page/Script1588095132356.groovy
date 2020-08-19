@@ -129,11 +129,11 @@ not_run: textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
 not_run: WebUI.verifyNotMatch(textWithoutExpectedMSRP, textWithMSRP, false, FailureHandling.STOP_ON_FAILURE)
 
 'LX 570 Two-Row'
-not_run: expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 32)
+expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 32)
 
-not_run: textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
+textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
 
-not_run: WebUI.verifyNotMatch(textWithoutExpectedMSRP, textWithMSRP, false, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyNotMatch(textWithoutExpectedMSRP, textWithMSRP, false, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.scrollToElement(findTestObject('MSRP/section objects/compare/landing page/coupes - starting at prices'), 0)
 

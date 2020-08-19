@@ -170,7 +170,7 @@
    <testCaseLink>
       <guid>ed8a03ab-76e4-49aa-a5f9-f423770821dc</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/Compare/report pages/LX/570 Two Row-Three Row</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -218,7 +218,7 @@
    <testCaseLink>
       <guid>d323a713-0bae-47db-9163-c12ff830288d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/Compare/report pages/RC/300 F Sport RWD-AWD</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -230,7 +230,7 @@
    <testCaseLink>
       <guid>7bc4abac-2529-47a0-b95f-94a4d9d84df7</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/Compare/report pages/RC/300 RWD-AWD</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
