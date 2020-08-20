@@ -28,22 +28,21 @@ if (WebUI.verifyGreaterThan(pageWidth, '1204', FailureHandling.OPTIONAL)) {
 
     textWithMSRP = WebUI.getText(findTestObject('ModelPages/Styles/model-style 1 starting at price - desktop'), FailureHandling.STOP_ON_FAILURE)
 
-    'RX 350'
+    'RX 350 FWD'
     expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 55)
 
     textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
 
     WebUI.verifyNotMatch(textWithoutExpectedMSRP, textWithMSRP, false, FailureHandling.STOP_ON_FAILURE)
 
-    not_run: textWithMSRP = WebUI.getText(findTestObject('ModelPages/Styles/model-style 1 starting at price - desktop'), 
-        FailureHandling.STOP_ON_FAILURE)
+    textWithMSRP = WebUI.getText(findTestObject('ModelPages/Styles/model-style 1 starting at price - desktop'), FailureHandling.STOP_ON_FAILURE)
 
-    'NX 300 AWD'
-    not_run: expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 36)
+    'RX 350 AWD'
+    expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 56)
 
-    not_run: textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
+    textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
 
-    not_run: WebUI.verifyNotMatch(textWithoutExpectedMSRP, textWithMSRP, false, FailureHandling.STOP_ON_FAILURE)
+    WebUI.verifyNotMatch(textWithoutExpectedMSRP, textWithMSRP, false, FailureHandling.STOP_ON_FAILURE)
 
     WebUI.click(findTestObject('ModelPages/Styles/trim 2 link'), FailureHandling.STOP_ON_FAILURE)
 
@@ -51,22 +50,21 @@ if (WebUI.verifyGreaterThan(pageWidth, '1204', FailureHandling.OPTIONAL)) {
 
     textWithMSRP = WebUI.getText(findTestObject('ModelPages/Styles/model-style 2 starting at price - desktop'), FailureHandling.STOP_ON_FAILURE)
 
-    'RX 350 F SPORT'
+    'RX 350 F SPORT FWD'
     expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 59)
 
     textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
 
     WebUI.verifyNotMatch(textWithoutExpectedMSRP, textWithMSRP, false, FailureHandling.STOP_ON_FAILURE)
 
-    not_run: textWithMSRP = WebUI.getText(findTestObject('ModelPages/Styles/model-style 2 starting at price - desktop'), 
-        FailureHandling.STOP_ON_FAILURE)
+    textWithMSRP = WebUI.getText(findTestObject('ModelPages/Styles/model-style 2 starting at price - desktop'), FailureHandling.STOP_ON_FAILURE)
 
-    'NX 300 F SPORT AWD'
-    not_run: expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 38)
+    'RX 350 F SPORT FWD'
+    expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 60)
 
-    not_run: textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
+    textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
 
-    not_run: WebUI.verifyNotMatch(textWithoutExpectedMSRP, textWithMSRP, false, FailureHandling.STOP_ON_FAILURE)
+    WebUI.verifyNotMatch(textWithoutExpectedMSRP, textWithMSRP, false, FailureHandling.STOP_ON_FAILURE)
 
     WebUI.click(findTestObject('ModelPages/Styles/trim 3 link'), FailureHandling.STOP_ON_FAILURE)
 
@@ -74,22 +72,21 @@ if (WebUI.verifyGreaterThan(pageWidth, '1204', FailureHandling.OPTIONAL)) {
 
     textWithMSRP = WebUI.getText(findTestObject('ModelPages/Styles/model-style 3 starting at price - desktop'), FailureHandling.STOP_ON_FAILURE)
 
-    'RX 350L'
+    'RX 350L FWD'
     expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 57)
 
     textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
 
     WebUI.verifyNotMatch(textWithoutExpectedMSRP, textWithMSRP, false, FailureHandling.STOP_ON_FAILURE)
 
-    not_run: textWithMSRP = WebUI.getText(findTestObject('ModelPages/Styles/model-style 3 starting at price - desktop'), 
-        FailureHandling.STOP_ON_FAILURE)
+    textWithMSRP = WebUI.getText(findTestObject('ModelPages/Styles/model-style 3 starting at price - desktop'), FailureHandling.STOP_ON_FAILURE)
 
-    'NX 300 LUXURY AWD'
-    not_run: expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 40)
+    'RX 350L AWD'
+    expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 58)
 
-    not_run: textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
+    textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
 
-    not_run: WebUI.verifyNotMatch(textWithoutExpectedMSRP, textWithMSRP, false, FailureHandling.STOP_ON_FAILURE)
+    WebUI.verifyNotMatch(textWithoutExpectedMSRP, textWithMSRP, false, FailureHandling.STOP_ON_FAILURE)
 
     WebUI.click(findTestObject('ModelPages/Styles/trim 4 link'), FailureHandling.STOP_ON_FAILURE)
 
@@ -136,8 +133,17 @@ if (WebUI.verifyGreaterThan(pageWidth, '1204', FailureHandling.OPTIONAL)) {
 
     textWithMSRP = WebUI.getText(findTestObject('ModelPages/Styles/model-style 7 starting at price - desktop'), FailureHandling.STOP_ON_FAILURE)
 
-    'RX 350 F SPORT BLACK LINE SPECIAL EDITION'
+    'RX 350 F SPORT BLACK LINE SPECIAL EDITION FWD'
     expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 92)
+
+    textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
+
+    WebUI.verifyNotMatch(textWithoutExpectedMSRP, textWithMSRP, false, FailureHandling.STOP_ON_FAILURE)
+
+    textWithMSRP = WebUI.getText(findTestObject('ModelPages/Styles/model-style 7 starting at price - desktop'), FailureHandling.STOP_ON_FAILURE)
+
+    'RX 350 F SPORT BLACK LINE SPECIAL EDITION AWD'
+    expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 93)
 
     textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
 
