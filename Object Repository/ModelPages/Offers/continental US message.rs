@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[(contains(text(), 'Lexus.com only has information about offers in the continental United States. Local availability and pricing may vary, so we’ll help you find a local dealer.') or contains(., 'Lexus.com only has information about offers in the continental United States. Local availability and pricing may vary, so we’ll help you find a local dealer.')) and contains(@class, 'OffersStatus_small')]</value>
+         <value>//*[(contains(text(), 'Lexus.com only has information about offers in the continental United States') or contains(., 'Lexus.com only has information about offers in the continental United States')) and contains(@class, 'OffersStatus_message')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,13 +17,13 @@
       <matchCondition>contains</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Lexus.com only has information about offers in the continental United States. Local availability and pricing may vary, so we’ll help you find a local dealer.</value>
+      <value>Lexus.com only has information about offers in the continental United States</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>contains</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>OffersStatus_small</value>
+      <value>OffersStatus_message</value>
    </webElementProperties>
 </WebElementEntity>
