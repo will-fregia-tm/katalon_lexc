@@ -21,7 +21,7 @@ WebUI.openBrowser(GlobalVariable.TS_Domain + GlobalVariable.Header)
 WebUI.navigateToUrl(GlobalVariable.AEM_Domain_Unauthenticated + '/concept/lf-1-limitless')
 
 if (WebUI.verifyElementNotPresent(findTestObject('FCV/Hero/hero module'), 3, FailureHandling.OPTIONAL)) {
-	WebUI.refresh()
+    WebUI.refresh()
 }
 
 WebUI.waitForElementPresent(findTestObject('FCV/Hero/hero module'), 3, FailureHandling.STOP_ON_FAILURE)
@@ -34,7 +34,7 @@ WebUI.click(findTestObject('FCV/Promo/model card 1'), FailureHandling.STOP_ON_FA
 
 WebUI.waitForPageLoad(0)
 
-WebUI.verifyTextPresent(subtagText, false)
+not_run: WebUI.verifyTextPresent(subtagText, false)
 
 WebUI.back()
 
@@ -58,7 +58,7 @@ WebUI.click(findTestObject('FCV/Promo/model card 3'), FailureHandling.STOP_ON_FA
 
 WebUI.waitForPageLoad(0)
 
-WebUI.verifyTextPresent(subtagText, false)
+not_run: WebUI.verifyTextPresent(subtagText, false)
 
 WebUI.back()
 
@@ -70,7 +70,7 @@ WebUI.click(findTestObject('FCV/Promo/model card 4'), FailureHandling.STOP_ON_FA
 
 WebUI.waitForPageLoad(0)
 
-WebUI.verifyTextPresent(subtagText, false)
+not_run: WebUI.verifyTextPresent(subtagText, false)
 
 WebUI.back()
 
@@ -82,7 +82,7 @@ WebUI.click(findTestObject('FCV/Promo/model card 5 subtag'), FailureHandling.STO
 
 WebUI.waitForPageLoad(0)
 
-WebUI.verifyTextPresent(subtagText, false)
+not_run: WebUI.verifyTextPresent(subtagText, false)
 
 @com.kms.katalon.core.annotation.TearDownIfPassed
 def passed() {

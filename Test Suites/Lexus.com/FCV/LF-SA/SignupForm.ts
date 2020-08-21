@@ -9,6 +9,7 @@
    <pageLoadTimeout>20</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>094133f6-eb49-4fc5-93f1-a8de5786038b</testSuiteGuid>
    <testCaseLink>
       <guid>ac962966-05cb-4ed3-8a66-4e930c77b7d8</guid>
@@ -25,7 +26,7 @@
    <testCaseLink>
       <guid>7cbfcfeb-29bc-4bd4-9554-dfaba983c22d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/FCV/LF-SA/SignupForm/Deep linking</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
