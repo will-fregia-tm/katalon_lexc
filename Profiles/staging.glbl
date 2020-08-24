@@ -29,4 +29,14 @@
       <initValue>'Staging,Global'</initValue>
       <name>profileTags</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://staging.lexus.com'</initValue>
+      <name>AEM_Domain_Unauthenticated</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'staging'</initValue>
+      <name>DS_version</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
