@@ -7,13 +7,20 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
+         <value>//*[(contains(text(), 'vehicle') or contains(., 'vehicle'))]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;page&quot;]/div/div[1]/div/div[1]/div[2]/div[1]/div/div[2]/button/span[(contains(text(), 'vehicle shown'))]</value>
+         <value>//*[@id=&quot;page&quot;]/div/div[1]/div/div[1]/div[2]/div[1]/div/div[2]/button/span[(contains(text(), 'vehicle shown') or contains(., 'Vehicle Shown'))]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>vehicle</value>
+   </webElementProperties>
 </WebElementEntity>

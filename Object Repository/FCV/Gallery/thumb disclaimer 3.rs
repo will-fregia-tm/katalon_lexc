@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;page&quot;]/div/div[1]/div/div[1]/div[2]/div[1]/div/div[3]/button/span[(contains(text(), 'vehicle shown'))]</value>
+         <value>//*[@id=&quot;page&quot;]/div/div[1]/div/div[1]/div[2]/div[1]/div/div[3]/button/span[(contains(text(), 'vehicle shown') or contains(., 'Vehicle Shown'))]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
