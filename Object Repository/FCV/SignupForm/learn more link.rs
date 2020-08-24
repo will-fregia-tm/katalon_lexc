@@ -6,12 +6,11 @@
    <elementGuidId>28b0715b-c53b-424f-9b20-e3f49a31f286</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>CSS</key>
+         <value>#SubPageOverlayScroll > div > div > div > div:nth-child(3) > div:nth-child(2) > p > a</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>#SubPageOverlayScroll > div > div > div > div:nth-child(3) > div:nth-child(2) > p > a[href='https://privacy.toyota.com/']</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[(contains(text(), 'privacy policy') or contains(., 'privacy policy'))]</value>
+         <value>//*[(contains(text(), 'personal information') or contains(., 'personal information'))]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>contains</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>privacy policy</value>
+      <value>personal information</value>
    </webElementProperties>
 </WebElementEntity>

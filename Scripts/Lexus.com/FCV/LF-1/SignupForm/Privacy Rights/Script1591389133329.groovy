@@ -21,7 +21,7 @@ WebUI.openBrowser(GlobalVariable.TS_Domain + GlobalVariable.Header)
 WebUI.navigateToUrl(GlobalVariable.AEM_Domain_Unauthenticated + '/concept/lf-1-limitless')
 
 if (WebUI.verifyElementNotPresent(findTestObject('FCV/Hero/hero module'), 3, FailureHandling.OPTIONAL)) {
-	WebUI.refresh()
+    WebUI.refresh()
 }
 
 WebUI.waitForElementPresent(findTestObject('FCV/Hero/hero module'), 3, FailureHandling.STOP_ON_FAILURE)
