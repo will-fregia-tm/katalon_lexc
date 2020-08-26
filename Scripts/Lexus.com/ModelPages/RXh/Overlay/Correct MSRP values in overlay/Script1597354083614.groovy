@@ -36,6 +36,20 @@ if (WebUI.verifyElementPresent(findTestObject('ModelPages/Overlay/overlay MSRP')
     textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
 
     WebUI.verifyNotMatch(textWithoutExpectedMSRP, textWithMSRP, false, FailureHandling.STOP_ON_FAILURE)
+
+    'RX 350 F SPORT AWD BLACK LINE SPECIAL EDITION'
+    expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 93)
+
+    textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
+
+    WebUI.verifyNotMatch(textWithoutExpectedMSRP, textWithMSRP, false, FailureHandling.STOP_ON_FAILURE)
+
+    'RX 450h F SPORT AWD BLACK LINE SPECIAL EDITION'
+    expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 94)
+
+    textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
+
+    WebUI.verifyNotMatch(textWithoutExpectedMSRP, textWithMSRP, false, FailureHandling.STOP_ON_FAILURE)
 }
 
 @com.kms.katalon.core.annotation.TearDownIfPassed

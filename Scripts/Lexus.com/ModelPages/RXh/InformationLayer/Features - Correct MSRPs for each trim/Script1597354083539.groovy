@@ -181,7 +181,7 @@ if (WebUI.verifyGreaterThan(pageWidth, '1204', FailureHandling.OPTIONAL)) {
 
     textWithMSRP = WebUI.getText(findTestObject('ModelPages/InformationLayer/MSRP - fifth trim'), FailureHandling.STOP_ON_FAILURE)
 
-    'RX 350 F SPORT BLACK LINE SPECIAL EDITION'
+    'RX 350 F SPORT BLACK LINE SPECIAL EDITION FWD'
     expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 92)
 
     textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
@@ -192,8 +192,8 @@ if (WebUI.verifyGreaterThan(pageWidth, '1204', FailureHandling.OPTIONAL)) {
 
     textWithMSRP = WebUI.getText(findTestObject('ModelPages/InformationLayer/MSRP - sixth trim'), FailureHandling.STOP_ON_FAILURE)
 
-    'RX 350L'
-    expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 57)
+    'RX 350 F SPORT BLACK LINE SPECIAL EDITION AWD'
+    expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 93)
 
     textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
 
@@ -203,8 +203,8 @@ if (WebUI.verifyGreaterThan(pageWidth, '1204', FailureHandling.OPTIONAL)) {
 
     textWithMSRP = WebUI.getText(findTestObject('ModelPages/InformationLayer/MSRP - seventh trim'), FailureHandling.STOP_ON_FAILURE)
 
-    'RX 350L AWD'
-    expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 58)
+    'RX 350L'
+    expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 57)
 
     textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
 
@@ -214,8 +214,8 @@ if (WebUI.verifyGreaterThan(pageWidth, '1204', FailureHandling.OPTIONAL)) {
 
     textWithMSRP = WebUI.getText(findTestObject('ModelPages/InformationLayer/MSRP - eighth trim'), FailureHandling.STOP_ON_FAILURE)
 
-    'RX 450h AWD'
-    expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 61)
+    'RX 350L AWD'
+    expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 58)
 
     textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
 
@@ -225,8 +225,8 @@ if (WebUI.verifyGreaterThan(pageWidth, '1204', FailureHandling.OPTIONAL)) {
 
     textWithMSRP = WebUI.getText(findTestObject('ModelPages/InformationLayer/MSRP - ninth trim'), FailureHandling.STOP_ON_FAILURE)
 
-    'RX 450h F SPORT AWD'
-    expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 63)
+    'RX 450h AWD'
+    expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 61)
 
     textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
 
@@ -236,8 +236,8 @@ if (WebUI.verifyGreaterThan(pageWidth, '1204', FailureHandling.OPTIONAL)) {
 
     textWithMSRP = WebUI.getText(findTestObject('ModelPages/InformationLayer/MSRP - tenth trim'), FailureHandling.STOP_ON_FAILURE)
 
-    'RX 450h F SPORT BLACK LINE SPECIAL EDITION AWD'
-    expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 94)
+    'RX 450h F SPORT AWD'
+    expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 63)
 
     textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
 
@@ -246,6 +246,17 @@ if (WebUI.verifyGreaterThan(pageWidth, '1204', FailureHandling.OPTIONAL)) {
     WebUI.verifyElementVisible(findTestObject('ModelPages/InformationLayer/MSRP - eleventh trim'), FailureHandling.STOP_ON_FAILURE)
 
     textWithMSRP = WebUI.getText(findTestObject('ModelPages/InformationLayer/MSRP - eleventh trim'), FailureHandling.STOP_ON_FAILURE)
+
+    'RX 450h F SPORT BLACK LINE SPECIAL EDITION AWD'
+    expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 94)
+
+    textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
+
+    WebUI.verifyNotMatch(textWithoutExpectedMSRP, textWithMSRP, false, FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.verifyElementVisible(findTestObject('ModelPages/InformationLayer/MSRP - twelfth trim'), FailureHandling.STOP_ON_FAILURE)
+
+    textWithMSRP = WebUI.getText(findTestObject('ModelPages/InformationLayer/MSRP - twelfth trim'), FailureHandling.STOP_ON_FAILURE)
 
     'RX 450hL AWD'
     expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 62)
