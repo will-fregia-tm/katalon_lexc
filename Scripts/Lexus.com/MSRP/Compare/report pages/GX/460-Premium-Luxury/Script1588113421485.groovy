@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.TS_Domain + '/compare/report/5546912020/79298242020,76883342020')
+WebUI.navigateToUrl(GlobalVariable.TS_Domain + '/compare/report/5546912021/79298242021,76883342021')
 
 WebUI.scrollToElement(findTestObject('MSRP/section objects/compare/report pages/pricing header'), 0, FailureHandling.STOP_ON_FAILURE)
 

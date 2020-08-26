@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>f349780c-a8b1-4844-aa33-d2a09626b136</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages/SUVs/GX/460 Luxury</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -26,7 +26,7 @@
    <testCaseLink>
       <guid>7499caea-06df-4185-8c71-ef8395ca7bfe</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages/SUVs/GX/460 Premium</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -38,7 +38,7 @@
    <testCaseLink>
       <guid>8b6667b4-2c08-4fbd-8f2f-fcfd132a6185</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages/SUVs/GX/460</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -62,7 +62,7 @@
    <testCaseLink>
       <guid>65d6d12d-ffa4-44e0-ba12-398df9fbed77</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages/SUVs/LX/570 Two-Row</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -86,7 +86,7 @@
    <testCaseLink>
       <guid>d855bf56-a367-4072-877c-94d9a0b0b301</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages/SUVs/NX/300 F Sport AWD</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>

@@ -74,7 +74,7 @@
    <testCaseLink>
       <guid>7d18893a-f8f2-43aa-8062-5dddc0f098d4</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/Compare/report pages/GX/460-Premium-Luxury</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -98,7 +98,7 @@
    <testCaseLink>
       <guid>8000c146-7db4-4cd1-beea-5bf1422c2cef</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/Compare/report pages/IS/300 RWD-AWD</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -110,7 +110,7 @@
    <testCaseLink>
       <guid>a84b6700-c884-4400-8b06-c0f50fa57822</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/Compare/report pages/IS/350 F Sport RWD-AWD</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
