@@ -86,7 +86,7 @@
    <testCaseLink>
       <guid>cfc9cd1e-d09f-4216-b12c-a2333a14ea31</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/ModelPages/ESh/Subnav/Deep link takes user to pre-determined location on page - Styles</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
