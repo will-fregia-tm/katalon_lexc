@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>Checks for a new build version. If there's a new build, then a quick check ( &lt; 5 minutes) of the component looks for major errors.</description>
-   <name>smoke test</name>
+   <name>GlobalNav</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>b0d8661f-8ba0-4457-9818-11f71967d9dc</testCaseGuid>
+   <testCaseGuid>b37b0bfa-c111-43d9-82a6-dd164b00816e</testCaseGuid>
 </TestCaseEntity>

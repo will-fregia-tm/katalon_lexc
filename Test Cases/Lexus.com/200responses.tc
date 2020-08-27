@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Checks for a new build version. If there's a new build, then a quick check ( &lt; 5 minutes) of the component looks for major errors.</description>
+   <name>200responses</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2975ce6b-43e9-4655-b018-4fc47a906b2f</testCaseGuid>
+   <variable>
+      <defaultValue>1</defaultValue>
+      <description></description>
+      <id>36e6eb5a-6bde-4ac7-a6fc-9e5fd8449e65</id>
+      <masked>false</masked>
+      <name>dataRow</name>
+   </variable>
+   <variable>
+      <defaultValue>1</defaultValue>
+      <description></description>
+      <id>7a5f8960-c977-4b23-ad67-40162de782f8</id>
+      <masked>false</masked>
+      <name>dataColumn</name>
+   </variable>
+   <variable>
+      <defaultValue>10</defaultValue>
+      <description></description>
+      <id>d22176bf-0c0c-4674-a323-8e8c5d01feb2</id>
+      <masked>false</masked>
+      <name>pagesChecked</name>
+   </variable>
+</TestCaseEntity>

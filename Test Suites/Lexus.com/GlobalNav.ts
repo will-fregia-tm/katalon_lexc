@@ -15,6 +15,6 @@
       <guid>101378ef-2cef-410f-8ccd-24f5148dc6ce</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/GlobalNav/smoke test</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/GlobalNav</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
