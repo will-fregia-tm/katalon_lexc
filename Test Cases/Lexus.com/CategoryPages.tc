@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Visits each page in specified list of URLs.</description>
+   <name>CategoryPages</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fa7eda65-f51d-4487-bdcc-24e474da8028</testCaseGuid>
+   <variable>
+      <defaultValue>1</defaultValue>
+      <description></description>
+      <id>a70e71c6-8328-423a-a182-0052c7001e71</id>
+      <masked>false</masked>
+      <name>dataRow</name>
+   </variable>
+   <variable>
+      <defaultValue>1</defaultValue>
+      <description></description>
+      <id>7e6d3cc4-b1fa-4479-9b64-1c1732389931</id>
+      <masked>false</masked>
+      <name>dataColumn</name>
+   </variable>
+   <variable>
+      <defaultValue>5</defaultValue>
+      <description></description>
+      <id>6d4bef6a-62f9-45c4-b36d-8165844411fd</id>
+      <masked>false</masked>
+      <name>pagesChecked</name>
+   </variable>
+   <variable>
+      <defaultValue>1</defaultValue>
+      <description></description>
+      <id>4ed7a5db-03f9-4627-aad0-c10d5861a929</id>
+      <masked>false</masked>
+      <name>totalPages</name>
+   </variable>
+</TestCaseEntity>

@@ -1,17 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>lexus logo</name>
+   <name>model image</name>
    <tag></tag>
-   <elementGuidId>5845ad91-5864-47c7-b0e2-9156e17ae1de</elementGuidId>
+   <elementGuidId>f434e5b1-2300-45a7-a03b-3b5ddd574ea8</elementGuidId>
+   <imagePath></imagePath>
    <selectorCollection>
+      <entry>
+         <key>IMAGE</key>
+         <value></value>
+      </entry>
       <entry>
          <key>BASIC</key>
          <value>//*[@id = 'logo']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#logo</value>
+         <value>#navModelSelectWrap img</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

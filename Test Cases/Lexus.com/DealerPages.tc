@@ -1,29 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>Visits each page in specified list of URLs.</description>
-   <name>modelPages</name>
+   <name>DealerPages</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>7a5e211f-0b8a-4189-a482-b8715323f21c</testCaseGuid>
+   <testCaseGuid>b77e8087-da92-4d83-b3b0-9d3972ae5872</testCaseGuid>
    <variable>
       <defaultValue>1</defaultValue>
       <description></description>
-      <id>d83e6f59-a2a4-4a40-bcc1-0216fd2becfa</id>
+      <id>b5d2e235-b103-460c-9fb5-bae0857def9c</id>
       <masked>false</masked>
       <name>dataRow</name>
    </variable>
    <variable>
       <defaultValue>1</defaultValue>
       <description></description>
-      <id>40f8f2be-4c5b-4f24-ac73-713b8caced95</id>
+      <id>1212466d-3694-4fc2-b4f4-8f0d89364f34</id>
       <masked>false</masked>
       <name>dataColumn</name>
    </variable>
    <variable>
-      <defaultValue>10</defaultValue>
+      <defaultValue>5</defaultValue>
       <description></description>
-      <id>59433688-f9ef-4e23-801d-024026e35188</id>
+      <id>8db085bd-afe9-45ae-b22c-73416806f234</id>
       <masked>false</masked>
       <name>pagesChecked</name>
+   </variable>
+   <variable>
+      <defaultValue>1</defaultValue>
+      <description></description>
+      <id>7a0c13dc-2e39-43d5-bb73-097114459089</id>
+      <masked>false</masked>
+      <name>totalPages</name>
    </variable>
 </TestCaseEntity>

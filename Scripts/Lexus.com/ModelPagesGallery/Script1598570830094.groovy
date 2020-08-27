@@ -17,10 +17,20 @@ import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 import com.kms.katalon.keyword.excel.ExcelKeywords as ExcelKeywords
 
+totalPages = (findTestData(GlobalVariable.DS_version + 'URLsModelPagesGallery').getRowNumbers() - 1)
+
 WebUI.openBrowser(GlobalVariable.TS_Domain + GlobalVariable.Header)
 
-for (def index : (0..348)) {
-    WebUI.navigateToUrl(findTestData(GlobalVariable.DS_version + 'URLs').getValue(dataColumn, dataRow))
+for (def index : (0..totalPages)) {
+    WebUI.navigateToUrl(findTestData(GlobalVariable.DS_version + 'URLsModelPagesGallery').getValue(dataColumn, dataRow))
+
+    WebUI.verifyElementPresent(findTestObject('GlobalNav/lexus logo'), 0)
+
+    WebUI.verifyElementPresent(findTestObject('GlobalNav/model image'), 0)
+
+    WebUI.verifyElementPresent(findTestObject('GlobalNav/footer'), 0)
+
+    WebUI.verifyElementNotPresent(findTestObject('error'), 0)
 
     dataRow = (dataRow + 1)
 }

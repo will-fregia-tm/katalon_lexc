@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Visits each page in specified list of URLs.</description>
+   <name>ModelPagesSafety</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ccec5b62-abd1-44ec-846c-ecf0aa6860a4</testCaseGuid>
+   <variable>
+      <defaultValue>1</defaultValue>
+      <description></description>
+      <id>95be0677-9333-45a5-8a1b-274ef9ab9227</id>
+      <masked>false</masked>
+      <name>dataRow</name>
+   </variable>
+   <variable>
+      <defaultValue>1</defaultValue>
+      <description></description>
+      <id>5214d594-c73c-464d-a1d9-b50ae082b42c</id>
+      <masked>false</masked>
+      <name>dataColumn</name>
+   </variable>
+   <variable>
+      <defaultValue>5</defaultValue>
+      <description></description>
+      <id>56bab3f1-b12d-40e6-96f7-11ba23d029f4</id>
+      <masked>false</masked>
+      <name>pagesChecked</name>
+   </variable>
+   <variable>
+      <defaultValue>1</defaultValue>
+      <description></description>
+      <id>518885da-4c56-4258-93f4-1eec11fd4b4f</id>
+      <masked>false</masked>
+      <name>totalPages</name>
+   </variable>
+</TestCaseEntity>

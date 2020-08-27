@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>lexus logo</name>
+   <name>footer</name>
    <tag></tag>
-   <elementGuidId>5845ad91-5864-47c7-b0e2-9156e17ae1de</elementGuidId>
+   <elementGuidId>94074650-38d8-40e3-81d4-d877a01e11da</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'logo']</value>
+         <value></value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#logo</value>
+         <value>#footer-module</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>logo</value>
-   </webElementProperties>
 </WebElementEntity>
