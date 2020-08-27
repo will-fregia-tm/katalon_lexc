@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>Visits each page in specified list of URLs.</description>
-   <name>200responses</name>
+   <name>allPages</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>2975ce6b-43e9-4655-b018-4fc47a906b2f</testCaseGuid>
+   <testCaseGuid>8c6b19e5-4372-490a-8a29-3cb0d00097e5</testCaseGuid>
    <variable>
       <defaultValue>1</defaultValue>
       <description></description>
-      <id>36e6eb5a-6bde-4ac7-a6fc-9e5fd8449e65</id>
+      <id>165f706d-602f-411b-a613-611a38257c81</id>
       <masked>false</masked>
       <name>dataRow</name>
    </variable>
    <variable>
       <defaultValue>1</defaultValue>
       <description></description>
-      <id>7a5f8960-c977-4b23-ad67-40162de782f8</id>
+      <id>195b238f-7f82-48e6-80c7-5f314320f54b</id>
       <masked>false</masked>
       <name>dataColumn</name>
    </variable>
    <variable>
       <defaultValue>10</defaultValue>
       <description></description>
-      <id>d22176bf-0c0c-4674-a323-8e8c5d01feb2</id>
+      <id>d99edc6d-5883-44be-92de-5da7871f9de2</id>
       <masked>false</masked>
       <name>pagesChecked</name>
    </variable>
