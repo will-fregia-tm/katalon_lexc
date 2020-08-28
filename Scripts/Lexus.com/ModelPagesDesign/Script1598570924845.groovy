@@ -24,11 +24,11 @@ WebUI.openBrowser(GlobalVariable.TS_Domain + GlobalVariable.Header)
 for (def index : (0..totalPages)) {
     WebUI.navigateToUrl(findTestData(GlobalVariable.DS_version + 'URLsModelPagesDesign').getValue(dataColumn, dataRow))
 
-    WebUI.verifyElementPresent(findTestObject('GlobalNav/lexus logo'), 0)
+    not_run: WebUI.verifyElementPresent(findTestObject('GlobalNav/lexus logo'), 0)
 
-    WebUI.verifyElementPresent(findTestObject('GlobalNav/model image'), 0)
+    not_run: WebUI.verifyElementPresent(findTestObject('GlobalNav/model image'), 0)
 
-    WebUI.verifyElementPresent(findTestObject('GlobalNav/footer'), 0)
+    not_run: WebUI.verifyElementPresent(findTestObject('GlobalNav/footer'), 0)
 
     WebUI.verifyElementNotPresent(findTestObject('error'), 0)
 

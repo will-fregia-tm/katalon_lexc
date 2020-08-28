@@ -24,12 +24,15 @@ WebUI.openBrowser(GlobalVariable.TS_Domain + GlobalVariable.Header)
 for (def index : (0..totalPages)) {
     WebUI.navigateToUrl(findTestData(GlobalVariable.DS_version + 'URLsModelPagesOwners').getValue(dataColumn, dataRow))
 
-    WebUI.verifyElementPresent(findTestObject('GlobalNav/lexus logo'), 0)
+    'verifies no redirect to Lexus Drivers'
+    not_run: if (WebUI.verifyElementNotPresent(findTestObject('GlobalNav/drivers logo'), 3, FailureHandling.OPTIONAL)) {
+        WebUI.verifyElementPresent(findTestObject('GlobalNav/lexus logo'), 0)
 
-    WebUI.verifyElementPresent(findTestObject('GlobalNav/model image'), 0)
+        WebUI.verifyElementPresent(findTestObject('GlobalNav/model image'), 0)
 
-    WebUI.verifyElementPresent(findTestObject('GlobalNav/footer'), 0)
-
+        WebUI.verifyElementPresent(findTestObject('GlobalNav/footer'), 0)
+    }
+    
     WebUI.verifyElementNotPresent(findTestObject('error'), 0)
 
     dataRow = (dataRow + 1)

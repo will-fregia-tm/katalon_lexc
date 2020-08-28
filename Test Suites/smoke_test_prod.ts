@@ -4,7 +4,7 @@
    <name>smoke_test_prod</name>
    <tag></tag>
    <executionMode>PARALLEL</executionMode>
-   <maxConcurrentInstances>8</maxConcurrentInstances>
+   <maxConcurrentInstances>4</maxConcurrentInstances>
    <testSuiteRunConfigurations>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -41,15 +41,6 @@
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/ErrorPages</testSuiteEntity>
-      </TestSuiteRunConfiguration>
-      <TestSuiteRunConfiguration>
-         <configuration>
-            <groupName>Custom</groupName>
-            <profileName>prod</profileName>
-            <runConfigurationId>saucelabs_firefox_win10</runConfigurationId>
-         </configuration>
-         <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/GlobalNav</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
