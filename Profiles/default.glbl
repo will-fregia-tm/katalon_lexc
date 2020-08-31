@@ -49,4 +49,14 @@
       <initValue>'prod'</initValue>
       <name>DS_version</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Test Cases/'</initValue>
+      <name>folderName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>testName</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

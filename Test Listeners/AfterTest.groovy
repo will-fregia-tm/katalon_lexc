@@ -32,9 +32,18 @@ class AfterTest {
 	def AfterTestCase(TestCaseContext testCaseContext) {
 		println testCaseContext.getTestCaseId()
 		println testCaseContext.getTestCaseStatus()
+		GlobalVariable.folderName = 'Test Cases/'
 		GlobalVariable.currentTestCaseID = testCaseContext.getTestCaseId()
+		def testName = GlobalVariable.currentTestCaseID //get current testcase name
+		String[] parts = testName.split("/"); //split it to using delimeter /
+		String one = parts[parts.length-1];
+		String two = parts[parts.length-2];
+		String three = parts[parts.length-3];
+		println three
+		println two
+		testName = one
 		WebUI.executeJavaScript('sauce:job-tags=Katalon,Lexus.com,' + (GlobalVariable.profileTags), [])
-		WebUI.executeJavaScript('sauce:job-name=' + (GlobalVariable.currentTestCaseID), [])
+		WebUI.executeJavaScript('sauce:job-name=' + (testName), [])
 		WebUI.closeBrowser()
 	}
 }
