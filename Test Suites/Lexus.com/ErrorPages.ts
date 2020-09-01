@@ -15,7 +15,7 @@
       <guid>849869fb-281e-4548-9f15-ad0762c00837</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/ErrorPages</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/ErrorPages/error message is present</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>

@@ -32,7 +32,6 @@ class AfterTest {
 	def AfterTestCase(TestCaseContext testCaseContext) {
 		println testCaseContext.getTestCaseId()
 		println testCaseContext.getTestCaseStatus()
-		GlobalVariable.folderName = 'Test Cases/'
 		GlobalVariable.currentTestCaseID = testCaseContext.getTestCaseId()
 		def testName = GlobalVariable.currentTestCaseID //get current testcase name
 		String[] parts = testName.split("/"); //split it to using delimeter /
@@ -41,7 +40,7 @@ class AfterTest {
 		String three = parts[parts.length-3];
 		println three
 		println two
-		testName = one
+		testName = two + ' | ' + one
 		WebUI.executeJavaScript('sauce:job-tags=Katalon,Lexus.com,' + (GlobalVariable.profileTags), [])
 		WebUI.executeJavaScript('sauce:job-name=' + (testName), [])
 		WebUI.closeBrowser()

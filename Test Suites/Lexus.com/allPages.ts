@@ -15,7 +15,7 @@
       <guid>993f4c32-9536-4265-b950-e190fa3cb5a7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/CategoryPages</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/CategoryPages/no error message present</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -45,7 +45,7 @@
       <guid>9a8e3e94-65dd-4d59-93bb-63db49510d63</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/ComparePages</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/ComparePages/no error message present</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -75,7 +75,7 @@
       <guid>be7377d7-920b-47ad-b271-fe71c16ed859</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/DealerPages</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/DealerPages/no error message present</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -105,7 +105,7 @@
       <guid>48d40a0f-0634-4e5f-ad96-7bdf4bf681b0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/ErrorPages</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/ErrorPages/error message is present</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -135,7 +135,7 @@
       <guid>cbad7109-75ce-4e48-a147-9ada6fcc0fb6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/FCVPages</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/FCVPages/no error message present</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -165,7 +165,7 @@
       <guid>7983dcfc-d946-4eaf-ad75-9383bd228e1c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/HomeOffersPages</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/HomeOffersPages/no error message present</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -195,7 +195,7 @@
       <guid>17f499c7-b4a8-49a4-906a-5abad1a5d72a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/LCertifiedPages</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/LCertifiedPages/no error message present</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -225,7 +225,7 @@
       <guid>b76e4d84-28a3-4393-bd12-fd2a5e154aeb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/ModelPagesAccessories</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/ModelPagesAccessories/no error message present</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -255,7 +255,7 @@
       <guid>e0c5a1b4-e8ac-49b1-afff-48b358cc1bff</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/ModelPagesDesign</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/ModelPagesDesign/no error message present</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -285,7 +285,7 @@
       <guid>cba86bfb-0fc3-4bc8-947c-2f64b2d37a12</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/ModelPagesFeatures</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/ModelPagesFeatures/no error message present</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -315,7 +315,7 @@
       <guid>3ec828c4-4156-4014-ba5f-6e2d93c959cb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/ModelPagesGallery</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/ModelPagesGallery/no error message present</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -345,7 +345,7 @@
       <guid>4e338f68-9fa7-4c39-815f-583694a2c9bb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/ModelPagesOffers</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/ModelPagesOffers/no error message present</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -375,7 +375,7 @@
       <guid>ff06a3ae-cea7-49cb-bc63-04ab054f7685</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/ModelPagesOverview</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/ModelPagesOverview/no error message present</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -405,7 +405,7 @@
       <guid>52ef4352-451b-4828-8552-1f4300399ea2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/ModelPagesOwners</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/ModelPagesOwners/no error message present</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -435,7 +435,7 @@
       <guid>7dd62eaa-b569-4d99-80ec-0d6ee3d22dc9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/ModelPagesPackages</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/ModelPagesPackages/no error message present</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -465,7 +465,7 @@
       <guid>efd61f92-3123-4d22-9f31-2967b64671e0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/ModelPagesPerformance</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/ModelPagesPerformance/no error message present</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -495,7 +495,7 @@
       <guid>37e05e03-ba04-42b5-aee1-dcc581ef9fce</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/ModelPagesSafety</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/ModelPagesSafety/no error message present</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -525,7 +525,7 @@
       <guid>e35af069-3cdc-440a-b23f-a8085b1f1c09</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/ModelPagesSpecifications</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/ModelPagesSpecifications/no error message present</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -555,7 +555,7 @@
       <guid>d5aac283-bb0e-415b-9571-235b6a55455e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/ModelPagesTechnology</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/ModelPagesTechnology/no error message present</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -585,7 +585,7 @@
       <guid>0ce820db-37f0-47ff-853a-087f1e4e958e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/SponsoredAthletes</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/SponsoredAthletes/no error message present</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
