@@ -30,10 +30,10 @@ WebUI.waitForElementPresent(findTestObject('HomePage/VehicleSelector/vehicle sel
 
 WebUI.scrollToElement(findTestObject('HomePage/VehicleSelector/vehicle selector - heading'), 0)
 
-WebUI.waitForElementVisible(findTestObject('MSRP/section objects/homepage/vehicle selector/vehicle selector - SUVs - RX starting at price'), 
+WebUI.waitForElementVisible(findTestObject('MSRP/section objects/homepage/vehicle selector/vehicle selector - sedans - ES starting at price'), 
     0)
 
-WebUI.verifyElementVisible(findTestObject('MSRP/section objects/homepage/vehicle selector/vehicle selector - SUVs - RX starting at price'))
+WebUI.verifyElementVisible(findTestObject('MSRP/section objects/homepage/vehicle selector/vehicle selector - sedans - ES starting at price'))
 
 @com.kms.katalon.core.annotation.TearDownIfPassed
 def passed() {

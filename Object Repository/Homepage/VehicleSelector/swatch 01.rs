@@ -6,12 +6,12 @@
    <elementGuidId>66ca4a64-258d-45a7-8559-2739a129691b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//button[@data-slick-index = '0'])[2]</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//button[@data-slick-index = '0']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@data-slick-index = '0'])[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
