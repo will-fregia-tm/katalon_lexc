@@ -6,14 +6,21 @@
    <elementGuidId>dfba86ce-f281-432f-b772-2e5f7f2ec163</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@class = 'component VehicleSelector']/div/section/div[2]/div[2]/div/div/div/span[4]//span[contains(@data-disclaimers, 'MSRP excludes delivery')]</value>
+         <key>BASIC</key>
+         <value>//*[(contains(text(), 'MSRP') or contains(., 'MSRP'))]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;footer-module&quot;]//*[(contains(text(), 'MSRP') or contains(., 'MSRP'))]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>MSRP</value>
+   </webElementProperties>
 </WebElementEntity>
