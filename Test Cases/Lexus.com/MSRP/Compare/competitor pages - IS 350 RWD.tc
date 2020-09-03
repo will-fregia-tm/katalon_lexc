@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>competitor pages - IS 350 RWD</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e52b7aa6-75ee-4cbe-893c-6ee632d96029</testCaseGuid>
+   <variable>
+      <defaultValue>'Compare'</defaultValue>
+      <description></description>
+      <id>734a6576-7c40-421d-a0ed-9b531eba23c9</id>
+      <masked>false</masked>
+      <name>MSRP</name>
+   </variable>
+</TestCaseEntity>

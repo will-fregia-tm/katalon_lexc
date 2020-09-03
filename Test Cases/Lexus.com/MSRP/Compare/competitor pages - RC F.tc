@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>competitor pages - RC F</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f8b8766e-97e1-4230-a7ec-7694121b6206</testCaseGuid>
+   <variable>
+      <defaultValue>'Compare'</defaultValue>
+      <description></description>
+      <id>8e4cddf8-5225-49c5-91fa-b2da15476463</id>
+      <masked>false</masked>
+      <name>MSRP</name>
+   </variable>
+</TestCaseEntity>

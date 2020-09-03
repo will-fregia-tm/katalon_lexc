@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>report pages - ES 300h Luxury-Ultra Luxury-350 Luxury-Ultra Luxury</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>be4400f3-0615-42a9-808a-c733112e09b1</testCaseGuid>
+   <variable>
+      <defaultValue>'Compare'</defaultValue>
+      <description></description>
+      <id>dfa4a827-de5b-4001-a642-33cf1d671db0</id>
+      <masked>false</masked>
+      <name>MSRP</name>
+   </variable>
+</TestCaseEntity>

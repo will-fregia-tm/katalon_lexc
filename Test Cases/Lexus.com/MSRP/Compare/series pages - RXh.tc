@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>series pages - RXh</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e31446c4-54ea-4d35-93dc-4086e34406b5</testCaseGuid>
+   <variable>
+      <defaultValue>'Compare'</defaultValue>
+      <description></description>
+      <id>1aaf7dbb-4360-4069-84a4-046a73fa6af8</id>
+      <masked>false</masked>
+      <name>MSRP</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>competitor pages - RC 300 F Sport RWD</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0e433f04-a72f-4789-a919-b00e6bbff52a</testCaseGuid>
+   <variable>
+      <defaultValue>'Compare'</defaultValue>
+      <description></description>
+      <id>d1895339-1c02-4a68-aec0-ee6c65edf594</id>
+      <masked>false</masked>
+      <name>MSRP</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>competitor pages - UX 200 FWD</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8ee7d151-3c72-484d-9834-747788926efb</testCaseGuid>
+   <variable>
+      <defaultValue>'Compare'</defaultValue>
+      <description></description>
+      <id>cec3522b-e5d9-4402-aba5-1e7cf3823efd</id>
+      <masked>false</masked>
+      <name>MSRP</name>
+   </variable>
+</TestCaseEntity>

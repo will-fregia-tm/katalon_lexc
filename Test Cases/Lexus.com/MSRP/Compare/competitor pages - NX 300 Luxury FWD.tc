@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>competitor pages - NX 300 Luxury FWD</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9e010336-ae90-4ba5-b371-bb80d23b5aa0</testCaseGuid>
+   <variable>
+      <defaultValue>'Compare'</defaultValue>
+      <description></description>
+      <id>bc11103f-7053-4091-9649-7c675dba933b</id>
+      <masked>false</masked>
+      <name>MSRP</name>
+   </variable>
+</TestCaseEntity>

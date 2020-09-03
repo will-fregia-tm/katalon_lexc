@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>report pages - IS 350 RWD-AWD</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>327f2166-9050-48ac-a77d-78a9b329cfab</testCaseGuid>
+   <variable>
+      <defaultValue>'Compare'</defaultValue>
+      <description></description>
+      <id>3e26a96e-61e3-4990-89fb-4a450a3d93c7</id>
+      <masked>false</masked>
+      <name>MSRP</name>
+   </variable>
+</TestCaseEntity>

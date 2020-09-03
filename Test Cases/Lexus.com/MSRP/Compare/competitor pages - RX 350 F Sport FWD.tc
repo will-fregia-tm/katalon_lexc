@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>competitor pages - RX 350 F Sport FWD</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0b746759-fb49-4fd4-a8ed-f2466b382aaf</testCaseGuid>
+   <variable>
+      <defaultValue>'Compare'</defaultValue>
+      <description></description>
+      <id>f83c809b-56e6-43c2-b5b8-098b54ab1f01</id>
+      <masked>false</masked>
+      <name>MSRP</name>
+   </variable>
+</TestCaseEntity>

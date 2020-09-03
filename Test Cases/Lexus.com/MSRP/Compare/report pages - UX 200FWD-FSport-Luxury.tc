@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>report pages - UX 200FWD-FSport-Luxury</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9a6c9ac1-fc8c-407b-853a-f6f4c089c1ad</testCaseGuid>
+   <variable>
+      <defaultValue>'Compare'</defaultValue>
+      <description></description>
+      <id>fc54fe4c-2911-44b1-b429-1a8e2b4d1156</id>
+      <masked>false</masked>
+      <name>MSRP</name>
+   </variable>
+</TestCaseEntity>

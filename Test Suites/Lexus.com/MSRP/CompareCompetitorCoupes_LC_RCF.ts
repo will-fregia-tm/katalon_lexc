@@ -9,12 +9,13 @@
    <pageLoadTimeout>20</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>3c5815c9-23d1-4c5c-96dd-b4d57c24f74f</testSuiteGuid>
    <testCaseLink>
       <guid>780c9181-4916-43e4-8024-d2481456b537</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages/coupes/LC/500</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages - LC 500</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -26,7 +27,7 @@
       <guid>34dca0c9-4a7e-4d97-9ad6-6912b1d5ef76</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages/coupes/LC/500h</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages - LC 500h</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -38,7 +39,7 @@
       <guid>3d8d2389-d04a-4847-9243-e9bc0cf0b586</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages/coupes/LC/500 Convertible</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages - LC 500 Convertible</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -50,7 +51,7 @@
       <guid>7a6a9964-ef42-432f-bd29-4d40b941f210</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages/coupes/RC F/RC F Track Edition</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages - RC F Track Edition</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -62,7 +63,7 @@
       <guid>586c0ce3-a416-4ce6-95d1-4fc8affef634</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages/coupes/RC F/RC F</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages - RC F</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>

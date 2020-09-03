@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>series pages - ESh</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9d30e193-0e1b-4e01-a379-3a0f43b6b05a</testCaseGuid>
+   <variable>
+      <defaultValue>'Compare'</defaultValue>
+      <description></description>
+      <id>edb0285b-6c9d-4600-bcd7-55b7dcd18208</id>
+      <masked>false</masked>
+      <name>MSRP</name>
+   </variable>
+</TestCaseEntity>

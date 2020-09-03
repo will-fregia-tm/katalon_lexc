@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>competitor pages - ES 300h Luxury</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2dcdcb61-102a-4b9f-9208-f8b657ef500c</testCaseGuid>
+   <variable>
+      <defaultValue>'Compare'</defaultValue>
+      <description></description>
+      <id>f48aa0cf-6a93-4abd-8cfe-b07a8dcd2cf8</id>
+      <masked>false</masked>
+      <name>MSRP</name>
+   </variable>
+</TestCaseEntity>

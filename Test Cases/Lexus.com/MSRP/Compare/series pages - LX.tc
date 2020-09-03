@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>series pages - LX</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7aab72a7-9775-49d1-9b05-a18d0a04a775</testCaseGuid>
+   <variable>
+      <defaultValue>'Compare'</defaultValue>
+      <description></description>
+      <id>2d066690-2417-4888-b27b-052ea08e15d4</id>
+      <masked>false</masked>
+      <name>MSRP</name>
+   </variable>
+</TestCaseEntity>

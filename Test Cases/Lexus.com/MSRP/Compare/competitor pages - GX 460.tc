@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>competitor pages - GX 460</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4e84c77a-fc3e-4410-9e76-c6763ba94b7d</testCaseGuid>
+   <variable>
+      <defaultValue>'Compare'</defaultValue>
+      <description></description>
+      <id>6b320647-9042-484f-a35b-336c139ac7bc</id>
+      <masked>false</masked>
+      <name>MSRP</name>
+   </variable>
+</TestCaseEntity>

@@ -15,7 +15,7 @@
       <guid>ba0fa85c-def3-45c2-9ebe-68156d073395</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages/sedans/ES/300h Luxury</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages - ES 300h Luxury</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -27,7 +27,7 @@
       <guid>49db818b-b151-481d-be0e-970a53ca61d2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages/sedans/ES/300h Ultra Luxury</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages - ES 300h Ultra Luxury</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -39,7 +39,7 @@
       <guid>c96f76e7-e780-487b-b7de-c92e644bc983</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages/sedans/ES/300h</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages - ES 300h</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -51,7 +51,7 @@
       <guid>cbb356e4-4719-4580-8d93-7edf81bd6de4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages/sedans/ES/350 F Sport</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages - ES 350 F Sport</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -63,7 +63,7 @@
       <guid>10bcec05-4a66-463c-be61-80e3991d22cb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages/sedans/ES/350 Luxury</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages - ES 350 Luxury</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -75,7 +75,7 @@
       <guid>35035213-f184-4733-9c79-1ad62edaca57</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages/sedans/ES/350 Ultra Luxury</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages - ES 350 Ultra Luxury</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -87,7 +87,7 @@
       <guid>43840472-66b0-43cc-8651-819009ac3114</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages/sedans/ES/350</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages - ES 350</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -99,7 +99,7 @@
       <guid>d7a63a5f-b290-445f-bb2a-63d63fcd2e3c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages/sedans/GS/350 AWD</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages - GS 350 AWD</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -111,7 +111,7 @@
       <guid>f3a17f77-5408-4579-b66e-31fe30f80fa0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages/sedans/GS/350 F Sport AWD</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages - GS 350 F Sport AWD</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -123,7 +123,7 @@
       <guid>507e54e8-30c7-436b-81e7-580450fcb38b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages/sedans/GS/350 F Sport RWD</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages - GS 350 F Sport RWD</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -135,7 +135,7 @@
       <guid>a52f2976-fc6d-4b6f-9e9d-b14a4c541189</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages/sedans/GS/350 RWD</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages - GS 350 RWD</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -147,7 +147,7 @@
       <guid>481f6947-82b5-499a-96a3-51032fbf1fa1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages/sedans/GS F/GS F</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages - GS F</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>

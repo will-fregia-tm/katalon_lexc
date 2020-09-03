@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>report pages - IS 300 RWD-AWD</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c8c51675-553d-48c2-9a00-e8ced8ebb37c</testCaseGuid>
+   <variable>
+      <defaultValue>'Compare'</defaultValue>
+      <description></description>
+      <id>83de2c4c-4f74-465c-a318-bcdf6803801e</id>
+      <masked>false</masked>
+      <name>MSRP</name>
+   </variable>
+</TestCaseEntity>

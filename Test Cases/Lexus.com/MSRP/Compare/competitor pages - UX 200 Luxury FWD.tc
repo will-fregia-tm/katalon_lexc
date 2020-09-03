@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>competitor pages - UX 200 Luxury FWD</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9ae381f9-0d52-44a6-aba9-5f09071ad4a6</testCaseGuid>
+   <variable>
+      <defaultValue>'Compare'</defaultValue>
+      <description></description>
+      <id>0693f5c3-4a95-425b-9f9e-084c2dadce26</id>
+      <masked>false</masked>
+      <name>MSRP</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>competitor pages - RX 450hL AWD</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>82d5ecd1-5312-465b-b745-d6c36614b20f</testCaseGuid>
+   <variable>
+      <defaultValue>'Compare'</defaultValue>
+      <description></description>
+      <id>e34a5eb2-c404-4034-a07e-4809cffd633f</id>
+      <masked>false</masked>
+      <name>MSRP</name>
+   </variable>
+</TestCaseEntity>

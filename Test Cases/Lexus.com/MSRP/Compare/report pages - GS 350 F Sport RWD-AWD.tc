@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>report pages - GS 350 F Sport RWD-AWD</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>acfd4b8d-eec4-4dfc-9e73-ff8b7be6fbd4</testCaseGuid>
+   <variable>
+      <defaultValue>'Compare'</defaultValue>
+      <description></description>
+      <id>2f2339fe-755d-4d59-8366-c901761b87b6</id>
+      <masked>false</masked>
+      <name>MSRP</name>
+   </variable>
+</TestCaseEntity>

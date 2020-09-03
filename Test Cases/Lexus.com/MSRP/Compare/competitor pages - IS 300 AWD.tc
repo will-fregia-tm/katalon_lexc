@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>competitor pages - IS 300 AWD</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e101ad24-cb9f-4d27-b5a1-d021f6bde6d1</testCaseGuid>
+   <variable>
+      <defaultValue>'Compare'</defaultValue>
+      <description></description>
+      <id>cca36cca-5c92-42c0-aa5b-852e135a79d8</id>
+      <masked>false</masked>
+      <name>MSRP</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>report pages - ES 300h-350-F Sport</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5d65b549-26d5-4eec-aa16-7d059b654b96</testCaseGuid>
+   <variable>
+      <defaultValue>'Compare'</defaultValue>
+      <description></description>
+      <id>d5288f1f-ec45-4ce1-a60f-f638a72a5503</id>
+      <masked>false</masked>
+      <name>MSRP</name>
+   </variable>
+</TestCaseEntity>

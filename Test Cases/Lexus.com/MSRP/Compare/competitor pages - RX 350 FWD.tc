@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>competitor pages - RX 350 FWD</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>132724a5-c745-4b56-93c6-b7660ca078f7</testCaseGuid>
+   <variable>
+      <defaultValue>'Compare'</defaultValue>
+      <description></description>
+      <id>f3d29b21-2a91-43a6-8d0f-69e5184ea24b</id>
+      <masked>false</masked>
+      <name>MSRP</name>
+   </variable>
+</TestCaseEntity>

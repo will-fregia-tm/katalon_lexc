@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>report pages - RC 350 RWD-AWD-F Sport RWD-AWD</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0bcbe3c9-a6a1-4a26-ab10-be2ac4f0169c</testCaseGuid>
+   <variable>
+      <defaultValue>'Compare'</defaultValue>
+      <description></description>
+      <id>f7d64100-2437-4987-8bcb-e447b2816734</id>
+      <masked>false</masked>
+      <name>MSRP</name>
+   </variable>
+</TestCaseEntity>

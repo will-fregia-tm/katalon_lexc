@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>report pages - NX 300h-FSport FWD-AWD</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2b3ac3ef-26d0-4182-9808-69722541a486</testCaseGuid>
+   <variable>
+      <defaultValue>'Compare'</defaultValue>
+      <description></description>
+      <id>2f6a15c1-ba20-4d52-8172-6e276ab77e21</id>
+      <masked>false</masked>
+      <name>MSRP</name>
+   </variable>
+</TestCaseEntity>

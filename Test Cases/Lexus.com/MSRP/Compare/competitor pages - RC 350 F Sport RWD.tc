@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>competitor pages - RC 350 F Sport RWD</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f090e7e6-ee7c-4c63-a820-96004dabd12a</testCaseGuid>
+   <variable>
+      <defaultValue>'Compare'</defaultValue>
+      <description></description>
+      <id>45da6568-2970-4a26-bb47-e951657a0451</id>
+      <masked>false</masked>
+      <name>MSRP</name>
+   </variable>
+</TestCaseEntity>

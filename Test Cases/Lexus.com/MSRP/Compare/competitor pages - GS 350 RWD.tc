@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>competitor pages - GS 350 RWD</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>27d81544-fe73-413f-90f7-5baef267c070</testCaseGuid>
+   <variable>
+      <defaultValue>'Compare'</defaultValue>
+      <description></description>
+      <id>c5afb9ef-c4a1-4202-8e0b-8f547653d8a7</id>
+      <masked>false</masked>
+      <name>MSRP</name>
+   </variable>
+</TestCaseEntity>

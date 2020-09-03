@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>competitor pages - NX 300 FWD</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a2ff925e-6597-44bb-81ff-883f7e14ae84</testCaseGuid>
+   <variable>
+      <defaultValue>'Compare'</defaultValue>
+      <description></description>
+      <id>9d632d98-1859-4c64-a3e3-50f2e3e43d59</id>
+      <masked>false</masked>
+      <name>MSRP</name>
+   </variable>
+</TestCaseEntity>

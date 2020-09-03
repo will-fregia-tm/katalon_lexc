@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>competitor pages - RC 350 AWD</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>18639058-bea4-4dc8-b71b-577e31602098</testCaseGuid>
+   <variable>
+      <defaultValue>'Compare'</defaultValue>
+      <description></description>
+      <id>8031beb5-a6a4-41e9-8287-6f9ba667110a</id>
+      <masked>false</masked>
+      <name>MSRP</name>
+   </variable>
+</TestCaseEntity>
