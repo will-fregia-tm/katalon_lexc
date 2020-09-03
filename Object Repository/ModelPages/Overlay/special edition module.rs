@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>CSS</key>
-         <value>[id^=&quot;promo&quot;]</value>
+         <value>[id^=&quot;specialEdition&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>
