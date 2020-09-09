@@ -16,7 +16,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser(GlobalVariable.TS_Domain + GlobalVariable.Header)
 
-WebUI.navigateToUrl(GlobalVariable.TS_Domain + GlobalVariable.Overview_NX)
+WebUI.navigateToUrl(GlobalVariable.TS_Domain + GlobalVariable.Overview_RC)
 
 WebUI.waitForPageLoad(0)
 

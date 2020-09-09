@@ -42,7 +42,7 @@
    <GlobalVariableEntity>
       <description></description>
       <initValue>'/models/RC'</initValue>
-      <name>Overview_NX</name>
+      <name>Overview_RC</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
