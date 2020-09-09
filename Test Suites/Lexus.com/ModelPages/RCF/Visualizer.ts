@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>a3ae9170-3543-41a9-b537-4407569ab3f0</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/ModelPages/RCF/Visualizer/Set Exterior Color - Select non-default swatch</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
