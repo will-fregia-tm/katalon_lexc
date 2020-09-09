@@ -62,7 +62,7 @@
    <testCaseLink>
       <guid>fe179898-f757-4563-a6f7-b324dff38e76</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/ModelPackages/RC F</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>

@@ -146,7 +146,7 @@
    <testCaseLink>
       <guid>b9d6454f-dfcb-4084-a64e-1274e4283560</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/ModelSpecs/RC F</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -158,7 +158,7 @@
    <testCaseLink>
       <guid>79eb61b7-7b3e-45d3-845a-078b28046637</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/ModelSpecs/RC</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>

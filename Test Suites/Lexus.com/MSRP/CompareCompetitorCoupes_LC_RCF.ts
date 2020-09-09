@@ -50,7 +50,7 @@
    <testCaseLink>
       <guid>7a6a9964-ef42-432f-bd29-4d40b941f210</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages - RC F Track Edition</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -62,7 +62,7 @@
    <testCaseLink>
       <guid>586c0ce3-a416-4ce6-95d1-4fc8affef634</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages - RC F</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>

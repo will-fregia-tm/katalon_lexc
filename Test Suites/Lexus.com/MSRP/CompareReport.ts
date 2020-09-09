@@ -206,7 +206,7 @@
    <testCaseLink>
       <guid>8a3d1148-c6e8-4f9d-9774-410f287992a5</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/Compare/report pages - NX 300LuxuryFWD-AWD-hAWD</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -242,7 +242,7 @@
    <testCaseLink>
       <guid>6bf9f02a-eed5-43c3-b842-70060642b34a</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/Compare/report pages - RC 350 RWD-AWD-F Sport RWD-AWD</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -254,7 +254,7 @@
    <testCaseLink>
       <guid>727be3fa-da7f-47a2-8c0c-be5e0a0aae46</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/Compare/report pages - RC F-LC 500-500h-Convertible</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>

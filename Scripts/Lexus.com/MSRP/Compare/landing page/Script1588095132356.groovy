@@ -142,18 +142,18 @@ WebUI.verifyElementVisible(findTestObject('MSRP/section objects/compare/landing 
 textWithMSRP = WebUI.getText(findTestObject('MSRP/section objects/compare/landing page/coupes - starting at prices'))
 
 'RC 300 RWD'
-expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 2)
+not_run: expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 2)
 
-textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
+not_run: textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
 
-WebUI.verifyNotMatch(textWithoutExpectedMSRP, textWithMSRP, false, FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.verifyNotMatch(textWithoutExpectedMSRP, textWithMSRP, false, FailureHandling.STOP_ON_FAILURE)
 
 'RC F'
-expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 53)
+not_run: expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 53)
 
-textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
+not_run: textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
 
-WebUI.verifyNotMatch(textWithoutExpectedMSRP, textWithMSRP, false, FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.verifyNotMatch(textWithoutExpectedMSRP, textWithMSRP, false, FailureHandling.STOP_ON_FAILURE)
 
 'LC'
 expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 70)
@@ -231,11 +231,11 @@ WebUI.verifyElementVisible(findTestObject('MSRP/section objects/compare/landing 
 textWithMSRP = WebUI.getText(findTestObject('MSRP/section objects/compare/landing page/performance - starting at prices'))
 
 'RC F'
-expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 53)
+not_run: expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 53)
 
-textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
+not_run: textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
 
-WebUI.verifyNotMatch(textWithoutExpectedMSRP, textWithMSRP, false, FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.verifyNotMatch(textWithoutExpectedMSRP, textWithMSRP, false, FailureHandling.STOP_ON_FAILURE)
 
 'GS F'
 expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 79)
