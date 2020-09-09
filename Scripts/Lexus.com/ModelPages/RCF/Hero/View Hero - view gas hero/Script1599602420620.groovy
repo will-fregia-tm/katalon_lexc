@@ -23,7 +23,7 @@ WebUI.verifyElementVisibleInViewport(findTestObject('ModelPages/Hero/hero'), 0, 
 
 WebUI.verifyElementVisibleInViewport(findTestObject('ModelPages/Hero/image'), 0, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementVisibleInViewport(findTestObject('ModelPages/Hero/model name - NX'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementVisibleInViewport(findTestObject('ModelPages/Hero/model name - RC F'), 0, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementVisibleInViewport(findTestObject('ModelPages/Hero/model year - 2021'), 0, FailureHandling.STOP_ON_FAILURE)
 
