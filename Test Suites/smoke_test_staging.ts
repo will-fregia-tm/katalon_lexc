@@ -129,7 +129,7 @@
             <profileName>staging</profileName>
             <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
-         <runEnabled>false</runEnabled>
+         <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/ModelPages/RC/Overlay</testSuiteEntity>
       </TestSuiteRunConfiguration>
    </testSuiteRunConfigurations>
