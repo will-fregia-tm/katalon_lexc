@@ -24,16 +24,20 @@ WebUI.openBrowser(GlobalVariable.TS_Domain + GlobalVariable.Header)
 for (def index : (0..totalPages)) {
     WebUI.navigateToUrl(findTestData(GlobalVariable.DS_version + 'URLsFCVPages').getValue(dataColumn, dataRow))
 
-    not_run: WebUI.verifyElementPresent(findTestObject('GlobalNav/lexus logo'), 0)
+    if (WebUI.verifyElementNotPresent(findTestObject('GlobalNav/lexus logo'), 3, FailureHandling.OPTIONAL)) {
+        WebUI.openBrowser(GlobalVariable.TS_Domain + GlobalVariable.Header)
 
-    not_run: WebUI.verifyElementPresent(findTestObject('GlobalNav/model image'), 0)
+        WebUI.navigateToUrl(findTestData(GlobalVariable.DS_version + 'URLsModelPagesTechnology').getValue(dataColumn, dataRow))
 
-    not_run: WebUI.verifyElementPresent(findTestObject('GlobalNav/footer'), 0)
-
+        WebUI.verifyElementPresent(findTestObject('GlobalNav/lexus logo'), 0)
+    }
+    
     WebUI.verifyElementNotPresent(findTestObject('error'), 0)
 
     dataRow = (dataRow + 1)
 }
+
+WebUI.waitForPageLoad(0)
 
 @com.kms.katalon.core.annotation.TearDownIfPassed
 def passed() {

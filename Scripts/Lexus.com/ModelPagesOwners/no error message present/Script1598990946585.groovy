@@ -38,6 +38,8 @@ for (def index : (0..totalPages)) {
     dataRow = (dataRow + 1)
 }
 
+WebUI.waitForPageLoad(0)
+
 @com.kms.katalon.core.annotation.TearDownIfPassed
 def passed() {
     WebUI.executeJavaScript('sauce:job-result=passed', [])
