@@ -21,7 +21,7 @@ WebUI.openBrowser(GlobalVariable.TS_Domain + GlobalVariable.Header)
 WebUI.navigateToUrl(GlobalVariable.AEM_Domain_Unauthenticated + '/concept/LF-30-Electrified')
 
 if (WebUI.verifyElementNotPresent(findTestObject('FCV/Hero/hero module'), 3, FailureHandling.OPTIONAL)) {
-	WebUI.refresh()
+    WebUI.refresh()
 }
 
 WebUI.waitForElementPresent(findTestObject('FCV/Hero/hero module'), 3, FailureHandling.STOP_ON_FAILURE)
@@ -36,25 +36,33 @@ WebUI.click(findTestObject('FCV/SignupForm/submit button'))
 
 backgroundColor = WebUI.getCSSValue(findTestObject('FCV/SignupForm/input field - first name'), 'background-color')
 
-WebUI.verifyMatch(backgroundColor, 'rgb(254, 232, 232)', false, FailureHandling.STOP_ON_FAILURE)
+if (WebUI.verifyNotMatch(backgroundColor, 'rgba(254, 232, 232, 1)', false, FailureHandling.OPTIONAL)) {
+    WebUI.verifyMatch(backgroundColor, 'rgb(254, 232, 232)', false, FailureHandling.STOP_ON_FAILURE)
+}
 
 WebUI.verifyElementPresent(findTestObject('FCV/SignupForm/valid first name prompt'), 0)
 
 backgroundColor = WebUI.getCSSValue(findTestObject('FCV/SignupForm/input field - last name'), 'background-color')
 
-WebUI.verifyMatch(backgroundColor, 'rgb(254, 232, 232)', false, FailureHandling.STOP_ON_FAILURE)
+if (WebUI.verifyNotMatch(backgroundColor, 'rgba(254, 232, 232, 1)', false, FailureHandling.OPTIONAL)) {
+    WebUI.verifyMatch(backgroundColor, 'rgb(254, 232, 232)', false, FailureHandling.STOP_ON_FAILURE)
+}
 
 WebUI.verifyElementPresent(findTestObject('FCV/SignupForm/valid last name prompt'), 0)
 
 backgroundColor = WebUI.getCSSValue(findTestObject('FCV/SignupForm/input field - email'), 'background-color')
 
-WebUI.verifyMatch(backgroundColor, 'rgb(254, 232, 232)', false, FailureHandling.STOP_ON_FAILURE)
+if (WebUI.verifyNotMatch(backgroundColor, 'rgba(254, 232, 232, 1)', false, FailureHandling.OPTIONAL)) {
+    WebUI.verifyMatch(backgroundColor, 'rgb(254, 232, 232)', false, FailureHandling.STOP_ON_FAILURE)
+}
 
 WebUI.verifyElementPresent(findTestObject('FCV/SignupForm/valid email prompt'), 0)
 
 backgroundColor = WebUI.getCSSValue(findTestObject('FCV/SignupForm/input field - zip code'), 'background-color')
 
-WebUI.verifyMatch(backgroundColor, 'rgb(254, 232, 232)', false, FailureHandling.STOP_ON_FAILURE)
+if (WebUI.verifyNotMatch(backgroundColor, 'rgba(254, 232, 232, 1)', false, FailureHandling.OPTIONAL)) {
+    WebUI.verifyMatch(backgroundColor, 'rgb(254, 232, 232)', false, FailureHandling.STOP_ON_FAILURE)
+}
 
 WebUI.verifyElementPresent(findTestObject('FCV/SignupForm/valid zip code prompt'), 0)
 
