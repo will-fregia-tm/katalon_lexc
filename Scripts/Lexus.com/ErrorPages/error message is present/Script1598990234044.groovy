@@ -27,7 +27,7 @@ for (def index : (0..totalPages)) {
     if (WebUI.verifyElementNotPresent(findTestObject('GlobalNav/lexus logo'), 3, FailureHandling.OPTIONAL)) {
         WebUI.openBrowser(GlobalVariable.TS_Domain + GlobalVariable.Header)
 
-        WebUI.navigateToUrl(findTestData(GlobalVariable.DS_version + 'URLsModelPagesTechnology').getValue(dataColumn, dataRow))
+        WebUI.navigateToUrl(findTestData(GlobalVariable.DS_version + 'URLsErrorPages').getValue(dataColumn, dataRow))
 
         WebUI.verifyElementPresent(findTestObject('GlobalNav/lexus logo'), 0)
     }
