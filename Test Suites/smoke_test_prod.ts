@@ -174,7 +174,7 @@
             <profileName>prod</profileName>
             <runConfigurationId>saucelabs_safari_ios13_iphonex</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
+         <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/ModelPages/RXh/InformationLayer_Mobile</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
@@ -318,7 +318,7 @@
             <profileName>prod</profileName>
             <runConfigurationId>saucelabs_chrome_macos10.15</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
+         <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/ModelPages/RX/Offers</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
