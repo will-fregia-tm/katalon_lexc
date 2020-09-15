@@ -129,6 +129,12 @@ if (WebUI.verifyGreaterThan(pageWidth, '1204', FailureHandling.OPTIONAL)) {
 
     WebUI.verifyNotMatch(textWithoutExpectedMSRP, textWithMSRP, false, FailureHandling.STOP_ON_FAILURE)
 
+    WebUI.click(findTestObject('ModelPages/Styles/trim 8 link'), FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.verifyElementVisible(findTestObject('ModelPages/Styles/model-style 8 starting at price - desktop'), FailureHandling.STOP_ON_FAILURE)
+
+    textWithMSRP = WebUI.getText(findTestObject('ModelPages/Styles/model-style 8 starting at price - desktop'), FailureHandling.STOP_ON_FAILURE)
+
     'RC 300 F SPORT BLACK LINE SPECIAL EDITION AWD'
     expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 96)
 
@@ -136,11 +142,11 @@ if (WebUI.verifyGreaterThan(pageWidth, '1204', FailureHandling.OPTIONAL)) {
 
     WebUI.verifyNotMatch(textWithoutExpectedMSRP, textWithMSRP, false, FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.click(findTestObject('ModelPages/Styles/trim 8 link'), FailureHandling.STOP_ON_FAILURE)
+    WebUI.click(findTestObject('ModelPages/Styles/trim 9 link'), FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.verifyElementVisible(findTestObject('ModelPages/Styles/model-style 8 starting at price - desktop'), FailureHandling.STOP_ON_FAILURE)
+    WebUI.verifyElementVisible(findTestObject('ModelPages/Styles/model-style 9 starting at price - desktop'), FailureHandling.STOP_ON_FAILURE)
 
-    textWithMSRP = WebUI.getText(findTestObject('ModelPages/Styles/model-style 8 starting at price - desktop'), FailureHandling.STOP_ON_FAILURE)
+    textWithMSRP = WebUI.getText(findTestObject('ModelPages/Styles/model-style 9 starting at price - desktop'), FailureHandling.STOP_ON_FAILURE)
 
     'RC 350 F SPORT BLACK LINE SPECIAL EDITION RWD'
     expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 97)
