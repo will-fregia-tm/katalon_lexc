@@ -66,7 +66,7 @@
             <profileName>prod</profileName>
             <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
-         <runEnabled>false</runEnabled>
+         <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/ModelPages/ES/Offers</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
@@ -318,7 +318,7 @@
             <profileName>prod</profileName>
             <runConfigurationId>saucelabs_safari11_macos10.13</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
+         <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/ModelPages/ES/Offers</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>

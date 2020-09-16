@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Visiting via deeplink scrolls to predetermined location, with necessary elements preselected/shown/active.</description>
+   <name>Deep link takes user to pre-determined location on page - Signup Form</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a18beadd-3665-43e0-aa98-7c61d1149afa</testCaseGuid>
+   <variable>
+      <defaultValue>'LCDesign'</defaultValue>
+      <description></description>
+      <id>cf7eb94f-2dff-4e77-95b5-4d912a2a2f5a</id>
+      <masked>false</masked>
+      <name>ModelPages</name>
+   </variable>
+</TestCaseEntity>
