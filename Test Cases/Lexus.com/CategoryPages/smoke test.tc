@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Visits each page in specified list of URLs.</description>
+   <name>smoke test</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>caf4f2ba-22f1-4d9b-a25d-e1cd16ca5f84</testCaseGuid>
+   <variable>
+      <defaultValue>1</defaultValue>
+      <description></description>
+      <id>fd3627a0-2cd2-4d03-be52-4247720a3f1e</id>
+      <masked>false</masked>
+      <name>dataRow</name>
+   </variable>
+   <variable>
+      <defaultValue>1</defaultValue>
+      <description></description>
+      <id>e02c1f10-9376-4e97-ae21-396f864ce0b5</id>
+      <masked>false</masked>
+      <name>dataColumn</name>
+   </variable>
+   <variable>
+      <defaultValue>5</defaultValue>
+      <description></description>
+      <id>426b78d0-9c59-43f6-aee8-3e69d3ef5e3d</id>
+      <masked>false</masked>
+      <name>pagesChecked</name>
+   </variable>
+   <variable>
+      <defaultValue>1</defaultValue>
+      <description></description>
+      <id>9e728513-bb64-42d5-939f-6b0e7b8e957b</id>
+      <masked>false</masked>
+      <name>totalPages</name>
+   </variable>
+</TestCaseEntity>
