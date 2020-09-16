@@ -9,6 +9,7 @@
    <pageLoadTimeout>20</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>4cb41091-1861-43e7-9327-5a625a3d64aa</testSuiteGuid>
    <testCaseLink>
       <guid>37633658-d565-438b-99bb-2b12bb71fc59</guid>
@@ -104,6 +105,18 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>be55c893-811f-4e03-817d-98862cabfa04</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>95df5f64-2c5e-4ac0-8f10-8a3ee8050ccd</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/GX/Subnav/Deep link takes user to pre-determined location on page - Signup Form</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c6d26ddf-04d9-49a5-b5c9-5b7faacc329a</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
