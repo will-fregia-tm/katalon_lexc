@@ -105,29 +105,27 @@ if (WebUI.verifyGreaterThan(pageWidth, '1204', FailureHandling.OPTIONAL)) {
 
     WebUI.verifyElementVisible(findTestObject('ModelPages/Styles/model-style 5 starting at price - desktop'), FailureHandling.STOP_ON_FAILURE)
 
-    not_run: textWithMSRP = WebUI.getText(findTestObject('ModelPages/Styles/model-style 5 starting at price - desktop'), 
-        FailureHandling.STOP_ON_FAILURE)
+    textWithMSRP = WebUI.getText(findTestObject('ModelPages/Styles/model-style 5 starting at price - desktop'), FailureHandling.STOP_ON_FAILURE)
 
     'NX 300h LUXURY AWD'
-    not_run: expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 42)
+    expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 42)
 
-    not_run: textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
+    textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
 
-    not_run: WebUI.verifyNotMatch(textWithoutExpectedMSRP, textWithMSRP, false, FailureHandling.STOP_ON_FAILURE)
+    WebUI.verifyNotMatch(textWithoutExpectedMSRP, textWithMSRP, false, FailureHandling.STOP_ON_FAILURE)
 
     WebUI.click(findTestObject('ModelPages/Styles/trim 6 link'), FailureHandling.STOP_ON_FAILURE)
 
     WebUI.verifyElementVisible(findTestObject('ModelPages/Styles/model-style 6 starting at price - desktop'), FailureHandling.STOP_ON_FAILURE)
 
-    not_run: textWithMSRP = WebUI.getText(findTestObject('ModelPages/Styles/model-style 6 starting at price - desktop'), 
-        FailureHandling.STOP_ON_FAILURE)
+    textWithMSRP = WebUI.getText(findTestObject('ModelPages/Styles/model-style 6 starting at price - desktop'), FailureHandling.STOP_ON_FAILURE)
 
     'NX 300h F SPORT AWD BLACK LINE SPECIAL EDITION'
-    not_run: expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 43)
+    expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 43)
 
-    not_run: textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
+    textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
 
-    not_run: WebUI.verifyNotMatch(textWithoutExpectedMSRP, textWithMSRP, false, FailureHandling.STOP_ON_FAILURE)
+    WebUI.verifyNotMatch(textWithoutExpectedMSRP, textWithMSRP, false, FailureHandling.STOP_ON_FAILURE)
 }
 
 if (WebUI.verifyLessThan(pageWidth, '1204', FailureHandling.OPTIONAL)) {
