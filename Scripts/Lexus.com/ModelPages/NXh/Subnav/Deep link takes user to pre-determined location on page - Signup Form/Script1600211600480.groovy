@@ -15,7 +15,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser(GlobalVariable.TS_Domain + GlobalVariable.Header)
 
-WebUI.navigateToUrl((GlobalVariable.TS_Domain + GlobalVariable.Overview_NXh) + '?link[ModelSignUpFormH1][SHOW_PAGE]=true&zip=90094')
+WebUI.navigateToUrl((GlobalVariable.TS_Domain + GlobalVariable.Overview_NXh) + '?link[ModelSignUpFormNXh][SHOW_PAGE]=true')
 
 WebUI.waitForPageLoad(0)
 
