@@ -52,14 +52,6 @@ if (WebUI.verifyNotMatch(currentFeedData, previousFeedData, false, FailureHandli
     for (def index : (0..totalPages)) {
         WebUI.navigateToUrl(findTestData(GlobalVariable.DS_version + 'URLsMiscPages').getValue(dataColumn, dataRow))
 
-        if (WebUI.verifyElementNotPresent(findTestObject('GlobalNav/lexus logo'), 3, FailureHandling.OPTIONAL)) {
-            WebUI.openBrowser(GlobalVariable.TS_Domain + GlobalVariable.Header)
-
-            WebUI.navigateToUrl(findTestData(GlobalVariable.DS_version + 'URLsMiscPages').getValue(dataColumn, dataRow))
-
-            WebUI.verifyElementPresent(findTestObject('GlobalNav/lexus logo'), 0)
-        }
-        
         WebUI.verifyElementNotPresent(findTestObject('error'), 0)
 
         dataRow = (dataRow + 1)
