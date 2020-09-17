@@ -186,5 +186,14 @@
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/FCVPages</testSuiteEntity>
       </TestSuiteRunConfiguration>
+      <TestSuiteRunConfiguration>
+         <configuration>
+            <groupName>Custom</groupName>
+            <profileName>prod</profileName>
+            <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
+         </configuration>
+         <runEnabled>true</runEnabled>
+         <testSuiteEntity>Test Suites/Lexus.com/MiscPages</testSuiteEntity>
+      </TestSuiteRunConfiguration>
    </testSuiteRunConfigurations>
 </TestSuiteCollectionEntity>
