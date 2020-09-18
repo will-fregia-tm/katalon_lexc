@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>correct starting prices appear in header</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>db219193-ccd9-48bf-8f58-58c42c45ce0f</testCaseGuid>
+   <variable>
+      <defaultValue>'GlobalNav'</defaultValue>
+      <description></description>
+      <id>668998e2-65c4-4593-95eb-80183a6a055c</id>
+      <masked>false</masked>
+      <name>MSRP</name>
+   </variable>
+</TestCaseEntity>
