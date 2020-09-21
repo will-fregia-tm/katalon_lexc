@@ -20,7 +20,7 @@ WebUI.openBrowser(GlobalVariable.TS_Domain + GlobalVariable.Header)
 
 WebUI.navigateToUrl(GlobalVariable.SC_Domain)
 
-WebUI.navigateToUrl(GlobalVariable.SC_Domain + '/?personalization_id=owner_es&audience=owner')
+WebUI.navigateToUrl(GlobalVariable.SC_Domain_Unauthenticated + '/?personalization_id=owner_es&audience=owner')
 
 WebUI.waitForElementPresent(findTestObject('HomePage/VehicleSelector/vehicle selector - heading'), 0, FailureHandling.CONTINUE_ON_FAILURE)
 
@@ -322,7 +322,7 @@ WebUI.waitForElementVisible(findTestObject('MSRP/section objects/homepage/vehicl
 WebUI.verifyElementVisible(findTestObject('MSRP/section objects/homepage/vehicle selector/vehicle selector - coupes - RC starting at price'), 
     FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('MSRP/section objects/homepage/vehicle selector/vehicle selector - coupes - RC vehicle shown price'), 
+not_run: WebUI.verifyElementVisible(findTestObject('MSRP/section objects/homepage/vehicle selector/vehicle selector - coupes - RC vehicle shown price'), 
     FailureHandling.CONTINUE_ON_FAILURE)
 
 expectedMSRP = (('$' + findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 2)) + '*')
@@ -340,7 +340,7 @@ WebUI.waitForElementVisible(findTestObject('MSRP/section objects/homepage/vehicl
 WebUI.verifyElementVisible(findTestObject('MSRP/section objects/homepage/vehicle selector/vehicle selector - coupes - RC F starting at price'), 
     FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('MSRP/section objects/homepage/vehicle selector/vehicle selector - coupes - RC F vehicle shown price'), 
+not_run: WebUI.verifyElementVisible(findTestObject('MSRP/section objects/homepage/vehicle selector/vehicle selector - coupes - RC F vehicle shown price'), 
     FailureHandling.CONTINUE_ON_FAILURE)
 
 expectedMSRP = (('$' + findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 53)) + '*')
@@ -514,7 +514,7 @@ WebUI.waitForElementVisible(findTestObject('MSRP/section objects/homepage/vehicl
 WebUI.verifyElementVisible(findTestObject('MSRP/section objects/homepage/vehicle selector/vehicle selector - performance - RC F starting at price'), 
     FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('MSRP/section objects/homepage/vehicle selector/vehicle selector - performance - RC F vehicle shown price'), 
+not_run: WebUI.verifyElementVisible(findTestObject('MSRP/section objects/homepage/vehicle selector/vehicle selector - performance - RC F vehicle shown price'), 
     FailureHandling.CONTINUE_ON_FAILURE)
 
 expectedMSRP = (('$' + findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 53)) + '*')
