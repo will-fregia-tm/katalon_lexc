@@ -24,6 +24,18 @@ WebUI.navigateToUrl(GlobalVariable.SC_Domain_Unauthenticated + '/?personalizatio
 
 WebUI.waitForElementPresent(findTestObject('HomePage/VehicleSelector/vehicle selector - heading'), 0, FailureHandling.CONTINUE_ON_FAILURE)
 
+WebUI.verifyElementVisible(findTestObject('MSRP/section objects/homepage/hero module/hero module - any starting at price'))
+
+textWithMSRP = WebUI.getText(findTestObject('MSRP/section objects/homepage/hero module/hero module - any starting at price'), 
+    FailureHandling.STOP_ON_FAILURE)
+
+'ES'
+expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 10)
+
+textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
+
+WebUI.verifyNotMatch(textWithoutExpectedMSRP, textWithMSRP, false, FailureHandling.STOP_ON_FAILURE)
+
 WebUI.scrollToElement(findTestObject('HomePage/VehicleSelector/vehicle selector - heading'), 0, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.click(findTestObject('HomePage/VehicleSelector/categories/Sedans'), FailureHandling.CONTINUE_ON_FAILURE)
