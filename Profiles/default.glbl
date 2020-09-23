@@ -31,7 +31,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Prod,ModelPageNX'</initValue>
+      <initValue>'Prod,ModelPageIS'</initValue>
       <name>profileTags</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -41,8 +41,8 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'/models/NX'</initValue>
-      <name>Overview_NX</name>
+      <initValue>'/models/IS'</initValue>
+      <name>Overview_IS</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>

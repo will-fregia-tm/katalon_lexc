@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Performance</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>20</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>1b64fda0-9468-4a5e-ad0d-409b4e89fe4f</testSuiteGuid>
+   <testCaseLink>
+      <guid>da30ea97-8104-4328-99e9-ce10ede2b413</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/IS/Performance/Base-Small - Default Landing State</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>05f68747-5608-45cb-a0ed-0ebdc377fc74</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>dc0b4430-5342-42cd-aea2-e9059101367d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/IS/Performance/Base-Small - Select Story Link</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>2c2c1b03-e7e9-4af3-8a5b-daae2c25b03f</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>daa3e9ec-535d-4b3d-9193-aad9dc6ba5a4</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/IS/Performance/CTA - All Features CTA - Access all Performance features</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>0204b4eb-41f1-4f24-8fab-42223a6792d5</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ede57e8a-f8ca-4fdb-9f5b-78e650530dd8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/IS/Performance/View More Features Drawer - all elements display properly</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>8c065035-7eec-401c-84d8-6b05d28e79bf</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>bc25998f-e5e8-48cb-827d-0168b4ea04bf</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/IS/Performance/View More Features Drawer - carousel when 6 or more features</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>9ead9b01-72a3-4b1c-9d19-23ce97ab12b4</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>37d2db6b-121a-4b5f-816b-4293d4712806</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/IS/Performance/View More Features Drawer - collapses when accordion header is clicked</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a36a8f8b-3c9f-4ab2-b136-df8cb30991f3</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ded57c8e-38e7-49bd-937e-c0e721bf7270</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/IS/Performance/View More Features Drawer - expand accordion</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7801e67f-44a8-4faa-ad0e-1294a2fba75a</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e20ebefa-d3dd-4e66-86da-fe8748d060ed</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/IS/Performance/View More Features Drawer - hyperlink text in body copy</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>28706918-422d-4281-a3b9-795e67e9efe9</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
