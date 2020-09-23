@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>7810f127-118e-4252-9cac-e22b830bafc5</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages - IS 300 AWD</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -62,7 +62,7 @@
    <testCaseLink>
       <guid>95f45edc-dfbb-4988-aa10-6d9a1f8b3792</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages - IS 350 AWD</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -98,7 +98,7 @@
    <testCaseLink>
       <guid>30c9c3ab-bdea-4d81-9864-8d636dd58f2c</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages - IS 350 RWD</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>

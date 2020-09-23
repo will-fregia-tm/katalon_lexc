@@ -25,25 +25,25 @@ WebUI.verifyElementVisible(findTestObject('MSRP/section objects/compare/landing 
 textWithMSRP = WebUI.getText(findTestObject('MSRP/section objects/compare/landing page/sedans - starting at prices'))
 
 'IS 300'
-expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 17)
+not_run: expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 17)
+
+not_run: textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
+
+not_run: WebUI.verifyNotMatch(textWithoutExpectedMSRP, textWithMSRP, false, FailureHandling.STOP_ON_FAILURE)
+
+'ES 350'
+expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 10)
 
 textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
 
 WebUI.verifyNotMatch(textWithoutExpectedMSRP, textWithMSRP, false, FailureHandling.STOP_ON_FAILURE)
 
-'ES 350'
-not_run: expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 10)
-
-not_run: textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
-
-not_run: WebUI.verifyNotMatch(textWithoutExpectedMSRP, textWithMSRP, false, FailureHandling.STOP_ON_FAILURE)
-
 'ES 300h'
-not_run: expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 13)
+expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 13)
 
-not_run: textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
+textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
 
-not_run: WebUI.verifyNotMatch(textWithoutExpectedMSRP, textWithMSRP, false, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyNotMatch(textWithoutExpectedMSRP, textWithMSRP, false, FailureHandling.STOP_ON_FAILURE)
 
 'GS 350 AWD'
 expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 67)
@@ -80,18 +80,18 @@ WebUI.verifyElementVisible(findTestObject('MSRP/section objects/compare/landing 
 textWithMSRP = WebUI.getText(findTestObject('MSRP/section objects/compare/landing page/SUVs - starting at prices'))
 
 'UX 200 FWD'
-expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 73)
+not_run: expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 73)
 
-textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
+not_run: textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
 
-WebUI.verifyNotMatch(textWithoutExpectedMSRP, textWithMSRP, false, FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.verifyNotMatch(textWithoutExpectedMSRP, textWithMSRP, false, FailureHandling.STOP_ON_FAILURE)
 
 'UX 250h AWD'
-expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 75)
+not_run: expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 75)
 
-textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
+not_run: textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
 
-WebUI.verifyNotMatch(textWithoutExpectedMSRP, textWithMSRP, false, FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.verifyNotMatch(textWithoutExpectedMSRP, textWithMSRP, false, FailureHandling.STOP_ON_FAILURE)
 
 'NX 300 FWD'
 expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 35)
@@ -108,18 +108,18 @@ textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
 WebUI.verifyNotMatch(textWithoutExpectedMSRP, textWithMSRP, false, FailureHandling.STOP_ON_FAILURE)
 
 'RX 350 FWD'
-not_run: expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 55)
+expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 55)
 
-not_run: textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
+textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
 
-not_run: WebUI.verifyNotMatch(textWithoutExpectedMSRP, textWithMSRP, false, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyNotMatch(textWithoutExpectedMSRP, textWithMSRP, false, FailureHandling.STOP_ON_FAILURE)
 
 'RX 450h AWD'
-not_run: expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 61)
+expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 61)
 
-not_run: textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
+textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
 
-not_run: WebUI.verifyNotMatch(textWithoutExpectedMSRP, textWithMSRP, false, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyNotMatch(textWithoutExpectedMSRP, textWithMSRP, false, FailureHandling.STOP_ON_FAILURE)
 
 'GX 460'
 expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 29)
@@ -183,11 +183,11 @@ WebUI.verifyElementVisible(findTestObject('MSRP/section objects/compare/landing 
 textWithMSRP = WebUI.getText(findTestObject('MSRP/section objects/compare/landing page/hybrids - starting at prices'))
 
 'UX 250h AWD'
-expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 75)
+not_run: expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 75)
 
-textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
+not_run: textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
 
-WebUI.verifyNotMatch(textWithoutExpectedMSRP, textWithMSRP, false, FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.verifyNotMatch(textWithoutExpectedMSRP, textWithMSRP, false, FailureHandling.STOP_ON_FAILURE)
 
 'NX 300h AWD'
 expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 41)
@@ -197,18 +197,18 @@ textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
 WebUI.verifyNotMatch(textWithoutExpectedMSRP, textWithMSRP, false, FailureHandling.STOP_ON_FAILURE)
 
 'RX 450h AWD'
-not_run: expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 61)
+expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 61)
 
-not_run: textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
+textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
 
-not_run: WebUI.verifyNotMatch(textWithoutExpectedMSRP, textWithMSRP, false, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyNotMatch(textWithoutExpectedMSRP, textWithMSRP, false, FailureHandling.STOP_ON_FAILURE)
 
 'ES 300h'
-not_run: expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 13)
+expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 13)
 
-not_run: textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
+textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
 
-not_run: WebUI.verifyNotMatch(textWithoutExpectedMSRP, textWithMSRP, false, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyNotMatch(textWithoutExpectedMSRP, textWithMSRP, false, FailureHandling.STOP_ON_FAILURE)
 
 'LS 500h RWD'
 expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 49)

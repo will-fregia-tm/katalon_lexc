@@ -38,7 +38,7 @@
    <testCaseLink>
       <guid>c96f76e7-e780-487b-b7de-c92e644bc983</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages - ES 300h</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>

@@ -50,7 +50,7 @@
    <testCaseLink>
       <guid>95a96266-56bd-4643-8467-b8810f94f20b</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages - RX 350 FWD</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -122,7 +122,7 @@
    <testCaseLink>
       <guid>6959f462-6ae4-4264-8598-4ac5c687cb29</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages - UX 200 F Sport FWD</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -182,7 +182,7 @@
    <testCaseLink>
       <guid>d9b5d45f-6ed3-42a8-addb-62ae9d1c5e62</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages - UX 250h Luxury AWD</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>

@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>80ce59ce-9c1b-465d-95a1-b158cf705c9e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/Compare/report pages - ES 300h Luxury-Ultra Luxury-350 Luxury-Ultra Luxury</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -86,7 +86,7 @@
    <testCaseLink>
       <guid>e70a5888-6489-4970-af4d-5e11a8477625</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/Compare/report pages - IS 300 F Sport RWD-AWD</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -122,7 +122,7 @@
    <testCaseLink>
       <guid>f39a27fe-cce2-45a1-8c4c-e1a4f197cc67</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/Compare/report pages - IS 350 RWD-AWD</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -266,7 +266,7 @@
    <testCaseLink>
       <guid>3a7d394b-3309-48fb-b919-ed199bd9b3fc</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/Compare/report pages - RX 350 F Sport FWD-AWD</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -314,7 +314,7 @@
    <testCaseLink>
       <guid>57342944-fd7a-4704-b84e-044577d68af0</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/Compare/report pages - UX 200FWD-FSport-Luxury</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -326,7 +326,7 @@
    <testCaseLink>
       <guid>3a043e4b-5211-4461-83a5-f7d1b8bf9a9d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/Compare/report pages - UX 250hAWD-FSport-Luxury</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
