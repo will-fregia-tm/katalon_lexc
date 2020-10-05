@@ -15,17 +15,17 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser(GlobalVariable.TS_Domain + GlobalVariable.Header)
 
-WebUI.navigateToUrl(GlobalVariable.TS_Domain + GlobalVariable.Overview_IS)
+WebUI.navigateToUrl((GlobalVariable.TS_Domain + GlobalVariable.Overview_IS) + '/performance')
 
 WebUI.waitForPageLoad(0)
 
-WebUI.scrollToElement(findTestObject('ModelPages/Visualizer/visualizer'), 0)
+not_run: WebUI.scrollToElement(findTestObject('ModelPages/Visualizer/visualizer'), 0)
 
-WebUI.scrollToElement(findTestObject('ModelPages/Gallery/gallery module'), 0)
+not_run: WebUI.scrollToElement(findTestObject('ModelPages/Gallery/gallery module'), 0)
 
-WebUI.scrollToElement(findTestObject('ModelPages/Performance/performance module'), 0)
+not_run: WebUI.scrollToElement(findTestObject('ModelPages/Performance/performance module'), 0)
 
-WebUI.verifyElementVisible(findTestObject('ModelPages/Performance/base-small'), FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.verifyElementVisible(findTestObject('ModelPages/Performance/base-small'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('ModelPages/Performance/more features CTA'), FailureHandling.STOP_ON_FAILURE)
 

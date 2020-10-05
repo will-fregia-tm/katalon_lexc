@@ -19,8 +19,6 @@ WebUI.navigateToUrl(GlobalVariable.TS_Domain + GlobalVariable.Overview_IS)
 
 WebUI.waitForPageLoad(0)
 
-WebUI.scrollToElement(findTestObject('ModelPages/Gallery/gallery module'), 0, FailureHandling.STOP_ON_FAILURE)
-
 WebUI.scrollToElement(findTestObject('ModelPages/Performance/performance module'), 0, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForElementVisible(findTestObject('ModelPages/Performance/more features CTA'), 0, FailureHandling.STOP_ON_FAILURE)

@@ -12,14 +12,23 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
 WebUI.openBrowser(GlobalVariable.TS_Domain + GlobalVariable.Header)
 
-WebUI.navigateToUrl((GlobalVariable.TS_Domain + GlobalVariable.Overview_IS) + '?link[ModelSignUpFormNX][SHOW_PAGE]=true&zip=90094')
+WebUI.navigateToUrl((GlobalVariable.TS_Domain + GlobalVariable.Overview_IS) + '?link[ModelSignUpFormIS][SHOW_PAGE]=true&zip=90094')
 
 WebUI.waitForPageLoad(0)
 
-WebUI.verifyElementVisibleInViewport(findTestObject('ModelPages/SignupForm/form overlay'), 0)
+WebUI.delay(5)
+
+not_run: WebUI.waitForElementPresent(findTestObject('ModelPages/SignupForm/form overlay'), 0)
+
+not_run: WebUI.verifyElementPresent(findTestObject('ModelPages/SignupForm/form overlay'), 0)
+
+WebUI.verifyTextPresent('Get an inside look at Lexus, along with special offers and exclusive invites', false)
 
 @com.kms.katalon.core.annotation.TearDownIfPassed
 def passed() {

@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>a0271a73-1614-4e5a-be26-913bacd04a07</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/ModelPages/IS/InformationLayer/Desktop - Add removed model-style(s) to Feature Matrix - Select Multiple Styles</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>

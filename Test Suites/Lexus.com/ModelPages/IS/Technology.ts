@@ -98,7 +98,7 @@
    <testCaseLink>
       <guid>e3aa02e4-db8c-49ba-b140-09f2759f7a3c</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/ModelPages/IS/Technology/View More Features Drawer - hyperlink text in body copy</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
