@@ -25,15 +25,15 @@ WebUI.navigateToUrl(GlobalVariable.SC_Domain)
 
 WebUI.navigateToUrl(GlobalVariable.SC_Domain_Unauthenticated)
 
-WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelector/disclaimer asterisk'), 0)
+WebUI.verifyElementPresent(findTestObject('Homepage/GlobalMisc/disclaimer asterisk'), 0)
 
-WebUI.scrollToElement(findTestObject('Homepage/VehicleSelector/disclaimer asterisk'), 0)
+WebUI.scrollToElement(findTestObject('Homepage/GlobalMisc/disclaimer asterisk'), 0)
 
-WebUI.click(findTestObject('Homepage/VehicleSelector/disclaimer asterisk'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Homepage/GlobalMisc/disclaimer asterisk'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('HomePage/VehicleSelector/MSRP disclaimer'), 0)
+WebUI.waitForElementVisible(findTestObject('Homepage/GlobalMisc/disclaimer text'), 0)
 
-WebUI.verifyElementVisible(findTestObject('HomePage/VehicleSelector/MSRP disclaimer'), FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('Homepage/GlobalMisc/disclaimer text'), FailureHandling.STOP_ON_FAILURE)
 
 @com.kms.katalon.core.annotation.TearDownIfPassed
 def passed() {

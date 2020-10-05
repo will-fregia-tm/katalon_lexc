@@ -3,11 +3,11 @@
    <description></description>
    <name>disclaimer asterisk</name>
    <tag></tag>
-   <elementGuidId>8ea5149d-6976-4528-8b1c-5b019c3442cc</elementGuidId>
+   <elementGuidId>721ea737-2d4f-4fa4-a7fa-0dde8f88d90d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>div.component.VehicleSelector span.asterisk</value>
+         <value>#wrapper span.asterisk</value>
       </entry>
       <entry>
          <key>XPATH</key>
