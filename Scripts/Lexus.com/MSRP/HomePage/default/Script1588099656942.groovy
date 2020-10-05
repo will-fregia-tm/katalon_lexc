@@ -22,20 +22,21 @@ WebUI.navigateToUrl(GlobalVariable.SC_Domain)
 
 WebUI.navigateToUrl(GlobalVariable.SC_Domain_Unauthenticated + '/?default=true')
 
-WebUI.waitForElementPresent(findTestObject('MSRP/section objects/homepage/hero module/hero module - any starting at price'), 
-    0, FailureHandling.CONTINUE_ON_FAILURE)
+'checks whether there\'s an MSRP displayed in the hero module'
+if (WebUI.verifyElementPresent(findTestObject('MSRP/section objects/homepage/hero module/hero module - any starting at price'), 
+    0, FailureHandling.OPTIONAL)) {
+    WebUI.verifyElementVisible(findTestObject('MSRP/section objects/homepage/hero module/hero module - any starting at price'))
 
-WebUI.verifyElementVisible(findTestObject('MSRP/section objects/homepage/hero module/hero module - any starting at price'))
+    textWithMSRP = WebUI.getText(findTestObject('MSRP/section objects/homepage/hero module/hero module - any starting at price'), 
+        FailureHandling.STOP_ON_FAILURE)
 
-textWithMSRP = WebUI.getText(findTestObject('MSRP/section objects/homepage/hero module/hero module - any starting at price'), 
-    FailureHandling.STOP_ON_FAILURE)
+    'ES'
+    expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 10)
 
-'ES'
-expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 10)
+    textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
 
-textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
-
-WebUI.verifyNotMatch(textWithoutExpectedMSRP, textWithMSRP, false, FailureHandling.STOP_ON_FAILURE)
+    WebUI.verifyNotMatch(textWithoutExpectedMSRP, textWithMSRP, false, FailureHandling.STOP_ON_FAILURE)
+}
 
 WebUI.scrollToElement(findTestObject('HomePage/VehicleSelector/vehicle selector - heading'), 0, FailureHandling.CONTINUE_ON_FAILURE)
 
