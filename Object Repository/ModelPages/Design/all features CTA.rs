@@ -7,24 +7,24 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#design > div:nth-child(2) > div > div > div > div > div:nth-child(2) > div > div > div</value>
+         <value>#design > div:nth-child(2) > div > div > div > div > div:nth-child(3) > div > div > div</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[contains(@class, 'App')]/div[3]/div/div/div/div[2]</value>
+         <value>//*[@id=&quot;design&quot;]//*[(contains(text(), 'ALL DESIGN') or contains(., 'ALL DESIGN'))]</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'AllSafety']</value>
+         <value>//*[(contains(text(), 'ALL DESIGN') or contains(., 'ALL DESIGN'))]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <matchCondition>contains</matchCondition>
+      <name>text</name>
       <type>Main</type>
-      <value>AllSafety</value>
+      <value>ALL DESIGN</value>
    </webElementProperties>
 </WebElementEntity>
