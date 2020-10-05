@@ -15,7 +15,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser(GlobalVariable.TS_Domain + GlobalVariable.Header)
 
-WebUI.navigateToUrl(GlobalVariable.TS_Domain + GlobalVariable.Overview_NXh)
+WebUI.navigateToUrl(GlobalVariable.TS_Domain + GlobalVariable.Overview_UXh)
 
 WebUI.waitForPageLoad(0)
 
@@ -28,9 +28,9 @@ if (WebUI.verifyGreaterThan(pageWidth, '960', FailureHandling.OPTIONAL)) {
 
     WebUI.click(findTestObject('ModelPages/Styles/Compare CTA - desktop'), FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.waitForElementPresent(findTestObject('ModelPages/InformationLayer/trim heading - NX 300'), 0)
+    WebUI.waitForElementPresent(findTestObject('ModelPages/InformationLayer/trim heading - UX 200'), 0)
 
-    WebUI.verifyElementPresent(findTestObject('ModelPages/InformationLayer/trim heading - NX 300'), 0)
+    WebUI.verifyElementPresent(findTestObject('ModelPages/InformationLayer/trim heading - UX 200'), 0)
 
     WebUI.verifyElementPresent(findTestObject('ModelPages/InformationLayer/trim heading - NX 300h AWD'), 0)
 
@@ -58,9 +58,9 @@ if (WebUI.verifyGreaterThan(pageWidth, '960', FailureHandling.OPTIONAL)) {
 
     WebUI.click(findTestObject('ModelPages/InformationLayer/apply button'))
 
-    WebUI.waitForElementPresent(findTestObject('ModelPages/InformationLayer/trim heading - NX 300'), 0)
+    WebUI.waitForElementPresent(findTestObject('ModelPages/InformationLayer/trim heading - UX 200'), 0)
 
-    WebUI.verifyElementPresent(findTestObject('ModelPages/InformationLayer/trim heading - NX 300'), 0)
+    WebUI.verifyElementPresent(findTestObject('ModelPages/InformationLayer/trim heading - UX 200'), 0)
 
     WebUI.verifyElementPresent(findTestObject('ModelPages/InformationLayer/trim heading - NX 300h AWD'), 0)
 }

@@ -13,7 +13,7 @@
             <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/NX/Design</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/UX/Design</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -22,7 +22,7 @@
             <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/NX/Disclaimers</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/UX/Disclaimers</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -31,7 +31,7 @@
             <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/NX/Gallery</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/UX/Gallery</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -40,7 +40,7 @@
             <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/NX/Hero</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/UX/Hero</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -49,7 +49,7 @@
             <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/NX/InformationLayer_Desktop</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/UX/InformationLayer_Desktop</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -58,7 +58,7 @@
             <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
          <runEnabled>false</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/NX/InformationLayer_Mobile</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/UX/InformationLayer_Mobile</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -67,25 +67,7 @@
             <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
          <runEnabled>false</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/NX/Offers</testSuiteEntity>
-      </TestSuiteRunConfiguration>
-      <TestSuiteRunConfiguration>
-         <configuration>
-            <groupName>Custom</groupName>
-            <profileName>staging</profileName>
-            <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
-         </configuration>
-         <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/NX/Performance</testSuiteEntity>
-      </TestSuiteRunConfiguration>
-      <TestSuiteRunConfiguration>
-         <configuration>
-            <groupName>Custom</groupName>
-            <profileName>staging</profileName>
-            <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
-         </configuration>
-         <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/NX/Styles_Desktop</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/UX/Offers</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -94,7 +76,7 @@
             <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
          <runEnabled>false</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/NX/Styles_Mobile</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/UX/Overlay</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -103,7 +85,7 @@
             <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/NX/Subnav</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/UX/Performance</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -112,61 +94,7 @@
             <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/NX/Technology</testSuiteEntity>
-      </TestSuiteRunConfiguration>
-      <TestSuiteRunConfiguration>
-         <configuration>
-            <groupName>Custom</groupName>
-            <profileName>staging</profileName>
-            <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
-         </configuration>
-         <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/NX/Visualizer</testSuiteEntity>
-      </TestSuiteRunConfiguration>
-      <TestSuiteRunConfiguration>
-         <configuration>
-            <groupName>Custom</groupName>
-            <profileName>staging</profileName>
-            <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
-         </configuration>
-         <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/NXh/Design</testSuiteEntity>
-      </TestSuiteRunConfiguration>
-      <TestSuiteRunConfiguration>
-         <configuration>
-            <groupName>Custom</groupName>
-            <profileName>staging</profileName>
-            <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
-         </configuration>
-         <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/NXh/Disclaimers</testSuiteEntity>
-      </TestSuiteRunConfiguration>
-      <TestSuiteRunConfiguration>
-         <configuration>
-            <groupName>Custom</groupName>
-            <profileName>staging</profileName>
-            <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
-         </configuration>
-         <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/NXh/Gallery</testSuiteEntity>
-      </TestSuiteRunConfiguration>
-      <TestSuiteRunConfiguration>
-         <configuration>
-            <groupName>Custom</groupName>
-            <profileName>staging</profileName>
-            <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
-         </configuration>
-         <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/NXh/Hero</testSuiteEntity>
-      </TestSuiteRunConfiguration>
-      <TestSuiteRunConfiguration>
-         <configuration>
-            <groupName>Custom</groupName>
-            <profileName>staging</profileName>
-            <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
-         </configuration>
-         <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/NXh/InformationLayer_Desktop</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/UX/Styles_Desktop</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -175,7 +103,79 @@
             <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
          <runEnabled>false</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/NXh/InformationLayer_Mobile</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/UX/Styles_Mobile</testSuiteEntity>
+      </TestSuiteRunConfiguration>
+      <TestSuiteRunConfiguration>
+         <configuration>
+            <groupName>Custom</groupName>
+            <profileName>staging</profileName>
+            <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
+         </configuration>
+         <runEnabled>true</runEnabled>
+         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/UX/Subnav</testSuiteEntity>
+      </TestSuiteRunConfiguration>
+      <TestSuiteRunConfiguration>
+         <configuration>
+            <groupName>Custom</groupName>
+            <profileName>staging</profileName>
+            <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
+         </configuration>
+         <runEnabled>true</runEnabled>
+         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/UX/Technology</testSuiteEntity>
+      </TestSuiteRunConfiguration>
+      <TestSuiteRunConfiguration>
+         <configuration>
+            <groupName>Custom</groupName>
+            <profileName>staging</profileName>
+            <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
+         </configuration>
+         <runEnabled>true</runEnabled>
+         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/UX/Visualizer</testSuiteEntity>
+      </TestSuiteRunConfiguration>
+      <TestSuiteRunConfiguration>
+         <configuration>
+            <groupName>Custom</groupName>
+            <profileName>staging</profileName>
+            <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
+         </configuration>
+         <runEnabled>true</runEnabled>
+         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/UXh/Design</testSuiteEntity>
+      </TestSuiteRunConfiguration>
+      <TestSuiteRunConfiguration>
+         <configuration>
+            <groupName>Custom</groupName>
+            <profileName>staging</profileName>
+            <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
+         </configuration>
+         <runEnabled>true</runEnabled>
+         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/UXh/Disclaimers</testSuiteEntity>
+      </TestSuiteRunConfiguration>
+      <TestSuiteRunConfiguration>
+         <configuration>
+            <groupName>Custom</groupName>
+            <profileName>staging</profileName>
+            <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
+         </configuration>
+         <runEnabled>true</runEnabled>
+         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/UXh/Gallery</testSuiteEntity>
+      </TestSuiteRunConfiguration>
+      <TestSuiteRunConfiguration>
+         <configuration>
+            <groupName>Custom</groupName>
+            <profileName>staging</profileName>
+            <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
+         </configuration>
+         <runEnabled>true</runEnabled>
+         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/UXh/Hero</testSuiteEntity>
+      </TestSuiteRunConfiguration>
+      <TestSuiteRunConfiguration>
+         <configuration>
+            <groupName>Custom</groupName>
+            <profileName>staging</profileName>
+            <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
+         </configuration>
+         <runEnabled>true</runEnabled>
+         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/UXh/InformationLayer_Desktop</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -184,25 +184,7 @@
             <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
          <runEnabled>false</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/NXh/Offers</testSuiteEntity>
-      </TestSuiteRunConfiguration>
-      <TestSuiteRunConfiguration>
-         <configuration>
-            <groupName>Custom</groupName>
-            <profileName>staging</profileName>
-            <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
-         </configuration>
-         <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/NXh/Performance</testSuiteEntity>
-      </TestSuiteRunConfiguration>
-      <TestSuiteRunConfiguration>
-         <configuration>
-            <groupName>Custom</groupName>
-            <profileName>staging</profileName>
-            <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
-         </configuration>
-         <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/NXh/Styles_Desktop</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/UXh/InformationLayer_Mobile</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -211,7 +193,16 @@
             <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
          <runEnabled>false</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/NXh/Styles_Mobile</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/UXh/Offers</testSuiteEntity>
+      </TestSuiteRunConfiguration>
+      <TestSuiteRunConfiguration>
+         <configuration>
+            <groupName>Custom</groupName>
+            <profileName>staging</profileName>
+            <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
+         </configuration>
+         <runEnabled>false</runEnabled>
+         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/UXh/Overlay</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -220,7 +211,7 @@
             <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/NXh/Subnav</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/UXh/Performance</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -229,7 +220,16 @@
             <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/NXh/Technology</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/UXh/Styles_Desktop</testSuiteEntity>
+      </TestSuiteRunConfiguration>
+      <TestSuiteRunConfiguration>
+         <configuration>
+            <groupName>Custom</groupName>
+            <profileName>staging</profileName>
+            <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
+         </configuration>
+         <runEnabled>false</runEnabled>
+         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/UXh/Styles_Mobile</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -238,7 +238,7 @@
             <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/NXh/Visualizer</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/UXh/Subnav</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -247,7 +247,7 @@
             <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/NX/Overlay</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/UXh/Technology</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -256,7 +256,7 @@
             <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/NXh/Overlay</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/UXh/Visualizer</testSuiteEntity>
       </TestSuiteRunConfiguration>
    </testSuiteRunConfigurations>
 </TestSuiteCollectionEntity>

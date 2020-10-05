@@ -42,12 +42,12 @@
    <GlobalVariableEntity>
       <description></description>
       <initValue>'/models/UX'</initValue>
-      <name>Overview_NX</name>
+      <name>Overview_UX</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'/models/UX-hybrid'</initValue>
-      <name>Overview_NXh</name>
+      <name>Overview_UXh</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>

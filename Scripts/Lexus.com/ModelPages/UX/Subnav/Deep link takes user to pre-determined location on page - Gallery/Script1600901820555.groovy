@@ -15,7 +15,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser(GlobalVariable.TS_Domain + GlobalVariable.Header)
 
-WebUI.navigateToUrl((GlobalVariable.TS_Domain + GlobalVariable.Overview_NX) + '/gallery')
+WebUI.navigateToUrl((GlobalVariable.TS_Domain + GlobalVariable.Overview_UX) + '/gallery')
 
 WebUI.waitForPageLoad(0)
 

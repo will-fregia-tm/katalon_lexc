@@ -15,7 +15,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser(GlobalVariable.TS_Domain + GlobalVariable.Header)
 
-WebUI.navigateToUrl(GlobalVariable.TS_Domain + GlobalVariable.Overview_NXh)
+WebUI.navigateToUrl(GlobalVariable.TS_Domain + GlobalVariable.Overview_UXh)
 
 WebUI.waitForPageLoad(0)
 
@@ -25,8 +25,8 @@ WebUI.verifyElementVisible(findTestObject('ModelPages/Hero/starting at MSRP'), F
 
 textWithMSRP = WebUI.getText(findTestObject('ModelPages/Hero/starting at MSRP'), FailureHandling.STOP_ON_FAILURE)
 
-'NX HYBRID'
-expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 41)
+'UX HYBRID'
+expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 75)
 
 textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
 

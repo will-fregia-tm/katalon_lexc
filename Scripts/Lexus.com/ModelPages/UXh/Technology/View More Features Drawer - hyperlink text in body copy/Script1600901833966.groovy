@@ -15,7 +15,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser(GlobalVariable.TS_Domain + GlobalVariable.Header)
 
-WebUI.navigateToUrl(GlobalVariable.TS_Domain + GlobalVariable.Overview_NXh)
+WebUI.navigateToUrl(GlobalVariable.TS_Domain + GlobalVariable.Overview_UXh)
 
 WebUI.waitForPageLoad(0)
 
