@@ -30,8 +30,8 @@ if (WebUI.verifyElementPresent(findTestObject('MSRP/section objects/homepage/her
     textWithMSRP = WebUI.getText(findTestObject('MSRP/section objects/homepage/hero module/hero module - any starting at price'), 
         FailureHandling.STOP_ON_FAILURE)
 
-    'ES'
-    expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 10)
+    'IS'
+    expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 17)
 
     textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
 
