@@ -62,7 +62,7 @@
    <testCaseLink>
       <guid>bc25998f-e5e8-48cb-827d-0168b4ea04bf</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/ModelPages/IS/Performance/View More Features Drawer - carousel when 6 or more features</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
