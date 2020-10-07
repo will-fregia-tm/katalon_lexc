@@ -26,7 +26,7 @@
    <testCaseLink>
       <guid>39497a3b-836b-463e-951f-b6889773051b</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/ModelPages/UX/Visualizer/Set Interior Color - View alternative interior angle</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
