@@ -50,7 +50,7 @@
    <testCaseLink>
       <guid>e3a56c1a-a314-470d-97ee-bdf1f5c4a728</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/ModelPages/UXh/InformationLayer/Desktop - Compare Model Features - Features are grouped into Feature Categories</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
