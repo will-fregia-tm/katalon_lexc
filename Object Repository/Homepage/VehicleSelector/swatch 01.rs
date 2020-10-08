@@ -13,8 +13,12 @@
          <key>XPATH</key>
          <value>(//button[@data-slick-index = '0'])[3]</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div[data-model*=&quot;LS&quot;] button[data-slick-index*=&quot;0&quot;] </value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

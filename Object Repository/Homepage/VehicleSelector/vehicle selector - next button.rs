@@ -9,8 +9,12 @@
          <key>BASIC</key>
          <value>//button[contains(@aria-label, 'Next')]</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div[data-model*=&quot;LS&quot;] button[aria-label*=&quot;Next&quot;] </value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

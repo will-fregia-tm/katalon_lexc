@@ -9,8 +9,12 @@
          <key>BASIC</key>
          <value>//button[contains(@data-di-id, 'swatch-button-9')]</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div[data-model*=&quot;LS&quot;] button[data-slick-index*=&quot;9&quot;] </value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
