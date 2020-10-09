@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Share text link in hero opens social media overlay.</description>
+   <name>share link opens overlay</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bfc1f12b-9577-41af-a505-cc3c44536488</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>74102a83-febc-4f5f-ae94-be929efbf131</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>
