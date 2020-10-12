@@ -31,12 +31,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://aem.lexus.com'</initValue>
+      <initValue>'https://prd-aem-lcom.origin.cepo-proxy.tms.aws.lexus.com'</initValue>
       <name>AEM_Domain</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://aem.lexus.com'</initValue>
+      <initValue>'https://prd-aem-lcom.origin.cepo-proxy.tms.aws.lexus.com'</initValue>
       <name>AEM_Domain_Unauthenticated</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
