@@ -9,6 +9,7 @@
    <pageLoadTimeout>20</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>7299f2a6-9041-4182-84dd-b137fe5a2626</testSuiteGuid>
    <testCaseLink>
       <guid>b9c0c050-2045-435a-957b-b8ccfef67fcd</guid>
@@ -25,7 +26,7 @@
    <testCaseLink>
       <guid>278733c0-c867-484b-ae45-4042796c10c6</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/FCV/LC Convertible/SignupForm/Deep linking</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>

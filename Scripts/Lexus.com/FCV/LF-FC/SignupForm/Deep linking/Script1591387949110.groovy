@@ -33,16 +33,16 @@ driver.manage().addCookie(ck)
 WebUI.navigateToUrl(GlobalVariable.AEM_Domain_Unauthenticated + '/concept/LFFC/?showForm=true&firstName=sendto&lastName=adf&zip=90094')
 
 if (WebUI.verifyElementNotPresent(findTestObject('FCV/Hero/hero module'), 3, FailureHandling.OPTIONAL)) {
-	WebUI.refresh()
+    WebUI.refresh()
 }
 
 WebUI.waitForElementPresent(findTestObject('FCV/Hero/hero module'), 3, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementPresent(findTestObject('FCV/SignupForm/form overlay'), 5)
 
-WebUI.verifyElementPresent(findTestObject('FCV/SignupForm/input field - first name - sendto'), 0)
+not_run: WebUI.verifyElementPresent(findTestObject('FCV/SignupForm/input field - first name - sendto'), 0)
 
-WebUI.verifyElementPresent(findTestObject('FCV/SignupForm/input field - last name - adf'), 0)
+not_run: WebUI.verifyElementPresent(findTestObject('FCV/SignupForm/input field - last name - adf'), 0)
 
 WebUI.verifyElementPresent(findTestObject('FCV/SignupForm/input field - zip code - 90094'), 0)
 

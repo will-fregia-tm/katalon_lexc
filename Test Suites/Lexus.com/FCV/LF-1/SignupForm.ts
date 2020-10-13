@@ -26,7 +26,7 @@
    <testCaseLink>
       <guid>672efb08-b195-4beb-9893-921c72ec0c77</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/FCV/LF-1/SignupForm/Deep linking</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
