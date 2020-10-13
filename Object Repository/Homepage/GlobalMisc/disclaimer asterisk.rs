@@ -6,17 +6,17 @@
    <elementGuidId>721ea737-2d4f-4fa4-a7fa-0dde8f88d90d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#wrapper span.asterisk</value>
+         <key>BASIC</key>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@class = 'component VehicleSelector']/div/section/div[2]/div[2]/div/div/div/span[4]/span[2]//span[@class = 'asterisk']</value>
+         <value>//*[@id=&quot;slick-slide10&quot;]/div[3]/div/div[1]/div[1]/span[2]/span[1]/span</value>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>CSS</key>
+         <value>#wrapper span.asterisk</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
 </WebElementEntity>
