@@ -15,15 +15,15 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser(GlobalVariable.TS_Domain + GlobalVariable.Header)
 
-WebUI.navigateToUrl(GlobalVariable.TS_Domain + GlobalVariable.Overview_ES)
+WebUI.navigateToUrl((GlobalVariable.TS_Domain + GlobalVariable.Overview_ES) + '/design')
 
 WebUI.waitForPageLoad(0)
 
-WebUI.scrollToElement(findTestObject('ModelPages/Visualizer/visualizer'), 0)
+not_run: WebUI.scrollToElement(findTestObject('ModelPages/Visualizer/visualizer'), 0)
 
-WebUI.scrollToElement(findTestObject('ModelPages/Styles/styles module'), 0)
+not_run: WebUI.scrollToElement(findTestObject('ModelPages/Styles/styles module'), 0)
 
-WebUI.scrollToElement(findTestObject('ModelPages/Design/design module'), 0)
+not_run: WebUI.scrollToElement(findTestObject('ModelPages/Design/design module'), 0)
 
 WebUI.verifyElementVisible(findTestObject('ModelPages/Design/base-small'), FailureHandling.STOP_ON_FAILURE)
 

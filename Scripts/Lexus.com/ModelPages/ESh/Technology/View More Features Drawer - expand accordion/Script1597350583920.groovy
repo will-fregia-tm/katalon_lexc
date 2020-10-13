@@ -15,19 +15,19 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser(GlobalVariable.TS_Domain + GlobalVariable.Header)
 
-WebUI.navigateToUrl(GlobalVariable.TS_Domain + GlobalVariable.Overview_ESh)
+WebUI.navigateToUrl(GlobalVariable.TS_Domain + GlobalVariable.Overview_ESh + '/design')
 
 WebUI.waitForPageLoad(0)
 
-WebUI.scrollToElement(findTestObject('ModelPages/Visualizer/visualizer'), 0)
+not_run: WebUI.scrollToElement(findTestObject('ModelPages/Visualizer/visualizer'), 0)
 
-WebUI.scrollToElement(findTestObject('ModelPages/Styles/styles module'), 0)
+not_run: WebUI.scrollToElement(findTestObject('ModelPages/Styles/styles module'), 0)
 
-WebUI.scrollToElement(findTestObject('ModelPages/Gallery/gallery module'), 0)
+not_run: WebUI.scrollToElement(findTestObject('ModelPages/Gallery/gallery module'), 0)
 
-WebUI.scrollToElement(findTestObject('ModelPages/Performance/performance module'), 0)
+not_run: WebUI.scrollToElement(findTestObject('ModelPages/Performance/performance module'), 0)
 
-WebUI.scrollToElement(findTestObject('ModelPages/Technology/technology module'), 0)
+not_run: WebUI.scrollToElement(findTestObject('ModelPages/Technology/technology module'), 0)
 
 WebUI.verifyElementVisible(findTestObject('ModelPages/Technology/base-small'), FailureHandling.STOP_ON_FAILURE)
 
