@@ -6,17 +6,19 @@
    <elementGuidId>39521388-e2e1-4023-b2a8-c5c9753fa5d6</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//div[@class = 'footer-card__content' and (contains(text(), '$') or contains(., '$'))]</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@class = 'component HeroModule' and (contains(text(), '$') or contains(., '$'))]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.footer-card > div > div.stats > div.stat > span.value</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

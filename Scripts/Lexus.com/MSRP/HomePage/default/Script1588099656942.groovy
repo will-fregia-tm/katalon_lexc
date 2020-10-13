@@ -25,8 +25,6 @@ WebUI.navigateToUrl(GlobalVariable.SC_Domain_Unauthenticated + '/?default=true')
 'checks whether there\'s an MSRP displayed in the hero module'
 if (WebUI.verifyElementPresent(findTestObject('MSRP/section objects/homepage/hero module/hero module - any starting at price'), 
     0, FailureHandling.OPTIONAL)) {
-    WebUI.verifyElementVisible(findTestObject('MSRP/section objects/homepage/hero module/hero module - any starting at price'))
-
     textWithMSRP = WebUI.getText(findTestObject('MSRP/section objects/homepage/hero module/hero module - any starting at price'), 
         FailureHandling.STOP_ON_FAILURE)
 
