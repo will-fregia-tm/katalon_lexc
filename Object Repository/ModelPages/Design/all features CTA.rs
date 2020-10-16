@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#design > div:nth-child(2) > div > div > div > div > div:nth-child(2) > div > div > div</value>
+         <value>#design > div:nth-child(2) > div > div > div > div > div:nth-child(3) > div > div > div</value>
       </entry>
       <entry>
          <key>XPATH</key>
