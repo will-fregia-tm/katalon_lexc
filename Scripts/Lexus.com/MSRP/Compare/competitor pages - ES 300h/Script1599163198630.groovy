@@ -234,32 +234,32 @@ if (WebUI.verifyElementPresent(findTestObject('MSRP/section objects/compare/trim
     WebUI.verifyNotMatch(sedansTrimTextWithoutExpectedMSRP, sedansTrimText, false, FailureHandling.STOP_ON_FAILURE)
 
     'IS 300 F Sport RWD'
-    expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 18)
+    not_run: expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 18)
 
-    sedansTrimTextWithoutExpectedMSRP = (sedansTrimText - expectedMSRP)
+    not_run: sedansTrimTextWithoutExpectedMSRP = (sedansTrimText - expectedMSRP)
 
-    WebUI.verifyNotMatch(sedansTrimTextWithoutExpectedMSRP, sedansTrimText, false, FailureHandling.STOP_ON_FAILURE)
+    not_run: WebUI.verifyNotMatch(sedansTrimTextWithoutExpectedMSRP, sedansTrimText, false, FailureHandling.STOP_ON_FAILURE)
 
     'IS 300 F Sport AWD'
-    expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 20)
+    not_run: expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 20)
 
-    sedansTrimTextWithoutExpectedMSRP = (sedansTrimText - expectedMSRP)
+    not_run: sedansTrimTextWithoutExpectedMSRP = (sedansTrimText - expectedMSRP)
 
-    WebUI.verifyNotMatch(sedansTrimTextWithoutExpectedMSRP, sedansTrimText, false, FailureHandling.STOP_ON_FAILURE)
+    not_run: WebUI.verifyNotMatch(sedansTrimTextWithoutExpectedMSRP, sedansTrimText, false, FailureHandling.STOP_ON_FAILURE)
 
     'IS 350 F Sport RWD'
-    expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 22)
+    not_run: expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 22)
 
-    sedansTrimTextWithoutExpectedMSRP = (sedansTrimText - expectedMSRP)
+    not_run: sedansTrimTextWithoutExpectedMSRP = (sedansTrimText - expectedMSRP)
 
-    WebUI.verifyNotMatch(sedansTrimTextWithoutExpectedMSRP, sedansTrimText, false, FailureHandling.STOP_ON_FAILURE)
+    not_run: WebUI.verifyNotMatch(sedansTrimTextWithoutExpectedMSRP, sedansTrimText, false, FailureHandling.STOP_ON_FAILURE)
 
     'IS 350 F Sport AWD'
-    expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 24)
+    not_run: expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 24)
 
-    sedansTrimTextWithoutExpectedMSRP = (sedansTrimText - expectedMSRP)
+    not_run: sedansTrimTextWithoutExpectedMSRP = (sedansTrimText - expectedMSRP)
 
-    WebUI.verifyNotMatch(sedansTrimTextWithoutExpectedMSRP, sedansTrimText, false, FailureHandling.STOP_ON_FAILURE)
+    not_run: WebUI.verifyNotMatch(sedansTrimTextWithoutExpectedMSRP, sedansTrimText, false, FailureHandling.STOP_ON_FAILURE)
 }
 
 if (WebUI.verifyElementPresent(findTestObject('MSRP/section objects/compare/trim pages/active models/ES'), 0, FailureHandling.OPTIONAL)) {
