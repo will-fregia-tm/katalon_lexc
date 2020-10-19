@@ -16,6 +16,10 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 import com.kms.katalon.keyword.excel.ExcelKeywords as ExcelKeywords
+import com.kms.katalon.core.testobject.RequestObject as RequestObject
+import org.openqa.selenium.Cookie as Cookie
+import org.openqa.selenium.WebDriver as WebDriver
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
 'checks previous build version saved in log for this environment'
 previousFeedData = findTestData(GlobalVariable.DS_version + 'Log').getValue(1, 7)
@@ -47,7 +51,17 @@ if (WebUI.verifyNotMatch(currentFeedData, previousFeedData, false, FailureHandli
     'counts the total number of URLs to be tested'
     totalPages = (findTestData(GlobalVariable.DS_version + 'URLsFCVPages').getRowNumbers() - 1)
 
-    WebUI.openBrowser(GlobalVariable.TS_Domain + GlobalVariable.Header)
+    'visits SSO login page'
+    WebUI.openBrowser(GlobalVariable.SSO_login, FailureHandling.OPTIONAL)
+
+    cookieValue = findTestData('cookieValues').getValue(2, 1)
+
+    Cookie ck = new Cookie('ESTSAUTH', cookieValue)
+
+    WebDriver driver = DriverFactory.getWebDriver()
+
+    'adds SSO authentication cookie so all environments can be accessed'
+    driver.manage().addCookie(ck)
 
     for (def index : (0..totalPages)) {
         WebUI.navigateToUrl(findTestData(GlobalVariable.DS_version + 'URLsFCVPages').getValue(dataColumn, dataRow))
