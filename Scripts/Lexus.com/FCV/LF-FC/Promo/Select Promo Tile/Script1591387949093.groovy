@@ -33,7 +33,7 @@ driver.manage().addCookie(ck)
 WebUI.navigateToUrl(GlobalVariable.AEM_Domain_Unauthenticated + '/concept/LFFC')
 
 if (WebUI.verifyElementNotPresent(findTestObject('FCV/Hero/hero module'), 3, FailureHandling.OPTIONAL)) {
-	WebUI.refresh()
+    WebUI.refresh()
 }
 
 WebUI.waitForElementPresent(findTestObject('FCV/Hero/hero module'), 3, FailureHandling.STOP_ON_FAILURE)
@@ -94,7 +94,7 @@ WebUI.click(findTestObject('FCV/Promo/model card 5 subtag'), FailureHandling.STO
 
 WebUI.waitForPageLoad(0)
 
-WebUI.verifyTextPresent(subtagText, false)
+not_run: WebUI.verifyTextPresent(subtagText, false)
 
 @com.kms.katalon.core.annotation.TearDownIfPassed
 def passed() {
