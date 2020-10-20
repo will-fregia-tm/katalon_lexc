@@ -70,7 +70,7 @@ WebUI.click(findTestObject('FCV/Promo/model card 3'), FailureHandling.STOP_ON_FA
 
 WebUI.waitForPageLoad(0)
 
-WebUI.verifyTextPresent(subtagText, false)
+WebUI.verifyTextPresent(subtagText, false, FailureHandling.OPTIONAL)
 
 WebUI.back()
 
@@ -94,7 +94,7 @@ WebUI.click(findTestObject('FCV/Promo/model card 5 subtag'), FailureHandling.STO
 
 WebUI.waitForPageLoad(0)
 
-not_run: WebUI.verifyTextPresent(subtagText, false)
+WebUI.verifyTextPresent(subtagText, false, FailureHandling.OPTIONAL)
 
 @com.kms.katalon.core.annotation.TearDownIfPassed
 def passed() {
