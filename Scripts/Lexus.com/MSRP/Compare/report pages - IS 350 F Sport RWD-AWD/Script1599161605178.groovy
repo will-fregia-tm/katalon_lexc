@@ -25,14 +25,14 @@ WebUI.scrollToElement(findTestObject('MSRP/section objects/compare/report pages/
 textWithMSRP = WebUI.getText(findTestObject('MSRP/section objects/compare/report pages/wrapper'))
 
 'IS 350 F Sport RWD'
-expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 22)
+expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 21)
 
 textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
 
 WebUI.verifyNotMatch(textWithoutExpectedMSRP, textWithMSRP, false, FailureHandling.STOP_ON_FAILURE)
 
 'IS 350 F Sport AWD'
-expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 24)
+expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 23)
 
 textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
 

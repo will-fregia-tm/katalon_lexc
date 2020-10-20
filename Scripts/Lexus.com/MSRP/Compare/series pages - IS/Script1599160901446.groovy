@@ -20,8 +20,8 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.TS_Domain + '/compare/series/IS')
 
-WebUI.scrollToElement(findTestObject('MSRP/section objects/compare/series pages - JATO IDs/IS/IS 300 RWD - starting at price'),
-	0)
+WebUI.scrollToElement(findTestObject('MSRP/section objects/compare/series pages - JATO IDs/IS/IS 300 RWD - starting at price'), 
+    0)
 
 textWithMSRP = WebUI.getText(findTestObject('MSRP/section objects/compare/series pages - JATO IDs/IS/IS 300 RWD - starting at price'))
 
@@ -41,64 +41,64 @@ textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
 
 WebUI.verifyNotMatch(textWithoutExpectedMSRP, textWithMSRP, false, FailureHandling.STOP_ON_FAILURE)
 
-textWithMSRP = WebUI.getText(findTestObject('MSRP/section objects/compare/series pages - JATO IDs/IS/IS 300 F Sport RWD - starting at price'))
+not_run: textWithMSRP = WebUI.getText(findTestObject('MSRP/section objects/compare/series pages - JATO IDs/IS/IS 300 F Sport RWD - starting at price'))
 
 'IS 300 F Sport RWD'
-expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 18)
+not_run: expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 18)
 
-textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
+not_run: textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
 
-WebUI.verifyNotMatch(textWithoutExpectedMSRP, textWithMSRP, false, FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.verifyNotMatch(textWithoutExpectedMSRP, textWithMSRP, false, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.scrollToElement(findTestObject('MSRP/section objects/compare/series pages - JATO IDs/IS/IS 300 F Sport AWD - starting at price'),
-	0)
+not_run: WebUI.scrollToElement(findTestObject('MSRP/section objects/compare/series pages - JATO IDs/IS/IS 300 F Sport AWD - starting at price'), 
+    0)
 
-textWithMSRP = WebUI.getText(findTestObject('MSRP/section objects/compare/series pages - JATO IDs/IS/IS 300 F Sport AWD - starting at price'))
+not_run: textWithMSRP = WebUI.getText(findTestObject('MSRP/section objects/compare/series pages - JATO IDs/IS/IS 300 F Sport AWD - starting at price'))
 
 'IS 300 F Sport AWD'
-expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 20)
+not_run: expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 20)
 
-textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
+not_run: textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
 
-WebUI.verifyNotMatch(textWithoutExpectedMSRP, textWithMSRP, false, FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.verifyNotMatch(textWithoutExpectedMSRP, textWithMSRP, false, FailureHandling.STOP_ON_FAILURE)
 
-textWithMSRP = WebUI.getText(findTestObject('MSRP/section objects/compare/series pages - JATO IDs/IS/IS 350 RWD - starting at price'))
+not_run: textWithMSRP = WebUI.getText(findTestObject('MSRP/section objects/compare/series pages - JATO IDs/IS/IS 350 RWD - starting at price'))
 
 'IS 350 RWD'
+not_run: expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 21)
+
+not_run: textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
+
+not_run: WebUI.verifyNotMatch(textWithoutExpectedMSRP, textWithMSRP, false, FailureHandling.STOP_ON_FAILURE)
+
+not_run: WebUI.scrollToElement(findTestObject('MSRP/section objects/compare/series pages - JATO IDs/IS/IS 350 AWD - starting at price'), 
+    0)
+
+not_run: textWithMSRP = WebUI.getText(findTestObject('MSRP/section objects/compare/series pages - JATO IDs/IS/IS 350 AWD - starting at price'))
+
+'IS 350 AWD'
+not_run: expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 23)
+
+not_run: textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
+
+not_run: WebUI.verifyNotMatch(textWithoutExpectedMSRP, textWithMSRP, false, FailureHandling.STOP_ON_FAILURE)
+
+textWithMSRP = WebUI.getText(findTestObject('MSRP/section objects/compare/series pages - JATO IDs/IS/IS 350 F Sport RWD - starting at price'))
+
+'IS 350 F Sport RWD'
 expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 21)
 
 textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
 
 WebUI.verifyNotMatch(textWithoutExpectedMSRP, textWithMSRP, false, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.scrollToElement(findTestObject('MSRP/section objects/compare/series pages - JATO IDs/IS/IS 350 AWD - starting at price'),
-	0)
-
-textWithMSRP = WebUI.getText(findTestObject('MSRP/section objects/compare/series pages - JATO IDs/IS/IS 350 AWD - starting at price'))
-
-'IS 350 AWD'
-expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 23)
-
-textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
-
-WebUI.verifyNotMatch(textWithoutExpectedMSRP, textWithMSRP, false, FailureHandling.STOP_ON_FAILURE)
-
-textWithMSRP = WebUI.getText(findTestObject('MSRP/section objects/compare/series pages - JATO IDs/IS/IS 350 F Sport RWD - starting at price'))
-
-'IS 350 F Sport RWD'
-expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 22)
-
-textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
-
-WebUI.verifyNotMatch(textWithoutExpectedMSRP, textWithMSRP, false, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.scrollToElement(findTestObject('MSRP/section objects/compare/series pages - JATO IDs/IS/IS 350 F Sport AWD - starting at price'),
-	0)
+WebUI.scrollToElement(findTestObject('MSRP/section objects/compare/series pages - JATO IDs/IS/IS 350 F Sport AWD - starting at price'), 
+    0)
 
 textWithMSRP = WebUI.getText(findTestObject('MSRP/section objects/compare/series pages - JATO IDs/IS/IS 350 F Sport AWD - starting at price'))
 
 'IS 350 F Sport AWD'
-expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 24)
+expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 23)
 
 textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
 
@@ -106,11 +106,11 @@ WebUI.verifyNotMatch(textWithoutExpectedMSRP, textWithMSRP, false, FailureHandli
 
 @com.kms.katalon.core.annotation.TearDownIfPassed
 def passed() {
-	WebUI.executeJavaScript('sauce:job-result=passed', [])
+    WebUI.executeJavaScript('sauce:job-result=passed', [])
 }
 
 @com.kms.katalon.core.annotation.TearDownIfFailed
 def failed() {
-	WebUI.executeJavaScript('sauce:job-result=failed', [])
+    WebUI.executeJavaScript('sauce:job-result=failed', [])
 }
 

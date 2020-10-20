@@ -62,7 +62,7 @@
    <testCaseLink>
       <guid>893f783a-9ee4-42aa-8d17-478ae9a400a2</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/Compare/series pages - IS</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -146,7 +146,7 @@
    <testCaseLink>
       <guid>4c2ead7b-f67c-44d6-bddb-9eeecf0b6781</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/Compare/series pages - RC F</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -158,7 +158,7 @@
    <testCaseLink>
       <guid>7fa92790-2115-4d3f-b0ad-9e2a30dce6e8</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/Compare/series pages - RC</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -194,7 +194,7 @@
    <testCaseLink>
       <guid>7d250cbf-4076-4d7f-9fd0-033e65d3de54</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/Compare/series pages - UX</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -206,7 +206,7 @@
    <testCaseLink>
       <guid>0424b273-214c-4061-8f1e-d009b1ab8ef5</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/Compare/series pages - UXh</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
