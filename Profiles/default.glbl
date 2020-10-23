@@ -39,4 +39,9 @@
       <initValue>''</initValue>
       <name>currentTestCaseID</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://login.microsoftonline.com'</initValue>
+      <name>SSO_login</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
