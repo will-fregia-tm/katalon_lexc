@@ -33,7 +33,8 @@ if (WebUI.verifyGreaterThan(pageWidth, '960', FailureHandling.OPTIONAL)) {
     if (WebUI.verifyElementPresent(findTestObject('ModelPages/Technology/feature 6'), 0, FailureHandling.OPTIONAL)) {
         WebUI.verifyElementVisibleInViewport(findTestObject('ModelPages/Technology/carousel next button'), 0)
 
-        WebUI.verifyElementVisibleInViewport(findTestObject('ModelPages/Technology/carousel previous button'), 0)
+        not_run: WebUI.verifyElementVisibleInViewport(findTestObject('ModelPages/Technology/carousel previous button'), 
+            0)
 
         WebUI.click(findTestObject('ModelPages/Technology/carousel next button'), FailureHandling.STOP_ON_FAILURE)
 
