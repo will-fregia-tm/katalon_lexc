@@ -12,8 +12,8 @@
             <profileName>prod</profileName>
             <runConfigurationId>saucelabs_safari_ios13_ipadpro</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/NX/Offers</testSuiteEntity>
+         <runEnabled>false</runEnabled>
+         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/LS/Offers</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -21,8 +21,8 @@
             <profileName>prod</profileName>
             <runConfigurationId>saucelabs_safari_ios13_ipadpro</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/NXh/Offers</testSuiteEntity>
+         <runEnabled>false</runEnabled>
+         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/LSh/Offers</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -31,7 +31,7 @@
             <runConfigurationId>saucelabs_chrome_android8_galaxys8</runConfigurationId>
          </configuration>
          <runEnabled>false</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/NX/Design</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/LS/Design</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -39,8 +39,8 @@
             <profileName>prod</profileName>
             <runConfigurationId>saucelabs_chrome_android9_galaxys9</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/NX/Disclaimers</testSuiteEntity>
+         <runEnabled>false</runEnabled>
+         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/LS/Disclaimers</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -49,7 +49,7 @@
             <runConfigurationId>saucelabs_safari_ios12_ipad6</runConfigurationId>
          </configuration>
          <runEnabled>false</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/NX/Gallery</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/LS/Gallery</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -58,7 +58,7 @@
             <runConfigurationId>saucelabs_safari_ios12_iphone7</runConfigurationId>
          </configuration>
          <runEnabled>false</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/NX/Hero</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/LS/Hero</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -66,8 +66,8 @@
             <profileName>prod</profileName>
             <runConfigurationId>saucelabs_chrome_macos10.14</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/NX/InformationLayer_Desktop</testSuiteEntity>
+         <runEnabled>false</runEnabled>
+         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/LS/InformationLayer_Desktop</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -75,8 +75,8 @@
             <profileName>prod</profileName>
             <runConfigurationId>saucelabs_safari_ios13_iphone8</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/NX/InformationLayer_Mobile</testSuiteEntity>
+         <runEnabled>false</runEnabled>
+         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/LS/InformationLayer_Mobile</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -84,8 +84,8 @@
             <profileName>prod</profileName>
             <runConfigurationId>saucelabs_safari_ios13_iphonex</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/NX/Overlay</testSuiteEntity>
+         <runEnabled>false</runEnabled>
+         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/LS/Overlay</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -93,8 +93,8 @@
             <profileName>prod</profileName>
             <runConfigurationId>saucelabs_chrome_android8_galaxys8</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/NX/Performance</testSuiteEntity>
+         <runEnabled>false</runEnabled>
+         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/LS/Performance</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -102,8 +102,8 @@
             <profileName>prod</profileName>
             <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/NX/Styles_Desktop</testSuiteEntity>
+         <runEnabled>false</runEnabled>
+         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/LS/Styles_Desktop</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -111,8 +111,8 @@
             <profileName>prod</profileName>
             <runConfigurationId>saucelabs_chrome_android9_galaxys9</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/NX/Styles_Mobile</testSuiteEntity>
+         <runEnabled>false</runEnabled>
+         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/LS/Styles_Mobile</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -121,7 +121,7 @@
             <runConfigurationId>saucelabs_safari_ios12_ipad6</runConfigurationId>
          </configuration>
          <runEnabled>false</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/NX/Subnav</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/LS/Subnav</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -130,7 +130,7 @@
             <runConfigurationId>saucelabs_safari_ios12_iphone7</runConfigurationId>
          </configuration>
          <runEnabled>false</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/NX/Technology</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/LS/Technology</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -138,8 +138,8 @@
             <profileName>prod</profileName>
             <runConfigurationId>saucelabs_safari_ios13_ipadpro</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/NX/Visualizer</testSuiteEntity>
+         <runEnabled>false</runEnabled>
+         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/LS/Visualizer</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -148,7 +148,7 @@
             <runConfigurationId>saucelabs_safari_ios13_iphone8</runConfigurationId>
          </configuration>
          <runEnabled>false</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/NXh/Design</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/LSh/Design</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -156,8 +156,8 @@
             <profileName>prod</profileName>
             <runConfigurationId>saucelabs_safari_ios13_iphonex</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/NXh/Disclaimers</testSuiteEntity>
+         <runEnabled>false</runEnabled>
+         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/LSh/Disclaimers</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -165,8 +165,8 @@
             <profileName>prod</profileName>
             <runConfigurationId>saucelabs_chrome_android8_galaxys8</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/NXh/Gallery</testSuiteEntity>
+         <runEnabled>false</runEnabled>
+         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/LSh/Gallery</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -175,7 +175,7 @@
             <runConfigurationId>saucelabs_safari_ios12_ipad6</runConfigurationId>
          </configuration>
          <runEnabled>false</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/NXh/Hero</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/LSh/Hero</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -183,8 +183,8 @@
             <profileName>prod</profileName>
             <runConfigurationId>saucelabs_ie11_win10</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/NXh/InformationLayer_Desktop</testSuiteEntity>
+         <runEnabled>false</runEnabled>
+         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/LSh/InformationLayer_Desktop</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -193,7 +193,7 @@
             <runConfigurationId>saucelabs_safari_ios12_iphone7</runConfigurationId>
          </configuration>
          <runEnabled>false</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/NXh/InformationLayer_Mobile</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/LSh/InformationLayer_Mobile</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -201,8 +201,8 @@
             <profileName>prod</profileName>
             <runConfigurationId>saucelabs_safari_ios13_iphone8</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/NXh/Overlay</testSuiteEntity>
+         <runEnabled>false</runEnabled>
+         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/LSh/Overlay</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -211,7 +211,7 @@
             <runConfigurationId>saucelabs_safari_ios13_iphonex</runConfigurationId>
          </configuration>
          <runEnabled>false</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/NXh/Performance</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/LSh/Performance</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -219,8 +219,8 @@
             <profileName>prod</profileName>
             <runConfigurationId>saucelabs_edge_win10</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/NXh/Styles_Desktop</testSuiteEntity>
+         <runEnabled>false</runEnabled>
+         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/LSh/Styles_Desktop</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -229,7 +229,7 @@
             <runConfigurationId>saucelabs_chrome_android8_galaxys8</runConfigurationId>
          </configuration>
          <runEnabled>false</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/NXh/Styles_Mobile</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/LSh/Styles_Mobile</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -238,7 +238,7 @@
             <runConfigurationId>saucelabs_chrome_android9_galaxys9</runConfigurationId>
          </configuration>
          <runEnabled>false</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/NXh/Subnav</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/LSh/Subnav</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -247,7 +247,7 @@
             <runConfigurationId>saucelabs_safari_ios12_ipad6</runConfigurationId>
          </configuration>
          <runEnabled>false</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/NXh/Technology</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/LSh/Technology</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -256,7 +256,7 @@
             <runConfigurationId>saucelabs_safari_ios12_iphone7</runConfigurationId>
          </configuration>
          <runEnabled>false</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/NXh/Visualizer</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/LSh/Visualizer</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -264,8 +264,8 @@
             <profileName>prod</profileName>
             <runConfigurationId>saucelabs_chrome_macos10.14</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/NX/Design</testSuiteEntity>
+         <runEnabled>false</runEnabled>
+         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/LS/Design</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -273,8 +273,8 @@
             <profileName>prod</profileName>
             <runConfigurationId>saucelabs_chrome_macos10.15</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/NX/Disclaimers</testSuiteEntity>
+         <runEnabled>false</runEnabled>
+         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/LS/Disclaimers</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -282,8 +282,8 @@
             <profileName>prod</profileName>
             <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/NX/Gallery</testSuiteEntity>
+         <runEnabled>false</runEnabled>
+         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/LS/Gallery</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -291,8 +291,8 @@
             <profileName>prod</profileName>
             <runConfigurationId>saucelabs_chrome_win7</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/NX/Hero</testSuiteEntity>
+         <runEnabled>false</runEnabled>
+         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/LS/Hero</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -300,8 +300,8 @@
             <profileName>prod</profileName>
             <runConfigurationId>saucelabs_safari11_macos10.13</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/NX/InformationLayer_Desktop</testSuiteEntity>
+         <runEnabled>false</runEnabled>
+         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/LS/InformationLayer_Desktop</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -309,8 +309,8 @@
             <profileName>prod</profileName>
             <runConfigurationId>saucelabs_chrome_android9_galaxys9</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/NX/InformationLayer_Mobile</testSuiteEntity>
+         <runEnabled>false</runEnabled>
+         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/LS/InformationLayer_Mobile</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -318,8 +318,8 @@
             <profileName>prod</profileName>
             <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/NX/Offers</testSuiteEntity>
+         <runEnabled>false</runEnabled>
+         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/LS/Offers</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -327,8 +327,8 @@
             <profileName>prod</profileName>
             <runConfigurationId>saucelabs_firefox_macos10.15</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/NX/Overlay</testSuiteEntity>
+         <runEnabled>false</runEnabled>
+         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/LS/Overlay</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -336,8 +336,8 @@
             <profileName>prod</profileName>
             <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/NX/Performance</testSuiteEntity>
+         <runEnabled>false</runEnabled>
+         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/LS/Performance</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -345,8 +345,8 @@
             <profileName>prod</profileName>
             <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/NX/Styles_Desktop</testSuiteEntity>
+         <runEnabled>false</runEnabled>
+         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/LS/Styles_Desktop</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -355,7 +355,7 @@
             <runConfigurationId>saucelabs_safari_ios12_iphone7</runConfigurationId>
          </configuration>
          <runEnabled>false</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/NX/Styles_Mobile</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/LS/Styles_Mobile</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -363,8 +363,8 @@
             <profileName>prod</profileName>
             <runConfigurationId>saucelabs_safari11_macos10.13</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/NX/Subnav</testSuiteEntity>
+         <runEnabled>false</runEnabled>
+         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/LS/Subnav</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -372,8 +372,8 @@
             <profileName>prod</profileName>
             <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/NX/Technology</testSuiteEntity>
+         <runEnabled>false</runEnabled>
+         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/LS/Technology</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -381,8 +381,8 @@
             <profileName>prod</profileName>
             <runConfigurationId>saucelabs_chrome_macos10.15</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/NX/Visualizer</testSuiteEntity>
+         <runEnabled>false</runEnabled>
+         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/LS/Visualizer</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -390,8 +390,8 @@
             <profileName>prod</profileName>
             <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/NXh/Design</testSuiteEntity>
+         <runEnabled>false</runEnabled>
+         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/LSh/Design</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -399,8 +399,8 @@
             <profileName>prod</profileName>
             <runConfigurationId>saucelabs_chrome_win7</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/NXh/Disclaimers</testSuiteEntity>
+         <runEnabled>false</runEnabled>
+         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/LSh/Disclaimers</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -408,8 +408,8 @@
             <profileName>prod</profileName>
             <runConfigurationId>saucelabs_edge_win10</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/NXh/Gallery</testSuiteEntity>
+         <runEnabled>false</runEnabled>
+         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/LSh/Gallery</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -417,8 +417,8 @@
             <profileName>prod</profileName>
             <runConfigurationId>saucelabs_firefox_macos10.15</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/NXh/Hero</testSuiteEntity>
+         <runEnabled>false</runEnabled>
+         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/LSh/Hero</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -427,7 +427,7 @@
             <runConfigurationId>saucelabs_firefox_win10</runConfigurationId>
          </configuration>
          <runEnabled>false</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/NXh/InformationLayer_Desktop</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/LSh/InformationLayer_Desktop</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -435,8 +435,8 @@
             <profileName>prod</profileName>
             <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/NXh/Offers</testSuiteEntity>
+         <runEnabled>false</runEnabled>
+         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/LSh/Offers</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -444,8 +444,8 @@
             <profileName>prod</profileName>
             <runConfigurationId>saucelabs_safari11_macos10.13</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/NXh/Overlay</testSuiteEntity>
+         <runEnabled>false</runEnabled>
+         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/LSh/Overlay</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -453,8 +453,8 @@
             <profileName>prod</profileName>
             <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/NXh/Performance</testSuiteEntity>
+         <runEnabled>false</runEnabled>
+         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/LSh/Performance</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -462,8 +462,8 @@
             <profileName>prod</profileName>
             <runConfigurationId>saucelabs_chrome_macos10.15</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/NXh/Styles_Desktop</testSuiteEntity>
+         <runEnabled>false</runEnabled>
+         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/LSh/Styles_Desktop</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -471,8 +471,8 @@
             <profileName>prod</profileName>
             <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/NXh/Subnav</testSuiteEntity>
+         <runEnabled>false</runEnabled>
+         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/LSh/Subnav</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -480,8 +480,8 @@
             <profileName>prod</profileName>
             <runConfigurationId>saucelabs_chrome_win7</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/NXh/Technology</testSuiteEntity>
+         <runEnabled>false</runEnabled>
+         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/LSh/Technology</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -489,8 +489,8 @@
             <profileName>prod</profileName>
             <runConfigurationId>saucelabs_edge_win10</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/NXh/Visualizer</testSuiteEntity>
+         <runEnabled>false</runEnabled>
+         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/LSh/Visualizer</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -499,7 +499,7 @@
             <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/NX/Design</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/LS/Design</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -508,7 +508,7 @@
             <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/NX/Disclaimers</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/LS/Disclaimers</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -517,7 +517,7 @@
             <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/NX/Gallery</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/LS/Gallery</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -526,7 +526,7 @@
             <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/NX/Hero</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/LS/Hero</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -535,7 +535,7 @@
             <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/NX/InformationLayer_Desktop</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/LS/InformationLayer_Desktop</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -544,7 +544,7 @@
             <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
          <runEnabled>false</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/NX/InformationLayer_Mobile</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/LS/InformationLayer_Mobile</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -553,7 +553,7 @@
             <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
          <runEnabled>false</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/NX/Offers</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/LS/Offers</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -562,7 +562,7 @@
             <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/NX/Overlay</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/LS/Overlay</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -571,7 +571,7 @@
             <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/NX/Performance</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/LS/Performance</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -580,7 +580,7 @@
             <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/NX/Styles_Desktop</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/LS/Styles_Desktop</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -589,7 +589,7 @@
             <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
          <runEnabled>false</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/NX/Styles_Mobile</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/LS/Styles_Mobile</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -598,7 +598,7 @@
             <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/NX/Subnav</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/LS/Subnav</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -607,7 +607,7 @@
             <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/NX/Technology</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/LS/Technology</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -616,7 +616,7 @@
             <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/NX/Visualizer</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/LS/Visualizer</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -625,7 +625,7 @@
             <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/NXh/Design</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/LSh/Design</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -634,7 +634,7 @@
             <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/NXh/Disclaimers</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/LSh/Disclaimers</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -643,7 +643,7 @@
             <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/NXh/Gallery</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/LSh/Gallery</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -652,7 +652,7 @@
             <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/NXh/Hero</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/LSh/Hero</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -661,7 +661,7 @@
             <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/NXh/InformationLayer_Desktop</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/LSh/InformationLayer_Desktop</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -670,7 +670,7 @@
             <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
          <runEnabled>false</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/NXh/InformationLayer_Mobile</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/LSh/InformationLayer_Mobile</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -679,7 +679,7 @@
             <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
          <runEnabled>false</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/NXh/Offers</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/LSh/Offers</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -688,7 +688,7 @@
             <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/NXh/Overlay</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/LSh/Overlay</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -697,7 +697,7 @@
             <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/NXh/Performance</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/LSh/Performance</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -706,7 +706,7 @@
             <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/NXh/Styles_Desktop</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/LSh/Styles_Desktop</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -715,7 +715,7 @@
             <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
          <runEnabled>false</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/NXh/Styles_Mobile</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/LSh/Styles_Mobile</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -724,7 +724,7 @@
             <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/NXh/Subnav</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/LSh/Subnav</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -733,7 +733,7 @@
             <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/NXh/Technology</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/LSh/Technology</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -742,7 +742,7 @@
             <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/NXh/Visualizer</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Lexus.com/ModelPages/LSh/Visualizer</testSuiteEntity>
       </TestSuiteRunConfiguration>
    </testSuiteRunConfigurations>
 </TestSuiteCollectionEntity>
