@@ -28,17 +28,17 @@ if (WebUI.verifyGreaterThan(pageWidth, '960', FailureHandling.OPTIONAL)) {
 
     WebUI.click(findTestObject('ModelPages/Styles/Compare CTA - desktop'), FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.waitForElementPresent(findTestObject('ModelPages/InformationLayer/trim heading - NX 300'), 0)
+    WebUI.waitForElementPresent(findTestObject('ModelPages/InformationLayer/trim heading - LS 500'), 0)
 
-    WebUI.verifyElementPresent(findTestObject('ModelPages/InformationLayer/trim heading - NX 300'), 0)
+    WebUI.verifyElementPresent(findTestObject('ModelPages/InformationLayer/trim heading - LS 500'), 0)
 
     WebUI.waitForElementPresent(findTestObject('ModelPages/InformationLayer/remove CTA - first column'), 0)
 
     WebUI.click(findTestObject('ModelPages/InformationLayer/remove CTA - first column'), FailureHandling.OPTIONAL)
 
-    WebUI.waitForElementNotPresent(findTestObject('ModelPages/InformationLayer/trim heading - NX 300'), 0)
+    WebUI.waitForElementNotPresent(findTestObject('ModelPages/InformationLayer/trim heading - LS 500'), 0)
 
-    WebUI.verifyElementNotPresent(findTestObject('ModelPages/InformationLayer/trim heading - NX 300'), 0)
+    WebUI.verifyElementNotPresent(findTestObject('ModelPages/InformationLayer/trim heading - LS 500'), 0)
 
     WebUI.verifyElementPresent(findTestObject('ModelPages/InformationLayer/add feature option'), 0)
 
@@ -50,9 +50,9 @@ if (WebUI.verifyGreaterThan(pageWidth, '960', FailureHandling.OPTIONAL)) {
 
     WebUI.click(findTestObject('ModelPages/InformationLayer/apply button'))
 
-    WebUI.waitForElementPresent(findTestObject('ModelPages/InformationLayer/trim heading - NX 300'), 0)
+    WebUI.waitForElementPresent(findTestObject('ModelPages/InformationLayer/trim heading - LS 500'), 0)
 
-    WebUI.verifyElementPresent(findTestObject('ModelPages/InformationLayer/trim heading - NX 300'), 0)
+    WebUI.verifyElementPresent(findTestObject('ModelPages/InformationLayer/trim heading - LS 500'), 0)
 }
 
 @com.kms.katalon.core.annotation.TearDownIfPassed

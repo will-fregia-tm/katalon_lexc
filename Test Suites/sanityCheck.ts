@@ -561,7 +561,7 @@
             <profileName>staging</profileName>
             <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
+         <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/ModelPages/LS/Overlay</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
@@ -624,7 +624,7 @@
             <profileName>staging</profileName>
             <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
+         <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/ModelPages/LSh/Design</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
@@ -633,7 +633,7 @@
             <profileName>staging</profileName>
             <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
+         <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/ModelPages/LSh/Disclaimers</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
@@ -642,7 +642,7 @@
             <profileName>staging</profileName>
             <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
+         <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/ModelPages/LSh/Gallery</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
@@ -651,7 +651,7 @@
             <profileName>staging</profileName>
             <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
+         <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/ModelPages/LSh/Hero</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
@@ -660,7 +660,7 @@
             <profileName>staging</profileName>
             <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
+         <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/ModelPages/LSh/InformationLayer_Desktop</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
@@ -687,7 +687,7 @@
             <profileName>staging</profileName>
             <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
+         <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/ModelPages/LSh/Overlay</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
@@ -696,7 +696,7 @@
             <profileName>staging</profileName>
             <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
+         <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/ModelPages/LSh/Performance</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
@@ -705,7 +705,7 @@
             <profileName>staging</profileName>
             <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
+         <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/ModelPages/LSh/Styles_Desktop</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
@@ -723,7 +723,7 @@
             <profileName>staging</profileName>
             <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
+         <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/ModelPages/LSh/Subnav</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
@@ -732,7 +732,7 @@
             <profileName>staging</profileName>
             <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
+         <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/ModelPages/LSh/Technology</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
@@ -741,7 +741,7 @@
             <profileName>staging</profileName>
             <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
+         <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/ModelPages/LSh/Visualizer</testSuiteEntity>
       </TestSuiteRunConfiguration>
    </testSuiteRunConfigurations>
