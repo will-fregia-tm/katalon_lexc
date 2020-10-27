@@ -9,12 +9,13 @@
    <pageLoadTimeout>20</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>33a5dbad-593b-43c9-a1d3-71bcf4dc297d</testSuiteGuid>
    <testCaseLink>
       <guid>aafde4a4-74e4-4320-a180-57f03b7d2946</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/ModelPages/NXh/Hero/Correct MSRP for hybrid model</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/LSh/Hero/Correct MSRP for hybrid model</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -26,7 +27,7 @@
       <guid>a0f57d5e-d699-499f-81e7-f13737e0a710</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/ModelPages/NXh/Hero/View Hero - view hybrid hero</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/LSh/Hero/View Hero - view hybrid hero</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>

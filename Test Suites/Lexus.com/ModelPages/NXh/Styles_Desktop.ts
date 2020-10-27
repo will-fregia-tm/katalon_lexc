@@ -15,7 +15,7 @@
       <guid>ca14aa8c-c39e-4b47-a1bc-5b58e405d7d1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/ModelPages/NXh/Styles/Access compare styles feature (IL) - Desktop - Click Compare Features</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/LSh/Styles/Access compare styles feature (IL) - Desktop - Click Compare Features</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -27,7 +27,7 @@
       <guid>1e53c76f-0035-4697-87f3-e6c07a3d9412</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/ModelPages/NXh/Styles/Correct MSRPs for each trim</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/LSh/Styles/Correct MSRPs for each trim</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -39,7 +39,7 @@
       <guid>61fa9518-baf1-4e32-b7f8-28f7b9b55a59</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Lexus.com/ModelPages/NXh/Styles/Model Picker - Tabs (Desktop Only) - 2 tabs</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/LSh/Styles/Model Picker - Tabs (Desktop Only) - 2 tabs</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -51,7 +51,7 @@
       <guid>1cf8aeba-b897-47b9-9809-913d3b9b0ba8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/ModelPages/NXh/Styles/View selected style overview - Style Overview - Default-Non-Special Edition</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/LSh/Styles/View selected style overview - Style Overview - Default-Non-Special Edition</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>

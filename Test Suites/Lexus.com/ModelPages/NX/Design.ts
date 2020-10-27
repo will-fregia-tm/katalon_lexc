@@ -9,12 +9,13 @@
    <pageLoadTimeout>20</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>a5389b5b-aea7-4e3f-ad2e-4a85d9e6fb6c</testSuiteGuid>
    <testCaseLink>
       <guid>4699260c-5aa7-4cfa-92b2-b763add0b9bd</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/ModelPages/NX/Design/Base-Small - Default Landing State</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/LS/Design/Base-Small - Default Landing State</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -26,7 +27,7 @@
       <guid>63426c1e-1621-42b4-9924-f0debc6d3fe6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/ModelPages/NX/Design/Base-Small - Select Story Link</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/LS/Design/Base-Small - Select Story Link</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -38,7 +39,7 @@
       <guid>956a95c7-8fda-4dc3-bc45-fdecd12eceaa</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/ModelPages/NX/Design/CTA - All Features CTA - Access all Design features</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/LS/Design/CTA - All Features CTA - Access all Design features</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -50,7 +51,7 @@
       <guid>959e728f-711e-4358-8e55-e1ae264beadc</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/ModelPages/NX/Design/View More Features Drawer - all elements display properly</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/LS/Design/View More Features Drawer - all elements display properly</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -62,7 +63,7 @@
       <guid>7d4f383e-5764-40a7-8c17-427ef1b93262</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/ModelPages/NX/Design/View More Features Drawer - carousel when 6 or more features</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/LS/Design/View More Features Drawer - carousel when 6 or more features</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -74,7 +75,7 @@
       <guid>67bd5fd2-fb0d-4d1c-a87c-d09a593e653f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/ModelPages/NX/Design/View More Features Drawer - collapses when accordion header is clicked</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/LS/Design/View More Features Drawer - collapses when accordion header is clicked</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -86,7 +87,7 @@
       <guid>1a1ec05f-04ec-4e17-8795-3c49db1729e2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/ModelPages/NX/Design/View More Features Drawer - expand accordion</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/LS/Design/View More Features Drawer - expand accordion</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -98,7 +99,7 @@
       <guid>002cd17d-affc-4e75-9eb9-ee8f9fb614b4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Lexus.com/ModelPages/NX/Design/View More Features Drawer - hyperlink text in body copy</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/LS/Design/View More Features Drawer - hyperlink text in body copy</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>

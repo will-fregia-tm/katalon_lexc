@@ -9,12 +9,13 @@
    <pageLoadTimeout>15</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>f217950d-1ce7-4415-b8dc-cc9b0f3a79e7</testSuiteGuid>
    <testCaseLink>
       <guid>e5bdad17-a3a5-402e-9fd7-7a069b39a2e2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/ModelPages/NXh/Overlay/Correct MSRP values in overlay</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/LSh/Overlay/Correct MSRP values in overlay</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>

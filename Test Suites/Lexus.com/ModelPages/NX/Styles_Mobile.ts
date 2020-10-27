@@ -15,7 +15,7 @@
       <guid>b9d1b9fe-3239-459d-9664-ae95dcb88e87</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/ModelPages/NX/Styles/View selected style overview - Style Overview - Default-Non-Special Edition</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/LS/Styles/View selected style overview - Style Overview - Default-Non-Special Edition</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -27,7 +27,7 @@
       <guid>8ed3d8df-7d27-472e-8a3b-a1d4ddbf707d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/ModelPages/NX/Styles/Correct MSRPs for each trim</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/LS/Styles/Correct MSRPs for each trim</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>

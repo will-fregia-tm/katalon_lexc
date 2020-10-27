@@ -31,7 +31,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Prod,ModelPageNX'</initValue>
+      <initValue>'Prod,ModelPageLS'</initValue>
       <name>profileTags</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -41,13 +41,13 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'/models/NX'</initValue>
-      <name>Overview_NX</name>
+      <initValue>'/models/LS'</initValue>
+      <name>Overview_LS</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'/models/NX-hybrid'</initValue>
-      <name>Overview_NXh</name>
+      <initValue>'/models/LS-hybrid'</initValue>
+      <name>Overview_LSh</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>

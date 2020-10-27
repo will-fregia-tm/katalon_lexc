@@ -15,7 +15,7 @@
       <guid>7578054f-cd4f-4371-bd42-0d260da8749e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/ModelPages/NXh/Subnav/Desktop Navigation - Click BYL</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/LSh/Subnav/Desktop Navigation - Click BYL</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -27,7 +27,7 @@
       <guid>9f9fddb6-08e4-48ee-a561-deea73307c11</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/ModelPages/NXh/Subnav/Front End Routing - Clicking link on same page shows overlay or scrolls to appropriate section</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/LSh/Subnav/Front End Routing - Clicking link on same page shows overlay or scrolls to appropriate section</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -39,7 +39,7 @@
       <guid>147862be-80a9-48e2-8576-eeaf878cea7c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/ModelPages/NXh/Subnav/Deep link takes user to pre-determined location on page - Design</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/LSh/Subnav/Deep link takes user to pre-determined location on page - Design</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -51,7 +51,7 @@
       <guid>fa712c7d-323a-431d-ad70-65645c2f8a80</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/ModelPages/NXh/Subnav/Deep link takes user to pre-determined location on page - Gallery</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/LSh/Subnav/Deep link takes user to pre-determined location on page - Gallery</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -63,7 +63,7 @@
       <guid>2380b799-84d7-49ae-9712-ef49972c9649</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/ModelPages/NXh/Subnav/Deep link takes user to pre-determined location on page - Offers</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/LSh/Subnav/Deep link takes user to pre-determined location on page - Offers</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -75,7 +75,7 @@
       <guid>2148f91a-6ac7-49d8-9ac7-40b1973f5954</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/ModelPages/NXh/Subnav/Deep link takes user to pre-determined location on page - Performance</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/LSh/Subnav/Deep link takes user to pre-determined location on page - Performance</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -87,7 +87,7 @@
       <guid>cfc9cd1e-d09f-4216-b12c-a2333a14ea31</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/ModelPages/NXh/Subnav/Deep link takes user to pre-determined location on page - Styles</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/LSh/Subnav/Deep link takes user to pre-determined location on page - Styles</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -99,7 +99,7 @@
       <guid>f13f7ba2-3849-4cb9-a7aa-8c16d8e5cb1c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/ModelPages/NXh/Subnav/Deep link takes user to pre-determined location on page - Technology</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/LSh/Subnav/Deep link takes user to pre-determined location on page - Technology</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -111,7 +111,7 @@
       <guid>3b3aa262-2a90-4520-a129-bd114fc0187d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/ModelPages/NXh/Subnav/Deep link takes user to pre-determined location on page - Signup Form</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/LSh/Subnav/Deep link takes user to pre-determined location on page - Signup Form</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>

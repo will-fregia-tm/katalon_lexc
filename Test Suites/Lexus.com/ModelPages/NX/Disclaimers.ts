@@ -9,12 +9,13 @@
    <pageLoadTimeout>20</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>6443f0b1-822a-4d1f-9638-0e6c79f9e95a</testSuiteGuid>
    <testCaseLink>
       <guid>7a3a1ea5-e7d0-484e-8b36-3a2c6bb1a8d7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/ModelPages/NX/Disclaimers/View Disclaimers - Tap-Click</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/LS/Disclaimers/View Disclaimers - Tap-Click</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
