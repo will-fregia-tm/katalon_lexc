@@ -86,7 +86,7 @@
    <testCaseLink>
       <guid>191e0ad7-aa63-4b9f-804b-4efced6001cb</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/Compare/series pages - LS</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -98,7 +98,7 @@
    <testCaseLink>
       <guid>fd4610ba-1401-4859-b305-06111229ba7b</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/Compare/series pages - LSh</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>

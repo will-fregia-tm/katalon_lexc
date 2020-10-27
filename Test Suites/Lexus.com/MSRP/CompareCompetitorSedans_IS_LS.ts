@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>7810f127-118e-4252-9cac-e22b830bafc5</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages - IS 300 AWD</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -122,7 +122,7 @@
    <testCaseLink>
       <guid>1e39a134-df7b-451e-a7f1-9b459e4c09b0</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages - LS 500 F Sport AWD</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -170,7 +170,7 @@
    <testCaseLink>
       <guid>f0ec5fee-dc86-4302-9498-ee40c8ba68f9</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/Compare/competitor pages - LS 500h RWD</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
