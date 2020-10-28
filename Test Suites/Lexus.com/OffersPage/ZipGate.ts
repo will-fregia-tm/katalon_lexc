@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>ZipGate</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>15</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>07a15af5-0f9c-4f47-9339-1955dae035fc</testSuiteGuid>
+   <testCaseLink>
+      <guid>4a5561d7-2e38-432f-a8a3-33f736f07c6a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/OffersPage/ZipGate/Hawaii</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c78fd992-2390-4e7d-b44d-499c82c48989</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>fc3c9c5e-8de9-482c-8589-ddf58082ac1c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/OffersPage/ZipGate/Puerto Rico</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ac26299e-ac69-470e-89dc-9d623c8c65ce</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c21dac31-4d87-4969-9a6f-a534ded55ad5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/OffersPage/ZipGate/Shared ZIP code</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>eb6045d9-8c5b-40ae-9978-427d6093137c</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b7bb530e-4dab-433d-814b-fc0bcb936433</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Lexus.com/OffersPage/ZipGate/Technical Difficulty Server Message</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7669cc94-3d20-4081-94c2-5adf5cc5a8cb</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3265c294-a058-4c17-b6da-96fae6e14eb0</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/OffersPage/ZipGate/UI form Validation (invalid)</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7fca0d63-2bd4-4cec-9764-e932bb8d0e2b</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>743299e8-1551-4cb2-94af-883d5ca913df</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/OffersPage/ZipGate/UI form Validation (valid)</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>058e2d98-b472-4aef-8aff-c409bbcf166e</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f9e691af-d013-4cf3-ada7-e2f030dc39e3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/OffersPage/ZipGate/Unassigned Zip - Expand search</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>16ebf5fa-3df7-4767-a5a2-9befb737ce70</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

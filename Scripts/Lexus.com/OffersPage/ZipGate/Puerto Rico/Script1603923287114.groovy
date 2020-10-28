@@ -34,13 +34,21 @@ WebUI.navigateToUrl(GlobalVariable.TS_Domain + '/privacy')
 
 WebUI.navigateToUrl(GlobalVariable.SC_Domain + '/offers')
 
-WebUI.waitForElementPresent(findTestObject('OffersPage/ZipGate/form input'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.waitForElementPresent(findTestObject('OffersPage/ZipGate/form input'), 5, FailureHandling.OPTIONAL)
 
-WebUI.setText(findTestObject('OffersPage/ZipGate/form input'), '75218')
+WebUI.setText(findTestObject('OffersPage/ZipGate/form input'), '00601')
 
 WebUI.click(findTestObject('OffersPage/ZipGate/submit button'))
 
-WebUI.delay(5)
+WebUI.waitForElementPresent(findTestObject('OffersPage/ZipGate/puerto rico server message'), 5, FailureHandling.OPTIONAL)
+
+WebUI.verifyElementPresent(findTestObject('OffersPage/ZipGate/puerto rico server message'), 0, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyElementPresent(findTestObject('OffersPage/ZipGate/PR dealer site Lexus CTA'), 0, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('OffersPage/ZipGate/PR dealer site Lexus CTA'), FailureHandling.OPTIONAL)
+
+WebUI.delay(3)
 
 @com.kms.katalon.core.annotation.TearDownIfPassed
 def passed() {

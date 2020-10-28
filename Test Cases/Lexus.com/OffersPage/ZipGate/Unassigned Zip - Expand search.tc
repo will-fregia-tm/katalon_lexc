@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Enter a valid unassigned zip code 58102
+
+
+
+Verify the no dealer message
+
+
+
+Verify the EXPAND CTA is present</description>
+   <name>Unassigned Zip - Expand search</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e39050ec-96b4-40d4-bcf3-6f40ccac93a8</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>16ebf5fa-3df7-4767-a5a2-9befb737ce70</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>

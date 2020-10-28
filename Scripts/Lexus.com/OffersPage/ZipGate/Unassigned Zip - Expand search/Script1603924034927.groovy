@@ -34,13 +34,23 @@ WebUI.navigateToUrl(GlobalVariable.TS_Domain + '/privacy')
 
 WebUI.navigateToUrl(GlobalVariable.SC_Domain + '/offers')
 
-WebUI.waitForElementPresent(findTestObject('OffersPage/ZipGate/form input'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.waitForElementPresent(findTestObject('OffersPage/ZipGate/form input'), 5, FailureHandling.OPTIONAL)
 
-WebUI.setText(findTestObject('OffersPage/ZipGate/form input'), '75218')
+WebUI.setText(findTestObject('OffersPage/ZipGate/form input'), '58102')
 
 WebUI.click(findTestObject('OffersPage/ZipGate/submit button'))
 
-WebUI.delay(5)
+WebUI.waitForElementPresent(findTestObject('OffersPage/ZipGate/no dealer message'), 5, FailureHandling.OPTIONAL)
+
+WebUI.verifyElementPresent(findTestObject('OffersPage/ZipGate/no dealer message'), 5, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyElementPresent(findTestObject('OffersPage/ZipGate/expand CTA'), 0, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('OffersPage/ZipGate/expand CTA'), FailureHandling.OPTIONAL)
+
+WebUI.waitForElementPresent(findTestObject('OffersPage/ZipGate/expand zip overlay'), 5, FailureHandling.OPTIONAL)
+
+WebUI.verifyElementPresent(findTestObject('OffersPage/ZipGate/expand zip overlay'), 5, FailureHandling.STOP_ON_FAILURE)
 
 @com.kms.katalon.core.annotation.TearDownIfPassed
 def passed() {

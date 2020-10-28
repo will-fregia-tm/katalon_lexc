@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>submit button</name>
+   <name>error state</name>
    <tag></tag>
-   <elementGuidId>840caa2d-e042-40d5-84b7-9721bfeb6e75</elementGuidId>
+   <elementGuidId>9eeeb3ed-836d-4c04-90b0-e249f5f8a0e7</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>button[type*=&quot;submit&quot;]</value>
-      </entry>
       <entry>
          <key>BASIC</key>
          <value></value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>form > div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

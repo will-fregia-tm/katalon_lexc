@@ -11,7 +11,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://lexus_user:G0rill@23@staging.lexus.com'</initValue>
+      <initValue>'https://stg-lcom.cdn.cepo-proxy.tms.aws.lexus.com'</initValue>
       <name>SC_Domain</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -21,7 +21,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://staging.lexus.com'</initValue>
+      <initValue>'https://stg-lcom.cdn.cepo-proxy.tms.aws.lexus.com'</initValue>
       <name>SC_Domain_Unauthenticated</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

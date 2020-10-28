@@ -34,13 +34,21 @@ WebUI.navigateToUrl(GlobalVariable.TS_Domain + '/privacy')
 
 WebUI.navigateToUrl(GlobalVariable.SC_Domain + '/offers')
 
-WebUI.waitForElementPresent(findTestObject('OffersPage/ZipGate/form input'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.waitForElementPresent(findTestObject('OffersPage/ZipGate/form input'), 0, FailureHandling.OPTIONAL)
 
-WebUI.setText(findTestObject('OffersPage/ZipGate/form input'), '75218')
+WebUI.setText(findTestObject('OffersPage/ZipGate/form input'), '1234')
 
 WebUI.click(findTestObject('OffersPage/ZipGate/submit button'))
 
-WebUI.delay(5)
+WebUI.verifyElementPresent(findTestObject('OffersPage/ZipGate/form input'), 0, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyElementPresent(findTestObject('OffersPage/ZipGate/error message'), 0, FailureHandling.STOP_ON_FAILURE)
+
+errorState = WebUI.getCSSValue(findTestObject('OffersPage/ZipGate/error state'), 'border', FailureHandling.OPTIONAL)
+
+if (WebUI.verifyNotMatch(errorState, '1px solid rgb(235, 0, 0)', false, FailureHandling.OPTIONAL)) {
+    WebUI.verifyMatch(errorState, '1px solid rgba(235, 0, 0, 1)', false, FailureHandling.STOP_ON_FAILURE)
+}
 
 @com.kms.katalon.core.annotation.TearDownIfPassed
 def passed() {

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>When a user enters a zip-code:
+
+if the Zip-code submission is syntactically incorrect  (ie > 5 digits).
+
+Then the system shall:
+
+- fail UI form validations
+- display an error message near the zipcode entry filed
+- display the zipcode-entry-error state</description>
+   <name>UI form Validation (invalid)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>08e6719a-bdc5-4bad-ab6d-5f7bd35ccc5a</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>7fca0d63-2bd4-4cec-9764-e932bb8d0e2b</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>

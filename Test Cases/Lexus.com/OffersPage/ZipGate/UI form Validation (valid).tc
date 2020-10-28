@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>When a user enters a zip-code:
+
+
+
+Zipcode is syntactically correct, then
+
+ 
+
+- the submission shall pass UI validations
+- 
+zipcode shall be cookied</description>
+   <name>UI form Validation (valid)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>896cc667-e071-407d-8110-ff323486ff2e</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>058e2d98-b472-4aef-8aff-c409bbcf166e</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>

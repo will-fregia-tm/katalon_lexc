@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Enter a valid Puerto Rico zip code 00601
+
+
+
+Verify the Puerto Rico server message
+
+
+
+Verify the PR dealer site Lexus CTA</description>
+   <name>Puerto Rico</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ff85c892-c6b1-4b54-bdf5-a428d0de0ebb</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>ac26299e-ac69-470e-89dc-9d623c8c65ce</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>

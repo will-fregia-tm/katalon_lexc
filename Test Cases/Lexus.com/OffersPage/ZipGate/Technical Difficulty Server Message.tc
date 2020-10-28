@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Enter the server down test zip code 00000
+
+
+
+Verify Technical difficulty server message</description>
+   <name>Technical Difficulty Server Message</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b56f5f17-b26c-493d-bc61-f9f1a452e11c</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>7669cc94-3d20-4081-94c2-5adf5cc5a8cb</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>
