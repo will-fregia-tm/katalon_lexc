@@ -38,7 +38,7 @@
    <testCaseLink>
       <guid>628e8b34-5dba-4227-a9a9-982274588ebb</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/ModelPages/LS/Technology/CTA - All Features CTA - Access all Technology features</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -50,7 +50,7 @@
    <testCaseLink>
       <guid>d10db737-2a69-4fe0-84e9-c5e546ceb4f2</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/ModelPages/LS/Technology/View More Features Drawer - all elements display properly</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -62,7 +62,7 @@
    <testCaseLink>
       <guid>9e6b0c43-c5c6-44cd-bc29-c65a9df21bb1</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/ModelPages/LS/Technology/View More Features Drawer - carousel when 6 or more features</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
