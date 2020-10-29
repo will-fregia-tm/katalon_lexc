@@ -6,15 +6,15 @@
    <elementGuidId>721ea737-2d4f-4fa4-a7fa-0dde8f88d90d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;slick-slide10&quot;]/div[3]/div/div[1]/div[1]/span[2]/span[1]/span</value>
+         <value>//*[@id=&quot;content&quot;]/div/div[4]/div/section/div[2]/div[2]/div[1]/div[1]/div/span[4]/span[2]/span</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>#wrapper span.asterisk</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
