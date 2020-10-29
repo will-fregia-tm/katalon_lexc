@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>When a users location is known (i.e. 75219)
+
+
+Then the system should display the default state of the module which displays:
+
+
+
+Current-Market-Text defined in the CMS
+
+
+Users zipcode (ie. 75219)
+
+
+Change-market CTA</description>
+   <name>Location Known - Default State</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>69d225e4-8981-41a7-9668-c4c605a34f34</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>0d65734e-7cbd-46bc-a094-584c06a7607d</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>

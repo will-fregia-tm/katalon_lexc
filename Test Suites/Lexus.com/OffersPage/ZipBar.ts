@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>ZipBar</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>15</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>037f2c3a-4d78-4c51-856a-c32b7a1fe923</testSuiteGuid>
+   <testCaseLink>
+      <guid>259c928b-8cd2-4a26-a127-fcc29e75a714</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/OffersPage/ZipBar/Enter-Submit ZIP</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ec24fe10-3ae9-487f-b393-bd5491ca5040</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7a32d041-523d-41ae-afbe-0cfc60e8b477</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/OffersPage/ZipBar/Location Known - Default State</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>0d65734e-7cbd-46bc-a094-584c06a7607d</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>74a426dd-c09d-4fbb-b503-4e73cdc4c869</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/OffersPage/ZipBar/Tap-Click CHANGE CTA</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a519ccc6-0450-4535-bfd4-59e11daf8186</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
