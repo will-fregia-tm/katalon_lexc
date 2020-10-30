@@ -40,9 +40,9 @@ WebUI.setText(findTestObject('OffersPage/ZipGate/form input'), '08008')
 
 WebUI.click(findTestObject('OffersPage/ZipGate/submit button'))
 
-WebUI.waitForElementPresent(findTestObject('OffersPage/ZipGate/shared zip overlay'), 5, FailureHandling.OPTIONAL)
+WebUI.waitForElementPresent(findTestObject('OffersPage/SharedMarketOverlay/shared zip overlay'), 5, FailureHandling.OPTIONAL)
 
-WebUI.verifyElementPresent(findTestObject('OffersPage/ZipGate/shared zip overlay'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('OffersPage/SharedMarketOverlay/shared zip overlay'), 0, FailureHandling.STOP_ON_FAILURE)
 
 @com.kms.katalon.core.annotation.TearDownIfPassed
 def passed() {

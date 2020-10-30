@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>numbers in zip input</name>
+   <name>displayed market name - New Jersey, Delaware, Pennsylvania Dealers</name>
    <tag></tag>
-   <elementGuidId>67d325ad-c1f1-4395-b9b9-7ff7df9242bf</elementGuidId>
+   <elementGuidId>f93b45b4-ac98-4ea2-bbb1-e1b6ae45a525</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@aria-label = 'Zip code input' and contains(@value, '75218')]</value>
+         <value>//button[(contains(text(), 'New Jersey, Delaware, Pennsylvania Dealers') or contains(., 'New Jersey, Delaware, Pennsylvania Dealers'))]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -15,15 +15,15 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>aria-label</name>
+      <name>tag</name>
       <type>Main</type>
-      <value>Zip code input</value>
+      <value>button</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>contains</matchCondition>
-      <name>value</name>
+      <name>text</name>
       <type>Main</type>
-      <value>75218</value>
+      <value>New Jersey, Delaware, Pennsylvania Dealers</value>
    </webElementProperties>
 </WebElementEntity>

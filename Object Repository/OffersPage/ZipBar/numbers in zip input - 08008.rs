@@ -1,22 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>updated zip bar</name>
+   <name>numbers in zip input - 08008</name>
    <tag></tag>
-   <elementGuidId>46991673-a5fd-457f-a6e6-3db9597256bc</elementGuidId>
+   <elementGuidId>bfdec28d-2573-4f30-a470-b3b65047cf1d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[(contains(text(), 'SHOWING RESULTS FOR 75218') or contains(., 'SHOWING RESULTS FOR 75218'))]</value>
+         <value>//*[@aria-label = 'Zip code input' and contains(@value, '08008')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>contains</matchCondition>
-      <name>text</name>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
       <type>Main</type>
-      <value>SHOWING RESULTS FOR 75218</value>
+      <value>Zip code input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>08008</value>
    </webElementProperties>
 </WebElementEntity>

@@ -19,7 +19,6 @@ import com.kms.katalon.core.testobject.RequestObject as RequestObject
 import org.openqa.selenium.Cookie as Cookie
 import org.openqa.selenium.WebDriver as WebDriver
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
-import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser(GlobalVariable.SSO_login, FailureHandling.OPTIONAL)
 
@@ -37,45 +36,35 @@ WebUI.navigateToUrl(GlobalVariable.SC_Domain + '/offers')
 
 WebUI.waitForElementPresent(findTestObject('OffersPage/ZipGate/form input'), 5, FailureHandling.OPTIONAL)
 
-WebUI.setText(findTestObject('OffersPage/ZipGate/form input'), '75219')
+WebUI.setText(findTestObject('OffersPage/ZipGate/form input'), '08008')
 
 WebUI.click(findTestObject('OffersPage/ZipGate/submit button'))
 
-WebUI.waitForElementPresent(findTestObject('OffersPage/ZipBar/change market CTA'), 5, FailureHandling.OPTIONAL)
+WebUI.waitForElementPresent(findTestObject('OffersPage/SharedMarketOverlay/shared zip overlay'), 5, FailureHandling.OPTIONAL)
 
-WebUI.click(findTestObject('OffersPage/ZipBar/change market CTA'), FailureHandling.STOP_ON_FAILURE)
+noHover = WebUI.getCSSValue(findTestObject('OffersPage/SharedMarketOverlay/displayed market name - New York, New Jersey, Connecticut Dealers'), 'background-color', 
+    FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementPresent(findTestObject('OffersPage/ZipBar/zip entry field'), 5, FailureHandling.OPTIONAL)
+WebUI.mouseOver(findTestObject('OffersPage/SharedMarketOverlay/displayed market name - New York, New Jersey, Connecticut Dealers'))
 
-WebUI.setText(findTestObject('OffersPage/ZipBar/zip entry field'), 'asdfg', FailureHandling.OPTIONAL)
+hoverState = WebUI.getCSSValue(findTestObject('OffersPage/SharedMarketOverlay/displayed market name - New York, New Jersey, Connecticut Dealers'), 'background-color', 
+    FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementNotPresent(findTestObject('OffersPage/ZipBar/letters in zip input'), 2, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyNotMatch('hoverState', 'noHover', false, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('OffersPage/ZipBar/zip entry field'), '!@#$%', FailureHandling.OPTIONAL)
+WebUI.delay(3)
 
-WebUI.verifyElementNotPresent(findTestObject('OffersPage/ZipBar/characters in zip input'), 2, FailureHandling.STOP_ON_FAILURE)
+noHover = WebUI.getCSSValue(findTestObject('OffersPage/SharedMarketOverlay/displayed market name - New Jersey, Delaware, Pennsylvania Dealers'), 'background-color', 
+    FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('OffersPage/ZipBar/zip entry field'), '75218')
+WebUI.mouseOver(findTestObject('OffersPage/SharedMarketOverlay/displayed market name - New Jersey, Delaware, Pennsylvania Dealers'))
 
-WebUI.verifyElementPresent(findTestObject('OffersPage/ZipBar/numbers in zip input - 75218'), 2, FailureHandling.STOP_ON_FAILURE)
+hoverState = WebUI.getCSSValue(findTestObject('OffersPage/SharedMarketOverlay/displayed market name - New Jersey, Delaware, Pennsylvania Dealers'), 'background-color', 
+    FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('OffersPage/ZipBar/search icon'), FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyNotMatch('hoverState', 'noHover', false, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementPresent(findTestObject('OffersPage/ZipBar/updated zip bar - 75218'), 2, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.verifyElementPresent(findTestObject('OffersPage/ZipBar/updated zip bar - 75218'), 2, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('OffersPage/ZipBar/change market CTA'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.waitForElementPresent(findTestObject('OffersPage/ZipBar/zip entry field'), 5, FailureHandling.OPTIONAL)
-
-WebUI.setText(findTestObject('OffersPage/ZipBar/zip entry field'), '75219')
-
-WebUI.sendKeys(findTestObject('OffersPage/ZipBar/zip entry field'), Keys.chord(Keys.ENTER), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.waitForElementPresent(findTestObject('OffersPage/ZipBar/zip bar - 75219'), 2, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.verifyElementPresent(findTestObject('OffersPage/ZipBar/zip bar - 75219'), 2, FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(3)
 
 @com.kms.katalon.core.annotation.TearDownIfPassed
 def passed() {

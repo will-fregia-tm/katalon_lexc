@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>shared zip overlay</name>
+   <name>shared zip dealer name - Lexus of Atlantic City</name>
    <tag></tag>
-   <elementGuidId>0cba598f-c37a-467b-8f09-be36ac3fa219</elementGuidId>
+   <elementGuidId>fc867975-48ed-47a5-b17d-d976667d8d4c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[(contains(text(), 'SELECT AN AREA TO VIEW OFFERS') or contains(., 'SELECT AN AREA TO VIEW OFFERS'))]</value>
+         <value>//*[(contains(text(), 'Lexus of Atlantic City') or contains(., 'Lexus of Atlantic City'))]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>contains</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>SELECT AN AREA TO VIEW OFFERS</value>
+      <value>Lexus of Atlantic City</value>
    </webElementProperties>
 </WebElementEntity>

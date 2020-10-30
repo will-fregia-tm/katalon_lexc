@@ -40,9 +40,9 @@ WebUI.setText(findTestObject('OffersPage/ZipGate/form input'), '75219')
 
 WebUI.click(findTestObject('OffersPage/ZipGate/submit button'))
 
-WebUI.waitForElementPresent(findTestObject('OffersPage/ZipBar/zip bar'), 5, FailureHandling.OPTIONAL)
+WebUI.waitForElementPresent(findTestObject('OffersPage/ZipBar/zip bar - 75219'), 5, FailureHandling.OPTIONAL)
 
-WebUI.verifyElementPresent(findTestObject('OffersPage/ZipBar/zip bar'), 5, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('OffersPage/ZipBar/zip bar - 75219'), 5, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementPresent(findTestObject('OffersPage/ZipBar/change market CTA'), 5, FailureHandling.STOP_ON_FAILURE)
 
