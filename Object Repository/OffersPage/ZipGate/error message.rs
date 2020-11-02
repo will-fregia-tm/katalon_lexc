@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[(contains(text(), 'Please enter a valid zip') or contains(., 'Please enter a valid zip'))]</value>
+         <value>//*[(contains(text(), 'Please enter a valid') or contains(., 'Please enter a valid'))]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>contains</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Please enter a valid zip</value>
+      <value>Please enter a valid</value>
    </webElementProperties>
 </WebElementEntity>
