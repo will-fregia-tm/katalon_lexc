@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>When 58102 is cookies and the user clicks the &quot;Expand&quot; CTA
+
+
+Then the system shall:
+
+
+Send a DIS proximity call with zip =  58102
+
+Render the dealer selection display with 2  ** (subject to change based on DIS response) Dealers
+
+Each Options shall:
+
+Be selectable 
+Have a hover over state
+
+Display dealer: Name, Address, distance from zip
+
+When results list exceeds  vertical viewport:
+
+The dealer-list shall be scrollable on desktop and mobile
+
+All text above the dealer-list will remain fixed</description>
+   <name>Enter ZIP code 58102</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6ea26854-f96d-4b27-a517-834fdc15a7b3</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>61c1f724-e195-45c3-986e-5cb299c0ae58</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>

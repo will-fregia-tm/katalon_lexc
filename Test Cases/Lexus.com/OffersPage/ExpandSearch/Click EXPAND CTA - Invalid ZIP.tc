@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>When a user enters a zip-code 
+
+
+And DIS the zip-code is unassigned (no results from DIS)
+
+
+Then the system shall:
+
+
+display the &quot;Expand&quot; CTA
+
+Display error message on the UI
+
+
+And If a user clicks on the &quot;Expand&quot; CTA , then the system shall:
+
+
+make a proximity call to DIS for the entered (cookied) Zip
+
+the proximity call should
+
+make series of consecutive  calls at the following intervals until a result is returned:
+50 miles
+
+100 miles
+
+250 miles
+
+500 miles
+
+1000 miles
+
+2000 miles
+
+will stop searching for dealers when the first results are found at the first radius
+
+
+if fail response, then the system will display an Invalid Zip Message</description>
+   <name>Click EXPAND CTA - Invalid ZIP</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>010503a3-76db-420a-a53d-c21afd55830b</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>6aeb8c1e-514a-4820-9082-5d61569b5844</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>

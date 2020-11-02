@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>cookied zip code</name>
+   <name>cookied selected dealer zip code - 55109</name>
    <tag></tag>
-   <elementGuidId>13ce1e1b-b06a-4569-8ddf-7df16b65f207</elementGuidId>
+   <elementGuidId>34d5520c-29cd-44c2-b029-fa5ba0392897</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//section[(contains(text(), '75218') or contains(., '75218'))]</value>
+         <value>//section[(contains(text(), '55109') or contains(., '55109'))]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -24,6 +24,6 @@
       <matchCondition>contains</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>75218</value>
+      <value>55109</value>
    </webElementProperties>
 </WebElementEntity>

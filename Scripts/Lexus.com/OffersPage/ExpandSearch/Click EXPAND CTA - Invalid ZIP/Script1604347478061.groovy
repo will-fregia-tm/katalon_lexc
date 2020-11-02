@@ -36,35 +36,21 @@ WebUI.navigateToUrl(GlobalVariable.SC_Domain + '/offers')
 
 WebUI.waitForElementPresent(findTestObject('OffersPage/ZipGate/form input'), 5, FailureHandling.OPTIONAL)
 
-WebUI.setText(findTestObject('OffersPage/ZipGate/form input'), '08008')
+WebUI.setText(findTestObject('OffersPage/ZipGate/form input'), '11111')
 
 WebUI.click(findTestObject('OffersPage/ZipGate/submit button'))
 
-WebUI.waitForElementPresent(findTestObject('OffersPage/SharedMarketOverlay/shared zip overlay'), 5, FailureHandling.OPTIONAL)
+WebUI.waitForElementPresent(findTestObject('OffersPage/ZipGate/no dealer message'), 5, FailureHandling.OPTIONAL)
 
-noHover = WebUI.getCSSValue(findTestObject('OffersPage/SharedMarketOverlay/displayed market name - New York, New Jersey, Connecticut Dealers'), 'background-color', 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('OffersPage/ZipGate/no dealer message'), 5, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.mouseOver(findTestObject('OffersPage/SharedMarketOverlay/displayed market name - New York, New Jersey, Connecticut Dealers'))
+WebUI.verifyElementPresent(findTestObject('OffersPage/ZipGate/expand CTA'), 0, FailureHandling.STOP_ON_FAILURE)
 
-hoverState = WebUI.getCSSValue(findTestObject('OffersPage/SharedMarketOverlay/displayed market name - New York, New Jersey, Connecticut Dealers'), 'background-color', 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('OffersPage/ZipGate/expand CTA'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyNotMatch(hoverState, noHover, false, FailureHandling.STOP_ON_FAILURE)
+WebUI.waitForElementPresent(findTestObject('OffersPage/ExpandSearch/invalid zip message'), 5, FailureHandling.OPTIONAL)
 
-WebUI.delay(3)
-
-noHover = WebUI.getCSSValue(findTestObject('OffersPage/SharedMarketOverlay/displayed market name - New Jersey, Delaware, Pennsylvania Dealers'), 'background-color', 
-    FailureHandling.STOP_ON_FAILURE)
-
-WebUI.mouseOver(findTestObject('OffersPage/SharedMarketOverlay/displayed market name - New Jersey, Delaware, Pennsylvania Dealers'))
-
-hoverState = WebUI.getCSSValue(findTestObject('OffersPage/SharedMarketOverlay/displayed market name - New Jersey, Delaware, Pennsylvania Dealers'), 'background-color', 
-    FailureHandling.STOP_ON_FAILURE)
-
-WebUI.verifyNotMatch(hoverState, noHover, false, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.delay(3)
+WebUI.verifyElementPresent(findTestObject('OffersPage/ExpandSearch/invalid zip message'), 5, FailureHandling.STOP_ON_FAILURE)
 
 @com.kms.katalon.core.annotation.TearDownIfPassed
 def passed() {

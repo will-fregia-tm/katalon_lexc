@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>When a user selects a market
+
+
+
+
+
+Then the system shall:
+
+
+
+
+
+close the overlay
+
+
+
+
+cookie selected market
+
+
+
+note the zipcode gets cookied when the zipcode passes UI validation in zip-code-entry-component
+
+
+
+
+display the offers for the selected market on the All Offers (result page)</description>
+   <name>Select Dealer</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>10765644-3df2-47ef-9567-206afeaf71e4</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>858d75de-dd95-4029-8840-6147707b28fd</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>

@@ -48,9 +48,9 @@ WebUI.verifyElementPresent(findTestObject('OffersPage/ZipGate/expand CTA'), 0, F
 
 WebUI.click(findTestObject('OffersPage/ZipGate/expand CTA'), FailureHandling.OPTIONAL)
 
-WebUI.waitForElementPresent(findTestObject('OffersPage/ZipGate/expand zip overlay'), 5, FailureHandling.OPTIONAL)
+WebUI.waitForElementPresent(findTestObject('OffersPage/ExpandSearch/expand zip overlay'), 5, FailureHandling.OPTIONAL)
 
-WebUI.verifyElementPresent(findTestObject('OffersPage/ZipGate/expand zip overlay'), 5, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('OffersPage/ExpandSearch/expand zip overlay'), 5, FailureHandling.STOP_ON_FAILURE)
 
 @com.kms.katalon.core.annotation.TearDownIfPassed
 def passed() {

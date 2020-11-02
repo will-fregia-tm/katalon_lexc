@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>ExpandSearch</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>15</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>3404d2da-ebab-403d-818e-465d92602e16</testSuiteGuid>
+   <testCaseLink>
+      <guid>0f9b0c71-bad3-4599-b031-2a51cd42ca99</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/OffersPage/ExpandSearch/Click EXPAND CTA - Invalid ZIP</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>6aeb8c1e-514a-4820-9082-5d61569b5844</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>25ca0d69-8345-4c30-9c7e-67b82305f070</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/OffersPage/ExpandSearch/Click EXPAND CTA</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f7426f7d-f20b-46e1-8c8c-bd19aee73ebc</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9cd3e304-20f7-4e7e-b54f-6e8206523adf</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/OffersPage/ExpandSearch/Enter ZIP code 58102</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>61c1f724-e195-45c3-986e-5cb299c0ae58</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>14890039-8a6b-434a-b567-bc7970fa7f56</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/OffersPage/ExpandSearch/Enter ZIP code 95730</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>fa932d81-0a39-48e6-a6e9-935683675c92</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d1875ca7-87bc-40c0-a566-f0ff916948d7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/OffersPage/ExpandSearch/Select Dealer</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>858d75de-dd95-4029-8840-6147707b28fd</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
