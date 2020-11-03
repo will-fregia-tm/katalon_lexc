@@ -11,9 +11,30 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
+         <value>//div[contains(@div, 'ContentModule') and (contains(text(), 'VEHICLES') or contains(., 'VEHICLES'))]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>div</name>
+      <type>Main</type>
+      <value>ContentModule</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>VEHICLES</value>
+   </webElementProperties>
 </WebElementEntity>

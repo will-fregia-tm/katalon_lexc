@@ -9,11 +9,12 @@
    <pageLoadTimeout>20</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>94b11e4f-c845-49ef-9f27-778f37813d3c</testSuiteGuid>
    <testCaseLink>
       <guid>770234f1-5746-43ac-aecb-27e034e7d063</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/HomePage/ContentModule/2 variations of CTA buttons in content module</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
