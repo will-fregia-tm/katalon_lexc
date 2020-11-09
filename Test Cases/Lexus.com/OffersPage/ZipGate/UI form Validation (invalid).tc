@@ -4,9 +4,12 @@
 
 if the Zip-code submission is syntactically incorrect  (ie > 5 digits).
 
-Then the system shall:
-
-- fail UI form validations
+Then the system shall:
+
+
+
+- fail UI form validations
+
 - display an error message near the zipcode entry filed
 - display the zipcode-entry-error state</description>
    <name>UI form Validation (invalid)</name>

@@ -34,6 +34,20 @@ WebUI.navigateToUrl(GlobalVariable.TS_Domain + '/privacy')
 
 WebUI.navigateToUrl(GlobalVariable.SC_Domain + '/offers')
 
+if (WebUI.verifyElementPresent(findTestObject('OffersPage/ZipGate/expand CTA'), 3, FailureHandling.OPTIONAL)) {
+    WebUI.click(findTestObject('OffersPage/ZipBar/change market CTA'), FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.setText(findTestObject('OffersPage/ZipBar/zip entry field'), '08008')
+
+    WebUI.click(findTestObject('OffersPage/ZipBar/search icon'), FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.waitForElementPresent(findTestObject('OffersPage/SharedMarketOverlay/shared zip overlay'), 5, FailureHandling.OPTIONAL)
+
+    WebUI.verifyElementPresent(findTestObject('OffersPage/SharedMarketOverlay/shared zip overlay'), 0, FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.click(findTestObject('OffersPage/SharedMarketOverlay/X button'), FailureHandling.STOP_ON_FAILURE)
+}
+
 WebUI.waitForElementPresent(findTestObject('OffersPage/ZipGate/form input'), 5, FailureHandling.OPTIONAL)
 
 WebUI.setText(findTestObject('OffersPage/ZipGate/form input'), '08008')
@@ -42,25 +56,25 @@ WebUI.click(findTestObject('OffersPage/ZipGate/submit button'))
 
 WebUI.waitForElementPresent(findTestObject('OffersPage/SharedMarketOverlay/shared zip overlay'), 5, FailureHandling.OPTIONAL)
 
-noHover = WebUI.getCSSValue(findTestObject('OffersPage/SharedMarketOverlay/displayed market name - New York, New Jersey, Connecticut Dealers'), 'background-color', 
-    FailureHandling.STOP_ON_FAILURE)
+noHover = WebUI.getCSSValue(findTestObject('OffersPage/SharedMarketOverlay/displayed market name - New York, New Jersey, Connecticut Dealers'), 
+    'background-color', FailureHandling.STOP_ON_FAILURE)
 
 WebUI.mouseOver(findTestObject('OffersPage/SharedMarketOverlay/displayed market name - New York, New Jersey, Connecticut Dealers'))
 
-hoverState = WebUI.getCSSValue(findTestObject('OffersPage/SharedMarketOverlay/displayed market name - New York, New Jersey, Connecticut Dealers'), 'background-color', 
-    FailureHandling.STOP_ON_FAILURE)
+hoverState = WebUI.getCSSValue(findTestObject('OffersPage/SharedMarketOverlay/displayed market name - New York, New Jersey, Connecticut Dealers'), 
+    'background-color', FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyNotMatch(hoverState, noHover, false, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(3)
 
-noHover = WebUI.getCSSValue(findTestObject('OffersPage/SharedMarketOverlay/displayed market name - New Jersey, Delaware, Pennsylvania Dealers'), 'background-color', 
-    FailureHandling.STOP_ON_FAILURE)
+noHover = WebUI.getCSSValue(findTestObject('OffersPage/SharedMarketOverlay/displayed market name - New Jersey, Delaware, Pennsylvania Dealers'), 
+    'background-color', FailureHandling.STOP_ON_FAILURE)
 
 WebUI.mouseOver(findTestObject('OffersPage/SharedMarketOverlay/displayed market name - New Jersey, Delaware, Pennsylvania Dealers'))
 
-hoverState = WebUI.getCSSValue(findTestObject('OffersPage/SharedMarketOverlay/displayed market name - New Jersey, Delaware, Pennsylvania Dealers'), 'background-color', 
-    FailureHandling.STOP_ON_FAILURE)
+hoverState = WebUI.getCSSValue(findTestObject('OffersPage/SharedMarketOverlay/displayed market name - New Jersey, Delaware, Pennsylvania Dealers'), 
+    'background-color', FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyNotMatch(hoverState, noHover, false, FailureHandling.STOP_ON_FAILURE)
 

@@ -2,20 +2,30 @@
 <TestCaseEntity>
    <description>When a user selects a market
 
-
-
-Then the system shall:
-
 
 
-close the overlay
-
 
-cookie selected market
-
+
+Then the system shall:
+
+
+
+
+
+close the overlay
+
+
+
+
+cookie selected market
+
+
+
 note the zipcode gets cookied when the zipcode passes UI validation in zip-code-entry-component
-
-
+
+
+
+
 display the offers for the selected market on the All Offers (result page)</description>
    <name>Select Market</name>
    <tag></tag>

@@ -1,17 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>When a users location is known (i.e. 75219)
-
-
-Then the system should display the default state of the module which displays:
-
+
+
+
+
+Then the system should display the default state of the module which displays:
+
+
+
 
 
 Current-Market-Text defined in the CMS
-
-
-Users zipcode (ie. 75219)
-
+
+
+
+
+Users zipcode (ie. 75219)
+
+
+
 
 Change-market CTA</description>
    <name>Location Known - Default State</name>
