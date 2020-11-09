@@ -34,6 +34,8 @@ WebUI.navigateToUrl(GlobalVariable.TS_Domain + '/privacy')
 
 WebUI.navigateToUrl(GlobalVariable.SC_Domain + '/offers')
 
+WebUI.waitForPageLoad(0)
+
 'This is a workaround in case LAM-2532 occurs.'
 if (WebUI.verifyElementPresent(findTestObject('OffersPage/ZipGate/expand CTA'), 3, FailureHandling.OPTIONAL)) {
     WebUI.click(findTestObject('OffersPage/ZipBar/change market CTA'), FailureHandling.STOP_ON_FAILURE)
@@ -51,7 +53,7 @@ if (WebUI.verifyElementPresent(findTestObject('OffersPage/ZipGate/expand CTA'), 
 
 WebUI.waitForElementPresent(findTestObject('OffersPage/ZipGate/form input'), 5, FailureHandling.OPTIONAL)
 
-WebUI.setText(findTestObject('OffersPage/ZipGate/form input'), '11111')
+WebUI.setText(findTestObject('OffersPage/ZipGate/form input'), '70878')
 
 WebUI.click(findTestObject('OffersPage/ZipGate/submit button'))
 
