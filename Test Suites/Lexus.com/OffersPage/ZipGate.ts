@@ -50,7 +50,7 @@
    <testCaseLink>
       <guid>b7bb530e-4dab-433d-814b-fc0bcb936433</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Lexus.com/OffersPage/ZipGate/Technical Difficulty Server Message</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -93,6 +93,18 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>16ebf5fa-3df7-4767-a5a2-9befb737ce70</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>6da0e09a-3e1e-4a58-a68b-3198fb42ad7d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/OffersPage/ZipGate/Unassigned Zip - Expand search should not load on initial page visit</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>fbe4f7a6-329c-4bd1-8b98-45eeeb9edf04</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

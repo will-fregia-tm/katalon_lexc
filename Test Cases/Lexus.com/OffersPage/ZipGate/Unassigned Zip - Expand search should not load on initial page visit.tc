@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Visit offers page without a cookied ZIP code. Verify that expand search prompt isn't present, instead of ZIP entry field (LAM-2532).</description>
+   <name>Unassigned Zip - Expand search should not load on initial page visit</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>15dd354d-a9f5-4147-a7b6-21697100d11c</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>fbe4f7a6-329c-4bd1-8b98-45eeeb9edf04</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>
