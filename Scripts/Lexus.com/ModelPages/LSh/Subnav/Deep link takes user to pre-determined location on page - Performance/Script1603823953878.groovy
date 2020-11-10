@@ -13,36 +13,38 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser(GlobalVariable.TS_Domain + GlobalVariable.Header)
+WebUI.openBrowser(GlobalVariable.TS_Domain + GlobalVariable.Compare)
 
 WebUI.navigateToUrl((GlobalVariable.TS_Domain + GlobalVariable.Overview_LSh) + '/performance')
 
 WebUI.waitForPageLoad(0)
 
-WebUI.verifyElementVisibleInViewport(findTestObject('ModelPages/Performance/performance module'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementVisibleInViewport(findTestObject('ModelPages/Overlay/special edition module'), 0)
 
-WebUI.waitForElementVisible(findTestObject('ModelPages/Performance/more features CTA'), 0, FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.verifyElementVisibleInViewport(findTestObject('ModelPages/Performance/performance module'), 0, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('ModelPages/Performance/first story link - selected'), 0)
+not_run: WebUI.waitForElementVisible(findTestObject('ModelPages/Performance/more features CTA'), 0, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementNotPresent(findTestObject('ModelPages/Performance/second story link - selected'), 0, FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.verifyElementPresent(findTestObject('ModelPages/Performance/first story link - selected'), 0)
 
-pageWidth = WebUI.getPageWidth()
+not_run: WebUI.verifyElementNotPresent(findTestObject('ModelPages/Performance/second story link - selected'), 0, FailureHandling.STOP_ON_FAILURE)
 
-if (WebUI.verifyGreaterThan(pageWidth, '960', FailureHandling.OPTIONAL)) {
+not_run: pageWidth = WebUI.getPageWidth()
+
+not_run: if (WebUI.verifyGreaterThan(pageWidth, '960', FailureHandling.OPTIONAL)) {
     WebUI.verifyElementVisible(findTestObject('ModelPages/Performance/first story headline'))
 
     WebUI.verifyElementVisible(findTestObject('ModelPages/Performance/first story body copy'))
 }
 
-WebUI.verifyElementPresent(findTestObject('ModelPages/Performance/story image'), 0, FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.verifyElementPresent(findTestObject('ModelPages/Performance/story image'), 0, FailureHandling.STOP_ON_FAILURE)
 
 'if there is no image visible, then video should be present'
-if (WebUI.verifyElementNotVisible(findTestObject('ModelPages/Performance/story image'), FailureHandling.OPTIONAL)) {
+not_run: if (WebUI.verifyElementNotVisible(findTestObject('ModelPages/Performance/story image'), FailureHandling.OPTIONAL)) {
     WebUI.verifyElementPresent(findTestObject('ModelPages/Performance/story video'), 0)
 }
 
-WebUI.verifyElementVisible(findTestObject('ModelPages/Performance/more features CTA'), FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.verifyElementVisible(findTestObject('ModelPages/Performance/more features CTA'), FailureHandling.STOP_ON_FAILURE)
 
 @com.kms.katalon.core.annotation.TearDownIfPassed
 def passed() {

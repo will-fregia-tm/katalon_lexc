@@ -59,4 +59,9 @@
       <initValue>'/offers'</initValue>
       <name>Offers</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'/compare'</initValue>
+      <name>Compare</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

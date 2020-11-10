@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>7578054f-cd4f-4371-bd42-0d260da8749e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/ModelPages/LSh/Subnav/Desktop Navigation - Click BYL</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -26,7 +26,7 @@
    <testCaseLink>
       <guid>9f9fddb6-08e4-48ee-a561-deea73307c11</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/ModelPages/LSh/Subnav/Front End Routing - Clicking link on same page shows overlay or scrolls to appropriate section</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>

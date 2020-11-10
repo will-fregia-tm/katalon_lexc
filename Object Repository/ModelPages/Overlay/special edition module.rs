@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>CSS</key>
-         <value>[id^=&quot;specialEdition&quot;]</value>
+         <value>[id^=&quot;SubPageOverlayScroll&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

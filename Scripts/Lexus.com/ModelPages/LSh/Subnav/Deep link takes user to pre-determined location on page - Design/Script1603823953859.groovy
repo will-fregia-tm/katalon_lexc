@@ -13,32 +13,34 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser(GlobalVariable.TS_Domain + GlobalVariable.Header)
+WebUI.openBrowser(GlobalVariable.TS_Domain + GlobalVariable.Compare)
 
 WebUI.navigateToUrl((GlobalVariable.TS_Domain + GlobalVariable.Overview_LSh) + '/design')
 
 WebUI.waitForPageLoad(0)
 
-WebUI.verifyElementVisibleInViewport(findTestObject('ModelPages/Design/design module'), 0)
+WebUI.verifyElementVisibleInViewport(findTestObject('ModelPages/Overlay/special edition module'), 0)
 
-WebUI.waitForElementVisible(findTestObject('ModelPages/Design/more features CTA'), 0, FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.verifyElementVisibleInViewport(findTestObject('ModelPages/Design/design module'), 0)
 
-WebUI.verifyElementPresent(findTestObject('ModelPages/Design/first story link - selected'), 0)
+not_run: WebUI.waitForElementVisible(findTestObject('ModelPages/Design/more features CTA'), 0, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementNotPresent(findTestObject('ModelPages/Design/second story link - selected'), 0, FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.verifyElementPresent(findTestObject('ModelPages/Design/first story link - selected'), 0)
 
-WebUI.verifyElementVisible(findTestObject('ModelPages/Design/first story headline'))
+not_run: WebUI.verifyElementNotPresent(findTestObject('ModelPages/Design/second story link - selected'), 0, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('ModelPages/Design/first story body copy'))
+not_run: WebUI.verifyElementVisible(findTestObject('ModelPages/Design/first story headline'))
 
-WebUI.verifyElementPresent(findTestObject('ModelPages/Design/story image'), 0, FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.verifyElementVisible(findTestObject('ModelPages/Design/first story body copy'))
+
+not_run: WebUI.verifyElementPresent(findTestObject('ModelPages/Design/story image'), 0, FailureHandling.STOP_ON_FAILURE)
 
 'if there is no image visible, then video should be present'
-if (WebUI.verifyElementNotVisible(findTestObject('ModelPages/Design/story image'), FailureHandling.OPTIONAL)) {
+not_run: if (WebUI.verifyElementNotVisible(findTestObject('ModelPages/Design/story image'), FailureHandling.OPTIONAL)) {
     WebUI.verifyElementPresent(findTestObject('ModelPages/Design/story video'), 0)
 }
 
-WebUI.verifyElementVisible(findTestObject('ModelPages/Design/more features CTA'), FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.verifyElementVisible(findTestObject('ModelPages/Design/more features CTA'), FailureHandling.STOP_ON_FAILURE)
 
 @com.kms.katalon.core.annotation.TearDownIfPassed
 def passed() {

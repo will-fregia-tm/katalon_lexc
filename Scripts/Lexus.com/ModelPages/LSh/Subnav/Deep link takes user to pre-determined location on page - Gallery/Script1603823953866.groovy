@@ -13,39 +13,41 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser(GlobalVariable.TS_Domain + GlobalVariable.Header)
+WebUI.openBrowser(GlobalVariable.TS_Domain + GlobalVariable.Compare)
 
 WebUI.navigateToUrl((GlobalVariable.TS_Domain + GlobalVariable.Overview_LSh) + '/gallery')
 
 WebUI.waitForPageLoad(0)
 
-WebUI.verifyElementVisibleInViewport(findTestObject('ModelPages/Gallery/gallery module'), 0)
+WebUI.verifyElementVisibleInViewport(findTestObject('ModelPages/Overlay/special edition module'), 0)
 
-WebUI.verifyElementVisible(findTestObject('ModelPages/Gallery/gallery heading'), FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.verifyElementVisibleInViewport(findTestObject('ModelPages/Gallery/gallery module'), 0)
 
-WebUI.verifyElementVisible(findTestObject('ModelPages/Gallery/primary image'), FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.verifyElementVisible(findTestObject('ModelPages/Gallery/gallery heading'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('ModelPages/Gallery/secondary image 1'), 0)
+not_run: WebUI.verifyElementVisible(findTestObject('ModelPages/Gallery/primary image'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('ModelPages/Gallery/secondary image 2'), 0)
+not_run: WebUI.verifyElementPresent(findTestObject('ModelPages/Gallery/secondary image 1'), 0)
 
-WebUI.scrollToElement(findTestObject('ModelPages/Gallery/pagination 1'), 0)
+not_run: WebUI.verifyElementPresent(findTestObject('ModelPages/Gallery/secondary image 2'), 0)
 
-WebUI.verifyElementVisibleInViewport(findTestObject('ModelPages/Gallery/pagination 1'), 0)
+not_run: WebUI.scrollToElement(findTestObject('ModelPages/Gallery/pagination 1'), 0)
 
-WebUI.verifyElementVisibleInViewport(findTestObject('ModelPages/Gallery/pagination OF'), 0)
+not_run: WebUI.verifyElementVisibleInViewport(findTestObject('ModelPages/Gallery/pagination 1'), 0)
+
+not_run: WebUI.verifyElementVisibleInViewport(findTestObject('ModelPages/Gallery/pagination OF'), 0)
 
 not_run: WebUI.verifyElementPresent(findTestObject('ModelPages/Gallery/image description 1'), 0, FailureHandling.OPTIONAL)
 
-pageWidth = WebUI.getPageWidth()
+not_run: pageWidth = WebUI.getPageWidth()
 
-if (WebUI.verifyGreaterThan(pageWidth, '960', FailureHandling.OPTIONAL)) {
+not_run: if (WebUI.verifyGreaterThan(pageWidth, '960', FailureHandling.OPTIONAL)) {
     WebUI.verifyElementPresent(findTestObject('ModelPages/Gallery/carousel tab - left'), 0)
 
     WebUI.verifyElementPresent(findTestObject('ModelPages/Gallery/carousel tab - right'), 0)
 }
 
-WebUI.verifyElementPresent(findTestObject('ModelPages/Gallery/expand image button'), 0)
+not_run: WebUI.verifyElementPresent(findTestObject('ModelPages/Gallery/expand image button'), 0)
 
 @com.kms.katalon.core.annotation.TearDownIfPassed
 def passed() {

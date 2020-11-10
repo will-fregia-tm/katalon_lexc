@@ -13,7 +13,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser(GlobalVariable.TS_Domain + GlobalVariable.Header)
+WebUI.openBrowser(GlobalVariable.TS_Domain + GlobalVariable.Compare)
 
 WebUI.navigateToUrl((GlobalVariable.TS_Domain + GlobalVariable.Overview_LSh) + '/styles')
 
