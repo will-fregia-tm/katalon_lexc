@@ -26,7 +26,7 @@
    <testCaseLink>
       <guid>40940761-802e-44ac-a0de-9bf0c0b3e33e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/HomePage/default</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -38,7 +38,7 @@
    <testCaseLink>
       <guid>81b8fbb2-05c3-4703-8b6e-ed2cea762268</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/HomePage/PMOI - ES</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
