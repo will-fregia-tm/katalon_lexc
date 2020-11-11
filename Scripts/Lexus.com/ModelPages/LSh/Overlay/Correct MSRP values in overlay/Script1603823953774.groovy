@@ -30,7 +30,7 @@ if (WebUI.verifyElementPresent(findTestObject('ModelPages/Overlay/overlay MSRP')
 
     textWithMSRP = WebUI.getText(findTestObject('ModelPages/Overlay/overlay MSRP'), FailureHandling.STOP_ON_FAILURE)
 
-    'NX 300h F SPORT AWD BLACK LINE SPECIAL EDITION​'
+    'LSh'
     expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 43)
 
     textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
