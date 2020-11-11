@@ -9,8 +9,12 @@
          <key>BASIC</key>
          <value>//h3[(contains(text(), 'ES') or contains(., 'ES'))]</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;page&quot;]//section/div/div/div/h3[(contains(text(), 'ES') or contains(., 'ES'))]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

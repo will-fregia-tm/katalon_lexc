@@ -1,20 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>offer heading - IS</name>
+   <name>applied filters heading</name>
    <tag></tag>
-   <elementGuidId>440bc0b0-88cb-40c8-a1cd-e2578a03e3c8</elementGuidId>
+   <elementGuidId>9b308e0d-fe1d-438e-afa9-a1757c637e16</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//h3[(contains(text(), 'IS') or contains(., 'IS'))]</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//*[@id=&quot;page&quot;]//section/div/div/div/h3[(contains(text(), 'IS') or contains(., 'IS'))]</value>
+         <value>//h3[(contains(text(), 'APPLIED FILTERS') or contains(., 'APPLIED FILTERS'))]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +24,6 @@
       <matchCondition>contains</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>IS</value>
+      <value>APPLIED FILTERS</value>
    </webElementProperties>
 </WebElementEntity>

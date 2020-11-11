@@ -1,31 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>offer heading - IS</name>
+   <name>breadcrumb - IS</name>
    <tag></tag>
-   <elementGuidId>440bc0b0-88cb-40c8-a1cd-e2578a03e3c8</elementGuidId>
+   <elementGuidId>0374110e-7fc4-4a81-8d29-0da98bd61023</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//h3[(contains(text(), 'IS') or contains(., 'IS'))]</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//*[@id=&quot;page&quot;]//section/div/div/div/h3[(contains(text(), 'IS') or contains(., 'IS'))]</value>
+         <value>//button[(text() = 'IS' or . = 'IS')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>h3</value>
+      <value>button</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>contains</matchCondition>
+      <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>IS</value>

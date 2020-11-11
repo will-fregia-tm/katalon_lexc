@@ -59,27 +59,33 @@ WebUI.waitForElementPresent(findTestObject('OffersPage/ZipGate/offers page with 
 
 WebUI.verifyElementPresent(findTestObject('OffersPage/FilterBar/offer heading - IS'), 0, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('OffersPage/FilterBar/offer type - lease'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('OffersPage/FilterBar/offer type - finance'), 0, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementPresent(findTestObject('OffersPage/FilterBar/offer heading - ES'), 0, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('OffersPage/FilterBar/offer type - finance'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('OffersPage/FilterBar/offer type - lease'), 0, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('OffersPage/FilterBar/filter bar'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('OffersPage/FilterBar/checkbox - IS'), FailureHandling.OPTIONAL)
+WebUI.click(findTestObject('OffersPage/FilterBar/checkbox - IS'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('OffersPage/FilterBar/apply button'), FailureHandling.OPTIONAL)
+WebUI.click(findTestObject('OffersPage/FilterBar/finance button'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementNotPresent(findTestObject('OffersPage/FilterBar/close accordion button'), 0, FailureHandling.OPTIONAL)
+WebUI.click(findTestObject('OffersPage/FilterBar/apply button'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('OffersPage/FilterBar/offer heading - IS'), 0, FailureHandling.OPTIONAL)
+WebUI.verifyElementNotPresent(findTestObject('OffersPage/FilterBar/close accordion button'), 0, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('OffersPage/FilterBar/offer type - lease'), 0, FailureHandling.OPTIONAL)
+WebUI.verifyElementPresent(findTestObject('OffersPage/FilterBar/applied filters heading'), 0, FailureHandling.OPTIONAL)
 
-WebUI.verifyElementNotPresent(findTestObject('OffersPage/FilterBar/offer heading - ES'), 0, FailureHandling.OPTIONAL)
+WebUI.verifyElementPresent(findTestObject('OffersPage/FilterBar/breadcrumb - IS'), 0, FailureHandling.OPTIONAL)
 
-WebUI.verifyElementPresent(findTestObject('OffersPage/FilterBar/offer type - finance'), 0, FailureHandling.OPTIONAL)
+WebUI.verifyElementPresent(findTestObject('OffersPage/FilterBar/offer heading - IS'), 0, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyElementPresent(findTestObject('OffersPage/FilterBar/offer type - finance'), 0, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyElementNotPresent(findTestObject('OffersPage/FilterBar/offer heading - ES'), 0, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyElementNotPresent(findTestObject('OffersPage/FilterBar/offer type - lease'), 0, FailureHandling.STOP_ON_FAILURE)
 
 @com.kms.katalon.core.annotation.TearDownIfPassed
 def passed() {
