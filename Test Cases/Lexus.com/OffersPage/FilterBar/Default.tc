@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>The default state is collapsed
+
+Filter-Bar-Title is centered
+
+Full bar must be clickable
+
+Filter bar is sticky
+When a user scrolls down the page, the Filter bar will scroll to the top of the page and remain fixed
+
+filter bar will be visible at all times</description>
+   <name>Default</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5b5b6cb3-e71e-411e-8c15-cde9c76624ee</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>127433fe-88ea-4f05-8ded-a25c90d37493</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>When a user clicks on the collapsed filter bar then the system
+
+shall render the the expanded filter bar menu
+menu will no longer be full page overlay
+automatically scroll the filter bar to the top of the page
+filter bar icon updates to expanded state
+filter menu will not take over full screen
+filter manu will expand from the top of the page</description>
+   <name>Click filter bar</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>da79c274-cf69-4f32-86d8-262ade93914c</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>ab99ee32-a3eb-4a7b-978a-a4427e3b0679</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>
