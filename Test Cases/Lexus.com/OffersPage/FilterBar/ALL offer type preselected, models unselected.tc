@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>05.a -  Filter Offers Defaults State
+Preselect Offer Type: &quot;All&quot; 
+First Model Category selected
+All models unselectedwhen no models are selected then the  system will treat it as though the user has selected every model</description>
+   <name>ALL offer type preselected, models unselected</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>479017cc-9f12-41af-a680-1490165acc7a</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>5ad461d2-e842-40ae-aa5f-8ad5d31dbabd</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>

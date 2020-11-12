@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description> Select Offer Type
+&quot;All&quot; should be default selection
+Only one offer-type tab can be selected at a time
+When a user tap/clciks an offer type  (i.e. finance) then the system shall
+
+Display the Finance option in its selected-state (Gold with black text)
+Display the previously selected offer-type in static-state
+Model options in the vehicle filter will update based on offer availability
+if a model has available offers, then the model name and checkbox should be clickable
+if a model has no offers, then the model-checkbox will be in its unavailable-state</description>
+   <name>Select offer type</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cd66c4f0-e3ad-4e90-9559-336c567d8a4e</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>eb7207e2-f823-4201-a541-520be1212081</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>

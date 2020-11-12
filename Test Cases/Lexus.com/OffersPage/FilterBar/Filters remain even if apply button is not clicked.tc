@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>When a has made Filter selection
+
+And if the user:
+
+clicks on the filter bar
+presses esc key
+or clicks out of the filter menu
+Then the system will:
+
+
+collapse the expanded filter menu and display the underlying all offers page
+filter all the offers on the all offers page that match those filters
+update the page state settings to reflect the selected filter options
+display &quot;Applied Filters&quot; module on all offers page</description>
+   <name>Filters remain even if apply button is not clicked</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3579cc63-d4d6-4b95-bb6f-5393f10afe49</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>517817ef-f811-43c9-af13-10e7923bd41d</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>

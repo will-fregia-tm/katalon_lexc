@@ -47,4 +47,40 @@
          <variableId>127433fe-88ea-4f05-8ded-a25c90d37493</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>9ce2c44d-ef72-4bb1-b960-047c0584a5a7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/OffersPage/FilterBar/ALL offer type preselected, models unselected</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>5ad461d2-e842-40ae-aa5f-8ad5d31dbabd</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>753304bb-88e2-4721-9310-b017613bb8c5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/OffersPage/FilterBar/Filters remain even if apply button is not clicked</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>517817ef-f811-43c9-af13-10e7923bd41d</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>cdace372-c3fc-411f-927f-248c7cd703fc</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/OffersPage/FilterBar/Select offer type</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>eb7207e2-f823-4201-a541-520be1212081</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>

@@ -67,25 +67,21 @@ WebUI.verifyElementPresent(findTestObject('OffersPage/FilterBar/offer type - lea
 
 WebUI.click(findTestObject('OffersPage/FilterBar/filter bar'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('OffersPage/FilterBar/checkbox - IS'), FailureHandling.STOP_ON_FAILURE)
+selectedColor = WebUI.getCSSValue(findTestObject('OffersPage/FilterBar/ALL button'), 'background-color', FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('OffersPage/FilterBar/finance button'), FailureHandling.STOP_ON_FAILURE)
+defaultUnselected = WebUI.getCSSValue(findTestObject('OffersPage/FilterBar/finance button'), 'background-color', FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('OffersPage/FilterBar/apply button'), FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyNotMatch(defaultUnselected, selectedColor, false, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementNotPresent(findTestObject('OffersPage/FilterBar/close accordion button'), 0, FailureHandling.STOP_ON_FAILURE)
+defaultUnselected = WebUI.getCSSValue(findTestObject('OffersPage/FilterBar/checkbox span - All Sedans'), 'background-color', 
+    FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('OffersPage/FilterBar/applied filters heading'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('OffersPage/FilterBar/checkbox - All Sedans'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('OffersPage/FilterBar/breadcrumb - IS'), 0, FailureHandling.STOP_ON_FAILURE)
+selectedColor = WebUI.getCSSValue(findTestObject('OffersPage/FilterBar/checkbox span - All Sedans'), 'background-color', 
+    FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('OffersPage/FilterBar/offer heading - IS'), 0, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.verifyElementPresent(findTestObject('OffersPage/FilterBar/offer type - finance'), 0, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.verifyElementNotPresent(findTestObject('OffersPage/FilterBar/offer heading - ES'), 0, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.verifyElementNotPresent(findTestObject('OffersPage/FilterBar/offer type - lease'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyNotMatch(defaultUnselected, selectedColor, false, FailureHandling.STOP_ON_FAILURE)
 
 @com.kms.katalon.core.annotation.TearDownIfPassed
 def passed() {

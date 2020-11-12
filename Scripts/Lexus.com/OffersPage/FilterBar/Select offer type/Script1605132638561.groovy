@@ -57,35 +57,49 @@ WebUI.click(findTestObject('OffersPage/ZipGate/submit button'))
 
 WebUI.waitForElementPresent(findTestObject('OffersPage/ZipGate/offers page with offers'), 5, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('OffersPage/FilterBar/offer heading - IS'), 0, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.verifyElementPresent(findTestObject('OffersPage/FilterBar/offer type - finance'), 0, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.verifyElementPresent(findTestObject('OffersPage/FilterBar/offer heading - ES'), 0, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.verifyElementPresent(findTestObject('OffersPage/FilterBar/offer type - lease'), 0, FailureHandling.STOP_ON_FAILURE)
-
 WebUI.click(findTestObject('OffersPage/FilterBar/filter bar'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('OffersPage/FilterBar/checkbox - IS'), FailureHandling.STOP_ON_FAILURE)
+selectedColor = WebUI.getCSSValue(findTestObject('OffersPage/FilterBar/ALL button'), 'background-color', FailureHandling.STOP_ON_FAILURE)
+
+defaultUnselected = WebUI.getCSSValue(findTestObject('OffersPage/FilterBar/finance button'), 'background-color', FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyNotMatch(defaultUnselected, selectedColor, false, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('OffersPage/FilterBar/finance button'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('OffersPage/FilterBar/apply button'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('OffersPage/FilterBar/lease button'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementNotPresent(findTestObject('OffersPage/FilterBar/close accordion button'), 0, FailureHandling.STOP_ON_FAILURE)
+selectedColor = WebUI.getCSSValue(findTestObject('OffersPage/FilterBar/lease button'), 'background-color', FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('OffersPage/FilterBar/applied filters heading'), 0, FailureHandling.STOP_ON_FAILURE)
+firstUnselected = WebUI.getCSSValue(findTestObject('OffersPage/FilterBar/ALL button'), 'background-color', FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('OffersPage/FilterBar/breadcrumb - IS'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyNotMatch(firstUnselected, selectedColor, false, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('OffersPage/FilterBar/offer heading - IS'), 0, FailureHandling.STOP_ON_FAILURE)
+secondUnselected = WebUI.getCSSValue(findTestObject('OffersPage/FilterBar/finance button'), 'background-color', FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('OffersPage/FilterBar/offer type - finance'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyNotMatch(secondUnselected, selectedColor, false, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementNotPresent(findTestObject('OffersPage/FilterBar/offer heading - ES'), 0, FailureHandling.STOP_ON_FAILURE)
+if (WebUI.verifyElementPresent(findTestObject('OffersPage/FilterBar/unavailable model'), 3, FailureHandling.OPTIONAL)) {
+    unavailableModelText = WebUI.getText(findTestObject('OffersPage/FilterBar/unavailable model'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementNotPresent(findTestObject('OffersPage/FilterBar/offer type - lease'), 0, FailureHandling.STOP_ON_FAILURE)
+    unavailableModel = (unavailableModelText - ' (No offer available)')
+
+    WebUI.verifyNotMatch(unavailableModelText, unavailableModel, false, FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.click(findTestObject('OffersPage/FilterBar/unavailable model'), FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.click(findTestObject('OffersPage/FilterBar/apply button'), FailureHandling.STOP_ON_FAILURE)
+
+    pageText = WebUI.getText(findTestObject('OffersPage/FilterBar/page content'), FailureHandling.STOP_ON_FAILURE)
+
+    'Enable this to test whether the subsequent steps are working (they should fail).'
+    not_run: unavailableModel = 'ES'
+
+    pageTextWithoutModel = (pageText - unavailableModel)
+
+    'Checks to see if the "unavailable model" is actually present anywhere on the offers page.'
+    WebUI.verifyMatch(pageText, pageTextWithoutModel, false, FailureHandling.STOP_ON_FAILURE)
+}
 
 @com.kms.katalon.core.annotation.TearDownIfPassed
 def passed() {

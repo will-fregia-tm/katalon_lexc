@@ -71,7 +71,7 @@ WebUI.click(findTestObject('OffersPage/FilterBar/checkbox - IS'), FailureHandlin
 
 WebUI.click(findTestObject('OffersPage/FilterBar/finance button'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('OffersPage/FilterBar/apply button'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('OffersPage/FilterBar/filter bar'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementNotPresent(findTestObject('OffersPage/FilterBar/close accordion button'), 0, FailureHandling.STOP_ON_FAILURE)
 
