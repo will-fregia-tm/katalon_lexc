@@ -32,37 +32,37 @@ WebUI.scrollToElement(findTestObject('HomePage/VehicleSelector/categories/Sedans
 
 WebUI.click(findTestObject('HomePage/VehicleSelector/categories/Sedans'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('HomePage/VehicleSelector/models/Sedans - LS'), 0)
+WebUI.waitForElementVisible(findTestObject('Homepage/VehicleSelector/models/Sedans - ES'), 0)
 
-WebUI.click(findTestObject('HomePage/VehicleSelector/models/Sedans - LS'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Homepage/VehicleSelector/models/Sedans - ES'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementPresent(findTestObject('MSRP/section objects/homepage/vehicle selector/vehicle selector - sedans - LS starting at price'), 
+WebUI.waitForElementPresent(findTestObject('MSRP/section objects/homepage/vehicle selector/vehicle selector - sedans - ES starting at price'), 
     0)
 
-WebUI.scrollToElement(findTestObject('MSRP/section objects/homepage/vehicle selector/vehicle selector - sedans - LS starting at price'), 
+WebUI.scrollToElement(findTestObject('MSRP/section objects/homepage/vehicle selector/vehicle selector - sedans - ES starting at price'), 
     0)
 
-WebUI.verifyElementVisible(findTestObject('HomePage/VehicleSelector/swatch 01'), FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementVisibleInViewport(findTestObject('Homepage/VehicleSelector/swatch 01 - ES'), 0, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('HomePage/VehicleSelector/swatch 09'), 0)
+WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelector/vehicle selector - next button - ES'), 0)
 
-WebUI.verifyElementPresent(findTestObject('HomePage/VehicleSelector/vehicle selector - next button'), 0)
+WebUI.click(findTestObject('Homepage/VehicleSelector/vehicle selector - next button - ES'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('HomePage/VehicleSelector/vehicle selector - next button'), FailureHandling.OPTIONAL)
+WebUI.waitForElementVisible(findTestObject('Homepage/VehicleSelector/swatch 09 - ES'), 5, FailureHandling.OPTIONAL)
 
-WebUI.waitForElementVisible(findTestObject('HomePage/VehicleSelector/swatch 09'), 5, FailureHandling.OPTIONAL)
+WebUI.verifyElementVisibleInViewport(findTestObject('Homepage/VehicleSelector/swatch 09 - ES'), 0, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('HomePage/VehicleSelector/swatch 09'), FailureHandling.OPTIONAL)
+WebUI.click(findTestObject('Homepage/VehicleSelector/swatch 09 - ES'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('HomePage/VehicleSelector/vehicle selector - previous button'), 0)
+WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelector/vehicle selector - previous button - ES'), 0)
 
-WebUI.click(findTestObject('HomePage/VehicleSelector/vehicle selector - previous button'), FailureHandling.OPTIONAL)
+WebUI.click(findTestObject('Homepage/VehicleSelector/vehicle selector - previous button - ES'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('HomePage/VehicleSelector/swatch 01'), 0, FailureHandling.OPTIONAL)
+WebUI.waitForElementVisible(findTestObject('Homepage/VehicleSelector/swatch 01 - ES'), 0, FailureHandling.OPTIONAL)
 
-WebUI.verifyElementVisible(findTestObject('HomePage/VehicleSelector/swatch 01'), FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementVisibleInViewport(findTestObject('Homepage/VehicleSelector/swatch 01 - ES'), 0, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementNotVisible(findTestObject('HomePage/VehicleSelector/swatch 09'), FailureHandling.OPTIONAL)
+WebUI.click(findTestObject('Homepage/VehicleSelector/swatch 01 - ES'), FailureHandling.STOP_ON_FAILURE)
 
 @com.kms.katalon.core.annotation.TearDownIfPassed
 def passed() {

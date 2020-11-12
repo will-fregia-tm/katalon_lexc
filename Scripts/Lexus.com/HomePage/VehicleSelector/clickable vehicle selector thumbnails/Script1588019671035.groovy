@@ -39,12 +39,12 @@ WebUI.click(findTestObject('HomePage/VehicleSelector/models/Sedans - IS'))
 WebUI.waitForElementVisible(findTestObject('MSRP/section objects/homepage/vehicle selector/vehicle selector - sedans - IS starting at price'), 
     0, FailureHandling.OPTIONAL)
 
-WebUI.click(findTestObject('HomePage/VehicleSelector/models/Sedans - ES'), FailureHandling.OPTIONAL)
+WebUI.click(findTestObject('HomePage/VehicleSelector/models/Sedans - ES'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForElementVisible(findTestObject('MSRP/section objects/homepage/vehicle selector/vehicle selector - sedans - ES starting at price'), 
     0, FailureHandling.OPTIONAL)
 
-WebUI.click(findTestObject('HomePage/VehicleSelector/models/Sedans - ESh'), FailureHandling.OPTIONAL)
+WebUI.click(findTestObject('HomePage/VehicleSelector/models/Sedans - ESh'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForElementVisible(findTestObject('MSRP/section objects/homepage/vehicle selector/vehicle selector - sedans - ESh starting at price'), 
     0, FailureHandling.OPTIONAL)

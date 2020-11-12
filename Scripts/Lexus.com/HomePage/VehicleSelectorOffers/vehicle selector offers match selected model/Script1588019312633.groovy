@@ -42,7 +42,9 @@ WebUI.scrollToElement(findTestObject('HomePage/VehicleSelector/vehicle selector 
 
 WebUI.click(findTestObject('HomePage/VehicleSelector/categories/Sedans'))
 
-WebUI.waitForElementVisible(findTestObject('HomePage/VehicleSelector/models/Sedans - IS'), 0)
+WebUI.waitForElementVisible(findTestObject('Homepage/VehicleSelector/models/Sedans - IS'), 0)
+
+WebUI.click(findTestObject('Homepage/VehicleSelector/models/Sedans - IS'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.scrollToElement(findTestObject('HomePage/VehicleSelector/vehicle selector - offers heading'), 0, FailureHandling.OPTIONAL)
 

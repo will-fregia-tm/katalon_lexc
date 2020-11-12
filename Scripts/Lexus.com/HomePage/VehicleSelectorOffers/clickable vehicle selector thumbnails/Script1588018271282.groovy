@@ -39,12 +39,12 @@ WebUI.click(findTestObject('HomePage/VehicleSelector/models/Sedans - IS'))
 WebUI.waitForElementVisible(findTestObject('MSRP/section objects/homepage/vehicle selector/vehicle selector - sedans - IS starting at price'), 
     0, FailureHandling.OPTIONAL)
 
-WebUI.click(findTestObject('HomePage/VehicleSelector/models/Sedans - ES'), FailureHandling.OPTIONAL)
+WebUI.click(findTestObject('HomePage/VehicleSelector/models/Sedans - ES'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForElementVisible(findTestObject('MSRP/section objects/homepage/vehicle selector/vehicle selector - sedans - ES starting at price'), 
     0, FailureHandling.OPTIONAL)
 
-WebUI.click(findTestObject('HomePage/VehicleSelector/models/Sedans - ESh'), FailureHandling.OPTIONAL)
+WebUI.click(findTestObject('HomePage/VehicleSelector/models/Sedans - ESh'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForElementVisible(findTestObject('MSRP/section objects/homepage/vehicle selector/vehicle selector - sedans - ESh starting at price'), 
     0, FailureHandling.OPTIONAL)
@@ -67,7 +67,7 @@ WebUI.waitForElementVisible(findTestObject('MSRP/section objects/homepage/vehicl
 WebUI.click(findTestObject('HomePage/VehicleSelector/models/Sedans - LSh'), FailureHandling.OPTIONAL)
 
 WebUI.waitForElementVisible(findTestObject('MSRP/section objects/homepage/vehicle selector/vehicle selector - sedans - LSh starting at price'), 
-    0, FailureHandling.OPTIONAL)
+    2, FailureHandling.OPTIONAL)
 
 WebUI.click(findTestObject('HomePage/VehicleSelector/categories/SUVs'), FailureHandling.STOP_ON_FAILURE)
 
@@ -163,15 +163,15 @@ WebUI.click(findTestObject('HomePage/VehicleSelector/models/Hybrids - RXh'))
 WebUI.waitForElementVisible(findTestObject('MSRP/section objects/homepage/vehicle selector/vehicle selector - hybrids - RXh starting at price'), 
     0, FailureHandling.OPTIONAL)
 
-WebUI.click(findTestObject('HomePage/VehicleSelector/models/Hybrids - ESh'), FailureHandling.OPTIONAL)
+WebUI.click(findTestObject('HomePage/VehicleSelector/models/Hybrids - ESh'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForElementVisible(findTestObject('MSRP/section objects/homepage/vehicle selector/vehicle selector - hybrids - ESh starting at price'), 
     0, FailureHandling.OPTIONAL)
 
-WebUI.click(findTestObject('HomePage/VehicleSelector/models/Hybrids - LSh'))
+WebUI.click(findTestObject('HomePage/VehicleSelector/models/Hybrids - LSh'), FailureHandling.OPTIONAL)
 
 WebUI.waitForElementVisible(findTestObject('MSRP/section objects/homepage/vehicle selector/vehicle selector - hybrids - LSh starting at price'), 
-    0, FailureHandling.OPTIONAL)
+    2, FailureHandling.OPTIONAL)
 
 WebUI.click(findTestObject('HomePage/VehicleSelector/models/Hybrids - LCh'), FailureHandling.OPTIONAL)
 

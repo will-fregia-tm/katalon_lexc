@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>swatch 01</name>
+   <name>swatch 01 - ES</name>
    <tag></tag>
    <elementGuidId>66ca4a64-258d-45a7-8559-2739a129691b</elementGuidId>
    <selectorCollection>
@@ -15,7 +15,7 @@
       </entry>
       <entry>
          <key>CSS</key>
-         <value>div[data-model*=&quot;LS&quot;] button[data-slick-index*=&quot;0&quot;] </value>
+         <value>div[data-model*=&quot;ES&quot;] button[data-slick-index*=&quot;0&quot;] </value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

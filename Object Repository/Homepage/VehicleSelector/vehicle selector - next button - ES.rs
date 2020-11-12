@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>vehicle selector - previous button</name>
+   <name>vehicle selector - next button - ES</name>
    <tag></tag>
-   <elementGuidId>cc5629f4-ad6e-43de-ba74-c9b1de728d42</elementGuidId>
+   <elementGuidId>356d3c8b-4c05-4244-9222-ce69d7160d91</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//button[contains(@aria-label, 'Previous')]</value>
+         <value>//button[contains(@aria-label, 'Next')]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>div[data-model*=&quot;LS&quot;] button[aria-label*=&quot;Previous&quot;] </value>
+         <value>div[data-model*=&quot;ES&quot;] button[aria-label*=&quot;Next&quot;] </value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>
@@ -28,6 +28,6 @@
       <matchCondition>contains</matchCondition>
       <name>aria-label</name>
       <type>Main</type>
-      <value>Previous</value>
+      <value>Next</value>
    </webElementProperties>
 </WebElementEntity>

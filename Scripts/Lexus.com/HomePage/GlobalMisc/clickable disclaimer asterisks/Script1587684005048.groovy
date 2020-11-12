@@ -25,9 +25,20 @@ WebUI.navigateToUrl(GlobalVariable.SC_Domain)
 
 WebUI.navigateToUrl(GlobalVariable.SC_Domain_Unauthenticated)
 
-WebUI.verifyElementPresent(findTestObject('Homepage/GlobalMisc/disclaimer asterisk'), 0)
+WebUI.waitForElementPresent(findTestObject('HomePage/VehicleSelector/vehicle selector - heading'), 0)
 
-WebUI.scrollToElement(findTestObject('Homepage/GlobalMisc/disclaimer asterisk'), 0)
+WebUI.scrollToElement(findTestObject('HomePage/VehicleSelector/vehicle selector - heading'), 0)
+
+WebUI.click(findTestObject('HomePage/VehicleSelector/categories/Sedans'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.waitForElementVisible(findTestObject('HomePage/VehicleSelector/models/Sedans - IS'), 0)
+
+WebUI.click(findTestObject('HomePage/VehicleSelector/models/Sedans - IS'))
+
+WebUI.waitForElementVisible(findTestObject('MSRP/section objects/homepage/vehicle selector/vehicle selector - sedans - IS starting at price'), 
+    0, FailureHandling.OPTIONAL)
+
+WebUI.verifyElementPresent(findTestObject('Homepage/GlobalMisc/disclaimer asterisk'), 0)
 
 WebUI.click(findTestObject('Homepage/GlobalMisc/disclaimer asterisk'), FailureHandling.STOP_ON_FAILURE)
 
