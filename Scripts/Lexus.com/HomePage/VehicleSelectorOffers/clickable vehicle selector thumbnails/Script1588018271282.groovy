@@ -64,7 +64,7 @@ WebUI.click(findTestObject('HomePage/VehicleSelector/models/Sedans - LS'))
 WebUI.waitForElementVisible(findTestObject('MSRP/section objects/homepage/vehicle selector/vehicle selector - sedans - LS starting at price'), 
     0, FailureHandling.OPTIONAL)
 
-WebUI.click(findTestObject('HomePage/VehicleSelector/models/Sedans - LSh'))
+WebUI.click(findTestObject('HomePage/VehicleSelector/models/Sedans - LSh'), FailureHandling.OPTIONAL)
 
 WebUI.waitForElementVisible(findTestObject('MSRP/section objects/homepage/vehicle selector/vehicle selector - sedans - LSh starting at price'), 
     0, FailureHandling.OPTIONAL)
@@ -173,7 +173,7 @@ WebUI.click(findTestObject('HomePage/VehicleSelector/models/Hybrids - LSh'))
 WebUI.waitForElementVisible(findTestObject('MSRP/section objects/homepage/vehicle selector/vehicle selector - hybrids - LSh starting at price'), 
     0, FailureHandling.OPTIONAL)
 
-WebUI.click(findTestObject('HomePage/VehicleSelector/models/Hybrids - LCh'))
+WebUI.click(findTestObject('HomePage/VehicleSelector/models/Hybrids - LCh'), FailureHandling.OPTIONAL)
 
 WebUI.waitForElementVisible(findTestObject('MSRP/section objects/homepage/vehicle selector/vehicle selector - hybrids - LCh starting at price'), 
     0, FailureHandling.OPTIONAL)
