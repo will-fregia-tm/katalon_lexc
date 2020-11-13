@@ -57,35 +57,43 @@ WebUI.click(findTestObject('OffersPage/ZipGate/submit button'))
 
 WebUI.waitForElementPresent(findTestObject('OffersPage/ZipGate/offers page with offers'), 5, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('OffersPage/FilterBar/offer heading - IS'), 0, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.verifyElementPresent(findTestObject('OffersPage/FilterBar/offer type - finance'), 0, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.verifyElementPresent(findTestObject('OffersPage/FilterBar/offer heading - ES'), 0, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.verifyElementPresent(findTestObject('OffersPage/FilterBar/offer type - lease'), 0, FailureHandling.STOP_ON_FAILURE)
-
 WebUI.click(findTestObject('OffersPage/FilterBar/filter bar'), FailureHandling.STOP_ON_FAILURE)
+
+uncheckedFill = WebUI.getCSSValue(findTestObject('OffersPage/FilterBar/model checkbox span - IS'), 'background-color', FailureHandling.STOP_ON_FAILURE)
+
+uncheckedBorder = WebUI.getCSSValue(findTestObject('OffersPage/FilterBar/model checkbox span - IS'), 'border', FailureHandling.STOP_ON_FAILURE)
+
+unselectedFont = WebUI.getCSSValue(findTestObject('OffersPage/FilterBar/model name - IS'), 'font-family', FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyMatch(uncheckedBorder, '2px solid rgb(164, 139, 91)', false, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyMatch(unselectedFont, 'nobel-regular', false, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('OffersPage/FilterBar/model checkbox - IS'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('OffersPage/FilterBar/finance button'), FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('OffersPage/FilterBar/model checkbox - IS - selected'), 0, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('OffersPage/FilterBar/filter bar'), FailureHandling.STOP_ON_FAILURE)
+checkedFill = WebUI.getCSSValue(findTestObject('OffersPage/FilterBar/model checkbox span - IS'), 'background-color', FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementNotPresent(findTestObject('OffersPage/FilterBar/close accordion button'), 0, FailureHandling.STOP_ON_FAILURE)
+checkedBorder = WebUI.getCSSValue(findTestObject('OffersPage/FilterBar/model checkbox span - IS'), 'background-color', FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('OffersPage/FilterBar/applied filters heading'), 0, FailureHandling.STOP_ON_FAILURE)
+selectedFont = WebUI.getCSSValue(findTestObject('OffersPage/FilterBar/model name - IS'), 'font-family', FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('OffersPage/FilterBar/breadcrumb - IS'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyNotMatch(uncheckedFill, checkedFill, false, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('OffersPage/FilterBar/offer heading - IS'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyMatch(checkedBorder, 'rgba(164, 139, 91, 1)', false, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('OffersPage/FilterBar/offer type - finance'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyMatch(selectedFont, 'nobel-bold', false, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementNotPresent(findTestObject('OffersPage/FilterBar/offer heading - ES'), 0, FailureHandling.STOP_ON_FAILURE)
+if (WebUI.verifyElementPresent(findTestObject('OffersPage/FilterBar/unavailable model'), 3, FailureHandling.OPTIONAL)) {
+    unavailableModelText = WebUI.getText(findTestObject('OffersPage/FilterBar/unavailable model'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementNotPresent(findTestObject('OffersPage/FilterBar/offer type - lease'), 0, FailureHandling.STOP_ON_FAILURE)
+    unavailableModel = (unavailableModelText - ' (No offer available)')
+
+    WebUI.verifyNotMatch(unavailableModelText, unavailableModel, false, FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.verifyElementPresent(findTestObject('OffersPage/FilterBar/model checkbox - unavailable'), 0, FailureHandling.STOP_ON_FAILURE)
+}
 
 @com.kms.katalon.core.annotation.TearDownIfPassed
 def passed() {

@@ -73,12 +73,12 @@ defaultUnselected = WebUI.getCSSValue(findTestObject('OffersPage/FilterBar/finan
 
 WebUI.verifyNotMatch(defaultUnselected, selectedColor, false, FailureHandling.STOP_ON_FAILURE)
 
-defaultUnselected = WebUI.getCSSValue(findTestObject('OffersPage/FilterBar/checkbox span - All Sedans'), 'background-color', 
+defaultUnselected = WebUI.getCSSValue(findTestObject('OffersPage/FilterBar/model-category checkbox span - All Sedans'), 'background-color', 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('OffersPage/FilterBar/checkbox - All Sedans'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('OffersPage/FilterBar/model-category checkbox - All Sedans'), FailureHandling.STOP_ON_FAILURE)
 
-selectedColor = WebUI.getCSSValue(findTestObject('OffersPage/FilterBar/checkbox span - All Sedans'), 'background-color', 
+selectedColor = WebUI.getCSSValue(findTestObject('OffersPage/FilterBar/model-category checkbox span - All Sedans'), 'background-color', 
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyNotMatch(defaultUnselected, selectedColor, false, FailureHandling.STOP_ON_FAILURE)

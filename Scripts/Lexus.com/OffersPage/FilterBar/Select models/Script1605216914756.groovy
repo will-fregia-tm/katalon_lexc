@@ -57,21 +57,55 @@ WebUI.click(findTestObject('OffersPage/ZipGate/submit button'))
 
 WebUI.waitForElementPresent(findTestObject('OffersPage/ZipGate/offers page with offers'), 5, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('OffersPage/FilterBar/offer heading - IS'), 0, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.verifyElementPresent(findTestObject('OffersPage/FilterBar/offer type - finance'), 0, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.verifyElementPresent(findTestObject('OffersPage/FilterBar/offer heading - ES'), 0, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.verifyElementPresent(findTestObject('OffersPage/FilterBar/offer type - lease'), 0, FailureHandling.STOP_ON_FAILURE)
-
 WebUI.click(findTestObject('OffersPage/FilterBar/filter bar'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyElementVisible(findTestObject('OffersPage/FilterBar/offer-type headline'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyElementVisible(findTestObject('OffersPage/FilterBar/ALL button'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyElementVisible(findTestObject('OffersPage/FilterBar/lease button'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyElementVisible(findTestObject('OffersPage/FilterBar/finance button'), FailureHandling.STOP_ON_FAILURE)
+
+selectedColor = WebUI.getCSSValue(findTestObject('OffersPage/FilterBar/ALL button'), 'background-color', FailureHandling.STOP_ON_FAILURE)
+
+defaultUnselected = WebUI.getCSSValue(findTestObject('OffersPage/FilterBar/finance button'), 'background-color', FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyNotMatch(defaultUnselected, selectedColor, false, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyElementVisible(findTestObject('OffersPage/FilterBar/model-headline'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyElementVisible(findTestObject('OffersPage/FilterBar/model-category - Sedans'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyElementVisible(findTestObject('OffersPage/FilterBar/model-category - Sedans - selected'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyElementVisible(findTestObject('OffersPage/FilterBar/model-category - SUVs'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyElementNotPresent(findTestObject('OffersPage/FilterBar/model-category - SUVs - selected'), 0, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyElementVisible(findTestObject('OffersPage/FilterBar/model checkbox - IS'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyElementNotPresent(findTestObject('OffersPage/FilterBar/model checkbox - IS - selected'), 2, FailureHandling.OPTIONAL)
 
 WebUI.click(findTestObject('OffersPage/FilterBar/model checkbox - IS'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('OffersPage/FilterBar/finance button'), FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('OffersPage/FilterBar/model checkbox - IS - selected'), 0, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('OffersPage/FilterBar/filter bar'), FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('OffersPage/FilterBar/model-category checkbox - All Sedans'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('OffersPage/FilterBar/model-category - SUVs'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyElementVisible(findTestObject('OffersPage/FilterBar/model-category - SUVs - selected'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyElementNotPresent(findTestObject('OffersPage/FilterBar/model-category - Sedans - selected'), 0, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyElementVisible(findTestObject('OffersPage/FilterBar/model checkbox - UX'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyElementVisible(findTestObject('OffersPage/FilterBar/model-category checkbox - All SUVs'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('OffersPage/FilterBar/model checkbox - UX'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('OffersPage/FilterBar/apply button'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementNotPresent(findTestObject('OffersPage/FilterBar/close accordion button'), 0, FailureHandling.STOP_ON_FAILURE)
 
@@ -81,11 +115,11 @@ WebUI.verifyElementPresent(findTestObject('OffersPage/FilterBar/breadcrumb - IS'
 
 WebUI.verifyElementPresent(findTestObject('OffersPage/FilterBar/offer heading - IS'), 0, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('OffersPage/FilterBar/offer type - finance'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('OffersPage/FilterBar/offer heading - UX'), 0, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementNotPresent(findTestObject('OffersPage/FilterBar/offer heading - ES'), 0, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementNotPresent(findTestObject('OffersPage/FilterBar/offer type - lease'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.scrollToPosition(0, 500, FailureHandling.OPTIONAL)
 
 @com.kms.katalon.core.annotation.TearDownIfPassed
 def passed() {

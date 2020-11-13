@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>When a user select the &quot;ALL AVAILABLE &lt;model categories> checkbox
+
+Then the system will
+
+update that checkbox to its selected state
+automatically select and update all models in that model-category to selected
+note: if a model belongs to multiple model-categories then the models state shall be consistent across model categories. </description>
+   <name>Select All Available model category</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ac04a3ed-b6f5-4fc1-b6f7-2da3ab3ac221</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>4a886b42-ac78-4b44-98c1-9bb6b4433ea6</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>

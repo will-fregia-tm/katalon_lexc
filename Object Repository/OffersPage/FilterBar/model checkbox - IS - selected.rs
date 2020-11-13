@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>checkbox - All Sedans</name>
+   <name>model checkbox - IS - selected</name>
    <tag></tag>
-   <elementGuidId>e46b800b-2eb4-4215-a34b-93a926f8aff0</elementGuidId>
+   <elementGuidId>730748cc-3673-4995-a803-de1a090167ac</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div[role*=&quot;tabpanel&quot;] > div >  label</value>
+         <key>BASIC</key>
+         <value>//div[(contains(text(), 'IS') or contains(., 'IS'))]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@role = 'tabpanel']/div/div//*[contains(@div, 'IS')]</value>
+         <value>//*[@role = 'tabpanel']/div/div//div[(contains(text(), 'IS') or contains(., 'IS'))]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[contains(@div, 'IS')]</value>
+         <key>CSS</key>
+         <value>input:checked[type*=&quot;checkbox&quot;][value*=&quot;is&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>
@@ -30,8 +30,15 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>contains</matchCondition>
-      <name>div</name>
+      <name>text</name>
       <type>Main</type>
       <value>IS</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
    </webElementProperties>
 </WebElementEntity>

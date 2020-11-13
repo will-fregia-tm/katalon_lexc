@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>The UI should have distinct states for the following model options:
+
+Unselected with offers
+gold checkbox (unfilled)
+model-name will be in unselected state 
+
+Selected with offers
+gold filled checkbox with black check
+model-name will be in selected state (bold)
+
+Unavailable (no model offers)
+then the model name and text box will be in inactive state
+checkbox will not be clickable
+display &quot;(No Offers Available)&quot; text next to model name </description>
+   <name>Model status</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0a89b728-b4c0-48ad-8229-6520cfec8c35</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>a29f9d0c-574e-4296-9402-44b8295f47d4</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>

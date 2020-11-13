@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>checkbox - IS</name>
+   <name>model checkbox - UX</name>
    <tag></tag>
-   <elementGuidId>81f29a5e-619a-4e54-b5b2-ad1927b70a5a</elementGuidId>
+   <elementGuidId>5ede6496-ea46-4b27-9f6d-d9bab0351bf3</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
          <value>//*[contains(@div, 'IS')]</value>
       </entry>
       <entry>
+         <key>XPATH</key>
+         <value>//*[@role = 'tabpanel']/div/div//div[(contains(text(), 'UX') or contains(., 'UX'))]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>div[role*=&quot;tabpanel&quot;] > div > div > div:nth-child(1)</value>
       </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//*[@role = 'tabpanel']/div/div//*[contains(@div, 'IS')]</value>
-      </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

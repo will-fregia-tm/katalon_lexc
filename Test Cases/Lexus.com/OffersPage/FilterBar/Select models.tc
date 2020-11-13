@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>When a user has accessed the Offers-Filter-Menu
+
+Then the system shall:
+
+Display: 
+Offer-type headline
+Offer-type tabs
+fist Tab preselected (&quot;ALL&quot;)
+Model-Headline
+Model-Category line-tabs
+first category preselected
+Models-Checkboxes for selected Model-Category
+all model-checkboxes will be in unselected-state
+first option shall be: &quot;All &lt;model_category>s&quot;
+and if a user selects a model category then the system shall
+
+update the selected category to its selected-State
+list all models in the selected model category
+provide an option to select &quot;All Available models&quot; in that category
+provide ability to select models from multiple categories</description>
+   <name>Select models</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b4f28df5-efd7-405b-95b0-315aa884f4be</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>b459e28e-02cf-4efd-bf49-c1fc249ab84f</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>
