@@ -57,7 +57,7 @@ WebUI.setText(findTestObject('OffersPage/ZipGate/form input'), '08008')
 
 WebUI.click(findTestObject('OffersPage/ZipGate/submit button'))
 
-WebUI.waitForElementPresent(findTestObject('OffersPage/SharedMarketOverlay/shared zip overlay'), 5, FailureHandling.OPTIONAL)
+WebUI.waitForElementPresent(findTestObject('OffersPage/SharedMarketOverlay/headline copy'), 5, FailureHandling.OPTIONAL)
 
 WebUI.mouseOver(findTestObject('OffersPage/SharedMarketOverlay/displayed market name - New Jersey, Delaware, Pennsylvania Dealers'))
 
@@ -67,7 +67,7 @@ WebUI.waitForElementPresent(findTestObject('OffersPage/ZipGate/offers page with 
 
 WebUI.verifyElementPresent(findTestObject('OffersPage/ZipGate/offers page with offers'), 0, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementNotPresent(findTestObject('OffersPage/SharedMarketOverlay/shared zip overlay'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementNotPresent(findTestObject('OffersPage/SharedMarketOverlay/headline copy'), 0, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementPresent(findTestObject('OffersPage/SharedMarketOverlay/cookied shared zip code'), 0, FailureHandling.STOP_ON_FAILURE)
 
