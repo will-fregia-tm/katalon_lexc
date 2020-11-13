@@ -46,11 +46,11 @@ WebUI.verifyElementPresent(findTestObject('OffersPage/ZipBar/numbers in zip inpu
 
 WebUI.click(findTestObject('OffersPage/ZipBar/search icon'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementPresent(findTestObject('OffersPage/SharedMarketOverlay/shared zip overlay'), 2, FailureHandling.OPTIONAL)
+WebUI.waitForElementPresent(findTestObject('OffersPage/SharedMarketOverlay/headline copy'), 2, FailureHandling.OPTIONAL)
 
-WebUI.verifyElementPresent(findTestObject('OffersPage/SharedMarketOverlay/shared zip overlay'), 2, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('OffersPage/SharedMarketOverlay/headline copy'))
 
-WebUI.click(findTestObject('OffersPage/SharedMarketOverlay/change zip button'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('OffersPage/SharedMarketOverlay/change zip CTA'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForElementPresent(findTestObject('OffersPage/ZipGate/form input'), 0, FailureHandling.STOP_ON_FAILURE)
 

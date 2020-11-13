@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>displayed dealer 1</name>
+   <name>page offers content</name>
    <tag></tag>
-   <elementGuidId>2e004e4a-5c51-40df-9fbe-ad1a6c6280f9</elementGuidId>
+   <elementGuidId>90c0b61a-44a2-4e84-b028-f5a0a4538781</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>div[class*=&quot;scrollable&quot;] > div:nth-child(1) > button</value>
+         <value>#page section > section > section > div:nth-child(3)</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

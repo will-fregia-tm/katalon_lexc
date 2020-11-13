@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#SubPageOverlayScroll div[class*=&quot;scrollable&quot;] > div:nth-child(2) > button</value>
+         <value>div[class*=&quot;scrollable&quot;] > div:nth-child(2) > button</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

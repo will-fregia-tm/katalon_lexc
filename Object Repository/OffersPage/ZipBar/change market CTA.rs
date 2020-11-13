@@ -9,8 +9,16 @@
          <key>BASIC</key>
          <value>//button[(contains(text(), 'CHANGE') or contains(., 'CHANGE'))]</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//section/section/section/div//button[(contains(text(), 'CHANGE') or contains(., 'CHANGE'))]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

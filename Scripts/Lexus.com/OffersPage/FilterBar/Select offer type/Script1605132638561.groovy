@@ -90,14 +90,14 @@ if (WebUI.verifyElementPresent(findTestObject('OffersPage/FilterBar/unavailable 
 
     WebUI.click(findTestObject('OffersPage/FilterBar/apply button'), FailureHandling.STOP_ON_FAILURE)
 
-    pageText = WebUI.getText(findTestObject('OffersPage/FilterBar/page content'), FailureHandling.STOP_ON_FAILURE)
+    pageText = WebUI.getText(findTestObject('OffersPage/FilterBar/page offers content'), FailureHandling.STOP_ON_FAILURE)
 
     'Enable this to test whether the subsequent steps are working (they should fail).'
     not_run: unavailableModel = 'ES'
 
     pageTextWithoutModel = (pageText - unavailableModel)
 
-    'Checks to see if the "unavailable model" is actually present anywhere on the offers page.'
+    'Checks to see if the "unavailable model" is actually present anywhere in the offers content'
     WebUI.verifyMatch(pageText, pageTextWithoutModel, false, FailureHandling.STOP_ON_FAILURE)
 }
 

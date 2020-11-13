@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#SubPageOverlayScroll</value>
+         <value>#page section > section > div > div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

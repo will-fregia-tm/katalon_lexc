@@ -58,9 +58,9 @@ WebUI.setText(findTestObject('OffersPage/ZipGate/form input'), '08008')
 
 WebUI.click(findTestObject('OffersPage/ZipGate/submit button'))
 
-WebUI.waitForElementPresent(findTestObject('OffersPage/SharedMarketOverlay/shared zip overlay'), 5, FailureHandling.OPTIONAL)
+WebUI.waitForElementPresent(findTestObject('OffersPage/SharedMarketOverlay/headline copy'), 5, FailureHandling.OPTIONAL)
 
-WebUI.verifyElementPresent(findTestObject('OffersPage/SharedMarketOverlay/shared zip overlay'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('OffersPage/SharedMarketOverlay/headline copy'))
 
 WebUI.click(findTestObject('OffersPage/SharedMarketOverlay/X button'), FailureHandling.STOP_ON_FAILURE)
 
@@ -70,9 +70,9 @@ WebUI.verifyElementPresent(findTestObject('OffersPage/ZipGate/form input with co
 
 WebUI.click(findTestObject('OffersPage/ZipGate/submit button'))
 
-WebUI.waitForElementPresent(findTestObject('OffersPage/SharedMarketOverlay/shared zip overlay'), 5, FailureHandling.OPTIONAL)
+WebUI.waitForElementPresent(findTestObject('OffersPage/SharedMarketOverlay/headline copy'), 5, FailureHandling.OPTIONAL)
 
-WebUI.sendKeys(findTestObject('OffersPage/SharedMarketOverlay/change zip button'), Keys.chord(Keys.ESCAPE), FailureHandling.STOP_ON_FAILURE)
+WebUI.sendKeys(findTestObject('OffersPage/SharedMarketOverlay/change zip CTA'), Keys.chord(Keys.ESCAPE), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForElementPresent(findTestObject('OffersPage/ZipGate/form input'), 2, FailureHandling.STOP_ON_FAILURE)
 
