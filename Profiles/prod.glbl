@@ -29,4 +29,9 @@
       <initValue>'Prod,OffersPage'</initValue>
       <name>profileTags</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'prod'</initValue>
+      <name>domain</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

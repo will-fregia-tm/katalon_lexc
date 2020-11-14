@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GlobalVariableEntities>
    <description></description>
-   <name>dev</name>
+   <name>origin staging</name>
    <tag></tag>
    <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
@@ -11,7 +11,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://dev-aem-lcom.origin.cepo-proxy.tms.aws.lexus.com'</initValue>
+      <initValue>'https://stg-aem-lcom.origin.cepo-proxy.tms.aws.lexus.com'</initValue>
       <name>SC_Domain</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -21,12 +21,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://dev-aem-lcom.origin.cepo-proxy.tms.aws.lexus.com'</initValue>
+      <initValue>'https://stg-aem-lcom.origin.cepo-proxy.tms.aws.lexus.com'</initValue>
       <name>SC_Domain_Unauthenticated</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Dev,OffersPage'</initValue>
+      <initValue>'originStaging,OffersPage'</initValue>
       <name>profileTags</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
