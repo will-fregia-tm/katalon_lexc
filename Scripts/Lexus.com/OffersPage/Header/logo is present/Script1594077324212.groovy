@@ -15,7 +15,17 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser(GlobalVariable.TS_Domain + GlobalVariable.Header)
+WebUI.openBrowser(GlobalVariable.SSO_login, FailureHandling.OPTIONAL)
+
+cookieValue = findTestData('cookieValues').getValue(2, 1)
+
+Cookie ck = new Cookie('ESTSAUTH', cookieValue)
+
+WebDriver driver = DriverFactory.getWebDriver()
+
+driver.manage().addCookie(ck)
+
+WebUI.navigateToUrl(GlobalVariable.TS_Domain + '/privacy')
 
 WebUI.navigateToUrl(GlobalVariable.SC_Domain + '/offers')
 
