@@ -316,7 +316,7 @@
          <configuration>
             <groupName>Custom</groupName>
             <profileName>origin prod</profileName>
-            <runConfigurationId>saucelabs_ie11_win10</runConfigurationId>
+            <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
          <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/FCV/LF-FC/SignupForm</testSuiteEntity>
@@ -397,7 +397,7 @@
          <configuration>
             <groupName>Custom</groupName>
             <profileName>staging</profileName>
-            <runConfigurationId>saucelabs_ie11_win10</runConfigurationId>
+            <runConfigurationId>saucelabs_chrome_macos10.14</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/FCV/LF-1/Promo</testSuiteEntity>
@@ -478,7 +478,7 @@
          <configuration>
             <groupName>Custom</groupName>
             <profileName>staging</profileName>
-            <runConfigurationId>saucelabs_ie11_win10</runConfigurationId>
+            <runConfigurationId>saucelabs_chrome_win7</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/FCV/LF-FC/Hero</testSuiteEntity>

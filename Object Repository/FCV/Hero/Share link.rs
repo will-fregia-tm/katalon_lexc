@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[(text() = 'SHARE' or . = 'SHARE')]</value>
+         <value>//a[(text() = 'SHARE' or . = 'SHARE') and contains(@href, 'Share')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,5 +18,19 @@
       <name>text</name>
       <type>Main</type>
       <value>SHARE</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>Share</value>
    </webElementProperties>
 </WebElementEntity>
