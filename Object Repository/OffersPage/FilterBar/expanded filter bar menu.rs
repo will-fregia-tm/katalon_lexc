@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#page section section > div:nth-child(5) > div > div > div:nth-child(2)</value>
+         <value>#page section > section > section > div:nth-child(5) > section</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

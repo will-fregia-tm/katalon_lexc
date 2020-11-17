@@ -7,7 +7,11 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//button[(text() = 'LEASE' or . = 'LEASE')]</value>
+         <value>//button[(contains(text(), 'LEASE') or contains(., 'LEASE'))]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//section/section/section//button[(text() = 'LEASE' or . = 'LEASE')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -21,7 +25,7 @@
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>contains</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>LEASE</value>

@@ -61,9 +61,7 @@ WebUI.verifyElementPresent(findTestObject('OffersPage/FilterBar/filter bar'), 0)
 
 WebUI.verifyElementNotPresent(findTestObject('OffersPage/FilterBar/close accordion button'), 0)
 
-iconRotation = WebUI.getCSSValue(findTestObject('OffersPage/FilterBar/filter bar icon'), 'transform', FailureHandling.STOP_ON_FAILURE)
-
-WebUI.verifyMatch(iconRotation, 'none', false, FailureHandling.STOP_ON_FAILURE)
+iconUnclicked = WebUI.getCSSValue(findTestObject('OffersPage/FilterBar/filter bar icon'), 'transform', FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('OffersPage/FilterBar/filter bar'), FailureHandling.STOP_ON_FAILURE)
 
@@ -73,9 +71,9 @@ WebUI.verifyElementVisible(findTestObject('OffersPage/FilterBar/expanded filter 
 
 WebUI.verifyElementPresent(findTestObject('OffersPage/FilterBar/filter bar svg'), 0, FailureHandling.STOP_ON_FAILURE)
 
-iconRotation = WebUI.getCSSValue(findTestObject('OffersPage/FilterBar/filter bar icon'), 'transform', FailureHandling.STOP_ON_FAILURE)
+iconClicked = WebUI.getCSSValue(findTestObject('OffersPage/FilterBar/filter bar icon'), 'transform', FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyNotMatch(iconRotation, 'none', false, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyNotMatch(iconUnclicked, iconClicked, false, FailureHandling.STOP_ON_FAILURE)
 
 @com.kms.katalon.core.annotation.TearDownIfPassed
 def passed() {

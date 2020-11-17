@@ -46,7 +46,7 @@ WebUI.verifyElementPresent(findTestObject('OffersPage/FilterBar/applied filters 
 
 WebUI.verifyElementPresent(findTestObject('OffersPage/DeepLink/breadcrumb - lease'), 0, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementNotPresent(findTestObject('OffersPage/DeepLink/breadcrumb - finance'), 0, FailureHandling.OPTIONAL)
+WebUI.verifyElementNotPresent(findTestObject('OffersPage/DeepLink/breadcrumb - finance'), 0, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementPresent(findTestObject('OffersPage/FilterBar/offer type - lease'), 0, FailureHandling.STOP_ON_FAILURE)
 

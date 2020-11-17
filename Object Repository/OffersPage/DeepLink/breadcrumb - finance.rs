@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;page&quot;]//section/section/section/div[6]/div/div/button[(contains(text(), 'FINANCE') or contains(., 'FINANCE'))]</value>
+         <value>//*[@id=&quot;page&quot;]//section/section/section/div[5]//button[(contains(text(), 'FINANCE') or contains(., 'FINANCE'))]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

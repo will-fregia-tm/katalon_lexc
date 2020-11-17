@@ -7,13 +7,31 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
+         <value>//button[(contains(text(), 'FILTER') or contains(., 'FILTER'))]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>#page section section > div:nth-child(5) button > div</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[(contains(text(), 'FILTER') or contains(., 'FILTER'))]/div</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>FILTER</value>
+   </webElementProperties>
 </WebElementEntity>
