@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>stagingOffersEndpoint</name>
+   <name>prodOffersEndpoint</name>
    <tag></tag>
-   <elementGuidId>322241f3-494e-4554-af5b-fb52ef0a999f</elementGuidId>
+   <elementGuidId>1966b1ad-f029-456d-b213-6fce1c8bcbaf</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <connectionTimeout>0</connectionTimeout>
@@ -14,7 +14,7 @@
    <maxResponseSize>0</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>https://staging.lexusofferdatabase.com/lod/api/v4/offers?apiKey=32&amp;model=is&amp;offerType=lease&amp;consolidate=false&amp;lang=en&amp;zip=30303</restUrl>
+   <restUrl>http://www.lexusofferdatabase.com/lod/api/v4/offers?apiKey=32&amp;model=is&amp;offerType=lease&amp;consolidate=false&amp;lang=en&amp;zip=30303</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

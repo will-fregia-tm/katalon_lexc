@@ -1,26 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>offer details - model year</name>
+   <name>zip bar - 30303</name>
    <tag></tag>
-   <elementGuidId>2a3ac8b2-1a6d-478d-a8a1-30f30d1e7fe7</elementGuidId>
+   <elementGuidId>21bfa24f-c4a5-4723-b57f-8ece04eac588</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[(contains(text(), '202') or contains(., '202'))]</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//section/section/section//*[(contains(text(), '202') or contains(., '202'))]</value>
+         <value>//*[(contains(text(), 'SHOWING RESULTS FOR 30303') or contains(., 'SHOWING RESULTS FOR 30303'))]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>contains</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>202</value>
+      <value>SHOWING RESULTS FOR 30303</value>
    </webElementProperties>
 </WebElementEntity>

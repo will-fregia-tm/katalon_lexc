@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Provide the ability to deep link to a pre-filtered offers page using URL-Parameters
+URL Parameters should support filter parameters for:
+Offer_ID: lexus.com/offers?offerId=235414_708445
+review with Scott Bertucci (TMS)
+Model : lexus.com/offers?model=ES
+Offer-Type: lexus.com/offers?OfferType=Lease
+combination of the previous 3 options:
+lexus.com/offers?model=ES&amp;offerType=Lease
+URL structure must match current production deep linking structure:
+deeplink parameters starts with '?'
+parameters are appended by '&amp;'
+can support 0-to-n parameter</description>
+   <name>Deep linking parameters - model</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>aceb42cd-3de5-40e8-81c3-e7064bf6f5cc</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>c8a6b67e-5821-4c9c-9c61-58e83c2ee161</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>

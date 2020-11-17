@@ -12,14 +12,14 @@ URL structure must match current production deep linking structure:
 deeplink parameters starts with '?'
 parameters are appended by '&amp;'
 can support 0-to-n parameter</description>
-   <name>Deep linking parameters Specific Offer details</name>
+   <name>Deep linking parameters - ZIP code</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>a30c6bb5-63d0-45d7-a0d5-9bd2519e2bcb</testCaseGuid>
+   <testCaseGuid>45d47b27-8857-40a8-a2c4-e351a75ff61c</testCaseGuid>
    <variable>
       <defaultValue>'Header'</defaultValue>
       <description></description>
-      <id>0a75ed20-e47a-4e0c-9268-87c97528e23a</id>
+      <id>480051df-b6b8-4d4a-8288-fa8812ef695d</id>
       <masked>false</masked>
       <name>GlobalNav</name>
    </variable>

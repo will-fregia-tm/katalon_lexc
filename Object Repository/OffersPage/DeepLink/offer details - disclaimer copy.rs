@@ -9,8 +9,12 @@
          <key>BASIC</key>
          <value>//*[(contains(text(), 'Offer') or contains(., 'Offer'))]</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//section/section/section//*[(contains(text(), 'Offer') or contains(., 'Offer'))]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

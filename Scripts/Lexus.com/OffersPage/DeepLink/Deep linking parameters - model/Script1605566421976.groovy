@@ -20,9 +20,11 @@ import org.openqa.selenium.Cookie as Cookie
 import org.openqa.selenium.WebDriver as WebDriver
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
-response = WS.sendRequest(findTestObject(('OffersPage/DeepLink/' + GlobalVariable.domain) + 'OffersEndpoint'))
+response = WS.sendRequest(findTestObject(('OffersPage/DeepLink/' + GlobalVariable.domain) + 'OffersEndpoint'), FailureHandling.OPTIONAL)
 
-WebUI.openBrowser(GlobalVariable.SSO_login, FailureHandling.OPTIONAL)
+description = WS.getElementPropertyValue(response, 'offers.Atlanta.description[1]', FailureHandling.OPTIONAL)
+
+WebUI.openBrowser(GlobalVariable.SSO_login, FailureHandling.STOP_ON_FAILURE)
 
 cookieValue = findTestData('cookieValues').getValue(2, 1)
 
@@ -32,19 +34,27 @@ WebDriver driver = DriverFactory.getWebDriver()
 
 driver.manage().addCookie(ck)
 
-WebUI.navigateToUrl(GlobalVariable.TS_Domain + '/privacy')
+WebUI.navigateToUrl(GlobalVariable.TS_Domain + '/privacy', FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl(GlobalVariable.SC_Domain + '/offers?zip=75218&offerId=313835_708406')
+WebUI.navigateToUrl(GlobalVariable.SC_Domain + '/offers?zip=30303&model=IS', FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementPresent(findTestObject('OffersPage/DeepLink/offer details - model year'), 0)
+WebUI.waitForElementVisible(findTestObject('OffersPage/ZipBar/zip bar - 30303'), 0)
 
-WebUI.verifyElementVisible(findTestObject('OffersPage/DeepLink/offer details - model year'), FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('OffersPage/ZipBar/zip bar - 30303'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('OffersPage/DeepLink/offer details - disclaimer copy'), FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('OffersPage/FilterBar/applied filters heading'), 0, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('OffersPage/OfferDetails/back to offers CTA'), FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('OffersPage/FilterBar/breadcrumb - IS'), 0, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('OffersPage/OfferDetails/back to offers CTA'), FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('OffersPage/FilterBar/offer heading - IS'), 0, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyElementNotPresent(findTestObject('OffersPage/FilterBar/offer heading - ES'), 0, FailureHandling.STOP_ON_FAILURE)
+
+offerText = WebUI.getText(findTestObject('OffersPage/DeepLink/offer content - main page'), FailureHandling.STOP_ON_FAILURE)
+
+textWithoutDescription = (offerText - description)
+
+WebUI.verifyNotMatch(offerText, textWithoutDescription, false, FailureHandling.STOP_ON_FAILURE)
 
 @com.kms.katalon.core.annotation.TearDownIfPassed
 def passed() {

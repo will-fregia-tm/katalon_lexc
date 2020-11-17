@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Model-Offer-Row match the defined settings of the CMS
+Each model-offer-row:
+will be model specific
+first card position will have model-jelly (and disclaimer when available)
+will display offer-cards 
+all offer-cards will be for relevant model
+only display offer-cards for the selected offer-types 
+offer-cards will be:
+first grouped and ordered by offer-type as defined in the CMS
+then, grouped and ordered by Year as defined in the CMS
+then display in the order returned by the service
+will display Large-Offer-Cards for consolidated and unconsolidated offers</description>
+   <name>General rules</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>77153e96-c95c-491f-bde5-7402e316f1f5</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>2f60d344-4c7f-4ab4-9fd2-a09fc8c70d98</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>
