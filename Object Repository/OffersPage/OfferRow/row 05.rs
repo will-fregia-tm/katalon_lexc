@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>row 5 - model jelly</name>
+   <name>row 05</name>
    <tag></tag>
-   <elementGuidId>2f5e395d-d505-407a-bb6b-2452751f4664</elementGuidId>
+   <elementGuidId>90020f61-4dc4-4b4a-af4e-c4fcaa65cd07</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>CSS</key>
+         <value>#page section > section > section div > section:nth-child(5)</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>#page section > section > section div > section:nth-child(5) img[src*=&quot;png&quot;]</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

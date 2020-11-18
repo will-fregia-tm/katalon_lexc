@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>ZIP is cookied on initial page visit to a deeplinked ZIP URL.</description>
+   <name>Deep linking parameters - ZIP code cookie is created</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>73adcf5b-5ec7-4ada-8419-c37bdb9ef40a</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>d3f94f6d-7a1d-4f4a-9d30-a0979d6aa157</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>

@@ -95,4 +95,16 @@
          <variableId>919b95af-cc9f-41fa-bfa2-20f0a4557b87</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>1775b8c9-68c0-4d79-a365-9ae8a9becbad</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/OffersPage/DeepLink/Deep linking parameters - ZIP code cookie is created</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d3f94f6d-7a1d-4f4a-9d30-a0979d6aa157</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>

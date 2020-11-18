@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>row 5 - offer card 1</name>
+   <name>row 08 - model name</name>
    <tag></tag>
-   <elementGuidId>42f35497-8e3e-41b2-82d2-db27942ed854</elementGuidId>
+   <elementGuidId>40988bb4-fd89-4fc5-8a0d-0a51ceab8272</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>CSS</key>
+         <value>#page section > section > section div > section:nth-child(8) h3</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>#page section > section > section div > section:nth-child(5) div[style*=&quot;left: 360px&quot;]</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>
