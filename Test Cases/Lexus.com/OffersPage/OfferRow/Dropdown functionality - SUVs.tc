@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>ALL STYLES is selected by default
+
+When a user selects a model-style (2020 ES 350 AWD) in the a models (ES) style-dropdown
+
+Then system shall:
+
+update the model-style to its selected state
+display the selected model-style in the collapsed dropdown 
+bold the name 
+will wrap to new line on mobile when necessary
+bring the user back to the beginning of the card-carrousel (so the jelly is in the first position)
+update the offer-card list to display ONLY consolidated and unconsolidated offer-cards that apply to the selected style (2020 ES 350 AWD) </description>
+   <name>Dropdown functionality - SUVs</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e0a5ff02-1dd4-4231-826c-80f97b7853d1</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>dcbcf49a-b3db-4ca7-a493-50871bac6ec6</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>

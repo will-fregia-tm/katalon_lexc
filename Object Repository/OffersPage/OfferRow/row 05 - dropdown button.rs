@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>row 02 - offer card 1</name>
+   <name>row 05 - dropdown button</name>
    <tag></tag>
-   <elementGuidId>a8731ce3-0a47-4adb-9f44-e4c290fb64b3</elementGuidId>
+   <elementGuidId>699a9244-2066-43eb-afc3-f12ac63feb4b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#page section > section > section div > section:nth-child(2) div[style*=&quot;left: 360px&quot;]</value>
+         <value>#page section > section > section div > section:nth-child(5) button</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>
