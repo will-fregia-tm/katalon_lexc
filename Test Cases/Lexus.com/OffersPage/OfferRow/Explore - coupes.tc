@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>if a user tap/clicks on the Explore link on a model row (i.e. ES)
+
+Then the system shall:
+
+navigate the user to the model-rows model specific model page (i.e. ES)
+page should open in the same window</description>
+   <name>Explore - coupes</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fc52b13f-74a8-484f-aa2f-98db6014cd5a</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>e6a2b844-409d-4076-845e-59247f52cd3f</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>

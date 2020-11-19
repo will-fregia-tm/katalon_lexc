@@ -145,171 +145,208 @@ if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 06'), 3, 
     WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 06 - model name'), 0, FailureHandling.STOP_ON_FAILURE)
 
     WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 06 - offer card 1'), 0, FailureHandling.STOP_ON_FAILURE)
-}
 
-'tests this offer row if it is present'
-if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 07'), 3, FailureHandling.OPTIONAL)) {
-    WebUI.scrollToElement(findTestObject('OffersPage/OfferRow/row 07'), 0, FailureHandling.STOP_ON_FAILURE)
+    'tests this offer row if it is present'
+    if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 07'), 3, FailureHandling.OPTIONAL)) {
+        WebUI.scrollToElement(findTestObject('OffersPage/OfferRow/row 07'), 0, FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 07 - model jelly'), 0, FailureHandling.STOP_ON_FAILURE)
+        WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 07 - model jelly'), 0, FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 07 - model name'), 0, FailureHandling.STOP_ON_FAILURE)
+        WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 07 - model name'), 0, FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 07 - offer card 1'), 0, FailureHandling.STOP_ON_FAILURE)
-}
+        WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 07 - offer card 1'), 0, FailureHandling.STOP_ON_FAILURE)
 
-'tests this offer row if it is present'
-if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 08'), 3, FailureHandling.OPTIONAL)) {
-    WebUI.scrollToElement(findTestObject('OffersPage/OfferRow/row 08'), 0, FailureHandling.STOP_ON_FAILURE)
+        'tests this offer row if it is present'
+        if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 08'), 3, FailureHandling.OPTIONAL)) {
+            WebUI.scrollToElement(findTestObject('OffersPage/OfferRow/row 08'), 0, FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 08 - model jelly'), 0, FailureHandling.STOP_ON_FAILURE)
+            WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 08 - model jelly'), 0, FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 08 - model name'), 0, FailureHandling.STOP_ON_FAILURE)
+            WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 08 - model name'), 0, FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 08 - offer card 1'), 0, FailureHandling.STOP_ON_FAILURE)
-}
+            WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 08 - offer card 1'), 0, FailureHandling.STOP_ON_FAILURE)
 
-'tests this offer row if it is present'
-if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 09'), 3, FailureHandling.OPTIONAL)) {
-    WebUI.scrollToElement(findTestObject('OffersPage/OfferRow/row 09'), 0, FailureHandling.STOP_ON_FAILURE)
+            'tests this offer row if it is present'
+            if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 09'), 3, FailureHandling.OPTIONAL)) {
+                WebUI.scrollToElement(findTestObject('OffersPage/OfferRow/row 09'), 0, FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 09 - model jelly'), 0, FailureHandling.STOP_ON_FAILURE)
+                WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 09 - model jelly'), 0, FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 09 - model name'), 0, FailureHandling.STOP_ON_FAILURE)
+                WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 09 - model name'), 0, FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 09 - offer card 1'), 0, FailureHandling.STOP_ON_FAILURE)
-}
+                WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 09 - offer card 1'), 0, FailureHandling.STOP_ON_FAILURE)
 
-'tests this offer row if it is present'
-if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 10'), 3, FailureHandling.OPTIONAL)) {
-    WebUI.scrollToElement(findTestObject('OffersPage/OfferRow/row 10'), 0, FailureHandling.STOP_ON_FAILURE)
+                'tests this offer row if it is present'
+                if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 10'), 3, FailureHandling.OPTIONAL)) {
+                    WebUI.scrollToElement(findTestObject('OffersPage/OfferRow/row 10'), 0, FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 10 - model jelly'), 0, FailureHandling.STOP_ON_FAILURE)
+                    WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 10 - model jelly'), 0, FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 10 - model name'), 0, FailureHandling.STOP_ON_FAILURE)
+                    WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 10 - model name'), 0, FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 10 - offer card 1'), 0, FailureHandling.STOP_ON_FAILURE)
-}
+                    WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 10 - offer card 1'), 0, FailureHandling.STOP_ON_FAILURE)
 
-'tests this offer row if it is present'
-if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 11'), 3, FailureHandling.OPTIONAL)) {
-    WebUI.scrollToElement(findTestObject('OffersPage/OfferRow/row 11'), 0, FailureHandling.STOP_ON_FAILURE)
+                    'tests this offer row if it is present'
+                    if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 11'), 3, FailureHandling.OPTIONAL)) {
+                        WebUI.scrollToElement(findTestObject('OffersPage/OfferRow/row 11'), 0, FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 11 - model jelly'), 0, FailureHandling.STOP_ON_FAILURE)
+                        WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 11 - model jelly'), 0, FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 11 - model name'), 0, FailureHandling.STOP_ON_FAILURE)
+                        WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 11 - model name'), 0, FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 11 - offer card 1'), 0, FailureHandling.STOP_ON_FAILURE)
-}
+                        WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 11 - offer card 1'), 0, FailureHandling.STOP_ON_FAILURE)
 
-'tests this offer row if it is present'
-if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 12'), 3, FailureHandling.OPTIONAL)) {
-    WebUI.scrollToElement(findTestObject('OffersPage/OfferRow/row 12'), 0, FailureHandling.STOP_ON_FAILURE)
+                        'tests this offer row if it is present'
+                        if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 12'), 3, FailureHandling.OPTIONAL)) {
+                            WebUI.scrollToElement(findTestObject('OffersPage/OfferRow/row 12'), 0, FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 12 - model jelly'), 0, FailureHandling.STOP_ON_FAILURE)
+                            WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 12 - model jelly'), 0, FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 12 - model name'), 0, FailureHandling.STOP_ON_FAILURE)
+                            WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 12 - model name'), 0, FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 12 - offer card 1'), 0, FailureHandling.STOP_ON_FAILURE)
-}
+                            WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 12 - offer card 1'), 0, FailureHandling.STOP_ON_FAILURE)
 
-'tests this offer row if it is present'
-if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 13'), 3, FailureHandling.OPTIONAL)) {
-    WebUI.scrollToElement(findTestObject('OffersPage/OfferRow/row 13'), 0, FailureHandling.STOP_ON_FAILURE)
+                            'tests this offer row if it is present'
+                            if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 13'), 3, FailureHandling.OPTIONAL)) {
+                                WebUI.scrollToElement(findTestObject('OffersPage/OfferRow/row 13'), 0, FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 13 - model jelly'), 0, FailureHandling.STOP_ON_FAILURE)
+                                WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 13 - model jelly'), 0, 
+                                    FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 13 - model name'), 0, FailureHandling.STOP_ON_FAILURE)
+                                WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 13 - model name'), 0, 
+                                    FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 13 - offer card 1'), 0, FailureHandling.STOP_ON_FAILURE)
-}
+                                WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 13 - offer card 1'), 
+                                    0, FailureHandling.STOP_ON_FAILURE)
 
-'tests this offer row if it is present'
-if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 14'), 3, FailureHandling.OPTIONAL)) {
-    WebUI.scrollToElement(findTestObject('OffersPage/OfferRow/row 14'), 0, FailureHandling.STOP_ON_FAILURE)
+                                'tests this offer row if it is present'
+                                if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 14'), 3, FailureHandling.OPTIONAL)) {
+                                    WebUI.scrollToElement(findTestObject('OffersPage/OfferRow/row 14'), 0, FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 14 - model jelly'), 0, FailureHandling.STOP_ON_FAILURE)
+                                    WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 14 - model jelly'), 
+                                        0, FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 14 - model name'), 0, FailureHandling.STOP_ON_FAILURE)
+                                    WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 14 - model name'), 
+                                        0, FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 14 - offer card 1'), 0, FailureHandling.STOP_ON_FAILURE)
-}
+                                    WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 14 - offer card 1'), 
+                                        0, FailureHandling.STOP_ON_FAILURE)
 
-'tests this offer row if it is present'
-if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 15'), 3, FailureHandling.OPTIONAL)) {
-    WebUI.scrollToElement(findTestObject('OffersPage/OfferRow/row 15'), 0, FailureHandling.STOP_ON_FAILURE)
+                                    'tests this offer row if it is present'
+                                    if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 15'), 3, FailureHandling.OPTIONAL)) {
+                                        WebUI.scrollToElement(findTestObject('OffersPage/OfferRow/row 15'), 0, FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 15 - model jelly'), 0, FailureHandling.STOP_ON_FAILURE)
+                                        WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 15 - model jelly'), 
+                                            0, FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 15 - model name'), 0, FailureHandling.STOP_ON_FAILURE)
+                                        WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 15 - model name'), 
+                                            0, FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 15 - offer card 1'), 0, FailureHandling.STOP_ON_FAILURE)
-}
+                                        WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 15 - offer card 1'), 
+                                            0, FailureHandling.STOP_ON_FAILURE)
 
-'tests this offer row if it is present'
-if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 16'), 3, FailureHandling.OPTIONAL)) {
-    WebUI.scrollToElement(findTestObject('OffersPage/OfferRow/row 16'), 0, FailureHandling.STOP_ON_FAILURE)
+                                        'tests this offer row if it is present'
+                                        if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 16'), 3, 
+                                            FailureHandling.OPTIONAL)) {
+                                            WebUI.scrollToElement(findTestObject('OffersPage/OfferRow/row 16'), 0, FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 16 - model jelly'), 0, FailureHandling.STOP_ON_FAILURE)
+                                            WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 16 - model jelly'), 
+                                                0, FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 16 - model name'), 0, FailureHandling.STOP_ON_FAILURE)
+                                            WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 16 - model name'), 
+                                                0, FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 16 - offer card 1'), 0, FailureHandling.STOP_ON_FAILURE)
-}
+                                            WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 16 - offer card 1'), 
+                                                0, FailureHandling.STOP_ON_FAILURE)
 
-'tests this offer row if it is present'
-if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 17'), 3, FailureHandling.OPTIONAL)) {
-    WebUI.scrollToElement(findTestObject('OffersPage/OfferRow/row 17'), 0, FailureHandling.STOP_ON_FAILURE)
+                                            'tests this offer row if it is present'
+                                            if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 17'), 
+                                                3, FailureHandling.OPTIONAL)) {
+                                                WebUI.scrollToElement(findTestObject('OffersPage/OfferRow/row 17'), 0, FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 17 - model jelly'), 0, FailureHandling.STOP_ON_FAILURE)
+                                                WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 17 - model jelly'), 
+                                                    0, FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 17 - model name'), 0, FailureHandling.STOP_ON_FAILURE)
+                                                WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 17 - model name'), 
+                                                    0, FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 17 - offer card 1'), 0, FailureHandling.STOP_ON_FAILURE)
-}
+                                                WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 17 - offer card 1'), 
+                                                    0, FailureHandling.STOP_ON_FAILURE)
 
-'tests this offer row if it is present'
-if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 18'), 3, FailureHandling.OPTIONAL)) {
-    WebUI.scrollToElement(findTestObject('OffersPage/OfferRow/row 18'), 0, FailureHandling.STOP_ON_FAILURE)
+                                                'tests this offer row if it is present'
+                                                if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 18'), 
+                                                    3, FailureHandling.OPTIONAL)) {
+                                                    WebUI.scrollToElement(findTestObject('OffersPage/OfferRow/row 18'), 
+                                                        0, FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 18 - model jelly'), 0, FailureHandling.STOP_ON_FAILURE)
+                                                    WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 18 - model jelly'), 
+                                                        0, FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 18 - model name'), 0, FailureHandling.STOP_ON_FAILURE)
+                                                    WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 18 - model name'), 
+                                                        0, FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 18 - offer card 1'), 0, FailureHandling.STOP_ON_FAILURE)
-}
+                                                    WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 18 - offer card 1'), 
+                                                        0, FailureHandling.STOP_ON_FAILURE)
 
-'tests this offer row if it is present'
-if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 19'), 3, FailureHandling.OPTIONAL)) {
-    WebUI.scrollToElement(findTestObject('OffersPage/OfferRow/row 19'), 0, FailureHandling.STOP_ON_FAILURE)
+                                                    'tests this offer row if it is present'
+                                                    if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 19'), 
+                                                        3, FailureHandling.OPTIONAL)) {
+                                                        WebUI.scrollToElement(findTestObject('OffersPage/OfferRow/row 19'), 
+                                                            0, FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 19 - model jelly'), 0, FailureHandling.STOP_ON_FAILURE)
+                                                        WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 19 - model jelly'), 
+                                                            0, FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 19 - model name'), 0, FailureHandling.STOP_ON_FAILURE)
+                                                        WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 19 - model name'), 
+                                                            0, FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 19 - offer card 1'), 0, FailureHandling.STOP_ON_FAILURE)
-}
+                                                        WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 19 - offer card 1'), 
+                                                            0, FailureHandling.STOP_ON_FAILURE)
 
-'tests this offer row if it is present'
-if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 20'), 3, FailureHandling.OPTIONAL)) {
-    WebUI.scrollToElement(findTestObject('OffersPage/OfferRow/row 20'), 0, FailureHandling.STOP_ON_FAILURE)
+                                                        'tests this offer row if it is present'
+                                                        if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 20'), 
+                                                            3, FailureHandling.OPTIONAL)) {
+                                                            WebUI.scrollToElement(findTestObject('OffersPage/OfferRow/row 20'), 
+                                                                0, FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 20 - model jelly'), 0, FailureHandling.STOP_ON_FAILURE)
+                                                            WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 20 - model jelly'), 
+                                                                0, FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 20 - model name'), 0, FailureHandling.STOP_ON_FAILURE)
+                                                            WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 20 - model name'), 
+                                                                0, FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 20 - offer card 1'), 0, FailureHandling.STOP_ON_FAILURE)
-}
+                                                            WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 20 - offer card 1'), 
+                                                                0, FailureHandling.STOP_ON_FAILURE)
 
-'tests this offer row if it is present'
-if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 21'), 3, FailureHandling.OPTIONAL)) {
-    WebUI.scrollToElement(findTestObject('OffersPage/OfferRow/row 21'), 0, FailureHandling.STOP_ON_FAILURE)
+                                                            'tests this offer row if it is present'
+                                                            if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 21'), 
+                                                                3, FailureHandling.OPTIONAL)) {
+                                                                WebUI.scrollToElement(findTestObject('OffersPage/OfferRow/row 21'), 
+                                                                    0, FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 21 - model jelly'), 0, FailureHandling.STOP_ON_FAILURE)
+                                                                WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 21 - model jelly'), 
+                                                                    0, FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 21 - model name'), 0, FailureHandling.STOP_ON_FAILURE)
+                                                                WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 21 - model name'), 
+                                                                    0, FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 21 - offer card 1'), 0, FailureHandling.STOP_ON_FAILURE)
+                                                                WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 21 - offer card 1'), 
+                                                                    0, FailureHandling.STOP_ON_FAILURE)
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
 
 @com.kms.katalon.core.annotation.TearDownIfPassed

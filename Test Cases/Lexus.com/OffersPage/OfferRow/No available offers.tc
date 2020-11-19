@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>When there are no offers for a specific model (ie. ES)
+
+Then the system shall:
+
+not render offer-row for that model (ES)</description>
+   <name>No available offers</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bb5f78f0-8125-4bfa-a78f-8ff39ea87dbc</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>3a909577-12ad-4378-962a-33781b10cf99</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>
