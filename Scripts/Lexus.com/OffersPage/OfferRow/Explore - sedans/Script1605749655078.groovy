@@ -40,7 +40,7 @@ WebUI.click(findTestObject('OffersPage/FilterBar/filter bar'), FailureHandling.S
 
 WebUI.click(findTestObject('OffersPage/FilterBar/model-category - Sedans'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('OffersPage/FilterBar/model-category checkbox - All SUVs'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('OffersPage/FilterBar/model-category checkbox - All Sedans'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('OffersPage/FilterBar/apply button'), FailureHandling.STOP_ON_FAILURE)
 

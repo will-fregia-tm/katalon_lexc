@@ -98,7 +98,7 @@
    <testCaseLink>
       <guid>1775b8c9-68c0-4d79-a365-9ae8a9becbad</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/OffersPage/DeepLink/Deep linking parameters - ZIP code cookie is created</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
