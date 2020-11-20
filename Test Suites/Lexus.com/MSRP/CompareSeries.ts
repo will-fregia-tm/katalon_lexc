@@ -38,7 +38,7 @@
    <testCaseLink>
       <guid>535df5a2-2d98-4e31-9aef-96c5087859fe</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/Compare/series pages - GS</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>

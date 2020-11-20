@@ -86,41 +86,41 @@ textWithMSRP = WebUI.getText(findTestObject('MSRP/section objects/homepage/vehic
 
 WebUI.verifyMatch(textWithMSRP, expectedMSRP, false, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('HomePage/VehicleSelector/models/Sedans - GS'), FailureHandling.CONTINUE_ON_FAILURE)
+not_run: WebUI.click(findTestObject('HomePage/VehicleSelector/models/Sedans - GS'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('MSRP/section objects/homepage/vehicle selector/vehicle selector - sedans - GS starting at price'), 
+not_run: WebUI.waitForElementVisible(findTestObject('MSRP/section objects/homepage/vehicle selector/vehicle selector - sedans - GS starting at price'), 
     0, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('MSRP/section objects/homepage/vehicle selector/vehicle selector - sedans - GS starting at price'), 
+not_run: WebUI.verifyElementVisible(findTestObject('MSRP/section objects/homepage/vehicle selector/vehicle selector - sedans - GS starting at price'), 
     FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('MSRP/section objects/homepage/vehicle selector/vehicle selector - sedans - GS vehicle shown price'), 
+not_run: WebUI.verifyElementVisible(findTestObject('MSRP/section objects/homepage/vehicle selector/vehicle selector - sedans - GS vehicle shown price'), 
     FailureHandling.CONTINUE_ON_FAILURE)
 
-expectedMSRP = (('$' + findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 67)) + '*')
+not_run: expectedMSRP = (('$' + findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 67)) + '*')
 
-textWithMSRP = WebUI.getText(findTestObject('MSRP/section objects/homepage/vehicle selector/vehicle selector - sedans - GS starting at price'), 
+not_run: textWithMSRP = WebUI.getText(findTestObject('MSRP/section objects/homepage/vehicle selector/vehicle selector - sedans - GS starting at price'), 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyMatch(textWithMSRP, expectedMSRP, false, FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.verifyMatch(textWithMSRP, expectedMSRP, false, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('HomePage/VehicleSelector/models/Sedans - GS F'), FailureHandling.CONTINUE_ON_FAILURE)
+not_run: WebUI.click(findTestObject('HomePage/VehicleSelector/models/Sedans - GS F'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('MSRP/section objects/homepage/vehicle selector/vehicle selector - sedans - GS F starting at price'), 
+not_run: WebUI.waitForElementVisible(findTestObject('MSRP/section objects/homepage/vehicle selector/vehicle selector - sedans - GS F starting at price'), 
     0, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('MSRP/section objects/homepage/vehicle selector/vehicle selector - sedans - GS F starting at price'), 
+not_run: WebUI.verifyElementVisible(findTestObject('MSRP/section objects/homepage/vehicle selector/vehicle selector - sedans - GS F starting at price'), 
     FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('MSRP/section objects/homepage/vehicle selector/vehicle selector - sedans - GS F vehicle shown price'), 
+not_run: WebUI.verifyElementVisible(findTestObject('MSRP/section objects/homepage/vehicle selector/vehicle selector - sedans - GS F vehicle shown price'), 
     FailureHandling.CONTINUE_ON_FAILURE)
 
-expectedMSRP = (('$' + findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 79)) + '*')
+not_run: expectedMSRP = (('$' + findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 79)) + '*')
 
-textWithMSRP = WebUI.getText(findTestObject('MSRP/section objects/homepage/vehicle selector/vehicle selector - sedans - GS F starting at price'), 
+not_run: textWithMSRP = WebUI.getText(findTestObject('MSRP/section objects/homepage/vehicle selector/vehicle selector - sedans - GS F starting at price'), 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyMatch(textWithMSRP, expectedMSRP, false, FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.verifyMatch(textWithMSRP, expectedMSRP, false, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('HomePage/VehicleSelector/models/Sedans - LS'), FailureHandling.CONTINUE_ON_FAILURE)
 
@@ -541,20 +541,20 @@ textWithMSRP = WebUI.getText(findTestObject('MSRP/section objects/homepage/vehic
 
 WebUI.verifyMatch(textWithMSRP, expectedMSRP, false, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('HomePage/VehicleSelector/models/Performance - GS F'), FailureHandling.CONTINUE_ON_FAILURE)
+not_run: WebUI.click(findTestObject('HomePage/VehicleSelector/models/Performance - GS F'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('MSRP/section objects/homepage/vehicle selector/vehicle selector - performance - GS F starting at price'), 
+not_run: WebUI.waitForElementVisible(findTestObject('MSRP/section objects/homepage/vehicle selector/vehicle selector - performance - GS F starting at price'), 
     0, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('MSRP/section objects/homepage/vehicle selector/vehicle selector - performance - GS F starting at price'), 
+not_run: WebUI.verifyElementVisible(findTestObject('MSRP/section objects/homepage/vehicle selector/vehicle selector - performance - GS F starting at price'), 
     FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('MSRP/section objects/homepage/vehicle selector/vehicle selector - performance - GS F vehicle shown price'), 
+not_run: WebUI.verifyElementVisible(findTestObject('MSRP/section objects/homepage/vehicle selector/vehicle selector - performance - GS F vehicle shown price'), 
     FailureHandling.CONTINUE_ON_FAILURE)
 
-expectedMSRP = (('$' + findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 79)) + '*')
+not_run: expectedMSRP = (('$' + findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 79)) + '*')
 
-textWithMSRP = WebUI.getText(findTestObject('MSRP/section objects/homepage/vehicle selector/vehicle selector - performance - GS F starting at price'), 
+not_run: textWithMSRP = WebUI.getText(findTestObject('MSRP/section objects/homepage/vehicle selector/vehicle selector - performance - GS F starting at price'), 
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyMatch(textWithMSRP, expectedMSRP, false, FailureHandling.STOP_ON_FAILURE)

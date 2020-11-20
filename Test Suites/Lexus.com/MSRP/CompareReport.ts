@@ -38,7 +38,7 @@
    <testCaseLink>
       <guid>8df04ebb-ac45-400f-b3a1-445e6932c710</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/Compare/report pages - GS 350 F Sport RWD-AWD</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -50,7 +50,7 @@
    <testCaseLink>
       <guid>46160c07-3d71-45d9-b6bc-642406fb0fd1</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/Compare/report pages - GS 350 RWD-AWD</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -62,7 +62,7 @@
    <testCaseLink>
       <guid>922d2964-7046-45a2-8c9a-364b2bae72c3</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/Compare/report pages - GS F</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>

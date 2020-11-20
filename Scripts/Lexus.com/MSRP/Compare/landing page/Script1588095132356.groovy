@@ -46,18 +46,18 @@ textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
 WebUI.verifyNotMatch(textWithoutExpectedMSRP, textWithMSRP, false, FailureHandling.STOP_ON_FAILURE)
 
 'GS 350 AWD'
-expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 67)
+not_run: expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 67)
 
-textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
+not_run: textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
 
-WebUI.verifyNotMatch(textWithoutExpectedMSRP, textWithMSRP, false, FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.verifyNotMatch(textWithoutExpectedMSRP, textWithMSRP, false, FailureHandling.STOP_ON_FAILURE)
 
 'GS F'
-expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 79)
+not_run: expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 79)
 
-textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
+not_run: textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
 
-WebUI.verifyNotMatch(textWithoutExpectedMSRP, textWithMSRP, false, FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.verifyNotMatch(textWithoutExpectedMSRP, textWithMSRP, false, FailureHandling.STOP_ON_FAILURE)
 
 'LS 500 RWD'
 not_run: expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 45)
@@ -238,11 +238,11 @@ textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
 WebUI.verifyNotMatch(textWithoutExpectedMSRP, textWithMSRP, false, FailureHandling.STOP_ON_FAILURE)
 
 'GS F'
-expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 79)
+not_run: expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 79)
 
-textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
+not_run: textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
 
-WebUI.verifyNotMatch(textWithoutExpectedMSRP, textWithMSRP, false, FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.verifyNotMatch(textWithoutExpectedMSRP, textWithMSRP, false, FailureHandling.STOP_ON_FAILURE)
 
 'LC'
 expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 70)

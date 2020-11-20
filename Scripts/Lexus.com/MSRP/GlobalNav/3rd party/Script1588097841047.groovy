@@ -47,23 +47,23 @@ textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
 
 WebUI.verifyNotMatch(textWithoutExpectedMSRP, textWithMSRP, false, FailureHandling.STOP_ON_FAILURE)
 
-expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 67)
+not_run: expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 67)
 
-textWithMSRP = WebUI.getAttribute(findTestObject('MSRP/section objects/global nav/sedans - GS - starting at price'), 'text', 
-    FailureHandling.STOP_ON_FAILURE)
+not_run: textWithMSRP = WebUI.getAttribute(findTestObject('MSRP/section objects/global nav/sedans - GS - starting at price'), 
+    'text', FailureHandling.STOP_ON_FAILURE)
 
-textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
+not_run: textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
 
-WebUI.verifyNotMatch(textWithoutExpectedMSRP, textWithMSRP, false, FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.verifyNotMatch(textWithoutExpectedMSRP, textWithMSRP, false, FailureHandling.STOP_ON_FAILURE)
 
-expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 79)
+not_run: expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 79)
 
-textWithMSRP = WebUI.getAttribute(findTestObject('MSRP/section objects/global nav/sedans - GS F - starting at price'), 'text', 
-    FailureHandling.STOP_ON_FAILURE)
+not_run: textWithMSRP = WebUI.getAttribute(findTestObject('MSRP/section objects/global nav/sedans - GS F - starting at price'), 
+    'text', FailureHandling.STOP_ON_FAILURE)
 
-textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
+not_run: textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
 
-WebUI.verifyNotMatch(textWithoutExpectedMSRP, textWithMSRP, false, FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.verifyNotMatch(textWithoutExpectedMSRP, textWithMSRP, false, FailureHandling.STOP_ON_FAILURE)
 
 expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 45)
 
@@ -265,14 +265,14 @@ textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
 
 WebUI.verifyNotMatch(textWithoutExpectedMSRP, textWithMSRP, false, FailureHandling.STOP_ON_FAILURE)
 
-expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 79)
+not_run: expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 79)
 
-textWithMSRP = WebUI.getAttribute(findTestObject('MSRP/section objects/global nav/performance - GS F - starting at price'), 
+not_run: textWithMSRP = WebUI.getAttribute(findTestObject('MSRP/section objects/global nav/performance - GS F - starting at price'), 
     'text', FailureHandling.STOP_ON_FAILURE)
 
-textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
+not_run: textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
 
-WebUI.verifyNotMatch(textWithoutExpectedMSRP, textWithMSRP, false, FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.verifyNotMatch(textWithoutExpectedMSRP, textWithMSRP, false, FailureHandling.STOP_ON_FAILURE)
 
 expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 70)
 

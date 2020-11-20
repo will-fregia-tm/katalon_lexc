@@ -65,33 +65,35 @@ WebUI.click(findTestObject('MSRP/section objects/compare/trim pages/sedans/sedan
 sedansModelSeries04text = WebUI.getText(findTestObject('MSRP/section objects/compare/trim pages/sedans/sedans - model series 04 trims'), 
     FailureHandling.OPTIONAL)
 
-WebUI.scrollToElement(findTestObject('MSRP/section objects/compare/trim pages/sedans/sedans - model series 05'), 0, FailureHandling.OPTIONAL)
+not_run: WebUI.scrollToElement(findTestObject('MSRP/section objects/compare/trim pages/sedans/sedans - model series 05'), 
+    0, FailureHandling.OPTIONAL)
 
-WebUI.click(findTestObject('MSRP/section objects/compare/trim pages/sedans/sedans - add vehicle CTA 05'), FailureHandling.OPTIONAL)
+not_run: WebUI.click(findTestObject('MSRP/section objects/compare/trim pages/sedans/sedans - add vehicle CTA 05'), FailureHandling.OPTIONAL)
 
-sedansModelSeries05text = WebUI.getText(findTestObject('MSRP/section objects/compare/trim pages/sedans/sedans - model series 05 trims'), 
+not_run: sedansModelSeries05text = WebUI.getText(findTestObject('MSRP/section objects/compare/trim pages/sedans/sedans - model series 05 trims'), 
     FailureHandling.OPTIONAL)
 
-WebUI.scrollToElement(findTestObject('MSRP/section objects/compare/trim pages/sedans/sedans - model series 06'), 0, FailureHandling.OPTIONAL)
+not_run: WebUI.scrollToElement(findTestObject('MSRP/section objects/compare/trim pages/sedans/sedans - model series 06'), 
+    0, FailureHandling.OPTIONAL)
 
-sedansModelSeries06text = ''
+not_run: sedansModelSeries06text = ''
 
-WebUI.click(findTestObject('MSRP/section objects/compare/trim pages/sedans/sedans - add vehicle CTA 06'), FailureHandling.OPTIONAL)
+not_run: WebUI.click(findTestObject('MSRP/section objects/compare/trim pages/sedans/sedans - add vehicle CTA 06'), FailureHandling.OPTIONAL)
 
-sedansModelSeries06text = WebUI.getText(findTestObject('MSRP/section objects/compare/trim pages/sedans/sedans - model series 06 trims'), 
+not_run: sedansModelSeries06text = WebUI.getText(findTestObject('MSRP/section objects/compare/trim pages/sedans/sedans - model series 06 trims'), 
     FailureHandling.OPTIONAL)
 
-WebUI.scrollToElement(findTestObject('MSRP/section objects/compare/trim pages/sedans/sedans - model series 07'), 0, FailureHandling.OPTIONAL)
+not_run: WebUI.scrollToElement(findTestObject('MSRP/section objects/compare/trim pages/sedans/sedans - model series 07'), 
+    0, FailureHandling.OPTIONAL)
 
-sedansModelSeries07text = ''
+not_run: sedansModelSeries07text = ''
 
-WebUI.click(findTestObject('MSRP/section objects/compare/trim pages/sedans/sedans - add vehicle CTA 07'), FailureHandling.OPTIONAL)
+not_run: WebUI.click(findTestObject('MSRP/section objects/compare/trim pages/sedans/sedans - add vehicle CTA 07'), FailureHandling.OPTIONAL)
 
-sedansModelSeries07text = WebUI.getText(findTestObject('MSRP/section objects/compare/trim pages/sedans/sedans - model series 07 trims'), 
+not_run: sedansModelSeries07text = WebUI.getText(findTestObject('MSRP/section objects/compare/trim pages/sedans/sedans - model series 07 trims'), 
     FailureHandling.OPTIONAL)
 
-sedansTrimText = ((((((sedansModelSeries01text + sedansModelSeries02text) + sedansModelSeries03text) + sedansModelSeries04text) + 
-sedansModelSeries05text) + sedansModelSeries06text) + sedansModelSeries07text)
+sedansTrimText = (((sedansModelSeries01text + sedansModelSeries02text) + sedansModelSeries03text) + sedansModelSeries04text)
 
 WebUI.scrollToElement(findTestObject('MSRP/section objects/compare/trim pages/SUVs/SUVs - model series 01'), 0, FailureHandling.OPTIONAL)
 
@@ -326,7 +328,7 @@ if (WebUI.verifyElementPresent(findTestObject('MSRP/section objects/compare/trim
     WebUI.verifyNotMatch(textWithoutExpectedMSRP, textWithMSRP, false, FailureHandling.STOP_ON_FAILURE)
 }
 
-if (WebUI.verifyElementPresent(findTestObject('MSRP/section objects/compare/trim pages/active models/GS'), 0, FailureHandling.OPTIONAL)) {
+not_run: if (WebUI.verifyElementPresent(findTestObject('MSRP/section objects/compare/trim pages/active models/GS'), 0, FailureHandling.OPTIONAL)) {
     'GS 350 AWD'
     expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 67)
 
@@ -360,7 +362,8 @@ if (WebUI.verifyElementPresent(findTestObject('MSRP/section objects/compare/trim
     WebUI.verifyNotMatch(sedansTrimTextWithoutExpectedMSRP, sedansTrimText, false, FailureHandling.STOP_ON_FAILURE)
 }
 
-if (WebUI.verifyElementPresent(findTestObject('MSRP/section objects/compare/trim pages/active models/GS F'), 0, FailureHandling.OPTIONAL)) {
+not_run: if (WebUI.verifyElementPresent(findTestObject('MSRP/section objects/compare/trim pages/active models/GS F'), 0, 
+    FailureHandling.OPTIONAL)) {
     'GS F'
     expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 79)
 
@@ -407,21 +410,21 @@ if (WebUI.verifyElementPresent(findTestObject('MSRP/section objects/compare/trim
     WebUI.verifyNotMatch(sedansTrimTextWithoutExpectedMSRP, sedansTrimText, false, FailureHandling.STOP_ON_FAILURE)
 
     'LS 500h RWD'
-    expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 49)
+    not_run: expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 49)
 
-    sedansTrimTextWithoutExpectedMSRP = (sedansTrimText - expectedMSRP)
+    not_run: sedansTrimTextWithoutExpectedMSRP = (sedansTrimText - expectedMSRP)
 
-    WebUI.verifyNotMatch(sedansTrimTextWithoutExpectedMSRP, sedansTrimText, false, FailureHandling.STOP_ON_FAILURE)
+    not_run: WebUI.verifyNotMatch(sedansTrimTextWithoutExpectedMSRP, sedansTrimText, false, FailureHandling.STOP_ON_FAILURE)
 
     'LS 500h AWD'
-    expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 50)
+    not_run: expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 50)
 
-    sedansTrimTextWithoutExpectedMSRP = (sedansTrimText - expectedMSRP)
+    not_run: sedansTrimTextWithoutExpectedMSRP = (sedansTrimText - expectedMSRP)
 
-    WebUI.verifyNotMatch(sedansTrimTextWithoutExpectedMSRP, sedansTrimText, false, FailureHandling.STOP_ON_FAILURE)
+    not_run: WebUI.verifyNotMatch(sedansTrimTextWithoutExpectedMSRP, sedansTrimText, false, FailureHandling.STOP_ON_FAILURE)
 }
 
-if (WebUI.verifyElementPresent(findTestObject('MSRP/section objects/compare/trim pages/active models/LS'), 0, FailureHandling.OPTIONAL)) {
+not_run: if (WebUI.verifyElementPresent(findTestObject('MSRP/section objects/compare/trim pages/active models/LS'), 0, FailureHandling.OPTIONAL)) {
     'LS 500h RWD'
     expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 49)
 
@@ -836,7 +839,7 @@ if (WebUI.verifyElementPresent(findTestObject('MSRP/section objects/compare/trim
     WebUI.verifyNotMatch(textWithoutExpectedMSRP, textWithMSRP, false, FailureHandling.STOP_ON_FAILURE)
 }
 
-if (WebUI.verifyElementPresent(findTestObject('MSRP/section objects/compare/trim pages/active models/LS'), 0, FailureHandling.OPTIONAL)) {
+not_run: if (WebUI.verifyElementPresent(findTestObject('MSRP/section objects/compare/trim pages/active models/LS'), 0, FailureHandling.OPTIONAL)) {
     'LS 500h RWD'
     expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 49)
 
@@ -865,7 +868,8 @@ if (WebUI.verifyElementPresent(findTestObject('MSRP/section objects/compare/trim
     WebUI.verifyNotMatch(textWithoutExpectedMSRP, textWithMSRP, false, FailureHandling.STOP_ON_FAILURE)
 }
 
-if (WebUI.verifyElementPresent(findTestObject('MSRP/section objects/compare/trim pages/active models/GS F'), 0, FailureHandling.OPTIONAL)) {
+not_run: if (WebUI.verifyElementPresent(findTestObject('MSRP/section objects/compare/trim pages/active models/GS F'), 0, 
+    FailureHandling.OPTIONAL)) {
     'GS F'
     expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 79)
 
