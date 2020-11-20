@@ -376,7 +376,7 @@ not_run: if (WebUI.verifyElementPresent(findTestObject('MSRP/section objects/com
     WebUI.verifyNotMatch(sedansTrimTextWithoutExpectedMSRP, sedansTrimText, false, FailureHandling.STOP_ON_FAILURE)
 }
 
-if (WebUI.verifyElementPresent(findTestObject('MSRP/section objects/compare/trim pages/active models/LS'), 0, FailureHandling.OPTIONAL)) {
+not_run: if (WebUI.verifyElementPresent(findTestObject('MSRP/section objects/compare/trim pages/active models/LS'), 0, FailureHandling.OPTIONAL)) {
     'LS 500 RWD'
     expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 45)
 
