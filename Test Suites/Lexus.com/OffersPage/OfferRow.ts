@@ -131,4 +131,64 @@
          <variableId>3a909577-12ad-4378-962a-33781b10cf99</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>7b387e85-147d-4921-b85f-e0ca32e66bac</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/OffersPage/OfferRow/Build</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>15b122e0-388b-4f9f-b8ee-0410acd42858</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7c79414f-4e55-4658-a654-7197345c5118</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/OffersPage/OfferRow/Inventory - Dealer eProcess</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>2a2419ab-ff06-4246-9731-9c529946ded7</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e0162db1-cc18-42f7-868a-4c10405ed9f7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/OffersPage/OfferRow/Inventory - Dealer Inspire</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7c32210f-54c1-4c2a-8947-3c46ed373f1f</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>848bc539-fdd4-4d2b-b391-f6591b33c886</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/OffersPage/OfferRow/Inventory - Dealer.com</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7bf472e9-ffc6-4ee0-b2fc-19bd675d742a</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3fd86aec-df52-4630-9c63-506bbf314fa9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/OffersPage/OfferRow/Inventory - DealerOn</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>55def867-c9c8-40e5-9f65-ba47a4203aa2</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>
