@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>if a user tap/clicks on the Inventory link on a model row (i.e. ES)
+
+Then the system shall:
+
+navigate the user to the inventory map
+pass page-state/model parameters over to the inventory map overlay</description>
+   <name>Inventory - Dealer.com</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dea6a73f-b3d4-4dbf-85da-c61e430979c4</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>7bf472e9-ffc6-4ee0-b2fc-19bd675d742a</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>

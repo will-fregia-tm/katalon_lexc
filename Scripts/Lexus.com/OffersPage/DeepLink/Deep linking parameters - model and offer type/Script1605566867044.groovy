@@ -22,7 +22,7 @@ import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
 response = WS.sendRequest(findTestObject(('OffersPage/DeepLink/' + GlobalVariable.domain) + 'OffersEndpoint'), FailureHandling.OPTIONAL)
 
-description = WS.getElementPropertyValue(response, 'offers.Atlanta.description[1]', FailureHandling.OPTIONAL)
+description = WS.getElementPropertyValue(response, 'offers.Atlanta.description[0]', FailureHandling.OPTIONAL)
 
 WebUI.openBrowser(GlobalVariable.SSO_login, FailureHandling.STOP_ON_FAILURE)
 
