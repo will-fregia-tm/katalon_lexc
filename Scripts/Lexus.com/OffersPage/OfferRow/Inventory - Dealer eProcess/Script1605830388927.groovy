@@ -52,7 +52,7 @@ WebUI.verifyElementVisible(findTestObject('OffersPage/OfferRow/inventory select 
 
 WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/inventory CTA'), 0, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/inventory map'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/inventory map'), 0, FailureHandling.OPTIONAL)
 
 WebUI.mouseOver(findTestObject('OffersPage/OfferRow/inventory dealer name'), FailureHandling.STOP_ON_FAILURE)
 

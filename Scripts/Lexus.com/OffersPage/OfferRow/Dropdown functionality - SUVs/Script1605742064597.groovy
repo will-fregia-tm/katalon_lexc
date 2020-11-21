@@ -67,8 +67,8 @@ WebUI.click(findTestObject('OffersPage/OfferRow/row 02 - details button'), Failu
 
 offerCardText = WebUI.getText(findTestObject('OffersPage/OfferRow/row 02 - offer card 1 - details'), FailureHandling.STOP_ON_FAILURE)
 
-'model name in offer card content should match selected model-style'
-textWithoutModel = (offerCardText - dropdownText)
+'model name in offer card content should match selected model-style, and includes fallback in case trim only has consolidated/military/college grad offers'
+textWithoutModel = ((((offerCardText - dropdownText) - 'MILITARY REBATE') - 'COLLEGE') - 'SELECT')
 
 WebUI.verifyNotMatch(offerCardText, textWithoutModel, false, FailureHandling.STOP_ON_FAILURE)
 
@@ -82,12 +82,15 @@ if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 02 - drop
 
     WebUI.click(findTestObject('OffersPage/OfferRow/row 02 - dropdown button - model-style 2'), FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.click(findTestObject('OffersPage/OfferRow/row 02 - details button'), FailureHandling.STOP_ON_FAILURE)
-
+    'tests this model-style if it is present'
+    if (WebUI.verifyElementNotPresent(findTestObject('OffersPage/OfferRow/row 02 - offer card 1 - details'), 3, FailureHandling.OPTIONAL)) {
+        WebUI.click(findTestObject('OffersPage/OfferRow/row 02 - details button'), FailureHandling.OPTIONAL)
+    }
+    
     offerCardText = WebUI.getText(findTestObject('OffersPage/OfferRow/row 02 - offer card 1 - details'), FailureHandling.STOP_ON_FAILURE)
 
-    'model name in offer card content should match selected model-style'
-    textWithoutModel = (offerCardText - dropdownText)
+    'model name in offer card content should match selected model-style, and includes fallback in case trim only has consolidated/military/college grad offers'
+    textWithoutModel = ((((offerCardText - dropdownText) - 'MILITARY REBATE') - 'COLLEGE') - 'SELECT')
 
     WebUI.verifyNotMatch(offerCardText, textWithoutModel, false, FailureHandling.STOP_ON_FAILURE)
 
@@ -101,12 +104,15 @@ if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 02 - drop
 
         WebUI.click(findTestObject('OffersPage/OfferRow/row 02 - dropdown button - model-style 3'), FailureHandling.STOP_ON_FAILURE)
 
-        WebUI.click(findTestObject('OffersPage/OfferRow/row 02 - details button'), FailureHandling.STOP_ON_FAILURE)
-
+        'tests this model-style if it is present'
+        if (WebUI.verifyElementNotPresent(findTestObject('OffersPage/OfferRow/row 02 - offer card 1 - details'), 3, FailureHandling.OPTIONAL)) {
+            WebUI.click(findTestObject('OffersPage/OfferRow/row 02 - details button'), FailureHandling.OPTIONAL)
+        }
+        
         offerCardText = WebUI.getText(findTestObject('OffersPage/OfferRow/row 02 - offer card 1 - details'), FailureHandling.STOP_ON_FAILURE)
 
-        'model name in offer card content should match selected model-style'
-        textWithoutModel = (offerCardText - dropdownText)
+        'model name in offer card content should match selected model-style, and includes fallback in case trim only has consolidated/military/college grad offers'
+        textWithoutModel = ((((offerCardText - dropdownText) - 'MILITARY REBATE') - 'COLLEGE') - 'SELECT')
 
         WebUI.verifyNotMatch(offerCardText, textWithoutModel, false, FailureHandling.STOP_ON_FAILURE)
 
@@ -122,12 +128,16 @@ if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 02 - drop
 
             WebUI.click(findTestObject('OffersPage/OfferRow/row 02 - dropdown button - model-style 4'), FailureHandling.STOP_ON_FAILURE)
 
-            WebUI.click(findTestObject('OffersPage/OfferRow/row 02 - details button'), FailureHandling.STOP_ON_FAILURE)
-
+            'tests this model-style if it is present'
+            if (WebUI.verifyElementNotPresent(findTestObject('OffersPage/OfferRow/row 02 - offer card 1 - details'), 3, 
+                FailureHandling.OPTIONAL)) {
+                WebUI.click(findTestObject('OffersPage/OfferRow/row 02 - details button'), FailureHandling.OPTIONAL)
+            }
+            
             offerCardText = WebUI.getText(findTestObject('OffersPage/OfferRow/row 02 - offer card 1 - details'), FailureHandling.STOP_ON_FAILURE)
 
-            'model name in offer card content should match selected model-style'
-            textWithoutModel = (offerCardText - dropdownText)
+            'model name in offer card content should match selected model-style, and includes fallback in case trim only has consolidated/military/college grad offers'
+            textWithoutModel = ((((offerCardText - dropdownText) - 'MILITARY REBATE') - 'COLLEGE') - 'SELECT')
 
             WebUI.verifyNotMatch(offerCardText, textWithoutModel, false, FailureHandling.STOP_ON_FAILURE)
 
@@ -143,12 +153,16 @@ if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 02 - drop
 
                 WebUI.click(findTestObject('OffersPage/OfferRow/row 02 - dropdown button - model-style 5'), FailureHandling.STOP_ON_FAILURE)
 
-                WebUI.click(findTestObject('OffersPage/OfferRow/row 02 - details button'), FailureHandling.STOP_ON_FAILURE)
-
+                'tests this model-style if it is present'
+                if (WebUI.verifyElementNotPresent(findTestObject('OffersPage/OfferRow/row 02 - offer card 1 - details'), 
+                    3, FailureHandling.OPTIONAL)) {
+                    WebUI.click(findTestObject('OffersPage/OfferRow/row 02 - details button'), FailureHandling.OPTIONAL)
+                }
+                
                 offerCardText = WebUI.getText(findTestObject('OffersPage/OfferRow/row 02 - offer card 1 - details'), FailureHandling.STOP_ON_FAILURE)
 
-                'model name in offer card content should match selected model-style'
-                textWithoutModel = (offerCardText - dropdownText)
+                'model name in offer card content should match selected model-style, and includes fallback in case trim only has consolidated/military/college grad offers'
+                textWithoutModel = ((((offerCardText - dropdownText) - 'MILITARY REBATE') - 'COLLEGE') - 'SELECT')
 
                 WebUI.verifyNotMatch(offerCardText, textWithoutModel, false, FailureHandling.STOP_ON_FAILURE)
 
@@ -164,13 +178,17 @@ if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 02 - drop
 
                     WebUI.click(findTestObject('OffersPage/OfferRow/row 02 - dropdown button - model-style 6'), FailureHandling.STOP_ON_FAILURE)
 
-                    WebUI.click(findTestObject('OffersPage/OfferRow/row 02 - details button'), FailureHandling.STOP_ON_FAILURE)
-
+                    'tests this model-style if it is present'
+                    if (WebUI.verifyElementNotPresent(findTestObject('OffersPage/OfferRow/row 02 - offer card 1 - details'), 
+                        3, FailureHandling.OPTIONAL)) {
+                        WebUI.click(findTestObject('OffersPage/OfferRow/row 02 - details button'), FailureHandling.OPTIONAL)
+                    }
+                    
                     offerCardText = WebUI.getText(findTestObject('OffersPage/OfferRow/row 02 - offer card 1 - details'), 
                         FailureHandling.STOP_ON_FAILURE)
 
-                    'model name in offer card content should match selected model-style'
-                    textWithoutModel = (offerCardText - dropdownText)
+                    'model name in offer card content should match selected model-style, and includes fallback in case trim only has consolidated/military/college grad offers'
+                    textWithoutModel = ((((offerCardText - dropdownText) - 'MILITARY REBATE') - 'COLLEGE') - 'SELECT')
 
                     WebUI.verifyNotMatch(offerCardText, textWithoutModel, false, FailureHandling.STOP_ON_FAILURE)
 
@@ -187,13 +205,17 @@ if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 02 - drop
 
                         WebUI.click(findTestObject('OffersPage/OfferRow/row 02 - dropdown button - model-style 7'), FailureHandling.STOP_ON_FAILURE)
 
-                        WebUI.click(findTestObject('OffersPage/OfferRow/row 02 - details button'), FailureHandling.STOP_ON_FAILURE)
-
+                        'tests this model-style if it is present'
+                        if (WebUI.verifyElementNotPresent(findTestObject('OffersPage/OfferRow/row 02 - offer card 1 - details'), 
+                            3, FailureHandling.OPTIONAL)) {
+                            WebUI.click(findTestObject('OffersPage/OfferRow/row 02 - details button'), FailureHandling.OPTIONAL)
+                        }
+                        
                         offerCardText = WebUI.getText(findTestObject('OffersPage/OfferRow/row 02 - offer card 1 - details'), 
                             FailureHandling.STOP_ON_FAILURE)
 
-                        'model name in offer card content should match selected model-style'
-                        textWithoutModel = (offerCardText - dropdownText)
+                        'model name in offer card content should match selected model-style, and includes fallback in case trim only has consolidated/military/college grad offers'
+                        textWithoutModel = ((((offerCardText - dropdownText) - 'MILITARY REBATE') - 'COLLEGE') - 'SELECT')
 
                         WebUI.verifyNotMatch(offerCardText, textWithoutModel, false, FailureHandling.STOP_ON_FAILURE)
 
@@ -211,13 +233,17 @@ if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 02 - drop
                             WebUI.click(findTestObject('OffersPage/OfferRow/row 02 - dropdown button - model-style 8'), 
                                 FailureHandling.STOP_ON_FAILURE)
 
-                            WebUI.click(findTestObject('OffersPage/OfferRow/row 02 - details button'), FailureHandling.STOP_ON_FAILURE)
-
+                            'tests this model-style if it is present'
+                            if (WebUI.verifyElementNotPresent(findTestObject('OffersPage/OfferRow/row 02 - offer card 1 - details'), 
+                                3, FailureHandling.OPTIONAL)) {
+                                WebUI.click(findTestObject('OffersPage/OfferRow/row 02 - details button'), FailureHandling.OPTIONAL)
+                            }
+                            
                             offerCardText = WebUI.getText(findTestObject('OffersPage/OfferRow/row 02 - offer card 1 - details'), 
                                 FailureHandling.STOP_ON_FAILURE)
 
-                            'model name in offer card content should match selected model-style'
-                            textWithoutModel = (offerCardText - dropdownText)
+                            'model name in offer card content should match selected model-style, and includes fallback in case trim only has consolidated/military/college grad offers'
+                            textWithoutModel = ((((offerCardText - dropdownText) - 'MILITARY REBATE') - 'COLLEGE') - 'SELECT')
 
                             WebUI.verifyNotMatch(offerCardText, textWithoutModel, false, FailureHandling.STOP_ON_FAILURE)
                         }
