@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>When a user tap/clicks on the Build cta on a model-row (i.e. ES)
+
+Then the system shall:
+
+navigate the user to the Build Your Lexus -  Select Style page for the model-rows model 
+pass the following:
+Zip cookie 
+Series: ES
+Year: should be current year</description>
+   <name>Build - sedans</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ea8b2131-9542-479c-b491-338e89745a6e</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>bd2b04b5-01a4-4cba-970f-c9c5d7bfd173</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>

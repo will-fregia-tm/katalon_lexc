@@ -59,6 +59,14 @@ WebUI.waitForElementPresent(findTestObject('OffersPage/ZipGate/offers page with 
 
 WebUI.verifyElementPresent(findTestObject('OffersPage/ZipGate/offers page with offers'), 0, FailureHandling.STOP_ON_FAILURE)
 
+WebUI.click(findTestObject('OffersPage/FilterBar/filter bar'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('OffersPage/FilterBar/model-category - Sedans'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('OffersPage/FilterBar/model-category checkbox - All Sedans'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('OffersPage/FilterBar/apply button'), FailureHandling.STOP_ON_FAILURE)
+
 'tests this offer row if it is present'
 if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 02'), 3, FailureHandling.OPTIONAL)) {
     WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 02 - Build'), 0, FailureHandling.STOP_ON_FAILURE)
@@ -91,13 +99,6 @@ if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 02'), 3, 
         WebUI.verifyNotMatch(fontFamily, modifiedString, false, FailureHandling.STOP_ON_FAILURE)
     }
     
-    fontFamily = WebUI.getCSSValue(findTestObject('OffersPage/OfferRow/BYL current model year'), 'font-family')
-
-    'current year should be selected and bold'
-    modifiedString = (fontFamily - 'bold')
-
-    WebUI.verifyNotMatch(fontFamily, modifiedString, false, FailureHandling.STOP_ON_FAILURE)
-
     displayedTrims = WebUI.getText(findTestObject('OffersPage/OfferRow/BYL trim display'), FailureHandling.STOP_ON_FAILURE)
 
     'model shown on BYL page should match model from offers row'
