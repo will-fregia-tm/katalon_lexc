@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>FeaturedOffers</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>15</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>e3f96cc5-0daf-43e8-af2f-ef365f99822d</testSuiteGuid>
+   <testCaseLink>
+      <guid>54ebc6e4-66f6-4def-a7bc-d83e1f690ff9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/OffersPage/FeaturedOffers/Featured offer cards have featured star icon present</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>9ee643aa-ba8a-4f7f-a595-c9e57cccf32c</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d8881522-5cb5-4cd7-bd8e-47a27e065e90</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/OffersPage/FeaturedOffers/Featured offers carousel</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>beefe40e-2869-48b9-a753-2356e9b4b866</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2ca4ac51-d50e-4c9a-9891-2a79e33d8669</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/OffersPage/FeaturedOffers/FEATURED OFFERS title will appear above the offer card results</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>afb70cdb-93b0-4424-9792-b320a6665cb1</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

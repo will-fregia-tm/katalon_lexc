@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>&quot;FEATURED OFFERS&quot; title appears above the offer card results</description>
+   <name>FEATURED OFFERS title will appear above the offer card results</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c283b19e-1bd8-4208-b71e-c199389785d9</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>afb70cdb-93b0-4424-9792-b320a6665cb1</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>

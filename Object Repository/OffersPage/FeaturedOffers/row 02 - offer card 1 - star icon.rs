@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>row 01</name>
+   <name>row 02 - offer card 1 - star icon</name>
    <tag></tag>
-   <elementGuidId>63b47890-3f9a-4d62-82a9-e120a5fc45b1</elementGuidId>
+   <elementGuidId>91ec0a16-f517-4244-a52c-7a6b89a99521</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#page section > section > section div > section:nth-child(1)</value>
+         <value>#page section > section > section div > section:nth-child(2) div[style*=&quot;left: 360px&quot;] svg path</value>
       </entry>
       <entry>
          <key>BASIC</key>
