@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>When a desktop user hovers over an applied filter 
+
+Then the system change the state of the filter to its active-state</description>
+   <name>Hover Over Applied-Filter-Tab</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>359507a4-c107-408c-956c-e5899b12a1f8</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>dbcf84ac-0192-4d3a-be59-c5443a411830</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>

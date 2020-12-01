@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>When a user tap/clicks on the  applied-filter-button (&quot;ES&quot;)
+
+Then the system will:
+
+remove that applied-filter-button from the UI
+remove the filter from the page state
+update the page to display the remaining set of applied filters (will no longer display ES on the page)</description>
+   <name>Remove applied filter</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5e07026d-e7e1-4d8a-8837-51ccf8776ce5</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>fccd65f1-1cf8-4fc5-a286-fc00e7edba42</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>

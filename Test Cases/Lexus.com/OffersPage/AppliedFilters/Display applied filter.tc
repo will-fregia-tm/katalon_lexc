@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>When a user applies a filter
+
+Then the system shall:
+
+Display the applied filters in the order they were selected
+Each applied-filter-tab must provide the ability to remove the applied-filter
+Applied filters will only display when the user changes a filter from its default setting
+if desktop:
+The applied-filter-tabs will wrap to a new line when they reach the end of the device-viewport
+if mobile:
+The applied-filters-tabs will be in-line with one another
+Applied-filter-tabs will be in a swipeable carousel</description>
+   <name>Display applied filter</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6cea80b9-82a4-417a-a455-708e04f959dd</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>1a06d2ca-22ab-455d-bdc8-4ccc2aeb6007</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>

@@ -1,33 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>breadcrumb - finance</name>
+   <name>model checkbox - RXh</name>
    <tag></tag>
-   <elementGuidId>323ba281-6704-4f6d-bde1-abd6898eebae</elementGuidId>
+   <elementGuidId>4c13b7c1-bf89-423e-9c29-241d18412cc2</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>div[role*=&quot;tabpanel&quot;] > div > div > div:nth-child(1)</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>//section/section/section//button[(contains(text(), 'FINANCE') or contains(., 'FINANCE'))]</value>
+         <value>//*[@role = 'tabpanel']/div/div//div[(contains(text(), 'RX HYBRID') or contains(., 'RX HYBRID'))]</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//button[(contains(text(), 'FINANCE') or contains(., 'FINANCE'))]</value>
+         <value>//*[contains(@div, 'IS')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>tag</name>
+      <name>role</name>
       <type>Main</type>
-      <value>button</value>
+      <value>tabpanel</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>contains</matchCondition>
-      <name>text</name>
+      <name>div</name>
       <type>Main</type>
-      <value>FINANCE</value>
+      <value>IS</value>
    </webElementProperties>
 </WebElementEntity>

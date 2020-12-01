@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>AppliedFilters</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>15</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>4532c06e-8b87-4776-b392-3e2cc70728db</testSuiteGuid>
+   <testCaseLink>
+      <guid>8433e7d7-a865-4e3a-beaa-4d000e61ab1d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/OffersPage/AppliedFilters/Display applied filter</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>1a06d2ca-22ab-455d-bdc8-4ccc2aeb6007</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>0dcb026d-ba53-4e7c-a182-c6092a1af034</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/OffersPage/AppliedFilters/Hover Over Applied-Filter-Tab</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>dbcf84ac-0192-4d3a-be59-c5443a411830</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>03a80f1b-d388-4eb4-bd09-c71b4d84d219</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/OffersPage/AppliedFilters/Remove applied filter</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>fccd65f1-1cf8-4fc5-a286-fc00e7edba42</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
