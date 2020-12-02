@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>if desktop:
+
+and if results &lt;= 3, then carousel feature will be disabled
+and if results > 3, then offer-cards carousel will be enabled 
+clicking the carousel arrow will display the next batch of Offer-Cards
+
+
+if mobile:
+
+featured-offers will be in a swipeable carousel (cards will not snap into position)</description>
+   <name>Carousel navigation</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c0a63914-5ca6-46b3-bb6b-316d52e569f6</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>ec445518-a3bf-4528-b202-4998d9a2c0ef</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>
