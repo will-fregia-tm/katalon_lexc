@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Data in the offer details is inherited from the all offers page.</description>
+   <name>Offer-Data</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e1071279-a084-4609-888f-f850cdfca72e</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>50cd5805-921e-46cc-b43b-f6e2cbebda51</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>

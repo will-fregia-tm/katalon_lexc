@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>must display the selected model and model year of the offer
+must display model-jelly and jelly-disclaimer as defined for the All Offers Page
+must display all offer information for the selected offer-card
+must display offer-legal information
+must show market zipcode
+must display market dealer-results for the zipcodes market </description>
+   <name>Key information is displayed</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a244683c-5cb5-4454-8447-87cc0725cd5a</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>4a2cf8e1-0eb5-4564-b3dd-8a255f1295d0</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>
