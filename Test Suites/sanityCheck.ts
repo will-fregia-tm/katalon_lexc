@@ -75,7 +75,7 @@
             <profileName>prod</profileName>
             <runConfigurationId>saucelabs_ie11_win10</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
+         <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/FCV/LF-30/Hero</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
@@ -156,7 +156,7 @@
             <profileName>prod</profileName>
             <runConfigurationId>saucelabs_ie11_win10</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
+         <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/FCV/LF-SA/Header</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
@@ -237,7 +237,7 @@
             <profileName>origin prod</profileName>
             <runConfigurationId>saucelabs_ie11_win10</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
+         <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/FCV/LF-30/Gallery</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
