@@ -36,7 +36,7 @@ WebUI.verifyMatch(currentFeedData, previousFeedData, false, FailureHandling.OPTI
 
 'if current build version is different, overwrites previous version with new value and launches smoke test'
 if (WebUI.verifyNotMatch(currentFeedData, previousFeedData, false, FailureHandling.OPTIONAL)) {
-    String excelFilePath = 'Data Files/' + GlobalVariable.DS_version + 'Log.xlsx'
+    String excelFilePath = ('Data Files/' + GlobalVariable.DS_version) + 'Log.xlsx'
 
     String sheetName = 'Sheet1'
 

@@ -21,7 +21,6 @@ import org.openqa.selenium.Cookie as Cookie
 import org.openqa.selenium.WebDriver as WebDriver
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
-
 totalPages = (findTestData(GlobalVariable.DS_version + 'URLsFCVPages').getRowNumbers() - 1)
 
 WebUI.openBrowser(GlobalVariable.SSO_login, FailureHandling.OPTIONAL)
@@ -37,6 +36,12 @@ driver.manage().addCookie(ck)
 for (def index : (0..totalPages)) {
     WebUI.navigateToUrl(findTestData(GlobalVariable.DS_version + 'URLsFCVPages').getValue(dataColumn, dataRow))
 
+    if (WebUI.verifyElementNotPresent(findTestObject('GlobalNav/lexus logo'), 3, FailureHandling.OPTIONAL)) {
+        WebUI.navigateToUrl(findTestData(GlobalVariable.DS_version + 'URLsFCVPages').getValue(dataColumn, dataRow))
+
+        WebUI.verifyElementPresent(findTestObject('GlobalNav/lexus logo'), 0)
+    }
+    
     WebUI.verifyElementNotPresent(findTestObject('error'), 0)
 
     dataRow = (dataRow + 1)
