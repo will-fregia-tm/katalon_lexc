@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>if user clicks Back then the system shall
+return to the  All-Offers Results page
+if user clicks Send Info then the system shall
+display Model Offer-Inquiry form for the specific dealer (LAM-1543)
+pass the following information to the dealer information to form:
+Zipcode
+Dealer Details
+Offer Details
+Model inforation
+if desktop user clicks Inventory then the system shall:
+navigate the user to the dealers inventory page in a new window
+if mobile user clicks Call CTA then:
+the system shall:provide the ability to call the dealer and display the dealer number using the devices native settings</description>
+   <name>CTAs</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f3de0e93-a8a6-4062-97b8-76e0c98227c9</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>9b7b91a6-7d39-4b3d-b774-8e51c782cdd5</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>

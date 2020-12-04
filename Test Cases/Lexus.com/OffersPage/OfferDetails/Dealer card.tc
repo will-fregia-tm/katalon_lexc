@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>can display 1-to-n dealer-cards
+dealer-cards
+each dealer-card must display the following information as provided by Dealer Services:
+dealerName {DIS}
+shall be clickable and link to dealer site
+distance from zip in miles {DIS}
+dealerAddress {DIS}
+Form CTA {AEM}
+Desktop only:
+dealerPhone 
+Inventory cta
+dealer card will break to a new line every 4th card
+Mobile
+will render Call cta in lieu of the inventory CTA
+hide phone number from the dealer card 
+dealer cards will stack</description>
+   <name>Dealer card</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>95c09f69-881a-485d-bc2b-7b76efce4dab</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>3c48220c-db9b-4286-bf2c-fc35973739cb</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>

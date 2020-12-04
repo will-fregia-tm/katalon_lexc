@@ -38,30 +38,19 @@ WebUI.scrollToElement(findTestObject('OffersPage/OfferRow/row 02'), 0)
 
 WebUI.click(findTestObject('OffersPage/OfferRow/row 02 - offer card 1 - contact dealer button'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementPresent(findTestObject('OffersPage/OfferDetails/model-model year'), 0, FailureHandling.OPTIONAL)
+WebUI.waitForElementVisible(findTestObject('OffersPage/OfferDetails/market dealer name'), 0, FailureHandling.STOP_ON_FAILURE)
 
-'checks image dislaimer if it is present'
-if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 02 - model jelly disclaimer'), 3, FailureHandling.OPTIONAL)) {
-    WebUI.verifyElementVisibleInViewport(findTestObject('OffersPage/OfferDetails/jelly-disclaimer'), 0)
-}
+WebUI.scrollToElement(findTestObject('OffersPage/OfferDetails/market dealer name'), 0)
 
-WebUI.verifyElementVisibleInViewport(findTestObject('OffersPage/OfferDetails/model-jelly'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementVisibleInViewport(findTestObject('OffersPage/OfferDetails/distance from zip'), 0, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementVisibleInViewport(findTestObject('OffersPage/OfferDetails/model-model year'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementVisibleInViewport(findTestObject('OffersPage/OfferDetails/dealer address'), 0, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementVisibleInViewport(findTestObject('OffersPage/OfferDetails/offer information - type'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementVisibleInViewport(findTestObject('OffersPage/OfferDetails/form CTA'), 0, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementVisibleInViewport(findTestObject('OffersPage/OfferDetails/offer information - terms'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementVisibleInViewport(findTestObject('OffersPage/OfferDetails/inventory CTA'), 0, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementVisibleInViewport(findTestObject('OffersPage/OfferDetails/offer legal'), 0, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.verifyElementVisibleInViewport(findTestObject('OffersPage/OfferDetails/offer legal disclaimer'), 0, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.verifyElementVisibleInViewport(findTestObject('OffersPage/OfferDetails/market zipcode'), 0, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.verifyElementVisibleInViewport(findTestObject('OffersPage/OfferDetails/market dealer name'), 0, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.scrollToElement(findTestObject('OffersPage/OfferDetails/market dealer name'), 0, FailureHandling.OPTIONAL)
+WebUI.verifyElementVisibleInViewport(findTestObject('OffersPage/OfferDetails/dealer phone'), 0, FailureHandling.STOP_ON_FAILURE)
 
 @com.kms.katalon.core.annotation.TearDownIfPassed
 def passed() {
