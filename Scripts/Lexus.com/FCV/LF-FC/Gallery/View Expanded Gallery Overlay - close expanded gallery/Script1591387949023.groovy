@@ -30,7 +30,7 @@ WebDriver driver = DriverFactory.getWebDriver()
 
 driver.manage().addCookie(ck)
 
-not_run: WebUI.navigateToUrl(GlobalVariable.TS_Domain + GlobalVariable.Header)
+WebUI.navigateToUrl(GlobalVariable.TS_Domain + '/privacy')
 
 WebUI.navigateToUrl(GlobalVariable.AEM_Domain_Unauthenticated + '/concept/LFFC')
 
