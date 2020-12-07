@@ -33,6 +33,8 @@ WebDriver driver = DriverFactory.getWebDriver()
 
 driver.manage().addCookie(ck)
 
+WebUI.navigateToUrl(GlobalVariable.TS_Domain + '/privacy')
+
 for (def index : (0..totalPages)) {
     WebUI.navigateToUrl(findTestData(GlobalVariable.DS_version + 'URLsFCVPages').getValue(dataColumn, dataRow))
 
