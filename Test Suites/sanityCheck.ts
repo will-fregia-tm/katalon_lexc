@@ -406,7 +406,7 @@
          <configuration>
             <groupName>Custom</groupName>
             <profileName>staging</profileName>
-            <runConfigurationId>saucelabs_safari11_macos10.13</runConfigurationId>
+            <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/FCV/LF-1/SignupForm</testSuiteEntity>
@@ -487,7 +487,7 @@
          <configuration>
             <groupName>Custom</groupName>
             <profileName>staging</profileName>
-            <runConfigurationId>saucelabs_safari11_macos10.13</runConfigurationId>
+            <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/FCV/LF-FC/Promo</testSuiteEntity>
