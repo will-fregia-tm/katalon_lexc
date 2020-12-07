@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify clicking the &quot;X&quot; in the top right closes the lightbox</description>
+   <name>Close button X</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e6c2777c-326a-487c-9602-119fe6ab80c4</testCaseGuid>
+</TestCaseEntity>

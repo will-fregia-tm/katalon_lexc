@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Headline/Subheadline -> Outlining that we need information from the user</description>
+   <name>Headline outlining that we need information from the user</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f9205878-e399-4043-9815-5e2b45d46ac2</testCaseGuid>
+</TestCaseEntity>

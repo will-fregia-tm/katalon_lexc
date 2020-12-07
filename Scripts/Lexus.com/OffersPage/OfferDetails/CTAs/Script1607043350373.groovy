@@ -89,14 +89,7 @@ WebUI.waitForElementVisible(findTestObject('OffersPage/ContactDealerForm/form he
 
 WebUI.verifyElementVisibleInViewport(findTestObject('OffersPage/ContactDealerForm/form heading'), 0, FailureHandling.STOP_ON_FAILURE)
 
-detailsInventory = WebUI.getAttribute(findTestObject('OffersPage/OfferDetails/inventory CTA'), 'href', FailureHandling.STOP_ON_FAILURE)
-
-'details inventory CTA values should match row inventory CTA, which is validated in a separate test'
-modifiedString = (detailsInventory - rowInventory)
-
-WebUI.verifyNotMatch(modifiedString, detailsInventory, false, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.verifyElementVisibleInViewport(findTestObject('OffersPage/ContactDealerForm/zipcode'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementVisibleInViewport(findTestObject('OffersPage/ContactDealerForm/dealer zipcode'), 0, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementVisibleInViewport(findTestObject('OffersPage/ContactDealerForm/dealer details'), 0, FailureHandling.STOP_ON_FAILURE)
 
@@ -112,6 +105,13 @@ WebUI.verifyNotMatch(modifiedString, modelInformation, false, FailureHandling.ST
 WebUI.click(findTestObject('OffersPage/ContactDealerForm/close overlay button'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementVisibleInViewport(findTestObject('OffersPage/OfferDetails/inventory CTA'), 0, FailureHandling.STOP_ON_FAILURE)
+
+detailsInventory = WebUI.getAttribute(findTestObject('OffersPage/OfferDetails/inventory CTA'), 'href', FailureHandling.STOP_ON_FAILURE)
+
+'details inventory CTA values should match row inventory CTA, which is validated in a separate test'
+modifiedString = (detailsInventory - rowInventory)
+
+WebUI.verifyNotMatch(modifiedString, detailsInventory, false, FailureHandling.STOP_ON_FAILURE)
 
 target = WebUI.getAttribute(findTestObject('OffersPage/OfferRow/inventory CTA'), 'target', FailureHandling.STOP_ON_FAILURE)
 

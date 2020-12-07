@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Make sure privacy copy is accurate and the Privacy Policy and Learn more links are present in the copy below submit button and lead to correct info.
+
+
+
+Privacy Copy
+
+Your Privacy Rights
+
+When you select &quot;SUBMIT&quot;, you are directing Lexus to share your personal information with this dealer, who will process it in accordance with its own privacy policy. Lexus will share this information with this dealer even if you have previously opted out of the sale of your personal information. Learn more about how Lexus handles your personal information.
+
+
+
+Privacy Policy
+
+The Privacy Policy link will lead to the currently selected dealers privacy policy page
+
+
+
+Learn More
+
+The Learn More link should take the user to https://privacy.toyota.com/</description>
+   <name>Privacy Rights</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3a4f84a0-fbcf-4fd6-8753-ad0da5cb62b7</testCaseGuid>
+</TestCaseEntity>

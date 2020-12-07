@@ -1,26 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>zipcode</name>
+   <name>privacy rights notification - body</name>
    <tag></tag>
-   <elementGuidId>9a8bc564-be35-4b6c-9492-599e923bf2ed</elementGuidId>
+   <elementGuidId>0f3585ff-7e04-46e9-9aec-2b652dbd3304</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//form//*[(contains(text(), '30080') or contains(., '30080'))]</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
-         <value>//*[(contains(text(), '30080') or contains(., '30080'))]</value>
+         <value>//*[(contains(text(), 'personal information') or contains(., 'personal information'))]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>contains</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>30080</value>
+      <value>personal information</value>
    </webElementProperties>
 </WebElementEntity>

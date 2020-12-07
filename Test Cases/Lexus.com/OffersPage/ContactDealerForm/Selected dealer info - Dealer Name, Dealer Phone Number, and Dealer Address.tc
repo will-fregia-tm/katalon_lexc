@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Selected dealer info -> Dealer Name, Dealer Phone Number, and Dealer Address</description>
+   <name>Selected dealer info - Dealer Name, Dealer Phone Number, and Dealer Address</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e15d8941-6f05-4d21-9892-bdaeac4e63de</testCaseGuid>
+</TestCaseEntity>
