@@ -34,11 +34,42 @@ WebUI.navigateToUrl(GlobalVariable.TS_Domain + '/privacy', FailureHandling.STOP_
 
 WebUI.navigateToUrl(GlobalVariable.SC_Domain + '/offers?zip=30303', FailureHandling.STOP_ON_FAILURE)
 
+'default trim code, to be used unless a specific trim code is present'
+trimCode1 = '='
+
+'default trim code, to be used unless a specific trim code is present'
+trimCode2 = '='
+
+'default trim code, to be used unless a specific trim code is present'
+trimCode3 = '='
+
+WebUI.waitForElementVisible(findTestObject('OffersPage/OfferRow/row 02 - Inventory'), 0)
+
+WebUI.click(findTestObject('OffersPage/OfferRow/row 02 - Inventory'), FailureHandling.STOP_ON_FAILURE)
+
+rowInventory = WebUI.getAttribute(findTestObject('OffersPage/OfferRow/inventory CTA'), 'href', FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('OffersPage/OfferDetails/back to offers CTA'), FailureHandling.STOP_ON_FAILURE)
+
 WebUI.scrollToElement(findTestObject('OffersPage/OfferRow/row 02'), 0)
+
+rowModel = WebUI.getText(findTestObject('OffersPage/OfferRow/row 02 - model name'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.waitForElementVisible(findTestObject('OffersPage/OfferRow/row 02 - offer card 1 - contact dealer button'), 0)
 
 WebUI.click(findTestObject('OffersPage/OfferRow/row 02 - offer card 1 - contact dealer button'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForElementVisible(findTestObject('OffersPage/OfferDetails/market dealer name'), 0, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyElementVisible(findTestObject('OffersPage/OfferDetails/back to offers CTA'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('OffersPage/OfferDetails/back to offers CTA'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.waitForElementVisible(findTestObject('OffersPage/ZipBar/zip bar - 30303'), 0)
+
+WebUI.scrollToElement(findTestObject('OffersPage/OfferRow/row 02'), 0)
+
+WebUI.click(findTestObject('OffersPage/OfferRow/row 02 - offer card 1 - contact dealer button'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.scrollToElement(findTestObject('OffersPage/OfferDetails/market dealer name'), 0)
 
@@ -52,39 +83,35 @@ WebUI.waitForElementVisible(findTestObject('OffersPage/OfferDetails/market deale
 
 WebUI.verifyElementVisibleInViewport(findTestObject('OffersPage/OfferDetails/form CTA'), 0, FailureHandling.STOP_ON_FAILURE)
 
+WebUI.click(findTestObject('OffersPage/OfferDetails/form CTA'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.waitForElementVisible(findTestObject('OffersPage/ContactDealerForm/form heading'), 0, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyElementVisibleInViewport(findTestObject('OffersPage/ContactDealerForm/form heading'), 0, FailureHandling.STOP_ON_FAILURE)
+
+detailsInventory = WebUI.getAttribute(findTestObject('OffersPage/OfferDetails/inventory CTA'), 'href', FailureHandling.STOP_ON_FAILURE)
+
+'details inventory CTA values should match row inventory CTA, which is validated in a separate test'
+modifiedString = (detailsInventory - rowInventory)
+
+WebUI.verifyNotMatch(modifiedString, detailsInventory, false, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyElementVisibleInViewport(findTestObject('OffersPage/ContactDealerForm/zipcode'), 0, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyElementVisibleInViewport(findTestObject('OffersPage/ContactDealerForm/dealer details'), 0, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyElementVisibleInViewport(findTestObject('OffersPage/ContactDealerForm/model information'), 0, FailureHandling.STOP_ON_FAILURE)
+
+modelInformation = WebUI.getText(findTestObject('OffersPage/ContactDealerForm/model information'), FailureHandling.STOP_ON_FAILURE)
+
+'model in form should match model row'
+modifiedString = (modelInformation - rowModel)
+
+WebUI.verifyNotMatch(modifiedString, modelInformation, false, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('OffersPage/ContactDealerForm/close overlay button'), FailureHandling.STOP_ON_FAILURE)
+
 WebUI.verifyElementVisibleInViewport(findTestObject('OffersPage/OfferDetails/inventory CTA'), 0, FailureHandling.STOP_ON_FAILURE)
-
-href = WebUI.getAttribute(findTestObject('OffersPage/OfferDetails/inventory CTA'), 'href', FailureHandling.STOP_ON_FAILURE)
-
-'dealer inventory link should include this specific make parameter'
-modifiedString = (href - 'make=')
-
-WebUI.verifyNotMatch(modifiedString, href, false, FailureHandling.STOP_ON_FAILURE)
-
-'dealer inventory link should include this specific model parameter'
-modifiedString = (href - 'modelCode=')
-
-WebUI.verifyNotMatch(modifiedString, href, false, FailureHandling.STOP_ON_FAILURE)
-
-'dealer inventory link should include this specific new parameter'
-modifiedString = (href - 'new-inventory/index.htm?')
-
-WebUI.verifyNotMatch(modifiedString, href, false, FailureHandling.STOP_ON_FAILURE)
-
-'dealer inventory link should include this specific trim code'
-modifiedString = (href - trimCode1)
-
-WebUI.verifyNotMatch(modifiedString, href, false, FailureHandling.STOP_ON_FAILURE)
-
-'dealer inventory link should include this specific trim code'
-modifiedString = (href - trimCode2)
-
-WebUI.verifyNotMatch(modifiedString, href, false, FailureHandling.STOP_ON_FAILURE)
-
-'dealer inventory link should include this specific trim code'
-modifiedString = (href - trimCode3)
-
-WebUI.verifyNotMatch(modifiedString, href, false, FailureHandling.STOP_ON_FAILURE)
 
 target = WebUI.getAttribute(findTestObject('OffersPage/OfferRow/inventory CTA'), 'target', FailureHandling.STOP_ON_FAILURE)
 
@@ -92,6 +119,8 @@ target = WebUI.getAttribute(findTestObject('OffersPage/OfferRow/inventory CTA'),
 WebUI.verifyMatch(target, '_blank', false, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('OffersPage/OfferRow/inventory CTA'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.waitForPageLoad(0)
 
 @com.kms.katalon.core.annotation.TearDownIfPassed
 def passed() {

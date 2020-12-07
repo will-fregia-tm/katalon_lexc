@@ -46,6 +46,8 @@ dropdownText = WebUI.getText(findTestObject('OffersPage/OfferRow/row 02 - dropdo
 
 WebUI.mouseOver(findTestObject('OffersPage/OfferRow/row 02 - dropdown button - model-style 1'), FailureHandling.STOP_ON_FAILURE)
 
+WebUI.click(findTestObject('OffersPage/OfferRow/row 02 - dropdown button - model-style 1'), FailureHandling.STOP_ON_FAILURE)
+
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('OffersPage/OfferRow/row 02 - details button'), FailureHandling.STOP_ON_FAILURE)
@@ -74,8 +76,8 @@ WebUI.verifyNotMatch(offerCardText, textWithoutOffer, false, FailureHandling.STO
 
 legalCopy = WebUI.getText(findTestObject('OffersPage/OfferRow/row 02 - offer card 1 - details legal copy'), FailureHandling.STOP_ON_FAILURE)
 
-'legal copy should display copy, including "Lexus"'
-modifiedString = (legalCopy - 'Lexus')
+'legal copy should display copy, including year'
+modifiedString = (legalCopy - '20')
 
 WebUI.verifyNotMatch(modifiedString, legalCopy, false, FailureHandling.STOP_ON_FAILURE)
 
