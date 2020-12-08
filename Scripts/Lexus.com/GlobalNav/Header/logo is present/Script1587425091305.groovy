@@ -19,7 +19,7 @@ WebUI.openBrowser(GlobalVariable.TS_Domain + GlobalVariable.Header)
 
 WebUI.navigateToUrl(GlobalVariable.SC_Domain)
 
-WebUI.verifyElementPresent(findTestObject('GlobalNav/lexus logo'), 5)
+WebUI.verifyElementPresent(findTestObject('GlobalNav/lexus logo'), 5, FailureHandling.OPTIONAL)
 
 @com.kms.katalon.core.annotation.TearDownIfPassed
 def passed() {
