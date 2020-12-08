@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Submit button with valid data -> If all field data is met, submits form and user taken to Thank You Page.
+
+Display Thank you Page
+Shall display Thank-You-Headline and Subheadline
+Shall Display Offer-Card
+will be small-Offer-Card (without CTA)
+Offer-Card shall match Offer from the Offer-Details page
+Shall Display Dealer-Details-Card
+dealerName must be clickable and link to dealer site
+dealerDistance from zip
+dealer Address
+dealer-inventory cta must be clickable and link to dealer inventory page
+dealerPhone 
+if desktop will display dealerPhone 
+if mobile will display Call cta in lieu of phone number
+render Back-CTA and provide the ability to go back to All Offers page
+
+CLICK BACK CTA
+
+When a user tap/clicks on the Back cta
+
+then the system shall:
+
+direct the user to the target url (should be all offers page)</description>
+   <name>Valid submission</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3e268818-064f-498a-af78-5cb014668c02</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>92acd481-a259-4cf6-8c7a-5d04734e7496</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>

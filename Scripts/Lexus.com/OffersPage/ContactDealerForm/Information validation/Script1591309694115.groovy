@@ -48,6 +48,8 @@ WebUI.waitForElementVisible(findTestObject('OffersPage/ContactDealerForm/form he
 
 WebUI.click(findTestObject('OffersPage/ContactDealerForm/submit button'), FailureHandling.STOP_ON_FAILURE)
 
+WebUI.delay(1)
+
 backgroundColor = WebUI.getCSSValue(findTestObject('OffersPage/ContactDealerForm/input field - first name'), 'background-color', 
     FailureHandling.STOP_ON_FAILURE)
 

@@ -47,4 +47,16 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Lexus.com/OffersPage/ContactDealerForm/Selected dealer info - Dealer Name, Dealer Phone Number, and Dealer Address</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>b83c8046-e255-4493-8529-84c0b7f412ca</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/OffersPage/ContactDealerForm/Valid submission</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>92acd481-a259-4cf6-8c7a-5d04734e7496</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>
