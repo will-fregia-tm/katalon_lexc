@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Visits each page in specified list of URLs.</description>
+   <name>no longer supported message appears</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>edd27d3a-3047-41d0-80b5-2f203bea3f11</testCaseGuid>
+   <variable>
+      <defaultValue>1</defaultValue>
+      <description></description>
+      <id>da15f3af-2b0e-40a7-b58d-9f9b7f1a0e3e</id>
+      <masked>false</masked>
+      <name>dataRow</name>
+   </variable>
+   <variable>
+      <defaultValue>1</defaultValue>
+      <description></description>
+      <id>29c67da9-67d3-4cdd-80f0-3e4760b7c176</id>
+      <masked>false</masked>
+      <name>dataColumn</name>
+   </variable>
+   <variable>
+      <defaultValue>5</defaultValue>
+      <description></description>
+      <id>df1a155f-e591-4bf7-acfb-d3a76592be5d</id>
+      <masked>false</masked>
+      <name>pagesChecked</name>
+   </variable>
+   <variable>
+      <defaultValue>1</defaultValue>
+      <description></description>
+      <id>251e6c5e-2090-41fc-b397-450b3ab1a794</id>
+      <masked>false</masked>
+      <name>totalPages</name>
+   </variable>
+</TestCaseEntity>
