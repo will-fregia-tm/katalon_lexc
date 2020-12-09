@@ -51,7 +51,7 @@ if (WebUI.verifyElementPresent(findTestObject('OffersPage/ZipGate/expand CTA'), 
     WebUI.click(findTestObject('OffersPage/SharedMarketOverlay/X button'), FailureHandling.STOP_ON_FAILURE)
 }
 
-WebUI.waitForElementPresent(findTestObject('OffersPage/ZipGate/form input'), 5, FailureHandling.OPTIONAL)
+WebUI.waitForElementPresent(findTestObject('OffersPage/ZipGate/form input'), 5, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('OffersPage/ZipGate/form input'), '00003')
 
