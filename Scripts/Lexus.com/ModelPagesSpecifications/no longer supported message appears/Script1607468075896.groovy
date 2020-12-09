@@ -37,6 +37,8 @@ for (def index : (0..totalPages)) {
         WebUI.navigateToUrl(findTestData(GlobalVariable.DS_version + 'URLsModelPagesSpecifications').getValue(dataColumn, 
                 dataRow))
 
+        WebUI.waitForPageLoad(0)
+
         WebUI.verifyTextPresent('is no longer supported on Lexus.com', false)
     }
     

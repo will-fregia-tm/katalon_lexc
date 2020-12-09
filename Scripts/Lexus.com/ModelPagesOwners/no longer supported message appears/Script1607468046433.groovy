@@ -38,6 +38,8 @@ for (def index : (0..totalPages)) {
     if (WebUI.verifyTextNotPresent('is no longer supported on Lexus.com', false, FailureHandling.OPTIONAL)) {
         WebUI.navigateToUrl(findTestData(GlobalVariable.DS_version + 'URLsModelPagesOwners').getValue(dataColumn, dataRow))
 
+        WebUI.waitForPageLoad(0)
+
         WebUI.verifyTextPresent('is no longer supported on Lexus.com', false)
     }
     
