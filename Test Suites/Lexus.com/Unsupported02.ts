@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>991ad0a1-aadc-4253-82c7-45e8eafaa904</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/ModelPagesGallery/no longer supported message appears</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -44,7 +44,7 @@
    <testCaseLink>
       <guid>a9322fb8-be12-4ad6-a00b-c72c22ba7b41</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/ModelPagesOffers/no longer supported message appears</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>

@@ -31,7 +31,7 @@ for (def index : (0..totalPages)) {
 
         WebUI.waitForPageLoad(0)
 
-        WebUI.verifyTextPresent('is no longer supported on Lexus.com', false)
+        WebUI.verifyTextPresent('is no longer supported on Lexus.com', false, FailureHandling.CONTINUE_ON_FAILURE)
     }
     
     dataRow = (dataRow + 1)
