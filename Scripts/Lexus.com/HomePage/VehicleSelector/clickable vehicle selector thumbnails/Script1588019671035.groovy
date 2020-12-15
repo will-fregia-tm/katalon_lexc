@@ -49,14 +49,14 @@ WebUI.click(findTestObject('HomePage/VehicleSelector/models/Sedans - ESh'), Fail
 WebUI.waitForElementVisible(findTestObject('MSRP/section objects/homepage/vehicle selector/vehicle selector - sedans - ESh starting at price'), 
     0, FailureHandling.OPTIONAL)
 
-WebUI.click(findTestObject('HomePage/VehicleSelector/models/Sedans - GS'))
+not_run: WebUI.click(findTestObject('HomePage/VehicleSelector/models/Sedans - GS'))
 
-WebUI.waitForElementVisible(findTestObject('MSRP/section objects/homepage/vehicle selector/vehicle selector - sedans - GS starting at price'), 
+not_run: WebUI.waitForElementVisible(findTestObject('MSRP/section objects/homepage/vehicle selector/vehicle selector - sedans - GS starting at price'), 
     0, FailureHandling.OPTIONAL)
 
-WebUI.click(findTestObject('HomePage/VehicleSelector/models/Sedans - GS F'))
+not_run: WebUI.click(findTestObject('HomePage/VehicleSelector/models/Sedans - GS F'))
 
-WebUI.waitForElementVisible(findTestObject('MSRP/section objects/homepage/vehicle selector/vehicle selector - sedans - GS F starting at price'), 
+not_run: WebUI.waitForElementVisible(findTestObject('MSRP/section objects/homepage/vehicle selector/vehicle selector - sedans - GS F starting at price'), 
     0, FailureHandling.OPTIONAL)
 
 WebUI.click(findTestObject('HomePage/VehicleSelector/models/Sedans - LS'))
@@ -187,9 +187,9 @@ WebUI.click(findTestObject('HomePage/VehicleSelector/models/Performance - RC F')
 WebUI.waitForElementVisible(findTestObject('MSRP/section objects/homepage/vehicle selector/vehicle selector - performance - RC F starting at price'), 
     0, FailureHandling.OPTIONAL)
 
-WebUI.click(findTestObject('HomePage/VehicleSelector/models/Performance - GS F'))
+not_run: WebUI.click(findTestObject('HomePage/VehicleSelector/models/Performance - GS F'))
 
-WebUI.waitForElementVisible(findTestObject('MSRP/section objects/homepage/vehicle selector/vehicle selector - performance - GS F starting at price'), 
+not_run: WebUI.waitForElementVisible(findTestObject('MSRP/section objects/homepage/vehicle selector/vehicle selector - performance - GS F starting at price'), 
     0, FailureHandling.OPTIONAL)
 
 WebUI.click(findTestObject('HomePage/VehicleSelector/models/Performance - LC'), FailureHandling.STOP_ON_FAILURE)
