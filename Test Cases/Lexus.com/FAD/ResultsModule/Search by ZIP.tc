@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>AC-01 | SEARCH by ZIP
+form field that provides user the ability to look up dealers by zipcodeonly supports up to 5 digits
+when a user submits a zipcode, then the system will
+send pma-proximity-layered call to DISthis call will first search for Dealers in that zipcode
+if no dealers, then will make a series of calls to retrieve Dealers at expanded radius'
+If success (dealer returned) -then system will display all dealers that returned
+dealer order will be match the order of DIS response 
+if fail (no dealers) then display error message</description>
+   <name>Search by ZIP</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>224979ae-ead2-4111-8c7b-f7dfb964a75a</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>cc0d8388-e0eb-49fc-8fa5-083ed6f92935</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>
