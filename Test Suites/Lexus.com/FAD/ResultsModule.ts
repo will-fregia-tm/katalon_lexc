@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>ResultsModule</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>20</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>e0d936be-af89-4bcb-b030-f648e4cce782</testSuiteGuid>
+   <testCaseLink>
+      <guid>f5fde52f-53c5-4c66-8eb9-9b335e7293cc</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/FAD/ResultsModule/ZIP code based result - Hawaii</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f0104add-4853-4f65-bb4c-d17cdc587b89</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>fc0f35cc-5a89-4845-8310-a0b874d4ae23</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/FAD/ResultsModule/ZIP code based result - Puerto Rico</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>1bb983f0-2d17-45f6-8e8d-8d58a83dac76</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>50c7b72b-a81b-4214-88dc-a54f23812d33</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/FAD/ResultsModule/ZIP code based result - Unassigned provides the nearest dealership within a 250 mi radius</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7b25e27e-9ee6-4645-807a-ef509ae33604</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>888718b5-a2c8-46c2-be4b-33ab6bd0e3e7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/FAD/ResultsModule/ZIP code based result</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>cc0d8388-e0eb-49fc-8fa5-083ed6f92935</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

@@ -8,7 +8,7 @@ if no dealers, then will make a series of calls to retrieve Dealers at expanded
 If success (dealer returned) -then system will display all dealers that returned
 dealer order will be match the order of DIS response 
 if fail (no dealers) then display error message</description>
-   <name>Search by ZIP</name>
+   <name>ZIP code based result</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>224979ae-ead2-4111-8c7b-f7dfb964a75a</testCaseGuid>

@@ -41,9 +41,25 @@ WebUI.navigateToUrl(GlobalVariable.AEM_Domain + '/dealers')
 
 WebUI.waitForElementPresent(findTestObject('FAD/ZipGate/search icon'), 0)
 
-WebUI.setText(findTestObject('FAD/ZipGate/zip entry dialog box'), '75218', FailureHandling.STOP_ON_FAILURE)
+WebUI.setText(findTestObject('FAD/ZipGate/zip entry dialog box'), '58102', FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('FAD/ZipGate/search icon'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.waitForElementPresent(findTestObject('FAD/ResultsModule/dealer details link'), 0)
+
+firstDealer = WebUI.getText(findTestObject('FAD/ResultsModule/dealer name'), FailureHandling.STOP_ON_FAILURE)
+
+modifiedString = (firstDealer - 'LEXUS')
+
+WebUI.verifyNotMatch(modifiedString, firstDealer, false, FailureHandling.STOP_ON_FAILURE)
+
+dealerDistance = WebUI.getText(findTestObject('FAD/ResultsModule/dealer distance'), FailureHandling.STOP_ON_FAILURE)
+
+modifiedString = (dealerDistance - 'MI.')
+
+WebUI.verifyLessThanOrEqual(modifiedString, 250, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyGreaterThan(modifiedString, 0, FailureHandling.STOP_ON_FAILURE)
 
 @com.kms.katalon.core.annotation.TearDownIfPassed
 def passed() {
