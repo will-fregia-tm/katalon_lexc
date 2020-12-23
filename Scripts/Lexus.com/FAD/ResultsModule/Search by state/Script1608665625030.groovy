@@ -47,9 +47,25 @@ WebUI.click(findTestObject('FAD/ZipGate/search icon'), FailureHandling.STOP_ON_F
 
 WebUI.waitForElementPresent(findTestObject('FAD/ResultsModule/zipcode tab'), 0)
 
-WebUI.click(findTestObject('FAD/ResultsModule/dealer tab'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('FAD/ResultsModule/state tab'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyElementNotPresent(findTestObject('FAD/ResultsModule/dropdown menu'), 0, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('FAD/ResultsModule/dropdown button'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyElementPresent(findTestObject('FAD/ResultsModule/dropdown menu'), 0, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyElementPresent(findTestObject('FAD/ResultsModule/dropdown menu - Arizona'), 0, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.mouseOver(findTestObject('FAD/ResultsModule/dropdown menu - Arizona'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('FAD/ResultsModule/dropdown menu - Arizona'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForElementPresent(findTestObject('FAD/ResultsModule/dealer name'), 0, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
 firstDealer = WebUI.getText(findTestObject('FAD/ResultsModule/dealer name'), FailureHandling.STOP_ON_FAILURE)
 
@@ -57,11 +73,29 @@ modifiedString = (firstDealer - 'LEXUS')
 
 WebUI.verifyNotMatch(modifiedString, firstDealer, false, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('FAD/ResultsModule/dealer name input field'), 'jim hudson', FailureHandling.STOP_ON_FAILURE)
+dealerAddress = WebUI.getText(findTestObject('FAD/ResultsModule/dealer address'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('FAD/ResultsModule/submit button'), FailureHandling.STOP_ON_FAILURE)
+modifiedString = (dealerAddress - 'AZ')
+
+WebUI.verifyNotMatch(modifiedString, dealerAddress, false, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('FAD/ResultsModule/dropdown button'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForElementPresent(findTestObject('FAD/ResultsModule/dealer details link'), 0, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyElementPresent(findTestObject('FAD/ResultsModule/dropdown menu'), 0, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyElementPresent(findTestObject('FAD/ResultsModule/dropdown menu - California'), 0, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.mouseOver(findTestObject('FAD/ResultsModule/dropdown menu - California'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('FAD/ResultsModule/dropdown menu - California'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.waitForElementPresent(findTestObject('FAD/ResultsModule/dealer name'), 0, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
 secondDealer = WebUI.getText(findTestObject('FAD/ResultsModule/dealer name'), FailureHandling.STOP_ON_FAILURE)
 
@@ -71,23 +105,25 @@ WebUI.verifyNotMatch(modifiedString, secondDealer, false, FailureHandling.STOP_O
 
 WebUI.verifyNotMatch(firstDealer, secondDealer, false, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('FAD/ResultsModule/dealer name input field'), 'lex', FailureHandling.STOP_ON_FAILURE)
+dealerAddress = WebUI.getText(findTestObject('FAD/ResultsModule/dealer address'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('FAD/ResultsModule/submit button'), FailureHandling.STOP_ON_FAILURE)
+modifiedString = (dealerAddress - 'CA')
+
+WebUI.verifyNotMatch(modifiedString, dealerAddress, false, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('FAD/ResultsModule/dropdown button'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForElementPresent(findTestObject('FAD/ResultsModule/dealer details link'), 0, FailureHandling.STOP_ON_FAILURE)
 
-thirdDealer = WebUI.getText(findTestObject('FAD/ResultsModule/dealer name'), FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('FAD/ResultsModule/dropdown menu'), 0, FailureHandling.STOP_ON_FAILURE)
 
-modifiedString = (thirdDealer - 'LEXUS')
+WebUI.verifyElementPresent(findTestObject('FAD/ResultsModule/dropdown menu - Montana'), 0, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyNotMatch(modifiedString, thirdDealer, false, FailureHandling.STOP_ON_FAILURE)
+WebUI.mouseOver(findTestObject('FAD/ResultsModule/dropdown menu - Montana'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyNotMatch(secondDealer, thirdDealer, false, FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('FAD/ResultsModule/dealer name input field'), 'xxx', FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('FAD/ResultsModule/submit button'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('FAD/ResultsModule/dropdown menu - Montana'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForElementPresent(findTestObject('FAD/ResultsModule/no dealer results message'), 0, FailureHandling.STOP_ON_FAILURE)
 

@@ -41,57 +41,47 @@ WebUI.navigateToUrl(GlobalVariable.AEM_Domain + '/dealers')
 
 WebUI.waitForElementPresent(findTestObject('FAD/ZipGate/search icon'), 0)
 
-WebUI.setText(findTestObject('FAD/ZipGate/zip entry dialog box'), '75218', FailureHandling.STOP_ON_FAILURE)
+WebUI.setText(findTestObject('FAD/ZipGate/zip entry dialog box'), '90210', FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('FAD/ZipGate/search icon'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementPresent(findTestObject('FAD/ResultsModule/zipcode tab'), 0)
+WebUI.waitForElementPresent(findTestObject('FAD/ResultsModule/dealer details link'), 0, FailureHandling.OPTIONAL)
 
-WebUI.click(findTestObject('FAD/ResultsModule/dealer tab'), FailureHandling.STOP_ON_FAILURE)
+WebUI.mouseOver(findTestObject('FAD/ResultsModule/dealer pin 01'), FailureHandling.OPTIONAL)
 
-WebUI.waitForElementPresent(findTestObject('FAD/ResultsModule/dealer name'), 0, FailureHandling.STOP_ON_FAILURE)
+not_run: unclickedColor = WebUI.getAttribute(findTestObject('FAD/ResultsModule/dealer pin 01 svg'), 'color', FailureHandling.OPTIONAL)
 
-firstDealer = WebUI.getText(findTestObject('FAD/ResultsModule/dealer name'), FailureHandling.STOP_ON_FAILURE)
+not_run: unclickedColor = WebUI.getCSSValue(findTestObject('FAD/ResultsModule/dealer pin 01 svg'), 'fill', FailureHandling.OPTIONAL)
 
-modifiedString = (firstDealer - 'LEXUS')
+WebUI.verifyElementPresent(findTestObject('FAD/ResultsModule/dealer pin 01 svg'), 0, FailureHandling.OPTIONAL)
 
-WebUI.verifyNotMatch(modifiedString, firstDealer, false, FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.verifyMatch(unclickedColor, '#000000', false, FailureHandling.OPTIONAL)
 
-WebUI.setText(findTestObject('FAD/ResultsModule/dealer name input field'), 'jim hudson', FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.verifyMatch(unclickedColor, 'rgb(164, 139, 91)', false, FailureHandling.OPTIONAL)
 
-WebUI.click(findTestObject('FAD/ResultsModule/submit button'), FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(2, FailureHandling.OPTIONAL)
 
-WebUI.waitForElementPresent(findTestObject('FAD/ResultsModule/dealer details link'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('FAD/ResultsModule/dealer pin 01'), FailureHandling.OPTIONAL)
 
-secondDealer = WebUI.getText(findTestObject('FAD/ResultsModule/dealer name'), FailureHandling.STOP_ON_FAILURE)
+not_run: clickedColor = WebUI.getAttribute(findTestObject('FAD/ResultsModule/dealer pin 01 svg'), 'color', FailureHandling.OPTIONAL)
 
-modifiedString = (secondDealer - 'LEXUS')
+not_run: WebUI.verifyMatch(clickedColor, '#a48b5b', false, FailureHandling.OPTIONAL)
 
-WebUI.verifyNotMatch(modifiedString, secondDealer, false, FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(2, FailureHandling.OPTIONAL)
 
-WebUI.verifyNotMatch(firstDealer, secondDealer, false, FailureHandling.STOP_ON_FAILURE)
+WebUI.mouseOver(findTestObject('FAD/ResultsModule/dealer pin 02'), FailureHandling.OPTIONAL)
 
-WebUI.setText(findTestObject('FAD/ResultsModule/dealer name input field'), 'lex', FailureHandling.STOP_ON_FAILURE)
+not_run: unclickedColor = WebUI.getAttribute(findTestObject('FAD/ResultsModule/dealer pin 02 svg'), 'color', FailureHandling.OPTIONAL)
 
-WebUI.click(findTestObject('FAD/ResultsModule/submit button'), FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.verifyMatch(unclickedColor, '#000000', false, FailureHandling.OPTIONAL)
 
-WebUI.waitForElementPresent(findTestObject('FAD/ResultsModule/dealer details link'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(2, FailureHandling.OPTIONAL)
 
-thirdDealer = WebUI.getText(findTestObject('FAD/ResultsModule/dealer name'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('FAD/ResultsModule/dealer pin 02'), FailureHandling.OPTIONAL)
 
-modifiedString = (thirdDealer - 'LEXUS')
+not_run: clickedColor = WebUI.getAttribute(findTestObject('FAD/ResultsModule/dealer pin 02 svg'), 'color', FailureHandling.OPTIONAL)
 
-WebUI.verifyNotMatch(modifiedString, thirdDealer, false, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.verifyNotMatch(secondDealer, thirdDealer, false, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.setText(findTestObject('FAD/ResultsModule/dealer name input field'), 'xxx', FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('FAD/ResultsModule/submit button'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.waitForElementPresent(findTestObject('FAD/ResultsModule/no dealer results message'), 0, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.verifyElementPresent(findTestObject('FAD/ResultsModule/no dealer results message'), 0, FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.verifyMatch(clickedColor, '#a48b5b', false, FailureHandling.OPTIONAL)
 
 @com.kms.katalon.core.annotation.TearDownIfPassed
 def passed() {

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>AC-04 | NAVIGATE SEARCH OPTION TABS (SAVED SETTINGS)
+user searches will be saved. ie when a user looks up a zipcode 75219 then performs a new lookup by  Dealer Name, and then returns to the zipcode lookup
+the system will:show 75219 in the zipcode bar
+show 75219 zipcode results</description>
+   <name>Navigate search option tabs - saved settings</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5653afad-3857-47b5-98ae-68078850e2be</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>5f99f91f-7cbc-4fe0-babc-edaf4a8ffe1c</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>

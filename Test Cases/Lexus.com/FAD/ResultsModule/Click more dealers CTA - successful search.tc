@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>AC-07 | Click More Dealers CTA
+When a user tap/clicks on the More Dealers CTA at the bottom of a Dealer Results list
+
+Then the system will:
+
+send pma-proximity-layered call to DIS
+this call will make a series of calls to retrieve Dealers at expanded radius
+If sucess (dealer returned - zip 
+if fail (no dealer) then display error message 75103)
+
+</description>
+   <name>Click more dealers CTA - successful search</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>591d8a1b-4b28-4e87-9601-ccd7d94f570a</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>700b2eb5-241a-4206-a38d-a00e30ee4913</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>

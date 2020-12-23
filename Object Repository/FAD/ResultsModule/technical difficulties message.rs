@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>continental US message</name>
+   <name>technical difficulties message</name>
    <tag></tag>
-   <elementGuidId>952af0de-1233-46fe-80b0-1127eaddcab9</elementGuidId>
+   <elementGuidId>a4962dcd-16e1-46fe-9101-cc90ab26eda4</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//p[(contains(text(), 'LEXUS.COM ONLY HAS INFORMATION ABOUT OFFERS IN THE CONTINENTAL UNITED STATES. LOCAL AVAILABILITY AND PRICING MAY VARY, SO WE’LL HELP YOU FIND A LOCAL DEALER') or contains(., 'LEXUS.COM ONLY HAS INFORMATION ABOUT OFFERS IN THE CONTINENTAL UNITED STATES. LOCAL AVAILABILITY AND PRICING MAY VARY, SO WE’LL HELP YOU FIND A LOCAL DEALER'))]</value>
+         <value>//p[(contains(text(), 'OUR APOLOGIES. WE ARE CURRENTLY EXPERIENCING TECHNICAL DIFFICULTIES') or contains(., 'OUR APOLOGIES. WE ARE CURRENTLY EXPERIENCING TECHNICAL DIFFICULTIES'))]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -24,6 +24,6 @@
       <matchCondition>contains</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>LEXUS.COM ONLY HAS INFORMATION ABOUT OFFERS IN THE CONTINENTAL UNITED STATES. LOCAL AVAILABILITY AND PRICING MAY VARY, SO WE’LL HELP YOU FIND A LOCAL DEALER</value>
+      <value>OUR APOLOGIES. WE ARE CURRENTLY EXPERIENCING TECHNICAL DIFFICULTIES</value>
    </webElementProperties>
 </WebElementEntity>

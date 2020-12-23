@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>AC-08 | Dealer Results - Click Pin {desktop only}
+When a user tap/clicks on a dealer pin in the dealer results list
+
+ Then the:
+
+map will recenter on the dealer pin
+the dealer specific Pins will update to goldon map 
+in dealer result list
+dealer details tooltip will appearhas the ability to close the tooltip
+has the ability to navigate to dealer site by clicking on dealer name
+Displays dealer address (as available by DIS)
+Displays dealer phone number (as available by DIS)</description>
+   <name>Click pin</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d8ad8c79-af29-4243-8080-24d3f5032c58</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>47e2dddb-2305-4a62-a823-cbcf9c4fa238</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>

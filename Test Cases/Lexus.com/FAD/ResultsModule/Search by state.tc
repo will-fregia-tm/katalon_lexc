@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>AC-03 | SEARCH by STATE
+provide the ability to select a State from a Dropdownall state present in list - regardless of availability
+PR excluded
+default state: &quot; Select a State&quot;
+When a user selects a state:then the system will locate all dealers in that State
+dealer order will be based on DIS response if dealers in State, then display dealer results 
+if no dealers in state, then display error message </description>
+   <name>Search by state</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e9ab6fbc-cfba-4c81-a5fe-9a81f7c428ba</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>075c5c74-f6a5-41f2-8b80-115e62ebbeb6</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>

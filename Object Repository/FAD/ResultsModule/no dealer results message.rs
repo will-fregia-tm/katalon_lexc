@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>continental US message</name>
+   <name>no dealer results message</name>
    <tag></tag>
-   <elementGuidId>952af0de-1233-46fe-80b0-1127eaddcab9</elementGuidId>
+   <elementGuidId>cca77e97-163f-4006-ad0d-5a8c91225fd6</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//p[(contains(text(), 'LEXUS.COM ONLY HAS INFORMATION ABOUT OFFERS IN THE CONTINENTAL UNITED STATES. LOCAL AVAILABILITY AND PRICING MAY VARY, SO WE’LL HELP YOU FIND A LOCAL DEALER') or contains(., 'LEXUS.COM ONLY HAS INFORMATION ABOUT OFFERS IN THE CONTINENTAL UNITED STATES. LOCAL AVAILABILITY AND PRICING MAY VARY, SO WE’LL HELP YOU FIND A LOCAL DEALER'))]</value>
+         <value>//p[(contains(text(), concat('WE' , &quot;'&quot; , 'VE ENCOUNTERED A PROBLEM FINDING DEALERS IN YOUR AREA')) or contains(., concat('WE' , &quot;'&quot; , 'VE ENCOUNTERED A PROBLEM FINDING DEALERS IN YOUR AREA')))]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -24,6 +24,6 @@
       <matchCondition>contains</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>LEXUS.COM ONLY HAS INFORMATION ABOUT OFFERS IN THE CONTINENTAL UNITED STATES. LOCAL AVAILABILITY AND PRICING MAY VARY, SO WE’LL HELP YOU FIND A LOCAL DEALER</value>
+      <value>WE'VE ENCOUNTERED A PROBLEM FINDING DEALERS IN YOUR AREA</value>
    </webElementProperties>
 </WebElementEntity>

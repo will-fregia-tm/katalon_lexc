@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>if Elite dealer exists is in the  list Elite badge (icon and text) as defined in the CMS will appear under the dealers name
+display Lexus Elite Dealers messaging at the bottom of the results list</description>
+   <name>Elite dealer result</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f71c8ee5-f9d8-4ba1-ac72-49df3ba2b321</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>eff62e28-03a9-4040-92f5-c43ec3c75cec</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>
