@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>DealerDetails</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>20</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>2f62436d-1b28-4579-8555-c1644a761fb0</testSuiteGuid>
+   <testCaseLink>
+      <guid>41e3bdd0-ac6e-4864-8c4f-3b7232892171</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/FAD/DealerDetails/Contact Module - Information Column</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>bb1ec95b-e45d-4081-be60-1ad7450a6643</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f10695b9-16d7-41a2-a90b-2ef0c560a4e3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/FAD/DealerDetails/Contact Module - Key Contacts</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>b65c5790-b1b8-4972-b8c7-513dd2d22fd6</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ec0e2ddb-6083-4493-b650-2c1e9520177a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/FAD/DealerDetails/Contact Module - Sales Column - Dealer eProcess</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d2ea0d65-59e5-4f47-8e13-45dc80101127</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>887c73d3-7b14-4396-9ec8-a09121ff2bef</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/FAD/DealerDetails/Contact Module - Sales Column - Dealer Inspire</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>6714400c-6422-42ea-9c7e-8b18f4c6c8c6</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>73a84ea1-aad6-4e6f-b305-930ce4503bf4</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/FAD/DealerDetails/Contact Module - Sales Column - Dealer.com</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ea41fb54-aae6-4ce4-8dd7-e405eb4e3a15</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3554baae-b2aa-4ef3-b6d7-486f644cb781</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/FAD/DealerDetails/Contact Module - Sales Column - DealerOn</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>72279d9f-1d03-42aa-8798-031868456c00</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>63edfffd-3018-4201-b814-53f6cf646f01</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/FAD/DealerDetails/Contact Module - Service Column</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>07dd1c91-5e3d-4db4-aad4-3d3f075817ff</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

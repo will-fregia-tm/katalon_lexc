@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>AC.02: CONTACT CARD DATA
+Contact-Name
+Contact-Title
+Contact-Imageoptional
+if empty system will inherit default-contact-imgage
+Contact-Phone
+Contact-Email 
+
+AC.03: CONTACT CARD LINKS
+if a user clicks on the Contacts phone number, then the system shall call the contact number
+if a user clicks on the Email-Link-Label then the system shalllaunch the devices native email-app
+prepotulate the recipient filed with the contacts email address
+</description>
+   <name>Contact Module - Key Contacts</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cadb4b44-77a7-4a74-a94d-234440f28880</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>b65c5790-b1b8-4972-b8c7-513dd2d22fd6</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>

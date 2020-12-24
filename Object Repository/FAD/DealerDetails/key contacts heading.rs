@@ -1,33 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>dealer pin 02 svg</name>
+   <name>key contacts heading</name>
    <tag></tag>
-   <elementGuidId>4c0cd734-7ca1-4719-b26f-e4839dc03cbd</elementGuidId>
+   <elementGuidId>8165382b-87cd-46f7-8c4e-d9418f951ced</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//*[@id = 'page']//button[contains(@aria-label, 'Pin for')])[2]/svg</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
-         <value>//button[contains(@aria-label, 'Pin for')]</value>
+         <value>//h3[(contains(text(), 'KEY CONTACTS') or contains(., 'KEY CONTACTS'))]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
+      <value>h3</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>contains</matchCondition>
-      <name>aria-label</name>
+      <name>text</name>
       <type>Main</type>
-      <value>Pin for</value>
+      <value>KEY CONTACTS</value>
    </webElementProperties>
 </WebElementEntity>

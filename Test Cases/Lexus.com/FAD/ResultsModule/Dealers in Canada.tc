@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>AC-10 | Dealers in Canada Link
+Dealers in Canada link will always display at the bottom of the dealer results list
+if a user tap/clicks on the Canada link, then the system will:open a new tab
+navigate the user to Lexus.ca dealers site</description>
+   <name>Dealers in Canada</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>abcb1375-b842-47c0-b2f8-d1b94aa73a80</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>d530270a-f7fc-4bb1-aafe-ba1f4fcb6b94</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>

@@ -182,7 +182,7 @@
    <testCaseLink>
       <guid>11457a2f-63b4-4e17-b532-f197bed085a7</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Lexus.com/FAD/ResultsModule/Click pin</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -201,6 +201,18 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>26d1a088-a120-469a-8b7a-ae5c9622f710</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>33aaa255-e010-4ef2-ba9e-30990581acdf</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/FAD/ResultsModule/Dealers in Canada</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d530270a-f7fc-4bb1-aafe-ba1f4fcb6b94</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

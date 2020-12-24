@@ -45,43 +45,65 @@ WebUI.setText(findTestObject('FAD/ZipGate/zip entry dialog box'), '90210', Failu
 
 WebUI.click(findTestObject('FAD/ZipGate/search icon'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementPresent(findTestObject('FAD/ResultsModule/dealer details link'), 0, FailureHandling.OPTIONAL)
+WebUI.waitForElementPresent(findTestObject('FAD/ResultsModule/dealer details link'), 0, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.mouseOver(findTestObject('FAD/ResultsModule/dealer pin 01'), FailureHandling.OPTIONAL)
+WebUI.mouseOver(findTestObject('FAD/ResultsModule/dealer pin 01'), FailureHandling.STOP_ON_FAILURE)
 
-not_run: unclickedColor = WebUI.getAttribute(findTestObject('FAD/ResultsModule/dealer pin 01 svg'), 'color', FailureHandling.OPTIONAL)
+unclickedColor = WebUI.getAttribute(findTestObject('FAD/ResultsModule/dealer pin svg'), 'color', FailureHandling.STOP_ON_FAILURE)
 
-not_run: unclickedColor = WebUI.getCSSValue(findTestObject('FAD/ResultsModule/dealer pin 01 svg'), 'fill', FailureHandling.OPTIONAL)
+WebUI.verifyMatch(unclickedColor, '#000000', false, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('FAD/ResultsModule/dealer pin 01 svg'), 0, FailureHandling.OPTIONAL)
+WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
-not_run: WebUI.verifyMatch(unclickedColor, '#000000', false, FailureHandling.OPTIONAL)
+WebUI.verifyElementNotPresent(findTestObject('FAD/ResultsModule/dealer details tooltip'), 0, FailureHandling.STOP_ON_FAILURE)
 
-not_run: WebUI.verifyMatch(unclickedColor, 'rgb(164, 139, 91)', false, FailureHandling.OPTIONAL)
+WebUI.click(findTestObject('FAD/ResultsModule/dealer pin 01'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(2, FailureHandling.OPTIONAL)
+clickedColor = WebUI.getAttribute(findTestObject('FAD/ResultsModule/dealer pin svg'), 'color', FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('FAD/ResultsModule/dealer pin 01'), FailureHandling.OPTIONAL)
+WebUI.verifyMatch(clickedColor, '#a48b5b', false, FailureHandling.STOP_ON_FAILURE)
 
-not_run: clickedColor = WebUI.getAttribute(findTestObject('FAD/ResultsModule/dealer pin 01 svg'), 'color', FailureHandling.OPTIONAL)
+WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
-not_run: WebUI.verifyMatch(clickedColor, '#a48b5b', false, FailureHandling.OPTIONAL)
+WebUI.verifyElementPresent(findTestObject('FAD/ResultsModule/dealer details tooltip'), 0, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(2, FailureHandling.OPTIONAL)
+WebUI.verifyElementPresent(findTestObject('FAD/ResultsModule/dealer details tooltip name'), 0, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.mouseOver(findTestObject('FAD/ResultsModule/dealer pin 02'), FailureHandling.OPTIONAL)
+WebUI.getText(findTestObject('FAD/ResultsModule/dealer details tooltip name'), FailureHandling.OPTIONAL)
 
-not_run: unclickedColor = WebUI.getAttribute(findTestObject('FAD/ResultsModule/dealer pin 02 svg'), 'color', FailureHandling.OPTIONAL)
+WebUI.verifyElementPresent(findTestObject('FAD/ResultsModule/dealer details tooltip address'), 0, FailureHandling.STOP_ON_FAILURE)
 
-not_run: WebUI.verifyMatch(unclickedColor, '#000000', false, FailureHandling.OPTIONAL)
+WebUI.getText(findTestObject('FAD/ResultsModule/dealer details tooltip address'), FailureHandling.OPTIONAL)
 
-WebUI.delay(2, FailureHandling.OPTIONAL)
+WebUI.verifyElementPresent(findTestObject('FAD/ResultsModule/dealer details tooltip phone number'), 0, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('FAD/ResultsModule/dealer pin 02'), FailureHandling.OPTIONAL)
+WebUI.verifyElementPresent(findTestObject('FAD/ResultsModule/dealer details tooltip close button'), 0, FailureHandling.STOP_ON_FAILURE)
 
-not_run: clickedColor = WebUI.getAttribute(findTestObject('FAD/ResultsModule/dealer pin 02 svg'), 'color', FailureHandling.OPTIONAL)
+WebUI.click(findTestObject('FAD/ResultsModule/dealer details tooltip close button'), FailureHandling.STOP_ON_FAILURE)
 
-not_run: WebUI.verifyMatch(clickedColor, '#a48b5b', false, FailureHandling.OPTIONAL)
+WebUI.mouseOver(findTestObject('FAD/ResultsModule/dealer pin 02'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyElementNotPresent(findTestObject('FAD/ResultsModule/dealer details tooltip'), 0, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('FAD/ResultsModule/dealer pin 02'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('FAD/ResultsModule/dealer pin 01'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.waitForElementPresent(findTestObject('FAD/ResultsModule/dealer details tooltip'), 0, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyElementPresent(findTestObject('FAD/ResultsModule/dealer details tooltip'), 0, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.mouseOver(findTestObject('FAD/ResultsModule/dealer details tooltip name'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('FAD/ResultsModule/dealer details tooltip name'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.waitForPageLoad(0, FailureHandling.STOP_ON_FAILURE)
 
 @com.kms.katalon.core.annotation.TearDownIfPassed
 def passed() {

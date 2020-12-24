@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>AC.03: SERVICE column
+System shall only render the column if the Data set is returned from dealer-endpoint
+
+Titleas defined in the CMS
+currently: Service
+Data required from dealer serviceDealer Operation hoursdayofWeekCode
+availabilityStartTimeMeasure 
+availabilityEndTimeMeasurewill consolidate array of values into day and time ranges if they are the same values
+if availabilityStartTime and availabilityEndTime are empty then the dealership is not open that day and the system will not display that day in the column
+Dealer-Inventory Link
+Default-Textn/a
+Link-nameas defined by the CMS
+currently: See Inventory
+Link-url:open bing maps
+target destination with dealer address
+</description>
+   <name>Contact Module - Service Column</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bbaab466-5899-4c5a-81fd-b9f36b7d85a3</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>07dd1c91-5e3d-4db4-aad4-3d3f075817ff</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>

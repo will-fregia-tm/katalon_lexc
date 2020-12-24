@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>AC.02: INFORMATION column
+Title:as defined in the CMS
+currently: Information
+Data required from dealer service:Dealer-Address
+Dealer-Phone
+Spanish speaking dealer flag &quot;Se Habla Español&quot;
+Default-Text: n/a
+Link-nameas defined by the CMS
+currently: Directions
+Link-url:open bing maps
+target destination with dealer address</description>
+   <name>Contact Module - Information Column</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>01eadfa6-d0f1-4fcd-97bf-2201d7cb9afc</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>bb1ec95b-e45d-4081-be60-1ad7450a6643</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>

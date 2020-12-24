@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>AC.03: SALES column
+System shall only render the column if the Data set is returned from dealer-endpoint
+
+Titleas defined in the CMS
+currently: Sales
+Data required from dealer serviceDealer Operation hoursdayofWeekCode
+availabilityStartTimeMeasure 
+availabilityEndTimeMeasurewill consolidate array of values into day and time ranges if they are the same values
+if availabilityStartTime and availabilityEndTime are empty then the dealership is not open that day and the system will not display that day in the column
+Dealer-Inventory Link
+Default-Textas defined in the CMS
+currently Call for Info
+Link-nameas defined by the CMS
+currently: See Inventory
+Link-url:open bing maps
+target destination with dealer address</description>
+   <name>Contact Module - Sales Column - Dealer.com</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5e0d5309-a8e6-466b-83bb-ffa03e02db2c</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>ea41fb54-aae6-4ce4-8dd7-e405eb4e3a15</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>
