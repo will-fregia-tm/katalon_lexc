@@ -136,7 +136,7 @@
          <configuration>
             <groupName>Custom</groupName>
             <profileName>origin staging</profileName>
-            <runConfigurationId>saucelabs_firefox_macos10.15</runConfigurationId>
+            <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/FAD/DealerDetails</testSuiteEntity>

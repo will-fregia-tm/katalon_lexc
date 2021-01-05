@@ -95,4 +95,28 @@
          <variableId>07dd1c91-5e3d-4db4-aad4-3d3f075817ff</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>d59f87b9-197c-4eda-a0f4-de7eba8cc3be</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/FAD/DealerDetails/Dealer Location - CTAs</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>fdb55c3d-1c09-40f7-bd41-7e69c1fdb055</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>19e59018-a54c-4c79-a1b8-6818c8308eeb</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/FAD/DealerDetails/Dealer Location - Map</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c5bb8dee-1396-4b37-b672-4afb2bee99db</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>

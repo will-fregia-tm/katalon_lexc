@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>AC.03: CTAs
+dealer-site cta,  shall navigate the user to the dealer website as defined by the dealer services and the CMS
+contact-dealer cta, shall navigate the user to dealers contact page as defined by the dealer services and the CMS</description>
+   <name>Dealer Location - CTAs</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>157b0e70-bc59-45c5-a52d-05cfa9df3ec6</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>fdb55c3d-1c09-40f7-bd41-7e69c1fdb055</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>

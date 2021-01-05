@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>AC.02: Map
+module title will appear centered above the map
+Asset-container shall display a map of the dealers location
+The dealer location pin shall be centered in the Asset-Container 
+shall have the ability to zoom in and out of map</description>
+   <name>Dealer Location - Map</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7544bc9c-6249-4818-9fd3-27a4193d268b</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>c5bb8dee-1396-4b37-b672-4afb2bee99db</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>
