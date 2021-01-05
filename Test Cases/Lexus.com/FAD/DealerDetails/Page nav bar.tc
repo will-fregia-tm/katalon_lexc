@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>AC.01: PAGE-NAV-BAR
+CMS
+
+set back to dealer label
+Functional
+
+If a user clicks on back cta, then the system will navigate user back to the Dealer-Results page</description>
+   <name>Page nav bar</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9a2c1034-599b-43da-bbb0-4ff4c6f0d58c</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>b596b60e-c92d-496e-b151-c78116a75c52</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>

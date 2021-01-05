@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>AC.02: PAGE-TITLE
+Page Title shall be centered on page
+Page Title should come from Dealer Services and is DealerShip Name
+If Elite or Lexus Plus Dealer, then title will have Elite Dealer Badge</description>
+   <name>Page title</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d789cbe6-6c56-4497-80c2-29d97e4849c3</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>87655d90-e708-4fc4-aeb2-a3fedbf639c9</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>

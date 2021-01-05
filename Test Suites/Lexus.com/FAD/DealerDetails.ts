@@ -119,4 +119,52 @@
          <variableId>c5bb8dee-1396-4b37-b672-4afb2bee99db</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>a1f9e0a9-0d79-4d3c-a4c7-477afd7c0435</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/FAD/DealerDetails/Gallery</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d4570a52-77b0-4581-aa90-644c1f926eda</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a2fcde70-a22f-400c-bb65-513217d8a4a7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/FAD/DealerDetails/Page nav bar</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>b596b60e-c92d-496e-b151-c78116a75c52</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>120d442d-a72d-476c-b558-f340d4f68e0e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/FAD/DealerDetails/Page title</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>87655d90-e708-4fc4-aeb2-a3fedbf639c9</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a2338520-b129-4b9b-93bd-8d86ded26cb1</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/FAD/DealerDetails/Service Module - Elite Dealer</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>b2a95b85-f77a-4052-8833-281316daa34c</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>AC.02 - Dealer Use Cases Logic
+module shall render different variations based on returned dealer flags from the Dealer Services
+
+
+if Elite Dealer flag is on, then shall display Elite Dealer service listElite Dealer service will appear must second block
+all other Service details will appear in the order they are defined in the CMS</description>
+   <name>Service Module - Elite Dealer</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9cca650c-8d78-472e-9d8e-3e821593566d</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>b2a95b85-f77a-4052-8833-281316daa34c</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>

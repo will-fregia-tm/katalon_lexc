@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>AC.08: DEALER-GALLERY
+CMS will provide ability to define module/section titleFunctional:
+Images will be hosted by TeamOne
+Image/link will be provided by dealer service
+If no images are present then the gallery module will not render
+Images will appear in order they are retunred form Dealer Service
+Will leverage Gallery Module (from MPR - LAM-927)</description>
+   <name>Gallery</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2ab4b0f2-6e8d-46cd-9f80-514fcd3b5fa2</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>d4570a52-77b0-4581-aa90-644c1f926eda</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>
