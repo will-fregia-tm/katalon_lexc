@@ -28,7 +28,7 @@
          <configuration>
             <groupName>Custom</groupName>
             <profileName>dev</profileName>
-            <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
+            <runConfigurationId>saucelabs_firefox_macos10.15</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/FAD/ZipGate-Results</testSuiteEntity>
@@ -63,7 +63,7 @@
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Custom</groupName>
-            <profileName>origin staging</profileName>
+            <profileName>staging</profileName>
             <runConfigurationId>saucelabs_chrome_macos10.15</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
@@ -72,7 +72,7 @@
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Custom</groupName>
-            <profileName>origin staging</profileName>
+            <profileName>staging</profileName>
             <runConfigurationId>saucelabs_chrome_win7</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
@@ -81,8 +81,8 @@
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Custom</groupName>
-            <profileName>origin staging</profileName>
-            <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
+            <profileName>staging</profileName>
+            <runConfigurationId>saucelabs_chrome_macos10.14</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/FAD/ZipGate-Results</testSuiteEntity>
@@ -90,8 +90,8 @@
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Custom</groupName>
-            <profileName>origin staging</profileName>
-            <runConfigurationId>saucelabs_chrome_macos10.15</runConfigurationId>
+            <profileName>staging</profileName>
+            <runConfigurationId>saucelabs_chrome_win7</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/FAD/DealerDetails</testSuiteEntity>
@@ -99,8 +99,8 @@
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Custom</groupName>
-            <profileName>origin staging</profileName>
-            <runConfigurationId>saucelabs_edge_win10</runConfigurationId>
+            <profileName>staging</profileName>
+            <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/FAD/ResultsModule</testSuiteEntity>
@@ -108,8 +108,8 @@
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Custom</groupName>
-            <profileName>origin staging</profileName>
-            <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
+            <profileName>staging</profileName>
+            <runConfigurationId>saucelabs_edge_win10</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/FAD/ZipGate-Results</testSuiteEntity>
@@ -117,8 +117,8 @@
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Custom</groupName>
-            <profileName>origin staging</profileName>
-            <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
+            <profileName>staging</profileName>
+            <runConfigurationId>saucelabs_edge_win10</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/FAD/DealerDetails</testSuiteEntity>
@@ -126,8 +126,8 @@
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Custom</groupName>
-            <profileName>origin staging</profileName>
-            <runConfigurationId>saucelabs_edge_win10</runConfigurationId>
+            <profileName>staging</profileName>
+            <runConfigurationId>saucelabs_chrome_macos10.14</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/FAD/ResultsModule</testSuiteEntity>
@@ -135,7 +135,7 @@
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Custom</groupName>
-            <profileName>origin staging</profileName>
+            <profileName>staging</profileName>
             <runConfigurationId>saucelabs_firefox_win10</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>

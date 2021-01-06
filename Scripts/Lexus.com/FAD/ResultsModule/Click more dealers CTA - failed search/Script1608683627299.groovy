@@ -51,7 +51,7 @@ WebUI.mouseOver(findTestObject('FAD/ResultsModule/expand search CTA'), FailureHa
 
 WebUI.click(findTestObject('FAD/ResultsModule/expand search CTA'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementPresent(findTestObject('FAD/ResultsModule/no dealer results message'), 0, FailureHandling.STOP_ON_FAILURE)
 
