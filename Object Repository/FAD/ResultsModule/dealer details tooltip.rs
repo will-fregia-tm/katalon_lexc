@@ -6,12 +6,11 @@
    <elementGuidId>a6669523-0581-451d-8027-952ef9029f35</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div[class*=&quot;gm-style-iw &quot;][style*=&quot;padding-right&quot;]</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>CSS</key>
+         <value>div[class*=&quot;gm-style-iw gm-style-iw-c&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

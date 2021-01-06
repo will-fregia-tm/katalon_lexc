@@ -93,13 +93,13 @@ modifiedString = (imagePath - '.jpg')
 'verifies there\'s a file for the contact image'
 WebUI.verifyNotMatch(modifiedString, imagePath, false, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('FAD/DealerDetails/contact email'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.delay(4)
-
 WebUI.click(findTestObject('FAD/DealerDetails/contact phone'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(4)
+WebUI.delay(3)
+
+WebUI.click(findTestObject('FAD/DealerDetails/contact email'), FailureHandling.OPTIONAL)
+
+WebUI.delay(3)
 
 @com.kms.katalon.core.annotation.TearDownIfPassed
 def passed() {

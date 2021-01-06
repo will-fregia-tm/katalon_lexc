@@ -57,7 +57,7 @@ WebUI.verifyElementPresent(findTestObject('FAD/ResultsModule/dropdown menu'), 0,
 
 WebUI.verifyElementPresent(findTestObject('FAD/ResultsModule/dropdown menu - Arizona'), 0, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.mouseOver(findTestObject('FAD/ResultsModule/dropdown menu - Arizona'), FailureHandling.STOP_ON_FAILURE)
+WebUI.mouseOver(findTestObject('FAD/ResultsModule/dropdown menu - Arizona'), FailureHandling.OPTIONAL)
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
@@ -87,7 +87,7 @@ WebUI.verifyElementPresent(findTestObject('FAD/ResultsModule/dropdown menu'), 0,
 
 WebUI.verifyElementPresent(findTestObject('FAD/ResultsModule/dropdown menu - California'), 0, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.mouseOver(findTestObject('FAD/ResultsModule/dropdown menu - California'), FailureHandling.STOP_ON_FAILURE)
+WebUI.mouseOver(findTestObject('FAD/ResultsModule/dropdown menu - California'), FailureHandling.OPTIONAL)
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
@@ -119,7 +119,7 @@ WebUI.verifyElementPresent(findTestObject('FAD/ResultsModule/dropdown menu'), 0,
 
 WebUI.verifyElementPresent(findTestObject('FAD/ResultsModule/dropdown menu - Montana'), 0, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.mouseOver(findTestObject('FAD/ResultsModule/dropdown menu - Montana'), FailureHandling.STOP_ON_FAILURE)
+WebUI.mouseOver(findTestObject('FAD/ResultsModule/dropdown menu - Montana'), FailureHandling.OPTIONAL)
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 

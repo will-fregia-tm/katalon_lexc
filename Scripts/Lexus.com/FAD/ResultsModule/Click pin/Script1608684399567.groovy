@@ -47,7 +47,7 @@ WebUI.click(findTestObject('FAD/ZipGate/search icon'), FailureHandling.STOP_ON_F
 
 WebUI.waitForElementPresent(findTestObject('FAD/ResultsModule/dealer details link'), 0, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.mouseOver(findTestObject('FAD/ResultsModule/dealer pin 01'), FailureHandling.STOP_ON_FAILURE)
+WebUI.mouseOver(findTestObject('FAD/ResultsModule/dealer pin 01'), FailureHandling.OPTIONAL)
 
 unclickedColor = WebUI.getAttribute(findTestObject('FAD/ResultsModule/dealer pin svg'), 'color', FailureHandling.STOP_ON_FAILURE)
 
@@ -81,7 +81,7 @@ WebUI.verifyElementPresent(findTestObject('FAD/ResultsModule/dealer details tool
 
 WebUI.click(findTestObject('FAD/ResultsModule/dealer details tooltip close button'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.mouseOver(findTestObject('FAD/ResultsModule/dealer pin 02'), FailureHandling.STOP_ON_FAILURE)
+WebUI.mouseOver(findTestObject('FAD/ResultsModule/dealer pin 02'), FailureHandling.OPTIONAL)
 
 WebUI.verifyElementNotPresent(findTestObject('FAD/ResultsModule/dealer details tooltip'), 0, FailureHandling.STOP_ON_FAILURE)
 
@@ -97,7 +97,7 @@ WebUI.waitForElementPresent(findTestObject('FAD/ResultsModule/dealer details too
 
 WebUI.verifyElementPresent(findTestObject('FAD/ResultsModule/dealer details tooltip'), 0, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.mouseOver(findTestObject('FAD/ResultsModule/dealer details tooltip name'), FailureHandling.STOP_ON_FAILURE)
+WebUI.mouseOver(findTestObject('FAD/ResultsModule/dealer details tooltip name'), FailureHandling.OPTIONAL)
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 

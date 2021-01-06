@@ -72,6 +72,8 @@ WebUI.waitForPageLoad(0)
 
 WebUI.switchToWindowIndex(1, FailureHandling.STOP_ON_FAILURE)
 
+WebUI.delay(2)
+
 windowTitle = WebUI.getWindowTitle(FailureHandling.STOP_ON_FAILURE)
 
 modifiedString = (windowTitle - 'Schedule')

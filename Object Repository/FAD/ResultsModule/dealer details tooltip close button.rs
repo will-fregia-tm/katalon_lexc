@@ -6,12 +6,11 @@
    <elementGuidId>bfa75b2f-ce86-4807-90fd-bd22e695631b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div[class*=&quot;gm-style-iw &quot;][style*=&quot;padding-right&quot;] button[aria-label*=&quot;Close&quot;]</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>CSS</key>
+         <value>div[class*=&quot;gm-style-iw gm-style-iw-c&quot;] button[aria-label*=&quot;Close&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

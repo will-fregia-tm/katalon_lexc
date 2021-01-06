@@ -62,7 +62,7 @@ modifiedString = (dealerSite - '.com')
 'verifies that a link to dealer\'s website is included in the dealer site URL'
 WebUI.verifyNotMatch(modifiedString, dealerSite, false, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.mouseOver(findTestObject('FAD/DealerDetails/dealer site CTA'), FailureHandling.STOP_ON_FAILURE)
+WebUI.mouseOver(findTestObject('FAD/DealerDetails/dealer site CTA'), FailureHandling.OPTIONAL)
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
@@ -90,7 +90,7 @@ modifiedString = (dealerContact - '.com')
 'verifies that a link to dealer\'s website is included in the contact URL'
 WebUI.verifyNotMatch(modifiedString, dealerContact, false, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.mouseOver(findTestObject('FAD/DealerDetails/contact dealer CTA'), FailureHandling.STOP_ON_FAILURE)
+WebUI.mouseOver(findTestObject('FAD/DealerDetails/contact dealer CTA'), FailureHandling.OPTIONAL)
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 

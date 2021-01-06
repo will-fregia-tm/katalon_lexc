@@ -47,7 +47,7 @@ WebUI.click(findTestObject('FAD/ZipGate/search icon'), FailureHandling.STOP_ON_F
 
 WebUI.waitForElementPresent(findTestObject('FAD/ResultsModule/expand search CTA'), 0, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.mouseOver(findTestObject('FAD/ResultsModule/expand search CTA'), FailureHandling.STOP_ON_FAILURE)
+WebUI.mouseOver(findTestObject('FAD/ResultsModule/expand search CTA'), FailureHandling.OPTIONAL)
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 

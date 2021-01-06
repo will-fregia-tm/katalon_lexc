@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>dev</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://lexus_user:G0rill@23@staging.lexus.com'</initValue>
+      <name>TS_Domain</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://lexus_user:G0rill@23@staging.lexus.com'</initValue>
+      <name>SC_Domain</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://staging.lexus.com'</initValue>
+      <name>TS_Domain_Unauthenticated</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://staging.lexus.com'</initValue>
+      <name>SC_Domain_Unauthenticated</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Dev,FAD'</initValue>
+      <name>profileTags</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://dev-aem-lcom.origin.cepo-proxy.tms.aws.lexus.com'</initValue>
+      <name>AEM_Domain</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'staging'</initValue>
+      <name>domain</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

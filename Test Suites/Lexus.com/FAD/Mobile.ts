@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>ZipGate</name>
+   <name>Mobile</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,9 +10,9 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>1bf89d36-f7f0-4b3e-a9e5-27dfcc7fffaf</testSuiteGuid>
+   <testSuiteGuid>8da873b3-c712-46c2-937f-9c362ccc0bd4</testSuiteGuid>
    <testCaseLink>
-      <guid>f503df53-9c95-4c46-8113-5cd758808b99</guid>
+      <guid>c36d984d-5cb0-4d19-a8bb-4ad88e5aa9dd</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Lexus.com/FAD/ZipGate/Default State</testCaseId>
@@ -24,7 +24,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>fd4d6095-0c99-427f-825e-9078cfae0a41</guid>
+      <guid>6bacec73-d7a3-4935-9c47-2c63eb7f1bdd</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Lexus.com/FAD/ZipGate/Form validation</testCaseId>
@@ -36,63 +36,51 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>88f059c5-94c6-44f1-8416-5cbb8a7547ec</guid>
+      <guid>d618c155-e10b-484a-9102-a55d4cef1553</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/FAD/ZipGate/Hawaii</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/FAD/ResultsModule/ZIP code based result</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>9ea5e10e-6bd4-4b8e-bfd7-eb0e8a0f4d98</variableId>
+         <variableId>cc0d8388-e0eb-49fc-8fa5-083ed6f92935</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>3fe64b85-7b9d-44f1-a8ee-3e44f37f954c</guid>
+      <guid>c675138c-dd00-4ff0-98e7-dc9cddf679e8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/FAD/ZipGate/Invalid ZIP</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/FAD/ResultsModule/Click more dealers CTA - successful search</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>baaebc4d-c8ad-4927-9ff1-2802ae2dcbf4</variableId>
+         <variableId>700b2eb5-241a-4206-a38d-a00e30ee4913</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>a7fea209-9f5c-4b41-b7ec-750d15da9d20</guid>
+      <guid>c5b9e762-c400-4f10-a4e9-017c895cece8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/FAD/ZipGate/No dealer results</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/FAD/DealerDetails/Page title</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>89e27a46-1401-4199-be4b-c7dd924f8772</variableId>
+         <variableId>87655d90-e708-4fc4-aeb2-a3fedbf639c9</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>e5810172-c04b-40fc-83c3-b06e6cd3aaa2</guid>
+      <guid>111b77d6-f518-42c7-a06a-d9a6a1dc2ef5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/FAD/ZipGate/Puerto Rico</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/FAD/DealerDetails/Contact Module - Sales Column - Dealer Inspire</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>558ac55a-20f7-4a72-99b5-60773394330a</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>827ac8a3-4ef0-4cf0-9e69-a9120e6d659e</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/FAD/ZipGate/Technical difficulties</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>96eeb948-877b-477c-a8f8-4e0290eb4af0</variableId>
+         <variableId>6714400c-6422-42ea-9c7e-8b18f4c6c8c6</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
