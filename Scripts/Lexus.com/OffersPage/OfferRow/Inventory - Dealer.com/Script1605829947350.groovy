@@ -26,7 +26,7 @@ trimCode1 = WS.getElementPropertyValue(response, 'offers.Atlanta.trims[0].trimCo
 
 trimCode2 = WS.getElementPropertyValue(response, 'offers.Atlanta.trims[1].trimCode[0]', FailureHandling.OPTIONAL)
 
-trimCode3 = WS.getElementPropertyValue(response, 'offers.Atlanta.trims[2].trimCode[0]', FailureHandling.OPTIONAL)
+not_run: trimCode3 = WS.getElementPropertyValue(response, 'offers.Atlanta.trims[2].trimCode[0]', FailureHandling.OPTIONAL)
 
 WebUI.openBrowser(GlobalVariable.SSO_login, FailureHandling.STOP_ON_FAILURE)
 
@@ -103,9 +103,9 @@ modifiedString = (href - trimCode2)
 WebUI.verifyNotMatch(modifiedString, href, false, FailureHandling.STOP_ON_FAILURE)
 
 'dealer inventory link should include this specific trim code'
-modifiedString = (href - trimCode3)
+not_run: modifiedString = (href - trimCode3)
 
-WebUI.verifyNotMatch(modifiedString, href, false, FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.verifyNotMatch(modifiedString, href, false, FailureHandling.STOP_ON_FAILURE)
 
 target = WebUI.getAttribute(findTestObject('OffersPage/OfferRow/inventory CTA'), 'target', FailureHandling.STOP_ON_FAILURE)
 

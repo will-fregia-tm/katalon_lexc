@@ -75,7 +75,7 @@ WebUI.click(findTestObject('OffersPage/FilterBar/model checkbox - UXh'), Failure
 
 WebUI.click(findTestObject('OffersPage/FilterBar/model checkbox - NX'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('OffersPage/FilterBar/model checkbox - NXh'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('OffersPage/FilterBar/model checkbox - NXh'), FailureHandling.OPTIONAL)
 
 WebUI.click(findTestObject('OffersPage/FilterBar/model checkbox - RX'), FailureHandling.STOP_ON_FAILURE)
 
