@@ -41,7 +41,7 @@ WebUI.navigateToUrl(GlobalVariable.AEM_Domain + '/dealers')
 
 WebUI.waitForElementPresent(findTestObject('FAD/ZipGate/search icon'), 0)
 
-WebUI.setText(findTestObject('FAD/ZipGate/zip entry dialog box'), '18702', FailureHandling.STOP_ON_FAILURE)
+WebUI.setText(findTestObject('FAD/ZipGate/zip entry dialog box'), '98036', FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('FAD/ZipGate/search icon'), FailureHandling.STOP_ON_FAILURE)
 
@@ -49,42 +49,27 @@ WebUI.waitForElementPresent(findTestObject('FAD/ResultsModule/dealer details lin
 
 WebUI.click(findTestObject('FAD/ResultsModule/dealer details link'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementPresent(findTestObject('FAD/DealerDetails/sales title'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.waitForElementPresent(findTestObject('FAD/DealerDetails/contact heading'), 0, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('FAD/DealerDetails/sales title'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.scrollToElement(findTestObject('FAD/DealerDetails/key contacts heading'), 0, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('FAD/DealerDetails/hours of operation'), 0, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.delay(2)
 
-WebUI.getText(findTestObject('FAD/DealerDetails/hours of operation'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('FAD/DealerDetails/contacts - go to next button'), FailureHandling.OPTIONAL)
 
-WebUI.verifyElementPresent(findTestObject('FAD/DealerDetails/inventory link'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(2)
 
-inventory = WebUI.getAttribute(findTestObject('FAD/DealerDetails/inventory link'), 'href', FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('FAD/DealerDetails/contacts - go to previous button'), FailureHandling.OPTIONAL)
 
-modifiedString = (inventory - '.com')
+WebUI.delay(2)
 
-'verifies that a link to dealer\'s website is included in the inventory URL'
-WebUI.verifyNotMatch(modifiedString, inventory, false, FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('FAD/DealerDetails/contacts - go to previous button'), FailureHandling.OPTIONAL)
 
-modifiedString = (inventory - 'new-inventory/index.htm?')
+WebUI.delay(2)
 
-'verifies that Dealer.com parameter is included in the inventory URL'
-WebUI.verifyNotMatch(modifiedString, inventory, false, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('FAD/DealerDetails/contact image'), 0, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('FAD/DealerDetails/inventory link'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.waitForPageLoad(0, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.switchToWindowIndex(1, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.delay(3)
-
-windowTitle = WebUI.getWindowTitle(FailureHandling.STOP_ON_FAILURE)
-
-modifiedString = (windowTitle - 'New')
-
-'verifies that inventory URL leads to a dealer inventory page'
-WebUI.verifyNotMatch(modifiedString, windowTitle, false, FailureHandling.STOP_ON_FAILURE)
+imagePath = WebUI.getAttribute(findTestObject('FAD/DealerDetails/contact image'), 'src', FailureHandling.STOP_ON_FAILURE)
 
 @com.kms.katalon.core.annotation.TearDownIfPassed
 def passed() {

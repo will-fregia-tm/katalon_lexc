@@ -41,50 +41,57 @@ WebUI.navigateToUrl(GlobalVariable.AEM_Domain + '/dealers')
 
 WebUI.waitForElementPresent(findTestObject('FAD/ZipGate/search icon'), 0)
 
-WebUI.setText(findTestObject('FAD/ZipGate/zip entry dialog box'), '18702', FailureHandling.STOP_ON_FAILURE)
+WebUI.setText(findTestObject('FAD/ZipGate/zip entry dialog box'), '75218', FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('FAD/ZipGate/search icon'), FailureHandling.STOP_ON_FAILURE)
 
+WebUI.waitForElementPresent(findTestObject('FAD/ResultsModule/zipcode tab'), 0)
+
+WebUI.click(findTestObject('FAD/ResultsModule/dealer tab'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.waitForElementPresent(findTestObject('FAD/ResultsModule/dealer name'), 0, FailureHandling.STOP_ON_FAILURE)
+
+firstDealer = WebUI.getText(findTestObject('FAD/ResultsModule/dealer name'), FailureHandling.STOP_ON_FAILURE)
+
+modifiedString = (firstDealer - 'LEXUS')
+
+WebUI.verifyNotMatch(modifiedString, firstDealer, false, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.setText(findTestObject('FAD/ResultsModule/dealer name input field'), 'jim hudson', FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('FAD/ResultsModule/submit button'), FailureHandling.STOP_ON_FAILURE)
+
 WebUI.waitForElementPresent(findTestObject('FAD/ResultsModule/dealer details link'), 0, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('FAD/ResultsModule/dealer details link'), FailureHandling.STOP_ON_FAILURE)
+secondDealer = WebUI.getText(findTestObject('FAD/ResultsModule/dealer name'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementPresent(findTestObject('FAD/DealerDetails/sales title'), 0, FailureHandling.STOP_ON_FAILURE)
+modifiedString = (secondDealer - 'LEXUS')
 
-WebUI.verifyElementPresent(findTestObject('FAD/DealerDetails/sales title'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyNotMatch(modifiedString, secondDealer, false, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('FAD/DealerDetails/hours of operation'), 0, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyNotMatch(firstDealer, secondDealer, false, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.getText(findTestObject('FAD/DealerDetails/hours of operation'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.setText(findTestObject('FAD/ResultsModule/dealer name input field'), 'lex', FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('FAD/DealerDetails/inventory link'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('FAD/ResultsModule/submit button'), FailureHandling.STOP_ON_FAILURE)
 
-inventory = WebUI.getAttribute(findTestObject('FAD/DealerDetails/inventory link'), 'href', FailureHandling.STOP_ON_FAILURE)
+WebUI.waitForElementPresent(findTestObject('FAD/ResultsModule/dealer details link'), 0, FailureHandling.STOP_ON_FAILURE)
 
-modifiedString = (inventory - '.com')
+thirdDealer = WebUI.getText(findTestObject('FAD/ResultsModule/dealer name'), FailureHandling.STOP_ON_FAILURE)
 
-'verifies that a link to dealer\'s website is included in the inventory URL'
-WebUI.verifyNotMatch(modifiedString, inventory, false, FailureHandling.STOP_ON_FAILURE)
+modifiedString = (thirdDealer - 'LEXUS')
 
-modifiedString = (inventory - 'new-inventory/index.htm?')
+WebUI.verifyNotMatch(modifiedString, thirdDealer, false, FailureHandling.STOP_ON_FAILURE)
 
-'verifies that Dealer.com parameter is included in the inventory URL'
-WebUI.verifyNotMatch(modifiedString, inventory, false, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyNotMatch(secondDealer, thirdDealer, false, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('FAD/DealerDetails/inventory link'), FailureHandling.STOP_ON_FAILURE)
+WebUI.setText(findTestObject('FAD/ResultsModule/dealer name input field'), 'xxx', FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForPageLoad(0, FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('FAD/ResultsModule/submit button'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.switchToWindowIndex(1, FailureHandling.STOP_ON_FAILURE)
+WebUI.waitForElementPresent(findTestObject('FAD/ResultsModule/no dealer results message'), 0, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(3)
-
-windowTitle = WebUI.getWindowTitle(FailureHandling.STOP_ON_FAILURE)
-
-modifiedString = (windowTitle - 'New')
-
-'verifies that inventory URL leads to a dealer inventory page'
-WebUI.verifyNotMatch(modifiedString, windowTitle, false, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('FAD/ResultsModule/no dealer results message'), 0, FailureHandling.STOP_ON_FAILURE)
 
 @com.kms.katalon.core.annotation.TearDownIfPassed
 def passed() {

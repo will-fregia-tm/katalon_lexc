@@ -39,52 +39,29 @@ if (WebUI.verifyMatch(domain, 'staging', false, FailureHandling.OPTIONAL)) {
 
 WebUI.navigateToUrl(GlobalVariable.AEM_Domain + '/dealers')
 
-WebUI.waitForElementPresent(findTestObject('FAD/ZipGate/search icon'), 0)
+WebUI.verifyElementPresent(findTestObject('FAD/ZipGate/background asset'), 5, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('FAD/ZipGate/zip entry dialog box'), '18702', FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('FAD/ZipGate/zip entry dialog box'), 5, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('FAD/ZipGate/search icon'), FailureHandling.STOP_ON_FAILURE)
+'verifies centering'
+position = WebUI.getCSSValue(findTestObject('FAD/ZipGate/zip gate box'), 'position', FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementPresent(findTestObject('FAD/ResultsModule/dealer details link'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyMatch(position, 'static', false, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('FAD/ResultsModule/dealer details link'), FailureHandling.STOP_ON_FAILURE)
+'verifies position above background asset'
+zIndex = WebUI.getCSSValue(findTestObject('FAD/ZipGate/zip gate box'), 'z-index', FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementPresent(findTestObject('FAD/DealerDetails/sales title'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyMatch(zIndex, 'auto', false, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('FAD/DealerDetails/sales title'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('FAD/ZipGate/headline'), 5, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('FAD/DealerDetails/hours of operation'), 0, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('FAD/ZipGate/dealer pin icon'), 5, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.getText(findTestObject('FAD/DealerDetails/hours of operation'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('FAD/ZipGate/field icon'), 5, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('FAD/DealerDetails/inventory link'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('FAD/ZipGate/placeholder text'), 5, FailureHandling.STOP_ON_FAILURE)
 
-inventory = WebUI.getAttribute(findTestObject('FAD/DealerDetails/inventory link'), 'href', FailureHandling.STOP_ON_FAILURE)
-
-modifiedString = (inventory - '.com')
-
-'verifies that a link to dealer\'s website is included in the inventory URL'
-WebUI.verifyNotMatch(modifiedString, inventory, false, FailureHandling.STOP_ON_FAILURE)
-
-modifiedString = (inventory - 'new-inventory/index.htm?')
-
-'verifies that Dealer.com parameter is included in the inventory URL'
-WebUI.verifyNotMatch(modifiedString, inventory, false, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('FAD/DealerDetails/inventory link'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.waitForPageLoad(0, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.switchToWindowIndex(1, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.delay(3)
-
-windowTitle = WebUI.getWindowTitle(FailureHandling.STOP_ON_FAILURE)
-
-modifiedString = (windowTitle - 'New')
-
-'verifies that inventory URL leads to a dealer inventory page'
-WebUI.verifyNotMatch(modifiedString, windowTitle, false, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('FAD/ZipGate/search icon'), 5, FailureHandling.STOP_ON_FAILURE)
 
 @com.kms.katalon.core.annotation.TearDownIfPassed
 def passed() {

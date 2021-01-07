@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>mobile tests</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>20</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>8da873b3-c712-46c2-937f-9c362ccc0bd4</testSuiteGuid>
+   <testCaseLink>
+      <guid>b7e8547c-7780-4239-b8ee-377c57d5401e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/FAD/ResultsModule/ZIP code based result - mobile</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>81261391-9884-40a2-a9c2-10588f2f57e9</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f7e58f52-e3b4-4846-b200-120a970d9f59</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/FAD/ResultsModule/Search by dealer name - mobile</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>39f7cfc8-6bf7-4c80-9979-38a9bd609620</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>5c7e3d05-4285-4612-a878-22d6383ba774</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/FAD/ResultsModule/Search by state - mobile</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>72eb07aa-7042-469d-ad34-15c3db91507e</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2fbbee9e-8c19-4666-92e6-61fb06580b2e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/FAD/DealerDetails/Page nav bar - mobile</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>b80c4da6-ab36-4dc2-94ff-02ac9f43769f</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a26bd9ba-00bc-42c9-be41-d60b50757463</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/FAD/DealerDetails/Contact Module - Key Contacts - mobile</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>cced8e0d-bdbc-43b1-a0ba-0e45395de864</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f1c71be6-4916-4a83-aa8c-6be8ffec7c74</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/FAD/ZipGate/Default State - mobile</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>04672c9a-2fa9-44d7-8677-5f2522b1dad7</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>745e6048-179d-4cd6-9f94-7edfd62b3a20</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/FAD/ZipGate/Invalid ZIP</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>baaebc4d-c8ad-4927-9ff1-2802ae2dcbf4</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>129a2a8f-bc93-42da-a845-6fe841549abc</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/FAD/ZipGate/No dealer results</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>89e27a46-1401-4199-be4b-c7dd924f8772</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e7b38437-3a37-41f4-ad57-fd247314f394</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/FAD/ZipGate/Technical difficulties</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>96eeb948-877b-477c-a8f8-4e0290eb4af0</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

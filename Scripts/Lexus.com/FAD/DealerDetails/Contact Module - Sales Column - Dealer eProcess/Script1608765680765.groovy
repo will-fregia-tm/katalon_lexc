@@ -77,6 +77,8 @@ WebUI.waitForPageLoad(0, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.switchToWindowIndex(1, FailureHandling.STOP_ON_FAILURE)
 
+WebUI.delay(3)
+
 windowTitle = WebUI.getWindowTitle(FailureHandling.STOP_ON_FAILURE)
 
 modifiedString = (windowTitle - 'New')

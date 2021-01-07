@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>AC-02 | SEARCH by DEALER NAME
+provide the ability to lookup dealers by dealer name text entry field
+allows alphanumeric entry
+allows partial names (i.e. searching FA will return all dealers with &quot;FA&quot; in the dealer name)
+default state: displays CMS Dealer-Name-field-label
+When a user submits a Dealer Nameui validation as an enhancement TBD 
+then the system will query all dealers with that name
+dealer order will be based on DIS response </description>
+   <name>Search by dealer name - mobile</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e697d9da-6d5b-49b7-88b9-37e498a9c680</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>39f7cfc8-6bf7-4c80-9979-38a9bd609620</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>

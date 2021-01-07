@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>AC-01: Default State
+
+
+The module default state should include:
+
+if desktop:
+
+Display a background asset of US map
+provide the ability to zoom in or out 
+Display the Zip-Gate-Enry dialog box over the mapcentered on the screen
+if mobile:
+
+Display the Zip-Gate-Enry dialog box over the map</description>
+   <name>Default State - mobile</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>08cfa84c-e89a-462b-8c94-42771cfdd39e</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>04672c9a-2fa9-44d7-8677-5f2522b1dad7</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>
