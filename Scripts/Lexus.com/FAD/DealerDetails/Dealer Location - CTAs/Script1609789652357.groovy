@@ -96,7 +96,7 @@ WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('FAD/DealerDetails/contact dealer CTA'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(4, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.switchToWindowIndex(2, FailureHandling.STOP_ON_FAILURE)
 

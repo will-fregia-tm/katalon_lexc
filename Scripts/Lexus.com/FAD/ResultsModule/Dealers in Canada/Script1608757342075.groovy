@@ -53,7 +53,7 @@ WebUI.click(findTestObject('FAD/ResultsModule/dealers in canada link'), FailureH
 
 WebUI.waitForPageLoad(0, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(2)
+WebUI.delay(3)
 
 WebUI.verifyTextPresent('CANADA', false, FailureHandling.STOP_ON_FAILURE)
 
