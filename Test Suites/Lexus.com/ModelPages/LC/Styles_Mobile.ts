@@ -26,7 +26,7 @@
    <testCaseLink>
       <guid>8ed3d8df-7d27-472e-8a3b-a1d4ddbf707d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/ModelPages/LC/Styles/Correct MSRPs for each trim</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
