@@ -34,7 +34,7 @@ domain = GlobalVariable.domain
 
 'this step is added to handle legacy staging authentication'
 if (WebUI.verifyMatch(domain, 'staging', false, FailureHandling.OPTIONAL)) {
-    WebUI.navigateToUrl(GlobalVariable.TS_Domain + GlobalVariable.Privacy)
+    WebUI.navigateToUrl(GlobalVariable.TS_Domain + GlobalVariable.legacyURL)
 }
 
 WebUI.navigateToUrl(GlobalVariable.AEM_Domain + '/dealers')

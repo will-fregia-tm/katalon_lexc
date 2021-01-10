@@ -41,8 +41,8 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'/privacy'</initValue>
-      <name>Privacy</name>
+      <initValue>'/models/categories/sedans'</initValue>
+      <name>legacyURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
