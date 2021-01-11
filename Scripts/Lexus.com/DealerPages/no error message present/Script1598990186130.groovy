@@ -16,15 +16,31 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 import com.kms.katalon.keyword.excel.ExcelKeywords as ExcelKeywords
+import com.kms.katalon.core.testobject.RequestObject as RequestObject
+import org.openqa.selenium.Cookie as Cookie
+import org.openqa.selenium.WebDriver as WebDriver
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
 totalPages = (findTestData(GlobalVariable.DS_version + 'URLsDealerPages').getRowNumbers() - 1)
 
-WebUI.openBrowser(GlobalVariable.TS_Domain + GlobalVariable.Header)
+WebUI.openBrowser(GlobalVariable.SSO_login, FailureHandling.OPTIONAL)
+
+cookieValue = findTestData('cookieValues').getValue(2, 1)
+
+Cookie ck = new Cookie('ESTSAUTH', cookieValue)
+
+WebDriver driver = DriverFactory.getWebDriver()
+
+driver.manage().addCookie(ck)
+
+WebUI.navigateToUrl(GlobalVariable.TS_Domain + '/models/categories/sedans')
 
 for (def index : (0..totalPages)) {
     WebUI.navigateToUrl(findTestData(GlobalVariable.DS_version + 'URLsDealerPages').getValue(dataColumn, dataRow))
 
     WebUI.verifyElementNotPresent(findTestObject('error'), 0)
+
+    WebUI.verifyTextNotPresent('403', false)
 
     dataRow = (dataRow + 1)
 }
