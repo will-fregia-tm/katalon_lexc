@@ -35,6 +35,8 @@ driver.manage().addCookie(ck)
 
 WebUI.navigateToUrl(GlobalVariable.TS_Domain + '/models/categories/sedans')
 
+WebUI.delay(2)
+
 for (def index : (0..totalPages)) {
     WebUI.navigateToUrl(findTestData(GlobalVariable.DS_version + 'URLsMiscPages').getValue(dataColumn, dataRow))
 
@@ -46,10 +48,14 @@ for (def index : (0..totalPages)) {
     
     WebUI.verifyElementNotPresent(findTestObject('error'), 0)
 
+    WebUI.delay(2)
+
     dataRow = (dataRow + 1)
 }
 
 WebUI.waitForPageLoad(0)
+
+WebUI.delay(5)
 
 @com.kms.katalon.core.annotation.TearDownIfPassed
 def passed() {
