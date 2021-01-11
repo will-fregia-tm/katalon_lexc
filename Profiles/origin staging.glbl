@@ -39,4 +39,9 @@
       <initValue>'https://stg-aem-lcom.origin.cepo-proxy.tms.aws.lexus.com'</initValue>
       <name>AEM_Domain_Unauthenticated</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'staging'</initValue>
+      <name>domain</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

@@ -39,4 +39,9 @@
       <initValue>'https://www.lexus.com'</initValue>
       <name>AEM_Domain_Unauthenticated</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'prod'</initValue>
+      <name>domain</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

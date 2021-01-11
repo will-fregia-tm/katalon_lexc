@@ -30,6 +30,13 @@ WebDriver driver = DriverFactory.getWebDriver()
 
 driver.manage().addCookie(ck)
 
+domain = GlobalVariable.domain
+
+'this step is added to handle legacy staging authentication'
+if (WebUI.verifyMatch(domain, 'staging', false, FailureHandling.OPTIONAL)) {
+    WebUI.navigateToUrl(GlobalVariable.TS_Domain + GlobalVariable.legacyURL)
+}
+
 WebUI.navigateToUrl(GlobalVariable.AEM_Domain_Unauthenticated + '/concept/LFSA/?showForm=true&firstName=sendto&lastName=adf&zip=90094')
 
 if (WebUI.verifyElementNotPresent(findTestObject('FCV/Hero/hero module'), 3, FailureHandling.OPTIONAL)) {
