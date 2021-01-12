@@ -118,7 +118,7 @@
          <configuration>
             <groupName>Custom</groupName>
             <profileName>origin prod</profileName>
-            <runConfigurationId>saucelabs_firefox_macos10.15</runConfigurationId>
+            <runConfigurationId>saucelabs_edge_win10</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/OffersPage/FilterBar-ContactDealerForm</testSuiteEntity>
@@ -154,7 +154,7 @@
          <configuration>
             <groupName>Custom</groupName>
             <profileName>origin prod</profileName>
-            <runConfigurationId>saucelabs_firefox_win10</runConfigurationId>
+            <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/OffersPage/OfDe-SMO-ZiBa</testSuiteEntity>

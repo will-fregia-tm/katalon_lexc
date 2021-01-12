@@ -67,7 +67,7 @@ WebUI.setText(findTestObject('OffersPage/ContactDealerForm/input field - last na
 
 WebUI.setText(findTestObject('OffersPage/ContactDealerForm/input field - email'), 'zach.smith@teamone-usa.com', FailureHandling.STOP_ON_FAILURE)
 
-WebUI.mouseOver(findTestObject('OffersPage/ContactDealerForm/submit button'), FailureHandling.STOP_ON_FAILURE)
+WebUI.mouseOver(findTestObject('OffersPage/ContactDealerForm/submit button'), FailureHandling.OPTIONAL)
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
@@ -142,7 +142,7 @@ WebUI.waitForElementVisible(findTestObject('OffersPage/ContactDealerForm/thank y
 
 WebUI.verifyElementVisibleInViewport(findTestObject('OffersPage/ContactDealerForm/thank you - back to offers CTA'), 0, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.mouseOver(findTestObject('OffersPage/ContactDealerForm/thank you - back to offers CTA'), FailureHandling.STOP_ON_FAILURE)
+WebUI.mouseOver(findTestObject('OffersPage/ContactDealerForm/thank you - back to offers CTA'), FailureHandling.OPTIONAL)
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 

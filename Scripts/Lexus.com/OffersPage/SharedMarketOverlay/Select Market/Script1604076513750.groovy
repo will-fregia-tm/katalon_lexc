@@ -64,7 +64,8 @@ WebUI.click(findTestObject('OffersPage/ZipGate/submit button'))
 
 WebUI.waitForElementPresent(findTestObject('OffersPage/SharedMarketOverlay/headline copy'), 5, FailureHandling.OPTIONAL)
 
-WebUI.mouseOver(findTestObject('OffersPage/SharedMarketOverlay/displayed market name - New Jersey, Delaware, Pennsylvania Dealers'))
+WebUI.mouseOver(findTestObject('OffersPage/SharedMarketOverlay/displayed market name - New Jersey, Delaware, Pennsylvania Dealers'), 
+    FailureHandling.OPTIONAL)
 
 WebUI.click(findTestObject('OffersPage/SharedMarketOverlay/displayed market name - New Jersey, Delaware, Pennsylvania Dealers'))
 
