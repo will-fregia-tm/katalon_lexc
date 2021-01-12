@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>DeepLink-ZipGate</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>15</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>19d34b77-15df-42d0-ab06-46a6b8fa732e</testSuiteGuid>
+   <testCaseLink>
+      <guid>4ce343f2-def9-4d4e-868d-f23eb3aa08e4</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/OffersPage/DeepLink/Deep linking parameters - model and offer type</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>4bda0604-2997-47fb-b23f-ae3e3e15d3c0</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>bea3c804-88fb-43bd-93cd-8b56cdf9644d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/OffersPage/DeepLink/Deep linking parameters - model</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c8a6b67e-5821-4c9c-9c61-58e83c2ee161</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8a201aa6-9950-4919-964c-e02fbe09dc7c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/OffersPage/DeepLink/Deep linking parameters - multiple models</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>5fe93688-ecdf-40d0-bde5-cddf75a7b059</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>279920c3-6dca-4f10-80bc-9609bf39f6d9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/OffersPage/DeepLink/Deep linking parameters - offer type</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>1b2bc110-b880-4c46-ab3a-e4df3e6bfa19</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ca76234b-bd1a-4798-bc72-ba4ec6b55ce5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/OffersPage/DeepLink/Deep linking parameters - shared ZIP code</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>919b95af-cc9f-41fa-bfa2-20f0a4557b87</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4a578759-7664-4c11-a870-5ceeef8a496d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/OffersPage/DeepLink/Deep linking parameters - specific offer details</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>0a75ed20-e47a-4e0c-9268-87c97528e23a</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b3ef3e7b-6236-44ce-a742-d67f693030e3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/OffersPage/DeepLink/Deep linking parameters - ZIP code cookie is created</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d3f94f6d-7a1d-4f4a-9d30-a0979d6aa157</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a504f9cf-f72e-416f-849c-ffca955ac286</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/OffersPage/DeepLink/Deep linking parameters - ZIP code</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>480051df-b6b8-4d4a-8288-fa8812ef695d</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e2f56454-bbf9-499a-aaad-12291e5dc23b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/OffersPage/ZipGate/Hawaii</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c78fd992-2390-4e7d-b44d-499c82c48989</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2187c035-9f8f-4395-ae35-b2d90c5fef57</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/OffersPage/ZipGate/Puerto Rico</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ac26299e-ac69-470e-89dc-9d623c8c65ce</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>daf6f50c-0bba-4ae8-a99a-9262b15c7eed</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/OffersPage/ZipGate/Shared ZIP code</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>eb6045d9-8c5b-40ae-9978-427d6093137c</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e4bc750c-25b3-41a0-979e-7de5f04b3a30</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/OffersPage/ZipGate/Technical Difficulty Server Message</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7669cc94-3d20-4081-94c2-5adf5cc5a8cb</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>90dab904-6873-485b-87a2-551508b1461b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/OffersPage/ZipGate/UI form Validation (invalid)</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7fca0d63-2bd4-4cec-9764-e932bb8d0e2b</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>98ad6b0e-1fbd-49ac-b47f-71e31f3b7c77</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/OffersPage/ZipGate/UI form Validation (valid)</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>058e2d98-b472-4aef-8aff-c409bbcf166e</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7b5547bc-9f03-42cf-aef7-0fb338bc569f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/OffersPage/ZipGate/Unassigned Zip - Expand search should not load on initial page visit</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>fbe4f7a6-329c-4bd1-8b98-45eeeb9edf04</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a1717c62-c2fb-43bd-bd2f-a0585ec84a86</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/OffersPage/ZipGate/Unassigned Zip - Expand search</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>16ebf5fa-3df7-4767-a5a2-9befb737ce70</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

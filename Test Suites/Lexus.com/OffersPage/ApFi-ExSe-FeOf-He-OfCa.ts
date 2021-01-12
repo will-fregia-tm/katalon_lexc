@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>ApFi-ExSe-FeOf-He-OfCa</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>15</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>cb218ce1-456f-40f0-8e81-a0b2e0dc256b</testSuiteGuid>
+   <testCaseLink>
+      <guid>a89ccfee-5b18-41d7-a965-da4a44734371</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/OffersPage/AppliedFilters/Display applied filter</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>1a06d2ca-22ab-455d-bdc8-4ccc2aeb6007</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b2c9756e-0afa-4049-a24d-29c3ca0d0a63</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/OffersPage/AppliedFilters/Hover Over Applied-Filter-Tab</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>dbcf84ac-0192-4d3a-be59-c5443a411830</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>56e663da-b490-4e03-b47c-0395d0c475f1</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/OffersPage/AppliedFilters/Remove applied filter</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>fccd65f1-1cf8-4fc5-a286-fc00e7edba42</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ec9b415a-538b-405f-ad9e-45920376ba1c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/OffersPage/ExpandSearch/Click EXPAND CTA - Invalid ZIP</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>6aeb8c1e-514a-4820-9082-5d61569b5844</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>77be3ba9-c424-4b9e-8024-620fadfe3678</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/OffersPage/ExpandSearch/Click EXPAND CTA</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f7426f7d-f20b-46e1-8c8c-bd19aee73ebc</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>57e72e68-2de2-4647-bd18-93a1df411dd8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/OffersPage/ExpandSearch/Enter ZIP code 58102</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>61c1f724-e195-45c3-986e-5cb299c0ae58</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>00b88bae-7685-48d3-bf4a-aaba43e13fcf</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/OffersPage/ExpandSearch/Enter ZIP code 95730</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>fa932d81-0a39-48e6-a6e9-935683675c92</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>bf5e9599-0f82-4bde-8dca-d17055ba1446</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/OffersPage/ExpandSearch/Select Dealer</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>858d75de-dd95-4029-8840-6147707b28fd</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e2f1f19c-3552-49fb-8849-1de30d53d8a8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/OffersPage/FeaturedOffers/Featured offer cards have featured star icon present</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>9ee643aa-ba8a-4f7f-a595-c9e57cccf32c</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>393a4d31-b323-4270-bca6-700e203fa166</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/OffersPage/FeaturedOffers/Featured offers carousel</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>beefe40e-2869-48b9-a753-2356e9b4b866</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>369df434-0af8-4550-a270-43d12189553d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/OffersPage/FeaturedOffers/FEATURED OFFERS title will appear above the offer card results</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>afb70cdb-93b0-4424-9792-b320a6665cb1</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e0e52f13-7740-4def-8abc-bd4edf3dc1c0</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/OffersPage/Header/logo is present</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c0ebc493-fa00-43c1-985a-010299b39c4d</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2e0128fd-f626-4483-af63-a0c063d7e662</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/OffersPage/OfferCards/Carousel navigation</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ec445518-a3bf-4528-b202-4998d9a2c0ef</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>df2b43da-b8b9-413a-a93f-e8acc7704a6f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/OffersPage/OfferCards/Offer details drawer</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d9eb0793-bbe7-46e8-85aa-266733304daa</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>50ec8898-98e8-448b-96ab-55b71978948b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/OffersPage/OfferCards/Title placement</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>59e19bf0-a3d2-4690-9741-616fd3aff72b</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
