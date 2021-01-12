@@ -74,7 +74,7 @@ WebUI.verifyElementPresent(findTestObject('OffersPage/ZipGate/offers page with o
 
 WebUI.verifyElementNotPresent(findTestObject('OffersPage/SharedMarketOverlay/headline copy'), 0, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('OffersPage/SharedMarketOverlay/cookied shared zip code'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('OffersPage/SharedMarketOverlay/cookied shared zip code - 08008'), 0, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('OffersPage/SharedMarketOverlay/contact dealer button'))
 

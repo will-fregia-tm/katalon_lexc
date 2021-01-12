@@ -58,7 +58,7 @@ if (WebUI.verifyElementPresent(findTestObject('OffersPage/ZipGate/expand CTA'), 
 
 WebUI.waitForElementPresent(findTestObject('OffersPage/ZipGate/form input'), 5, FailureHandling.OPTIONAL)
 
-WebUI.setText(findTestObject('OffersPage/ZipGate/form input'), '08008')
+WebUI.setText(findTestObject('OffersPage/ZipGate/form input'), '07823')
 
 WebUI.click(findTestObject('OffersPage/ZipGate/submit button'))
 
@@ -68,7 +68,7 @@ WebUI.verifyElementPresent(findTestObject('OffersPage/SharedMarketOverlay/headli
 
 WebUI.verifyElementPresent(findTestObject('OffersPage/SharedMarketOverlay/showing results text'), 0, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('OffersPage/SharedMarketOverlay/displayed zip code'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('OffersPage/SharedMarketOverlay/displayed zip code - 07823'), 0, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementPresent(findTestObject('OffersPage/SharedMarketOverlay/change zip CTA'), 0, FailureHandling.STOP_ON_FAILURE)
 
