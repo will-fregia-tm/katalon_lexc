@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>OfferRowB</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>15</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>ac0a255d-ab34-4413-9832-8cca9d16cdbf</testSuiteGuid>
+   <testCaseLink>
+      <guid>570fd803-f2e3-4b3d-ae94-8cac334ad9cb</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/OffersPage/OfferRow/No available offers</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>3a909577-12ad-4378-962a-33781b10cf99</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7b387e85-147d-4921-b85f-e0ca32e66bac</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/OffersPage/OfferRow/Build</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>15b122e0-388b-4f9f-b8ee-0410acd42858</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7c79414f-4e55-4658-a654-7197345c5118</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/OffersPage/OfferRow/Inventory - Dealer eProcess</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>2a2419ab-ff06-4246-9731-9c529946ded7</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e0162db1-cc18-42f7-868a-4c10405ed9f7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/OffersPage/OfferRow/Inventory - Dealer Inspire</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7c32210f-54c1-4c2a-8947-3c46ed373f1f</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>848bc539-fdd4-4d2b-b391-f6591b33c886</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/OffersPage/OfferRow/Inventory - Dealer.com</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7bf472e9-ffc6-4ee0-b2fc-19bd675d742a</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3fd86aec-df52-4630-9c63-506bbf314fa9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/OffersPage/OfferRow/Inventory - DealerOn</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>55def867-c9c8-40e5-9f65-ba47a4203aa2</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ca785f91-72ba-4295-a1a5-ebf1f0c016b5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/OffersPage/OfferRow/Inventory map</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e5eaee20-560d-4a26-bfaf-cc956e816643</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3080bc6d-0c04-469a-80db-23d0bd6dc85e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/OffersPage/OfferRow/Build - coupes</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>81807cf6-1e4e-477c-af97-9b6aab77e457</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2977eb94-a219-4a0c-b8ea-bf919710e38f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/OffersPage/OfferRow/Build - sedans</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>bd2b04b5-01a4-4cba-970f-c9c5d7bfd173</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7ba62fb1-1664-49f1-9550-40348d8de72c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/OffersPage/OfferRow/Build - SUVs</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c7408dd9-6f99-4b17-845f-034288a65189</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

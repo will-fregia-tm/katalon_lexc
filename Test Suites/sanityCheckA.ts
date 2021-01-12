@@ -445,7 +445,7 @@
             <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
          <runEnabled>false</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/OffersPage/OfferRow</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Lexus.com/OffersPage/OfferRowA</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -454,7 +454,7 @@
             <runConfigurationId>saucelabs_chrome_macos10.15</runConfigurationId>
          </configuration>
          <runEnabled>false</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/OffersPage/OfferRow</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Lexus.com/OffersPage/OfferRowA</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -463,7 +463,7 @@
             <runConfigurationId>saucelabs_edge_win10</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/OffersPage/OfferRow</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Lexus.com/OffersPage/OfferRowA</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -472,7 +472,7 @@
             <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
          <runEnabled>false</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/OffersPage/OfferRow</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Lexus.com/OffersPage/OfferRowA</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -481,7 +481,7 @@
             <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/OffersPage/OfferRow</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Lexus.com/OffersPage/OfferRowA</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -490,7 +490,7 @@
             <runConfigurationId>saucelabs_chrome_macos10.15</runConfigurationId>
          </configuration>
          <runEnabled>false</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/OffersPage/OfferRow</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Lexus.com/OffersPage/OfferRowA</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -499,7 +499,7 @@
             <runConfigurationId>saucelabs_edge_win10</runConfigurationId>
          </configuration>
          <runEnabled>false</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/OffersPage/OfferRow</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Lexus.com/OffersPage/OfferRowA</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -544,7 +544,7 @@
             <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/OffersPage/OfferRow</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Lexus.com/OffersPage/OfferRowA</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>

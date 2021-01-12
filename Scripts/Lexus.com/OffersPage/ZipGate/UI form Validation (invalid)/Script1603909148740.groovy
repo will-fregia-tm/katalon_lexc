@@ -64,10 +64,10 @@ WebUI.verifyElementPresent(findTestObject('OffersPage/ZipGate/form input'), 0, F
 
 WebUI.verifyElementPresent(findTestObject('OffersPage/ZipGate/error message'), 0, FailureHandling.STOP_ON_FAILURE)
 
-errorState = WebUI.getCSSValue(findTestObject('OffersPage/ZipGate/error state'), 'border', FailureHandling.OPTIONAL)
+errorState = WebUI.getCSSValue(findTestObject('OffersPage/ZipGate/error state'), 'border-top-color', FailureHandling.OPTIONAL)
 
-if (WebUI.verifyNotMatch(errorState, '1px solid rgb(235, 0, 0)', false, FailureHandling.OPTIONAL)) {
-    WebUI.verifyMatch(errorState, '1px solid rgba(235, 0, 0, 1)', false, FailureHandling.STOP_ON_FAILURE)
+if (WebUI.verifyNotMatch(errorState, 'rgb(235, 0, 0)', false, FailureHandling.OPTIONAL)) {
+    WebUI.verifyMatch(errorState, 'rgba(235, 0, 0, 1)', false, FailureHandling.STOP_ON_FAILURE)
 }
 
 @com.kms.katalon.core.annotation.TearDownIfPassed

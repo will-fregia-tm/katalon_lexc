@@ -21,8 +21,17 @@
             <profileName>dev</profileName>
             <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
-         <runEnabled>false</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/OffersPage/OfferRow</testSuiteEntity>
+         <runEnabled>true</runEnabled>
+         <testSuiteEntity>Test Suites/Lexus.com/OffersPage/OfferRowA</testSuiteEntity>
+      </TestSuiteRunConfiguration>
+      <TestSuiteRunConfiguration>
+         <configuration>
+            <groupName>Custom</groupName>
+            <profileName>dev</profileName>
+            <runConfigurationId>saucelabs_firefox_macos10.15</runConfigurationId>
+         </configuration>
+         <runEnabled>true</runEnabled>
+         <testSuiteEntity>Test Suites/Lexus.com/OffersPage/OfferRowB</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -76,7 +85,16 @@
             <runConfigurationId>saucelabs_firefox_win10</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/OffersPage/OfferRow</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Lexus.com/OffersPage/OfferRowA</testSuiteEntity>
+      </TestSuiteRunConfiguration>
+      <TestSuiteRunConfiguration>
+         <configuration>
+            <groupName>Custom</groupName>
+            <profileName>staging</profileName>
+            <runConfigurationId>saucelabs_edge_win10</runConfigurationId>
+         </configuration>
+         <runEnabled>true</runEnabled>
+         <testSuiteEntity>Test Suites/Lexus.com/OffersPage/OfferRowB</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -130,7 +148,16 @@
             <runConfigurationId>saucelabs_chrome_macos10.15</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/OffersPage/OfferRow</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Lexus.com/OffersPage/OfferRowA</testSuiteEntity>
+      </TestSuiteRunConfiguration>
+      <TestSuiteRunConfiguration>
+         <configuration>
+            <groupName>Custom</groupName>
+            <profileName>origin prod</profileName>
+            <runConfigurationId>saucelabs_chrome_win7</runConfigurationId>
+         </configuration>
+         <runEnabled>true</runEnabled>
+         <testSuiteEntity>Test Suites/Lexus.com/OffersPage/OfferRowB</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
