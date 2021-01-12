@@ -34,4 +34,9 @@
       <initValue>'prod'</initValue>
       <name>domain</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'prod'</initValue>
+      <name>endpointDomain</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

@@ -74,7 +74,7 @@ WebUI.verifyElementPresent(findTestObject('OffersPage/ExpandSearch/expand zip ov
 
 WebUI.verifyElementPresent(findTestObject('OffersPage/ExpandSearch/dealer name - Lexus of Maplewood'), 5, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.mouseOver(findTestObject('OffersPage/ExpandSearch/dealer name - Lexus of Maplewood'))
+WebUI.mouseOver(findTestObject('OffersPage/ExpandSearch/dealer name - Lexus of Maplewood'), FailureHandling.OPTIONAL)
 
 WebUI.click(findTestObject('OffersPage/ExpandSearch/dealer name - Lexus of Maplewood'))
 

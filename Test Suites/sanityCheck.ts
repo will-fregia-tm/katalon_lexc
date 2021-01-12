@@ -21,7 +21,7 @@
             <profileName>dev</profileName>
             <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
+         <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/OffersPage/OfferRow</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
@@ -37,7 +37,7 @@
          <configuration>
             <groupName>Custom</groupName>
             <profileName>dev</profileName>
-            <runConfigurationId>saucelabs_firefox_macos10.15</runConfigurationId>
+            <runConfigurationId>saucelabs_chrome_win7</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/OffersPage/ApFi-ExSe-FeOf-He-OfCa</testSuiteEntity>
@@ -136,7 +136,7 @@
          <configuration>
             <groupName>Custom</groupName>
             <profileName>origin prod</profileName>
-            <runConfigurationId>saucelabs_chrome_win7</runConfigurationId>
+            <runConfigurationId>saucelabs_firefox_macos10.15</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/OffersPage/DeepLink-ZipGate</testSuiteEntity>

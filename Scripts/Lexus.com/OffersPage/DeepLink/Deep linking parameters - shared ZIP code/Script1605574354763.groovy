@@ -43,7 +43,8 @@ WebUI.waitForElementVisible(findTestObject('OffersPage/SharedMarketOverlay/showi
 
 WebUI.verifyElementVisible(findTestObject('OffersPage/SharedMarketOverlay/showing results text'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.mouseOver(findTestObject('OffersPage/SharedMarketOverlay/displayed market name - New Jersey, Delaware, Pennsylvania Dealers'))
+WebUI.mouseOver(findTestObject('OffersPage/SharedMarketOverlay/displayed market name - New Jersey, Delaware, Pennsylvania Dealers'), 
+    FailureHandling.OPTIONAL)
 
 WebUI.click(findTestObject('OffersPage/SharedMarketOverlay/displayed market name - New Jersey, Delaware, Pennsylvania Dealers'))
 

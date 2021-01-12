@@ -62,8 +62,6 @@ WebUI.click(findTestObject('OffersPage/ZipGate/submit button'))
 
 WebUI.waitForElementPresent(findTestObject('OffersPage/ZipGate/offers page with offers'), 5, FailureHandling.OPTIONAL)
 
-WebUI.verifyElementPresent(findTestObject('OffersPage/ZipGate/offers page with offers'), 0, FailureHandling.STOP_ON_FAILURE)
-
 'tests this offer row if it is present'
 if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 02'), 3, FailureHandling.OPTIONAL)) {
     WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 02 - Build'), 0, FailureHandling.STOP_ON_FAILURE)
@@ -78,7 +76,7 @@ if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 02'), 3, 
 
     href = WebUI.getAttribute(findTestObject('OffersPage/OfferRow/row 02 - Build'), 'href', FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.mouseOver(findTestObject('OffersPage/OfferRow/row 02 - Build'), FailureHandling.STOP_ON_FAILURE)
+    WebUI.mouseOver(findTestObject('OffersPage/OfferRow/row 02 - Build'), FailureHandling.OPTIONAL)
 
     WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
 
@@ -135,7 +133,7 @@ if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 02'), 3, 
 
         href = WebUI.getAttribute(findTestObject('OffersPage/OfferRow/row 03 - Build'), 'href', FailureHandling.STOP_ON_FAILURE)
 
-        WebUI.mouseOver(findTestObject('OffersPage/OfferRow/row 03 - Build'), FailureHandling.STOP_ON_FAILURE)
+        WebUI.mouseOver(findTestObject('OffersPage/OfferRow/row 03 - Build'), FailureHandling.OPTIONAL)
 
         WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
 
@@ -185,7 +183,7 @@ if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 02'), 3, 
 
             href = WebUI.getAttribute(findTestObject('OffersPage/OfferRow/row 04 - Build'), 'href', FailureHandling.STOP_ON_FAILURE)
 
-            WebUI.mouseOver(findTestObject('OffersPage/OfferRow/row 04 - Build'), FailureHandling.STOP_ON_FAILURE)
+            WebUI.mouseOver(findTestObject('OffersPage/OfferRow/row 04 - Build'), FailureHandling.OPTIONAL)
 
             WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
 
@@ -235,7 +233,7 @@ if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 02'), 3, 
 
                 href = WebUI.getAttribute(findTestObject('OffersPage/OfferRow/row 05 - Build'), 'href', FailureHandling.STOP_ON_FAILURE)
 
-                WebUI.mouseOver(findTestObject('OffersPage/OfferRow/row 05 - Build'), FailureHandling.STOP_ON_FAILURE)
+                WebUI.mouseOver(findTestObject('OffersPage/OfferRow/row 05 - Build'), FailureHandling.OPTIONAL)
 
                 WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
 
@@ -285,7 +283,7 @@ if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 02'), 3, 
 
                     href = WebUI.getAttribute(findTestObject('OffersPage/OfferRow/row 06 - Build'), 'href', FailureHandling.STOP_ON_FAILURE)
 
-                    WebUI.mouseOver(findTestObject('OffersPage/OfferRow/row 06 - Build'), FailureHandling.STOP_ON_FAILURE)
+                    WebUI.mouseOver(findTestObject('OffersPage/OfferRow/row 06 - Build'), FailureHandling.OPTIONAL)
 
                     WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
 

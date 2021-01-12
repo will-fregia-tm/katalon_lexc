@@ -41,49 +41,29 @@ WebUI.navigateToUrl(GlobalVariable.SC_Domain + '/offers?zip=30303&offerType=all'
 
 WebUI.waitForElementVisible(findTestObject('OffersPage/ZipBar/zip bar - 30303'), 0)
 
-WebUI.scrollToElement(findTestObject('OffersPage/OfferRow/row 01'), 0, FailureHandling.STOP_ON_FAILURE)
+'runs the tests if offers are present'
+if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 01'), 3, FailureHandling.OPTIONAL)) {
+    WebUI.scrollToElement(findTestObject('OffersPage/OfferRow/row 01'), 0, FailureHandling.STOP_ON_FAILURE)
 
-dropdownText = WebUI.getText(findTestObject('OffersPage/OfferRow/row 02 - dropdown button'), FailureHandling.STOP_ON_FAILURE)
+    dropdownText = WebUI.getText(findTestObject('OffersPage/OfferRow/row 02 - dropdown button'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyMatch(dropdownText, 'ALL STYLES', false, FailureHandling.STOP_ON_FAILURE)
+    WebUI.verifyMatch(dropdownText, 'ALL STYLES', false, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.mouseOver(findTestObject('OffersPage/OfferRow/row 02 - dropdown button'), FailureHandling.STOP_ON_FAILURE)
+    WebUI.mouseOver(findTestObject('OffersPage/OfferRow/row 02 - dropdown button'), FailureHandling.OPTIONAL)
 
-WebUI.click(findTestObject('OffersPage/OfferRow/row 02 - dropdown button'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.mouseOver(findTestObject('OffersPage/OfferRow/row 02 - dropdown button - model-style 1'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('OffersPage/OfferRow/row 02 - dropdown button - model-style 1'), FailureHandling.STOP_ON_FAILURE)
-
-dropdownText = WebUI.getText(findTestObject('OffersPage/OfferRow/row 02 - dropdown button'), FailureHandling.STOP_ON_FAILURE)
-
-'dropdown should default to ALL STYLES'
-WebUI.verifyNotMatch(dropdownText, 'ALL STYLES', false, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('OffersPage/OfferRow/row 02 - details button'), FailureHandling.STOP_ON_FAILURE)
-
-offerCardText = WebUI.getText(findTestObject('OffersPage/OfferRow/row 02 - offer card 1 - details'), FailureHandling.STOP_ON_FAILURE)
-
-'model name in offer card content should match selected model-style, and includes fallback in case trim only has consolidated/military/college grad offers'
-textWithoutModel = ((((offerCardText - dropdownText) - 'MILITARY REBATE') - 'COLLEGE') - 'SELECT')
-
-WebUI.verifyNotMatch(offerCardText, textWithoutModel, false, FailureHandling.STOP_ON_FAILURE)
-
-'tests this model-style if it is present'
-if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 02 - dropdown button - model-style 2'), 3, FailureHandling.OPTIONAL)) {
     WebUI.click(findTestObject('OffersPage/OfferRow/row 02 - dropdown button'), FailureHandling.STOP_ON_FAILURE)
 
-    dropdownText = WebUI.getText(findTestObject('OffersPage/OfferRow/row 02 - dropdown button - model-style 2'), FailureHandling.STOP_ON_FAILURE)
+    WebUI.mouseOver(findTestObject('OffersPage/OfferRow/row 02 - dropdown button - model-style 1'), FailureHandling.OPTIONAL)
 
-    WebUI.mouseOver(findTestObject('OffersPage/OfferRow/row 02 - dropdown button - model-style 2'), FailureHandling.STOP_ON_FAILURE)
+    WebUI.click(findTestObject('OffersPage/OfferRow/row 02 - dropdown button - model-style 1'), FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.click(findTestObject('OffersPage/OfferRow/row 02 - dropdown button - model-style 2'), FailureHandling.STOP_ON_FAILURE)
+    dropdownText = WebUI.getText(findTestObject('OffersPage/OfferRow/row 02 - dropdown button'), FailureHandling.STOP_ON_FAILURE)
 
-    'tests this model-style if it is present'
-    if (WebUI.verifyElementNotPresent(findTestObject('OffersPage/OfferRow/row 02 - offer card 1 - details'), 3, FailureHandling.OPTIONAL)) {
-        WebUI.click(findTestObject('OffersPage/OfferRow/row 02 - details button'), FailureHandling.OPTIONAL)
-    }
-    
+    'dropdown should default to ALL STYLES'
+    WebUI.verifyNotMatch(dropdownText, 'ALL STYLES', false, FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.click(findTestObject('OffersPage/OfferRow/row 02 - details button'), FailureHandling.STOP_ON_FAILURE)
+
     offerCardText = WebUI.getText(findTestObject('OffersPage/OfferRow/row 02 - offer card 1 - details'), FailureHandling.STOP_ON_FAILURE)
 
     'model name in offer card content should match selected model-style, and includes fallback in case trim only has consolidated/military/college grad offers'
@@ -92,14 +72,14 @@ if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 02 - drop
     WebUI.verifyNotMatch(offerCardText, textWithoutModel, false, FailureHandling.STOP_ON_FAILURE)
 
     'tests this model-style if it is present'
-    if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 02 - dropdown button - model-style 3'), 3, FailureHandling.OPTIONAL)) {
+    if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 02 - dropdown button - model-style 2'), 3, FailureHandling.OPTIONAL)) {
         WebUI.click(findTestObject('OffersPage/OfferRow/row 02 - dropdown button'), FailureHandling.STOP_ON_FAILURE)
 
-        dropdownText = WebUI.getText(findTestObject('OffersPage/OfferRow/row 02 - dropdown button - model-style 3'), FailureHandling.STOP_ON_FAILURE)
+        dropdownText = WebUI.getText(findTestObject('OffersPage/OfferRow/row 02 - dropdown button - model-style 2'), FailureHandling.STOP_ON_FAILURE)
 
-        WebUI.mouseOver(findTestObject('OffersPage/OfferRow/row 02 - dropdown button - model-style 3'), FailureHandling.STOP_ON_FAILURE)
+        WebUI.mouseOver(findTestObject('OffersPage/OfferRow/row 02 - dropdown button - model-style 2'), FailureHandling.OPTIONAL)
 
-        WebUI.click(findTestObject('OffersPage/OfferRow/row 02 - dropdown button - model-style 3'), FailureHandling.STOP_ON_FAILURE)
+        WebUI.click(findTestObject('OffersPage/OfferRow/row 02 - dropdown button - model-style 2'), FailureHandling.STOP_ON_FAILURE)
 
         'tests this model-style if it is present'
         if (WebUI.verifyElementNotPresent(findTestObject('OffersPage/OfferRow/row 02 - offer card 1 - details'), 3, FailureHandling.OPTIONAL)) {
@@ -114,16 +94,16 @@ if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 02 - drop
         WebUI.verifyNotMatch(offerCardText, textWithoutModel, false, FailureHandling.STOP_ON_FAILURE)
 
         'tests this model-style if it is present'
-        if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 02 - dropdown button - model-style 4'), 3, 
+        if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 02 - dropdown button - model-style 3'), 3, 
             FailureHandling.OPTIONAL)) {
             WebUI.click(findTestObject('OffersPage/OfferRow/row 02 - dropdown button'), FailureHandling.STOP_ON_FAILURE)
 
-            dropdownText = WebUI.getText(findTestObject('OffersPage/OfferRow/row 02 - dropdown button - model-style 4'), 
+            dropdownText = WebUI.getText(findTestObject('OffersPage/OfferRow/row 02 - dropdown button - model-style 3'), 
                 FailureHandling.STOP_ON_FAILURE)
 
-            WebUI.mouseOver(findTestObject('OffersPage/OfferRow/row 02 - dropdown button - model-style 4'), FailureHandling.STOP_ON_FAILURE)
+            WebUI.mouseOver(findTestObject('OffersPage/OfferRow/row 02 - dropdown button - model-style 3'), FailureHandling.OPTIONAL)
 
-            WebUI.click(findTestObject('OffersPage/OfferRow/row 02 - dropdown button - model-style 4'), FailureHandling.STOP_ON_FAILURE)
+            WebUI.click(findTestObject('OffersPage/OfferRow/row 02 - dropdown button - model-style 3'), FailureHandling.STOP_ON_FAILURE)
 
             'tests this model-style if it is present'
             if (WebUI.verifyElementNotPresent(findTestObject('OffersPage/OfferRow/row 02 - offer card 1 - details'), 3, 
@@ -139,16 +119,16 @@ if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 02 - drop
             WebUI.verifyNotMatch(offerCardText, textWithoutModel, false, FailureHandling.STOP_ON_FAILURE)
 
             'tests this model-style if it is present'
-            if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 02 - dropdown button - model-style 5'), 
+            if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 02 - dropdown button - model-style 4'), 
                 3, FailureHandling.OPTIONAL)) {
                 WebUI.click(findTestObject('OffersPage/OfferRow/row 02 - dropdown button'), FailureHandling.STOP_ON_FAILURE)
 
-                dropdownText = WebUI.getText(findTestObject('OffersPage/OfferRow/row 02 - dropdown button - model-style 5'), 
+                dropdownText = WebUI.getText(findTestObject('OffersPage/OfferRow/row 02 - dropdown button - model-style 4'), 
                     FailureHandling.STOP_ON_FAILURE)
 
-                WebUI.mouseOver(findTestObject('OffersPage/OfferRow/row 02 - dropdown button - model-style 5'), FailureHandling.STOP_ON_FAILURE)
+                WebUI.mouseOver(findTestObject('OffersPage/OfferRow/row 02 - dropdown button - model-style 4'), FailureHandling.OPTIONAL)
 
-                WebUI.click(findTestObject('OffersPage/OfferRow/row 02 - dropdown button - model-style 5'), FailureHandling.STOP_ON_FAILURE)
+                WebUI.click(findTestObject('OffersPage/OfferRow/row 02 - dropdown button - model-style 4'), FailureHandling.STOP_ON_FAILURE)
 
                 'tests this model-style if it is present'
                 if (WebUI.verifyElementNotPresent(findTestObject('OffersPage/OfferRow/row 02 - offer card 1 - details'), 
@@ -164,16 +144,16 @@ if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 02 - drop
                 WebUI.verifyNotMatch(offerCardText, textWithoutModel, false, FailureHandling.STOP_ON_FAILURE)
 
                 'tests this model-style if it is present'
-                if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 02 - dropdown button - model-style 6'), 
+                if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 02 - dropdown button - model-style 5'), 
                     3, FailureHandling.OPTIONAL)) {
                     WebUI.click(findTestObject('OffersPage/OfferRow/row 02 - dropdown button'), FailureHandling.STOP_ON_FAILURE)
 
-                    dropdownText = WebUI.getText(findTestObject('OffersPage/OfferRow/row 02 - dropdown button - model-style 6'), 
+                    dropdownText = WebUI.getText(findTestObject('OffersPage/OfferRow/row 02 - dropdown button - model-style 5'), 
                         FailureHandling.STOP_ON_FAILURE)
 
-                    WebUI.mouseOver(findTestObject('OffersPage/OfferRow/row 02 - dropdown button - model-style 6'), FailureHandling.STOP_ON_FAILURE)
+                    WebUI.mouseOver(findTestObject('OffersPage/OfferRow/row 02 - dropdown button - model-style 5'), FailureHandling.OPTIONAL)
 
-                    WebUI.click(findTestObject('OffersPage/OfferRow/row 02 - dropdown button - model-style 6'), FailureHandling.STOP_ON_FAILURE)
+                    WebUI.click(findTestObject('OffersPage/OfferRow/row 02 - dropdown button - model-style 5'), FailureHandling.STOP_ON_FAILURE)
 
                     'tests this model-style if it is present'
                     if (WebUI.verifyElementNotPresent(findTestObject('OffersPage/OfferRow/row 02 - offer card 1 - details'), 
@@ -190,17 +170,17 @@ if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 02 - drop
                     WebUI.verifyNotMatch(offerCardText, textWithoutModel, false, FailureHandling.STOP_ON_FAILURE)
 
                     'tests this model-style if it is present'
-                    if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 02 - dropdown button - model-style 7'), 
+                    if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 02 - dropdown button - model-style 6'), 
                         3, FailureHandling.OPTIONAL)) {
                         WebUI.click(findTestObject('OffersPage/OfferRow/row 02 - dropdown button'), FailureHandling.STOP_ON_FAILURE)
 
-                        dropdownText = WebUI.getText(findTestObject('OffersPage/OfferRow/row 02 - dropdown button - model-style 7'), 
+                        dropdownText = WebUI.getText(findTestObject('OffersPage/OfferRow/row 02 - dropdown button - model-style 6'), 
                             FailureHandling.STOP_ON_FAILURE)
 
-                        WebUI.mouseOver(findTestObject('OffersPage/OfferRow/row 02 - dropdown button - model-style 7'), 
-                            FailureHandling.STOP_ON_FAILURE)
+                        WebUI.mouseOver(findTestObject('OffersPage/OfferRow/row 02 - dropdown button - model-style 6'), 
+                            FailureHandling.OPTIONAL)
 
-                        WebUI.click(findTestObject('OffersPage/OfferRow/row 02 - dropdown button - model-style 7'), FailureHandling.STOP_ON_FAILURE)
+                        WebUI.click(findTestObject('OffersPage/OfferRow/row 02 - dropdown button - model-style 6'), FailureHandling.STOP_ON_FAILURE)
 
                         'tests this model-style if it is present'
                         if (WebUI.verifyElementNotPresent(findTestObject('OffersPage/OfferRow/row 02 - offer card 1 - details'), 
@@ -217,17 +197,17 @@ if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 02 - drop
                         WebUI.verifyNotMatch(offerCardText, textWithoutModel, false, FailureHandling.STOP_ON_FAILURE)
 
                         'tests this model-style if it is present'
-                        if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 02 - dropdown button - model-style 8'), 
+                        if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 02 - dropdown button - model-style 7'), 
                             3, FailureHandling.OPTIONAL)) {
                             WebUI.click(findTestObject('OffersPage/OfferRow/row 02 - dropdown button'), FailureHandling.STOP_ON_FAILURE)
 
-                            dropdownText = WebUI.getText(findTestObject('OffersPage/OfferRow/row 02 - dropdown button - model-style 8'), 
+                            dropdownText = WebUI.getText(findTestObject('OffersPage/OfferRow/row 02 - dropdown button - model-style 7'), 
                                 FailureHandling.STOP_ON_FAILURE)
 
-                            WebUI.mouseOver(findTestObject('OffersPage/OfferRow/row 02 - dropdown button - model-style 8'), 
-                                FailureHandling.STOP_ON_FAILURE)
+                            WebUI.mouseOver(findTestObject('OffersPage/OfferRow/row 02 - dropdown button - model-style 7'), 
+                                FailureHandling.OPTIONAL)
 
-                            WebUI.click(findTestObject('OffersPage/OfferRow/row 02 - dropdown button - model-style 8'), 
+                            WebUI.click(findTestObject('OffersPage/OfferRow/row 02 - dropdown button - model-style 7'), 
                                 FailureHandling.STOP_ON_FAILURE)
 
                             'tests this model-style if it is present'
@@ -243,196 +223,231 @@ if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 02 - drop
                             textWithoutModel = ((((offerCardText - dropdownText) - 'MILITARY REBATE') - 'COLLEGE') - 'SELECT')
 
                             WebUI.verifyNotMatch(offerCardText, textWithoutModel, false, FailureHandling.STOP_ON_FAILURE)
+
+                            'tests this model-style if it is present'
+                            if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 02 - dropdown button - model-style 8'), 
+                                3, FailureHandling.OPTIONAL)) {
+                                WebUI.click(findTestObject('OffersPage/OfferRow/row 02 - dropdown button'), FailureHandling.STOP_ON_FAILURE)
+
+                                dropdownText = WebUI.getText(findTestObject('OffersPage/OfferRow/row 02 - dropdown button - model-style 8'), 
+                                    FailureHandling.STOP_ON_FAILURE)
+
+                                WebUI.mouseOver(findTestObject('OffersPage/OfferRow/row 02 - dropdown button - model-style 8'), 
+                                    FailureHandling.OPTIONAL)
+
+                                WebUI.click(findTestObject('OffersPage/OfferRow/row 02 - dropdown button - model-style 8'), 
+                                    FailureHandling.STOP_ON_FAILURE)
+
+                                'tests this model-style if it is present'
+                                if (WebUI.verifyElementNotPresent(findTestObject('OffersPage/OfferRow/row 02 - offer card 1 - details'), 
+                                    3, FailureHandling.OPTIONAL)) {
+                                    WebUI.click(findTestObject('OffersPage/OfferRow/row 02 - details button'), FailureHandling.OPTIONAL)
+                                }
+                                
+                                offerCardText = WebUI.getText(findTestObject('OffersPage/OfferRow/row 02 - offer card 1 - details'), 
+                                    FailureHandling.STOP_ON_FAILURE)
+
+                                'model name in offer card content should match selected model-style, and includes fallback in case trim only has consolidated/military/college grad offers'
+                                textWithoutModel = ((((offerCardText - dropdownText) - 'MILITARY REBATE') - 'COLLEGE') - 
+                                'SELECT')
+
+                                WebUI.verifyNotMatch(offerCardText, textWithoutModel, false, FailureHandling.STOP_ON_FAILURE)
+                            }
                         }
                     }
                 }
             }
         }
     }
-}
-
-'tests this offer row if it is present'
-if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 03'), 3, FailureHandling.OPTIONAL)) {
-    WebUI.scrollToElement(findTestObject('OffersPage/OfferRow/row 02'), 0, FailureHandling.STOP_ON_FAILURE)
-
-    dropdownText = WebUI.getText(findTestObject('OffersPage/OfferRow/row 03 - dropdown button'), FailureHandling.STOP_ON_FAILURE)
-
-    WebUI.verifyMatch(dropdownText, 'ALL STYLES', false, FailureHandling.STOP_ON_FAILURE)
-
-    WebUI.mouseOver(findTestObject('OffersPage/OfferRow/row 03 - dropdown button'), FailureHandling.STOP_ON_FAILURE)
-
-    WebUI.click(findTestObject('OffersPage/OfferRow/row 03 - dropdown button'), FailureHandling.STOP_ON_FAILURE)
-
-    WebUI.mouseOver(findTestObject('OffersPage/OfferRow/row 03 - dropdown button - model-style 1'), FailureHandling.STOP_ON_FAILURE)
-
-    WebUI.click(findTestObject('OffersPage/OfferRow/row 03 - dropdown button - model-style 1'), FailureHandling.STOP_ON_FAILURE)
-
-    dropdownText = WebUI.getText(findTestObject('OffersPage/OfferRow/row 03 - dropdown button'), FailureHandling.STOP_ON_FAILURE)
-
-    'dropdown should default to ALL STYLES'
-    WebUI.verifyNotMatch(dropdownText, 'ALL STYLES', false, FailureHandling.STOP_ON_FAILURE)
-
-    WebUI.click(findTestObject('OffersPage/OfferRow/row 03 - details button'), FailureHandling.STOP_ON_FAILURE)
-
-    offerCardText = WebUI.getText(findTestObject('OffersPage/OfferRow/row 03 - offer card 1 - details'), FailureHandling.STOP_ON_FAILURE)
-
+    
     'tests this offer row if it is present'
-    if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 04'), 3, FailureHandling.OPTIONAL)) {
-        WebUI.scrollToElement(findTestObject('OffersPage/OfferRow/row 03'), 0, FailureHandling.STOP_ON_FAILURE)
+    if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 03'), 3, FailureHandling.OPTIONAL)) {
+        WebUI.scrollToElement(findTestObject('OffersPage/OfferRow/row 02'), 0, FailureHandling.STOP_ON_FAILURE)
 
-        dropdownText = WebUI.getText(findTestObject('OffersPage/OfferRow/row 04 - dropdown button'), FailureHandling.STOP_ON_FAILURE)
+        dropdownText = WebUI.getText(findTestObject('OffersPage/OfferRow/row 03 - dropdown button'), FailureHandling.STOP_ON_FAILURE)
 
         WebUI.verifyMatch(dropdownText, 'ALL STYLES', false, FailureHandling.STOP_ON_FAILURE)
 
-        WebUI.mouseOver(findTestObject('OffersPage/OfferRow/row 04 - dropdown button'), FailureHandling.STOP_ON_FAILURE)
+        WebUI.mouseOver(findTestObject('OffersPage/OfferRow/row 03 - dropdown button'), FailureHandling.OPTIONAL)
 
-        WebUI.click(findTestObject('OffersPage/OfferRow/row 04 - dropdown button'), FailureHandling.STOP_ON_FAILURE)
+        WebUI.click(findTestObject('OffersPage/OfferRow/row 03 - dropdown button'), FailureHandling.STOP_ON_FAILURE)
 
-        WebUI.mouseOver(findTestObject('OffersPage/OfferRow/row 04 - dropdown button - model-style 1'), FailureHandling.STOP_ON_FAILURE)
+        WebUI.mouseOver(findTestObject('OffersPage/OfferRow/row 03 - dropdown button - model-style 1'), FailureHandling.OPTIONAL)
 
-        WebUI.click(findTestObject('OffersPage/OfferRow/row 04 - dropdown button - model-style 1'), FailureHandling.STOP_ON_FAILURE)
+        WebUI.click(findTestObject('OffersPage/OfferRow/row 03 - dropdown button - model-style 1'), FailureHandling.STOP_ON_FAILURE)
 
-        dropdownText = WebUI.getText(findTestObject('OffersPage/OfferRow/row 04 - dropdown button'), FailureHandling.STOP_ON_FAILURE)
+        dropdownText = WebUI.getText(findTestObject('OffersPage/OfferRow/row 03 - dropdown button'), FailureHandling.STOP_ON_FAILURE)
 
         'dropdown should default to ALL STYLES'
         WebUI.verifyNotMatch(dropdownText, 'ALL STYLES', false, FailureHandling.STOP_ON_FAILURE)
 
-        WebUI.click(findTestObject('OffersPage/OfferRow/row 04 - details button'), FailureHandling.STOP_ON_FAILURE)
+        WebUI.click(findTestObject('OffersPage/OfferRow/row 03 - details button'), FailureHandling.STOP_ON_FAILURE)
 
-        offerCardText = WebUI.getText(findTestObject('OffersPage/OfferRow/row 04 - offer card 1 - details'), FailureHandling.STOP_ON_FAILURE)
+        offerCardText = WebUI.getText(findTestObject('OffersPage/OfferRow/row 03 - offer card 1 - details'), FailureHandling.STOP_ON_FAILURE)
 
         'tests this offer row if it is present'
-        if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 05'), 3, FailureHandling.OPTIONAL)) {
-            WebUI.scrollToElement(findTestObject('OffersPage/OfferRow/row 04'), 0, FailureHandling.STOP_ON_FAILURE)
+        if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 04'), 3, FailureHandling.OPTIONAL)) {
+            WebUI.scrollToElement(findTestObject('OffersPage/OfferRow/row 03'), 0, FailureHandling.STOP_ON_FAILURE)
 
-            dropdownText = WebUI.getText(findTestObject('OffersPage/OfferRow/row 05 - dropdown button'), FailureHandling.STOP_ON_FAILURE)
+            dropdownText = WebUI.getText(findTestObject('OffersPage/OfferRow/row 04 - dropdown button'), FailureHandling.STOP_ON_FAILURE)
 
             WebUI.verifyMatch(dropdownText, 'ALL STYLES', false, FailureHandling.STOP_ON_FAILURE)
 
-            WebUI.mouseOver(findTestObject('OffersPage/OfferRow/row 05 - dropdown button'), FailureHandling.STOP_ON_FAILURE)
+            WebUI.mouseOver(findTestObject('OffersPage/OfferRow/row 04 - dropdown button'), FailureHandling.OPTIONAL)
 
-            WebUI.click(findTestObject('OffersPage/OfferRow/row 05 - dropdown button'), FailureHandling.STOP_ON_FAILURE)
+            WebUI.click(findTestObject('OffersPage/OfferRow/row 04 - dropdown button'), FailureHandling.STOP_ON_FAILURE)
 
-            WebUI.mouseOver(findTestObject('OffersPage/OfferRow/row 05 - dropdown button - model-style 1'), FailureHandling.STOP_ON_FAILURE)
+            WebUI.mouseOver(findTestObject('OffersPage/OfferRow/row 04 - dropdown button - model-style 1'), FailureHandling.OPTIONAL)
 
-            WebUI.click(findTestObject('OffersPage/OfferRow/row 05 - dropdown button - model-style 1'), FailureHandling.STOP_ON_FAILURE)
+            WebUI.click(findTestObject('OffersPage/OfferRow/row 04 - dropdown button - model-style 1'), FailureHandling.STOP_ON_FAILURE)
 
-            dropdownText = WebUI.getText(findTestObject('OffersPage/OfferRow/row 05 - dropdown button'), FailureHandling.STOP_ON_FAILURE)
+            dropdownText = WebUI.getText(findTestObject('OffersPage/OfferRow/row 04 - dropdown button'), FailureHandling.STOP_ON_FAILURE)
 
             'dropdown should default to ALL STYLES'
             WebUI.verifyNotMatch(dropdownText, 'ALL STYLES', false, FailureHandling.STOP_ON_FAILURE)
 
-            WebUI.click(findTestObject('OffersPage/OfferRow/row 05 - details button'), FailureHandling.STOP_ON_FAILURE)
+            WebUI.click(findTestObject('OffersPage/OfferRow/row 04 - details button'), FailureHandling.STOP_ON_FAILURE)
 
-            offerCardText = WebUI.getText(findTestObject('OffersPage/OfferRow/row 05 - offer card 1 - details'), FailureHandling.STOP_ON_FAILURE)
+            offerCardText = WebUI.getText(findTestObject('OffersPage/OfferRow/row 04 - offer card 1 - details'), FailureHandling.STOP_ON_FAILURE)
 
             'tests this offer row if it is present'
-            if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 06'), 3, FailureHandling.OPTIONAL)) {
-                WebUI.scrollToElement(findTestObject('OffersPage/OfferRow/row 05'), 0, FailureHandling.STOP_ON_FAILURE)
+            if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 05'), 3, FailureHandling.OPTIONAL)) {
+                WebUI.scrollToElement(findTestObject('OffersPage/OfferRow/row 04'), 0, FailureHandling.STOP_ON_FAILURE)
 
-                dropdownText = WebUI.getText(findTestObject('OffersPage/OfferRow/row 06 - dropdown button'), FailureHandling.STOP_ON_FAILURE)
+                dropdownText = WebUI.getText(findTestObject('OffersPage/OfferRow/row 05 - dropdown button'), FailureHandling.STOP_ON_FAILURE)
 
                 WebUI.verifyMatch(dropdownText, 'ALL STYLES', false, FailureHandling.STOP_ON_FAILURE)
 
-                WebUI.mouseOver(findTestObject('OffersPage/OfferRow/row 06 - dropdown button'), FailureHandling.STOP_ON_FAILURE)
+                WebUI.mouseOver(findTestObject('OffersPage/OfferRow/row 05 - dropdown button'), FailureHandling.OPTIONAL)
 
-                WebUI.click(findTestObject('OffersPage/OfferRow/row 06 - dropdown button'), FailureHandling.STOP_ON_FAILURE)
+                WebUI.click(findTestObject('OffersPage/OfferRow/row 05 - dropdown button'), FailureHandling.STOP_ON_FAILURE)
 
-                WebUI.mouseOver(findTestObject('OffersPage/OfferRow/row 06 - dropdown button - model-style 1'), FailureHandling.STOP_ON_FAILURE)
+                WebUI.mouseOver(findTestObject('OffersPage/OfferRow/row 05 - dropdown button - model-style 1'), FailureHandling.OPTIONAL)
 
-                WebUI.click(findTestObject('OffersPage/OfferRow/row 06 - dropdown button - model-style 1'), FailureHandling.STOP_ON_FAILURE)
+                WebUI.click(findTestObject('OffersPage/OfferRow/row 05 - dropdown button - model-style 1'), FailureHandling.STOP_ON_FAILURE)
 
-                dropdownText = WebUI.getText(findTestObject('OffersPage/OfferRow/row 06 - dropdown button'), FailureHandling.STOP_ON_FAILURE)
+                dropdownText = WebUI.getText(findTestObject('OffersPage/OfferRow/row 05 - dropdown button'), FailureHandling.STOP_ON_FAILURE)
 
                 'dropdown should default to ALL STYLES'
                 WebUI.verifyNotMatch(dropdownText, 'ALL STYLES', false, FailureHandling.STOP_ON_FAILURE)
 
-                WebUI.click(findTestObject('OffersPage/OfferRow/row 06 - details button'), FailureHandling.STOP_ON_FAILURE)
+                WebUI.click(findTestObject('OffersPage/OfferRow/row 05 - details button'), FailureHandling.STOP_ON_FAILURE)
 
-                offerCardText = WebUI.getText(findTestObject('OffersPage/OfferRow/row 06 - offer card 1 - details'), FailureHandling.STOP_ON_FAILURE)
+                offerCardText = WebUI.getText(findTestObject('OffersPage/OfferRow/row 05 - offer card 1 - details'), FailureHandling.STOP_ON_FAILURE)
 
                 'tests this offer row if it is present'
-                if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 07'), 3, FailureHandling.OPTIONAL)) {
-                    WebUI.scrollToElement(findTestObject('OffersPage/OfferRow/row 06'), 0, FailureHandling.STOP_ON_FAILURE)
+                if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 06'), 3, FailureHandling.OPTIONAL)) {
+                    WebUI.scrollToElement(findTestObject('OffersPage/OfferRow/row 05'), 0, FailureHandling.STOP_ON_FAILURE)
 
-                    dropdownText = WebUI.getText(findTestObject('OffersPage/OfferRow/row 07 - dropdown button'), FailureHandling.STOP_ON_FAILURE)
+                    dropdownText = WebUI.getText(findTestObject('OffersPage/OfferRow/row 06 - dropdown button'), FailureHandling.STOP_ON_FAILURE)
 
                     WebUI.verifyMatch(dropdownText, 'ALL STYLES', false, FailureHandling.STOP_ON_FAILURE)
 
-                    WebUI.mouseOver(findTestObject('OffersPage/OfferRow/row 07 - dropdown button'), FailureHandling.STOP_ON_FAILURE)
+                    WebUI.mouseOver(findTestObject('OffersPage/OfferRow/row 06 - dropdown button'), FailureHandling.OPTIONAL)
 
-                    WebUI.click(findTestObject('OffersPage/OfferRow/row 07 - dropdown button'), FailureHandling.STOP_ON_FAILURE)
+                    WebUI.click(findTestObject('OffersPage/OfferRow/row 06 - dropdown button'), FailureHandling.STOP_ON_FAILURE)
 
-                    WebUI.mouseOver(findTestObject('OffersPage/OfferRow/row 07 - dropdown button - model-style 1'), FailureHandling.STOP_ON_FAILURE)
+                    WebUI.mouseOver(findTestObject('OffersPage/OfferRow/row 06 - dropdown button - model-style 1'), FailureHandling.OPTIONAL)
 
-                    WebUI.click(findTestObject('OffersPage/OfferRow/row 07 - dropdown button - model-style 1'), FailureHandling.STOP_ON_FAILURE)
+                    WebUI.click(findTestObject('OffersPage/OfferRow/row 06 - dropdown button - model-style 1'), FailureHandling.STOP_ON_FAILURE)
 
-                    dropdownText = WebUI.getText(findTestObject('OffersPage/OfferRow/row 07 - dropdown button'), FailureHandling.STOP_ON_FAILURE)
+                    dropdownText = WebUI.getText(findTestObject('OffersPage/OfferRow/row 06 - dropdown button'), FailureHandling.STOP_ON_FAILURE)
 
                     'dropdown should default to ALL STYLES'
                     WebUI.verifyNotMatch(dropdownText, 'ALL STYLES', false, FailureHandling.STOP_ON_FAILURE)
 
-                    WebUI.click(findTestObject('OffersPage/OfferRow/row 07 - details button'), FailureHandling.STOP_ON_FAILURE)
+                    WebUI.click(findTestObject('OffersPage/OfferRow/row 06 - details button'), FailureHandling.STOP_ON_FAILURE)
 
-                    offerCardText = WebUI.getText(findTestObject('OffersPage/OfferRow/row 07 - offer card 1 - details'), 
+                    offerCardText = WebUI.getText(findTestObject('OffersPage/OfferRow/row 06 - offer card 1 - details'), 
                         FailureHandling.STOP_ON_FAILURE)
 
                     'tests this offer row if it is present'
-                    if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 08'), 3, FailureHandling.OPTIONAL)) {
-                        WebUI.scrollToElement(findTestObject('OffersPage/OfferRow/row 07'), 0, FailureHandling.STOP_ON_FAILURE)
+                    if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 07'), 3, FailureHandling.OPTIONAL)) {
+                        WebUI.scrollToElement(findTestObject('OffersPage/OfferRow/row 06'), 0, FailureHandling.STOP_ON_FAILURE)
 
-                        dropdownText = WebUI.getText(findTestObject('OffersPage/OfferRow/row 08 - dropdown button'), FailureHandling.STOP_ON_FAILURE)
+                        dropdownText = WebUI.getText(findTestObject('OffersPage/OfferRow/row 07 - dropdown button'), FailureHandling.STOP_ON_FAILURE)
 
                         WebUI.verifyMatch(dropdownText, 'ALL STYLES', false, FailureHandling.STOP_ON_FAILURE)
 
-                        WebUI.mouseOver(findTestObject('OffersPage/OfferRow/row 08 - dropdown button'), FailureHandling.STOP_ON_FAILURE)
+                        WebUI.mouseOver(findTestObject('OffersPage/OfferRow/row 07 - dropdown button'), FailureHandling.OPTIONAL)
 
-                        WebUI.click(findTestObject('OffersPage/OfferRow/row 08 - dropdown button'), FailureHandling.STOP_ON_FAILURE)
+                        WebUI.click(findTestObject('OffersPage/OfferRow/row 07 - dropdown button'), FailureHandling.STOP_ON_FAILURE)
 
-                        WebUI.mouseOver(findTestObject('OffersPage/OfferRow/row 08 - dropdown button - model-style 1'), 
-                            FailureHandling.STOP_ON_FAILURE)
+                        WebUI.mouseOver(findTestObject('OffersPage/OfferRow/row 07 - dropdown button - model-style 1'), 
+                            FailureHandling.OPTIONAL)
 
-                        WebUI.click(findTestObject('OffersPage/OfferRow/row 08 - dropdown button - model-style 1'), FailureHandling.STOP_ON_FAILURE)
+                        WebUI.click(findTestObject('OffersPage/OfferRow/row 07 - dropdown button - model-style 1'), FailureHandling.STOP_ON_FAILURE)
 
-                        dropdownText = WebUI.getText(findTestObject('OffersPage/OfferRow/row 08 - dropdown button'), FailureHandling.STOP_ON_FAILURE)
+                        dropdownText = WebUI.getText(findTestObject('OffersPage/OfferRow/row 07 - dropdown button'), FailureHandling.STOP_ON_FAILURE)
 
                         'dropdown should default to ALL STYLES'
                         WebUI.verifyNotMatch(dropdownText, 'ALL STYLES', false, FailureHandling.STOP_ON_FAILURE)
 
-                        WebUI.click(findTestObject('OffersPage/OfferRow/row 08 - details button'), FailureHandling.STOP_ON_FAILURE)
+                        WebUI.click(findTestObject('OffersPage/OfferRow/row 07 - details button'), FailureHandling.STOP_ON_FAILURE)
 
-                        offerCardText = WebUI.getText(findTestObject('OffersPage/OfferRow/row 08 - offer card 1 - details'), 
+                        offerCardText = WebUI.getText(findTestObject('OffersPage/OfferRow/row 07 - offer card 1 - details'), 
                             FailureHandling.STOP_ON_FAILURE)
 
                         'tests this offer row if it is present'
-                        if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 09'), 3, FailureHandling.OPTIONAL)) {
-                            WebUI.scrollToElement(findTestObject('OffersPage/OfferRow/row 08'), 0, FailureHandling.STOP_ON_FAILURE)
+                        if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 08'), 3, FailureHandling.OPTIONAL)) {
+                            WebUI.scrollToElement(findTestObject('OffersPage/OfferRow/row 07'), 0, FailureHandling.STOP_ON_FAILURE)
 
-                            dropdownText = WebUI.getText(findTestObject('OffersPage/OfferRow/row 09 - dropdown button'), 
+                            dropdownText = WebUI.getText(findTestObject('OffersPage/OfferRow/row 08 - dropdown button'), 
                                 FailureHandling.STOP_ON_FAILURE)
 
                             WebUI.verifyMatch(dropdownText, 'ALL STYLES', false, FailureHandling.STOP_ON_FAILURE)
 
-                            WebUI.mouseOver(findTestObject('OffersPage/OfferRow/row 09 - dropdown button'), FailureHandling.STOP_ON_FAILURE)
+                            WebUI.mouseOver(findTestObject('OffersPage/OfferRow/row 08 - dropdown button'), FailureHandling.OPTIONAL)
 
-                            WebUI.click(findTestObject('OffersPage/OfferRow/row 09 - dropdown button'), FailureHandling.STOP_ON_FAILURE)
+                            WebUI.click(findTestObject('OffersPage/OfferRow/row 08 - dropdown button'), FailureHandling.STOP_ON_FAILURE)
 
-                            WebUI.mouseOver(findTestObject('OffersPage/OfferRow/row 09 - dropdown button - model-style 1'), 
+                            WebUI.mouseOver(findTestObject('OffersPage/OfferRow/row 08 - dropdown button - model-style 1'), 
+                                FailureHandling.OPTIONAL)
+
+                            WebUI.click(findTestObject('OffersPage/OfferRow/row 08 - dropdown button - model-style 1'), 
                                 FailureHandling.STOP_ON_FAILURE)
 
-                            WebUI.click(findTestObject('OffersPage/OfferRow/row 09 - dropdown button - model-style 1'), 
-                                FailureHandling.STOP_ON_FAILURE)
-
-                            dropdownText = WebUI.getText(findTestObject('OffersPage/OfferRow/row 09 - dropdown button'), 
+                            dropdownText = WebUI.getText(findTestObject('OffersPage/OfferRow/row 08 - dropdown button'), 
                                 FailureHandling.STOP_ON_FAILURE)
 
                             'dropdown should default to ALL STYLES'
                             WebUI.verifyNotMatch(dropdownText, 'ALL STYLES', false, FailureHandling.STOP_ON_FAILURE)
 
-                            WebUI.click(findTestObject('OffersPage/OfferRow/row 09 - details button'), FailureHandling.STOP_ON_FAILURE)
+                            WebUI.click(findTestObject('OffersPage/OfferRow/row 08 - details button'), FailureHandling.STOP_ON_FAILURE)
 
-                            offerCardText = WebUI.getText(findTestObject('OffersPage/OfferRow/row 09 - offer card 1 - details'), 
+                            offerCardText = WebUI.getText(findTestObject('OffersPage/OfferRow/row 08 - offer card 1 - details'), 
                                 FailureHandling.STOP_ON_FAILURE)
+
+                            'tests this offer row if it is present'
+                            if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 09'), 3, FailureHandling.OPTIONAL)) {
+                                WebUI.scrollToElement(findTestObject('OffersPage/OfferRow/row 08'), 0, FailureHandling.STOP_ON_FAILURE)
+
+                                dropdownText = WebUI.getText(findTestObject('OffersPage/OfferRow/row 09 - dropdown button'), 
+                                    FailureHandling.STOP_ON_FAILURE)
+
+                                WebUI.verifyMatch(dropdownText, 'ALL STYLES', false, FailureHandling.STOP_ON_FAILURE)
+
+                                WebUI.mouseOver(findTestObject('OffersPage/OfferRow/row 09 - dropdown button'), FailureHandling.OPTIONAL)
+
+                                WebUI.click(findTestObject('OffersPage/OfferRow/row 09 - dropdown button'), FailureHandling.STOP_ON_FAILURE)
+
+                                WebUI.mouseOver(findTestObject('OffersPage/OfferRow/row 09 - dropdown button - model-style 1'), 
+                                    FailureHandling.OPTIONAL)
+
+                                WebUI.click(findTestObject('OffersPage/OfferRow/row 09 - dropdown button - model-style 1'), 
+                                    FailureHandling.STOP_ON_FAILURE)
+
+                                dropdownText = WebUI.getText(findTestObject('OffersPage/OfferRow/row 09 - dropdown button'), 
+                                    FailureHandling.STOP_ON_FAILURE)
+
+                                'dropdown should default to ALL STYLES'
+                                WebUI.verifyNotMatch(dropdownText, 'ALL STYLES', false, FailureHandling.STOP_ON_FAILURE)
+
+                                WebUI.click(findTestObject('OffersPage/OfferRow/row 09 - details button'), FailureHandling.STOP_ON_FAILURE)
+
+                                offerCardText = WebUI.getText(findTestObject('OffersPage/OfferRow/row 09 - offer card 1 - details'), 
+                                    FailureHandling.STOP_ON_FAILURE)
+                            }
                         }
                     }
                 }

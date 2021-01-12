@@ -49,7 +49,7 @@ WebUI.click(findTestObject('OffersPage/OfferRow/row 02 - dropdown button'), Fail
 
 dropdownText = WebUI.getText(findTestObject('OffersPage/OfferRow/row 02 - dropdown button - model-style 1'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.mouseOver(findTestObject('OffersPage/OfferRow/row 02 - dropdown button - model-style 1'), FailureHandling.STOP_ON_FAILURE)
+WebUI.mouseOver(findTestObject('OffersPage/OfferRow/row 02 - dropdown button - model-style 1'), FailureHandling.OPTIONAL)
 
 WebUI.click(findTestObject('OffersPage/OfferRow/row 02 - dropdown button - model-style 1'), FailureHandling.STOP_ON_FAILURE)
 
@@ -61,7 +61,7 @@ WebUI.click(findTestObject('OffersPage/OfferRow/row 02 - dropdown button'), Fail
 
 offerType = WebUI.getText(findTestObject('OffersPage/OfferRow/row 02 - offer card 1 - offer type'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.mouseOver(findTestObject('OffersPage/OfferRow/row 02 - dropdown button - model-style 1'), FailureHandling.STOP_ON_FAILURE)
+WebUI.mouseOver(findTestObject('OffersPage/OfferRow/row 02 - dropdown button - model-style 1'), FailureHandling.OPTIONAL)
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 

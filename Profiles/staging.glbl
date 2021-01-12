@@ -34,4 +34,9 @@
       <initValue>'staging'</initValue>
       <name>domain</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'staging'</initValue>
+      <name>endpointDomain</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

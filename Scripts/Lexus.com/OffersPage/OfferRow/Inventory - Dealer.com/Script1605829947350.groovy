@@ -59,7 +59,7 @@ WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/inventory CTA'), 
 
 WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/inventory map'), 0, FailureHandling.OPTIONAL)
 
-WebUI.mouseOver(findTestObject('OffersPage/OfferRow/inventory dealer name'), FailureHandling.STOP_ON_FAILURE)
+WebUI.mouseOver(findTestObject('OffersPage/OfferRow/inventory dealer name'), FailureHandling.OPTIONAL)
 
 target = WebUI.getAttribute(findTestObject('OffersPage/OfferRow/inventory CTA'), 'target', FailureHandling.STOP_ON_FAILURE)
 
@@ -76,7 +76,7 @@ WebUI.switchToWindowIndex(0, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForElementPresent(findTestObject('OffersPage/OfferRow/inventory CTA'), 0, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.mouseOver(findTestObject('OffersPage/OfferRow/inventory CTA'), FailureHandling.STOP_ON_FAILURE)
+WebUI.mouseOver(findTestObject('OffersPage/OfferRow/inventory CTA'), FailureHandling.OPTIONAL)
 
 WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
 

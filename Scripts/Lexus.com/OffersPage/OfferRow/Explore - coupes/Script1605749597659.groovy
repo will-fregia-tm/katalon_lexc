@@ -74,6 +74,8 @@ if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 02'), 3, 
 
     WebUI.navigateToUrl('https://www.lexus.com' + relativeLink, FailureHandling.STOP_ON_FAILURE)
 
+    WebUI.delay(1)
+
     modelPageTitle = WebUI.getWindowTitle(FailureHandling.STOP_ON_FAILURE)
 
     'model name at linked page should match offer row model name'
@@ -111,6 +113,8 @@ if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 02'), 3, 
         relativeLink = (absoluteLink - GlobalVariable.SC_Domain)
 
         WebUI.navigateToUrl('https://www.lexus.com' + relativeLink, FailureHandling.STOP_ON_FAILURE)
+
+        WebUI.delay(1)
 
         modelPageTitle = WebUI.getWindowTitle(FailureHandling.STOP_ON_FAILURE)
 
@@ -150,6 +154,8 @@ if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 02'), 3, 
 
             WebUI.navigateToUrl('https://www.lexus.com' + relativeLink, FailureHandling.STOP_ON_FAILURE)
 
+            WebUI.delay(1)
+
             modelPageTitle = WebUI.getWindowTitle(FailureHandling.STOP_ON_FAILURE)
 
             'model name at linked page should match offer row model name'
@@ -188,6 +194,8 @@ if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 02'), 3, 
 
                 WebUI.navigateToUrl('https://www.lexus.com' + relativeLink, FailureHandling.STOP_ON_FAILURE)
 
+                WebUI.delay(1)
+
                 modelPageTitle = WebUI.getWindowTitle(FailureHandling.STOP_ON_FAILURE)
 
                 'model name at linked page should match offer row model name'
@@ -225,6 +233,8 @@ if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 02'), 3, 
                     relativeLink = (absoluteLink - GlobalVariable.SC_Domain)
 
                     WebUI.navigateToUrl('https://www.lexus.com' + relativeLink, FailureHandling.STOP_ON_FAILURE)
+
+                    WebUI.delay(1)
 
                     modelPageTitle = WebUI.getWindowTitle(FailureHandling.STOP_ON_FAILURE)
 
@@ -265,6 +275,8 @@ if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 02'), 3, 
 
                         WebUI.navigateToUrl('https://www.lexus.com' + relativeLink, FailureHandling.STOP_ON_FAILURE)
 
+                        WebUI.delay(1)
+
                         modelPageTitle = WebUI.getWindowTitle(FailureHandling.STOP_ON_FAILURE)
 
                         'model name at linked page should match offer row model name'
@@ -303,6 +315,8 @@ if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 02'), 3, 
                             relativeLink = (absoluteLink - GlobalVariable.SC_Domain)
 
                             WebUI.navigateToUrl('https://www.lexus.com' + relativeLink, FailureHandling.STOP_ON_FAILURE)
+
+                            WebUI.delay(1)
 
                             modelPageTitle = WebUI.getWindowTitle(FailureHandling.STOP_ON_FAILURE)
 

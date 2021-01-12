@@ -20,7 +20,7 @@ import org.openqa.selenium.Cookie as Cookie
 import org.openqa.selenium.WebDriver as WebDriver
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
-response = WS.sendRequest(findTestObject(('OffersPage/DeepLink/' + GlobalVariable.domain) + 'OffersEndpoint'), FailureHandling.OPTIONAL)
+response = WS.sendRequest(findTestObject(('OffersPage/DeepLink/' + GlobalVariable.endpointDomain) + 'OffersEndpoint'), FailureHandling.OPTIONAL)
 
 description = WS.getElementPropertyValue(response, 'offers.Atlanta.description[0]', FailureHandling.OPTIONAL)
 

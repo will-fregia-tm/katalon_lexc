@@ -76,7 +76,7 @@ WebUI.verifyElementPresent(findTestObject('OffersPage/ExpandSearch/displayed dea
 
 noHover = WebUI.getCSSValue(findTestObject('OffersPage/ExpandSearch/displayed dealer 1'), 'background-color', FailureHandling.STOP_ON_FAILURE)
 
-WebUI.mouseOver(findTestObject('OffersPage/ExpandSearch/displayed dealer 1'), FailureHandling.STOP_ON_FAILURE)
+WebUI.mouseOver(findTestObject('OffersPage/ExpandSearch/displayed dealer 1'), FailureHandling.OPTIONAL)
 
 hoverState = WebUI.getCSSValue(findTestObject('OffersPage/ExpandSearch/displayed dealer 1'), 'background-color', FailureHandling.STOP_ON_FAILURE)
 
@@ -88,7 +88,7 @@ WebUI.verifyElementPresent(findTestObject('OffersPage/ExpandSearch/displayed dea
 
 noHover = WebUI.getCSSValue(findTestObject('OffersPage/ExpandSearch/displayed dealer 2'), 'background-color', FailureHandling.STOP_ON_FAILURE)
 
-WebUI.mouseOver(findTestObject('OffersPage/ExpandSearch/displayed dealer 2'), FailureHandling.STOP_ON_FAILURE)
+WebUI.mouseOver(findTestObject('OffersPage/ExpandSearch/displayed dealer 2'), FailureHandling.OPTIONAL)
 
 hoverState = WebUI.getCSSValue(findTestObject('OffersPage/ExpandSearch/displayed dealer 2'), 'background-color', FailureHandling.STOP_ON_FAILURE)
 
@@ -100,7 +100,7 @@ WebUI.verifyElementPresent(findTestObject('OffersPage/ExpandSearch/displayed dea
 
 noHover = WebUI.getCSSValue(findTestObject('OffersPage/ExpandSearch/displayed dealer 3'), 'background-color', FailureHandling.STOP_ON_FAILURE)
 
-WebUI.mouseOver(findTestObject('OffersPage/ExpandSearch/displayed dealer 3'), FailureHandling.STOP_ON_FAILURE)
+WebUI.mouseOver(findTestObject('OffersPage/ExpandSearch/displayed dealer 3'), FailureHandling.OPTIONAL)
 
 hoverState = WebUI.getCSSValue(findTestObject('OffersPage/ExpandSearch/displayed dealer 3'), 'background-color', FailureHandling.STOP_ON_FAILURE)
 
