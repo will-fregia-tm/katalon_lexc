@@ -30,7 +30,12 @@ WebDriver driver = DriverFactory.getWebDriver()
 
 driver.manage().addCookie(ck)
 
-WebUI.navigateToUrl(GlobalVariable.TS_Domain + '/privacy')
+domain = GlobalVariable.domain
+
+'this step is added to handle legacy staging authentication'
+if (WebUI.verifyMatch(domain, 'staging', false, FailureHandling.OPTIONAL)) {
+    WebUI.navigateToUrl(GlobalVariable.TS_Domain + GlobalVariable.legacyURL)
+}
 
 WebUI.navigateToUrl(GlobalVariable.SC_Domain + '/offers')
 
@@ -73,8 +78,8 @@ defaultUnselected = WebUI.getCSSValue(findTestObject('OffersPage/FilterBar/finan
 
 WebUI.verifyNotMatch(defaultUnselected, selectedColor, false, FailureHandling.STOP_ON_FAILURE)
 
-defaultUnselected = WebUI.getCSSValue(findTestObject('OffersPage/FilterBar/model-category checkbox span - All Sedans'), 'background-color', 
-    FailureHandling.STOP_ON_FAILURE)
+defaultUnselected = WebUI.getCSSValue(findTestObject('OffersPage/FilterBar/model-category checkbox span - All Sedans'), 
+    'background-color', FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('OffersPage/FilterBar/model-category checkbox - All Sedans'), FailureHandling.STOP_ON_FAILURE)
 

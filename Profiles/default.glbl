@@ -49,4 +49,9 @@
       <initValue>'prod'</initValue>
       <name>domain</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'/models/categories/sedans'</initValue>
+      <name>legacyURL</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

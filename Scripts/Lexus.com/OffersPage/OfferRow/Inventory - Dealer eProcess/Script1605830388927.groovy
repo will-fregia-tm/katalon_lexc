@@ -38,7 +38,12 @@ WebDriver driver = DriverFactory.getWebDriver()
 
 driver.manage().addCookie(ck)
 
-WebUI.navigateToUrl(GlobalVariable.TS_Domain + '/privacy', FailureHandling.STOP_ON_FAILURE)
+domain = GlobalVariable.domain
+
+'this step is added to handle legacy staging authentication'
+if (WebUI.verifyMatch(domain, 'staging', false, FailureHandling.OPTIONAL)) {
+    WebUI.navigateToUrl(GlobalVariable.TS_Domain + GlobalVariable.legacyURL)
+}
 
 WebUI.navigateToUrl(GlobalVariable.SC_Domain + '/offers?zip=32792', FailureHandling.STOP_ON_FAILURE)
 
