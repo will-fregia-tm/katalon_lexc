@@ -143,16 +143,4 @@
          <variableId>3a909577-12ad-4378-962a-33781b10cf99</variableId>
       </variableLink>
    </testCaseLink>
-   <testCaseLink>
-      <guid>553aa975-4514-4a8b-a866-2d98456e999b</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/OffersPage/OfferRow/Dropdown functionality - coupes</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>c4080fe8-46b4-4123-a105-3677eeb502e7</variableId>
-      </variableLink>
-   </testCaseLink>
 </TestSuiteEntity>
