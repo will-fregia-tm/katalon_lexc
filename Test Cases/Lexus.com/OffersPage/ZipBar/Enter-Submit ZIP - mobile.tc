@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>When a user taps/clicks on the Zip-Entry-Field
+
+
+Then the system shall:
+
+
+
+Allow for numeric entries only
+
+
+Allow the user to submit the zipcode by hitting the enter key OR tap/clicking on the search icon
+
+
+Follow all zip-submission/UI validation AC in LAM-563</description>
+   <name>Enter-Submit ZIP - mobile</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ab2c92d6-5c04-4000-8786-e4a3db0f508d</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>0c7a2186-8114-443d-9c94-0f9301421920</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>
