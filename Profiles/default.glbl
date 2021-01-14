@@ -39,4 +39,29 @@
       <initValue>''</initValue>
       <name>currentTestCaseID</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'/models/categories/sedans'</initValue>
+      <name>legacyURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://login.microsoftonline.com'</initValue>
+      <name>SSO_login</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'prod'</initValue>
+      <name>domain</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'prod'</initValue>
+      <name>DS_version</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'lexus.com'</initValue>
+      <name>AEM_Domain</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

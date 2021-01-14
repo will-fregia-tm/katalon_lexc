@@ -40,7 +40,7 @@ class AfterTest {
 		String three = parts[parts.length-3];
 		println three
 		println two
-		testName = two + ' | ' + one
+		testName = three + ' | ' + two + ' | ' + one
 		WebUI.executeJavaScript('sauce:job-tags=Katalon,Lexus.com,' + (GlobalVariable.profileTags), [])
 		WebUI.executeJavaScript('sauce:job-name=' + (testName), [])
 		WebUI.closeBrowser()
