@@ -29,4 +29,19 @@
       <initValue>'Staging,GlobalNav'</initValue>
       <name>profileTags</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'staging'</initValue>
+      <name>domain</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'staging'</initValue>
+      <name>DS_version</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://stg-lcom.cdn.cepo-proxy.tms.aws.lexus.com'</initValue>
+      <name>AEM_Domain</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

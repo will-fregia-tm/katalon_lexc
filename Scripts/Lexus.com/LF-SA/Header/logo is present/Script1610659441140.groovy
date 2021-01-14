@@ -40,11 +40,11 @@ if (WebUI.verifyMatch(domain, 'staging', false, FailureHandling.OPTIONAL)) {
 WebUI.navigateToUrl(GlobalVariable.AEM_Domain + '/concept/LFSA')
 
 'this step is added to handle a slow or partial page load'
-if (WebUI.verifyElementNotPresent(findTestObject('GlobalNav/hero module'), 3, FailureHandling.OPTIONAL)) {
+if (WebUI.verifyElementNotPresent(findTestObject('FCV/hero module'), 3, FailureHandling.OPTIONAL)) {
     WebUI.refresh()
 }
 
-WebUI.waitForElementPresent(findTestObject('GlobalNav/hero module'), 3, FailureHandling.STOP_ON_FAILURE)
+WebUI.waitForElementPresent(findTestObject('FCV/hero module'), 3, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementPresent(findTestObject('GlobalNav/lexus logo'), 5)
 

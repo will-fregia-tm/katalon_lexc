@@ -29,4 +29,9 @@
       <initValue>'Prod,GlobalNav'</initValue>
       <name>profileTags</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://www.lexus.com'</initValue>
+      <name>AEM_Domain</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
