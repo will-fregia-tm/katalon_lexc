@@ -64,13 +64,9 @@ WebUI.waitForPageLoad(0, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyTextPresent(subtagText, false, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyTextPresent(subtagText, false, FailureHandling.OPTIONAL)
 
 WebUI.navigateToUrl(GlobalVariable.AEM_Domain_Unauthenticated + '/concept/LFSA')
-
-not_run: WebUI.back(FailureHandling.STOP_ON_FAILURE)
-
-not_run: WebUI.back(FailureHandling.STOP_ON_FAILURE)
 
 WebUI.scrollToElement(findTestObject('FCV/Promo/promo module'), 5, FailureHandling.STOP_ON_FAILURE)
 
@@ -80,76 +76,9 @@ WebUI.click(findTestObject('FCV/Promo/model card 2'), FailureHandling.STOP_ON_FA
 
 WebUI.waitForPageLoad(0, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyTextPresent(subtagText, false, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyTextPresent(subtagText, false, FailureHandling.OPTIONAL)
 
 WebUI.navigateToUrl(GlobalVariable.AEM_Domain_Unauthenticated + '/concept/LFSA')
-
-not_run: WebUI.back(FailureHandling.STOP_ON_FAILURE)
-
-WebUI.scrollToElement(findTestObject('FCV/Promo/promo module'), 5)
-
-subtagText = WebUI.getText(findTestObject('FCV/Promo/model card 3 subtag'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('FCV/Promo/model card 3'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.waitForPageLoad(0)
-
-WebUI.verifyTextPresent(subtagText, false)
-
-WebUI.navigateToUrl(GlobalVariable.AEM_Domain_Unauthenticated + '/concept/LFSA')
-
-not_run: WebUI.back()
-
-WebUI.scrollToElement(findTestObject('FCV/Promo/promo module'), 5)
-
-absoluteLink = WebUI.getAttribute(findTestObject('FCV/Promo/model card 4'), 'href', FailureHandling.STOP_ON_FAILURE)
-
-'removes domain from URL in order to create a relative link'
-relativeLink = (absoluteLink - GlobalVariable.AEM_Domain)
-
-subtagText = WebUI.getText(findTestObject('FCV/Promo/model card 4 subtag'), FailureHandling.STOP_ON_FAILURE)
-
-'removes L from text to account for RXL content scenario'
-subtagText = (subtagText - 'L')
-
-WebUI.click(findTestObject('FCV/Promo/model card 4'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.waitForPageLoad(0, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.navigateToUrl('https://www.lexus.com' + relativeLink, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.waitForPageLoad(0, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.verifyTextPresent(subtagText, false, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.navigateToUrl(GlobalVariable.AEM_Domain_Unauthenticated + '/concept/LFSA')
-
-not_run: WebUI.back(FailureHandling.STOP_ON_FAILURE)
-
-not_run: WebUI.back(FailureHandling.STOP_ON_FAILURE)
-
-WebUI.scrollToElement(findTestObject('FCV/Promo/promo module'), 5, FailureHandling.STOP_ON_FAILURE)
-
-absoluteLink = WebUI.getAttribute(findTestObject('FCV/Promo/model card 5'), 'href', FailureHandling.STOP_ON_FAILURE)
-
-'removes domain from URL in order to create a relative link'
-relativeLink = (absoluteLink - GlobalVariable.AEM_Domain)
-
-subtagText = WebUI.getText(findTestObject('FCV/Promo/model card 5 subtag'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('FCV/Promo/model card 5 subtag'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.waitForPageLoad(0, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.navigateToUrl('https://www.lexus.com' + relativeLink, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.waitForPageLoad(0, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.verifyTextPresent(subtagText, false, FailureHandling.STOP_ON_FAILURE)
 
 @com.kms.katalon.core.annotation.TearDownIfPassed
 def passed() {

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Lexus logo appears in global navigation header.</description>
+   <name>Lexus logo is present - mobile</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1df8e7c6-5d3c-4cc5-beea-44038955bd75</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>4df772f6-dc63-40c1-b8f3-93da80606224</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>

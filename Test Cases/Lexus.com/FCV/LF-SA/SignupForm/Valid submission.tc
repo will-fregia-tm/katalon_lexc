@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Submit button with valid data -> If all field data is met, submits form and user taken to Thank You Page.</description>
+   <name>Valid submission</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a6cc8710-da82-489b-82fd-53c3f6fde4b6</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>54669168-4a80-4971-8d66-c184aee27012</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>all</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>20</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>a78b6edd-43f0-48ea-b12c-dc29e3557f45</testSuiteGuid>
+   <testCaseLink>
+      <guid>8a9ec97b-c10d-453c-a9d6-47d6c5eff527</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/FCV/LF-1/Gallery/View Expanded Gallery Overlay - close expanded gallery</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7d565118-96ea-4454-bcc7-0301fcced9c4</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a637038b-44e0-4a62-b365-d86337b098ba</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/FCV/LF-1/Gallery/View Gallery - navigate to next-previous image</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>1ec3f504-6a71-492d-be55-9eec4513fa22</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7a73f05e-a234-4845-92bd-83b88f0207c5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/FCV/LF-1/Gallery/View Gallery - View Content</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>20617062-e165-461e-b5ee-b8bb0cceef84</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>6e76e5dd-645f-4749-b660-53ab01c1157b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/FCV/LF-1/Header/Lexus logo is present</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>11191112-d5dc-4d74-b6d5-c17bec2f5d60</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>53d30dd7-ac86-488d-a5a8-6e53d89a285f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/FCV/LF-1/Hero/Key information displayed in hero</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>cc368952-7574-4c68-baca-02a00cf0a997</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f7754e0b-6a21-481a-91c9-3ee87078782d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/FCV/LF-1/Hero/Press release text link</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e833d382-09ad-4faa-add7-09b8f5ffbaf3</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>0382b993-8479-434e-8af9-f6ea1bb7ffa7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/FCV/LF-1/Hero/Social media overlay</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>824a884c-f0f9-4ea5-8f08-ae4043f7a175</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7bf3bdf8-e69e-45e7-9c02-ed17dd8e983e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/FCV/LF-1/Hero/Stay Informed button opens form overlay</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>cbf1d893-6ccb-45d4-9e2a-ea631a8bcb2b</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>06a612e9-fe4e-4b81-aa04-1945a19ce057</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/FCV/LF-1/Promo/Select Promo Tile</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>fbf69bda-6771-4ba6-9918-763c4b02cee8</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>488c77ac-6161-45d9-8482-e3c89076b08e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/FCV/LF-1/SignupForm/Close button X</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>0eb2a4ac-2a3f-4cb5-81f7-3654fd83bfda</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>fe5e1959-052d-4587-b3a2-45a288fdfb4b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Lexus.com/FCV/LF-1/SignupForm/Deep linking</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>1e1a3ca0-fd17-4904-af6b-b9b70169c9c7</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>0f9eab98-89dc-4a3e-bf38-434867d955ac</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/FCV/LF-1/SignupForm/Headline outlining that user will receive further updates</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>186977b4-b29a-4410-ac81-00e808039e8b</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>795d8d82-9950-4341-8015-2ffd5ab8f56d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/FCV/LF-1/SignupForm/Information validation</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>5197fedf-6481-4e64-8788-140d7738d04a</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>294f5906-0da0-4ba5-bbe0-ab6aac6cedfe</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/FCV/LF-1/SignupForm/Privacy Rights</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>58508ab4-964c-49a3-9afe-9e4288f2ff1c</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
