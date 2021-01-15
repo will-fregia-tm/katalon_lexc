@@ -46,7 +46,7 @@ if (WebUI.verifyElementNotPresent(findTestObject('FCV/hero module'), 3, FailureH
 
 WebUI.waitForElementPresent(findTestObject('FCV/hero module'), 3, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('GlobalNav/lexus logo'), 5)
+WebUI.verifyElementPresent(findTestObject('GlobalNav/lexus logo'), 4)
 
 @com.kms.katalon.core.annotation.TearDownIfPassed
 def passed() {
