@@ -57,7 +57,7 @@ WebUI.verifyElementPresent(findTestObject('FCV/Gallery/visible slide 1'), 5, Fai
 
 WebUI.click(findTestObject('FCV/Gallery/exit button'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementNotPresent(findTestObject('FCV/Gallery/visible slide 1'), 4, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementNotPresent(findTestObject('FCV/Gallery/visible slide 1'), 5, FailureHandling.STOP_ON_FAILURE)
 
 @com.kms.katalon.core.annotation.TearDownIfPassed
 def passed() {
