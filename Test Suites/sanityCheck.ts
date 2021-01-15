@@ -91,7 +91,7 @@
          <configuration>
             <groupName>Custom</groupName>
             <profileName>staging</profileName>
-            <runConfigurationId>saucelabs_chrome_android8_galaxys8</runConfigurationId>
+            <runConfigurationId>saucelabs_chrome_android10_pixel3</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/FCV/mobile tests</testSuiteEntity>
