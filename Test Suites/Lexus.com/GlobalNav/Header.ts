@@ -15,12 +15,12 @@
       <guid>d4aa5bdf-55d8-4812-8ba0-ed1efc653f7c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/LF-SA/Header/logo is present</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/About/Header/logo is present</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>c0ebc493-fa00-43c1-985a-010299b39c4d</variableId>
+         <variableId>02649567-ade0-4271-b142-177a0813a65f</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
