@@ -32,7 +32,7 @@ WebUI.verifyElementVisible(findTestObject('BrandCampaign/DetailLayer/video'), Fa
 
 WebUI.click(findTestObject('BrandCampaign/DetailLayer/overlay close button'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('BrandCampaign/GridLayer/primary tile'), 0)
+WebUI.waitForElementVisible(findTestObject('BrandCampaign/GridLayer/primary tile'), 10)
 
 WebUI.verifyElementVisible(findTestObject('BrandCampaign/GridLayer/primary tile'), FailureHandling.STOP_ON_FAILURE)
 
@@ -54,10 +54,11 @@ WebUI.verifyElementPresent(findTestObject('BrandCampaign/GridLayer/secondary til
 
 @com.kms.katalon.core.annotation.TearDownIfPassed
 def passed() {
-	WebUI.executeJavaScript('sauce:job-result=passed', [])
+    WebUI.executeJavaScript('sauce:job-result=passed', [])
 }
 
 @com.kms.katalon.core.annotation.TearDownIfFailed
 def failed() {
-	WebUI.executeJavaScript('sauce:job-result=failed', [])
+    WebUI.executeJavaScript('sauce:job-result=failed', [])
 }
+
