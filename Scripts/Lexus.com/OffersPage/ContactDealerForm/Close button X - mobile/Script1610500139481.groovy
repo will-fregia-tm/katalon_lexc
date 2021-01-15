@@ -59,7 +59,7 @@ WebUI.verifyElementVisibleInViewport(findTestObject('OffersPage/ContactDealerFor
 
 WebUI.click(findTestObject('OffersPage/ContactDealerForm/close overlay button'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementNotPresent(findTestObject('OffersPage/ContactDealerForm/form heading'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementNotPresent(findTestObject('OffersPage/ContactDealerForm/form heading'), 5, FailureHandling.STOP_ON_FAILURE)
 
 @com.kms.katalon.core.annotation.TearDownIfPassed
 def passed() {
