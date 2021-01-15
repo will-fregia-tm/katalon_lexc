@@ -136,7 +136,7 @@
          <configuration>
             <groupName>Custom</groupName>
             <profileName>prod</profileName>
-            <runConfigurationId>saucelabs_safari_ios13_iphonex</runConfigurationId>
+            <runConfigurationId>saucelabs_safari_ios14_iphone11pro</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/FCV/mobile tests</testSuiteEntity>
