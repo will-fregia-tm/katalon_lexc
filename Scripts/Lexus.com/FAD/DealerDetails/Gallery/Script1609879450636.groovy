@@ -54,11 +54,15 @@ WebUI.waitForElementPresent(findTestObject('FAD/DealerDetails/page title'), 0, F
 
 WebUI.verifyElementPresent(findTestObject('FAD/DealerDetails/gallery heading'), 0, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.scrollToElement(findTestObject('FAD/DealerDetails/gallery heading'), 0, FailureHandling.STOP_ON_FAILURE)
+if (WebUI.verifyElementNotPresent(findTestObject('FAD/DealerDetails/open overlay'), 3, FailureHandling.OPTIONAL)) {
+    WebUI.refresh()
+}
+
+WebUI.scrollToElement(findTestObject('FAD/DealerDetails/gallery component'), 0, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementPresent(findTestObject('FAD/DealerDetails/gallery pagination'), 0, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(15, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('FAD/DealerDetails/open overlay'), FailureHandling.STOP_ON_FAILURE)
 
@@ -105,11 +109,15 @@ WebUI.waitForElementPresent(findTestObject('FAD/DealerDetails/page title'), 0, F
 
 WebUI.verifyElementPresent(findTestObject('FAD/DealerDetails/gallery heading'), 0, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.scrollToElement(findTestObject('FAD/DealerDetails/gallery heading'), 0, FailureHandling.STOP_ON_FAILURE)
+if (WebUI.verifyElementNotPresent(findTestObject('FAD/DealerDetails/open overlay'), 3, FailureHandling.OPTIONAL)) {
+    WebUI.refresh()
+}
+
+WebUI.scrollToElement(findTestObject('FAD/DealerDetails/gallery component'), 0, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementNotPresent(findTestObject('FAD/DealerDetails/gallery pagination'), 0, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(10, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('FAD/DealerDetails/open overlay'), FailureHandling.STOP_ON_FAILURE)
 
