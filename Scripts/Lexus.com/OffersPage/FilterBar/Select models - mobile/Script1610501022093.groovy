@@ -32,6 +32,8 @@ driver.manage().addCookie(ck)
 
 domain = GlobalVariable.domain
 
+mobileSelect = 'no'
+
 'this step is added to handle legacy staging authentication'
 if (WebUI.verifyMatch(domain, 'staging', false, FailureHandling.OPTIONAL)) {
     WebUI.navigateToUrl(GlobalVariable.TS_Domain + GlobalVariable.legacyURL)
@@ -59,6 +61,8 @@ WebUI.waitForElementPresent(findTestObject('OffersPage/ZipGate/form input'), 5, 
 WebUI.setText(findTestObject('OffersPage/ZipGate/form input'), '75218')
 
 WebUI.click(findTestObject('OffersPage/ZipGate/submit button'))
+
+WebUI.delay(10)
 
 WebUI.waitForElementPresent(findTestObject('OffersPage/ZipGate/offers page with offers'), 5, FailureHandling.STOP_ON_FAILURE)
 
@@ -94,7 +98,12 @@ WebUI.verifyElementNotPresent(findTestObject('OffersPage/FilterBar/model checkbo
 
 WebUI.click(findTestObject('OffersPage/FilterBar/model checkbox - IS'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('OffersPage/FilterBar/model checkbox - IS - selected'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('OffersPage/FilterBar/model checkbox - IS - selected'), 0, FailureHandling.OPTIONAL)
+
+'checks whether the test is able to detect a selected checkbox.'
+if (WebUI.verifyElementPresent(findTestObject('OffersPage/FilterBar/model checkbox - IS - selected'), 3, FailureHandling.OPTIONAL)) {
+    mobileSelect = 'yes'
+}
 
 WebUI.verifyElementVisible(findTestObject('OffersPage/FilterBar/model-category checkbox - All Sedans'), FailureHandling.STOP_ON_FAILURE)
 
@@ -112,19 +121,24 @@ WebUI.click(findTestObject('OffersPage/FilterBar/model checkbox - UX'), FailureH
 
 WebUI.click(findTestObject('OffersPage/FilterBar/apply button'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementNotPresent(findTestObject('OffersPage/FilterBar/close accordion button'), 0, FailureHandling.STOP_ON_FAILURE)
+'extra steps will run if mobile selection was previously detected'
+if (WebUI.verifyMatch(mobileSelect, 'yes', false, FailureHandling.OPTIONAL)) {
+    WebUI.delay(3)
 
-WebUI.verifyElementPresent(findTestObject('OffersPage/FilterBar/applied filters heading'), 0, FailureHandling.STOP_ON_FAILURE)
+    WebUI.verifyElementNotPresent(findTestObject('OffersPage/FilterBar/close accordion button'), 0, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('OffersPage/FilterBar/breadcrumb - IS'), 0, FailureHandling.STOP_ON_FAILURE)
+    WebUI.verifyElementPresent(findTestObject('OffersPage/FilterBar/applied filters heading'), 0, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('OffersPage/FilterBar/offer heading - IS'), 0, FailureHandling.STOP_ON_FAILURE)
+    WebUI.verifyElementPresent(findTestObject('OffersPage/FilterBar/breadcrumb - IS'), 0, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('OffersPage/FilterBar/offer heading - UX'), 0, FailureHandling.STOP_ON_FAILURE)
+    WebUI.verifyElementPresent(findTestObject('OffersPage/FilterBar/offer heading - IS'), 0, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementNotPresent(findTestObject('OffersPage/FilterBar/offer heading - ES'), 0, FailureHandling.STOP_ON_FAILURE)
+    WebUI.verifyElementPresent(findTestObject('OffersPage/FilterBar/offer heading - UX'), 0, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.scrollToPosition(0, 500, FailureHandling.OPTIONAL)
+    WebUI.verifyElementNotPresent(findTestObject('OffersPage/FilterBar/offer heading - ES'), 0, FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.scrollToPosition(0, 500, FailureHandling.OPTIONAL)
+}
 
 @com.kms.katalon.core.annotation.TearDownIfPassed
 def passed() {

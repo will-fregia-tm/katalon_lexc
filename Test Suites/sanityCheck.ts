@@ -9,6 +9,15 @@
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Custom</groupName>
+            <profileName>prod</profileName>
+            <runConfigurationId>saucelabs_safari_ios14_iphone11pro</runConfigurationId>
+         </configuration>
+         <runEnabled>true</runEnabled>
+         <testSuiteEntity>Test Suites/Lexus.com/OffersPage/mobile tests</testSuiteEntity>
+      </TestSuiteRunConfiguration>
+      <TestSuiteRunConfiguration>
+         <configuration>
+            <groupName>Custom</groupName>
             <profileName>dev</profileName>
             <runConfigurationId>saucelabs_chrome_macos10.14</runConfigurationId>
          </configuration>
@@ -63,7 +72,7 @@
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Custom</groupName>
-            <profileName>dev</profileName>
+            <profileName>staging</profileName>
             <runConfigurationId>saucelabs_chrome_android10_pixel3</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
@@ -126,7 +135,7 @@
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Custom</groupName>
-            <profileName>staging</profileName>
+            <profileName>prod</profileName>
             <runConfigurationId>saucelabs_chrome_android9_galaxys9</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
@@ -135,7 +144,7 @@
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Custom</groupName>
-            <profileName>origin prod</profileName>
+            <profileName>prod</profileName>
             <runConfigurationId>saucelabs_edge_win10</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
@@ -144,7 +153,7 @@
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Custom</groupName>
-            <profileName>origin prod</profileName>
+            <profileName>prod</profileName>
             <runConfigurationId>saucelabs_chrome_macos10.15</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
@@ -153,7 +162,7 @@
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Custom</groupName>
-            <profileName>origin prod</profileName>
+            <profileName>prod</profileName>
             <runConfigurationId>saucelabs_chrome_win7</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
@@ -162,8 +171,8 @@
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Custom</groupName>
-            <profileName>origin prod</profileName>
-            <runConfigurationId>saucelabs_firefox_macos10.15</runConfigurationId>
+            <profileName>prod</profileName>
+            <runConfigurationId>saucelabs_safari11_macos10.13</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/OffersPage/DeepLink-ZipGate</testSuiteEntity>
@@ -171,7 +180,7 @@
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Custom</groupName>
-            <profileName>origin prod</profileName>
+            <profileName>prod</profileName>
             <runConfigurationId>saucelabs_edge_win10</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
@@ -180,20 +189,11 @@
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Custom</groupName>
-            <profileName>origin prod</profileName>
+            <profileName>prod</profileName>
             <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/OffersPage/OfDe-SMO-ZiBa</testSuiteEntity>
-      </TestSuiteRunConfiguration>
-      <TestSuiteRunConfiguration>
-         <configuration>
-            <groupName>Custom</groupName>
-            <profileName>origin prod</profileName>
-            <runConfigurationId>saucelabs_chrome_android10_pixel3</runConfigurationId>
-         </configuration>
-         <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/OffersPage/mobile tests</testSuiteEntity>
       </TestSuiteRunConfiguration>
    </testSuiteRunConfigurations>
 </TestSuiteCollectionEntity>
