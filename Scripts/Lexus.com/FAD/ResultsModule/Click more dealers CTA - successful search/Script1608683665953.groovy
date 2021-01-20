@@ -55,6 +55,8 @@ firstDealer = WebUI.getText(findTestObject('FAD/ResultsModule/dealer name'), Fai
 
 modifiedString = (firstDealer - 'LEXUS')
 
+modifiedString = (firstDealer - 'Lexus')
+
 WebUI.verifyNotMatch(modifiedString, firstDealer, false, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('FAD/ResultsModule/expand search CTA'), FailureHandling.STOP_ON_FAILURE)
@@ -67,11 +69,15 @@ firstDealer = WebUI.getText(findTestObject('FAD/ResultsModule/dealer name'), Fai
 
 modifiedString1 = (firstDealer - 'LEXUS')
 
+modifiedString1 = (firstDealer - 'Lexus')
+
 WebUI.verifyMatch(modifiedString, modifiedString1, false, FailureHandling.STOP_ON_FAILURE)
 
 secondDealer = WebUI.getText(findTestObject('FAD/ResultsModule/dealer 2 name'), FailureHandling.STOP_ON_FAILURE)
 
 modifiedString = (secondDealer - 'LEXUS')
+
+modifiedString = (secondDealer - 'Lexus')
 
 WebUI.verifyNotMatch(modifiedString, secondDealer, false, FailureHandling.STOP_ON_FAILURE)
 
