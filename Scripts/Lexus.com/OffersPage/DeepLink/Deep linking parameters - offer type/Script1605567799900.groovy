@@ -43,7 +43,14 @@ if (WebUI.verifyMatch(domain, 'staging', false, FailureHandling.OPTIONAL)) {
 
 WebUI.navigateToUrl(GlobalVariable.SC_Domain + '/offers?zip=30303&offerType=lease', FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('OffersPage/ZipBar/zip bar - 30303'), 0)
+'makes sure page has loaded before beginning test'
+not_run: if (WebUI.verifyElementNotPresent(findTestObject('OffersPage/ZipBar/zip bar - 30303'), 3, FailureHandling.OPTIONAL)) {
+    WebUI.refresh()
+
+    WebUI.delay(5)
+}
+
+WebUI.waitForElementVisible(findTestObject('OffersPage/ZipBar/zip bar - 30303'), 0, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementVisible(findTestObject('OffersPage/ZipBar/zip bar - 30303'), FailureHandling.STOP_ON_FAILURE)
 

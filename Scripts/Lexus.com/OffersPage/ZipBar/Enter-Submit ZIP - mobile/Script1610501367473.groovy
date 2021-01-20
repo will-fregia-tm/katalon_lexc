@@ -91,7 +91,9 @@ WebUI.waitForElementPresent(findTestObject('OffersPage/ZipBar/zip entry field'),
 
 WebUI.setText(findTestObject('OffersPage/ZipBar/zip entry field'), '75219')
 
-WebUI.sendKeys(findTestObject('OffersPage/ZipBar/zip entry field'), Keys.chord(Keys.ENTER), FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.sendKeys(findTestObject('OffersPage/ZipBar/zip entry field'), Keys.chord(Keys.ENTER), FailureHandling.OPTIONAL)
+
+WebUI.click(findTestObject('OffersPage/ZipBar/search icon'), FailureHandling.OPTIONAL)
 
 WebUI.waitForElementPresent(findTestObject('OffersPage/ZipBar/zip bar - 75219'), 2, FailureHandling.STOP_ON_FAILURE)
 

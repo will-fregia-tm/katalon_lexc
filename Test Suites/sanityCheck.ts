@@ -172,7 +172,7 @@
          <configuration>
             <groupName>Custom</groupName>
             <profileName>prod</profileName>
-            <runConfigurationId>saucelabs_safari11_macos10.13</runConfigurationId>
+            <runConfigurationId>saucelabs_firefox_macos10.15</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/OffersPage/DeepLink-ZipGate</testSuiteEntity>
