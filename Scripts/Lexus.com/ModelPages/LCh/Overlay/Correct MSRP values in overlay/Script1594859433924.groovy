@@ -28,8 +28,8 @@ if (WebUI.verifyElementPresent(findTestObject('ModelPages/Overlay/overlay MSRP')
 
     textWithMSRP = WebUI.getText(findTestObject('ModelPages/Overlay/overlay MSRP'), FailureHandling.STOP_ON_FAILURE)
 
-    'LC CONVERTIBLE INSPIRATION SERIES'
-    expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 80)
+    'LC INSPIRATION SERIES'
+    expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 100)
 
     textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
 

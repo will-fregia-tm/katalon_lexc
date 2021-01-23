@@ -135,6 +135,17 @@ if (WebUI.verifyGreaterThan(pageWidth, '1204', FailureHandling.OPTIONAL)) {
 
     textWithMSRP = WebUI.getText(findTestObject('ModelPages/InformationLayer/MSRP - fourth trim'), FailureHandling.STOP_ON_FAILURE)
 
+    'LC 500 INSPIRATION SERIES'
+    expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 100)
+
+    textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
+
+    WebUI.verifyNotMatch(textWithoutExpectedMSRP, textWithMSRP, false, FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.verifyElementVisible(findTestObject('ModelPages/InformationLayer/MSRP - fifth trim'), FailureHandling.STOP_ON_FAILURE)
+
+    textWithMSRP = WebUI.getText(findTestObject('ModelPages/InformationLayer/MSRP - fifth trim'), FailureHandling.STOP_ON_FAILURE)
+
     'LC 500 CONVERTIBLE INSPIRATION SERIES'
     expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 80)
 

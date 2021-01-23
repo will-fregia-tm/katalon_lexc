@@ -131,9 +131,31 @@ if (WebUI.verifyGreaterThan(pageWidth, '1204', FailureHandling.OPTIONAL)) {
 
     WebUI.verifyNotMatch(textWithoutExpectedMSRP, textWithMSRP, false, FailureHandling.STOP_ON_FAILURE)
 
+    not_run: WebUI.verifyElementVisible(findTestObject('ModelPages/InformationLayer/MSRP - fourth trim'), FailureHandling.STOP_ON_FAILURE)
+
+    not_run: textWithMSRP = WebUI.getText(findTestObject('ModelPages/InformationLayer/MSRP - fourth trim'), FailureHandling.STOP_ON_FAILURE)
+
+    'LC 500 CONVERTIBLE INSPIRATION SERIES'
+    not_run: expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 80)
+
+    not_run: textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
+
+    not_run: WebUI.verifyNotMatch(textWithoutExpectedMSRP, textWithMSRP, false, FailureHandling.STOP_ON_FAILURE)
+
     WebUI.verifyElementVisible(findTestObject('ModelPages/InformationLayer/MSRP - fourth trim'), FailureHandling.STOP_ON_FAILURE)
 
     textWithMSRP = WebUI.getText(findTestObject('ModelPages/InformationLayer/MSRP - fourth trim'), FailureHandling.STOP_ON_FAILURE)
+
+    'LC 500 INSPIRATION SERIES'
+    expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 100)
+
+    textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
+
+    WebUI.verifyNotMatch(textWithoutExpectedMSRP, textWithMSRP, false, FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.verifyElementVisible(findTestObject('ModelPages/InformationLayer/MSRP - fifth trim'), FailureHandling.STOP_ON_FAILURE)
+
+    textWithMSRP = WebUI.getText(findTestObject('ModelPages/InformationLayer/MSRP - fifth trim'), FailureHandling.STOP_ON_FAILURE)
 
     'LC 500 CONVERTIBLE INSPIRATION SERIES'
     expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 80)

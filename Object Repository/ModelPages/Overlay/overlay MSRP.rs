@@ -7,20 +7,34 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[(contains(text(), '$') or contains(., '$'))]</value>
+         <value>//*[contains(@id, 'InspirationOverlayInner')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;SpecialEditionHeroInner&quot;]//*[(contains(text(), '$') or contains(., '$'))]</value>
+         <value>//*[contains(@id, 'InspirationOverlayInner')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>contains</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>$</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>id</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>InspirationOverlayInner</value>
    </webElementProperties>
 </WebElementEntity>

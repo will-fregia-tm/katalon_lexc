@@ -9,6 +9,7 @@
    <pageLoadTimeout>15</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>9e1c278b-d7e1-4d93-873b-98e8bf9b5907</testSuiteGuid>
    <testCaseLink>
       <guid>8a670dce-65ae-4a7a-9fdc-67210bf98d95</guid>
@@ -20,6 +21,30 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>c92d0106-e644-498e-bb6a-2c02c0e6e26f</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ab9134ae-f0ed-4b3f-9db0-523991eb6803</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/LC/Overlay/Correct MSRP values in overlay</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>49a1cd39-b1f6-438d-996b-57de7208dac6</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>35888936-97e4-4685-bc92-4bf1a384c97b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/LCh/Overlay/Correct MSRP values in overlay</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>0658f229-f62c-42b0-b7cd-c9a9dc707cad</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

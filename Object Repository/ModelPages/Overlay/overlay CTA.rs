@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>CSS</key>
-         <value>a[href*=&quot;SpecialEditionHero&quot;]</value>
+         <value>a[href*=&quot;InspirationOverlay&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

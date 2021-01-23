@@ -62,7 +62,7 @@
    <testCaseLink>
       <guid>e37e0851-5050-493b-9487-75b415f5740e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Lexus.com/ModelPages/LCC/InformationLayer/Features - Correct MSRPs for each trim</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -86,7 +86,7 @@
    <testCaseLink>
       <guid>54344022-bb3a-49a7-bc8d-78a857ff50c6</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Lexus.com/ModelPages/LCC/InformationLayer/Specs - Correct MSRPs for each trim</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>

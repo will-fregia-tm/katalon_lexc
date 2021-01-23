@@ -12,6 +12,9 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
 WebUI.openBrowser(GlobalVariable.TS_Domain + GlobalVariable.Overview_LCC)
 
@@ -22,6 +25,8 @@ WebUI.waitForElementPresent(findTestObject('ModelPages/Overlay/special edition m
 WebUI.scrollToElement(findTestObject('ModelPages/Overlay/special edition module'), 0, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('ModelPages/Overlay/overlay CTA'), FailureHandling.OPTIONAL)
+
+WebUI.delay(2)
 
 if (WebUI.verifyElementPresent(findTestObject('ModelPages/Overlay/overlay MSRP'), 0, FailureHandling.OPTIONAL)) {
     WebUI.verifyElementVisible(findTestObject('ModelPages/Overlay/overlay MSRP'), FailureHandling.STOP_ON_FAILURE)
