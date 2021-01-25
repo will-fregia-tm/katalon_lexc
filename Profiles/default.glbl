@@ -64,4 +64,9 @@
       <initValue>'lexus.com'</initValue>
       <name>AEM_Domain</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>2</initValue>
+      <name>dataColumn</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
