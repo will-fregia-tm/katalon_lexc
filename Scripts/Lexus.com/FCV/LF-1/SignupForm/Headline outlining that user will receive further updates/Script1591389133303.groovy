@@ -53,6 +53,17 @@ WebUI.waitForElementPresent(findTestObject('FCV/SignupForm/form overlay'), 5, Fa
 
 WebUI.verifyElementPresent(findTestObject('FCV/SignupForm/headline'), 0)
 
+actualValue = WebUI.getText(findTestObject('FCV/SignupForm/headline'), FailureHandling.STOP_ON_FAILURE)
+
+column = GlobalVariable.dataColumn
+
+expectedValue = findTestData('FCV').getValue(column, 1)
+
+modifiedString = (actualValue - expectedValue)
+
+'if the expected value is contained within the actual value, then the actual value without the expected value should not match the actual value'
+WebUI.verifyNotMatch(modifiedString, actualValue, false, FailureHandling.STOP_ON_FAILURE)
+
 WebUI.verifyElementPresent(findTestObject('FCV/SignupForm/subheader'), 0)
 
 WebUI.verifyElementPresent(findTestObject('FCV/SignupForm/field required notification'), 0, FailureHandling.STOP_ON_FAILURE)

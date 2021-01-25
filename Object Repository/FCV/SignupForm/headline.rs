@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;SubPageOverlayScroll&quot;]/div/div/div/div[1]/h3[text()[contains(.,'STAY INFORMED')]]</value>
+         <value>//*[@id=&quot;SubPageOverlayScroll&quot;]/div/div/div/div[1]/h3</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

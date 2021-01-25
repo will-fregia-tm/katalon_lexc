@@ -55,6 +55,20 @@ WebUI.verifyElementPresent(findTestObject('FCV/Hero/model tag'), 0, FailureHandl
 
 WebUI.verifyElementPresent(findTestObject('FCV/Hero/disclaimer'), 0, FailureHandling.STOP_ON_FAILURE)
 
+actualValue = WebUI.getText(findTestObject('FCV/Hero/disclaimer'), FailureHandling.STOP_ON_FAILURE)
+
+'this allows for null values in test environments'
+actualValue = (actualValue + ' ')
+
+column = GlobalVariable.dataColumn
+
+expectedValue = findTestData('FCV').getValue(column, 2)
+
+modifiedString = (actualValue - expectedValue)
+
+'if the expected value is contained within the actual value, then the actual value without the expected value should not match the actual value'
+WebUI.verifyNotMatch(modifiedString, actualValue, false, FailureHandling.STOP_ON_FAILURE)
+
 WebUI.verifyElementPresent(findTestObject('FCV/Hero/headline'), 0, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementPresent(findTestObject('FCV/Hero/subhead - body copy'), 0, FailureHandling.STOP_ON_FAILURE)

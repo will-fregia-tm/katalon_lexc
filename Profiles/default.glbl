@@ -69,4 +69,9 @@
       <initValue>'prod'</initValue>
       <name>domain</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>2</initValue>
+      <name>dataColumn</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

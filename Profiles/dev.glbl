@@ -44,4 +44,9 @@
       <initValue>'staging'</initValue>
       <name>domain</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>4</initValue>
+      <name>dataColumn</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
