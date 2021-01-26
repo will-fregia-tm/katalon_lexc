@@ -39,4 +39,9 @@
       <initValue>'review'</initValue>
       <name>DS_version</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>3</initValue>
+      <name>dataColumn</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

@@ -59,4 +59,9 @@
       <initValue>'https://login.microsoftonline.com'</initValue>
       <name>SSO_login</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>2</initValue>
+      <name>dataColumn</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

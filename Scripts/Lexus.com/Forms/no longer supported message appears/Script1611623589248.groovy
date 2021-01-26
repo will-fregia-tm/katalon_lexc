@@ -17,17 +17,17 @@ import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 import com.kms.katalon.keyword.excel.ExcelKeywords as ExcelKeywords
 
-totalPages = (findTestData('MiscPages').getRowNumbers() - 1)
+totalPages = (findTestData('FormDeepLinks').getRowNumbers() - 1)
 
 WebUI.openBrowser(GlobalVariable.TS_Domain + GlobalVariable.Header)
 
 for (def index : (0..totalPages)) {
-    WebUI.navigateToUrl(findTestData('MiscPages').getValue(GlobalVariable.dataColumn, dataRow))
+    WebUI.navigateToUrl(findTestData('FormDeepLinks').getValue(GlobalVariable.dataColumn, dataRow))
 
     not_run: WebUI.verifyElementNotPresent(findTestObject('error'), 0)
 
     if (WebUI.verifyTextNotPresent('is no longer supported on Lexus.com', false, FailureHandling.OPTIONAL)) {
-        WebUI.navigateToUrl(findTestData('MiscPages').getValue(GlobalVariable.dataColumn, dataRow))
+        WebUI.navigateToUrl(findTestData('FormDeepLinks').getValue(GlobalVariable.dataColumn, dataRow))
 
         WebUI.waitForPageLoad(0)
 

@@ -101,4 +101,34 @@
          <variableId>8595177b-92c8-465b-810b-341d319d35f0</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>434ffccd-c0ad-4188-afa1-bdba3715db64</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Lexus.com/Forms/no longer supported message appears</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>159da4cd-361d-42c0-91a7-d7f4ee8d86cf</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>29a24bcf-e7c0-443e-81a6-2b760baff9c1</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>6df1aea1-e749-42ae-9d5c-0799c37482ff</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c306f836-5020-4e6d-8594-a8b22e890624</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>

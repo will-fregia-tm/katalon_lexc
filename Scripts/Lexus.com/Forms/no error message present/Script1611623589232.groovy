@@ -16,28 +16,46 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 import com.kms.katalon.keyword.excel.ExcelKeywords as ExcelKeywords
+import com.kms.katalon.core.testobject.RequestObject as RequestObject
+import org.openqa.selenium.Cookie as Cookie
+import org.openqa.selenium.WebDriver as WebDriver
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
-totalPages = (findTestData('MiscPages').getRowNumbers() - 1)
+totalPages = (findTestData(GlobalVariable.DS_version + 'URLsMiscPages').getRowNumbers() - 1)
 
-WebUI.openBrowser(GlobalVariable.TS_Domain + GlobalVariable.Header)
+WebUI.openBrowser(GlobalVariable.SSO_login, FailureHandling.OPTIONAL)
+
+cookieValue = findTestData('cookieValues').getValue(2, 1)
+
+Cookie ck = new Cookie('ESTSAUTH', cookieValue)
+
+WebDriver driver = DriverFactory.getWebDriver()
+
+driver.manage().addCookie(ck)
+
+WebUI.navigateToUrl(GlobalVariable.TS_Domain + '/models/categories/sedans')
+
+WebUI.delay(2)
 
 for (def index : (0..totalPages)) {
-    WebUI.navigateToUrl(findTestData('MiscPages').getValue(GlobalVariable.dataColumn, dataRow))
+    WebUI.navigateToUrl(findTestData(GlobalVariable.DS_version + 'URLsMiscPages').getValue(dataColumn, dataRow))
 
-    not_run: WebUI.verifyElementNotPresent(findTestObject('error'), 0)
+    if (WebUI.verifyElementNotPresent(findTestObject('GlobalNav/lexus logo'), 3, FailureHandling.OPTIONAL)) {
+        WebUI.navigateToUrl(findTestData(GlobalVariable.DS_version + 'URLsFCVPages').getValue(dataColumn, dataRow))
 
-    if (WebUI.verifyTextNotPresent('is no longer supported on Lexus.com', false, FailureHandling.OPTIONAL)) {
-        WebUI.navigateToUrl(findTestData('MiscPages').getValue(GlobalVariable.dataColumn, dataRow))
-
-        WebUI.waitForPageLoad(0)
-
-        WebUI.verifyTextPresent('is no longer supported on Lexus.com', false, FailureHandling.CONTINUE_ON_FAILURE)
+        WebUI.verifyElementPresent(findTestObject('GlobalNav/lexus logo'), 0)
     }
     
+    WebUI.verifyElementNotPresent(findTestObject('error'), 0)
+
+    WebUI.delay(2)
+
     dataRow = (dataRow + 1)
 }
 
 WebUI.waitForPageLoad(0)
+
+WebUI.delay(5)
 
 @com.kms.katalon.core.annotation.TearDownIfPassed
 def passed() {
