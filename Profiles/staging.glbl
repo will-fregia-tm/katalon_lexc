@@ -49,4 +49,9 @@
       <initValue>3</initValue>
       <name>dataColumn</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'yes'</initValue>
+      <name>lowerEnvironment</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

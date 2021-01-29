@@ -6,11 +6,15 @@
    <elementGuidId>5845ad91-5864-47c7-b0e2-9156e17ae1de</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>#logo</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
          <value>//*[@id = 'logo']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

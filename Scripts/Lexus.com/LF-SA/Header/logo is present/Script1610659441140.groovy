@@ -22,18 +22,16 @@ import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
 WebUI.openBrowser(GlobalVariable.SSO_login, FailureHandling.OPTIONAL)
 
-cookieValue = findTestData('cookieValues').getValue(2, 1)
+'these steps are added to handle lower environment authentication'
+if (WebUI.verifyMatch(GlobalVariable.lowerEnvironment, 'yes', false, FailureHandling.OPTIONAL)) {
+    cookieValue = findTestData('cookieValues').getValue(2, 1)
 
-Cookie ck = new Cookie('ESTSAUTH', cookieValue)
+    Cookie ck = new Cookie('ESTSAUTH', cookieValue)
 
-WebDriver driver = DriverFactory.getWebDriver()
+    WebDriver driver = DriverFactory.getWebDriver()
 
-driver.manage().addCookie(ck)
+    driver.manage().addCookie(ck)
 
-domain = GlobalVariable.domain
-
-'this step is added to handle legacy staging authentication'
-if (WebUI.verifyMatch(domain, 'staging', false, FailureHandling.OPTIONAL)) {
     WebUI.navigateToUrl(GlobalVariable.TS_Domain + GlobalVariable.legacyURL)
 }
 
