@@ -35,49 +35,41 @@ if (WebUI.verifyMatch(GlobalVariable.lowerEnvironment, 'yes', false, FailureHand
     WebUI.navigateToUrl(GlobalVariable.TS_Domain + GlobalVariable.legacyURL)
 }
 
-'these steps will be run for the legacy version of the page'
-if (WebUI.verifyMatch(GlobalVariable.legacy, 'yes', false, FailureHandling.OPTIONAL)) {
-    WebUI.navigateToUrl(GlobalVariable.SC_Domain)
+WebUI.navigateToUrl(GlobalVariable.AEM_Domain)
 
-    WebUI.navigateToUrl(GlobalVariable.SC_Domain_Unauthenticated)
-
-    'if the page renders slowly, it will be refreshed so the test can continue'
-    if (WebUI.verifyElementNotPresent(findTestObject('GlobalNav/header/header - Lexus logo'), 3, FailureHandling.OPTIONAL)) {
-        WebUI.refresh()
-    }
-    
-    WebUI.verifyElementPresent(findTestObject('HomePage/HeroModule/CTA1'), 0)
-
-    WebUI.verifyElementNotPresent(findTestObject('HomePage/HeroModule/CTA3'), 0)
+'if the page renders slowly, it will be refreshed so the test can continue'
+if (WebUI.verifyElementNotPresent(findTestObject('GlobalNav/header/header - Lexus logo'), 3, FailureHandling.OPTIONAL)) {
+    WebUI.refresh()
 }
 
-'these steps will be run for the non-legacy version of the page'
-if (WebUI.verifyMatch(GlobalVariable.legacy, 'no', false, FailureHandling.OPTIONAL)) {
-    WebUI.navigateToUrl(GlobalVariable.AEM_Domain)
+'runs test if starting at MSRP spec is present'
+if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroModule/spec - starting at msrp'), 3, FailureHandling.OPTIONAL)) {
+    priceAlignment = WebUI.getCSSValue(findTestObject('Homepage/HeroModule/spec - starting at msrp'), 'text-align', FailureHandling.STOP_ON_FAILURE)
 
-    'if the page renders slowly, it will be refreshed so the test can continue'
-    if (WebUI.verifyElementNotPresent(findTestObject('GlobalNav/header/header - Lexus logo'), 3, FailureHandling.OPTIONAL)) {
-        WebUI.refresh()
+    'accounts for left alignment setting'
+    modifiedString = (priceAlignment - 'left')
+
+    'accounts for center alignment setting'
+    modifiedString = (priceAlignment - 'center')
+
+    'only center or left alignment values should pass - otherwise text will match and test will fail'
+    WebUI.verifyNotMatch(modifiedString, priceAlignment, false, FailureHandling.STOP_ON_FAILURE)
+
+    startingAtTextAlignment = WebUI.getCSSValue(findTestObject('Homepage/HeroModule/Starting At'), 'text-align', FailureHandling.STOP_ON_FAILURE)
+
+    'verifies that price text alignment matches Starting At text alignment'
+    WebUI.verifyMatch(priceAlignment, startingAtTextAlignment, false, FailureHandling.STOP_ON_FAILURE)
+
+    'runs test if Vehicle Shown text is present'
+    if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroModule/Vehicle Shown'), 3, FailureHandling.OPTIONAL)) {
+        vehicleShownTextAlignment = WebUI.getText(findTestObject('Homepage/HeroModule/Vehicle Shown'), FailureHandling.STOP_ON_FAILURE)
+
+        vehicleShownTextAlignment = WebUI.getCSSValue(findTestObject('Homepage/HeroModule/Vehicle Shown'), 'text-align', 
+            FailureHandling.STOP_ON_FAILURE)
+
+        'verifies that price text alignment matches Vehicle Shown text alignment'
+        WebUI.verifyMatch(priceAlignment, vehicleShownTextAlignment, false, FailureHandling.STOP_ON_FAILURE)
     }
-    
-    WebUI.verifyElementPresent(findTestObject('Homepage/HeroModule/first CTA'), 0, FailureHandling.STOP_ON_FAILURE)
-
-    WebUI.mouseOver(findTestObject('Homepage/HeroModule/first CTA'), FailureHandling.STOP_ON_FAILURE)
-
-    WebUI.getText(findTestObject('Homepage/HeroModule/first CTA'), FailureHandling.STOP_ON_FAILURE)
-
-    WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
-
-    'interacts with the second CTA if it is present'
-    if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroModule/second CTA'), 3, FailureHandling.OPTIONAL)) {
-        WebUI.mouseOver(findTestObject('Homepage/HeroModule/second CTA'), FailureHandling.STOP_ON_FAILURE)
-
-        WebUI.getText(findTestObject('Homepage/HeroModule/second CTA'), FailureHandling.STOP_ON_FAILURE)
-
-        WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
-    }
-    
-    WebUI.verifyElementNotPresent(findTestObject('Homepage/HeroModule/third CTA'), 0, FailureHandling.STOP_ON_FAILURE)
 }
 
 @com.kms.katalon.core.annotation.TearDownIfPassed

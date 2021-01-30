@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>CTA1</name>
+   <name>image</name>
    <tag></tag>
-   <elementGuidId>1d181e4e-bd95-4bc9-a146-f05bd23b92dd</elementGuidId>
+   <elementGuidId>931e530b-15f9-4788-9d30-94ccf6b5c9bc</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
+         <key>CSS</key>
+         <value>#NonSEHero img[src*=&quot;.jpg&quot;]</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>div.component.HeroModule .footer-card__content .btn</value>
+         <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

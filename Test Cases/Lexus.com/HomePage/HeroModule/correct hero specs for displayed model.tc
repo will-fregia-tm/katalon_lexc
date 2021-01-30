@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Vehicle specs shown on hero will be able to differ for vehicle shown based on Product recommendations for each vehicle.</description>
+   <name>correct hero specs for displayed model</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dee2d737-b185-4779-9b35-56296ac512a6</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>d3a080ae-48d4-441d-a3a3-a1388ca6c356</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>

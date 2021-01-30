@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GlobalVariableEntities>
    <description></description>
-   <name>default</name>
+   <name>staging</name>
    <tag></tag>
-   <defaultProfile>true</defaultProfile>
+   <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'lexus.com'</initValue>
+      <initValue>'https://lexus_user:G0rill@23@staging.lexus.com'</initValue>
       <name>TS_Domain</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'lexus.com'</initValue>
+      <initValue>'https://lexus_user:G0rill@23@staging.lexus.com'</initValue>
       <name>SC_Domain</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'lexus.com'</initValue>
+      <initValue>'https://staging.lexus.com'</initValue>
       <name>TS_Domain_Unauthenticated</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'lexus.com'</initValue>
+      <initValue>'https://staging.lexus.com'</initValue>
       <name>SC_Domain_Unauthenticated</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -31,7 +31,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Prod,HomePage'</initValue>
+      <initValue>'Staging,HomePage'</initValue>
       <name>profileTags</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -71,7 +71,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'yes'</initValue>
+      <initValue>'no'</initValue>
       <name>legacy</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -86,27 +86,27 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'prod'</initValue>
+      <initValue>'staging'</initValue>
       <name>domain</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'prod'</initValue>
+      <initValue>'staging'</initValue>
       <name>DS_version</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'lexus.com'</initValue>
+      <initValue>'stg-lcom.cdn.cepo-proxy.tms.aws.lexus.com'</initValue>
       <name>AEM_Domain</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>2</initValue>
+      <initValue>3</initValue>
       <name>dataColumn</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'no'</initValue>
+      <initValue>'yes'</initValue>
       <name>lowerEnvironment</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

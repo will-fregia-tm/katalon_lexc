@@ -29,4 +29,24 @@
       <initValue>'Review,HomePage'</initValue>
       <name>profileTags</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'yes'</initValue>
+      <name>legacy</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'review'</initValue>
+      <name>domain</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'yes'</initValue>
+      <name>lowerEnvironment</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>3</initValue>
+      <name>dataColumn</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

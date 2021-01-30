@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>CTA1</name>
+   <name>video</name>
    <tag></tag>
-   <elementGuidId>1d181e4e-bd95-4bc9-a146-f05bd23b92dd</elementGuidId>
+   <elementGuidId>95d4823e-eb1d-4c70-a744-9fbf1da61f1f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
+         <key>CSS</key>
+         <value>#NonSEHero source[src*=&quot;media&quot;]</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>div.component.HeroModule .footer-card__content .btn</value>
+         <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

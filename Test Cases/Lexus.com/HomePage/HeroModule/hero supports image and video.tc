@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Hero space will be able to support image/video. Image/Video will be full width of the browser window. Will support MP4 and WEBM specs for video.</description>
+   <name>hero supports image and video</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cfd57d1c-077b-433e-b526-b93bc7067255</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>d0a56df3-3d9e-4e3a-8bff-9cf9c57443ff</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Default-Hero and Quick Links module are visible within one viewport on page load</description>
+   <name>Quick Links are visible above the fold</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e1dee8ef-5288-4718-a37c-edc1922085af</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>6bd39e4f-bdac-484b-af54-7c6fd4fc656a</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>

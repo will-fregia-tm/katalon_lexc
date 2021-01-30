@@ -35,50 +35,16 @@ if (WebUI.verifyMatch(GlobalVariable.lowerEnvironment, 'yes', false, FailureHand
     WebUI.navigateToUrl(GlobalVariable.TS_Domain + GlobalVariable.legacyURL)
 }
 
-'these steps will be run for the legacy version of the page'
-if (WebUI.verifyMatch(GlobalVariable.legacy, 'yes', false, FailureHandling.OPTIONAL)) {
-    WebUI.navigateToUrl(GlobalVariable.SC_Domain)
+WebUI.navigateToUrl(GlobalVariable.AEM_Domain)
 
-    WebUI.navigateToUrl(GlobalVariable.SC_Domain_Unauthenticated)
-
-    'if the page renders slowly, it will be refreshed so the test can continue'
-    if (WebUI.verifyElementNotPresent(findTestObject('GlobalNav/header/header - Lexus logo'), 3, FailureHandling.OPTIONAL)) {
-        WebUI.refresh()
-    }
-    
-    WebUI.verifyElementPresent(findTestObject('HomePage/HeroModule/CTA1'), 0)
-
-    WebUI.verifyElementNotPresent(findTestObject('HomePage/HeroModule/CTA3'), 0)
+'if the page renders slowly, it will be refreshed so the test can continue'
+if (WebUI.verifyElementNotPresent(findTestObject('GlobalNav/header/header - Lexus logo'), 3, FailureHandling.OPTIONAL)) {
+    WebUI.refresh()
 }
 
-'these steps will be run for the non-legacy version of the page'
-if (WebUI.verifyMatch(GlobalVariable.legacy, 'no', false, FailureHandling.OPTIONAL)) {
-    WebUI.navigateToUrl(GlobalVariable.AEM_Domain)
+WebUI.verifyElementVisibleInViewport(findTestObject('Homepage/HeroModule/NonSEHero'), 0, FailureHandling.OPTIONAL)
 
-    'if the page renders slowly, it will be refreshed so the test can continue'
-    if (WebUI.verifyElementNotPresent(findTestObject('GlobalNav/header/header - Lexus logo'), 3, FailureHandling.OPTIONAL)) {
-        WebUI.refresh()
-    }
-    
-    WebUI.verifyElementPresent(findTestObject('Homepage/HeroModule/first CTA'), 0, FailureHandling.STOP_ON_FAILURE)
-
-    WebUI.mouseOver(findTestObject('Homepage/HeroModule/first CTA'), FailureHandling.STOP_ON_FAILURE)
-
-    WebUI.getText(findTestObject('Homepage/HeroModule/first CTA'), FailureHandling.STOP_ON_FAILURE)
-
-    WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
-
-    'interacts with the second CTA if it is present'
-    if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroModule/second CTA'), 3, FailureHandling.OPTIONAL)) {
-        WebUI.mouseOver(findTestObject('Homepage/HeroModule/second CTA'), FailureHandling.STOP_ON_FAILURE)
-
-        WebUI.getText(findTestObject('Homepage/HeroModule/second CTA'), FailureHandling.STOP_ON_FAILURE)
-
-        WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
-    }
-    
-    WebUI.verifyElementNotPresent(findTestObject('Homepage/HeroModule/third CTA'), 0, FailureHandling.STOP_ON_FAILURE)
-}
+WebUI.verifyElementVisibleInViewport(findTestObject('Homepage/QuickLinks/Quick Links'), 0, FailureHandling.OPTIONAL)
 
 @com.kms.katalon.core.annotation.TearDownIfPassed
 def passed() {

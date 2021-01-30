@@ -29,4 +29,9 @@
       <initValue>'Prod,HomePage'</initValue>
       <name>profileTags</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'yes'</initValue>
+      <name>legacy</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

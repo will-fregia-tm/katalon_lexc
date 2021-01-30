@@ -35,49 +35,31 @@ if (WebUI.verifyMatch(GlobalVariable.lowerEnvironment, 'yes', false, FailureHand
     WebUI.navigateToUrl(GlobalVariable.TS_Domain + GlobalVariable.legacyURL)
 }
 
-'these steps will be run for the legacy version of the page'
-if (WebUI.verifyMatch(GlobalVariable.legacy, 'yes', false, FailureHandling.OPTIONAL)) {
-    WebUI.navigateToUrl(GlobalVariable.SC_Domain)
+WebUI.navigateToUrl(GlobalVariable.AEM_Domain)
 
-    WebUI.navigateToUrl(GlobalVariable.SC_Domain_Unauthenticated)
-
-    'if the page renders slowly, it will be refreshed so the test can continue'
-    if (WebUI.verifyElementNotPresent(findTestObject('GlobalNav/header/header - Lexus logo'), 3, FailureHandling.OPTIONAL)) {
-        WebUI.refresh()
-    }
-    
-    WebUI.verifyElementPresent(findTestObject('HomePage/HeroModule/CTA1'), 0)
-
-    WebUI.verifyElementNotPresent(findTestObject('HomePage/HeroModule/CTA3'), 0)
+'if the page renders slowly, it will be refreshed so the test can continue'
+if (WebUI.verifyElementNotPresent(findTestObject('GlobalNav/header/header - Lexus logo'), 3, FailureHandling.OPTIONAL)) {
+    WebUI.refresh()
 }
 
-'these steps will be run for the non-legacy version of the page'
-if (WebUI.verifyMatch(GlobalVariable.legacy, 'no', false, FailureHandling.OPTIONAL)) {
-    WebUI.navigateToUrl(GlobalVariable.AEM_Domain)
+'runs test if starting at MSRP spec is present'
+if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroModule/spec - starting at msrp'), 3, FailureHandling.OPTIONAL)) {
+    actualValue = WebUI.getText(findTestObject('Homepage/HeroModule/spec - starting at msrp'), FailureHandling.STOP_ON_FAILURE)
 
-    'if the page renders slowly, it will be refreshed so the test can continue'
-    if (WebUI.verifyElementNotPresent(findTestObject('GlobalNav/header/header - Lexus logo'), 3, FailureHandling.OPTIONAL)) {
-        WebUI.refresh()
-    }
-    
-    WebUI.verifyElementPresent(findTestObject('Homepage/HeroModule/first CTA'), 0, FailureHandling.STOP_ON_FAILURE)
+    'this allows for null values in lower environments that do not have content updates'
+    actualValue = (actualValue + ' ')
 
-    WebUI.mouseOver(findTestObject('Homepage/HeroModule/first CTA'), FailureHandling.STOP_ON_FAILURE)
+    'chooses column with data for test environment'
+    column = GlobalVariable.dataColumn
 
-    WebUI.getText(findTestObject('Homepage/HeroModule/first CTA'), FailureHandling.STOP_ON_FAILURE)
+    'gets homepage hero model value from MSRP test data'
+    expectedValue = findTestData('MSRP').getValue(column, 101)
 
-    WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
+    'subtracts datasheet expected value from actual value displayed on page'
+    modifiedString = (actualValue - expectedValue)
 
-    'interacts with the second CTA if it is present'
-    if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroModule/second CTA'), 3, FailureHandling.OPTIONAL)) {
-        WebUI.mouseOver(findTestObject('Homepage/HeroModule/second CTA'), FailureHandling.STOP_ON_FAILURE)
-
-        WebUI.getText(findTestObject('Homepage/HeroModule/second CTA'), FailureHandling.STOP_ON_FAILURE)
-
-        WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
-    }
-    
-    WebUI.verifyElementNotPresent(findTestObject('Homepage/HeroModule/third CTA'), 0, FailureHandling.STOP_ON_FAILURE)
+    'if the expected value is contained within the actual value, then the actual value without the expected value should not match the actual value'
+    WebUI.verifyNotMatch(modifiedString, actualValue, false, FailureHandling.STOP_ON_FAILURE)
 }
 
 @com.kms.katalon.core.annotation.TearDownIfPassed
