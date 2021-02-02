@@ -42,9 +42,29 @@ if (WebUI.verifyElementNotPresent(findTestObject('GlobalNav/header/header - Lexu
     WebUI.refresh()
 }
 
-WebUI.verifyElementVisibleInViewport(findTestObject('Homepage/HeroModule/NonSEHero'), 0, FailureHandling.STOP_ON_FAILURE)
+'runs test if asset disclaimer is present'
+if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroModule/asset disclaimer'), 3, FailureHandling.OPTIONAL)) {
+    WebUI.verifyElementVisibleInViewport(findTestObject('Homepage/HeroModule/asset disclaimer'), 0, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementVisibleInViewport(findTestObject('Homepage/QuickLinks/Quick Links'), 0, FailureHandling.STOP_ON_FAILURE)
+    color = WebUI.getAttribute(findTestObject('Homepage/HeroModule/asset disclaimer'), 'color', FailureHandling.STOP_ON_FAILURE)
+
+    actualValue = WebUI.getText(findTestObject('Homepage/HeroModule/asset disclaimer'))
+
+    'this allows for null values in lower environments that do not have content updates'
+    actualValue = (actualValue + ' ')
+
+    'chooses column with data for test environment'
+    column = GlobalVariable.dataColumn
+
+    'gets homepage hero asset disclaimer value from MSRP test data'
+    expectedValue = findTestData('HP').getValue(column, 2)
+
+    'subtracts datasheet expected value from actual value displayed on page'
+    modifiedString = (actualValue - expectedValue)
+
+    'if the expected value is contained within the actual value, then the actual value without the expected value should not match the actual value'
+    WebUI.verifyNotMatch(modifiedString, actualValue, false, FailureHandling.STOP_ON_FAILURE)
+}
 
 @com.kms.katalon.core.annotation.TearDownIfPassed
 def passed() {

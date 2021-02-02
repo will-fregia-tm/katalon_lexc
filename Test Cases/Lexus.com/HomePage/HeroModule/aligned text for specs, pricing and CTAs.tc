@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>Vehicle specs shown on hero will be able to differ for vehicle shown based on Product recommendations for each vehicle.</description>
+   <description>Hero module can display specs and pricing center aligned, or left aligned (but they should match each other). CTA text should be center aligned no matter what.</description>
    <name>aligned text for specs, pricing and CTAs</name>
    <tag></tag>
    <comment></comment>

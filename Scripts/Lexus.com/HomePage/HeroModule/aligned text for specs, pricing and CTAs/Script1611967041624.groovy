@@ -72,6 +72,16 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroModule/spec - starti
     }
 }
 
+WebUI.verifyElementPresent(findTestObject('Homepage/HeroModule/first CTA'), 0, FailureHandling.STOP_ON_FAILURE)
+
+CTAtext = WebUI.getCSSValue(findTestObject('Homepage/HeroModule/first CTA'), 'justify-content', FailureHandling.STOP_ON_FAILURE)
+
+'accounts for center alignment setting'
+modifiedString = (CTAtext - 'center')
+
+'only center alignment values should pass - otherwise text will match and test will fail'
+WebUI.verifyNotMatch(modifiedString, CTAtext, false, FailureHandling.STOP_ON_FAILURE)
+
 @com.kms.katalon.core.annotation.TearDownIfPassed
 def passed() {
     WebUI.executeJavaScript('sauce:job-result=passed', [])

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Asterisk disclaimers are displayed and clicking on them displays the pop up box with disclaimer info.</description>
+   <name>asterisk disclaimers</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b43e0c7e-fa0f-4a21-880c-9556dfb3946b</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>da389d0f-ea6b-4493-b0a1-0b1483a71e8a</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>

@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>second CTA</name>
+   <name>asset disclaimer</name>
    <tag></tag>
-   <elementGuidId>8bd519ea-8e4a-4337-b67b-70fcc3d4456b</elementGuidId>
+   <elementGuidId>8e1468c0-cba2-4f12-8a31-5aaa0a63e7a1</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
+         <key>CSS</key>
+         <value>[id^=&quot;Hero&quot;] img + span[letter-spacing*=&quot;narrow&quot;]</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>[id^=&quot;Hero&quot;] div:nth-child(2) > a</value>
+         <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

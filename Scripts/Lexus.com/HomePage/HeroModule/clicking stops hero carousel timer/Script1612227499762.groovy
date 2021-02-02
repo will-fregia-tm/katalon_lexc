@@ -42,9 +42,62 @@ if (WebUI.verifyElementNotPresent(findTestObject('GlobalNav/header/header - Lexu
     WebUI.refresh()
 }
 
-WebUI.verifyElementVisibleInViewport(findTestObject('Homepage/HeroModule/NonSEHero'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.waitForElementPresent(findTestObject('Homepage/HeroModule/slide 1'), 5, FailureHandling.OPTIONAL)
 
-WebUI.verifyElementVisibleInViewport(findTestObject('Homepage/QuickLinks/Quick Links'), 0, FailureHandling.STOP_ON_FAILURE)
+'runs these tests if more than one slide is present'
+if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroModule/slide 2'), 3, FailureHandling.OPTIONAL)) {
+    WebUI.click(findTestObject('Homepage/HeroModule/carousel slide 1 button'), FailureHandling.STOP_ON_FAILURE)
+
+    activeSlide1 = WebUI.getAttribute(findTestObject('Homepage/HeroModule/active slide'), 'data-index')
+
+    WebUI.delay(4)
+
+    activeSlide2 = WebUI.getAttribute(findTestObject('Homepage/HeroModule/active slide'), 'data-index')
+
+    WebUI.verifyMatch(activeSlide1, activeSlide2, false, FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.refresh()
+
+    WebUI.waitForElementPresent(findTestObject('Homepage/HeroModule/carousel slide 2 button'), 5, FailureHandling.OPTIONAL)
+
+    WebUI.click(findTestObject('Homepage/HeroModule/carousel slide 2 button'), FailureHandling.STOP_ON_FAILURE)
+
+    activeSlide1 = WebUI.getAttribute(findTestObject('Homepage/HeroModule/active slide'), 'data-index')
+
+    WebUI.delay(4)
+
+    activeSlide2 = WebUI.getAttribute(findTestObject('Homepage/HeroModule/active slide'), 'data-index')
+
+    WebUI.verifyMatch(activeSlide1, activeSlide2, false, FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.refresh()
+
+    WebUI.waitForElementPresent(findTestObject('Homepage/HeroModule/carousel next slide button'), 5, FailureHandling.OPTIONAL)
+
+    WebUI.click(findTestObject('Homepage/HeroModule/carousel next slide button'), FailureHandling.STOP_ON_FAILURE)
+
+    activeSlide1 = WebUI.getAttribute(findTestObject('Homepage/HeroModule/active slide'), 'data-index')
+
+    WebUI.delay(4)
+
+    activeSlide2 = WebUI.getAttribute(findTestObject('Homepage/HeroModule/active slide'), 'data-index')
+
+    WebUI.verifyMatch(activeSlide1, activeSlide2, false, FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.refresh()
+
+    WebUI.waitForElementPresent(findTestObject('Homepage/HeroModule/carousel previous slide button'), 5, FailureHandling.OPTIONAL)
+
+    WebUI.click(findTestObject('Homepage/HeroModule/carousel previous slide button'), FailureHandling.STOP_ON_FAILURE)
+
+    activeSlide1 = WebUI.getAttribute(findTestObject('Homepage/HeroModule/active slide'), 'data-index')
+
+    WebUI.delay(4)
+
+    activeSlide2 = WebUI.getAttribute(findTestObject('Homepage/HeroModule/active slide'), 'data-index')
+
+    WebUI.verifyMatch(activeSlide1, activeSlide2, false, FailureHandling.STOP_ON_FAILURE)
+}
 
 @com.kms.katalon.core.annotation.TearDownIfPassed
 def passed() {

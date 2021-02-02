@@ -42,9 +42,52 @@ if (WebUI.verifyElementNotPresent(findTestObject('GlobalNav/header/header - Lexu
     WebUI.refresh()
 }
 
-WebUI.verifyElementVisibleInViewport(findTestObject('Homepage/HeroModule/NonSEHero'), 0, FailureHandling.STOP_ON_FAILURE)
+'runs test if asterisk disclaimer is present'
+if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroModule/asterisk disclaimer 1'), 3, FailureHandling.OPTIONAL)) {
+    WebUI.verifyElementNotPresent(findTestObject('Homepage/GlobalMisc/disclaimer copy'), 0, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementVisibleInViewport(findTestObject('Homepage/QuickLinks/Quick Links'), 0, FailureHandling.STOP_ON_FAILURE)
+    WebUI.click(findTestObject('Homepage/HeroModule/asterisk disclaimer 1'), FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.delay(2)
+
+    WebUI.verifyElementVisibleInViewport(findTestObject('Homepage/GlobalMisc/disclaimer copy'), 0, FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.getText(findTestObject('Homepage/GlobalMisc/disclaimer copy'))
+
+    'runs test if another asterisk disclaimer is present'
+    if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroModule/asterisk disclaimer 2'), 3, FailureHandling.OPTIONAL)) {
+        WebUI.click(findTestObject('Homepage/GlobalMisc/disclaimer close button'), FailureHandling.STOP_ON_FAILURE)
+
+        WebUI.delay(2)
+
+        WebUI.verifyElementNotPresent(findTestObject('Homepage/GlobalMisc/disclaimer copy'), 0, FailureHandling.STOP_ON_FAILURE)
+
+        WebUI.click(findTestObject('Homepage/HeroModule/asterisk disclaimer 2'), FailureHandling.STOP_ON_FAILURE)
+
+        WebUI.delay(2)
+
+        WebUI.verifyElementVisibleInViewport(findTestObject('Homepage/GlobalMisc/disclaimer copy'), 0, FailureHandling.STOP_ON_FAILURE)
+
+        WebUI.getText(findTestObject('Homepage/GlobalMisc/disclaimer copy'))
+
+        'runs test if another asterisk disclaimer is present'
+        if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroModule/asterisk disclaimer 3'), 3, FailureHandling.OPTIONAL)) {
+            WebUI.click(findTestObject('Homepage/GlobalMisc/disclaimer close button'), FailureHandling.STOP_ON_FAILURE)
+
+            WebUI.delay(2)
+
+            WebUI.verifyElementNotPresent(findTestObject('Homepage/GlobalMisc/disclaimer copy'), 0, FailureHandling.STOP_ON_FAILURE)
+
+            WebUI.click(findTestObject('Homepage/HeroModule/asterisk disclaimer 3'), FailureHandling.STOP_ON_FAILURE)
+
+            WebUI.delay(2)
+
+            WebUI.verifyElementVisibleInViewport(findTestObject('Homepage/GlobalMisc/disclaimer copy'), 0, FailureHandling.STOP_ON_FAILURE)
+
+            WebUI.getText(findTestObject('Homepage/GlobalMisc/disclaimer copy'))
+        }
+    }
+}
 
 @com.kms.katalon.core.annotation.TearDownIfPassed
 def passed() {

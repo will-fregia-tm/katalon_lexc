@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User can click on any position in carousel or arrows to stop timer.</description>
+   <name>clicking stops hero carousel timer</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a3f09baa-38eb-456e-86d3-3250c6b31b8b</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>e3a9a2be-b4fd-40ec-98aa-9cdf161675c1</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>

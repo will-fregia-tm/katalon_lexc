@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>image</name>
+   <name>carousel previous slide button</name>
    <tag></tag>
-   <elementGuidId>931e530b-15f9-4788-9d30-94ccf6b5c9bc</elementGuidId>
+   <elementGuidId>20d16c68-253b-4e48-8370-6f706d5cf8a4</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#NonSEHero img[src*=&quot;.jpg&quot;]</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>CSS</key>
+         <value>[id^=&quot;Hero&quot;] button[aria-label*=&quot;Goto Previous Slide&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

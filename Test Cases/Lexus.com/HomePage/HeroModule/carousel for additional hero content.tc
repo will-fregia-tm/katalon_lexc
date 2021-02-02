@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Carousel to house any additional content if there is more than one required at a given time. Each image/video in carousel will have a maximum of 4 seconds per slide. After last slide is completed,will stop on 1st image/video in carousel. There will be a maximum of 3 items.</description>
+   <name>carousel for additional hero content</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9719af0d-298d-40ea-8176-0c23465cbc49</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>bfca16e6-24c2-4e94-bd88-7358974c60b1</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>

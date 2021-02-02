@@ -52,8 +52,68 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroModule/spec - starti
     'chooses column with data for test environment'
     column = GlobalVariable.dataColumn
 
-    'gets homepage hero model value from MSRP test data'
-    expectedValue = findTestData('MSRP').getValue(column, 101)
+    'gets homepage hero model value from HP test data'
+    expectedValue = findTestData('HP').getValue(column, 3)
+
+    'subtracts datasheet expected value from actual value displayed on page'
+    modifiedString = (actualValue - expectedValue)
+
+    'if the expected value is contained within the actual value, then the actual value without the expected value should not match the actual value'
+    WebUI.verifyNotMatch(modifiedString, actualValue, false, FailureHandling.STOP_ON_FAILURE)
+}
+
+'runs test if horsepower spec is present'
+if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroModule/spec - horsepower'), 3, FailureHandling.OPTIONAL)) {
+    actualValue = WebUI.getText(findTestObject('Homepage/HeroModule/spec - horsepower'), FailureHandling.STOP_ON_FAILURE)
+
+    'this allows for null values in lower environments that do not have content updates'
+    actualValue = (actualValue + ' ')
+
+    'chooses column with data for test environment'
+    column = GlobalVariable.dataColumn
+
+    'gets homepage hero model value from HP test data'
+    expectedValue = findTestData('HP').getValue(column, 4)
+
+    'subtracts datasheet expected value from actual value displayed on page'
+    modifiedString = (actualValue - expectedValue)
+
+    'if the expected value is contained within the actual value, then the actual value without the expected value should not match the actual value'
+    WebUI.verifyNotMatch(modifiedString, actualValue, false, FailureHandling.STOP_ON_FAILURE)
+}
+
+'runs test if drive mode spec is present'
+if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroModule/spec - drive modes'), 3, FailureHandling.OPTIONAL)) {
+    actualValue = WebUI.getText(findTestObject('Homepage/HeroModule/spec - drive modes'), FailureHandling.STOP_ON_FAILURE)
+
+    'this allows for null values in lower environments that do not have content updates'
+    actualValue = (actualValue + ' ')
+
+    'chooses column with data for test environment'
+    column = GlobalVariable.dataColumn
+
+    'gets homepage hero model value from HP test data'
+    expectedValue = findTestData('HP').getValue(column, 7)
+
+    'subtracts datasheet expected value from actual value displayed on page'
+    modifiedString = (actualValue - expectedValue)
+
+    'if the expected value is contained within the actual value, then the actual value without the expected value should not match the actual value'
+    WebUI.verifyNotMatch(modifiedString, actualValue, false, FailureHandling.STOP_ON_FAILURE)
+}
+
+'runs test if engine spec is present'
+if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroModule/spec - engine'), 3, FailureHandling.OPTIONAL)) {
+    actualValue = WebUI.getText(findTestObject('Homepage/HeroModule/spec - engine'), FailureHandling.STOP_ON_FAILURE)
+
+    'this allows for null values in lower environments that do not have content updates'
+    actualValue = (actualValue + ' ')
+
+    'chooses column with data for test environment'
+    column = GlobalVariable.dataColumn
+
+    'gets homepage hero model value from HP test data'
+    expectedValue = findTestData('HP').getValue(column, 8)
 
     'subtracts datasheet expected value from actual value displayed on page'
     modifiedString = (actualValue - expectedValue)

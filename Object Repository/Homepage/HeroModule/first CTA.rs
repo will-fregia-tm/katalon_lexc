@@ -6,12 +6,11 @@
    <elementGuidId>d57ce4a7-baa8-4d41-aaf4-d3009aa5280c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#NonSEHero div:nth-child(1) > a</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>CSS</key>
+         <value>[id^=&quot;Hero&quot;] div:nth-child(1) > a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

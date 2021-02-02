@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>second CTA</name>
+   <name>image - slide 1</name>
    <tag></tag>
-   <elementGuidId>8bd519ea-8e4a-4337-b67b-70fcc3d4456b</elementGuidId>
+   <elementGuidId>931e530b-15f9-4788-9d30-94ccf6b5c9bc</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>[id^=&quot;Hero&quot;] div:nth-child(2) > a</value>
+         <value>[id^=&quot;Hero&quot;] div[data-index*=&quot;0&quot;] img[src*=&quot;.jpg&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

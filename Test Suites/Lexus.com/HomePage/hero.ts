@@ -71,4 +71,52 @@
          <variableId>6bd39e4f-bdac-484b-af54-7c6fd4fc656a</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>9700558e-c386-428f-91ea-285102091fd1</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/HomePage/HeroModule/asset disclaimers</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>8125fd70-6d6a-4a0a-8216-25ff769a57d2</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1aee6365-2b35-46ad-831e-82d01ab386b9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/HomePage/HeroModule/asterisk disclaimers</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>da389d0f-ea6b-4493-b0a1-0b1483a71e8a</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>6c4b6cd3-c249-49ae-8bc7-120356f172b8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/HomePage/HeroModule/carousel for additional hero content</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>bfca16e6-24c2-4e94-bd88-7358974c60b1</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e956c547-b324-4dce-aee8-6c638835f7f5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/HomePage/HeroModule/clicking stops hero carousel timer</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e3a9a2be-b4fd-40ec-98aa-9cdf161675c1</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>
