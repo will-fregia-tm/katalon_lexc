@@ -6,15 +6,15 @@
    <elementGuidId>0c813f88-73b9-4b0e-8480-803a57746092</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@class = 'component ContentModule' and (contains(text(), ' ') or contains(., ' '))]</value>
+         <key>BASIC</key>
+         <value>//div[contains(@class, 'ContentModule')]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//div[contains(@div, 'ContentModule') and (contains(text(), 'VEHICLES') or contains(., 'VEHICLES'))]</value>
+         <key>XPATH</key>
+         <value>//div[contains(@class, 'ContentModule')]//h1[(contains(text(), 'VEHICLES') or contains(., 'VEHICLES'))]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,12 +26,12 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>contains</matchCondition>
-      <name>div</name>
+      <name>class</name>
       <type>Main</type>
       <value>ContentModule</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>contains</matchCondition>
       <name>text</name>
       <type>Main</type>

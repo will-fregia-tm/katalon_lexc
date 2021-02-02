@@ -26,7 +26,7 @@ WebUI.navigateToUrl(GlobalVariable.SC_Domain)
 
 WebUI.navigateToUrl(GlobalVariable.SC_Domain_Unauthenticated)
 
-WebUI.waitForElementPresent(findTestObject('HomePage/ContentModule/content module - heading'), 0)
+WebUI.waitForElementPresent(findTestObject('HomePage/ContentModule/content module - heading'), 5)
 
 WebUI.scrollToElement(findTestObject('HomePage/ContentModule/content module - heading'), 0)
 

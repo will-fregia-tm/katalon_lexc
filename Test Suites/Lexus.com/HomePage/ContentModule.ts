@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>770234f1-5746-43ac-aecb-27e034e7d063</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Lexus.com/HomePage/ContentModule/2 variations of CTA buttons in content module</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
