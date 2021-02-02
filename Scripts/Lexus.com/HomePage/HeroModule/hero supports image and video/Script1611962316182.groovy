@@ -42,6 +42,8 @@ if (WebUI.verifyElementNotPresent(findTestObject('GlobalNav/header/header - Lexu
     WebUI.refresh()
 }
 
+WebUI.verifyElementPresent(findTestObject('Homepage/HeroModule/hero module'), 0)
+
 WebUI.waitForElementPresent(findTestObject('Homepage/HeroModule/carousel slide 1 button'), 5, FailureHandling.OPTIONAL)
 
 'runs these tests if carousel is not present'

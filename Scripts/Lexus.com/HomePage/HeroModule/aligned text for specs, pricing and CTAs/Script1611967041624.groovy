@@ -42,6 +42,8 @@ if (WebUI.verifyElementNotPresent(findTestObject('GlobalNav/header/header - Lexu
     WebUI.refresh()
 }
 
+WebUI.verifyElementPresent(findTestObject('Homepage/HeroModule/hero module'), 0)
+
 'runs test if starting at MSRP spec is present'
 if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroModule/spec - starting at msrp'), 3, FailureHandling.OPTIONAL)) {
     priceAlignment = WebUI.getCSSValue(findTestObject('Homepage/HeroModule/spec - starting at msrp'), 'text-align', FailureHandling.STOP_ON_FAILURE)
@@ -72,9 +74,9 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroModule/spec - starti
     }
 }
 
-WebUI.verifyElementPresent(findTestObject('Homepage/HeroModule/first CTA'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('Homepage/HeroModule/slide 1 - first CTA'), 0, FailureHandling.STOP_ON_FAILURE)
 
-CTAtext = WebUI.getCSSValue(findTestObject('Homepage/HeroModule/first CTA'), 'justify-content', FailureHandling.STOP_ON_FAILURE)
+CTAtext = WebUI.getCSSValue(findTestObject('Homepage/HeroModule/slide 1 - first CTA'), 'justify-content', FailureHandling.STOP_ON_FAILURE)
 
 'accounts for center alignment setting'
 modifiedString = (CTAtext - 'center')

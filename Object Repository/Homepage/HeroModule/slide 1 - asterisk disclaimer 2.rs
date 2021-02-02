@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>asterisk disclaimer 2</name>
+   <name>slide 1 - asterisk disclaimer 2</name>
    <tag></tag>
    <elementGuidId>7da29b19-1ceb-41ce-b791-100905796e15</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//*[contains(@id, 'Hero')]//span[(text() = '*' or . = '*')]/button[@data-code])[2]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>[id^=&quot;Hero&quot;] button[data-code]:nth-of-type(2)</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//*[contains(@id, 'Hero')]//div[@data-index = '0']//span[(text() = '*' or . = '*')]/button[@data-code])[2]</value>
       </entry>
       <entry>
          <key>BASIC</key>

@@ -42,13 +42,24 @@ if (WebUI.verifyElementNotPresent(findTestObject('GlobalNav/header/header - Lexu
     WebUI.refresh()
 }
 
+WebUI.verifyElementPresent(findTestObject('Homepage/HeroModule/hero module'), 0)
+
 'runs test if asset disclaimer is present'
-if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroModule/asset disclaimer'), 3, FailureHandling.OPTIONAL)) {
-    WebUI.verifyElementVisibleInViewport(findTestObject('Homepage/HeroModule/asset disclaimer'), 0, FailureHandling.STOP_ON_FAILURE)
+if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroModule/slide 1 - asset disclaimer'), 3, FailureHandling.OPTIONAL)) {
+    WebUI.delay(2)
 
-    color = WebUI.getAttribute(findTestObject('Homepage/HeroModule/asset disclaimer'), 'color', FailureHandling.STOP_ON_FAILURE)
+    'goes to slide 1 if carousel is present'
+    if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroModule/carousel slide 1 button'), 3, FailureHandling.OPTIONAL)) {
+        WebUI.click(findTestObject('Homepage/HeroModule/carousel slide 1 button'), FailureHandling.STOP_ON_FAILURE)
 
-    actualValue = WebUI.getText(findTestObject('Homepage/HeroModule/asset disclaimer'))
+        WebUI.delay(2)
+    }
+    
+    WebUI.verifyElementVisibleInViewport(findTestObject('Homepage/HeroModule/slide 1 - asset disclaimer'), 0, FailureHandling.STOP_ON_FAILURE)
+
+    color = WebUI.getAttribute(findTestObject('Homepage/HeroModule/slide 1 - asset disclaimer'), 'color', FailureHandling.STOP_ON_FAILURE)
+
+    actualValue = WebUI.getText(findTestObject('Homepage/HeroModule/slide 1 - asset disclaimer'))
 
     'this allows for null values in lower environments that do not have content updates'
     actualValue = (actualValue + ' ')
@@ -56,7 +67,7 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroModule/asset disclai
     'chooses column with data for test environment'
     column = GlobalVariable.dataColumn
 
-    'gets homepage hero asset disclaimer value from MSRP test data'
+    'gets homepage hero asset disclaimer value from HP test data'
     expectedValue = findTestData('HP').getValue(column, 2)
 
     'subtracts datasheet expected value from actual value displayed on page'

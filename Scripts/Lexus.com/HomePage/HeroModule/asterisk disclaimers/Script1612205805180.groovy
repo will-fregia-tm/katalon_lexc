@@ -42,11 +42,20 @@ if (WebUI.verifyElementNotPresent(findTestObject('GlobalNav/header/header - Lexu
     WebUI.refresh()
 }
 
+WebUI.verifyElementPresent(findTestObject('Homepage/HeroModule/hero module'), 0)
+
 'runs test if asterisk disclaimer is present'
-if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroModule/asterisk disclaimer 1'), 3, FailureHandling.OPTIONAL)) {
+if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroModule/slide 1 - asterisk disclaimer 1'), 3, FailureHandling.OPTIONAL)) {
     WebUI.verifyElementNotPresent(findTestObject('Homepage/GlobalMisc/disclaimer copy'), 0, FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.click(findTestObject('Homepage/HeroModule/asterisk disclaimer 1'), FailureHandling.STOP_ON_FAILURE)
+    'goes to slide 1 if carousel is present'
+    if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroModule/carousel slide 1 button'), 3, FailureHandling.OPTIONAL)) {
+        WebUI.click(findTestObject('Homepage/HeroModule/carousel slide 1 button'), FailureHandling.STOP_ON_FAILURE)
+
+        WebUI.delay(1)
+    }
+    
+    WebUI.click(findTestObject('Homepage/HeroModule/slide 1 - asterisk disclaimer 1'), FailureHandling.STOP_ON_FAILURE)
 
     WebUI.delay(2)
 
@@ -55,14 +64,14 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroModule/asterisk disc
     WebUI.getText(findTestObject('Homepage/GlobalMisc/disclaimer copy'))
 
     'runs test if another asterisk disclaimer is present'
-    if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroModule/asterisk disclaimer 2'), 3, FailureHandling.OPTIONAL)) {
+    if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroModule/slide 1 - asterisk disclaimer 2'), 3, FailureHandling.OPTIONAL)) {
         WebUI.click(findTestObject('Homepage/GlobalMisc/disclaimer close button'), FailureHandling.STOP_ON_FAILURE)
 
         WebUI.delay(2)
 
         WebUI.verifyElementNotPresent(findTestObject('Homepage/GlobalMisc/disclaimer copy'), 0, FailureHandling.STOP_ON_FAILURE)
 
-        WebUI.click(findTestObject('Homepage/HeroModule/asterisk disclaimer 2'), FailureHandling.STOP_ON_FAILURE)
+        WebUI.click(findTestObject('Homepage/HeroModule/slide 1 - asterisk disclaimer 2'), FailureHandling.STOP_ON_FAILURE)
 
         WebUI.delay(2)
 
@@ -71,20 +80,41 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroModule/asterisk disc
         WebUI.getText(findTestObject('Homepage/GlobalMisc/disclaimer copy'))
 
         'runs test if another asterisk disclaimer is present'
-        if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroModule/asterisk disclaimer 3'), 3, FailureHandling.OPTIONAL)) {
+        if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroModule/slide 1 - asterisk disclaimer 3'), 3, FailureHandling.OPTIONAL)) {
             WebUI.click(findTestObject('Homepage/GlobalMisc/disclaimer close button'), FailureHandling.STOP_ON_FAILURE)
 
             WebUI.delay(2)
 
             WebUI.verifyElementNotPresent(findTestObject('Homepage/GlobalMisc/disclaimer copy'), 0, FailureHandling.STOP_ON_FAILURE)
 
-            WebUI.click(findTestObject('Homepage/HeroModule/asterisk disclaimer 3'), FailureHandling.STOP_ON_FAILURE)
+            WebUI.click(findTestObject('Homepage/HeroModule/slide 1 - asterisk disclaimer 3'), FailureHandling.STOP_ON_FAILURE)
 
             WebUI.delay(2)
 
             WebUI.verifyElementVisibleInViewport(findTestObject('Homepage/GlobalMisc/disclaimer copy'), 0, FailureHandling.STOP_ON_FAILURE)
 
             WebUI.getText(findTestObject('Homepage/GlobalMisc/disclaimer copy'))
+        }
+        
+        'runs test if another asterisk disclaimer is present'
+        if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroModule/slide 2 - asterisk disclaimer 1'), 3, FailureHandling.OPTIONAL)) {
+            WebUI.click(findTestObject('Homepage/GlobalMisc/disclaimer close button'), FailureHandling.STOP_ON_FAILURE)
+
+            WebUI.delay(2)
+
+            WebUI.click(findTestObject('Homepage/HeroModule/carousel slide 2 button'), FailureHandling.STOP_ON_FAILURE)
+
+            WebUI.delay(1)
+
+            WebUI.verifyElementNotPresent(findTestObject('Homepage/GlobalMisc/disclaimer copy'), 0, FailureHandling.STOP_ON_FAILURE)
+
+            WebUI.click(findTestObject('Homepage/HeroModule/slide 2 - asterisk disclaimer 1'), FailureHandling.OPTIONAL)
+
+            WebUI.delay(2, FailureHandling.OPTIONAL)
+
+            WebUI.verifyElementVisibleInViewport(findTestObject('Homepage/GlobalMisc/disclaimer copy'), 0, FailureHandling.OPTIONAL)
+
+            WebUI.getText(findTestObject('Homepage/GlobalMisc/disclaimer copy'), FailureHandling.OPTIONAL)
         }
     }
 }

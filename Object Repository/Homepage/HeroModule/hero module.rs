@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>third CTA</name>
+   <name>hero module</name>
    <tag></tag>
-   <elementGuidId>0eda6333-b748-4ab5-9d37-88fea46a3038</elementGuidId>
+   <elementGuidId>46a7d17f-f6ff-40b6-b0b4-5468c7297645</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
+         <key>CSS</key>
+         <value>[id^=&quot;Hero&quot;]</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>[id^=&quot;Hero&quot;] div:nth-child(3) > a</value>
+         <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

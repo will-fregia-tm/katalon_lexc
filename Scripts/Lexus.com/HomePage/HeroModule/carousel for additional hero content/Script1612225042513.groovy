@@ -42,6 +42,8 @@ if (WebUI.verifyElementNotPresent(findTestObject('GlobalNav/header/header - Lexu
     WebUI.refresh()
 }
 
+WebUI.verifyElementPresent(findTestObject('Homepage/HeroModule/hero module'), 0)
+
 WebUI.waitForElementPresent(findTestObject('Homepage/HeroModule/slide 1'), 5, FailureHandling.OPTIONAL)
 
 'runs these tests if more than one slide is present'

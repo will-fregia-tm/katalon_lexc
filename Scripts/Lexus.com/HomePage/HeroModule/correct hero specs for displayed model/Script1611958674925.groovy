@@ -42,8 +42,19 @@ if (WebUI.verifyElementNotPresent(findTestObject('GlobalNav/header/header - Lexu
     WebUI.refresh()
 }
 
+WebUI.verifyElementPresent(findTestObject('Homepage/HeroModule/hero module'), 0)
+
 'runs test if starting at MSRP spec is present'
 if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroModule/spec - starting at msrp'), 3, FailureHandling.OPTIONAL)) {
+    WebUI.delay(2)
+
+    'goes to slide 1 if carousel is present'
+    if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroModule/carousel slide 1 button'), 3, FailureHandling.OPTIONAL)) {
+        WebUI.click(findTestObject('Homepage/HeroModule/carousel slide 1 button'), FailureHandling.STOP_ON_FAILURE)
+
+        WebUI.delay(2)
+    }
+    
     actualValue = WebUI.getText(findTestObject('Homepage/HeroModule/spec - starting at msrp'), FailureHandling.STOP_ON_FAILURE)
 
     'this allows for null values in lower environments that do not have content updates'
@@ -64,6 +75,15 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroModule/spec - starti
 
 'runs test if horsepower spec is present'
 if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroModule/spec - horsepower'), 3, FailureHandling.OPTIONAL)) {
+    WebUI.delay(2)
+
+    'goes to slide 1 if carousel is present'
+    if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroModule/carousel slide 1 button'), 3, FailureHandling.OPTIONAL)) {
+        WebUI.click(findTestObject('Homepage/HeroModule/carousel slide 1 button'), FailureHandling.STOP_ON_FAILURE)
+
+        WebUI.delay(2)
+    }
+    
     actualValue = WebUI.getText(findTestObject('Homepage/HeroModule/spec - horsepower'), FailureHandling.STOP_ON_FAILURE)
 
     'this allows for null values in lower environments that do not have content updates'
@@ -84,6 +104,15 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroModule/spec - horsep
 
 'runs test if drive mode spec is present'
 if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroModule/spec - drive modes'), 3, FailureHandling.OPTIONAL)) {
+    WebUI.delay(2)
+
+    'goes to slide 1 if carousel is present'
+    if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroModule/carousel slide 1 button'), 3, FailureHandling.OPTIONAL)) {
+        WebUI.click(findTestObject('Homepage/HeroModule/carousel slide 1 button'), FailureHandling.STOP_ON_FAILURE)
+
+        WebUI.delay(2)
+    }
+    
     actualValue = WebUI.getText(findTestObject('Homepage/HeroModule/spec - drive modes'), FailureHandling.STOP_ON_FAILURE)
 
     'this allows for null values in lower environments that do not have content updates'
@@ -104,6 +133,15 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroModule/spec - drive 
 
 'runs test if engine spec is present'
 if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroModule/spec - engine'), 3, FailureHandling.OPTIONAL)) {
+    WebUI.delay(2)
+
+    'goes to slide 1 if carousel is present'
+    if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroModule/carousel slide 1 button'), 3, FailureHandling.OPTIONAL)) {
+        WebUI.click(findTestObject('Homepage/HeroModule/carousel slide 1 button'), FailureHandling.STOP_ON_FAILURE)
+
+        WebUI.delay(2)
+    }
+    
     actualValue = WebUI.getText(findTestObject('Homepage/HeroModule/spec - engine'), FailureHandling.STOP_ON_FAILURE)
 
     'this allows for null values in lower environments that do not have content updates'
