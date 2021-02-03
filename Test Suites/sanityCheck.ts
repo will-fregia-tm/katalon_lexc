@@ -1540,7 +1540,7 @@
          <configuration>
             <groupName>Custom</groupName>
             <profileName>staging</profileName>
-            <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
+            <runConfigurationId>saucelabs_edge_win10</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/HomePage/hero</testSuiteEntity>
@@ -1549,7 +1549,7 @@
          <configuration>
             <groupName>Custom</groupName>
             <profileName>origin staging</profileName>
-            <runConfigurationId>saucelabs_chrome_win7</runConfigurationId>
+            <runConfigurationId>saucelabs_firefox_win10</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/HomePage/hero</testSuiteEntity>
@@ -1558,7 +1558,7 @@
          <configuration>
             <groupName>Custom</groupName>
             <profileName>author staging</profileName>
-            <runConfigurationId>saucelabs_firefox_win10</runConfigurationId>
+            <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/HomePage/hero</testSuiteEntity>

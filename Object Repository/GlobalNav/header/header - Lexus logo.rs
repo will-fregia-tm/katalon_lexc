@@ -6,14 +6,17 @@
    <elementGuidId>1ba2aa6c-dca4-4b84-a99b-bbb1585351e5</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>#logo</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id = 'logo']</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
 </WebElementEntity>

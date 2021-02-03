@@ -42,6 +42,8 @@ if (WebUI.verifyElementNotPresent(findTestObject('GlobalNav/header/header - Lexu
     WebUI.refresh()
 }
 
+WebUI.waitForElementPresent(findTestObject('Homepage/HeroModule/hero module'), 0, FailureHandling.OPTIONAL)
+
 WebUI.verifyElementPresent(findTestObject('Homepage/HeroModule/hero module'), 0)
 
 WebUI.waitForElementPresent(findTestObject('Homepage/HeroModule/slide 1'), 5, FailureHandling.OPTIONAL)
