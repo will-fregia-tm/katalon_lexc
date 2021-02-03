@@ -14,44 +14,110 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
+import com.kms.katalon.core.testobject.RequestObject as RequestObject
+import org.openqa.selenium.Cookie as Cookie
+import org.openqa.selenium.WebDriver as WebDriver
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
-WebUI.openBrowser(GlobalVariable.TS_Domain + GlobalVariable.Compare)
+WebUI.openBrowser(GlobalVariable.SSO_login, FailureHandling.OPTIONAL)
 
-if (WebUI.verifyElementNotPresent(findTestObject('GlobalNav/header/header - Lexus logo'), 3, FailureHandling.OPTIONAL)) {
-    WebUI.refresh()
+'these steps are added to handle lower environment authentication'
+if (WebUI.verifyMatch(GlobalVariable.lowerEnvironment, 'yes', false, FailureHandling.OPTIONAL)) {
+    cookieValue = findTestData('cookieValues').getValue(2, 1)
+
+    Cookie ck = new Cookie('ESTSAUTH', cookieValue)
+
+    WebDriver driver = DriverFactory.getWebDriver()
+
+    driver.manage().addCookie(ck)
+
+    WebUI.navigateToUrl(GlobalVariable.TS_Domain + GlobalVariable.legacyURL)
 }
 
-WebUI.navigateToUrl(GlobalVariable.SC_Domain)
+'these steps will be run for the legacy version of the page'
+if (WebUI.verifyMatch(GlobalVariable.legacy, 'yes', false, FailureHandling.OPTIONAL)) {
+    WebUI.navigateToUrl(GlobalVariable.SC_Domain)
 
-WebUI.navigateToUrl(GlobalVariable.SC_Domain_Unauthenticated)
+    WebUI.navigateToUrl(GlobalVariable.SC_Domain_Unauthenticated)
 
-WebUI.waitForElementVisible(findTestObject('HomePage/HeroOffers/hero offers - zip entry field'), 0)
+    'if the page renders slowly, it will be refreshed so the test can continue'
+    if (WebUI.verifyElementNotPresent(findTestObject('GlobalNav/header/header - Lexus logo'), 3, FailureHandling.OPTIONAL)) {
+        WebUI.refresh()
+    }
+    
+    WebUI.waitForElementVisible(findTestObject('HomePage/HeroOffers/hero offers - zip entry field'), 0)
 
-WebUI.scrollToPosition(0, 250)
+    WebUI.scrollToPosition(0, 250)
 
-WebUI.verifyElementPresent(findTestObject('HomePage/HeroOffers/hero offers - see offers in your area'), 0)
+    WebUI.verifyElementPresent(findTestObject('HomePage/HeroOffers/hero offers - see offers in your area'), 0)
 
-WebUI.scrollToElement(findTestObject('HomePage/HeroOffers/hero offers - zip entry field'), 0)
+    WebUI.scrollToElement(findTestObject('HomePage/HeroOffers/hero offers - zip entry field'), 0)
 
-WebUI.verifyElementVisible(findTestObject('HomePage/HeroOffers/hero offers - zip entry field'))
+    WebUI.verifyElementVisible(findTestObject('HomePage/HeroOffers/hero offers - zip entry field'))
 
-WebUI.click(findTestObject('HomePage/HeroOffers/hero offers - zip entry field'))
+    WebUI.click(findTestObject('HomePage/HeroOffers/hero offers - zip entry field'))
 
-WebUI.setText(findTestObject('HomePage/HeroOffers/hero offers - zip entry field'), '75218')
+    WebUI.setText(findTestObject('HomePage/HeroOffers/hero offers - zip entry field'), '75218')
 
-WebUI.click(findTestObject('HomePage/HeroOffers/hero offers - search button'))
+    WebUI.click(findTestObject('HomePage/HeroOffers/hero offers - search button'))
 
-WebUI.waitForElementVisible(findTestObject('HomePage/HeroOffers/All Offers - offer info - dollar symbol'), 0)
+    WebUI.waitForElementVisible(findTestObject('HomePage/HeroOffers/All Offers - offer info - dollar symbol'), 0)
 
-WebUI.scrollToElement(findTestObject('HomePage/HeroOffers/hero offers - change zip CTA'), 0)
+    WebUI.scrollToElement(findTestObject('HomePage/HeroOffers/hero offers - change zip CTA'), 0)
 
-WebUI.verifyElementVisible(findTestObject('HomePage/HeroOffers/hero offers - change zip CTA'))
+    WebUI.verifyElementVisible(findTestObject('HomePage/HeroOffers/hero offers - change zip CTA'))
 
-WebUI.click(findTestObject('HomePage/HeroOffers/hero offers - change zip CTA'))
+    WebUI.click(findTestObject('HomePage/HeroOffers/hero offers - change zip CTA'))
 
-WebUI.waitForElementVisible(findTestObject('HomePage/HeroOffers/hero offers - zip entry field'), 0)
+    WebUI.waitForElementVisible(findTestObject('HomePage/HeroOffers/hero offers - zip entry field'), 0)
 
-WebUI.verifyElementVisible(findTestObject('HomePage/HeroOffers/hero offers - zip entry field'))
+    WebUI.verifyElementVisible(findTestObject('HomePage/HeroOffers/hero offers - zip entry field'))
+}
+
+'these steps will be run for the non-legacy version of the page'
+if (WebUI.verifyMatch(GlobalVariable.legacy, 'no', false, FailureHandling.OPTIONAL)) {
+    WebUI.navigateToUrl(GlobalVariable.AEM_Domain)
+
+    'if the page renders slowly, it will be refreshed so the test can continue'
+    if (WebUI.verifyElementNotPresent(findTestObject('GlobalNav/header/header - Lexus logo'), 3, FailureHandling.OPTIONAL)) {
+        WebUI.refresh()
+
+        WebUI.delay(2)
+    }
+    
+    WebUI.verifyElementVisibleInViewport(findTestObject('Homepage/HeroModule/hero module'), 0, FailureHandling.STOP_ON_FAILURE)
+
+    'runs these tests on sales event version of page'
+    if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroOffers/zip code field'), 5, FailureHandling.OPTIONAL)) {
+        WebUI.verifyElementVisibleInViewport(findTestObject('Homepage/HeroOffers/zip code field'), 0, FailureHandling.STOP_ON_FAILURE)
+
+        WebUI.scrollToPosition(0, 250)
+
+        WebUI.click(findTestObject('Homepage/HeroOffers/zip code field'))
+
+        WebUI.setText(findTestObject('Homepage/HeroOffers/zip code field'), '75218')
+
+        WebUI.click(findTestObject('Homepage/HeroOffers/search button'))
+
+        WebUI.waitForElementVisible(findTestObject('Homepage/HeroOffers/offer cards row'), 0)
+
+        WebUI.verifyElementVisible(findTestObject('Homepage/HeroOffers/showing results for'), FailureHandling.STOP_ON_FAILURE)
+
+        WebUI.verifyElementVisible(findTestObject('Homepage/HeroOffers/change CTA'), FailureHandling.STOP_ON_FAILURE)
+
+        WebUI.click(findTestObject('Homepage/HeroOffers/change CTA'), FailureHandling.STOP_ON_FAILURE)
+
+        WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+        WebUI.verifyElementVisible(findTestObject('Homepage/HeroOffers/zip code field'), FailureHandling.STOP_ON_FAILURE)
+    }
+    
+    'runs these tests on non-sales event version of page'
+    if (WebUI.verifyElementNotPresent(findTestObject('Homepage/HeroOffers/zip code field'), 5, FailureHandling.OPTIONAL)) {
+        WebUI.verifyElementPresent(findTestObject('Homepage/HeroModule/hero module'), 0, FailureHandling.STOP_ON_FAILURE)
+    }
+}
 
 @com.kms.katalon.core.annotation.TearDownIfPassed
 def passed() {

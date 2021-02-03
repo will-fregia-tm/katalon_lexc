@@ -62,63 +62,70 @@ if (WebUI.verifyMatch(GlobalVariable.legacy, 'no', false, FailureHandling.OPTION
     
     WebUI.delay(2)
 
-    'goes to slide 1 if carousel is present'
-    if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroModule/carousel slide 1 button'), 3, FailureHandling.OPTIONAL)) {
-        WebUI.click(findTestObject('Homepage/HeroModule/carousel slide 1 button'), FailureHandling.STOP_ON_FAILURE)
+    WebUI.verifyElementPresent(findTestObject('Homepage/HeroOffers/zip code field'), 0, FailureHandling.OPTIONAL)
 
-        WebUI.delay(2)
-    }
-    
-    WebUI.verifyElementPresent(findTestObject('Homepage/HeroModule/slide 1 - first CTA'), 0, FailureHandling.STOP_ON_FAILURE)
+    'runs these tests on non-sales event version of page'
+    if (WebUI.verifyElementNotPresent(findTestObject('Homepage/HeroOffers/zip code field'), 5, FailureHandling.OPTIONAL)) {
+        'goes to slide 1 if carousel is present'
+        if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroModule/carousel slide 1 button'), 3, FailureHandling.OPTIONAL)) {
+            WebUI.click(findTestObject('Homepage/HeroModule/carousel slide 1 button'), FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.mouseOver(findTestObject('Homepage/HeroModule/slide 1 - first CTA'), FailureHandling.OPTIONAL)
+            WebUI.delay(2)
+        }
+        
+        WebUI.verifyElementPresent(findTestObject('Homepage/HeroModule/slide 1 - first CTA'), 0, FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.getText(findTestObject('Homepage/HeroModule/slide 1 - first CTA'), FailureHandling.STOP_ON_FAILURE)
+        WebUI.mouseOver(findTestObject('Homepage/HeroModule/slide 1 - first CTA'), FailureHandling.OPTIONAL)
 
-    WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
-
-    'interacts with the second CTA if it is present'
-    if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroModule/slide 1 - second CTA'), 3, FailureHandling.OPTIONAL)) {
-        WebUI.mouseOver(findTestObject('Homepage/HeroModule/slide 1 - second CTA'), FailureHandling.OPTIONAL)
-
-        WebUI.getText(findTestObject('Homepage/HeroModule/slide 1 - second CTA'), FailureHandling.STOP_ON_FAILURE)
-
-        WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
-    }
-    
-    WebUI.verifyElementNotPresent(findTestObject('Homepage/HeroModule/slide 1 - third CTA'), 0, FailureHandling.STOP_ON_FAILURE)
-
-    'goes to slide 2 if carousel is present'
-    if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroModule/carousel slide 2 button'), 3, FailureHandling.OPTIONAL)) {
-        WebUI.click(findTestObject('Homepage/HeroModule/carousel slide 2 button'), FailureHandling.STOP_ON_FAILURE)
-
-        WebUI.delay(2)
-
-        WebUI.verifyElementPresent(findTestObject('Homepage/HeroModule/slide 2 - first CTA'), 0, FailureHandling.STOP_ON_FAILURE)
-
-        WebUI.mouseOver(findTestObject('Homepage/HeroModule/slide 2 - first CTA'), FailureHandling.OPTIONAL)
-
-        WebUI.getText(findTestObject('Homepage/HeroModule/slide 2 - first CTA'), FailureHandling.STOP_ON_FAILURE)
+        WebUI.getText(findTestObject('Homepage/HeroModule/slide 1 - first CTA'), FailureHandling.STOP_ON_FAILURE)
 
         WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
         'interacts with the second CTA if it is present'
         if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroModule/slide 1 - second CTA'), 3, FailureHandling.OPTIONAL)) {
+            WebUI.mouseOver(findTestObject('Homepage/HeroModule/slide 1 - second CTA'), FailureHandling.OPTIONAL)
+
+            WebUI.getText(findTestObject('Homepage/HeroModule/slide 1 - second CTA'), FailureHandling.STOP_ON_FAILURE)
+
+            WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
+        }
+        
+        WebUI.verifyElementNotPresent(findTestObject('Homepage/HeroModule/slide 1 - third CTA'), 0, FailureHandling.STOP_ON_FAILURE)
+
+        'goes to slide 2 if carousel is present'
+        if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroModule/carousel slide 2 button'), 3, FailureHandling.OPTIONAL)) {
+            WebUI.click(findTestObject('Homepage/HeroModule/carousel slide 2 button'), FailureHandling.STOP_ON_FAILURE)
+
+            WebUI.delay(2)
+
+            WebUI.verifyElementPresent(findTestObject('Homepage/HeroModule/slide 2 - first CTA'), 0, FailureHandling.STOP_ON_FAILURE)
+
+            WebUI.mouseOver(findTestObject('Homepage/HeroModule/slide 2 - first CTA'), FailureHandling.OPTIONAL)
+
+            WebUI.getText(findTestObject('Homepage/HeroModule/slide 2 - first CTA'), FailureHandling.STOP_ON_FAILURE)
+
+            WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+            'interacts with the second CTA if it is present'
+            if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroModule/slide 1 - second CTA'), 3, FailureHandling.OPTIONAL)) {
+                WebUI.mouseOver(findTestObject('Homepage/HeroModule/slide 2 - second CTA'), FailureHandling.OPTIONAL)
+
+                WebUI.getText(findTestObject('Homepage/HeroModule/slide 2 - second CTA'), FailureHandling.STOP_ON_FAILURE)
+
+                WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
+            }
+            
             WebUI.mouseOver(findTestObject('Homepage/HeroModule/slide 2 - second CTA'), FailureHandling.OPTIONAL)
 
             WebUI.getText(findTestObject('Homepage/HeroModule/slide 2 - second CTA'), FailureHandling.STOP_ON_FAILURE)
 
             WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+            WebUI.verifyElementNotPresent(findTestObject('Homepage/HeroModule/slide 2 - third CTA'), 0, FailureHandling.STOP_ON_FAILURE)
         }
-        
-        WebUI.mouseOver(findTestObject('Homepage/HeroModule/slide 2 - second CTA'), FailureHandling.OPTIONAL)
-
-        WebUI.getText(findTestObject('Homepage/HeroModule/slide 2 - second CTA'), FailureHandling.STOP_ON_FAILURE)
-
-        WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
-
-        WebUI.verifyElementNotPresent(findTestObject('Homepage/HeroModule/slide 2 - third CTA'), 0, FailureHandling.STOP_ON_FAILURE)
     }
+    
+    WebUI.verifyElementPresent(findTestObject('Homepage/HeroModule/hero module'), 0)
 }
 
 @com.kms.katalon.core.annotation.TearDownIfPassed

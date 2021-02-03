@@ -46,8 +46,8 @@ WebUI.verifyElementPresent(findTestObject('Homepage/HeroModule/hero module'), 0)
 
 WebUI.waitForElementPresent(findTestObject('Homepage/HeroModule/carousel slide 1 button'), 5, FailureHandling.OPTIONAL)
 
-'runs these tests if carousel is not present'
-if (WebUI.verifyElementNotPresent(findTestObject('Homepage/HeroModule/carousel slide 1 button'), 3, FailureHandling.OPTIONAL)) {
+'runs these tests on sales event version of page'
+if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroOffers/zip code field'), 5, FailureHandling.OPTIONAL)) {
     WebUI.verifyElementPresent(findTestObject('Homepage/HeroModule/image - slide 1'), 0)
 
     imageWidth = WebUI.getCSSValue(findTestObject('Homepage/HeroModule/image - slide 1'), 'width', FailureHandling.STOP_ON_FAILURE)
@@ -72,92 +72,35 @@ if (WebUI.verifyElementNotPresent(findTestObject('Homepage/HeroModule/carousel s
     column = GlobalVariable.dataColumn
 
     'gets homepage hero model value from HP test data'
-    expectedValue = findTestData('HP').getValue(column, 1)
+    expectedValue = findTestData('HP').getValue(column, 9)
 
     'subtracts datasheet expected value from actual value displayed on page'
     modifiedString = (actualValue - expectedValue)
 
     'if the expected value is contained within the actual value, then the actual value without the expected value should not match the actual value'
     WebUI.verifyNotMatch(modifiedString, actualValue, false, FailureHandling.STOP_ON_FAILURE)
-
-    'runs test if video is present'
-    if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroModule/video'), 3, FailureHandling.OPTIONAL)) {
-        videoWidth = WebUI.getCSSValue(findTestObject('Homepage/HeroModule/video'), 'width', FailureHandling.STOP_ON_FAILURE)
-
-        'removes unit of measurement from variable'
-        videoWidth = (videoWidth - 'px')
-
-        'verifies that video is full width'
-        WebUI.verifyMatch(videoWidth, pageWidth, false, FailureHandling.STOP_ON_FAILURE)
-
-        actualValue = WebUI.getAttribute(findTestObject('Homepage/HeroModule/video source'), 'type', FailureHandling.STOP_ON_FAILURE)
-
-        'this allows for null values in lower environments that do not have content updates'
-        actualValue = (actualValue + ' ')
-
-        'chooses column with data for test environment'
-        column = GlobalVariable.dataColumn
-
-        'gets homepage hero model value from HP test data'
-        expectedValue = findTestData('HP').getValue(column, 5)
-
-        'subtracts datasheet expected value from actual value displayed on page'
-        modifiedString = (actualValue - expectedValue)
-
-        'if the expected value is contained within the actual value, then the actual value without the expected value should not match the actual value'
-        WebUI.verifyNotMatch(modifiedString, actualValue, false, FailureHandling.STOP_ON_FAILURE)
-    }
 }
 
-'runs these tests if carousel is present'
-if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroModule/carousel slide 1 button'), 3, FailureHandling.OPTIONAL)) {
-    WebUI.click(findTestObject('Homepage/HeroModule/carousel slide 1 button'), FailureHandling.STOP_ON_FAILURE)
+'runs these tests on non-sales event version of page'
+if (WebUI.verifyElementNotPresent(findTestObject('Homepage/HeroOffers/zip code field'), 5, FailureHandling.OPTIONAL)) {
+    'runs these tests if carousel is not present'
+    if (WebUI.verifyElementNotPresent(findTestObject('Homepage/HeroModule/carousel slide 1 button'), 3, FailureHandling.OPTIONAL)) {
+        WebUI.verifyElementPresent(findTestObject('Homepage/HeroModule/image - slide 1'), 0)
 
-    WebUI.delay(1)
-
-    WebUI.verifyElementPresent(findTestObject('Homepage/HeroModule/image - slide 1'), 0)
-
-    imageWidth = WebUI.getCSSValue(findTestObject('Homepage/HeroModule/image - slide 1'), 'width', FailureHandling.STOP_ON_FAILURE)
-
-    'removes unit of measurement from variable'
-    imageWidth = (imageWidth - 'px')
-
-    pageWidth = WebUI.getPageWidth(FailureHandling.STOP_ON_FAILURE)
-
-    'converts number to string'
-    pageWidth = pageWidth.toString()
-
-    'verifies that image is full width'
-    WebUI.verifyMatch(imageWidth, pageWidth, false, FailureHandling.STOP_ON_FAILURE)
-
-    actualValue = WebUI.getAttribute(findTestObject('Homepage/HeroModule/image - slide 1'), 'alt', FailureHandling.STOP_ON_FAILURE)
-
-    'this allows for null values in lower environments that do not have content updates'
-    actualValue = (actualValue + ' ')
-
-    'chooses column with data for test environment'
-    column = GlobalVariable.dataColumn
-
-    'gets homepage hero model value from HP test data'
-    expectedValue = findTestData('HP').getValue(column, 1)
-
-    'subtracts datasheet expected value from actual value displayed on page'
-    modifiedString = (actualValue - expectedValue)
-
-    'if the expected value is contained within the actual value, then the actual value without the expected value should not match the actual value'
-    WebUI.verifyNotMatch(modifiedString, actualValue, false, FailureHandling.STOP_ON_FAILURE)
-
-    'runs test if video is present'
-    if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroModule/video'), 3, FailureHandling.OPTIONAL)) {
-        videoWidth = WebUI.getCSSValue(findTestObject('Homepage/HeroModule/video'), 'width', FailureHandling.STOP_ON_FAILURE)
+        imageWidth = WebUI.getCSSValue(findTestObject('Homepage/HeroModule/image - slide 1'), 'width', FailureHandling.STOP_ON_FAILURE)
 
         'removes unit of measurement from variable'
-        videoWidth = (videoWidth - 'px')
+        imageWidth = (imageWidth - 'px')
 
-        'verifies that video is full width'
-        WebUI.verifyMatch(videoWidth, pageWidth, false, FailureHandling.STOP_ON_FAILURE)
+        pageWidth = WebUI.getPageWidth(FailureHandling.STOP_ON_FAILURE)
 
-        actualValue = WebUI.getAttribute(findTestObject('Homepage/HeroModule/video source'), 'src', FailureHandling.STOP_ON_FAILURE)
+        'converts number to string'
+        pageWidth = pageWidth.toString()
+
+        'verifies that image is full width'
+        WebUI.verifyMatch(imageWidth, pageWidth, false, FailureHandling.STOP_ON_FAILURE)
+
+        actualValue = WebUI.getAttribute(findTestObject('Homepage/HeroModule/image - slide 1'), 'alt', FailureHandling.STOP_ON_FAILURE)
 
         'this allows for null values in lower environments that do not have content updates'
         actualValue = (actualValue + ' ')
@@ -166,7 +109,7 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroModule/carousel slid
         column = GlobalVariable.dataColumn
 
         'gets homepage hero model value from HP test data'
-        expectedValue = findTestData('HP').getValue(column, 5)
+        expectedValue = findTestData('HP').getValue(column, 1)
 
         'subtracts datasheet expected value from actual value displayed on page'
         modifiedString = (actualValue - expectedValue)
@@ -174,7 +117,57 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroModule/carousel slid
         'if the expected value is contained within the actual value, then the actual value without the expected value should not match the actual value'
         WebUI.verifyNotMatch(modifiedString, actualValue, false, FailureHandling.STOP_ON_FAILURE)
 
-        actualValue = WebUI.getAttribute(findTestObject('Homepage/HeroModule/video source'), 'type', FailureHandling.STOP_ON_FAILURE)
+        'runs test if video is present'
+        if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroModule/video'), 3, FailureHandling.OPTIONAL)) {
+            videoWidth = WebUI.getCSSValue(findTestObject('Homepage/HeroModule/video'), 'width', FailureHandling.STOP_ON_FAILURE)
+
+            'removes unit of measurement from variable'
+            videoWidth = (videoWidth - 'px')
+
+            'verifies that video is full width'
+            WebUI.verifyMatch(videoWidth, pageWidth, false, FailureHandling.STOP_ON_FAILURE)
+
+            actualValue = WebUI.getAttribute(findTestObject('Homepage/HeroModule/video source'), 'type', FailureHandling.STOP_ON_FAILURE)
+
+            'this allows for null values in lower environments that do not have content updates'
+            actualValue = (actualValue + ' ')
+
+            'chooses column with data for test environment'
+            column = GlobalVariable.dataColumn
+
+            'gets homepage hero model value from HP test data'
+            expectedValue = findTestData('HP').getValue(column, 5)
+
+            'subtracts datasheet expected value from actual value displayed on page'
+            modifiedString = (actualValue - expectedValue)
+
+            'if the expected value is contained within the actual value, then the actual value without the expected value should not match the actual value'
+            WebUI.verifyNotMatch(modifiedString, actualValue, false, FailureHandling.STOP_ON_FAILURE)
+        }
+    }
+    
+    'runs these tests if carousel is present'
+    if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroModule/carousel slide 1 button'), 3, FailureHandling.OPTIONAL)) {
+        WebUI.click(findTestObject('Homepage/HeroModule/carousel slide 1 button'), FailureHandling.STOP_ON_FAILURE)
+
+        WebUI.delay(1)
+
+        WebUI.verifyElementPresent(findTestObject('Homepage/HeroModule/image - slide 1'), 0)
+
+        imageWidth = WebUI.getCSSValue(findTestObject('Homepage/HeroModule/image - slide 1'), 'width', FailureHandling.STOP_ON_FAILURE)
+
+        'removes unit of measurement from variable'
+        imageWidth = (imageWidth - 'px')
+
+        pageWidth = WebUI.getPageWidth(FailureHandling.STOP_ON_FAILURE)
+
+        'converts number to string'
+        pageWidth = pageWidth.toString()
+
+        'verifies that image is full width'
+        WebUI.verifyMatch(imageWidth, pageWidth, false, FailureHandling.STOP_ON_FAILURE)
+
+        actualValue = WebUI.getAttribute(findTestObject('Homepage/HeroModule/image - slide 1'), 'alt', FailureHandling.STOP_ON_FAILURE)
 
         'this allows for null values in lower environments that do not have content updates'
         actualValue = (actualValue + ' ')
@@ -183,7 +176,88 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroModule/carousel slid
         column = GlobalVariable.dataColumn
 
         'gets homepage hero model value from HP test data'
-        expectedValue = findTestData('HP').getValue(column, 5)
+        expectedValue = findTestData('HP').getValue(column, 1)
+
+        'subtracts datasheet expected value from actual value displayed on page'
+        modifiedString = (actualValue - expectedValue)
+
+        'if the expected value is contained within the actual value, then the actual value without the expected value should not match the actual value'
+        WebUI.verifyNotMatch(modifiedString, actualValue, false, FailureHandling.STOP_ON_FAILURE)
+
+        'runs test if video is present'
+        if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroModule/video'), 3, FailureHandling.OPTIONAL)) {
+            videoWidth = WebUI.getCSSValue(findTestObject('Homepage/HeroModule/video'), 'width', FailureHandling.STOP_ON_FAILURE)
+
+            'removes unit of measurement from variable'
+            videoWidth = (videoWidth - 'px')
+
+            'verifies that video is full width'
+            WebUI.verifyMatch(videoWidth, pageWidth, false, FailureHandling.STOP_ON_FAILURE)
+
+            actualValue = WebUI.getAttribute(findTestObject('Homepage/HeroModule/video source'), 'src', FailureHandling.STOP_ON_FAILURE)
+
+            'this allows for null values in lower environments that do not have content updates'
+            actualValue = (actualValue + ' ')
+
+            'chooses column with data for test environment'
+            column = GlobalVariable.dataColumn
+
+            'gets homepage hero model value from HP test data'
+            expectedValue = findTestData('HP').getValue(column, 5)
+
+            'subtracts datasheet expected value from actual value displayed on page'
+            modifiedString = (actualValue - expectedValue)
+
+            'if the expected value is contained within the actual value, then the actual value without the expected value should not match the actual value'
+            WebUI.verifyNotMatch(modifiedString, actualValue, false, FailureHandling.STOP_ON_FAILURE)
+
+            actualValue = WebUI.getAttribute(findTestObject('Homepage/HeroModule/video source'), 'type', FailureHandling.STOP_ON_FAILURE)
+
+            'this allows for null values in lower environments that do not have content updates'
+            actualValue = (actualValue + ' ')
+
+            'chooses column with data for test environment'
+            column = GlobalVariable.dataColumn
+
+            'gets homepage hero model value from HP test data'
+            expectedValue = findTestData('HP').getValue(column, 5)
+
+            'subtracts datasheet expected value from actual value displayed on page'
+            modifiedString = (actualValue - expectedValue)
+
+            'if the expected value is contained within the actual value, then the actual value without the expected value should not match the actual value'
+            WebUI.verifyNotMatch(modifiedString, actualValue, false, FailureHandling.STOP_ON_FAILURE)
+        }
+        
+        WebUI.click(findTestObject('Homepage/HeroModule/carousel slide 2 button'), FailureHandling.STOP_ON_FAILURE)
+
+        WebUI.delay(1)
+
+        WebUI.verifyElementPresent(findTestObject('Homepage/HeroModule/image - slide 2'), 0)
+
+        imageWidth = WebUI.getCSSValue(findTestObject('Homepage/HeroModule/image - slide 2'), 'width', FailureHandling.STOP_ON_FAILURE)
+
+        'removes unit of measurement from variable'
+        imageWidth = (imageWidth - 'px')
+
+        pageWidth = WebUI.getPageWidth(FailureHandling.STOP_ON_FAILURE)
+
+        'converts number to string'
+        pageWidth = pageWidth.toString()
+
+        'verifies that image is full width'
+        WebUI.verifyMatch(imageWidth, pageWidth, false, FailureHandling.STOP_ON_FAILURE)
+
+        actualValue = WebUI.getAttribute(findTestObject('Homepage/HeroModule/image - slide 2'), 'alt', FailureHandling.STOP_ON_FAILURE)
+
+        'this allows for null values in lower environments that do not have content updates'
+        actualValue = (actualValue + ' ')
+
+        'chooses column with data for test environment'
+        column = GlobalVariable.dataColumn
+
+        'gets homepage hero model value from HP test data'
+        expectedValue = findTestData('HP').getValue(column, 6)
 
         'subtracts datasheet expected value from actual value displayed on page'
         modifiedString = (actualValue - expectedValue)
@@ -191,42 +265,6 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroModule/carousel slid
         'if the expected value is contained within the actual value, then the actual value without the expected value should not match the actual value'
         WebUI.verifyNotMatch(modifiedString, actualValue, false, FailureHandling.STOP_ON_FAILURE)
     }
-    
-    WebUI.click(findTestObject('Homepage/HeroModule/carousel slide 2 button'), FailureHandling.STOP_ON_FAILURE)
-
-    WebUI.delay(1)
-
-    WebUI.verifyElementPresent(findTestObject('Homepage/HeroModule/image - slide 2'), 0)
-
-    imageWidth = WebUI.getCSSValue(findTestObject('Homepage/HeroModule/image - slide 2'), 'width', FailureHandling.STOP_ON_FAILURE)
-
-    'removes unit of measurement from variable'
-    imageWidth = (imageWidth - 'px')
-
-    pageWidth = WebUI.getPageWidth(FailureHandling.STOP_ON_FAILURE)
-
-    'converts number to string'
-    pageWidth = pageWidth.toString()
-
-    'verifies that image is full width'
-    WebUI.verifyMatch(imageWidth, pageWidth, false, FailureHandling.STOP_ON_FAILURE)
-
-    actualValue = WebUI.getAttribute(findTestObject('Homepage/HeroModule/image - slide 2'), 'alt', FailureHandling.STOP_ON_FAILURE)
-
-    'this allows for null values in lower environments that do not have content updates'
-    actualValue = (actualValue + ' ')
-
-    'chooses column with data for test environment'
-    column = GlobalVariable.dataColumn
-
-    'gets homepage hero model value from HP test data'
-    expectedValue = findTestData('HP').getValue(column, 6)
-
-    'subtracts datasheet expected value from actual value displayed on page'
-    modifiedString = (actualValue - expectedValue)
-
-    'if the expected value is contained within the actual value, then the actual value without the expected value should not match the actual value'
-    WebUI.verifyNotMatch(modifiedString, actualValue, false, FailureHandling.STOP_ON_FAILURE)
 }
 
 @com.kms.katalon.core.annotation.TearDownIfPassed

@@ -44,37 +44,69 @@ if (WebUI.verifyElementNotPresent(findTestObject('GlobalNav/header/header - Lexu
 
 WebUI.verifyElementPresent(findTestObject('Homepage/HeroModule/hero module'), 0)
 
-'runs test if asset disclaimer is present'
-if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroModule/slide 1 - asset disclaimer'), 3, FailureHandling.OPTIONAL)) {
-    WebUI.delay(2)
-
-    'goes to slide 1 if carousel is present'
-    if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroModule/carousel slide 1 button'), 3, FailureHandling.OPTIONAL)) {
-        WebUI.click(findTestObject('Homepage/HeroModule/carousel slide 1 button'), FailureHandling.STOP_ON_FAILURE)
-
+'runs these tests on sales event version of page'
+if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroOffers/zip code field'), 5, FailureHandling.OPTIONAL)) {
+    'runs test if asset disclaimer is present'
+    if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroModule/slide 1 - asset disclaimer'), 3, FailureHandling.OPTIONAL)) {
         WebUI.delay(2)
+
+        WebUI.verifyElementVisibleInViewport(findTestObject('Homepage/HeroModule/slide 1 - asset disclaimer'), 0, FailureHandling.STOP_ON_FAILURE)
+
+        color = WebUI.getAttribute(findTestObject('Homepage/HeroModule/slide 1 - asset disclaimer'), 'color', FailureHandling.STOP_ON_FAILURE)
+
+        actualValue = WebUI.getText(findTestObject('Homepage/HeroModule/slide 1 - asset disclaimer'))
+
+        'this allows for null values in lower environments that do not have content updates'
+        actualValue = (actualValue + ' ')
+
+        'chooses column with data for test environment'
+        column = GlobalVariable.dataColumn
+
+        'gets homepage hero asset disclaimer value from HP test data'
+        expectedValue = findTestData('HP').getValue(column, 10)
+
+        'subtracts datasheet expected value from actual value displayed on page'
+        modifiedString = (actualValue - expectedValue)
+
+        'if the expected value is contained within the actual value, then the actual value without the expected value should not match the actual value'
+        WebUI.verifyNotMatch(modifiedString, actualValue, false, FailureHandling.OPTIONAL)
     }
-    
-    WebUI.verifyElementVisibleInViewport(findTestObject('Homepage/HeroModule/slide 1 - asset disclaimer'), 0, FailureHandling.STOP_ON_FAILURE)
+}
 
-    color = WebUI.getAttribute(findTestObject('Homepage/HeroModule/slide 1 - asset disclaimer'), 'color', FailureHandling.STOP_ON_FAILURE)
+'runs these tests on non-sales event version of page'
+if (WebUI.verifyElementNotPresent(findTestObject('Homepage/HeroOffers/zip code field'), 5, FailureHandling.OPTIONAL)) {
+    'runs test if asset disclaimer is present'
+    if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroModule/slide 1 - asset disclaimer'), 3, FailureHandling.OPTIONAL)) {
+        WebUI.delay(2)
 
-    actualValue = WebUI.getText(findTestObject('Homepage/HeroModule/slide 1 - asset disclaimer'))
+        'goes to slide 1 if carousel is present'
+        if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroModule/carousel slide 1 button'), 3, FailureHandling.OPTIONAL)) {
+            WebUI.click(findTestObject('Homepage/HeroModule/carousel slide 1 button'), FailureHandling.STOP_ON_FAILURE)
 
-    'this allows for null values in lower environments that do not have content updates'
-    actualValue = (actualValue + ' ')
+            WebUI.delay(2)
+        }
+        
+        WebUI.verifyElementVisibleInViewport(findTestObject('Homepage/HeroModule/slide 1 - asset disclaimer'), 0, FailureHandling.STOP_ON_FAILURE)
 
-    'chooses column with data for test environment'
-    column = GlobalVariable.dataColumn
+        color = WebUI.getAttribute(findTestObject('Homepage/HeroModule/slide 1 - asset disclaimer'), 'color', FailureHandling.STOP_ON_FAILURE)
 
-    'gets homepage hero asset disclaimer value from HP test data'
-    expectedValue = findTestData('HP').getValue(column, 2)
+        actualValue = WebUI.getText(findTestObject('Homepage/HeroModule/slide 1 - asset disclaimer'))
 
-    'subtracts datasheet expected value from actual value displayed on page'
-    modifiedString = (actualValue - expectedValue)
+        'this allows for null values in lower environments that do not have content updates'
+        actualValue = (actualValue + ' ')
 
-    'if the expected value is contained within the actual value, then the actual value without the expected value should not match the actual value'
-    WebUI.verifyNotMatch(modifiedString, actualValue, false, FailureHandling.STOP_ON_FAILURE)
+        'chooses column with data for test environment'
+        column = GlobalVariable.dataColumn
+
+        'gets homepage hero asset disclaimer value from HP test data'
+        expectedValue = findTestData('HP').getValue(column, 2)
+
+        'subtracts datasheet expected value from actual value displayed on page'
+        modifiedString = (actualValue - expectedValue)
+
+        'if the expected value is contained within the actual value, then the actual value without the expected value should not match the actual value'
+        WebUI.verifyNotMatch(modifiedString, actualValue, false, FailureHandling.OPTIONAL)
+    }
 }
 
 @com.kms.katalon.core.annotation.TearDownIfPassed

@@ -44,9 +44,14 @@ if (WebUI.verifyElementNotPresent(findTestObject('GlobalNav/header/header - Lexu
 
 WebUI.verifyElementVisibleInViewport(findTestObject('Homepage/HeroModule/hero module'), 0, FailureHandling.STOP_ON_FAILURE)
 
-'if Quick Links are present, they should be visible above the fold.'
-if (WebUI.verifyElementPresent(findTestObject('Homepage/QuickLinks/Quick Links'), 3, FailureHandling.OPTIONAL)) {
-    WebUI.verifyElementVisibleInViewport(findTestObject('Homepage/QuickLinks/Quick Links'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('Homepage/HeroOffers/zip code field'), 0, FailureHandling.OPTIONAL)
+
+'runs these tests on non-sales event version of page'
+if (WebUI.verifyElementNotPresent(findTestObject('Homepage/HeroOffers/zip code field'), 5, FailureHandling.OPTIONAL)) {
+    'if Quick Links are present, they should be visible above the fold.'
+    if (WebUI.verifyElementPresent(findTestObject('Homepage/QuickLinks/Quick Links'), 3, FailureHandling.OPTIONAL)) {
+        WebUI.verifyElementVisibleInViewport(findTestObject('Homepage/QuickLinks/Quick Links'), 0, FailureHandling.STOP_ON_FAILURE)
+    }
 }
 
 @com.kms.katalon.core.annotation.TearDownIfPassed

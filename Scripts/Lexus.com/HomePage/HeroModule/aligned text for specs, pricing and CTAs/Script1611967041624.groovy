@@ -44,45 +44,51 @@ if (WebUI.verifyElementNotPresent(findTestObject('GlobalNav/header/header - Lexu
 
 WebUI.verifyElementPresent(findTestObject('Homepage/HeroModule/hero module'), 0)
 
-'runs test if starting at MSRP spec is present'
-if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroModule/spec - starting at msrp'), 3, FailureHandling.OPTIONAL)) {
-    priceAlignment = WebUI.getCSSValue(findTestObject('Homepage/HeroModule/spec - starting at msrp'), 'text-align', FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('Homepage/HeroOffers/zip code field'), 0, FailureHandling.OPTIONAL)
 
-    'accounts for left alignment setting'
-    modifiedString = (priceAlignment - 'left')
-
-    'accounts for center alignment setting'
-    modifiedString = (priceAlignment - 'center')
-
-    'only center or left alignment values should pass - otherwise text will match and test will fail'
-    WebUI.verifyNotMatch(modifiedString, priceAlignment, false, FailureHandling.STOP_ON_FAILURE)
-
-    startingAtTextAlignment = WebUI.getCSSValue(findTestObject('Homepage/HeroModule/Starting At'), 'text-align', FailureHandling.STOP_ON_FAILURE)
-
-    'verifies that price text alignment matches Starting At text alignment'
-    WebUI.verifyMatch(priceAlignment, startingAtTextAlignment, false, FailureHandling.STOP_ON_FAILURE)
-
-    'runs test if Vehicle Shown text is present'
-    if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroModule/Vehicle Shown'), 3, FailureHandling.OPTIONAL)) {
-        vehicleShownTextAlignment = WebUI.getText(findTestObject('Homepage/HeroModule/Vehicle Shown'), FailureHandling.STOP_ON_FAILURE)
-
-        vehicleShownTextAlignment = WebUI.getCSSValue(findTestObject('Homepage/HeroModule/Vehicle Shown'), 'text-align', 
+'runs these tests on non-sales event version of page'
+if (WebUI.verifyElementNotPresent(findTestObject('Homepage/HeroOffers/zip code field'), 5, FailureHandling.OPTIONAL)) {
+    'runs test if starting at MSRP spec is present'
+    if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroModule/spec - starting at msrp'), 3, FailureHandling.OPTIONAL)) {
+        priceAlignment = WebUI.getCSSValue(findTestObject('Homepage/HeroModule/spec - starting at msrp'), 'text-align', 
             FailureHandling.STOP_ON_FAILURE)
 
-        'verifies that price text alignment matches Vehicle Shown text alignment'
-        WebUI.verifyMatch(priceAlignment, vehicleShownTextAlignment, false, FailureHandling.STOP_ON_FAILURE)
+        'accounts for left alignment setting'
+        modifiedString = (priceAlignment - 'left')
+
+        'accounts for center alignment setting'
+        modifiedString = (priceAlignment - 'center')
+
+        'only center or left alignment values should pass - otherwise text will match and test will fail'
+        WebUI.verifyNotMatch(modifiedString, priceAlignment, false, FailureHandling.STOP_ON_FAILURE)
+
+        startingAtTextAlignment = WebUI.getCSSValue(findTestObject('Homepage/HeroModule/Starting At'), 'text-align', FailureHandling.STOP_ON_FAILURE)
+
+        'verifies that price text alignment matches Starting At text alignment'
+        WebUI.verifyMatch(priceAlignment, startingAtTextAlignment, false, FailureHandling.STOP_ON_FAILURE)
+
+        'runs test if Vehicle Shown text is present'
+        if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroModule/Vehicle Shown'), 3, FailureHandling.OPTIONAL)) {
+            vehicleShownTextAlignment = WebUI.getText(findTestObject('Homepage/HeroModule/Vehicle Shown'), FailureHandling.STOP_ON_FAILURE)
+
+            vehicleShownTextAlignment = WebUI.getCSSValue(findTestObject('Homepage/HeroModule/Vehicle Shown'), 'text-align', 
+                FailureHandling.STOP_ON_FAILURE)
+
+            'verifies that price text alignment matches Vehicle Shown text alignment'
+            WebUI.verifyMatch(priceAlignment, vehicleShownTextAlignment, false, FailureHandling.STOP_ON_FAILURE)
+        }
     }
+    
+    WebUI.verifyElementPresent(findTestObject('Homepage/HeroModule/slide 1 - first CTA'), 0, FailureHandling.STOP_ON_FAILURE)
+
+    CTAtext = WebUI.getCSSValue(findTestObject('Homepage/HeroModule/slide 1 - first CTA'), 'justify-content', FailureHandling.STOP_ON_FAILURE)
+
+    'accounts for center alignment setting'
+    modifiedString = (CTAtext - 'center')
+
+    'only center alignment values should pass - otherwise text will match and test will fail'
+    WebUI.verifyNotMatch(modifiedString, CTAtext, false, FailureHandling.STOP_ON_FAILURE)
 }
-
-WebUI.verifyElementPresent(findTestObject('Homepage/HeroModule/slide 1 - first CTA'), 0, FailureHandling.STOP_ON_FAILURE)
-
-CTAtext = WebUI.getCSSValue(findTestObject('Homepage/HeroModule/slide 1 - first CTA'), 'justify-content', FailureHandling.STOP_ON_FAILURE)
-
-'accounts for center alignment setting'
-modifiedString = (CTAtext - 'center')
-
-'only center alignment values should pass - otherwise text will match and test will fail'
-WebUI.verifyNotMatch(modifiedString, CTAtext, false, FailureHandling.STOP_ON_FAILURE)
 
 @com.kms.katalon.core.annotation.TearDownIfPassed
 def passed() {
