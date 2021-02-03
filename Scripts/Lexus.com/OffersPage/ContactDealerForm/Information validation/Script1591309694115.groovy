@@ -55,29 +55,48 @@ WebUI.click(findTestObject('OffersPage/ContactDealerForm/submit button'), Failur
 
 WebUI.delay(1)
 
-backgroundColor = WebUI.getCSSValue(findTestObject('OffersPage/ContactDealerForm/input field - first name'), 'background-color', 
+not_run: backgroundColor = WebUI.getCSSValue(findTestObject('OffersPage/ContactDealerForm/input field - first name'), 'background-color', 
     FailureHandling.STOP_ON_FAILURE)
 
-if (WebUI.verifyNotMatch(backgroundColor, 'rgba(254, 232, 232, 1)', false, FailureHandling.OPTIONAL)) {
+not_run: if (WebUI.verifyNotMatch(backgroundColor, 'rgba(254, 232, 232, 1)', false, FailureHandling.OPTIONAL)) {
     WebUI.verifyMatch(backgroundColor, 'rgb(254, 232, 232)', false, FailureHandling.STOP_ON_FAILURE)
+}
+
+border = WebUI.getCSSValue(findTestObject('OffersPage/ContactDealerForm/input field - first name'), 'border-top-color', 
+    FailureHandling.STOP_ON_FAILURE)
+
+if (WebUI.verifyNotMatch(border, 'rgba(251, 13, 27, 1)', false, FailureHandling.OPTIONAL)) {
+    WebUI.verifyMatch(border, 'rgb(251, 13, 27)', false, FailureHandling.STOP_ON_FAILURE)
 }
 
 WebUI.verifyElementPresent(findTestObject('OffersPage/ContactDealerForm/valid first name prompt'), 0, FailureHandling.STOP_ON_FAILURE)
 
-backgroundColor = WebUI.getCSSValue(findTestObject('OffersPage/ContactDealerForm/input field - last name'), 'background-color', 
+not_run: backgroundColor = WebUI.getCSSValue(findTestObject('OffersPage/ContactDealerForm/input field - last name'), 'background-color', 
     FailureHandling.STOP_ON_FAILURE)
 
-if (WebUI.verifyNotMatch(backgroundColor, 'rgba(254, 232, 232, 1)', false, FailureHandling.OPTIONAL)) {
+not_run: if (WebUI.verifyNotMatch(backgroundColor, 'rgba(254, 232, 232, 1)', false, FailureHandling.OPTIONAL)) {
     WebUI.verifyMatch(backgroundColor, 'rgb(254, 232, 232)', false, FailureHandling.STOP_ON_FAILURE)
+}
+
+border = WebUI.getCSSValue(findTestObject('OffersPage/ContactDealerForm/input field - last name'), 'border-top-color', FailureHandling.STOP_ON_FAILURE)
+
+if (WebUI.verifyNotMatch(border, 'rgba(251, 13, 27, 1)', false, FailureHandling.OPTIONAL)) {
+    WebUI.verifyMatch(border, 'rgb(251, 13, 27)', false, FailureHandling.STOP_ON_FAILURE)
 }
 
 WebUI.verifyElementPresent(findTestObject('OffersPage/ContactDealerForm/valid last name prompt'), 0, FailureHandling.STOP_ON_FAILURE)
 
-backgroundColor = WebUI.getCSSValue(findTestObject('OffersPage/ContactDealerForm/input field - email'), 'background-color', 
+not_run: backgroundColor = WebUI.getCSSValue(findTestObject('OffersPage/ContactDealerForm/input field - email'), 'background-color', 
     FailureHandling.STOP_ON_FAILURE)
 
-if (WebUI.verifyNotMatch(backgroundColor, 'rgba(254, 232, 232, 1)', false, FailureHandling.OPTIONAL)) {
+not_run: if (WebUI.verifyNotMatch(backgroundColor, 'rgba(254, 232, 232, 1)', false, FailureHandling.OPTIONAL)) {
     WebUI.verifyMatch(backgroundColor, 'rgb(254, 232, 232)', false, FailureHandling.STOP_ON_FAILURE)
+}
+
+border = WebUI.getCSSValue(findTestObject('OffersPage/ContactDealerForm/input field - email'), 'border-top-color', FailureHandling.STOP_ON_FAILURE)
+
+if (WebUI.verifyNotMatch(border, 'rgba(251, 13, 27, 1)', false, FailureHandling.OPTIONAL)) {
+    WebUI.verifyMatch(border, 'rgb(251, 13, 27)', false, FailureHandling.STOP_ON_FAILURE)
 }
 
 WebUI.verifyElementPresent(findTestObject('OffersPage/ContactDealerForm/valid email prompt'), 0, FailureHandling.STOP_ON_FAILURE)
