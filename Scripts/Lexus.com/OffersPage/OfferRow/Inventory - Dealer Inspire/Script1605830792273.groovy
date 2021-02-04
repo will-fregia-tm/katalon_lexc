@@ -24,7 +24,7 @@ response = WS.sendRequest(findTestObject(('OffersPage/DeepLink/' + GlobalVariabl
 
 trimCode1 = WS.getElementPropertyValue(response, 'offers.Atlanta.trims[0].trimCode[0]', FailureHandling.OPTIONAL)
 
-trimCode2 = WS.getElementPropertyValue(response, 'offers.Atlanta.trims[1].trimCode[0]', FailureHandling.OPTIONAL)
+not_run: trimCode2 = WS.getElementPropertyValue(response, 'offers.Atlanta.trims[1].trimCode[0]', FailureHandling.OPTIONAL)
 
 not_run: trimCode3 = WS.getElementPropertyValue(response, 'offers.Atlanta.trims[2].trimCode[0]', FailureHandling.OPTIONAL)
 
@@ -103,9 +103,9 @@ modifiedString = (href - trimCode1)
 WebUI.verifyNotMatch(modifiedString, href, false, FailureHandling.STOP_ON_FAILURE)
 
 'dealer inventory link should include this specific trim code'
-modifiedString = (href - trimCode2)
+not_run: modifiedString = (href - trimCode2)
 
-WebUI.verifyNotMatch(modifiedString, href, false, FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.verifyNotMatch(modifiedString, href, false, FailureHandling.STOP_ON_FAILURE)
 
 'dealer inventory link should include this specific trim code'
 not_run: modifiedString = (href - trimCode3)
