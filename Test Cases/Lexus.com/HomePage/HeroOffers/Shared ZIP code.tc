@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Enter a valid shared zip code 08008 - Verify the shared zip code overlay appears</description>
+   <name>Shared ZIP code</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1f6fc6c4-6b6d-4005-9d4f-cee8cfee78f1</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>65366c90-75a7-4d00-89e7-f9462ed0c4be</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>

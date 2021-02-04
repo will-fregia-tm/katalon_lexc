@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>heroSE</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>20</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>e3cc1b05-fbf7-4d7a-969e-f2c6ce6ba0e7</testSuiteGuid>
+   <testCaseLink>
+      <guid>8d75300f-723e-455e-aa2d-63f9bd4e6853</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/HomePage/HeroOffers/Hawaii</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c29ba53c-1ede-4672-a25a-b1a17f4fa170</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>08496ea1-c46e-4989-b94b-20909c33d538</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/HomePage/HeroOffers/Puerto Rico</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e3cec357-0398-46d6-b8d0-ea2926f7f2ea</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7147ef3d-88c6-4968-92f7-6cd5e6c4fd0c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/HomePage/HeroOffers/Shared ZIP code</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>65366c90-75a7-4d00-89e7-f9462ed0c4be</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>21014a17-7516-43b2-be37-d4e9b2d69059</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/HomePage/HeroOffers/Technical Difficulty Server Message</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>19ec1f04-26d6-4f7a-87c5-46cde55668f3</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e4755f35-8901-47fb-9a14-a2db23854472</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/HomePage/HeroOffers/UI form Validation (invalid)</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>cb8bf3e4-c125-41d4-b8b8-da389ed43e83</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>abe25c00-4784-452f-ad7e-55fe9f485cbb</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/HomePage/HeroOffers/UI form Validation (valid)</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>6dc3d28b-9ff2-4bd5-b87e-35f943258a0a</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f6452f49-f83d-4691-ac0c-5913ac6c5e63</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/HomePage/HeroOffers/zip code field visible at all times</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>5d9cd7d4-ecb3-4ef6-8a2c-4a75c363b33b</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>156fd543-4a58-4849-adb4-a8f078ecb3d8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/HomePage/HeroOffers/Unassigned Zip - Expand search</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>77c5e6bc-13c7-4e51-a029-fe2c37178c4a</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

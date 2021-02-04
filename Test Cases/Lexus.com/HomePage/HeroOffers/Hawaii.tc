@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Enter a valid Hawaii zip code 96701
+
+Verify the Hawaii server message
+
+Verify the Servco Lexus CTA</description>
+   <name>Hawaii</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ff896332-fc19-42e8-8fde-2460d4ec72e7</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>c29ba53c-1ede-4672-a25a-b1a17f4fa170</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>
