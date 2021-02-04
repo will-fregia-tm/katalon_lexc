@@ -30,10 +30,12 @@ for (def index : (0..totalPages)) {
         WebUI.verifyElementPresent(findTestObject('GlobalNav/lexus logo'), 0)
     }
     
-    WebUI.verifyElementNotPresent(findTestObject('error'), 0)
+    WebUI.verifyElementNotPresent(findTestObject('error'), 5)
 
     if (WebUI.verifyElementNotPresent(findTestObject('title'), 3, FailureHandling.OPTIONAL)) {
-        WebUI.verifyElementPresent(findTestObject('title - privacy'), 0)
+        if (WebUI.verifyElementNotPresent(findTestObject('title - privacy'), 3, FailureHandling.OPTIONAL)) {
+            WebUI.verifyElementPresent(findTestObject('title - US'), 0)
+        }
     }
     
     dataRow = (dataRow + 1)
