@@ -61,7 +61,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'/compare'</initValue>
+      <initValue>'/models/categories/sedans'</initValue>
       <name>Compare</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
