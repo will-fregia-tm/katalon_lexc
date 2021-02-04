@@ -170,7 +170,7 @@
    <testCaseLink>
       <guid>d449fb92-e162-467c-bd77-7bfdfe315426</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/MSRP/HomePage/PO - ES</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
