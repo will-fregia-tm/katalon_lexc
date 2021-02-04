@@ -40,6 +40,10 @@ for (def index : (0..totalPages)) {
 
     WebUI.verifyElementNotPresent(findTestObject('error'), 0)
 
+    if (WebUI.verifyElementNotPresent(findTestObject('title'), 3, FailureHandling.OPTIONAL)) {
+        WebUI.verifyElementPresent(findTestObject('title - privacy'), 0)
+    }
+    
     WebUI.verifyTextNotPresent('403', false)
 
     dataRow = (dataRow + 1)

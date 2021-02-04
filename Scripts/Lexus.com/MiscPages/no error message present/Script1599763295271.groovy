@@ -41,13 +41,17 @@ for (def index : (0..totalPages)) {
     WebUI.navigateToUrl(findTestData(GlobalVariable.DS_version + 'URLsMiscPages').getValue(dataColumn, dataRow))
 
     if (WebUI.verifyElementNotPresent(findTestObject('GlobalNav/lexus logo'), 3, FailureHandling.OPTIONAL)) {
-        WebUI.navigateToUrl(findTestData(GlobalVariable.DS_version + 'URLsFCVPages').getValue(dataColumn, dataRow))
+        WebUI.navigateToUrl(findTestData(GlobalVariable.DS_version + 'URLsMiscPages').getValue(dataColumn, dataRow))
 
-        WebUI.verifyElementPresent(findTestObject('GlobalNav/lexus logo'), 0)
+        not_run: WebUI.verifyElementPresent(findTestObject('GlobalNav/lexus logo'), 0)
     }
     
     WebUI.verifyElementNotPresent(findTestObject('error'), 0)
 
+    if (WebUI.verifyElementNotPresent(findTestObject('title'), 3, FailureHandling.OPTIONAL)) {
+        WebUI.verifyElementPresent(findTestObject('title - privacy'), 0)
+    }
+    
     WebUI.delay(2)
 
     dataRow = (dataRow + 1)
