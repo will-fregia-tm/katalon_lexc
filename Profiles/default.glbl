@@ -26,7 +26,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'/header'</initValue>
+      <initValue>'/models/categories/sedans'</initValue>
       <name>Header</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

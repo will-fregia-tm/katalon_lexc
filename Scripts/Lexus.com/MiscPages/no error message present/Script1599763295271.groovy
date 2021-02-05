@@ -59,7 +59,7 @@ for (def index : (0..totalPages)) {
 
 WebUI.waitForPageLoad(0)
 
-WebUI.delay(5)
+WebUI.delay(6)
 
 @com.kms.katalon.core.annotation.TearDownIfPassed
 def passed() {
