@@ -217,7 +217,7 @@
          <configuration>
             <groupName>Custom</groupName>
             <profileName>staging</profileName>
-            <runConfigurationId>saucelabs_firefox_win10</runConfigurationId>
+            <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/DealerPages</testSuiteEntity>
@@ -262,7 +262,7 @@
          <configuration>
             <groupName>Custom</groupName>
             <profileName>staging</profileName>
-            <runConfigurationId>saucelabs_firefox_win10</runConfigurationId>
+            <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/MiscPages</testSuiteEntity>
@@ -325,7 +325,7 @@
          <configuration>
             <groupName>Custom</groupName>
             <profileName>staging</profileName>
-            <runConfigurationId>saucelabs_firefox_win10</runConfigurationId>
+            <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
          <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/ModelPagesOwners</testSuiteEntity>
@@ -361,7 +361,7 @@
          <configuration>
             <groupName>Custom</groupName>
             <profileName>staging</profileName>
-            <runConfigurationId>saucelabs_firefox_win10</runConfigurationId>
+            <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/ModelPagesSpecifications</testSuiteEntity>
