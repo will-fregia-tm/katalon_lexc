@@ -107,4 +107,64 @@
          <variableId>77c5e6bc-13c7-4e51-a029-fe2c37178c4a</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>d8d24c22-3dd5-416e-900d-f87d24a8f568</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/HomePage/HeroOffers/Click EXPAND CTA</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>0be07dcc-f7b3-4a6d-9051-bc5f67741151</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>580b5c90-7a26-4312-a1b3-3d78f836d317</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/HomePage/HeroOffers/Click EXPAND CTA - Invalid ZIP</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>0ebce967-ce71-488e-ae2f-b5ba645e0f71</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1c600280-c34c-4b9d-853b-589eee8d5d64</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/HomePage/HeroOffers/Enter ZIP code 58102</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e5f1caeb-d8a9-432d-b08d-24b06ba4fd2c</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7ac94af4-3059-474f-a995-04d5ac0675c2</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/HomePage/HeroOffers/Enter ZIP code 95730</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>31f5da9e-1b39-449c-812f-99be218c8b45</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b9e35d44-4056-4b18-80a9-d24632046d45</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/HomePage/HeroOffers/Select Dealer</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>43253014-483c-4b25-9e3c-174709d72442</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>
