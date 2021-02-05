@@ -107,7 +107,7 @@ if (WebUI.verifyMatch(GlobalVariable.legacy, 'no', false, FailureHandling.OPTION
             WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
             'interacts with the second CTA if it is present'
-            if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroModule/slide 1 - second CTA'), 3, FailureHandling.OPTIONAL)) {
+            if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroModule/slide 2 - second CTA'), 3, FailureHandling.OPTIONAL)) {
                 WebUI.mouseOver(findTestObject('Homepage/HeroModule/slide 2 - second CTA'), FailureHandling.OPTIONAL)
 
                 WebUI.getText(findTestObject('Homepage/HeroModule/slide 2 - second CTA'), FailureHandling.STOP_ON_FAILURE)
@@ -115,12 +115,6 @@ if (WebUI.verifyMatch(GlobalVariable.legacy, 'no', false, FailureHandling.OPTION
                 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
             }
             
-            WebUI.mouseOver(findTestObject('Homepage/HeroModule/slide 2 - second CTA'), FailureHandling.OPTIONAL)
-
-            WebUI.getText(findTestObject('Homepage/HeroModule/slide 2 - second CTA'), FailureHandling.STOP_ON_FAILURE)
-
-            WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
-
             WebUI.verifyElementNotPresent(findTestObject('Homepage/HeroModule/slide 2 - third CTA'), 0, FailureHandling.STOP_ON_FAILURE)
         }
     }
