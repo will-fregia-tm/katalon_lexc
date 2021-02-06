@@ -87,7 +87,7 @@
       <guid>f6452f49-f83d-4691-ac0c-5913ac6c5e63</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/HomePage/HeroOffers/zip code field visible at all times</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/HomePage/HeroOffers/ZIP code field visible at all times</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -99,7 +99,7 @@
       <guid>156fd543-4a58-4849-adb4-a8f078ecb3d8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/HomePage/HeroOffers/Unassigned Zip - Expand search</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/HomePage/HeroOffers/Unassigned ZIP - Expand search</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -165,6 +165,66 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>43253014-483c-4b25-9e3c-174709d72442</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7454118d-e753-421f-99fe-d333a2dc3ce8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Lexus.com/HomePage/HeroOffers/Shared Overlay - Change ZIP code CTA</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7be4900b-5edd-4178-8ee3-6e1d4688144c</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f855393b-fce2-417a-ad5a-585f185a22e1</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Lexus.com/HomePage/HeroOffers/Shared Overlay - Click X button</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>04627fa3-ff07-4505-b6d1-9ac78574f8a3</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>0235634e-3a9e-48cc-8db5-ace51ce91116</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/HomePage/HeroOffers/Shared Overlay - Enter shared market</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>6257bc85-09b4-4ad3-aa8d-0bb27cc37dcc</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>557f9258-d17d-4904-8f1a-47df2635daec</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/HomePage/HeroOffers/Shared Overlay - Select Market</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>2dd1b93f-34ad-4f34-b640-1eec592e5599</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>435af2d2-6c06-4e28-ab56-7382b7b22b95</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/HomePage/HeroOffers/Shared Overlay - Hover over options - desktop</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>4653e555-330a-4b92-8812-5efd348aa8ea</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

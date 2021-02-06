@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>When a user enters a shared market zip-code (08008) in a zip-entry bar
+Then the system shall display the Multi-Market Overlay
+display Headline copy
+cookie the zip-code
+displays zipcode entered (08008)
+provides CTA to change zipcode
+displays n markets:&quot;New York, New Jersey, Connecticut Dealers&quot;
+ &quot;New Jersey, Delaware, Pennsylvania Dealers&quot;</description>
+   <name>Shared Overlay - Enter shared market</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b7bd8f4e-91e2-4db6-8e21-40dc38ad4b9e</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>6257bc85-09b4-4ad3-aa8d-0bb27cc37dcc</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>

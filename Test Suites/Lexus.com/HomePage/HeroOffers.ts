@@ -123,7 +123,7 @@
       <guid>6190a315-a1d1-4c11-a0e3-878a967d75ac</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/HomePage/HeroOffers/zip code field visible at all times</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/HomePage/HeroOffers/ZIP code field visible at all times</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>

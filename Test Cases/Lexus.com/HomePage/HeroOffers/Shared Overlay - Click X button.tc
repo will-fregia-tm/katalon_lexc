@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>When a user is viewing the shared market overlay and either clicks the &quot;X&quot; icon or Presses &quot;Esc&quot;
+Then the system shall:
+close Shared-market-overlay
+navigate user back to offers Landing page/Offer-ZipGate Entry module (LAM-664)
+autofill the zip-entry-field with the zip cookie </description>
+   <name>Shared Overlay - Click X button</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dc95ae69-7863-427b-8d21-6b1bcd8e58c5</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>04627fa3-ff07-4505-b6d1-9ac78574f8a3</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>

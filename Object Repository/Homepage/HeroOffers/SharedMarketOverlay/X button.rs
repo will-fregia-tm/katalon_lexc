@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>svg[fill*=&quot;#FFF&quot;]</value>
+         <value>section > div > div > button[aria-label*=&quot;Close Overlay&quot;]</value>
       </entry>
       <entry>
          <key>BASIC</key>

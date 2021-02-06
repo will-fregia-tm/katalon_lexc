@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>When a user has a stored cookie of 75219 and enters a shared market zipcode of 08008 
+Then the system shall:
+cookie the zipcode
+display the shared market overlay with the available market options
+And if the user then clicks on the &quot;Change Zip&quot; text-link
+Then the system will
+navigate the user back to the offers Landing page/Offer-ZipGate Entry module
+auto-fill the zip-entry-field with the zip cookie  (08008)</description>
+   <name>Shared Overlay - Change ZIP code CTA</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3017ad0a-9c43-4147-b339-edf8224a7307</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>7be4900b-5edd-4178-8ee3-6e1d4688144c</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>

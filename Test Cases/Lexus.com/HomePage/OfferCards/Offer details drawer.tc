@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>When a user tap/clicks on the collapsed  Details drawer (at the bottom of the offer card)
+
+Then the system shall:
+
+Expand the Offer-Details to display in the offer-card
+The Offer-Card-Details will be scrollable when legal copy extends past offer-card boundary
+Details_Title 
+if unconsolidated
+Lease/Finance: {offerType ON} &lt;year>&lt;model>&lt;trim>&lt;drivetrain> &lt;pacakges>
+Cash: &quot;{offerType BACK ON}  &lt;year>&lt;model>&lt;trim>&lt;drivetrain> &lt;pacakges>
+College Grad/Military: &quot;{offerType REBATE ON}  &lt;year>&lt;model>&lt;trim>&lt;drivetrain> &lt;packages>
+if consolidated:
+Lease/Finance: &lt;offerType> ON SELECT &lt;year>&lt;model>&lt;trim>&lt;drivetrain> &lt;pacakges> STYLES
+Cash: &quot;&lt;offerType> BACK ON  SELECT &lt;year>&lt;model>&lt;trim>&lt;drivetrain> &lt;pacakges> STYLES
+College Grad/Military: &quot;&lt;offerType> REBATE ON SELECT &lt;year>&lt;model>&lt;trim>&lt;drivetrain> &lt;pacakges> STYLES
+Detail-Trims
+Should come from both LOD and AEM
+Will only appear on consolidated Offer-card
+Select styles: &lt;year>&lt;model>&lt;trim>&lt;drivetrain> , ...
+comma delimited between each Model-trim
+Legal-Copy appear as defined in LOD</description>
+   <name>Offer details drawer</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a571f588-f91f-4804-8e5c-00b0d582dcbc</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>d9eb0793-bbe7-46e8-85aa-266733304daa</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>
