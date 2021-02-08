@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>When a user enters a zip-code:
-
-if the Zip-code submission is syntactically incorrect  (ie > 5 digits).
+   <description>When a user enters a zip-code: if the Zip-code submission is syntactically incorrect  (ie > 5 digits).
 
 Then the system shall:
 

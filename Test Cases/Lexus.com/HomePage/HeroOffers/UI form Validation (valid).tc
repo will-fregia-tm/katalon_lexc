@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>When a user enters a zip-code:
-
-Zipcode is syntactically correct, then
+   <description>When a user enters a zip-code: Zipcode is syntactically correct, then
 
 - the submission shall pass UI validations
 - zipcode shall be cookied</description>

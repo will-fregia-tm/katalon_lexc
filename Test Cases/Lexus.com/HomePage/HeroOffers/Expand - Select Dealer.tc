@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>When a user selects a market in the shared overlay
+   <description>When a user selects a market in the Expand overlay
 Then the system shall:
 close the overlay
 cookie selected market
 note the zipcode gets cookied when the zipcode passes UI validation in zip-code-entry-component
-display the offers for the selected market </description>
-   <name>Shared Overlay - Select Market</name>
+display the offers for the selected market on the All Offers (result page)</description>
+   <name>Expand - Select Dealer</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>8e372ba4-375c-498d-bed0-b09ca0a50f11</testCaseGuid>
+   <testCaseGuid>9f1fb4e9-ed7c-495d-8c78-0656697c985f</testCaseGuid>
    <variable>
       <defaultValue>'Header'</defaultValue>
       <description></description>
-      <id>2dd1b93f-34ad-4f34-b640-1eec592e5599</id>
+      <id>43253014-483c-4b25-9e3c-174709d72442</id>
       <masked>false</masked>
       <name>GlobalNav</name>
    </variable>

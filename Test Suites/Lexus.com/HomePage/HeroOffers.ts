@@ -99,7 +99,7 @@
       <guid>4f25e446-1c2f-4601-a03d-6a9b9e0610eb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/HomePage/HeroOffers/zip change for hero offers</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/HomePage/HeroOffers/ZIP change</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>

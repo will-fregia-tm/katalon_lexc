@@ -6,14 +6,14 @@ close the overlay
 cookie selected market
 note the zipcode gets cookied when the zipcode passes UI validation in zip-code-entry-component
 display the offers for the selected market </description>
-   <name>Shared Overlay - Select Market</name>
+   <name>Shared Overlay - Select Market - mobile</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>8e372ba4-375c-498d-bed0-b09ca0a50f11</testCaseGuid>
+   <testCaseGuid>6b3bf160-02ae-4652-9f17-e785dbdbd8e1</testCaseGuid>
    <variable>
       <defaultValue>'Header'</defaultValue>
       <description></description>
-      <id>2dd1b93f-34ad-4f34-b640-1eec592e5599</id>
+      <id>47f81302-047b-4c48-91eb-5d7b01e18430</id>
       <masked>false</masked>
       <name>GlobalNav</name>
    </variable>

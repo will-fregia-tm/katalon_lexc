@@ -69,7 +69,7 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroOffers/zip code fiel
         modifiedString = (actualValue - expectedValue)
 
         'if the expected value is contained within the actual value, then the actual value without the expected value should not match the actual value'
-        WebUI.verifyNotMatch(modifiedString, actualValue, false, FailureHandling.OPTIONAL)
+        WebUI.verifyNotMatch(modifiedString, actualValue, false, FailureHandling.STOP_ON_FAILURE)
     }
 }
 

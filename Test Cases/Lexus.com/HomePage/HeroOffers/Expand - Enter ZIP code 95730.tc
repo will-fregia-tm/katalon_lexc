@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>When 95730 is cookied and the user clicks the &quot;Expand&quot; CTA
+Then the system shall:
+Send a DIS proximity call with zip = 95730
+Render the dealer selection display with 15 (subject to change based on DIS response) Dealers
+Each Options shall:
+Be selectable 
+Have a hover over state
+Display dealer: Name, Address, distance from zip
+When results list exceeds  vertical viewport:
+The dealer-list shall be scrollable on desktop and mobile
+All text above the dealer-list will remain fixed</description>
+   <name>Expand - Enter ZIP code 95730</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ef7405a9-ab9a-4514-8c17-d53db0395670</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>31f5da9e-1b39-449c-812f-99be218c8b45</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>

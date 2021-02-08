@@ -58,39 +58,55 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroOffers/zip code fiel
 
     WebUI.click(findTestObject('Homepage/HeroOffers/submit button'))
 
-    WebUI.waitForElementPresent(findTestObject('Homepage/HeroOffers/offer cards row'), 5, FailureHandling.OPTIONAL)
+    WebUI.waitForElementPresent(findTestObject('Homepage/HeroOffers/offer cards row - mobile'), 5, FailureHandling.OPTIONAL)
 
-    WebUI.verifyElementPresent(findTestObject('Homepage/HeroOffers/OfferRow/offer card - details button'), 0, FailureHandling.STOP_ON_FAILURE)
+    WebUI.scrollToElement(findTestObject('Homepage/HeroOffers/offer cards row - mobile'), 0, FailureHandling.OPTIONAL)
 
-    WebUI.verifyElementNotPresent(findTestObject('Homepage/HeroOffers/OfferRow/offer card 1 - details'), 0, FailureHandling.STOP_ON_FAILURE)
+    WebUI.verifyElementPresent(findTestObject('Homepage/HeroModule/OfferRow/row 01 - next arrow'), 0, FailureHandling.OPTIONAL)
 
-    WebUI.click(findTestObject('Homepage/HeroOffers/OfferRow/offer card - details button'), FailureHandling.STOP_ON_FAILURE)
+    WebUI.verifyElementNotVisibleInViewport(findTestObject('Homepage/HeroModule/OfferRow/row 01 - previous arrow'), 0, FailureHandling.OPTIONAL)
 
-    offerType = WebUI.getText(findTestObject('Homepage/HeroOffers/OfferRow/offer card 1 - offer type'), FailureHandling.STOP_ON_FAILURE)
+    WebUI.verifyElementNotVisibleInViewport(findTestObject('Homepage/HeroOffers/OfferRow/row 01 - offer card 2'), 0, FailureHandling.OPTIONAL)
 
-    WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
+    WebUI.click(findTestObject('Homepage/HeroModule/OfferRow/row 01 - next arrow'), FailureHandling.OPTIONAL)
 
-    WebUI.verifyElementVisibleInViewport(findTestObject('Homepage/HeroOffers/OfferRow/offer card 1 - details'), 0, FailureHandling.STOP_ON_FAILURE)
+    WebUI.delay(2, FailureHandling.OPTIONAL)
 
-    offerCardText = WebUI.getText(findTestObject('Homepage/HeroOffers/OfferRow/offer card 1 - details'), FailureHandling.STOP_ON_FAILURE)
+    WebUI.verifyElementVisibleInViewport(findTestObject('Homepage/HeroModule/OfferRow/row 01 - previous arrow'), 0, FailureHandling.OPTIONAL)
 
-    'offer type in offer details should match offer card'
-    textWithoutOffer = (offerCardText - offerType)
+    WebUI.verifyElementVisibleInViewport(findTestObject('Homepage/HeroOffers/OfferRow/row 01 - offer card 2'), 0, FailureHandling.OPTIONAL)
 
-    WebUI.verifyNotMatch(offerCardText, textWithoutOffer, false, FailureHandling.STOP_ON_FAILURE)
+    WebUI.click(findTestObject('Homepage/HeroModule/OfferRow/row 01 - previous arrow'), FailureHandling.OPTIONAL)
 
-    legalCopy = WebUI.getText(findTestObject('Homepage/HeroOffers/OfferRow/offer card 1 - legal'), FailureHandling.STOP_ON_FAILURE)
+    WebUI.delay(2, FailureHandling.OPTIONAL)
 
-    'legal copy should display copy, including year'
-    modifiedString = (legalCopy - '20')
+    WebUI.verifyElementNotVisibleInViewport(findTestObject('Homepage/HeroModule/OfferRow/row 01 - previous arrow'), 0, FailureHandling.OPTIONAL)
 
-    WebUI.verifyNotMatch(modifiedString, legalCopy, false, FailureHandling.STOP_ON_FAILURE)
+    'tests this offer row if there are at least four cards present'
+    not_run: if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroModule/OfferRow/row 01 - offer card 4'), 3, FailureHandling.OPTIONAL)) {
+        WebUI.scrollToElement(findTestObject('Homepage/HeroModule/offer cards row'), 0, FailureHandling.OPTIONAL)
 
-    WebUI.click(findTestObject('Homepage/HeroOffers/OfferRow/offer card - details button'), FailureHandling.STOP_ON_FAILURE)
+        WebUI.verifyElementPresent(findTestObject('Homepage/HeroModule/OfferRow/row 01 - next arrow'), 0, FailureHandling.OPTIONAL)
 
-    WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
+        WebUI.verifyElementNotVisibleInViewport(findTestObject('Homepage/HeroModule/OfferRow/row 01 - previous arrow'), 
+            0, FailureHandling.OPTIONAL)
 
-    WebUI.verifyElementNotPresent(findTestObject('Homepage/HeroOffers/OfferRow/offer card 1 - details'), 0, FailureHandling.STOP_ON_FAILURE)
+        WebUI.click(findTestObject('Homepage/HeroModule/OfferRow/row 01 - next arrow'), FailureHandling.OPTIONAL)
+
+        WebUI.delay(2, FailureHandling.OPTIONAL)
+
+        WebUI.verifyElementVisibleInViewport(findTestObject('Homepage/HeroModule/OfferRow/row 01 - previous arrow'), 0, 
+            FailureHandling.OPTIONAL)
+
+        WebUI.verifyElementVisibleInViewport(findTestObject('Homepage/HeroModule/OfferRow/row 01 - offer card 4'), 0, FailureHandling.OPTIONAL)
+
+        WebUI.click(findTestObject('Homepage/HeroModule/OfferRow/row 01 - previous arrow'), FailureHandling.OPTIONAL)
+
+        WebUI.delay(2, FailureHandling.OPTIONAL)
+
+        WebUI.verifyElementNotVisibleInViewport(findTestObject('Homepage/HeroModule/OfferRow/row 01 - previous arrow'), 
+            0, FailureHandling.OPTIONAL)
+    }
 }
 
 'runs these tests on non-sales event version of page'

@@ -54,43 +54,24 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroOffers/zip code fiel
 
     WebUI.click(findTestObject('Homepage/HeroOffers/zip code field'))
 
-    WebUI.setText(findTestObject('Homepage/HeroOffers/zip code field'), '75218')
+    WebUI.setText(findTestObject('Homepage/HeroOffers/zip code field'), '08008')
 
     WebUI.click(findTestObject('Homepage/HeroOffers/submit button'))
 
-    WebUI.waitForElementPresent(findTestObject('Homepage/HeroOffers/offer cards row'), 5, FailureHandling.OPTIONAL)
+    WebUI.waitForElementPresent(findTestObject('Homepage/HeroOffers/SharedMarketOverlay/headline copy'), 2, FailureHandling.OPTIONAL)
 
-    WebUI.verifyElementPresent(findTestObject('Homepage/HeroOffers/OfferRow/offer card - details button'), 0, FailureHandling.STOP_ON_FAILURE)
+    WebUI.mouseOver(findTestObject('Homepage/HeroOffers/SharedMarketOverlay/displayed market name - New Jersey, Delaware, Pennsylvania Dealers'), 
+        FailureHandling.OPTIONAL)
 
-    WebUI.verifyElementNotPresent(findTestObject('Homepage/HeroOffers/OfferRow/offer card 1 - details'), 0, FailureHandling.STOP_ON_FAILURE)
+    WebUI.click(findTestObject('Homepage/HeroOffers/SharedMarketOverlay/displayed market name - New Jersey, Delaware, Pennsylvania Dealers'))
 
-    WebUI.click(findTestObject('Homepage/HeroOffers/OfferRow/offer card - details button'), FailureHandling.STOP_ON_FAILURE)
+    WebUI.waitForElementPresent(findTestObject('Homepage/HeroOffers/offer cards row - mobile'), 0, FailureHandling.STOP_ON_FAILURE)
 
-    offerType = WebUI.getText(findTestObject('Homepage/HeroOffers/OfferRow/offer card 1 - offer type'), FailureHandling.STOP_ON_FAILURE)
+    WebUI.verifyElementPresent(findTestObject('Homepage/HeroOffers/offer cards row - mobile'), 0, FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
+    WebUI.verifyElementNotPresent(findTestObject('Homepage/HeroOffers/SharedMarketOverlay/headline copy'), 0, FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.verifyElementVisibleInViewport(findTestObject('Homepage/HeroOffers/OfferRow/offer card 1 - details'), 0, FailureHandling.STOP_ON_FAILURE)
-
-    offerCardText = WebUI.getText(findTestObject('Homepage/HeroOffers/OfferRow/offer card 1 - details'), FailureHandling.STOP_ON_FAILURE)
-
-    'offer type in offer details should match offer card'
-    textWithoutOffer = (offerCardText - offerType)
-
-    WebUI.verifyNotMatch(offerCardText, textWithoutOffer, false, FailureHandling.STOP_ON_FAILURE)
-
-    legalCopy = WebUI.getText(findTestObject('Homepage/HeroOffers/OfferRow/offer card 1 - legal'), FailureHandling.STOP_ON_FAILURE)
-
-    'legal copy should display copy, including year'
-    modifiedString = (legalCopy - '20')
-
-    WebUI.verifyNotMatch(modifiedString, legalCopy, false, FailureHandling.STOP_ON_FAILURE)
-
-    WebUI.click(findTestObject('Homepage/HeroOffers/OfferRow/offer card - details button'), FailureHandling.STOP_ON_FAILURE)
-
-    WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
-
-    WebUI.verifyElementNotPresent(findTestObject('Homepage/HeroOffers/OfferRow/offer card 1 - details'), 0, FailureHandling.STOP_ON_FAILURE)
+    WebUI.verifyElementPresent(findTestObject('Homepage/HeroOffers/cookied zip code - 08008'), 0, FailureHandling.STOP_ON_FAILURE)
 }
 
 'runs these tests on non-sales event version of page'
