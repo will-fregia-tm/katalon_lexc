@@ -23,4 +23,28 @@
          <variableId>5c8b222a-6a6a-403e-96f1-2238f075d882</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>572b5dee-df97-4f89-bc1c-bd221327fcb7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/HomePage/QuickLinks/When a user tap-clicks on an option icon or name the system shall navigate the user to the target location</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>3342b0b5-cba7-4436-a4f7-ca535666ff7e</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>23024bd7-bc8d-4e50-a4e6-c271eb571ba4</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/HomePage/QuickLinks/Increases opacity when a user hovers over an icon</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>b259079e-c4ae-4677-8514-de5791a0d573</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>

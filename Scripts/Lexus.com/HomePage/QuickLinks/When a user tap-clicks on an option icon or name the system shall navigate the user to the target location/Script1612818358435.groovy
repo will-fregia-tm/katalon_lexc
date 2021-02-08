@@ -48,23 +48,54 @@ WebUI.waitForElementPresent(findTestObject('Homepage/QuickLinks/Quick Links'), 0
 
 WebUI.scrollToElement(findTestObject('Homepage/QuickLinks/Quick Links'), 0, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('Homepage/QuickLinks/BYL link'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Homepage/QuickLinks/BYL link'))
 
-WebUI.verifyElementPresent(findTestObject('Homepage/QuickLinks/BYL link - image'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.waitForPageLoad(0)
 
-WebUI.verifyElementPresent(findTestObject('Homepage/QuickLinks/BYL link - text'), 0, FailureHandling.STOP_ON_FAILURE)
+windowTitle = WebUI.getWindowTitle()
 
-WebUI.verifyElementPresent(findTestObject('Homepage/QuickLinks/FAD link'), 0, FailureHandling.STOP_ON_FAILURE)
+'these steps are added to handle environments in which BYL is not present'
+if (WebUI.verifyNotMatch(windowTitle, 'Build Your Own Lexus | Lexus Configurator', false, FailureHandling.OPTIONAL)) {
+    WebUI.back()
 
-WebUI.verifyElementPresent(findTestObject('Homepage/QuickLinks/FAD link - image'), 0, FailureHandling.STOP_ON_FAILURE)
+    href = WebUI.getAttribute(findTestObject('Homepage/QuickLinks/BYL link'), 'href')
 
-WebUI.verifyElementPresent(findTestObject('Homepage/QuickLinks/FAD link - text'), 0, FailureHandling.STOP_ON_FAILURE)
+    href = (href - 'https://dev-aem-lcom.origin.cepo-proxy.tms.aws.lexus.com')
 
-WebUI.verifyElementPresent(findTestObject('Homepage/QuickLinks/Offers link'), 0, FailureHandling.STOP_ON_FAILURE)
+    WebUI.navigateToUrl('https://www.lexus.com' + href)
 
-WebUI.verifyElementPresent(findTestObject('Homepage/QuickLinks/Offers link - image'), 0, FailureHandling.STOP_ON_FAILURE)
+    WebUI.waitForPageLoad(0)
 
-WebUI.verifyElementPresent(findTestObject('Homepage/QuickLinks/Offers link - text'), 0, FailureHandling.STOP_ON_FAILURE)
+    windowTitle = WebUI.getWindowTitle()
+
+    WebUI.verifyMatch(windowTitle, 'Build Your Own Lexus | Lexus Configurator', false, FailureHandling.STOP_ON_FAILURE)
+}
+
+WebUI.back()
+
+WebUI.waitForElementPresent(findTestObject('Homepage/QuickLinks/Quick Links'), 0, FailureHandling.OPTIONAL)
+
+WebUI.scrollToElement(findTestObject('Homepage/QuickLinks/Quick Links'), 0, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Homepage/QuickLinks/FAD link'))
+
+WebUI.waitForPageLoad(0)
+
+windowTitle = WebUI.getWindowTitle()
+
+WebUI.verifyMatch(windowTitle, 'Lexus - Find a Dealer', false, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.back()
+
+WebUI.waitForElementPresent(findTestObject('Homepage/QuickLinks/Quick Links'), 0, FailureHandling.OPTIONAL)
+
+WebUI.click(findTestObject('Homepage/QuickLinks/Offers link'))
+
+WebUI.waitForPageLoad(0)
+
+windowTitle = WebUI.getWindowTitle()
+
+WebUI.verifyMatch(windowTitle, 'Lexus Offers | Experience Amazing', false, FailureHandling.STOP_ON_FAILURE)
 
 @com.kms.katalon.core.annotation.TearDownIfPassed
 def passed() {

@@ -48,23 +48,61 @@ WebUI.waitForElementPresent(findTestObject('Homepage/QuickLinks/Quick Links'), 0
 
 WebUI.scrollToElement(findTestObject('Homepage/QuickLinks/Quick Links'), 0, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('Homepage/QuickLinks/BYL link'), 0, FailureHandling.STOP_ON_FAILURE)
+noHover = WebUI.getCSSValue(findTestObject('Homepage/QuickLinks/BYL link - image'), 'opacity', FailureHandling.OPTIONAL)
 
-WebUI.verifyElementPresent(findTestObject('Homepage/QuickLinks/BYL link - image'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.mouseOver(findTestObject('Homepage/QuickLinks/BYL link - image'), FailureHandling.OPTIONAL)
 
-WebUI.verifyElementPresent(findTestObject('Homepage/QuickLinks/BYL link - text'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(1)
 
-WebUI.verifyElementPresent(findTestObject('Homepage/QuickLinks/FAD link'), 0, FailureHandling.STOP_ON_FAILURE)
+yesHover = WebUI.getCSSValue(findTestObject('Homepage/QuickLinks/BYL link - image'), 'opacity', FailureHandling.OPTIONAL)
 
-WebUI.verifyElementPresent(findTestObject('Homepage/QuickLinks/FAD link - image'), 0, FailureHandling.STOP_ON_FAILURE)
+String browser = DriverFactory.getWebDriver().getCapabilities().getBrowserName()
 
-WebUI.verifyElementPresent(findTestObject('Homepage/QuickLinks/FAD link - text'), 0, FailureHandling.STOP_ON_FAILURE)
+println(browser)
 
-WebUI.verifyElementPresent(findTestObject('Homepage/QuickLinks/Offers link'), 0, FailureHandling.STOP_ON_FAILURE)
+'this is a workaround the firefox driver not being able to mouseOver'
+if (WebUI.verifyNotMatch(browser, 'firefox', false, FailureHandling.OPTIONAL)) {
+    WebUI.verifyNotMatch(noHover, yesHover, false, FailureHandling.STOP_ON_FAILURE)
+}
 
-WebUI.verifyElementPresent(findTestObject('Homepage/QuickLinks/Offers link - image'), 0, FailureHandling.STOP_ON_FAILURE)
+noHover = WebUI.getCSSValue(findTestObject('Homepage/QuickLinks/FAD link - image'), 'opacity', FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('Homepage/QuickLinks/Offers link - text'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.mouseOver(findTestObject('Homepage/QuickLinks/FAD link - image'), FailureHandling.OPTIONAL)
+
+WebUI.delay(1)
+
+yesHover = WebUI.getCSSValue(findTestObject('Homepage/QuickLinks/FAD link - image'), 'opacity', FailureHandling.STOP_ON_FAILURE)
+
+'this is a workaround the firefox driver not being able to mouseOver'
+if (WebUI.verifyNotMatch(browser, 'firefox', false, FailureHandling.OPTIONAL)) {
+    WebUI.verifyNotMatch(noHover, yesHover, false, FailureHandling.STOP_ON_FAILURE)
+}
+
+noHover = WebUI.getCSSValue(findTestObject('Homepage/QuickLinks/Offers link - image'), 'opacity', FailureHandling.STOP_ON_FAILURE)
+
+WebUI.mouseOver(findTestObject('Homepage/QuickLinks/Offers link - image'), FailureHandling.OPTIONAL)
+
+WebUI.delay(1)
+
+yesHover = WebUI.getCSSValue(findTestObject('Homepage/QuickLinks/Offers link - image'), 'opacity', FailureHandling.STOP_ON_FAILURE)
+
+'this is a workaround the firefox driver not being able to mouseOver'
+if (WebUI.verifyNotMatch(browser, 'firefox', false, FailureHandling.OPTIONAL)) {
+    WebUI.verifyNotMatch(noHover, yesHover, false, FailureHandling.STOP_ON_FAILURE)
+}
+
+noHover = WebUI.getCSSValue(findTestObject('Homepage/QuickLinks/BYL link - image'), 'opacity', FailureHandling.STOP_ON_FAILURE)
+
+WebUI.mouseOver(findTestObject('Homepage/QuickLinks/BYL link - image'), FailureHandling.OPTIONAL)
+
+WebUI.delay(1)
+
+yesHover = WebUI.getCSSValue(findTestObject('Homepage/QuickLinks/BYL link - image'), 'opacity', FailureHandling.STOP_ON_FAILURE)
+
+'this is a workaround the firefox driver not being able to mouseOver'
+if (WebUI.verifyNotMatch(browser, 'firefox', false, FailureHandling.OPTIONAL)) {
+    WebUI.verifyNotMatch(noHover, yesHover, false, FailureHandling.STOP_ON_FAILURE)
+}
 
 @com.kms.katalon.core.annotation.TearDownIfPassed
 def passed() {

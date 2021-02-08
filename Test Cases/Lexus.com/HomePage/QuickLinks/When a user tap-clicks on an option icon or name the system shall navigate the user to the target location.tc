@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>When a user tap/clicks on an option icon or name the system shall navigate the user to the target location.</description>
+   <name>When a user tap-clicks on an option icon or name the system shall navigate the user to the target location</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>757c1781-f900-43ab-bf31-c75ffdee8178</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>3342b0b5-cba7-4436-a4f7-ca535666ff7e</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>

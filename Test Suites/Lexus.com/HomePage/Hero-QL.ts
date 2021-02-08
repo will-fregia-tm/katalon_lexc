@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Hero</name>
+   <name>Hero-QL</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -117,6 +117,42 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>e3a9a2be-b4fd-40ec-98aa-9cdf161675c1</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>63e96688-7c74-4336-81d3-6e67f1a85122</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/HomePage/QuickLinks/BYL, FAD and Offers links are present</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>5c8b222a-6a6a-403e-96f1-2238f075d882</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>024a5125-93b5-437d-830d-7396d26bfe1d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/HomePage/QuickLinks/Increases opacity when a user hovers over an icon</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>b259079e-c4ae-4677-8514-de5791a0d573</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b61d734c-479d-47a7-a204-50c8fc77779d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/HomePage/QuickLinks/When a user tap-clicks on an option icon or name the system shall navigate the user to the target location</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>3342b0b5-cba7-4436-a4f7-ca535666ff7e</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
