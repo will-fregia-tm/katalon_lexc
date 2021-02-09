@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Hero-QL</name>
+   <name>Hero-QL-DM</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -153,6 +153,18 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>3342b0b5-cba7-4436-a4f7-ca535666ff7e</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>076bb977-60e5-4d39-a715-fd80751b9186</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/HomePage/DividerModule/Divider line is shown between modules</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f45559d4-aff9-4dcc-b3f4-b1cbb907f583</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

@@ -886,7 +886,7 @@
             <runConfigurationId>saucelabs_chrome_win7</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/HomePage/Hero-QL</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Lexus.com/HomePage/Hero-QL-DM</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -895,7 +895,7 @@
             <runConfigurationId>saucelabs_edge_win10</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/HomePage/Hero-QL</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Lexus.com/HomePage/Hero-QL-DM</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -904,7 +904,7 @@
             <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/HomePage/Hero-QL</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Lexus.com/HomePage/Hero-QL-DM</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -913,7 +913,7 @@
             <runConfigurationId>saucelabs_firefox_macos10.15</runConfigurationId>
          </configuration>
          <runEnabled>false</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/HomePage/Hero-QL</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Lexus.com/HomePage/Hero-QL-DM</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -940,7 +940,7 @@
             <runConfigurationId>saucelabs_firefox_macos10.15</runConfigurationId>
          </configuration>
          <runEnabled>false</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/HomePage/QuickLinks</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Lexus.com/HomePage/Content-Promo-Grid-MB</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -949,16 +949,7 @@
             <runConfigurationId>saucelabs_chrome_macos10.14</runConfigurationId>
          </configuration>
          <runEnabled>false</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/HomePage/QuickLinks</testSuiteEntity>
-      </TestSuiteRunConfiguration>
-      <TestSuiteRunConfiguration>
-         <configuration>
-            <groupName>Custom</groupName>
-            <profileName>author staging</profileName>
-            <runConfigurationId>saucelabs_chrome_macos10.15</runConfigurationId>
-         </configuration>
-         <runEnabled>false</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/HomePage/QuickLinks</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Lexus.com/HomePage/Content-Promo-Grid-MB</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -967,7 +958,7 @@
             <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
          <runEnabled>false</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/HomePage/QuickLinks</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Lexus.com/HomePage/Content-Promo-Grid-MB</testSuiteEntity>
       </TestSuiteRunConfiguration>
    </testSuiteRunConfigurations>
 </TestSuiteCollectionEntity>

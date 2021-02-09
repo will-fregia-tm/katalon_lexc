@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>When a author adds a Divider line module to the page, then the system shall display the divider line module in the appropriate place
+spacing should match the spacing of the comps
+if author changes the color in the CMS
+display the divider line in the appropriate color (as determined by the CMS) 
+</description>
+   <name>Divider line is shown between modules</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a5fa94b4-654b-44e7-bd1a-e90bd3b25b4f</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>f45559d4-aff9-4dcc-b3f4-b1cbb907f583</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>
