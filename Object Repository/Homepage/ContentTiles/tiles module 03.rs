@@ -15,7 +15,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//div[not(contains(@id, 'i'))]/h3[@letter-spacing = 'wide'])[3]</value>
+         <value>(//div[1]/h3[@letter-spacing = 'wide' and (not(contains(text(), 'SHOPPING')) and not(contains(text(), 'EXPLORE')))])[3]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
