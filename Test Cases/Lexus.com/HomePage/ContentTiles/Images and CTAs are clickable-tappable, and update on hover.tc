@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>Each content block will contain 1 CTA. These CTAs will always be present/visible. Image and CTA will be clickable/tappable. When a user hovers over a content tile (on desktop)
+   <description>Each content block will contain 1 CTA. These CTAs will always be present/visible. Image and CTA will be clickable/tappable. Image and cta shall be tappable and link to the same destination. When a user hovers over a content tile (on desktop)
 Then: 
 if hovers over image, then  image will zoom in
 else if over the CTA, then the CTA will update to its hover over state

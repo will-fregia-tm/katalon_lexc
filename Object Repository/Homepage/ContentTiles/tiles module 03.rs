@@ -6,16 +6,16 @@
    <elementGuidId>be7b4a32-b86b-4fa2-ad82-ec399006ad84</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//div[not(contains(@id, '-'))]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>div[spacing*=&quot;block&quot;]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//div[1]/h3[@letter-spacing = 'wide' and (not(contains(text(), 'SHOPPING')) and not(contains(text(), 'EXPLORE')))])[3]</value>
+         <value>(//div[1]/h3[@letter-spacing = 'wide' and (not(contains(text(), 'SHOPPING')) and not(contains(text(), 'EXPLORE')))]/following-sibling::div)[3]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[not(contains(@id, '-'))]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

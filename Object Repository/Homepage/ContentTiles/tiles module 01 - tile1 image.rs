@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>tiles module 01</name>
+   <name>tiles module 01 - tile1 image</name>
    <tag></tag>
-   <elementGuidId>78279964-9ce2-41f7-8ddb-5e22cd3c2030</elementGuidId>
+   <elementGuidId>d79ad9e2-db50-4563-880c-5b8920dd99e0</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -11,11 +11,11 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//div[1]/h3[@letter-spacing = 'wide' and (not(contains(text(), 'SHOPPING')) and not(contains(text(), 'EXPLORE')))]/following-sibling::div)[1]</value>
+         <value>(//div[1]/h3[@letter-spacing = 'wide' and (not(contains(text(), 'SHOPPING')) and not(contains(text(), 'EXPLORE')))]/following-sibling::div)[1]//*[@data-index = '0']//img[contains(@src, '.jpg')]</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//h3[@letter-spacing = 'wide' and (not(contains(text(), 'SHOPPING')) or not(contains(., 'SHOPPING')))]</value>
+         <value>//img[contains(@src, '.jpg')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -25,10 +25,10 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>h3</value>
+      <value>img</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>letter-spacing</name>
       <type>Main</type>
@@ -49,10 +49,24 @@
       <value>i</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>not contain</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>SHOPPING</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-index</name>
+      <type>Main</type>
+      <value>0</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>.jpg</value>
    </webElementProperties>
 </WebElementEntity>

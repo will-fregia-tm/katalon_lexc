@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>tiles module 01</name>
+   <name>tiles module 01 - tile1 image link</name>
    <tag></tag>
-   <elementGuidId>78279964-9ce2-41f7-8ddb-5e22cd3c2030</elementGuidId>
+   <elementGuidId>6c3f98e3-b8db-4b69-b4a8-c3839807d38d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -11,11 +11,11 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//div[1]/h3[@letter-spacing = 'wide' and (not(contains(text(), 'SHOPPING')) and not(contains(text(), 'EXPLORE')))]/following-sibling::div)[1]</value>
+         <value>(//div[1]/h3[@letter-spacing = 'wide' and (not(contains(text(), 'SHOPPING')) and not(contains(text(), 'EXPLORE')))]/following-sibling::div)[1]//*[@data-index = '0']//a</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//h3[@letter-spacing = 'wide' and (not(contains(text(), 'SHOPPING')) or not(contains(., 'SHOPPING')))]</value>
+         <value>//a[(not(contains(text(), 'SHOPPING')) or not(contains(., 'SHOPPING')))]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -25,10 +25,10 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>h3</value>
+      <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>letter-spacing</name>
       <type>Main</type>

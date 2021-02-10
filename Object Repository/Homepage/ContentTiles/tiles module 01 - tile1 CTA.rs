@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>tiles module 01</name>
+   <name>tiles module 01 - tile1 CTA</name>
    <tag></tag>
-   <elementGuidId>78279964-9ce2-41f7-8ddb-5e22cd3c2030</elementGuidId>
+   <elementGuidId>943916ec-8afa-4c94-8b0f-f14cdbab537b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -11,11 +11,11 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//div[1]/h3[@letter-spacing = 'wide' and (not(contains(text(), 'SHOPPING')) and not(contains(text(), 'EXPLORE')))]/following-sibling::div)[1]</value>
+         <value>(//div[1]/h3[@letter-spacing = 'wide' and (not(contains(text(), 'SHOPPING')) and not(contains(text(), 'EXPLORE')))]/following-sibling::div)[1]//*[@data-index = '0']//a[@letter-spacing = 'narrow']</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//h3[@letter-spacing = 'wide' and (not(contains(text(), 'SHOPPING')) or not(contains(., 'SHOPPING')))]</value>
+         <value>//a[@letter-spacing = 'narrow']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -25,14 +25,14 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>h3</value>
+      <value>a</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>letter-spacing</name>
       <type>Main</type>
-      <value>wide</value>
+      <value>narrow</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,10 +49,24 @@
       <value>i</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>not contain</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>SHOPPING</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-index</name>
+      <type>Main</type>
+      <value>0</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>.jpg</value>
    </webElementProperties>
 </WebElementEntity>

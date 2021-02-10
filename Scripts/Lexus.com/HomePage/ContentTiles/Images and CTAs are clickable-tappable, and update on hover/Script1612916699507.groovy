@@ -48,31 +48,32 @@ WebUI.waitForElementPresent(findTestObject('Homepage/ContentTiles/tiles module 0
 
 WebUI.scrollToElement(findTestObject('Homepage/ContentTiles/tiles module 01'), 0, FailureHandling.OPTIONAL)
 
-WebUI.scrollToElement(findTestObject('Homepage/ContentTiles/tiles module 02'), 0, FailureHandling.OPTIONAL)
-
-WebUI.scrollToElement(findTestObject('Homepage/ContentTiles/tiles module 03'), 0, FailureHandling.OPTIONAL)
-
 String browser = DriverFactory.getWebDriver().getCapabilities().getBrowserName()
 
 println(browser)
 
 'checks hover state, with workaround for the firefox driver not being able to mouseOver'
-not_run: if (WebUI.verifyNotMatch(browser, 'firefox', false, FailureHandling.OPTIONAL)) {
-    imageNoHover = WebUI.getCSSValue(findTestObject('Homepage/ContentGrid/grid module 01 - tile1 image'), 'transform', FailureHandling.STOP_ON_FAILURE)
-
-    CTANoHoverColor = WebUI.getCSSValue(findTestObject('Homepage/ContentGrid/grid module 01 - tile1 CTA'), 'color', FailureHandling.STOP_ON_FAILURE)
-
-    CTANoHoverBackground = WebUI.getCSSValue(findTestObject('Homepage/ContentGrid/grid module 01 - tile1 CTA'), 'background-color', 
+if (WebUI.verifyNotMatch(browser, 'firefox', false, FailureHandling.OPTIONAL)) {
+    imageNoHover = WebUI.getCSSValue(findTestObject('Homepage/ContentTiles/tiles module 01 - tile1 image'), 'transform', 
         FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.mouseOver(findTestObject('Homepage/ContentGrid/grid module 01 - tile1'), FailureHandling.STOP_ON_FAILURE)
+    CTANoHoverColor = WebUI.getCSSValue(findTestObject('Homepage/ContentTiles/tiles module 01 - tile1 CTA'), 'color', FailureHandling.STOP_ON_FAILURE)
 
-    imageYesHover = WebUI.getCSSValue(findTestObject('Homepage/ContentGrid/grid module 01 - tile1 image'), 'transform', 
+    CTANoHoverBackground = WebUI.getCSSValue(findTestObject('Homepage/ContentTiles/tiles module 01 - tile1 CTA'), 'background-color', 
         FailureHandling.STOP_ON_FAILURE)
 
-    CTAYesHoverColor = WebUI.getCSSValue(findTestObject('Homepage/ContentGrid/grid module 01 - tile1 CTA'), 'color', FailureHandling.STOP_ON_FAILURE)
+    WebUI.mouseOver(findTestObject('Homepage/ContentTiles/tiles module 01 - tile1 image'), FailureHandling.STOP_ON_FAILURE)
 
-    CTAYesHoverBackground = WebUI.getCSSValue(findTestObject('Homepage/ContentGrid/grid module 01 - tile1 CTA'), 'background-color', 
+    WebUI.delay(2)
+
+    imageYesHover = WebUI.getCSSValue(findTestObject('Homepage/ContentTiles/tiles module 01 - tile1 image'), 'transform', 
+        FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.mouseOver(findTestObject('Homepage/ContentTiles/tiles module 01 - tile1 CTA'), FailureHandling.STOP_ON_FAILURE)
+
+    CTAYesHoverColor = WebUI.getCSSValue(findTestObject('Homepage/ContentTiles/tiles module 01 - tile1 CTA'), 'color', FailureHandling.STOP_ON_FAILURE)
+
+    CTAYesHoverBackground = WebUI.getCSSValue(findTestObject('Homepage/ContentTiles/tiles module 01 - tile1 CTA'), 'background-color', 
         FailureHandling.STOP_ON_FAILURE)
 
     WebUI.verifyNotMatch(CTANoHoverColor, CTAYesHoverColor, false, FailureHandling.STOP_ON_FAILURE)
@@ -82,25 +83,32 @@ not_run: if (WebUI.verifyNotMatch(browser, 'firefox', false, FailureHandling.OPT
     WebUI.verifyNotMatch(imageNoHover, imageYesHover, false, FailureHandling.STOP_ON_FAILURE)
 }
 
-not_run: WebUI.verifyElementPresent(findTestObject('Homepage/ContentGrid/grid module 01 - tile1 image'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('Homepage/ContentTiles/tiles module 01 - tile1 image'), 0, FailureHandling.STOP_ON_FAILURE)
 
-not_run: WebUI.verifyElementPresent(findTestObject('Homepage/ContentGrid/grid module 01 - tile1 CTA'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('Homepage/ContentTiles/tiles module 01 - tile1 CTA'), 0, FailureHandling.STOP_ON_FAILURE)
 
-not_run: WebUI.delay(2)
+hrefCTA = WebUI.getAttribute(findTestObject('Homepage/ContentTiles/tiles module 01 - tile1 CTA'), 'href', FailureHandling.STOP_ON_FAILURE)
 
-not_run: WebUI.click(findTestObject('Homepage/ContentGrid/grid module 01 - tile1'), FailureHandling.STOP_ON_FAILURE)
+hrefImage = WebUI.getAttribute(findTestObject('Homepage/ContentTiles/tiles module 01 - tile1 image link'), 'href', FailureHandling.STOP_ON_FAILURE)
 
-not_run: WebUI.waitForPageLoad(0)
+'CTA and image links should match'
+WebUI.verifyMatch(hrefCTA, hrefImage, false, FailureHandling.STOP_ON_FAILURE)
 
-not_run: windowTitle = WebUI.getWindowTitle()
+WebUI.delay(2)
 
-not_run: modifiedString = (windowTitle - 'Lexus')
+WebUI.click(findTestObject('Homepage/ContentTiles/tiles module 01 - tile1 CTA'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.waitForPageLoad(0)
+
+windowTitle = WebUI.getWindowTitle()
+
+modifiedString = (windowTitle - 'Lexus')
 
 'these steps are added to handle environments in which the linked page is not present'
-not_run: if (WebUI.verifyMatch(windowTitle, modifiedString, false, FailureHandling.OPTIONAL)) {
+if (WebUI.verifyMatch(windowTitle, modifiedString, false, FailureHandling.OPTIONAL)) {
     WebUI.back()
 
-    href = WebUI.getAttribute(findTestObject('Homepage/ContentGrid/grid module 01 - tile1'), 'href')
+    href = WebUI.getAttribute(findTestObject('Homepage/ContentTiles/tiles module 01 - tile1 CTA'), 'href')
 
     href = ((href - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com')
 
@@ -115,11 +123,11 @@ not_run: if (WebUI.verifyMatch(windowTitle, modifiedString, false, FailureHandli
     WebUI.verifyNotMatch(windowTitle, modifiedString, false, FailureHandling.STOP_ON_FAILURE)
 }
 
-not_run: WebUI.back()
+WebUI.back()
 
-not_run: WebUI.waitForElementPresent(findTestObject('Homepage/ContentGrid/grid module 01'), 0, FailureHandling.OPTIONAL)
+WebUI.waitForElementPresent(findTestObject('Homepage/ContentTiles/tiles module 01'), 0, FailureHandling.OPTIONAL)
 
-not_run: WebUI.scrollToElement(findTestObject('Homepage/ContentGrid/grid module 01'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.scrollToElement(findTestObject('Homepage/ContentTiles/tiles module 01'), 0, FailureHandling.STOP_ON_FAILURE)
 
 'checks hover state, with workaround for the firefox driver not being able to mouseOver'
 not_run: if (WebUI.verifyNotMatch(browser, 'firefox', false, FailureHandling.OPTIONAL)) {
