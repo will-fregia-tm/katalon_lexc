@@ -62,6 +62,8 @@ if (WebUI.verifyNotMatch(windowTitle, 'Build Your Own Lexus | Lexus Configurator
 
     href = (href - 'https://dev-aem-lcom.origin.cepo-proxy.tms.aws.lexus.com')
 
+    href = (href - 'https://stage-aem.author.toyota.com')
+
     WebUI.navigateToUrl('https://www.lexus.com' + href)
 
     WebUI.waitForPageLoad(0)
@@ -83,7 +85,24 @@ WebUI.waitForPageLoad(0)
 
 windowTitle = WebUI.getWindowTitle()
 
-WebUI.verifyMatch(windowTitle, 'Lexus - Find a Dealer', false, FailureHandling.STOP_ON_FAILURE)
+'these steps are added to handle environments in which FAD is not present'
+if (WebUI.verifyNotMatch(windowTitle, 'Lexus - Find a Dealer', false, FailureHandling.OPTIONAL)) {
+    WebUI.back()
+
+    href = WebUI.getAttribute(findTestObject('Homepage/QuickLinks/FAD link'), 'href')
+
+    href = (href - 'https://dev-aem-lcom.origin.cepo-proxy.tms.aws.lexus.com')
+
+    href = (href - 'https://stage-aem.author.toyota.com')
+
+    WebUI.navigateToUrl('https://www.lexus.com' + href)
+
+    WebUI.waitForPageLoad(0)
+
+    windowTitle = WebUI.getWindowTitle()
+
+    WebUI.verifyMatch(windowTitle, 'Lexus - Find a Dealer', false, FailureHandling.STOP_ON_FAILURE)
+}
 
 WebUI.back()
 
@@ -95,7 +114,24 @@ WebUI.waitForPageLoad(0)
 
 windowTitle = WebUI.getWindowTitle()
 
-WebUI.verifyMatch(windowTitle, 'Lexus Offers | Experience Amazing', false, FailureHandling.STOP_ON_FAILURE)
+'these steps are added to handle environments in which Offers page is not present'
+if (WebUI.verifyNotMatch(windowTitle, 'Lexus Offers | Experience Amazing', false, FailureHandling.OPTIONAL)) {
+	WebUI.back()
+
+	href = WebUI.getAttribute(findTestObject('Homepage/QuickLinks/Offers link'), 'href')
+
+	href = (href - 'https://dev-aem-lcom.origin.cepo-proxy.tms.aws.lexus.com')
+
+	href = (href - 'https://stage-aem.author.toyota.com')
+
+	WebUI.navigateToUrl('https://www.lexus.com' + href)
+
+	WebUI.waitForPageLoad(0)
+
+	windowTitle = WebUI.getWindowTitle()
+
+	WebUI.verifyMatch(windowTitle, 'Lexus Offers | Experience Amazing', false, FailureHandling.STOP_ON_FAILURE)
+}
 
 @com.kms.katalon.core.annotation.TearDownIfPassed
 def passed() {

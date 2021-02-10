@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Image and CTA will be clickable/tappable. Each module will have 2-4 tiles, each of which will have 1 CTA and 1 image.
+Given that I am a desktop user,
+When I move my cursor over a content-grid-tile  
+Then the system shall:
+* zoom in on the content tile asset
+* update the cta, to the hover-over state</description>
+   <name>Images and CTAs are clickable-tappable, and update on hover</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8274e938-79c0-4832-b974-c97ea110f29a</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>2fe38b4f-c924-48d9-9e4b-422d068134ad</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>

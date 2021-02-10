@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>grid module 04 - tile4 image</name>
+   <tag></tag>
+   <elementGuidId>6c985640-6a32-4f9a-bffd-722bb8f75595</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[contains(@href, '/') and (contains(text(), 'E') or contains(., 'E'))]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div[spacing*=&quot;block&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//*[@id = 'content-grid'])[4]/div/div[4]/a[contains(@href, '/')]//img[contains(@src, '.jpg')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>content-grid</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>.jpg</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>E</value>
+   </webElementProperties>
+</WebElementEntity>

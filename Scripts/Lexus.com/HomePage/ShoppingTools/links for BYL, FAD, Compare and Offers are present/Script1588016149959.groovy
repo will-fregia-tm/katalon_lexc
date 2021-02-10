@@ -42,9 +42,9 @@ WebUI.verifyElementVisibleInViewport(findTestObject('HomePage/ShoppingTools/Offe
 
 WebUI.verifyElementVisibleInViewport(findTestObject('HomePage/ShoppingTools/Offers link text'), 0)
 
-WebUI.verifyElementVisibleInViewport(findTestObject('HomePage/ShoppingTools/Compare link image'), 0)
+not_run: WebUI.verifyElementVisibleInViewport(findTestObject('HomePage/ShoppingTools/Compare link image'), 0)
 
-WebUI.verifyElementVisibleInViewport(findTestObject('HomePage/ShoppingTools/Compare link text'), 0)
+not_run: WebUI.verifyElementVisibleInViewport(findTestObject('HomePage/ShoppingTools/Compare link text'), 0)
 
 @com.kms.katalon.core.annotation.TearDownIfPassed
 def passed() {

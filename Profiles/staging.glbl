@@ -96,7 +96,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'stg-lcom.cdn.cepo-proxy.tms.aws.lexus.com'</initValue>
+      <initValue>'https://stg-lcom.cdn.cepo-proxy.tms.aws.lexus.com'</initValue>
       <name>AEM_Domain</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
