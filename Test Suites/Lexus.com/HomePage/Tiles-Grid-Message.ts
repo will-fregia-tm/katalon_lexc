@@ -23,4 +23,16 @@
          <variableId>2fe38b4f-c924-48d9-9e4b-422d068134ad</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>fdb7a26d-4d55-4217-a511-bc9603b6bf35</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/HomePage/ContentTiles/Images and CTAs are clickable-tappable, and update on hover</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>2ae4a3c9-edc4-4d14-858f-21a5f2f32f26</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>
