@@ -42,7 +42,7 @@ if (WebUI.verifyElementNotPresent(findTestObject('GlobalNav/header/header - Lexu
     WebUI.refresh()
 }
 
-WebUI.waitForElementPresent(findTestObject('Homepage/MessageBar/bar'), 0, FailureHandling.OPTIONAL)
+WebUI.waitForElementPresent(findTestObject('Homepage/MessageBar/recall bar'), 0, FailureHandling.OPTIONAL)
 
 WebUI.scrollToElement(findTestObject('Homepage/ContentTiles/tiles module 01'), 0, FailureHandling.OPTIONAL)
 
@@ -50,26 +50,26 @@ WebUI.scrollToElement(findTestObject('Homepage/ContentTiles/tiles module 02'), 0
 
 WebUI.scrollToElement(findTestObject('Homepage/ContentTiles/tiles module 03'), 0, FailureHandling.OPTIONAL)
 
-WebUI.scrollToElement(findTestObject('Homepage/MessageBar/bar'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.scrollToElement(findTestObject('Homepage/MessageBar/recall bar'), 0, FailureHandling.STOP_ON_FAILURE)
 
-target = WebUI.getAttribute(findTestObject('Homepage/MessageBar/bar'), 'target', FailureHandling.STOP_ON_FAILURE)
+target = WebUI.getAttribute(findTestObject('Homepage/MessageBar/recall bar'), 'target', FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyMatch(target, '_self', false, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('Homepage/MessageBar/CTA'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('Homepage/MessageBar/recall CTA'), 0, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('Homepage/MessageBar/text'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('Homepage/MessageBar/recall text'), 0, FailureHandling.STOP_ON_FAILURE)
 
-CTA = WebUI.getText(findTestObject('Homepage/MessageBar/CTA'), FailureHandling.STOP_ON_FAILURE)
+CTA = WebUI.getText(findTestObject('Homepage/MessageBar/recall CTA'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyMatch(CTA, 'RECALL INFORMATION', false, FailureHandling.STOP_ON_FAILURE)
 
-text = WebUI.getText(findTestObject('Homepage/MessageBar/text'), FailureHandling.STOP_ON_FAILURE)
+text = WebUI.getText(findTestObject('Homepage/MessageBar/recall text'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyMatch(text, 'YOUR SAFETY IS A TOP PRIORITY FOR LEXUS. VIEW INFORMATION ON SAFETY RECALLS AND FIND OUT IF YOUR LEXUS IS AFFECTED.', 
     false, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Homepage/MessageBar/bar'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Homepage/MessageBar/recall bar'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForPageLoad(0)
 
@@ -81,7 +81,7 @@ modifiedString = (windowTitle - 'Recall')
 if (WebUI.verifyMatch(windowTitle, modifiedString, false, FailureHandling.OPTIONAL)) {
     WebUI.back(FailureHandling.STOP_ON_FAILURE)
 
-    href = WebUI.getAttribute(findTestObject('Homepage/MessageBar/bar'), 'href', FailureHandling.STOP_ON_FAILURE)
+    href = WebUI.getAttribute(findTestObject('Homepage/MessageBar/recall bar'), 'href', FailureHandling.STOP_ON_FAILURE)
 
     not_run: href = ((href - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com')
 

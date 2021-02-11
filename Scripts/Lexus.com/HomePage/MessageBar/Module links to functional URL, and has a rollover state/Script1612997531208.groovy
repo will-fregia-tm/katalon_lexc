@@ -44,23 +44,23 @@ if (WebUI.verifyElementNotPresent(findTestObject('GlobalNav/header/header - Lexu
 
 WebUI.verifyElementPresent(findTestObject('Homepage/HeroModule/hero module'), 0, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementPresent(findTestObject('Homepage/MessageBar/bar'), 0, FailureHandling.OPTIONAL)
+WebUI.waitForElementPresent(findTestObject('Homepage/MessageBar/recall bar'), 0, FailureHandling.OPTIONAL)
 
-WebUI.scrollToElement(findTestObject('Homepage/MessageBar/bar'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.scrollToElement(findTestObject('Homepage/MessageBar/recall bar'), 0, FailureHandling.STOP_ON_FAILURE)
 
-target = WebUI.getAttribute(findTestObject('Homepage/MessageBar/bar'), 'target', FailureHandling.STOP_ON_FAILURE)
+target = WebUI.getAttribute(findTestObject('Homepage/MessageBar/recall bar'), 'target', FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyMatch(target, '_self', false, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('Homepage/MessageBar/CTA'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('Homepage/MessageBar/recall CTA'), 0, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('Homepage/MessageBar/text'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('Homepage/MessageBar/recall text'), 0, FailureHandling.STOP_ON_FAILURE)
 
-CTA = WebUI.getText(findTestObject('Homepage/MessageBar/CTA'), FailureHandling.STOP_ON_FAILURE)
+CTA = WebUI.getText(findTestObject('Homepage/MessageBar/recall CTA'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyMatch(CTA, 'RECALL INFORMATION', false, FailureHandling.STOP_ON_FAILURE)
 
-text = WebUI.getText(findTestObject('Homepage/MessageBar/text'), FailureHandling.STOP_ON_FAILURE)
+text = WebUI.getText(findTestObject('Homepage/MessageBar/recall text'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyMatch(text, 'YOUR SAFETY IS A TOP PRIORITY FOR LEXUS. VIEW INFORMATION ON SAFETY RECALLS AND FIND OUT IF YOUR LEXUS IS AFFECTED.', 
     false, FailureHandling.STOP_ON_FAILURE)
@@ -71,20 +71,20 @@ println(browser)
 
 'checks hover state, with workaround for the firefox driver not being able to mouseOver'
 if (WebUI.verifyNotMatch(browser, 'firefox', false, FailureHandling.OPTIONAL)) {
-    barNoHover = WebUI.getCSSValue(findTestObject('Homepage/MessageBar/bar'), 'opacity', FailureHandling.STOP_ON_FAILURE)
+    barNoHover = WebUI.getCSSValue(findTestObject('Homepage/MessageBar/recall bar'), 'opacity', FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.mouseOver(findTestObject('Homepage/MessageBar/bar'), FailureHandling.STOP_ON_FAILURE)
+    WebUI.mouseOver(findTestObject('Homepage/MessageBar/recall bar'), FailureHandling.STOP_ON_FAILURE)
 
     WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
-    barYesHover = WebUI.getCSSValue(findTestObject('Homepage/MessageBar/bar'), 'opacity', FailureHandling.STOP_ON_FAILURE)
+    barYesHover = WebUI.getCSSValue(findTestObject('Homepage/MessageBar/recall bar'), 'opacity', FailureHandling.STOP_ON_FAILURE)
 
     WebUI.verifyNotMatch(barNoHover, barYesHover, false, FailureHandling.STOP_ON_FAILURE)
 
     WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 }
 
-WebUI.click(findTestObject('Homepage/MessageBar/bar'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Homepage/MessageBar/recall bar'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForPageLoad(0)
 
@@ -96,7 +96,7 @@ modifiedString = (windowTitle - 'Recall')
 if (WebUI.verifyMatch(windowTitle, modifiedString, false, FailureHandling.OPTIONAL)) {
     WebUI.back(FailureHandling.STOP_ON_FAILURE)
 
-    href = WebUI.getAttribute(findTestObject('Homepage/MessageBar/bar'), 'href', FailureHandling.STOP_ON_FAILURE)
+    href = WebUI.getAttribute(findTestObject('Homepage/MessageBar/recall bar'), 'href', FailureHandling.STOP_ON_FAILURE)
 
     href = ((href - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com')
 
