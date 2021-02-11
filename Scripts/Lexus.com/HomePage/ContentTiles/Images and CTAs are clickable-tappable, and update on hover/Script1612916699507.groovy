@@ -87,6 +87,8 @@ WebUI.verifyElementPresent(findTestObject('Homepage/ContentTiles/tiles module 01
 
 WebUI.verifyElementPresent(findTestObject('Homepage/ContentTiles/tiles module 01 - tile1 CTA'), 0, FailureHandling.STOP_ON_FAILURE)
 
+WebUI.verifyElementNotPresent(findTestObject('Homepage/ContentTiles/tiles module 01 - tile1 CTA2'), 0, FailureHandling.STOP_ON_FAILURE)
+
 hrefCTA = WebUI.getAttribute(findTestObject('Homepage/ContentTiles/tiles module 01 - tile1 CTA'), 'href', FailureHandling.STOP_ON_FAILURE)
 
 hrefImage = WebUI.getAttribute(findTestObject('Homepage/ContentTiles/tiles module 01 - tile1 image link'), 'href', FailureHandling.STOP_ON_FAILURE)
@@ -116,9 +118,11 @@ if (WebUI.verifyMatch(windowTitle, modifiedString, false, FailureHandling.OPTION
 
     WebUI.waitForPageLoad(0)
 
+    WebUI.delay(2)
+
     windowTitle = WebUI.getWindowTitle()
 
-    modifiedString = (windowTitle - 'Lexus')
+    modifiedString = ((windowTitle - 'Lexus') - 'Offers')
 
     WebUI.verifyNotMatch(windowTitle, modifiedString, false, FailureHandling.STOP_ON_FAILURE)
 }
@@ -193,9 +197,11 @@ if (WebUI.verifyMatch(windowTitle, modifiedString, false, FailureHandling.OPTION
 
     WebUI.waitForPageLoad(0)
 
+    WebUI.delay(2)
+
     windowTitle = WebUI.getWindowTitle()
 
-    modifiedString = (windowTitle - 'Lexus')
+    modifiedString = ((windowTitle - 'Lexus') - 'Offers')
 
     WebUI.verifyNotMatch(windowTitle, modifiedString, false, FailureHandling.STOP_ON_FAILURE)
 }
@@ -270,6 +276,8 @@ if (WebUI.verifyMatch(windowTitle, modifiedString, false, FailureHandling.OPTION
 
     WebUI.waitForPageLoad(0)
 
+    WebUI.delay(2)
+
     windowTitle = WebUI.getWindowTitle()
 
     modifiedString = (windowTitle - 'Lexus')
@@ -284,27 +292,35 @@ WebUI.waitForElementPresent(findTestObject('Homepage/ContentTiles/tiles module 0
 WebUI.scrollToElement(findTestObject('Homepage/ContentTiles/tiles module 01'), 0, FailureHandling.STOP_ON_FAILURE)
 
 'continues tests if there is another tile'
-not_run: if (WebUI.verifyElementPresent(findTestObject('Homepage/ContentTiles/tiles module 01 - tile4 image'), 3, FailureHandling.OPTIONAL)) {
+if (WebUI.verifyElementPresent(findTestObject('Homepage/ContentTiles/tiles module 01 - tile4 image'), 3, FailureHandling.OPTIONAL)) {
+    WebUI.click(findTestObject('Homepage/ContentTiles/tiles module 01 - next button'))
+
+    WebUI.delay(2)
+
     'checks hover state, with workaround for the firefox driver not being able to mouseOver'
     if (WebUI.verifyNotMatch(browser, 'firefox', false, FailureHandling.OPTIONAL)) {
-        imageNoHover = WebUI.getCSSValue(findTestObject('Homepage/ContentGrid/grid module 01 - tile3 image'), 'transform', 
+        imageNoHover = WebUI.getCSSValue(findTestObject('Homepage/ContentTiles/tiles module 01 - tile4 image'), 'transform', 
             FailureHandling.STOP_ON_FAILURE)
 
-        CTANoHoverColor = WebUI.getCSSValue(findTestObject('Homepage/ContentGrid/grid module 01 - tile3 CTA'), 'color', 
+        CTANoHoverColor = WebUI.getCSSValue(findTestObject('Homepage/ContentTiles/tiles module 01 - tile4 CTA'), 'color', 
             FailureHandling.STOP_ON_FAILURE)
 
-        CTANoHoverBackground = WebUI.getCSSValue(findTestObject('Homepage/ContentGrid/grid module 01 - tile3 CTA'), 'background-color', 
+        CTANoHoverBackground = WebUI.getCSSValue(findTestObject('Homepage/ContentTiles/tiles module 01 - tile4 CTA'), 'background-color', 
             FailureHandling.STOP_ON_FAILURE)
 
-        WebUI.mouseOver(findTestObject('Homepage/ContentGrid/grid module 01 - tile3'), FailureHandling.STOP_ON_FAILURE)
+        WebUI.mouseOver(findTestObject('Homepage/ContentTiles/tiles module 01 - tile4 image'), FailureHandling.STOP_ON_FAILURE)
 
-        imageYesHover = WebUI.getCSSValue(findTestObject('Homepage/ContentGrid/grid module 01 - tile3 image'), 'transform', 
+        WebUI.delay(2)
+
+        imageYesHover = WebUI.getCSSValue(findTestObject('Homepage/ContentTiles/tiles module 01 - tile4 image'), 'transform', 
             FailureHandling.STOP_ON_FAILURE)
 
-        CTAYesHoverColor = WebUI.getCSSValue(findTestObject('Homepage/ContentGrid/grid module 01 - tile3 CTA'), 'color', 
+        WebUI.mouseOver(findTestObject('Homepage/ContentTiles/tiles module 01 - tile4 CTA'), FailureHandling.STOP_ON_FAILURE)
+
+        CTAYesHoverColor = WebUI.getCSSValue(findTestObject('Homepage/ContentTiles/tiles module 01 - tile4 CTA'), 'color', 
             FailureHandling.STOP_ON_FAILURE)
 
-        CTAYesHoverBackground = WebUI.getCSSValue(findTestObject('Homepage/ContentGrid/grid module 01 - tile3 CTA'), 'background-color', 
+        CTAYesHoverBackground = WebUI.getCSSValue(findTestObject('Homepage/ContentTiles/tiles module 01 - tile4 CTA'), 'background-color', 
             FailureHandling.STOP_ON_FAILURE)
 
         WebUI.verifyNotMatch(CTANoHoverColor, CTAYesHoverColor, false, FailureHandling.STOP_ON_FAILURE)
@@ -314,13 +330,20 @@ not_run: if (WebUI.verifyElementPresent(findTestObject('Homepage/ContentTiles/ti
         WebUI.verifyNotMatch(imageNoHover, imageYesHover, false, FailureHandling.STOP_ON_FAILURE)
     }
     
-    WebUI.verifyElementPresent(findTestObject('Homepage/ContentGrid/grid module 01 - tile3 image'), 0, FailureHandling.STOP_ON_FAILURE)
+    WebUI.verifyElementPresent(findTestObject('Homepage/ContentTiles/tiles module 01 - tile4 image'), 0, FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.verifyElementPresent(findTestObject('Homepage/ContentGrid/grid module 01 - tile3 CTA'), 0, FailureHandling.STOP_ON_FAILURE)
+    WebUI.verifyElementPresent(findTestObject('Homepage/ContentTiles/tiles module 01 - tile4 CTA'), 0, FailureHandling.STOP_ON_FAILURE)
+
+    hrefCTA = WebUI.getAttribute(findTestObject('Homepage/ContentTiles/tiles module 01 - tile4 CTA'), 'href', FailureHandling.STOP_ON_FAILURE)
+
+    hrefImage = WebUI.getAttribute(findTestObject('Homepage/ContentTiles/tiles module 01 - tile4 image link'), 'href', FailureHandling.STOP_ON_FAILURE)
+
+    'CTA and image links should match'
+    WebUI.verifyMatch(hrefCTA, hrefImage, false, FailureHandling.STOP_ON_FAILURE)
 
     WebUI.delay(2)
 
-    WebUI.click(findTestObject('Homepage/ContentGrid/grid module 01 - tile3'), FailureHandling.STOP_ON_FAILURE)
+    WebUI.click(findTestObject('Homepage/ContentTiles/tiles module 01 - tile4 CTA'), FailureHandling.STOP_ON_FAILURE)
 
     WebUI.waitForPageLoad(0)
 
@@ -332,7 +355,7 @@ not_run: if (WebUI.verifyElementPresent(findTestObject('Homepage/ContentTiles/ti
     if (WebUI.verifyMatch(windowTitle, modifiedString, false, FailureHandling.OPTIONAL)) {
         WebUI.back()
 
-        href = WebUI.getAttribute(findTestObject('Homepage/ContentGrid/grid module 01 - tile3'), 'href')
+        href = WebUI.getAttribute(findTestObject('Homepage/ContentTiles/tiles module 01 - tile4 CTA'), 'href')
 
         href = ((href - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com')
 
@@ -340,41 +363,167 @@ not_run: if (WebUI.verifyElementPresent(findTestObject('Homepage/ContentTiles/ti
 
         WebUI.waitForPageLoad(0)
 
+        WebUI.delay(2)
+
         windowTitle = WebUI.getWindowTitle()
 
-        modifiedString = (windowTitle - 'Lexus')
+        modifiedString = ((windowTitle - 'Lexus') - 'Offers')
 
         WebUI.verifyNotMatch(windowTitle, modifiedString, false, FailureHandling.STOP_ON_FAILURE)
     }
     
     WebUI.back()
 
-    WebUI.waitForElementPresent(findTestObject('Homepage/ContentGrid/grid module 01'), 0, FailureHandling.OPTIONAL)
+    WebUI.waitForElementPresent(findTestObject('Homepage/ContentTiles/tiles module 01'), 0, FailureHandling.OPTIONAL)
 
-    WebUI.scrollToElement(findTestObject('Homepage/ContentGrid/grid module 01'), 0, FailureHandling.STOP_ON_FAILURE)
+    WebUI.scrollToElement(findTestObject('Homepage/ContentTiles/tiles module 01'), 0, FailureHandling.STOP_ON_FAILURE)
+}
+
+'runs more tests if there are additional grid modules present'
+if (WebUI.verifyElementPresent(findTestObject('Homepage/ContentTiles/tiles module 02'), 3, FailureHandling.OPTIONAL)) {
+    WebUI.scrollToElement(findTestObject('Homepage/ContentTiles/tiles module 02'), 0, FailureHandling.STOP_ON_FAILURE)
+
+    'checks hover state, with workaround for the firefox driver not being able to mouseOver'
+    if (WebUI.verifyNotMatch(browser, 'firefox', false, FailureHandling.OPTIONAL)) {
+        imageNoHover = WebUI.getCSSValue(findTestObject('Homepage/ContentTiles/tiles module 02 - tile1 image'), 'transform', 
+            FailureHandling.STOP_ON_FAILURE)
+
+        CTANoHoverColor = WebUI.getCSSValue(findTestObject('Homepage/ContentTiles/tiles module 02 - tile1 CTA'), 'color', 
+            FailureHandling.STOP_ON_FAILURE)
+
+        CTANoHoverBackground = WebUI.getCSSValue(findTestObject('Homepage/ContentTiles/tiles module 02 - tile1 CTA'), 'background-color', 
+            FailureHandling.STOP_ON_FAILURE)
+
+        WebUI.mouseOver(findTestObject('Homepage/ContentTiles/tiles module 02 - tile1 image'), FailureHandling.STOP_ON_FAILURE)
+
+        WebUI.delay(2)
+
+        imageYesHover = WebUI.getCSSValue(findTestObject('Homepage/ContentTiles/tiles module 02 - tile1 image'), 'transform', 
+            FailureHandling.STOP_ON_FAILURE)
+
+        WebUI.mouseOver(findTestObject('Homepage/ContentTiles/tiles module 02 - tile1 CTA'), FailureHandling.STOP_ON_FAILURE)
+
+        CTAYesHoverColor = WebUI.getCSSValue(findTestObject('Homepage/ContentTiles/tiles module 02 - tile1 CTA'), 'color', 
+            FailureHandling.STOP_ON_FAILURE)
+
+        CTAYesHoverBackground = WebUI.getCSSValue(findTestObject('Homepage/ContentTiles/tiles module 02 - tile1 CTA'), 'background-color', 
+            FailureHandling.STOP_ON_FAILURE)
+
+        WebUI.verifyNotMatch(CTANoHoverColor, CTAYesHoverColor, false, FailureHandling.STOP_ON_FAILURE)
+
+        WebUI.verifyNotMatch(CTANoHoverBackground, CTAYesHoverBackground, false, FailureHandling.STOP_ON_FAILURE)
+
+        WebUI.verifyNotMatch(imageNoHover, imageYesHover, false, FailureHandling.STOP_ON_FAILURE)
+    }
+    
+    WebUI.verifyElementPresent(findTestObject('Homepage/ContentTiles/tiles module 02 - tile1 image'), 0, FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.verifyElementPresent(findTestObject('Homepage/ContentTiles/tiles module 02 - tile1 CTA'), 0, FailureHandling.STOP_ON_FAILURE)
+
+    'checks hover state, with workaround for the firefox driver not being able to mouseOver'
+    if (WebUI.verifyNotMatch(browser, 'firefox', false, FailureHandling.OPTIONAL)) {
+        imageNoHover = WebUI.getCSSValue(findTestObject('Homepage/ContentTiles/tiles module 02 - tile2 image'), 'transform', 
+            FailureHandling.STOP_ON_FAILURE)
+
+        CTANoHoverColor = WebUI.getCSSValue(findTestObject('Homepage/ContentTiles/tiles module 02 - tile2 CTA'), 'color', 
+            FailureHandling.STOP_ON_FAILURE)
+
+        CTANoHoverBackground = WebUI.getCSSValue(findTestObject('Homepage/ContentTiles/tiles module 02 - tile2 CTA'), 'background-color', 
+            FailureHandling.STOP_ON_FAILURE)
+
+        WebUI.mouseOver(findTestObject('Homepage/ContentTiles/tiles module 02 - tile2 image'), FailureHandling.STOP_ON_FAILURE)
+
+        WebUI.delay(2)
+
+        imageYesHover = WebUI.getCSSValue(findTestObject('Homepage/ContentTiles/tiles module 02 - tile2 image'), 'transform', 
+            FailureHandling.STOP_ON_FAILURE)
+
+        WebUI.mouseOver(findTestObject('Homepage/ContentTiles/tiles module 02 - tile2 CTA'), FailureHandling.STOP_ON_FAILURE)
+
+        CTAYesHoverColor = WebUI.getCSSValue(findTestObject('Homepage/ContentTiles/tiles module 02 - tile2 CTA'), 'color', 
+            FailureHandling.STOP_ON_FAILURE)
+
+        CTAYesHoverBackground = WebUI.getCSSValue(findTestObject('Homepage/ContentTiles/tiles module 02 - tile2 CTA'), 'background-color', 
+            FailureHandling.STOP_ON_FAILURE)
+
+        WebUI.verifyNotMatch(CTANoHoverColor, CTAYesHoverColor, false, FailureHandling.STOP_ON_FAILURE)
+
+        WebUI.verifyNotMatch(CTANoHoverBackground, CTAYesHoverBackground, false, FailureHandling.STOP_ON_FAILURE)
+
+        WebUI.verifyNotMatch(imageNoHover, imageYesHover, false, FailureHandling.STOP_ON_FAILURE)
+    }
+    
+    WebUI.verifyElementPresent(findTestObject('Homepage/ContentTiles/tiles module 02 - tile2 image'), 0, FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.verifyElementPresent(findTestObject('Homepage/ContentTiles/tiles module 02 - tile2 CTA'), 0, FailureHandling.STOP_ON_FAILURE)
+
+    'checks hover state, with workaround for the firefox driver not being able to mouseOver'
+    if (WebUI.verifyNotMatch(browser, 'firefox', false, FailureHandling.OPTIONAL)) {
+        imageNoHover = WebUI.getCSSValue(findTestObject('Homepage/ContentTiles/tiles module 02 - tile3 image'), 'transform', 
+            FailureHandling.STOP_ON_FAILURE)
+
+        CTANoHoverColor = WebUI.getCSSValue(findTestObject('Homepage/ContentTiles/tiles module 02 - tile3 CTA'), 'color', 
+            FailureHandling.STOP_ON_FAILURE)
+
+        CTANoHoverBackground = WebUI.getCSSValue(findTestObject('Homepage/ContentTiles/tiles module 02 - tile3 CTA'), 'background-color', 
+            FailureHandling.STOP_ON_FAILURE)
+
+        WebUI.mouseOver(findTestObject('Homepage/ContentTiles/tiles module 02 - tile3 image'), FailureHandling.STOP_ON_FAILURE)
+
+        WebUI.delay(2)
+
+        imageYesHover = WebUI.getCSSValue(findTestObject('Homepage/ContentTiles/tiles module 02 - tile3 image'), 'transform', 
+            FailureHandling.STOP_ON_FAILURE)
+
+        WebUI.mouseOver(findTestObject('Homepage/ContentTiles/tiles module 02 - tile3 CTA'), FailureHandling.STOP_ON_FAILURE)
+
+        CTAYesHoverColor = WebUI.getCSSValue(findTestObject('Homepage/ContentTiles/tiles module 02 - tile3 CTA'), 'color', 
+            FailureHandling.STOP_ON_FAILURE)
+
+        CTAYesHoverBackground = WebUI.getCSSValue(findTestObject('Homepage/ContentTiles/tiles module 02 - tile3 CTA'), 'background-color', 
+            FailureHandling.STOP_ON_FAILURE)
+
+        WebUI.verifyNotMatch(CTANoHoverColor, CTAYesHoverColor, false, FailureHandling.STOP_ON_FAILURE)
+
+        WebUI.verifyNotMatch(CTANoHoverBackground, CTAYesHoverBackground, false, FailureHandling.STOP_ON_FAILURE)
+
+        WebUI.verifyNotMatch(imageNoHover, imageYesHover, false, FailureHandling.STOP_ON_FAILURE)
+    }
+    
+    WebUI.verifyElementPresent(findTestObject('Homepage/ContentTiles/tiles module 02 - tile3 image'), 0, FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.verifyElementPresent(findTestObject('Homepage/ContentTiles/tiles module 02 - tile3 CTA'), 0, FailureHandling.STOP_ON_FAILURE)
 
     'continues tests if there is another tile'
-    if (WebUI.verifyElementPresent(findTestObject('Homepage/ContentGrid/grid module 01 - tile4'), 3, FailureHandling.OPTIONAL)) {
+    if (WebUI.verifyElementPresent(findTestObject('Homepage/ContentTiles/tiles module 02 - tile4 image'), 3, FailureHandling.OPTIONAL)) {
+        WebUI.click(findTestObject('Homepage/ContentTiles/tiles module 02 - next button'))
+
+        WebUI.delay(2)
+
         'checks hover state, with workaround for the firefox driver not being able to mouseOver'
         if (WebUI.verifyNotMatch(browser, 'firefox', false, FailureHandling.OPTIONAL)) {
-            imageNoHover = WebUI.getCSSValue(findTestObject('Homepage/ContentGrid/grid module 01 - tile4 image'), 'transform', 
+            imageNoHover = WebUI.getCSSValue(findTestObject('Homepage/ContentTiles/tiles module 02 - tile4 image'), 'transform', 
                 FailureHandling.STOP_ON_FAILURE)
 
-            CTANoHoverColor = WebUI.getCSSValue(findTestObject('Homepage/ContentGrid/grid module 01 - tile4 CTA'), 'color', 
+            CTANoHoverColor = WebUI.getCSSValue(findTestObject('Homepage/ContentTiles/tiles module 02 - tile4 CTA'), 'color', 
                 FailureHandling.STOP_ON_FAILURE)
 
-            CTANoHoverBackground = WebUI.getCSSValue(findTestObject('Homepage/ContentGrid/grid module 01 - tile4 CTA'), 
+            CTANoHoverBackground = WebUI.getCSSValue(findTestObject('Homepage/ContentTiles/tiles module 02 - tile4 CTA'), 
                 'background-color', FailureHandling.STOP_ON_FAILURE)
 
-            WebUI.mouseOver(findTestObject('Homepage/ContentGrid/grid module 01 - tile4'), FailureHandling.STOP_ON_FAILURE)
+            WebUI.mouseOver(findTestObject('Homepage/ContentTiles/tiles module 02 - tile4 image'), FailureHandling.STOP_ON_FAILURE)
 
-            imageYesHover = WebUI.getCSSValue(findTestObject('Homepage/ContentGrid/grid module 01 - tile4 image'), 'transform', 
+            WebUI.delay(2)
+
+            imageYesHover = WebUI.getCSSValue(findTestObject('Homepage/ContentTiles/tiles module 02 - tile4 image'), 'transform', 
                 FailureHandling.STOP_ON_FAILURE)
 
-            CTAYesHoverColor = WebUI.getCSSValue(findTestObject('Homepage/ContentGrid/grid module 01 - tile4 CTA'), 'color', 
+            WebUI.mouseOver(findTestObject('Homepage/ContentTiles/tiles module 02 - tile4 CTA'), FailureHandling.STOP_ON_FAILURE)
+
+            CTAYesHoverColor = WebUI.getCSSValue(findTestObject('Homepage/ContentTiles/tiles module 02 - tile4 CTA'), 'color', 
                 FailureHandling.STOP_ON_FAILURE)
 
-            CTAYesHoverBackground = WebUI.getCSSValue(findTestObject('Homepage/ContentGrid/grid module 01 - tile4 CTA'), 
+            CTAYesHoverBackground = WebUI.getCSSValue(findTestObject('Homepage/ContentTiles/tiles module 02 - tile4 CTA'), 
                 'background-color', FailureHandling.STOP_ON_FAILURE)
 
             WebUI.verifyNotMatch(CTANoHoverColor, CTAYesHoverColor, false, FailureHandling.STOP_ON_FAILURE)
@@ -384,181 +533,51 @@ not_run: if (WebUI.verifyElementPresent(findTestObject('Homepage/ContentTiles/ti
             WebUI.verifyNotMatch(imageNoHover, imageYesHover, false, FailureHandling.STOP_ON_FAILURE)
         }
         
-        WebUI.verifyElementPresent(findTestObject('Homepage/ContentGrid/grid module 01 - tile4 image'), 0, FailureHandling.STOP_ON_FAILURE)
+        WebUI.verifyElementPresent(findTestObject('Homepage/ContentTiles/tiles module 02 - tile4 image'), 0, FailureHandling.STOP_ON_FAILURE)
 
-        WebUI.verifyElementPresent(findTestObject('Homepage/ContentGrid/grid module 01 - tile4 CTA'), 0, FailureHandling.STOP_ON_FAILURE)
-
-        WebUI.delay(2)
-
-        WebUI.click(findTestObject('Homepage/ContentGrid/grid module 01 - tile4'), FailureHandling.STOP_ON_FAILURE)
-
-        WebUI.waitForPageLoad(0)
-
-        windowTitle = WebUI.getWindowTitle()
-
-        modifiedString = (windowTitle - 'Lexus')
-
-        'these steps are added to handle environments in which the linked page is not present'
-        if (WebUI.verifyMatch(windowTitle, modifiedString, false, FailureHandling.OPTIONAL)) {
-            WebUI.back()
-
-            href = WebUI.getAttribute(findTestObject('Homepage/ContentGrid/grid module 01 - tile4'), 'href')
-
-            href = ((href - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com')
-
-            WebUI.navigateToUrl('https://www.lexus.com' + href)
-
-            WebUI.waitForPageLoad(0)
-
-            windowTitle = WebUI.getWindowTitle()
-
-            modifiedString = (windowTitle - 'Lexus')
-
-            WebUI.verifyNotMatch(windowTitle, modifiedString, false, FailureHandling.STOP_ON_FAILURE)
-        }
-        
-        WebUI.back()
-
-        WebUI.waitForElementPresent(findTestObject('Homepage/ContentGrid/grid module 01'), 0, FailureHandling.OPTIONAL)
-
-        WebUI.scrollToElement(findTestObject('Homepage/ContentGrid/grid module 01'), 0, FailureHandling.STOP_ON_FAILURE)
-
-        WebUI.verifyElementNotPresent(findTestObject('Homepage/ContentGrid/grid module 01 - tile5'), 0, FailureHandling.STOP_ON_FAILURE)
-    }
-}
-
-'runs more tests if there are additional grid modules present'
-not_run: if (WebUI.verifyElementPresent(findTestObject('Homepage/ContentGrid/grid module 02'), 3, FailureHandling.OPTIONAL)) {
-    WebUI.scrollToElement(findTestObject('Homepage/ContentGrid/grid module 02'), 0, FailureHandling.OPTIONAL)
-
-    WebUI.delay(1)
-
-    WebUI.mouseOver(findTestObject('Homepage/ContentGrid/grid module 02 - tile1'), FailureHandling.OPTIONAL)
-
-    WebUI.verifyElementPresent(findTestObject('Homepage/ContentGrid/grid module 02 - tile1 image'), 0, FailureHandling.STOP_ON_FAILURE)
-
-    WebUI.verifyElementPresent(findTestObject('Homepage/ContentGrid/grid module 02 - tile1 CTA'), 0, FailureHandling.STOP_ON_FAILURE)
-
-    WebUI.delay(1)
-
-    WebUI.mouseOver(findTestObject('Homepage/ContentGrid/grid module 02 - tile2'), FailureHandling.OPTIONAL)
-
-    WebUI.verifyElementPresent(findTestObject('Homepage/ContentGrid/grid module 02 - tile2 image'), 0, FailureHandling.STOP_ON_FAILURE)
-
-    WebUI.verifyElementPresent(findTestObject('Homepage/ContentGrid/grid module 02 - tile2 CTA'), 0, FailureHandling.STOP_ON_FAILURE)
-
-    WebUI.delay(1)
-
-    'continues tests if there is another tile'
-    if (WebUI.verifyElementPresent(findTestObject('Homepage/ContentGrid/grid module 02 - tile3'), 3, FailureHandling.OPTIONAL)) {
-        WebUI.mouseOver(findTestObject('Homepage/ContentGrid/grid module 02 - tile3'), FailureHandling.OPTIONAL)
-
-        WebUI.verifyElementPresent(findTestObject('Homepage/ContentGrid/grid module 02 - tile3 image'), 0, FailureHandling.STOP_ON_FAILURE)
-
-        WebUI.verifyElementPresent(findTestObject('Homepage/ContentGrid/grid module 02 - tile3 CTA'), 0, FailureHandling.STOP_ON_FAILURE)
-
-        WebUI.delay(1)
-
-        'continues tests if there is another tile'
-        if (WebUI.verifyElementPresent(findTestObject('Homepage/ContentGrid/grid module 02 - tile4'), 3, FailureHandling.OPTIONAL)) {
-            WebUI.mouseOver(findTestObject('Homepage/ContentGrid/grid module 02 - tile4'), FailureHandling.OPTIONAL)
-
-            WebUI.verifyElementPresent(findTestObject('Homepage/ContentGrid/grid module 02 - tile4 image'), 0, FailureHandling.STOP_ON_FAILURE)
-
-            WebUI.verifyElementPresent(findTestObject('Homepage/ContentGrid/grid module 02 - tile4 CTA'), 0, FailureHandling.STOP_ON_FAILURE)
-
-            WebUI.delay(1)
-        }
+        WebUI.verifyElementPresent(findTestObject('Homepage/ContentTiles/tiles module 02 - tile4 CTA'), 0, FailureHandling.STOP_ON_FAILURE)
     }
     
     'runs more tests if there are additional grid modules present'
-    if (WebUI.verifyElementPresent(findTestObject('Homepage/ContentGrid/grid module 03'), 3, FailureHandling.OPTIONAL)) {
-        WebUI.scrollToElement(findTestObject('Homepage/ContentGrid/grid module 03'), 0, FailureHandling.OPTIONAL)
+    if (WebUI.verifyElementPresent(findTestObject('Homepage/ContentTiles/tiles module 03'), 3, FailureHandling.OPTIONAL)) {
+        WebUI.scrollToElement(findTestObject('Homepage/ContentTiles/tiles module 03'), 0, FailureHandling.STOP_ON_FAILURE)
 
-        WebUI.delay(1)
+        'checks hover state, with workaround for the firefox driver not being able to mouseOver'
+        if (WebUI.verifyNotMatch(browser, 'firefox', false, FailureHandling.OPTIONAL)) {
+            imageNoHover = WebUI.getCSSValue(findTestObject('Homepage/ContentTiles/tiles module 03 - tile1 image'), 'transform', 
+                FailureHandling.STOP_ON_FAILURE)
 
-        WebUI.mouseOver(findTestObject('Homepage/ContentGrid/grid module 03 - tile1'), FailureHandling.OPTIONAL)
+            CTANoHoverColor = WebUI.getCSSValue(findTestObject('Homepage/ContentTiles/tiles module 03 - tile1 CTA'), 'color', 
+                FailureHandling.STOP_ON_FAILURE)
 
-        WebUI.verifyElementPresent(findTestObject('Homepage/ContentGrid/grid module 03 - tile1 image'), 0, FailureHandling.STOP_ON_FAILURE)
+            CTANoHoverBackground = WebUI.getCSSValue(findTestObject('Homepage/ContentTiles/tiles module 03 - tile1 CTA'), 
+                'background-color', FailureHandling.STOP_ON_FAILURE)
 
-        WebUI.verifyElementPresent(findTestObject('Homepage/ContentGrid/grid module 03 - tile1 CTA'), 0, FailureHandling.STOP_ON_FAILURE)
+            WebUI.mouseOver(findTestObject('Homepage/ContentTiles/tiles module 03 - tile1 image'), FailureHandling.STOP_ON_FAILURE)
 
-        WebUI.delay(1)
+            WebUI.delay(2)
 
-        WebUI.mouseOver(findTestObject('Homepage/ContentGrid/grid module 03 - tile2'), FailureHandling.OPTIONAL)
+            imageYesHover = WebUI.getCSSValue(findTestObject('Homepage/ContentTiles/tiles module 03 - tile1 image'), 'transform', 
+                FailureHandling.STOP_ON_FAILURE)
 
-        WebUI.verifyElementPresent(findTestObject('Homepage/ContentGrid/grid module 03 - tile2 image'), 0, FailureHandling.STOP_ON_FAILURE)
+            WebUI.mouseOver(findTestObject('Homepage/ContentTiles/tiles module 03 - tile1 CTA'), FailureHandling.STOP_ON_FAILURE)
 
-        WebUI.verifyElementPresent(findTestObject('Homepage/ContentGrid/grid module 03 - tile2 CTA'), 0, FailureHandling.STOP_ON_FAILURE)
+            CTAYesHoverColor = WebUI.getCSSValue(findTestObject('Homepage/ContentTiles/tiles module 03 - tile1 CTA'), 'color', 
+                FailureHandling.STOP_ON_FAILURE)
 
-        WebUI.delay(1)
+            CTAYesHoverBackground = WebUI.getCSSValue(findTestObject('Homepage/ContentTiles/tiles module 03 - tile1 CTA'), 
+                'background-color', FailureHandling.STOP_ON_FAILURE)
 
-        'continues tests if there is another tile'
-        if (WebUI.verifyElementPresent(findTestObject('Homepage/ContentGrid/grid module 03 - tile3'), 3, FailureHandling.OPTIONAL)) {
-            WebUI.mouseOver(findTestObject('Homepage/ContentGrid/grid module 03 - tile3'), FailureHandling.OPTIONAL)
+            WebUI.verifyNotMatch(CTANoHoverColor, CTAYesHoverColor, false, FailureHandling.STOP_ON_FAILURE)
 
-            WebUI.verifyElementPresent(findTestObject('Homepage/ContentGrid/grid module 03 - tile3 image'), 0, FailureHandling.STOP_ON_FAILURE)
+            WebUI.verifyNotMatch(CTANoHoverBackground, CTAYesHoverBackground, false, FailureHandling.STOP_ON_FAILURE)
 
-            WebUI.verifyElementPresent(findTestObject('Homepage/ContentGrid/grid module 03 - tile3 CTA'), 0, FailureHandling.STOP_ON_FAILURE)
-
-            WebUI.delay(1)
-
-            'continues tests if there is another tile'
-            if (WebUI.verifyElementPresent(findTestObject('Homepage/ContentGrid/grid module 03 - tile4'), 3, FailureHandling.OPTIONAL)) {
-                WebUI.mouseOver(findTestObject('Homepage/ContentGrid/grid module 03 - tile4'), FailureHandling.OPTIONAL)
-
-                WebUI.verifyElementPresent(findTestObject('Homepage/ContentGrid/grid module 03 - tile4 image'), 0, FailureHandling.STOP_ON_FAILURE)
-
-                WebUI.verifyElementPresent(findTestObject('Homepage/ContentGrid/grid module 03 - tile4 CTA'), 0, FailureHandling.STOP_ON_FAILURE)
-
-                WebUI.delay(1)
-            }
+            WebUI.verifyNotMatch(imageNoHover, imageYesHover, false, FailureHandling.STOP_ON_FAILURE)
         }
         
-        'runs more tests if there are additional grid modules present'
-        if (WebUI.verifyElementPresent(findTestObject('Homepage/ContentGrid/grid module 04'), 3, FailureHandling.OPTIONAL)) {
-            WebUI.scrollToElement(findTestObject('Homepage/ContentGrid/grid module 04'), 0, FailureHandling.OPTIONAL)
+        WebUI.verifyElementPresent(findTestObject('Homepage/ContentTiles/tiles module 03 - tile1 image'), 0, FailureHandling.STOP_ON_FAILURE)
 
-            WebUI.delay(1)
-
-            WebUI.mouseOver(findTestObject('Homepage/ContentGrid/grid module 04 - tile1'), FailureHandling.OPTIONAL)
-
-            WebUI.verifyElementPresent(findTestObject('Homepage/ContentGrid/grid module 04 - tile1 image'), 0, FailureHandling.STOP_ON_FAILURE)
-
-            WebUI.verifyElementPresent(findTestObject('Homepage/ContentGrid/grid module 04 - tile1 CTA'), 0, FailureHandling.STOP_ON_FAILURE)
-
-            WebUI.delay(1)
-
-            WebUI.mouseOver(findTestObject('Homepage/ContentGrid/grid module 04 - tile2'), FailureHandling.OPTIONAL)
-
-            WebUI.verifyElementPresent(findTestObject('Homepage/ContentGrid/grid module 04 - tile2 image'), 0, FailureHandling.STOP_ON_FAILURE)
-
-            WebUI.verifyElementPresent(findTestObject('Homepage/ContentGrid/grid module 04 - tile2 CTA'), 0, FailureHandling.STOP_ON_FAILURE)
-
-            WebUI.delay(1)
-
-            'continues tests if there is another tile'
-            if (WebUI.verifyElementPresent(findTestObject('Homepage/ContentGrid/grid module 04 - tile3'), 3, FailureHandling.OPTIONAL)) {
-                WebUI.mouseOver(findTestObject('Homepage/ContentGrid/grid module 04 - tile3'), FailureHandling.OPTIONAL)
-
-                WebUI.verifyElementPresent(findTestObject('Homepage/ContentGrid/grid module 04 - tile3 image'), 0, FailureHandling.STOP_ON_FAILURE)
-
-                WebUI.verifyElementPresent(findTestObject('Homepage/ContentGrid/grid module 04 - tile3 CTA'), 0, FailureHandling.STOP_ON_FAILURE)
-
-                WebUI.delay(1)
-
-                'continues tests if there is another tile'
-                if (WebUI.verifyElementPresent(findTestObject('Homepage/ContentGrid/grid module 04 - tile4'), 3, FailureHandling.OPTIONAL)) {
-                    WebUI.mouseOver(findTestObject('Homepage/ContentGrid/grid module 04 - tile4'), FailureHandling.OPTIONAL)
-
-                    WebUI.verifyElementPresent(findTestObject('Homepage/ContentGrid/grid module 04 - tile4 image'), 0, FailureHandling.STOP_ON_FAILURE)
-
-                    WebUI.verifyElementPresent(findTestObject('Homepage/ContentGrid/grid module 04 - tile4 CTA'), 0, FailureHandling.STOP_ON_FAILURE)
-
-                    WebUI.delay(1)
-                }
-            }
-        }
+        WebUI.verifyElementPresent(findTestObject('Homepage/ContentTiles/tiles module 03 - tile1 CTA'), 0, FailureHandling.STOP_ON_FAILURE)
     }
 }
 

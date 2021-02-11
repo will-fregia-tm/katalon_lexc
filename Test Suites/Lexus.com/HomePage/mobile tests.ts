@@ -35,4 +35,40 @@
          <variableId>47f81302-047b-4c48-91eb-5d7b01e18430</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>0c5f9e6d-f8cb-490b-a9b0-fcf36360bb0d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/HomePage/ContentTiles/Images and CTAs are tappable - mobile</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>415fe51e-28eb-4886-84b5-524862408ae6</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ee62a122-6c8e-45db-8084-4fa6900ca5f2</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/HomePage/ContentGrid/Images and CTAs are tappable - mobile</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>05ab2fd3-68b6-4535-a9f9-d1a76d43ef4e</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>846ac36f-9e49-43a2-acad-922b7812beb4</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/HomePage/MessageBar/Module links to functional URL - mobile</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c83daade-8378-4cc4-b784-3d8cd638ad13</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>

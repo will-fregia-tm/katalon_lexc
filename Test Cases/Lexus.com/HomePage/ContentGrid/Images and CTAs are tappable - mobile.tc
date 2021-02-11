@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Image and CTA will be clickable/tappable. Each module will have 2-4 tiles, each of which will have 1 CTA and 1 image.
+</description>
+   <name>Images and CTAs are tappable - mobile</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c2f62752-a639-4d77-841e-f542eba26f39</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>05ab2fd3-68b6-4535-a9f9-d1a76d43ef4e</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>

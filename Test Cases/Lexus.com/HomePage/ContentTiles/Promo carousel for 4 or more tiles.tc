@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>On desktop view, carousel shall appear with a minimum of 4 items. Carousel shall appear with a maximum of 6 items. Carousel will progress 3 items at a time and loop.
+
+</description>
+   <name>Promo carousel for 4 or more tiles</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>62c55b7b-bee4-4445-856e-c3bff7b2fd37</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>721d3f12-e8ed-4df0-beb6-ed85c02c9b1b</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>

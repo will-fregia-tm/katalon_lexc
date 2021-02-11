@@ -101,7 +101,10 @@ if (WebUI.verifyNotMatch(windowTitle, 'Lexus - Find a Dealer', false, FailureHan
 
     windowTitle = WebUI.getWindowTitle()
 
-    WebUI.verifyMatch(windowTitle, 'Lexus - Find a Dealer', false, FailureHandling.STOP_ON_FAILURE)
+    'this is covers slightly different window titles'
+    if (WebUI.verifyNotMatch(windowTitle, 'Lexus - Find a Dealer', false, FailureHandling.OPTIONAL)) {
+        WebUI.verifyMatch(windowTitle, 'Find a Dealer', false, FailureHandling.STOP_ON_FAILURE)
+    }
 }
 
 WebUI.back()
@@ -116,21 +119,24 @@ windowTitle = WebUI.getWindowTitle()
 
 'these steps are added to handle environments in which Offers page is not present'
 if (WebUI.verifyNotMatch(windowTitle, 'Lexus Offers | Experience Amazing', false, FailureHandling.OPTIONAL)) {
-	WebUI.back()
+    WebUI.back()
 
-	href = WebUI.getAttribute(findTestObject('Homepage/QuickLinks/Offers link'), 'href')
+    href = WebUI.getAttribute(findTestObject('Homepage/QuickLinks/Offers link'), 'href')
 
-	href = (href - 'https://dev-aem-lcom.origin.cepo-proxy.tms.aws.lexus.com')
+    href = (href - 'https://dev-aem-lcom.origin.cepo-proxy.tms.aws.lexus.com')
 
-	href = (href - 'https://stage-aem.author.toyota.com')
+    href = (href - 'https://stage-aem.author.toyota.com')
 
-	WebUI.navigateToUrl('https://www.lexus.com' + href)
+    WebUI.navigateToUrl('https://www.lexus.com' + href)
 
-	WebUI.waitForPageLoad(0)
+    WebUI.waitForPageLoad(0)
 
-	windowTitle = WebUI.getWindowTitle()
+    windowTitle = WebUI.getWindowTitle()
 
-	WebUI.verifyMatch(windowTitle, 'Lexus Offers | Experience Amazing', false, FailureHandling.STOP_ON_FAILURE)
+    'this is covers slightly different window titles'
+    if (WebUI.verifyNotMatch(windowTitle, 'Lexus Offers | Experience Amazing', false, FailureHandling.OPTIONAL)) {
+        WebUI.verifyMatch(windowTitle, 'Offers', false, FailureHandling.STOP_ON_FAILURE)
+    }
 }
 
 @com.kms.katalon.core.annotation.TearDownIfPassed

@@ -112,6 +112,15 @@ if (WebUI.verifyMatch(GlobalVariable.legacy, 'no', false, FailureHandling.OPTION
 
         WebUI.waitForElementPresent(findTestObject('Homepage/HeroOffers/offer cards row'), 5, FailureHandling.OPTIONAL)
 
+        'if the page renders slowly, it will be refreshed so the test can continue'
+        if (WebUI.verifyElementNotPresent(findTestObject('Homepage/HeroOffers/offer cards row'), 3, FailureHandling.OPTIONAL)) {
+            WebUI.refresh()
+
+            WebUI.delay(2)
+        }
+        
+        WebUI.waitForElementPresent(findTestObject('Homepage/HeroOffers/offer cards row'), 5, FailureHandling.OPTIONAL)
+
         WebUI.verifyElementPresent(findTestObject('Homepage/HeroOffers/offer cards row'), 0, FailureHandling.STOP_ON_FAILURE)
 
         WebUI.refresh()

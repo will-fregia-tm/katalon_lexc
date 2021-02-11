@@ -35,4 +35,28 @@
          <variableId>2ae4a3c9-edc4-4d14-858f-21a5f2f32f26</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>c60a350d-37df-43c3-80bc-c93e5c7fa9f0</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/HomePage/ContentTiles/Promo carousel for 4 or more tiles</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>721d3f12-e8ed-4df0-beb6-ed85c02c9b1b</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8fb144c7-cea4-47c0-a1ba-bf148e326f88</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/HomePage/MessageBar/Module links to functional URL, and has a rollover state</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>bb818632-7a1a-4543-9b6f-ac2efbf40cfa</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>

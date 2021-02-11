@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Each content block will contain 1 CTA. These CTAs will always be present/visible. Image and CTA will be clickable/tappable. Image and cta shall be tappable and link to the same destination. 
+
+</description>
+   <name>Images and CTAs are tappable - mobile</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a766ecd4-67ca-4cd8-bba1-842565994eb0</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>415fe51e-28eb-4886-84b5-524862408ae6</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>

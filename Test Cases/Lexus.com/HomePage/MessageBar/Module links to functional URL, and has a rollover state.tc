@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Recall CTA and text should be present. When a user clicks/taps anywhere in the module, then the system navigates user to target url - should be: https://www.toyota.com/recall (unless otherwise specified). When a user hovers over anywhere in the module, then the system shall: update the module to its hover over state, with all text will have a higher opacity
+</description>
+   <name>Module links to functional URL, and has a rollover state</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5b8a783c-5076-4c59-a793-012c0a38b512</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>bb818632-7a1a-4543-9b6f-ac2efbf40cfa</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>
