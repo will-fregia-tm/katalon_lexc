@@ -42,9 +42,13 @@ if (WebUI.verifyElementNotPresent(findTestObject('GlobalNav/header/header - Lexu
     WebUI.refresh()
 }
 
-WebUI.verifyElementPresent(findTestObject('Homepage/HeroModule/hero module'), 0, FailureHandling.STOP_ON_FAILURE)
-
 WebUI.waitForElementPresent(findTestObject('Homepage/MessageBar/bar'), 0, FailureHandling.OPTIONAL)
+
+WebUI.scrollToElement(findTestObject('Homepage/ContentTiles/tiles module 01'), 0, FailureHandling.OPTIONAL)
+
+WebUI.scrollToElement(findTestObject('Homepage/ContentTiles/tiles module 02'), 0, FailureHandling.OPTIONAL)
+
+WebUI.scrollToElement(findTestObject('Homepage/ContentTiles/tiles module 03'), 0, FailureHandling.OPTIONAL)
 
 WebUI.scrollToElement(findTestObject('Homepage/MessageBar/bar'), 0, FailureHandling.STOP_ON_FAILURE)
 
@@ -79,9 +83,9 @@ if (WebUI.verifyMatch(windowTitle, modifiedString, false, FailureHandling.OPTION
 
     href = WebUI.getAttribute(findTestObject('Homepage/MessageBar/bar'), 'href', FailureHandling.STOP_ON_FAILURE)
 
-    href = ((href - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com')
+    not_run: href = ((href - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com')
 
-    WebUI.navigateToUrl('https://www.lexus.com' + href, FailureHandling.STOP_ON_FAILURE)
+    WebUI.navigateToUrl(href, FailureHandling.STOP_ON_FAILURE)
 
     WebUI.waitForPageLoad(0, FailureHandling.STOP_ON_FAILURE)
 

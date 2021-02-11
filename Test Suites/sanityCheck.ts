@@ -940,7 +940,7 @@
             <runConfigurationId>saucelabs_firefox_macos10.15</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/HomePage/Tiles-Grid-Message</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Lexus.com/HomePage/Tiles-Grid-MB-VS</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -949,7 +949,7 @@
             <runConfigurationId>saucelabs_chrome_macos10.14</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/HomePage/Tiles-Grid-Message</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Lexus.com/HomePage/Tiles-Grid-MB-VS</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -958,7 +958,7 @@
             <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
          <runEnabled>false</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/HomePage/Tiles-Grid-Message</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Lexus.com/HomePage/Tiles-Grid-MB-VS</testSuiteEntity>
       </TestSuiteRunConfiguration>
    </testSuiteRunConfigurations>
 </TestSuiteCollectionEntity>
