@@ -6,14 +6,17 @@
    <elementGuidId>0972b600-1ef1-454c-a84a-f700cc704bfb</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@target = '_blank' and (contains(text(), 'INVENTORY') or contains(., 'INVENTORY'))]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>a[text*=&quot;INVENTORY&quot;][target*=&quot;_blank&quot;]</value>
       </entry>
-      <entry>
-         <key>BASIC</key>
-         <value></value>
-      </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
 </WebElementEntity>
