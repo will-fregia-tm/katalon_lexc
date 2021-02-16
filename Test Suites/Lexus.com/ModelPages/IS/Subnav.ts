@@ -119,4 +119,16 @@
          <variableId>a43bff4e-f125-40c1-ad1d-cdae40912b59</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>2e790e44-ab49-4245-b581-863047986081</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/IS/Subnav/Deep link takes user to pre-determined location on page - Offers with query parameter</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>2b676618-f438-409e-affa-d088ecd14ed9</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>
