@@ -103,7 +103,10 @@ if (WebUI.verifyNotMatch(windowTitle, 'Lexus - Find a Dealer', false, FailureHan
 
     'this is covers slightly different window titles'
     if (WebUI.verifyNotMatch(windowTitle, 'Lexus - Find a Dealer', false, FailureHandling.OPTIONAL)) {
-        WebUI.verifyMatch(windowTitle, 'Find a Dealer', false, FailureHandling.STOP_ON_FAILURE)
+        'this is covers slightly different window titles'
+        if (WebUI.verifyNotMatch(windowTitle, 'Find a Dealer', false, FailureHandling.OPTIONAL)) {
+            WebUI.verifyMatch(windowTitle, 'Find A Dealer', false, FailureHandling.STOP_ON_FAILURE)
+        }
     }
 }
 
