@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Sedans</name>
+   <tag></tag>
+   <elementGuidId>c2f50f5d-f369-4ff8-b62a-c2d6577f8056</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id = 'VehicleSelector']//span[(contains(text(), 'SEDANS') or contains(., 'SEDANS'))]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[(contains(text(), 'SEDANS') or contains(., 'SEDANS'))]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>#VehicleSelector</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>SEDANS</value>
+   </webElementProperties>
+</WebElementEntity>

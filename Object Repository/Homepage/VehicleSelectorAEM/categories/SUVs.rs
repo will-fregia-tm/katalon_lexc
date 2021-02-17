@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>SUVs</name>
+   <tag></tag>
+   <elementGuidId>87aca4ca-62ad-41fe-bee6-46e9479513ff</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//li[contains(@data-category, 'Suvs')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id = 'VehicleSelector']//span[(contains(text(), 'SUVS') or contains(., 'SUVS'))]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>css</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>data-category</name>
+      <type>Main</type>
+      <value>Suvs</value>
+   </webElementProperties>
+</WebElementEntity>

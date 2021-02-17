@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>Vehicle selector module shall contain the follow clickable vehicle segments
-
+   <description>Vehicle selector module shall contain the following clickable vehicle segments:
 - SEDANS
-
 - SUVS
-
 - COUPES
-
 - HYBRIDS
+- PERFORMANCE
 
-- PERFORMANCE</description>
+AC.01 | Model Category
+When a user tap / clicks on a model category (ie. COUPES)
+Then the system shall:
+
+update &quot;Coupes&quot; category to selected state
+Preselect the default model (defined in the CMS)
+Display background image for category
+</description>
    <name>all vehicle segments clickable in vehicle selector</name>
    <tag></tag>
    <comment></comment>
