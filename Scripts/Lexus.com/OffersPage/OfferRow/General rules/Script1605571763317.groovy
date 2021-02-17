@@ -77,6 +77,8 @@ WebUI.scrollToElement(findTestObject('OffersPage/OfferRow/row 02'), 0, FailureHa
 
 WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 02 - model jelly'), 0, FailureHandling.STOP_ON_FAILURE)
 
+imagepath = WebUI.getAttribute(findTestObject('OffersPage/OfferRow/row 02 - model jelly'), 'src', FailureHandling.OPTIONAL)
+
 WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 02 - model name'), 0, FailureHandling.STOP_ON_FAILURE)
 
 rowModel = WebUI.getText(findTestObject('OffersPage/OfferRow/row 02 - model name'), FailureHandling.STOP_ON_FAILURE)
@@ -93,6 +95,8 @@ WebUI.verifyNotMatch(offerCardText, textWithoutModel, false, FailureHandling.STO
 WebUI.scrollToElement(findTestObject('OffersPage/OfferRow/row 03'), 0, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 03 - model jelly'), 0, FailureHandling.STOP_ON_FAILURE)
+
+imagepath = WebUI.getAttribute(findTestObject('OffersPage/OfferRow/row 03 - model jelly'), 'src', FailureHandling.OPTIONAL)
 
 WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 03 - model name'), 0, FailureHandling.STOP_ON_FAILURE)
 
@@ -111,6 +115,8 @@ WebUI.scrollToElement(findTestObject('OffersPage/OfferRow/row 04'), 0, FailureHa
 
 WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 04 - model jelly'), 0, FailureHandling.STOP_ON_FAILURE)
 
+imagepath = WebUI.getAttribute(findTestObject('OffersPage/OfferRow/row 04 - model jelly'), 'src', FailureHandling.OPTIONAL)
+
 WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 04 - model name'), 0, FailureHandling.STOP_ON_FAILURE)
 
 rowModel = WebUI.getText(findTestObject('OffersPage/OfferRow/row 04 - model name'), FailureHandling.STOP_ON_FAILURE)
@@ -127,6 +133,8 @@ WebUI.verifyNotMatch(offerCardText, textWithoutModel, false, FailureHandling.STO
 WebUI.scrollToElement(findTestObject('OffersPage/OfferRow/row 05'), 0, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 05 - model jelly'), 0, FailureHandling.STOP_ON_FAILURE)
+
+imagepath = WebUI.getAttribute(findTestObject('OffersPage/OfferRow/row 05 - model jelly'), 'src', FailureHandling.OPTIONAL)
 
 WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 05 - model name'), 0, FailureHandling.STOP_ON_FAILURE)
 
@@ -147,6 +155,8 @@ if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 06'), 3, 
 
     WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 06 - model jelly'), 0, FailureHandling.STOP_ON_FAILURE)
 
+    imagepath = WebUI.getAttribute(findTestObject('OffersPage/OfferRow/row 06 - model jelly'), 'src', FailureHandling.OPTIONAL)
+
     WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 06 - model name'), 0, FailureHandling.STOP_ON_FAILURE)
 
     WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 06 - offer card 1'), 0, FailureHandling.STOP_ON_FAILURE)
@@ -156,6 +166,8 @@ if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 06'), 3, 
         WebUI.scrollToElement(findTestObject('OffersPage/OfferRow/row 07'), 0, FailureHandling.STOP_ON_FAILURE)
 
         WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 07 - model jelly'), 0, FailureHandling.STOP_ON_FAILURE)
+
+        imagepath = WebUI.getAttribute(findTestObject('OffersPage/OfferRow/row 07 - model jelly'), 'src', FailureHandling.OPTIONAL)
 
         WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 07 - model name'), 0, FailureHandling.STOP_ON_FAILURE)
 
@@ -167,6 +179,8 @@ if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 06'), 3, 
 
             WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 08 - model jelly'), 0, FailureHandling.STOP_ON_FAILURE)
 
+            imagepath = WebUI.getAttribute(findTestObject('OffersPage/OfferRow/row 08 - model jelly'), 'src', FailureHandling.OPTIONAL)
+
             WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 08 - model name'), 0, FailureHandling.STOP_ON_FAILURE)
 
             WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 08 - offer card 1'), 0, FailureHandling.STOP_ON_FAILURE)
@@ -176,6 +190,8 @@ if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 06'), 3, 
                 WebUI.scrollToElement(findTestObject('OffersPage/OfferRow/row 09'), 0, FailureHandling.STOP_ON_FAILURE)
 
                 WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 09 - model jelly'), 0, FailureHandling.STOP_ON_FAILURE)
+
+                imagepath = WebUI.getAttribute(findTestObject('OffersPage/OfferRow/row 09 - model jelly'), 'src', FailureHandling.OPTIONAL)
 
                 WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 09 - model name'), 0, FailureHandling.STOP_ON_FAILURE)
 
@@ -187,6 +203,8 @@ if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 06'), 3, 
 
                     WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 10 - model jelly'), 0, FailureHandling.STOP_ON_FAILURE)
 
+                    imagepath = WebUI.getAttribute(findTestObject('OffersPage/OfferRow/row 10 - model jelly'), 'src', FailureHandling.OPTIONAL)
+
                     WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 10 - model name'), 0, FailureHandling.STOP_ON_FAILURE)
 
                     WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 10 - offer card 1'), 0, FailureHandling.STOP_ON_FAILURE)
@@ -196,6 +214,9 @@ if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 06'), 3, 
                         WebUI.scrollToElement(findTestObject('OffersPage/OfferRow/row 11'), 0, FailureHandling.STOP_ON_FAILURE)
 
                         WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 11 - model jelly'), 0, FailureHandling.STOP_ON_FAILURE)
+
+                        imagepath = WebUI.getAttribute(findTestObject('OffersPage/OfferRow/row 11 - model jelly'), 'src', 
+                            FailureHandling.OPTIONAL)
 
                         WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 11 - model name'), 0, FailureHandling.STOP_ON_FAILURE)
 
@@ -207,6 +228,9 @@ if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 06'), 3, 
 
                             WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 12 - model jelly'), 0, FailureHandling.STOP_ON_FAILURE)
 
+                            imagepath = WebUI.getAttribute(findTestObject('OffersPage/OfferRow/row 12 - model jelly'), 'src', 
+                                FailureHandling.OPTIONAL)
+
                             WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 12 - model name'), 0, FailureHandling.STOP_ON_FAILURE)
 
                             WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 12 - offer card 1'), 0, FailureHandling.STOP_ON_FAILURE)
@@ -217,6 +241,9 @@ if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 06'), 3, 
 
                                 WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 13 - model jelly'), 0, 
                                     FailureHandling.STOP_ON_FAILURE)
+
+                                imagepath = WebUI.getAttribute(findTestObject('OffersPage/OfferRow/row 13 - model jelly'), 
+                                    'src', FailureHandling.OPTIONAL)
 
                                 WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 13 - model name'), 0, 
                                     FailureHandling.STOP_ON_FAILURE)
@@ -231,6 +258,9 @@ if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 06'), 3, 
                                     WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 14 - model jelly'), 
                                         0, FailureHandling.STOP_ON_FAILURE)
 
+                                    imagepath = WebUI.getAttribute(findTestObject('OffersPage/OfferRow/row 14 - model jelly'), 
+                                        'src', FailureHandling.OPTIONAL)
+
                                     WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 14 - model name'), 
                                         0, FailureHandling.STOP_ON_FAILURE)
 
@@ -243,6 +273,9 @@ if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 06'), 3, 
 
                                         WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 15 - model jelly'), 
                                             0, FailureHandling.STOP_ON_FAILURE)
+
+                                        imagepath = WebUI.getAttribute(findTestObject('OffersPage/OfferRow/row 15 - model jelly'), 
+                                            'src', FailureHandling.OPTIONAL)
 
                                         WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 15 - model name'), 
                                             0, FailureHandling.STOP_ON_FAILURE)
@@ -258,6 +291,9 @@ if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 06'), 3, 
                                             WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 16 - model jelly'), 
                                                 0, FailureHandling.STOP_ON_FAILURE)
 
+                                            imagepath = WebUI.getAttribute(findTestObject('OffersPage/OfferRow/row 16 - model jelly'), 
+                                                'src', FailureHandling.OPTIONAL)
+
                                             WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 16 - model name'), 
                                                 0, FailureHandling.STOP_ON_FAILURE)
 
@@ -271,6 +307,9 @@ if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 06'), 3, 
 
                                                 WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 17 - model jelly'), 
                                                     0, FailureHandling.STOP_ON_FAILURE)
+
+                                                imagepath = WebUI.getAttribute(findTestObject('OffersPage/OfferRow/row 17 - model jelly'), 
+                                                    'src', FailureHandling.OPTIONAL)
 
                                                 WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 17 - model name'), 
                                                     0, FailureHandling.STOP_ON_FAILURE)
@@ -287,6 +326,9 @@ if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 06'), 3, 
                                                     WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 18 - model jelly'), 
                                                         0, FailureHandling.STOP_ON_FAILURE)
 
+                                                    imagepath = WebUI.getAttribute(findTestObject('OffersPage/OfferRow/row 18 - model jelly'), 
+                                                        'src', FailureHandling.OPTIONAL)
+
                                                     WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 18 - model name'), 
                                                         0, FailureHandling.STOP_ON_FAILURE)
 
@@ -301,6 +343,9 @@ if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 06'), 3, 
 
                                                         WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 19 - model jelly'), 
                                                             0, FailureHandling.STOP_ON_FAILURE)
+
+                                                        imagepath = WebUI.getAttribute(findTestObject('OffersPage/OfferRow/row 19 - model jelly'), 
+                                                            'src', FailureHandling.OPTIONAL)
 
                                                         WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 19 - model name'), 
                                                             0, FailureHandling.STOP_ON_FAILURE)
@@ -317,6 +362,9 @@ if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 06'), 3, 
                                                             WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 20 - model jelly'), 
                                                                 0, FailureHandling.STOP_ON_FAILURE)
 
+                                                            imagepath = WebUI.getAttribute(findTestObject('OffersPage/OfferRow/row 20 - model jelly'), 
+                                                                'src', FailureHandling.OPTIONAL)
+
                                                             WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 20 - model name'), 
                                                                 0, FailureHandling.STOP_ON_FAILURE)
 
@@ -331,6 +379,9 @@ if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 06'), 3, 
 
                                                                 WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 21 - model jelly'), 
                                                                     0, FailureHandling.STOP_ON_FAILURE)
+
+                                                                imagepath = WebUI.getAttribute(findTestObject('OffersPage/OfferRow/row 21 - model jelly'), 
+                                                                    'src', FailureHandling.OPTIONAL)
 
                                                                 WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 21 - model name'), 
                                                                     0, FailureHandling.STOP_ON_FAILURE)
