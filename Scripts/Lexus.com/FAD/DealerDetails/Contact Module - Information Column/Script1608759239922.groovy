@@ -60,9 +60,11 @@ WebUI.getText(findTestObject('FAD/DealerDetails/dealer address'), FailureHandlin
 WebUI.verifyElementPresent(findTestObject('FAD/DealerDetails/dealer phone number'), 0, FailureHandling.STOP_ON_FAILURE)
 
 'this step is added to verify the Spanish flag on prod only, since this content may differ in lower environments'
-if (WebUI.verifyMatch(domain, 'prod', false, FailureHandling.OPTIONAL)) {
+not_run: if (WebUI.verifyMatch(domain, 'prod', false, FailureHandling.OPTIONAL)) {
     WebUI.verifyElementPresent(findTestObject('FAD/DealerDetails/spanish speaking dealer flag'), 0, FailureHandling.STOP_ON_FAILURE)
 }
+
+WebUI.verifyElementPresent(findTestObject('FAD/DealerDetails/spanish speaking dealer flag'), 0, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementPresent(findTestObject('FAD/DealerDetails/directions link'), 0, FailureHandling.STOP_ON_FAILURE)
 
