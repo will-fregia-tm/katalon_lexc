@@ -10,10 +10,7 @@ update the selected model to its active state in the model-selector-bar
 Model details for the selected model
 vehicle name
 vehicle jelly
-vehicle price
-vehicle shown pricing
-color swatches for the selected vehicle
-the default color selection selected</description>
+</description>
    <name>clickable vehicle selector thumbnails</name>
    <tag></tag>
    <comment></comment>

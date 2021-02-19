@@ -253,15 +253,16 @@ if (WebUI.verifyMatch(GlobalVariable.legacy, 'no', false, FailureHandling.OPTION
 
         WebUI.delay(2)
 
-        selectedModel = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/selected model'), FailureHandling.STOP_ON_FAILURE)
+        'chooses column with data for test environment'
+        column = GlobalVariable.dataColumn
 
-        WebUI.verifyMatch(selectedModel, 'IS', false)
+        vehiclePrice = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle price'), FailureHandling.STOP_ON_FAILURE)
 
-        vehicleName = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle name'), FailureHandling.STOP_ON_FAILURE)
+        expectedMSRP = findTestData('MSRP').getValue(column, 16)
 
-        WebUI.verifyMatch(selectedModel, vehicleName, false)
+        textWithoutExpectedMSRP = (vehiclePrice - expectedMSRP)
 
-        vehicleImage = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle jelly'), 'src', FailureHandling.STOP_ON_FAILURE)
+        WebUI.verifyNotMatch(textWithoutExpectedMSRP, vehiclePrice, false, FailureHandling.STOP_ON_FAILURE)
     }
     
     'clicks this model if it is present'
@@ -270,20 +271,13 @@ if (WebUI.verifyMatch(GlobalVariable.legacy, 'no', false, FailureHandling.OPTION
 
         WebUI.delay(2)
 
-        selectedModel = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/selected model'), FailureHandling.STOP_ON_FAILURE)
+        vehiclePrice = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle price'), FailureHandling.STOP_ON_FAILURE)
 
-        WebUI.verifyMatch(selectedModel, 'ES', false)
+        expectedMSRP = findTestData('MSRP').getValue(column, 9)
 
-        vehicleName = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle name'), FailureHandling.STOP_ON_FAILURE)
+        textWithoutExpectedMSRP = (vehiclePrice - expectedMSRP)
 
-        WebUI.verifyMatch(selectedModel, vehicleName, false)
-
-        previousImage = vehicleImage
-
-        vehicleImage = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle jelly'), 'src', FailureHandling.STOP_ON_FAILURE)
-
-        'if vehicle image has updated, its src should not match the previous value'
-        WebUI.verifyNotMatch(vehicleImage, previousImage, false, FailureHandling.STOP_ON_FAILURE)
+        WebUI.verifyNotMatch(textWithoutExpectedMSRP, vehiclePrice, false, FailureHandling.STOP_ON_FAILURE)
     }
     
     'clicks this model if it is present'
@@ -292,20 +286,13 @@ if (WebUI.verifyMatch(GlobalVariable.legacy, 'no', false, FailureHandling.OPTION
 
         WebUI.delay(1)
 
-        selectedModel = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/selected model'), FailureHandling.STOP_ON_FAILURE)
+        vehiclePrice = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle price'), FailureHandling.STOP_ON_FAILURE)
 
-        WebUI.verifyMatch(selectedModel, 'ES HYBRID', false)
+        expectedMSRP = findTestData('MSRP').getValue(column, 12)
 
-        vehicleName = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle name'), FailureHandling.STOP_ON_FAILURE)
+        textWithoutExpectedMSRP = (vehiclePrice - expectedMSRP)
 
-        WebUI.verifyMatch(selectedModel, vehicleName, false)
-
-        previousImage = vehicleImage
-
-        vehicleImage = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle jelly'), 'src', FailureHandling.STOP_ON_FAILURE)
-
-        'if vehicle image has updated, its src should not match the previous value'
-        WebUI.verifyNotMatch(vehicleImage, previousImage, false, FailureHandling.STOP_ON_FAILURE)
+        WebUI.verifyNotMatch(textWithoutExpectedMSRP, vehiclePrice, false, FailureHandling.STOP_ON_FAILURE)
     }
     
     'clicks this model if it is present'
@@ -314,20 +301,13 @@ if (WebUI.verifyMatch(GlobalVariable.legacy, 'no', false, FailureHandling.OPTION
 
         WebUI.delay(1)
 
-        selectedModel = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/selected model'), FailureHandling.STOP_ON_FAILURE)
+        vehiclePrice = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle price'), FailureHandling.STOP_ON_FAILURE)
 
-        WebUI.verifyMatch(selectedModel, 'LS', false)
+        expectedMSRP = findTestData('MSRP').getValue(column, 44)
 
-        vehicleName = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle name'), FailureHandling.STOP_ON_FAILURE)
+        textWithoutExpectedMSRP = (vehiclePrice - expectedMSRP)
 
-        WebUI.verifyMatch(selectedModel, vehicleName, false)
-
-        previousImage = vehicleImage
-
-        vehicleImage = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle jelly'), 'src', FailureHandling.STOP_ON_FAILURE)
-
-        'if vehicle image has updated, its src should not match the previous value'
-        WebUI.verifyNotMatch(vehicleImage, previousImage, false, FailureHandling.STOP_ON_FAILURE)
+        WebUI.verifyNotMatch(textWithoutExpectedMSRP, vehiclePrice, false, FailureHandling.STOP_ON_FAILURE)
     }
     
     'clicks this model if it is present'
@@ -336,20 +316,13 @@ if (WebUI.verifyMatch(GlobalVariable.legacy, 'no', false, FailureHandling.OPTION
 
         WebUI.delay(1)
 
-        selectedModel = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/selected model'), FailureHandling.STOP_ON_FAILURE)
+        vehiclePrice = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle price'), FailureHandling.STOP_ON_FAILURE)
 
-        WebUI.verifyMatch(selectedModel, 'LS HYBRID', false)
+        expectedMSRP = findTestData('MSRP').getValue(column, 48)
 
-        vehicleName = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle name'), FailureHandling.STOP_ON_FAILURE)
+        textWithoutExpectedMSRP = (vehiclePrice - expectedMSRP)
 
-        WebUI.verifyMatch(selectedModel, vehicleName, false)
-
-        previousImage = vehicleImage
-
-        vehicleImage = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle jelly'), 'src', FailureHandling.STOP_ON_FAILURE)
-
-        'if vehicle image has updated, its src should not match the previous value'
-        WebUI.verifyNotMatch(vehicleImage, previousImage, false, FailureHandling.STOP_ON_FAILURE)
+        WebUI.verifyNotMatch(textWithoutExpectedMSRP, vehiclePrice, false, FailureHandling.STOP_ON_FAILURE)
     }
     
     WebUI.click(findTestObject('HomePage/VehicleSelectorAEM/categories/SUVs'), FailureHandling.STOP_ON_FAILURE)
@@ -360,20 +333,13 @@ if (WebUI.verifyMatch(GlobalVariable.legacy, 'no', false, FailureHandling.OPTION
 
         WebUI.delay(1)
 
-        selectedModel = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/selected model'), FailureHandling.STOP_ON_FAILURE)
+        vehiclePrice = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle price'), FailureHandling.STOP_ON_FAILURE)
 
-        WebUI.verifyMatch(selectedModel, 'UX', false)
+        expectedMSRP = findTestData('MSRP').getValue(column, 72)
 
-        vehicleName = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle name'), FailureHandling.STOP_ON_FAILURE)
+        textWithoutExpectedMSRP = (vehiclePrice - expectedMSRP)
 
-        WebUI.verifyMatch(selectedModel, vehicleName, false)
-
-        previousImage = vehicleImage
-
-        vehicleImage = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle jelly'), 'src', FailureHandling.STOP_ON_FAILURE)
-
-        'if vehicle image has updated, its src should not match the previous value'
-        WebUI.verifyNotMatch(vehicleImage, previousImage, false, FailureHandling.STOP_ON_FAILURE)
+        WebUI.verifyNotMatch(textWithoutExpectedMSRP, vehiclePrice, false, FailureHandling.STOP_ON_FAILURE)
     }
     
     'clicks this model if it is present'
@@ -382,20 +348,13 @@ if (WebUI.verifyMatch(GlobalVariable.legacy, 'no', false, FailureHandling.OPTION
 
         WebUI.delay(1)
 
-        selectedModel = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/selected model'), FailureHandling.STOP_ON_FAILURE)
+        vehiclePrice = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle price'), FailureHandling.STOP_ON_FAILURE)
 
-        WebUI.verifyMatch(selectedModel, 'UX HYBRID', false)
+        expectedMSRP = findTestData('MSRP').getValue(column, 74)
 
-        vehicleName = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle name'), FailureHandling.STOP_ON_FAILURE)
+        textWithoutExpectedMSRP = (vehiclePrice - expectedMSRP)
 
-        WebUI.verifyMatch(selectedModel, vehicleName, false)
-
-        previousImage = vehicleImage
-
-        vehicleImage = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle jelly'), 'src', FailureHandling.STOP_ON_FAILURE)
-
-        'if vehicle image has updated, its src should not match the previous value'
-        WebUI.verifyNotMatch(vehicleImage, previousImage, false, FailureHandling.STOP_ON_FAILURE)
+        WebUI.verifyNotMatch(textWithoutExpectedMSRP, vehiclePrice, false, FailureHandling.STOP_ON_FAILURE)
     }
     
     'clicks this model if it is present'
@@ -404,20 +363,13 @@ if (WebUI.verifyMatch(GlobalVariable.legacy, 'no', false, FailureHandling.OPTION
 
         WebUI.delay(1)
 
-        selectedModel = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/selected model'), FailureHandling.STOP_ON_FAILURE)
+        vehiclePrice = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle price'), FailureHandling.STOP_ON_FAILURE)
 
-        WebUI.verifyMatch(selectedModel, 'NX', false)
+        expectedMSRP = findTestData('MSRP').getValue(column, 34)
 
-        vehicleName = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle name'), FailureHandling.STOP_ON_FAILURE)
+        textWithoutExpectedMSRP = (vehiclePrice - expectedMSRP)
 
-        WebUI.verifyMatch(selectedModel, vehicleName, false)
-
-        previousImage = vehicleImage
-
-        vehicleImage = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle jelly'), 'src', FailureHandling.STOP_ON_FAILURE)
-
-        'if vehicle image has updated, its src should not match the previous value'
-        WebUI.verifyNotMatch(vehicleImage, previousImage, false, FailureHandling.STOP_ON_FAILURE)
+        WebUI.verifyNotMatch(textWithoutExpectedMSRP, vehiclePrice, false, FailureHandling.STOP_ON_FAILURE)
     }
     
     'clicks this model if it is present'
@@ -426,20 +378,13 @@ if (WebUI.verifyMatch(GlobalVariable.legacy, 'no', false, FailureHandling.OPTION
 
         WebUI.delay(1)
 
-        selectedModel = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/selected model'), FailureHandling.STOP_ON_FAILURE)
+        vehiclePrice = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle price'), FailureHandling.STOP_ON_FAILURE)
 
-        WebUI.verifyMatch(selectedModel, 'NX HYBRID', false)
+        expectedMSRP = findTestData('MSRP').getValue(column, 40)
 
-        vehicleName = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle name'), FailureHandling.STOP_ON_FAILURE)
+        textWithoutExpectedMSRP = (vehiclePrice - expectedMSRP)
 
-        WebUI.verifyMatch(selectedModel, vehicleName, false)
-
-        previousImage = vehicleImage
-
-        vehicleImage = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle jelly'), 'src', FailureHandling.STOP_ON_FAILURE)
-
-        'if vehicle image has updated, its src should not match the previous value'
-        WebUI.verifyNotMatch(vehicleImage, previousImage, false, FailureHandling.STOP_ON_FAILURE)
+        WebUI.verifyNotMatch(textWithoutExpectedMSRP, vehiclePrice, false, FailureHandling.STOP_ON_FAILURE)
     }
     
     'clicks this model if it is present'
@@ -448,20 +393,13 @@ if (WebUI.verifyMatch(GlobalVariable.legacy, 'no', false, FailureHandling.OPTION
 
         WebUI.delay(1)
 
-        selectedModel = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/selected model'), FailureHandling.STOP_ON_FAILURE)
+        vehiclePrice = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle price'), FailureHandling.STOP_ON_FAILURE)
 
-        WebUI.verifyMatch(selectedModel, 'RX', false)
+        expectedMSRP = findTestData('MSRP').getValue(column, 54)
 
-        vehicleName = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle name'), FailureHandling.STOP_ON_FAILURE)
+        textWithoutExpectedMSRP = (vehiclePrice - expectedMSRP)
 
-        WebUI.verifyMatch(selectedModel, vehicleName, false)
-
-        previousImage = vehicleImage
-
-        vehicleImage = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle jelly'), 'src', FailureHandling.STOP_ON_FAILURE)
-
-        'if vehicle image has updated, its src should not match the previous value'
-        WebUI.verifyNotMatch(vehicleImage, previousImage, false, FailureHandling.STOP_ON_FAILURE)
+        WebUI.verifyNotMatch(textWithoutExpectedMSRP, vehiclePrice, false, FailureHandling.STOP_ON_FAILURE)
     }
     
     'clicks this model if it is present'
@@ -470,20 +408,13 @@ if (WebUI.verifyMatch(GlobalVariable.legacy, 'no', false, FailureHandling.OPTION
 
         WebUI.delay(1)
 
-        selectedModel = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/selected model'), FailureHandling.STOP_ON_FAILURE)
+        vehiclePrice = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle price'), FailureHandling.STOP_ON_FAILURE)
 
-        WebUI.verifyMatch(selectedModel, 'RX HYBRID', false)
+        expectedMSRP = findTestData('MSRP').getValue(column, 60)
 
-        vehicleName = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle name'), FailureHandling.STOP_ON_FAILURE)
+        textWithoutExpectedMSRP = (vehiclePrice - expectedMSRP)
 
-        WebUI.verifyMatch(selectedModel, vehicleName, false)
-
-        previousImage = vehicleImage
-
-        vehicleImage = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle jelly'), 'src', FailureHandling.STOP_ON_FAILURE)
-
-        'if vehicle image has updated, its src should not match the previous value'
-        WebUI.verifyNotMatch(vehicleImage, previousImage, false, FailureHandling.STOP_ON_FAILURE)
+        WebUI.verifyNotMatch(textWithoutExpectedMSRP, vehiclePrice, false, FailureHandling.STOP_ON_FAILURE)
     }
     
     'clicks this model if it is present'
@@ -492,20 +423,13 @@ if (WebUI.verifyMatch(GlobalVariable.legacy, 'no', false, FailureHandling.OPTION
 
         WebUI.delay(1)
 
-        selectedModel = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/selected model'), FailureHandling.STOP_ON_FAILURE)
+        vehiclePrice = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle price'), FailureHandling.STOP_ON_FAILURE)
 
-        WebUI.verifyMatch(selectedModel, 'GX', false)
+        expectedMSRP = findTestData('MSRP').getValue(column, 28)
 
-        vehicleName = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle name'), FailureHandling.STOP_ON_FAILURE)
+        textWithoutExpectedMSRP = (vehiclePrice - expectedMSRP)
 
-        WebUI.verifyMatch(selectedModel, vehicleName, false)
-
-        previousImage = vehicleImage
-
-        vehicleImage = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle jelly'), 'src', FailureHandling.STOP_ON_FAILURE)
-
-        'if vehicle image has updated, its src should not match the previous value'
-        WebUI.verifyNotMatch(vehicleImage, previousImage, false, FailureHandling.STOP_ON_FAILURE)
+        WebUI.verifyNotMatch(textWithoutExpectedMSRP, vehiclePrice, false, FailureHandling.STOP_ON_FAILURE)
     }
     
     'clicks this model if it is present'
@@ -514,20 +438,13 @@ if (WebUI.verifyMatch(GlobalVariable.legacy, 'no', false, FailureHandling.OPTION
 
         WebUI.delay(1)
 
-        selectedModel = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/selected model'), FailureHandling.STOP_ON_FAILURE)
+        vehiclePrice = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle price'), FailureHandling.STOP_ON_FAILURE)
 
-        WebUI.verifyMatch(selectedModel, 'LX', false)
+        expectedMSRP = findTestData('MSRP').getValue(column, 31)
 
-        vehicleName = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle name'), FailureHandling.STOP_ON_FAILURE)
+        textWithoutExpectedMSRP = (vehiclePrice - expectedMSRP)
 
-        WebUI.verifyMatch(selectedModel, vehicleName, false)
-
-        previousImage = vehicleImage
-
-        vehicleImage = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle jelly'), 'src', FailureHandling.STOP_ON_FAILURE)
-
-        'if vehicle image has updated, its src should not match the previous value'
-        WebUI.verifyNotMatch(vehicleImage, previousImage, false, FailureHandling.STOP_ON_FAILURE)
+        WebUI.verifyNotMatch(textWithoutExpectedMSRP, vehiclePrice, false, FailureHandling.STOP_ON_FAILURE)
     }
     
     WebUI.click(findTestObject('HomePage/VehicleSelectorAEM/categories/Coupes'), FailureHandling.STOP_ON_FAILURE)
@@ -538,20 +455,13 @@ if (WebUI.verifyMatch(GlobalVariable.legacy, 'no', false, FailureHandling.OPTION
 
         WebUI.delay(1)
 
-        selectedModel = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/selected model'), FailureHandling.STOP_ON_FAILURE)
+        vehiclePrice = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle price'), FailureHandling.STOP_ON_FAILURE)
 
-        WebUI.verifyMatch(selectedModel, 'RC', false)
+        expectedMSRP = findTestData('MSRP').getValue(column, 1)
 
-        vehicleName = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle name'), FailureHandling.STOP_ON_FAILURE)
+        textWithoutExpectedMSRP = (vehiclePrice - expectedMSRP)
 
-        WebUI.verifyMatch(selectedModel, vehicleName, false)
-
-        previousImage = vehicleImage
-
-        vehicleImage = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle jelly'), 'src', FailureHandling.STOP_ON_FAILURE)
-
-        'if vehicle image has updated, its src should not match the previous value'
-        WebUI.verifyNotMatch(vehicleImage, previousImage, false, FailureHandling.STOP_ON_FAILURE)
+        WebUI.verifyNotMatch(textWithoutExpectedMSRP, vehiclePrice, false, FailureHandling.STOP_ON_FAILURE)
     }
     
     'clicks this model if it is present'
@@ -560,20 +470,13 @@ if (WebUI.verifyMatch(GlobalVariable.legacy, 'no', false, FailureHandling.OPTION
 
         WebUI.delay(1)
 
-        selectedModel = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/selected model'), FailureHandling.STOP_ON_FAILURE)
+        vehiclePrice = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle price'), FailureHandling.STOP_ON_FAILURE)
 
-        WebUI.verifyMatch(selectedModel, 'RC F', false)
+        expectedMSRP = findTestData('MSRP').getValue(column, 52)
 
-        vehicleName = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle name'), FailureHandling.STOP_ON_FAILURE)
+        textWithoutExpectedMSRP = (vehiclePrice - expectedMSRP)
 
-        WebUI.verifyMatch(selectedModel, vehicleName, false)
-
-        previousImage = vehicleImage
-
-        vehicleImage = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle jelly'), 'src', FailureHandling.STOP_ON_FAILURE)
-
-        'if vehicle image has updated, its src should not match the previous value'
-        WebUI.verifyNotMatch(vehicleImage, previousImage, false, FailureHandling.STOP_ON_FAILURE)
+        WebUI.verifyNotMatch(textWithoutExpectedMSRP, vehiclePrice, false, FailureHandling.STOP_ON_FAILURE)
     }
     
     'clicks this model if it is present'
@@ -582,20 +485,13 @@ if (WebUI.verifyMatch(GlobalVariable.legacy, 'no', false, FailureHandling.OPTION
 
         WebUI.delay(1)
 
-        selectedModel = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/selected model'), FailureHandling.STOP_ON_FAILURE)
+        vehiclePrice = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle price'), FailureHandling.STOP_ON_FAILURE)
 
-        WebUI.verifyMatch(selectedModel, 'LC', false)
+        expectedMSRP = findTestData('MSRP').getValue(column, 69)
 
-        vehicleName = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle name'), FailureHandling.STOP_ON_FAILURE)
+        textWithoutExpectedMSRP = (vehiclePrice - expectedMSRP)
 
-        WebUI.verifyMatch(selectedModel, vehicleName, false)
-
-        previousImage = vehicleImage
-
-        vehicleImage = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle jelly'), 'src', FailureHandling.STOP_ON_FAILURE)
-
-        'if vehicle image has updated, its src should not match the previous value'
-        WebUI.verifyNotMatch(vehicleImage, previousImage, false, FailureHandling.STOP_ON_FAILURE)
+        WebUI.verifyNotMatch(textWithoutExpectedMSRP, vehiclePrice, false, FailureHandling.STOP_ON_FAILURE)
     }
     
     'clicks this model if it is present'
@@ -604,20 +500,13 @@ if (WebUI.verifyMatch(GlobalVariable.legacy, 'no', false, FailureHandling.OPTION
 
         WebUI.delay(1)
 
-        selectedModel = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/selected model'), FailureHandling.STOP_ON_FAILURE)
+        vehiclePrice = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle price'), FailureHandling.STOP_ON_FAILURE)
 
-        WebUI.verifyMatch(selectedModel, 'LC HYBRID', false)
+        expectedMSRP = findTestData('MSRP').getValue(column, 70)
 
-        vehicleName = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle name'), FailureHandling.STOP_ON_FAILURE)
+        textWithoutExpectedMSRP = (vehiclePrice - expectedMSRP)
 
-        WebUI.verifyMatch(selectedModel, vehicleName, false)
-
-        previousImage = vehicleImage
-
-        vehicleImage = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle jelly'), 'src', FailureHandling.STOP_ON_FAILURE)
-
-        'if vehicle image has updated, its src should not match the previous value'
-        WebUI.verifyNotMatch(vehicleImage, previousImage, false, FailureHandling.STOP_ON_FAILURE)
+        WebUI.verifyNotMatch(textWithoutExpectedMSRP, vehiclePrice, false, FailureHandling.STOP_ON_FAILURE)
     }
     
     'clicks this model if it is present'
@@ -626,20 +515,13 @@ if (WebUI.verifyMatch(GlobalVariable.legacy, 'no', false, FailureHandling.OPTION
 
         WebUI.delay(1)
 
-        selectedModel = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/selected model'), FailureHandling.STOP_ON_FAILURE)
+        vehiclePrice = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle price'), FailureHandling.STOP_ON_FAILURE)
 
-        WebUI.verifyMatch(selectedModel, 'LC CONVERTIBLE', false)
+        expectedMSRP = findTestData('MSRP').getValue(column, 71)
 
-        vehicleName = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle name'), FailureHandling.STOP_ON_FAILURE)
+        textWithoutExpectedMSRP = (vehiclePrice - expectedMSRP)
 
-        WebUI.verifyMatch(selectedModel, vehicleName, false)
-
-        previousImage = vehicleImage
-
-        vehicleImage = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle jelly'), 'src', FailureHandling.STOP_ON_FAILURE)
-
-        'if vehicle image has updated, its src should not match the previous value'
-        WebUI.verifyNotMatch(vehicleImage, previousImage, false, FailureHandling.STOP_ON_FAILURE)
+        WebUI.verifyNotMatch(textWithoutExpectedMSRP, vehiclePrice, false, FailureHandling.STOP_ON_FAILURE)
     }
     
     WebUI.click(findTestObject('HomePage/VehicleSelectorAEM/categories/Hybrids'), FailureHandling.STOP_ON_FAILURE)
@@ -650,20 +532,13 @@ if (WebUI.verifyMatch(GlobalVariable.legacy, 'no', false, FailureHandling.OPTION
 
         WebUI.delay(1)
 
-        selectedModel = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/selected model'), FailureHandling.STOP_ON_FAILURE)
+        vehiclePrice = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle price'), FailureHandling.STOP_ON_FAILURE)
 
-        WebUI.verifyMatch(selectedModel, 'UX HYBRID', false)
+        expectedMSRP = findTestData('MSRP').getValue(column, 74)
 
-        vehicleName = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle name'), FailureHandling.STOP_ON_FAILURE)
+        textWithoutExpectedMSRP = (vehiclePrice - expectedMSRP)
 
-        WebUI.verifyMatch(selectedModel, vehicleName, false)
-
-        previousImage = vehicleImage
-
-        vehicleImage = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle jelly'), 'src', FailureHandling.STOP_ON_FAILURE)
-
-        'if vehicle image has updated, its src should not match the previous value'
-        WebUI.verifyNotMatch(vehicleImage, previousImage, false, FailureHandling.STOP_ON_FAILURE)
+        WebUI.verifyNotMatch(textWithoutExpectedMSRP, vehiclePrice, false, FailureHandling.STOP_ON_FAILURE)
     }
     
     'clicks this model if it is present'
@@ -672,20 +547,13 @@ if (WebUI.verifyMatch(GlobalVariable.legacy, 'no', false, FailureHandling.OPTION
 
         WebUI.delay(1)
 
-        selectedModel = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/selected model'), FailureHandling.STOP_ON_FAILURE)
+        vehiclePrice = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle price'), FailureHandling.STOP_ON_FAILURE)
 
-        WebUI.verifyMatch(selectedModel, 'NX HYBRID', false)
+        expectedMSRP = findTestData('MSRP').getValue(column, 40)
 
-        vehicleName = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle name'), FailureHandling.STOP_ON_FAILURE)
+        textWithoutExpectedMSRP = (vehiclePrice - expectedMSRP)
 
-        WebUI.verifyMatch(selectedModel, vehicleName, false)
-
-        previousImage = vehicleImage
-
-        vehicleImage = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle jelly'), 'src', FailureHandling.STOP_ON_FAILURE)
-
-        'if vehicle image has updated, its src should not match the previous value'
-        WebUI.verifyNotMatch(vehicleImage, previousImage, false, FailureHandling.STOP_ON_FAILURE)
+        WebUI.verifyNotMatch(textWithoutExpectedMSRP, vehiclePrice, false, FailureHandling.STOP_ON_FAILURE)
     }
     
     'clicks this model if it is present'
@@ -694,20 +562,13 @@ if (WebUI.verifyMatch(GlobalVariable.legacy, 'no', false, FailureHandling.OPTION
 
         WebUI.delay(1)
 
-        selectedModel = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/selected model'), FailureHandling.STOP_ON_FAILURE)
+        vehiclePrice = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle price'), FailureHandling.STOP_ON_FAILURE)
 
-        WebUI.verifyMatch(selectedModel, 'RX HYBRID', false)
+        expectedMSRP = findTestData('MSRP').getValue(column, 60)
 
-        vehicleName = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle name'), FailureHandling.STOP_ON_FAILURE)
+        textWithoutExpectedMSRP = (vehiclePrice - expectedMSRP)
 
-        WebUI.verifyMatch(selectedModel, vehicleName, false)
-
-        previousImage = vehicleImage
-
-        vehicleImage = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle jelly'), 'src', FailureHandling.STOP_ON_FAILURE)
-
-        'if vehicle image has updated, its src should not match the previous value'
-        WebUI.verifyNotMatch(vehicleImage, previousImage, false, FailureHandling.STOP_ON_FAILURE)
+        WebUI.verifyNotMatch(textWithoutExpectedMSRP, vehiclePrice, false, FailureHandling.STOP_ON_FAILURE)
     }
     
     'clicks this model if it is present'
@@ -716,20 +577,13 @@ if (WebUI.verifyMatch(GlobalVariable.legacy, 'no', false, FailureHandling.OPTION
 
         WebUI.delay(1)
 
-        selectedModel = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/selected model'), FailureHandling.STOP_ON_FAILURE)
+        vehiclePrice = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle price'), FailureHandling.STOP_ON_FAILURE)
 
-        WebUI.verifyMatch(selectedModel, 'ES HYBRID', false)
+        expectedMSRP = findTestData('MSRP').getValue(column, 12)
 
-        vehicleName = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle name'), FailureHandling.STOP_ON_FAILURE)
+        textWithoutExpectedMSRP = (vehiclePrice - expectedMSRP)
 
-        WebUI.verifyMatch(selectedModel, vehicleName, false)
-
-        previousImage = vehicleImage
-
-        vehicleImage = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle jelly'), 'src', FailureHandling.STOP_ON_FAILURE)
-
-        'if vehicle image has updated, its src should not match the previous value'
-        WebUI.verifyNotMatch(vehicleImage, previousImage, false, FailureHandling.STOP_ON_FAILURE)
+        WebUI.verifyNotMatch(textWithoutExpectedMSRP, vehiclePrice, false, FailureHandling.STOP_ON_FAILURE)
     }
     
     'clicks this model if it is present'
@@ -738,20 +592,13 @@ if (WebUI.verifyMatch(GlobalVariable.legacy, 'no', false, FailureHandling.OPTION
 
         WebUI.delay(1)
 
-        selectedModel = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/selected model'), FailureHandling.STOP_ON_FAILURE)
+        vehiclePrice = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle price'), FailureHandling.STOP_ON_FAILURE)
 
-        WebUI.verifyMatch(selectedModel, 'LS HYBRID', false)
+        expectedMSRP = findTestData('MSRP').getValue(column, 48)
 
-        vehicleName = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle name'), FailureHandling.STOP_ON_FAILURE)
+        textWithoutExpectedMSRP = (vehiclePrice - expectedMSRP)
 
-        WebUI.verifyMatch(selectedModel, vehicleName, false)
-
-        previousImage = vehicleImage
-
-        vehicleImage = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle jelly'), 'src', FailureHandling.STOP_ON_FAILURE)
-
-        'if vehicle image has updated, its src should not match the previous value'
-        WebUI.verifyNotMatch(vehicleImage, previousImage, false, FailureHandling.STOP_ON_FAILURE)
+        WebUI.verifyNotMatch(textWithoutExpectedMSRP, vehiclePrice, false, FailureHandling.STOP_ON_FAILURE)
     }
     
     'clicks this model if it is present'
@@ -760,20 +607,13 @@ if (WebUI.verifyMatch(GlobalVariable.legacy, 'no', false, FailureHandling.OPTION
 
         WebUI.delay(1)
 
-        selectedModel = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/selected model'), FailureHandling.STOP_ON_FAILURE)
+        vehiclePrice = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle price'), FailureHandling.STOP_ON_FAILURE)
 
-        WebUI.verifyMatch(selectedModel, 'LC HYBRID', false)
+        expectedMSRP = findTestData('MSRP').getValue(column, 70)
 
-        vehicleName = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle name'), FailureHandling.STOP_ON_FAILURE)
+        textWithoutExpectedMSRP = (vehiclePrice - expectedMSRP)
 
-        WebUI.verifyMatch(selectedModel, vehicleName, false)
-
-        previousImage = vehicleImage
-
-        vehicleImage = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle jelly'), 'src', FailureHandling.STOP_ON_FAILURE)
-
-        'if vehicle image has updated, its src should not match the previous value'
-        WebUI.verifyNotMatch(vehicleImage, previousImage, false, FailureHandling.STOP_ON_FAILURE)
+        WebUI.verifyNotMatch(textWithoutExpectedMSRP, vehiclePrice, false, FailureHandling.STOP_ON_FAILURE)
     }
     
     WebUI.click(findTestObject('HomePage/VehicleSelectorAEM/categories/Performance'), FailureHandling.STOP_ON_FAILURE)
@@ -784,20 +624,13 @@ if (WebUI.verifyMatch(GlobalVariable.legacy, 'no', false, FailureHandling.OPTION
 
         WebUI.delay(1)
 
-        selectedModel = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/selected model'), FailureHandling.STOP_ON_FAILURE)
+        vehiclePrice = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle price'), FailureHandling.STOP_ON_FAILURE)
 
-        WebUI.verifyMatch(selectedModel, 'RC F', false)
+        expectedMSRP = findTestData('MSRP').getValue(column, 52)
 
-        vehicleName = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle name'), FailureHandling.STOP_ON_FAILURE)
+        textWithoutExpectedMSRP = (vehiclePrice - expectedMSRP)
 
-        WebUI.verifyMatch(selectedModel, vehicleName, false)
-
-        previousImage = vehicleImage
-
-        vehicleImage = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle jelly'), 'src', FailureHandling.STOP_ON_FAILURE)
-
-        'if vehicle image has updated, its src should not match the previous value'
-        WebUI.verifyNotMatch(vehicleImage, previousImage, false, FailureHandling.STOP_ON_FAILURE)
+        WebUI.verifyNotMatch(textWithoutExpectedMSRP, vehiclePrice, false, FailureHandling.STOP_ON_FAILURE)
     }
     
     'clicks this model if it is present'
@@ -806,20 +639,13 @@ if (WebUI.verifyMatch(GlobalVariable.legacy, 'no', false, FailureHandling.OPTION
 
         WebUI.delay(1)
 
-        selectedModel = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/selected model'), FailureHandling.STOP_ON_FAILURE)
+        vehiclePrice = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle price'), FailureHandling.STOP_ON_FAILURE)
 
-        WebUI.verifyMatch(selectedModel, 'LC', false)
+        expectedMSRP = findTestData('MSRP').getValue(column, 69)
 
-        vehicleName = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle name'), FailureHandling.STOP_ON_FAILURE)
+        textWithoutExpectedMSRP = (vehiclePrice - expectedMSRP)
 
-        WebUI.verifyMatch(selectedModel, vehicleName, false)
-
-        previousImage = vehicleImage
-
-        vehicleImage = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle jelly'), 'src', FailureHandling.STOP_ON_FAILURE)
-
-        'if vehicle image has updated, its src should not match the previous value'
-        WebUI.verifyNotMatch(vehicleImage, previousImage, false, FailureHandling.STOP_ON_FAILURE)
+        WebUI.verifyNotMatch(textWithoutExpectedMSRP, vehiclePrice, false, FailureHandling.STOP_ON_FAILURE)
     }
     
     'clicks this model if it is present'
@@ -828,20 +654,13 @@ if (WebUI.verifyMatch(GlobalVariable.legacy, 'no', false, FailureHandling.OPTION
 
         WebUI.delay(1)
 
-        selectedModel = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/selected model'), FailureHandling.STOP_ON_FAILURE)
+        vehiclePrice = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle price'), FailureHandling.STOP_ON_FAILURE)
 
-        WebUI.verifyMatch(selectedModel, 'LC HYBRID', false)
+        expectedMSRP = findTestData('MSRP').getValue(column, 70)
 
-        vehicleName = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle name'), FailureHandling.STOP_ON_FAILURE)
+        textWithoutExpectedMSRP = (vehiclePrice - expectedMSRP)
 
-        WebUI.verifyMatch(selectedModel, vehicleName, false)
-
-        previousImage = vehicleImage
-
-        vehicleImage = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle jelly'), 'src', FailureHandling.STOP_ON_FAILURE)
-
-        'if vehicle image has updated, its src should not match the previous value'
-        WebUI.verifyNotMatch(vehicleImage, previousImage, false, FailureHandling.STOP_ON_FAILURE)
+        WebUI.verifyNotMatch(textWithoutExpectedMSRP, vehiclePrice, false, FailureHandling.STOP_ON_FAILURE)
     }
     
     'clicks this model if it is present'
@@ -850,20 +669,13 @@ if (WebUI.verifyMatch(GlobalVariable.legacy, 'no', false, FailureHandling.OPTION
 
         WebUI.delay(1)
 
-        selectedModel = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/selected model'), FailureHandling.STOP_ON_FAILURE)
+        vehiclePrice = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle price'), FailureHandling.STOP_ON_FAILURE)
 
-        WebUI.verifyMatch(selectedModel, 'LC CONVERTIBLE', false)
+        expectedMSRP = findTestData('MSRP').getValue(column, 71)
 
-        vehicleName = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle name'), FailureHandling.STOP_ON_FAILURE)
+        textWithoutExpectedMSRP = (vehiclePrice - expectedMSRP)
 
-        WebUI.verifyMatch(selectedModel, vehicleName, false)
-
-        previousImage = vehicleImage
-
-        vehicleImage = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle jelly'), 'src', FailureHandling.STOP_ON_FAILURE)
-
-        'if vehicle image has updated, its src should not match the previous value'
-        WebUI.verifyNotMatch(vehicleImage, previousImage, false, FailureHandling.STOP_ON_FAILURE)
+        WebUI.verifyNotMatch(textWithoutExpectedMSRP, vehiclePrice, false, FailureHandling.STOP_ON_FAILURE)
     }
 }
 

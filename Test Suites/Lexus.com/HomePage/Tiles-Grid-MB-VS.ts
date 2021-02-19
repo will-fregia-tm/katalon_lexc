@@ -83,4 +83,16 @@
          <variableId>587ff40d-9d81-4d2e-bd84-9c7215b71476</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>1c32c4f7-5bbc-4f64-bbc6-cb9d996807f7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/HomePage/VehicleSelector/Select Vehicle - correct prices are displayed</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>85def622-c9b3-4a06-b9e6-7b7fe99cb690</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>
