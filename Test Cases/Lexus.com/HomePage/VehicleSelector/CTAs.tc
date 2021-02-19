@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>2 - CTAs (if applicable)
+
+When user clicks on the &quot;Build&quot; CTA for a model (i.e. for the RX)
+Then the system will navigate the user to the selected model's BYL landing page (RX)
+remain in the same tab
+if users location is known, cookies should be passed along to BYL
+
+When user clicks on the &quot;Explore&quot; CTA (i.e. for the RX)
+Then the system will navigate the user to the appropriate model’s model page (RX)
+remain in the same tab
+if users location is known, cookies should be passed along to model page</description>
+   <name>CTAs</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4b075d46-e5b7-4006-8941-10a4e55631c6</testCaseGuid>
+   <variable>
+      <defaultValue>'VehicleSelectorOffers'</defaultValue>
+      <description></description>
+      <id>5c7cd174-8b6b-4502-98e6-68caea03bab2</id>
+      <masked>false</masked>
+      <name>HomePage</name>
+   </variable>
+</TestCaseEntity>

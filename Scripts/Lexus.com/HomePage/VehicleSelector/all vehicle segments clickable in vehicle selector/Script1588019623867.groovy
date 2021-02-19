@@ -116,6 +116,27 @@ if (WebUI.verifyMatch(GlobalVariable.legacy, 'no', false, FailureHandling.OPTION
     'if the expected value is contained within the actual value, then the actual value without the expected value should not match the actual value'
     WebUI.verifyNotMatch(modifiedString, actualValue, false, FailureHandling.STOP_ON_FAILURE)
 
+    'checks background video if it is present'
+    if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/categories/background video'), 3, FailureHandling.OPTIONAL)) {
+        actualValue = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/categories/background video'), 'src', 
+            FailureHandling.STOP_ON_FAILURE)
+
+        'this allows for null values in lower environments that do not have content updates'
+        actualValue = (actualValue + ' ')
+
+        'chooses column with data for test environment'
+        column = GlobalVariable.dataColumn
+
+        'gets homepage hero model value from HP test data'
+        expectedValue = findTestData('HP').getValue(column, 21)
+
+        'subtracts datasheet expected value from actual value displayed on page'
+        modifiedString = (actualValue - expectedValue)
+
+        'if the expected value is contained within the actual value, then the actual value without the expected value should not match the actual value'
+        WebUI.verifyNotMatch(modifiedString, actualValue, false, FailureHandling.STOP_ON_FAILURE)
+    }
+    
     WebUI.click(findTestObject('HomePage/VehicleSelectorAEM/categories/SUVs'), FailureHandling.STOP_ON_FAILURE)
 
     selectedCategory = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/categories/selected category'), FailureHandling.STOP_ON_FAILURE)
@@ -156,6 +177,27 @@ if (WebUI.verifyMatch(GlobalVariable.legacy, 'no', false, FailureHandling.OPTION
     'if the expected value is contained within the actual value, then the actual value without the expected value should not match the actual value'
     WebUI.verifyNotMatch(modifiedString, actualValue, false, FailureHandling.STOP_ON_FAILURE)
 
+    'checks background video if it is present'
+    if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/categories/background video'), 3, FailureHandling.OPTIONAL)) {
+        actualValue = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/categories/background video'), 'src', 
+            FailureHandling.STOP_ON_FAILURE)
+
+        'this allows for null values in lower environments that do not have content updates'
+        actualValue = (actualValue + ' ')
+
+        'chooses column with data for test environment'
+        column = GlobalVariable.dataColumn
+
+        'gets homepage hero model value from HP test data'
+        expectedValue = findTestData('HP').getValue(column, 22)
+
+        'subtracts datasheet expected value from actual value displayed on page'
+        modifiedString = (actualValue - expectedValue)
+
+        'if the expected value is contained within the actual value, then the actual value without the expected value should not match the actual value'
+        WebUI.verifyNotMatch(modifiedString, actualValue, false, FailureHandling.STOP_ON_FAILURE)
+    }
+    
     WebUI.click(findTestObject('HomePage/VehicleSelectorAEM/categories/Coupes'), FailureHandling.STOP_ON_FAILURE)
 
     selectedCategory = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/categories/selected category'), FailureHandling.STOP_ON_FAILURE)
@@ -196,6 +238,27 @@ if (WebUI.verifyMatch(GlobalVariable.legacy, 'no', false, FailureHandling.OPTION
     'if the expected value is contained within the actual value, then the actual value without the expected value should not match the actual value'
     WebUI.verifyNotMatch(modifiedString, actualValue, false, FailureHandling.STOP_ON_FAILURE)
 
+    'checks background video if it is present'
+    if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/categories/background video'), 3, FailureHandling.OPTIONAL)) {
+        actualValue = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/categories/background video'), 'src', 
+            FailureHandling.STOP_ON_FAILURE)
+
+        'this allows for null values in lower environments that do not have content updates'
+        actualValue = (actualValue + ' ')
+
+        'chooses column with data for test environment'
+        column = GlobalVariable.dataColumn
+
+        'gets homepage hero model value from HP test data'
+        expectedValue = findTestData('HP').getValue(column, 23)
+
+        'subtracts datasheet expected value from actual value displayed on page'
+        modifiedString = (actualValue - expectedValue)
+
+        'if the expected value is contained within the actual value, then the actual value without the expected value should not match the actual value'
+        WebUI.verifyNotMatch(modifiedString, actualValue, false, FailureHandling.STOP_ON_FAILURE)
+    }
+    
     WebUI.click(findTestObject('HomePage/VehicleSelectorAEM/categories/Hybrids'), FailureHandling.STOP_ON_FAILURE)
 
     selectedCategory = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/categories/selected category'), FailureHandling.STOP_ON_FAILURE)
@@ -236,6 +299,27 @@ if (WebUI.verifyMatch(GlobalVariable.legacy, 'no', false, FailureHandling.OPTION
     'if the expected value is contained within the actual value, then the actual value without the expected value should not match the actual value'
     WebUI.verifyNotMatch(modifiedString, actualValue, false, FailureHandling.STOP_ON_FAILURE)
 
+    'checks background video if it is present'
+    if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/categories/background video'), 3, FailureHandling.OPTIONAL)) {
+        actualValue = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/categories/background video'), 'src', 
+            FailureHandling.STOP_ON_FAILURE)
+
+        'this allows for null values in lower environments that do not have content updates'
+        actualValue = (actualValue + ' ')
+
+        'chooses column with data for test environment'
+        column = GlobalVariable.dataColumn
+
+        'gets homepage hero model value from HP test data'
+        expectedValue = findTestData('HP').getValue(column, 24)
+
+        'subtracts datasheet expected value from actual value displayed on page'
+        modifiedString = (actualValue - expectedValue)
+
+        'if the expected value is contained within the actual value, then the actual value without the expected value should not match the actual value'
+        WebUI.verifyNotMatch(modifiedString, actualValue, false, FailureHandling.STOP_ON_FAILURE)
+    }
+    
     WebUI.click(findTestObject('HomePage/VehicleSelectorAEM/categories/Performance'), FailureHandling.STOP_ON_FAILURE)
 
     selectedCategory = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/categories/selected category'), FailureHandling.STOP_ON_FAILURE)
@@ -275,6 +359,27 @@ if (WebUI.verifyMatch(GlobalVariable.legacy, 'no', false, FailureHandling.OPTION
 
     'if the expected value is contained within the actual value, then the actual value without the expected value should not match the actual value'
     WebUI.verifyNotMatch(modifiedString, actualValue, false, FailureHandling.STOP_ON_FAILURE)
+
+    'checks background video if it is present'
+    if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/categories/background video'), 3, FailureHandling.OPTIONAL)) {
+        actualValue = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/categories/background video'), 'src', 
+            FailureHandling.STOP_ON_FAILURE)
+
+        'this allows for null values in lower environments that do not have content updates'
+        actualValue = (actualValue + ' ')
+
+        'chooses column with data for test environment'
+        column = GlobalVariable.dataColumn
+
+        'gets homepage hero model value from HP test data'
+        expectedValue = findTestData('HP').getValue(column, 25)
+
+        'subtracts datasheet expected value from actual value displayed on page'
+        modifiedString = (actualValue - expectedValue)
+
+        'if the expected value is contained within the actual value, then the actual value without the expected value should not match the actual value'
+        WebUI.verifyNotMatch(modifiedString, actualValue, false, FailureHandling.STOP_ON_FAILURE)
+    }
 }
 
 @com.kms.katalon.core.annotation.TearDownIfPassed

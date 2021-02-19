@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Performance - GS F</name>
+   <name>ESh</name>
    <tag></tag>
-   <elementGuidId>8cb6ad72-74c9-49b8-b7bc-5cea33cc4046</elementGuidId>
+   <elementGuidId>c4f664a5-5cc9-4844-8b25-14c7b98f96d3</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>#VehicleSelector div[class*=&quot;selected&quot;] img[src*=&quot;esh.png&quot;]</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
-         <value>//li[contains(@data-category, 'Performance') and @data-model = 'GS F']</value>
+         <value>//li[contains(@data-category, 'Sedans') and @data-model = 'ESh']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,13 +35,13 @@
       <matchCondition>contains</matchCondition>
       <name>data-category</name>
       <type>Main</type>
-      <value>Performance</value>
+      <value>Sedans</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-model</name>
       <type>Main</type>
-      <value>GS F</value>
+      <value>ESh</value>
    </webElementProperties>
 </WebElementEntity>

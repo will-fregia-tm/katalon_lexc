@@ -251,50 +251,14 @@ if (WebUI.verifyMatch(GlobalVariable.legacy, 'no', false, FailureHandling.OPTION
     if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/models/IS'), 3, FailureHandling.OPTIONAL)) {
         WebUI.click(findTestObject('Homepage/VehicleSelectorAEM/models/IS'), FailureHandling.STOP_ON_FAILURE)
 
-        WebUI.delay(2)
-
-        selectedModel = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/selected model'), FailureHandling.STOP_ON_FAILURE)
-
-        WebUI.verifyMatch(selectedModel, 'IS', false)
-
-        vehicleName = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle name'), FailureHandling.STOP_ON_FAILURE)
-
-        WebUI.verifyMatch(selectedModel, vehicleName, false)
-
-        vehicleImage = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle jelly'), 'src', FailureHandling.STOP_ON_FAILURE)
-
-        vehiclePrice = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle price'), FailureHandling.OPTIONAL)
-
-        not_run: expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 10)
-
-        not_run: textWithMSRP = WebUI.getAttribute(findTestObject('MSRP/section objects/global nav/sedans - ES - starting at price'), 
-            'text', FailureHandling.STOP_ON_FAILURE)
-
-        not_run: textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)
-
-        not_run: WebUI.verifyNotMatch(textWithoutExpectedMSRP, textWithMSRP, false, FailureHandling.STOP_ON_FAILURE)
+        WebUI.delay(1)
     }
     
     'clicks this model if it is present'
     if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/models/ES'), 3, FailureHandling.OPTIONAL)) {
         WebUI.click(findTestObject('Homepage/VehicleSelectorAEM/models/ES'), FailureHandling.STOP_ON_FAILURE)
 
-        WebUI.delay(2)
-
-        selectedModel = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/selected model'), FailureHandling.STOP_ON_FAILURE)
-
-        WebUI.verifyMatch(selectedModel, 'ES', false)
-
-        vehicleName = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle name'), FailureHandling.STOP_ON_FAILURE)
-
-        WebUI.verifyMatch(selectedModel, vehicleName, false)
-
-        previousImage = vehicleImage
-
-        vehicleImage = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle jelly'), 'src', FailureHandling.STOP_ON_FAILURE)
-
-        'if vehicle image has updated, its src should not match the previous value'
-        WebUI.verifyNotMatch(vehicleImage, previousImage, false, FailureHandling.STOP_ON_FAILURE)
+        WebUI.delay(1)
     }
     
     'clicks this model if it is present'
@@ -302,21 +266,6 @@ if (WebUI.verifyMatch(GlobalVariable.legacy, 'no', false, FailureHandling.OPTION
         WebUI.click(findTestObject('Homepage/VehicleSelectorAEM/models/ESh'), FailureHandling.STOP_ON_FAILURE)
 
         WebUI.delay(1)
-
-        selectedModel = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/selected model'), FailureHandling.STOP_ON_FAILURE)
-
-        WebUI.verifyMatch(selectedModel, 'ES HYBRID', false)
-
-        vehicleName = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle name'), FailureHandling.STOP_ON_FAILURE)
-
-        WebUI.verifyMatch(selectedModel, vehicleName, false)
-
-        previousImage = vehicleImage
-
-        vehicleImage = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle jelly'), 'src', FailureHandling.STOP_ON_FAILURE)
-
-        'if vehicle image has updated, its src should not match the previous value'
-        WebUI.verifyNotMatch(vehicleImage, previousImage, false, FailureHandling.STOP_ON_FAILURE)
     }
     
     'clicks this model if it is present'
@@ -324,21 +273,6 @@ if (WebUI.verifyMatch(GlobalVariable.legacy, 'no', false, FailureHandling.OPTION
         WebUI.click(findTestObject('Homepage/VehicleSelectorAEM/models/LS'), FailureHandling.STOP_ON_FAILURE)
 
         WebUI.delay(1)
-
-        selectedModel = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/selected model'), FailureHandling.STOP_ON_FAILURE)
-
-        WebUI.verifyMatch(selectedModel, 'LS', false)
-
-        vehicleName = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle name'), FailureHandling.STOP_ON_FAILURE)
-
-        WebUI.verifyMatch(selectedModel, vehicleName, false)
-
-        previousImage = vehicleImage
-
-        vehicleImage = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle jelly'), 'src', FailureHandling.STOP_ON_FAILURE)
-
-        'if vehicle image has updated, its src should not match the previous value'
-        WebUI.verifyNotMatch(vehicleImage, previousImage, false, FailureHandling.STOP_ON_FAILURE)
     }
     
     'clicks this model if it is present'
@@ -346,21 +280,6 @@ if (WebUI.verifyMatch(GlobalVariable.legacy, 'no', false, FailureHandling.OPTION
         WebUI.click(findTestObject('Homepage/VehicleSelectorAEM/models/LSh'), FailureHandling.STOP_ON_FAILURE)
 
         WebUI.delay(1)
-
-        selectedModel = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/selected model'), FailureHandling.STOP_ON_FAILURE)
-
-        WebUI.verifyMatch(selectedModel, 'LS HYBRID', false)
-
-        vehicleName = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle name'), FailureHandling.STOP_ON_FAILURE)
-
-        WebUI.verifyMatch(selectedModel, vehicleName, false)
-
-        previousImage = vehicleImage
-
-        vehicleImage = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle jelly'), 'src', FailureHandling.STOP_ON_FAILURE)
-
-        'if vehicle image has updated, its src should not match the previous value'
-        WebUI.verifyNotMatch(vehicleImage, previousImage, false, FailureHandling.STOP_ON_FAILURE)
     }
     
     WebUI.click(findTestObject('HomePage/VehicleSelectorAEM/categories/SUVs'), FailureHandling.STOP_ON_FAILURE)
@@ -370,21 +289,6 @@ if (WebUI.verifyMatch(GlobalVariable.legacy, 'no', false, FailureHandling.OPTION
         WebUI.click(findTestObject('Homepage/VehicleSelectorAEM/models/UX'), FailureHandling.STOP_ON_FAILURE)
 
         WebUI.delay(1)
-
-        selectedModel = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/selected model'), FailureHandling.STOP_ON_FAILURE)
-
-        WebUI.verifyMatch(selectedModel, 'UX', false)
-
-        vehicleName = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle name'), FailureHandling.STOP_ON_FAILURE)
-
-        WebUI.verifyMatch(selectedModel, vehicleName, false)
-
-        previousImage = vehicleImage
-
-        vehicleImage = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle jelly'), 'src', FailureHandling.STOP_ON_FAILURE)
-
-        'if vehicle image has updated, its src should not match the previous value'
-        WebUI.verifyNotMatch(vehicleImage, previousImage, false, FailureHandling.STOP_ON_FAILURE)
     }
     
     'clicks this model if it is present'
@@ -392,21 +296,6 @@ if (WebUI.verifyMatch(GlobalVariable.legacy, 'no', false, FailureHandling.OPTION
         WebUI.click(findTestObject('Homepage/VehicleSelectorAEM/models/UXh'), FailureHandling.STOP_ON_FAILURE)
 
         WebUI.delay(1)
-
-        selectedModel = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/selected model'), FailureHandling.STOP_ON_FAILURE)
-
-        WebUI.verifyMatch(selectedModel, 'UX HYBRID', false)
-
-        vehicleName = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle name'), FailureHandling.STOP_ON_FAILURE)
-
-        WebUI.verifyMatch(selectedModel, vehicleName, false)
-
-        previousImage = vehicleImage
-
-        vehicleImage = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle jelly'), 'src', FailureHandling.STOP_ON_FAILURE)
-
-        'if vehicle image has updated, its src should not match the previous value'
-        WebUI.verifyNotMatch(vehicleImage, previousImage, false, FailureHandling.STOP_ON_FAILURE)
     }
     
     'clicks this model if it is present'
@@ -414,21 +303,6 @@ if (WebUI.verifyMatch(GlobalVariable.legacy, 'no', false, FailureHandling.OPTION
         WebUI.click(findTestObject('Homepage/VehicleSelectorAEM/models/NX'), FailureHandling.STOP_ON_FAILURE)
 
         WebUI.delay(1)
-
-        selectedModel = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/selected model'), FailureHandling.STOP_ON_FAILURE)
-
-        WebUI.verifyMatch(selectedModel, 'NX', false)
-
-        vehicleName = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle name'), FailureHandling.STOP_ON_FAILURE)
-
-        WebUI.verifyMatch(selectedModel, vehicleName, false)
-
-        previousImage = vehicleImage
-
-        vehicleImage = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle jelly'), 'src', FailureHandling.STOP_ON_FAILURE)
-
-        'if vehicle image has updated, its src should not match the previous value'
-        WebUI.verifyNotMatch(vehicleImage, previousImage, false, FailureHandling.STOP_ON_FAILURE)
     }
     
     'clicks this model if it is present'
@@ -436,21 +310,6 @@ if (WebUI.verifyMatch(GlobalVariable.legacy, 'no', false, FailureHandling.OPTION
         WebUI.click(findTestObject('Homepage/VehicleSelectorAEM/models/NXh'), FailureHandling.STOP_ON_FAILURE)
 
         WebUI.delay(1)
-
-        selectedModel = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/selected model'), FailureHandling.STOP_ON_FAILURE)
-
-        WebUI.verifyMatch(selectedModel, 'NX HYBRID', false)
-
-        vehicleName = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle name'), FailureHandling.STOP_ON_FAILURE)
-
-        WebUI.verifyMatch(selectedModel, vehicleName, false)
-
-        previousImage = vehicleImage
-
-        vehicleImage = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle jelly'), 'src', FailureHandling.STOP_ON_FAILURE)
-
-        'if vehicle image has updated, its src should not match the previous value'
-        WebUI.verifyNotMatch(vehicleImage, previousImage, false, FailureHandling.STOP_ON_FAILURE)
     }
     
     'clicks this model if it is present'
@@ -458,21 +317,6 @@ if (WebUI.verifyMatch(GlobalVariable.legacy, 'no', false, FailureHandling.OPTION
         WebUI.click(findTestObject('Homepage/VehicleSelectorAEM/models/RX'), FailureHandling.STOP_ON_FAILURE)
 
         WebUI.delay(1)
-
-        selectedModel = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/selected model'), FailureHandling.STOP_ON_FAILURE)
-
-        WebUI.verifyMatch(selectedModel, 'RX', false)
-
-        vehicleName = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle name'), FailureHandling.STOP_ON_FAILURE)
-
-        WebUI.verifyMatch(selectedModel, vehicleName, false)
-
-        previousImage = vehicleImage
-
-        vehicleImage = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle jelly'), 'src', FailureHandling.STOP_ON_FAILURE)
-
-        'if vehicle image has updated, its src should not match the previous value'
-        WebUI.verifyNotMatch(vehicleImage, previousImage, false, FailureHandling.STOP_ON_FAILURE)
     }
     
     'clicks this model if it is present'
@@ -480,21 +324,6 @@ if (WebUI.verifyMatch(GlobalVariable.legacy, 'no', false, FailureHandling.OPTION
         WebUI.click(findTestObject('Homepage/VehicleSelectorAEM/models/RXh'), FailureHandling.STOP_ON_FAILURE)
 
         WebUI.delay(1)
-
-        selectedModel = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/selected model'), FailureHandling.STOP_ON_FAILURE)
-
-        WebUI.verifyMatch(selectedModel, 'RX HYBRID', false)
-
-        vehicleName = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle name'), FailureHandling.STOP_ON_FAILURE)
-
-        WebUI.verifyMatch(selectedModel, vehicleName, false)
-
-        previousImage = vehicleImage
-
-        vehicleImage = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle jelly'), 'src', FailureHandling.STOP_ON_FAILURE)
-
-        'if vehicle image has updated, its src should not match the previous value'
-        WebUI.verifyNotMatch(vehicleImage, previousImage, false, FailureHandling.STOP_ON_FAILURE)
     }
     
     'clicks this model if it is present'
@@ -502,21 +331,6 @@ if (WebUI.verifyMatch(GlobalVariable.legacy, 'no', false, FailureHandling.OPTION
         WebUI.click(findTestObject('Homepage/VehicleSelectorAEM/models/GX'), FailureHandling.STOP_ON_FAILURE)
 
         WebUI.delay(1)
-
-        selectedModel = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/selected model'), FailureHandling.STOP_ON_FAILURE)
-
-        WebUI.verifyMatch(selectedModel, 'GX', false)
-
-        vehicleName = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle name'), FailureHandling.STOP_ON_FAILURE)
-
-        WebUI.verifyMatch(selectedModel, vehicleName, false)
-
-        previousImage = vehicleImage
-
-        vehicleImage = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle jelly'), 'src', FailureHandling.STOP_ON_FAILURE)
-
-        'if vehicle image has updated, its src should not match the previous value'
-        WebUI.verifyNotMatch(vehicleImage, previousImage, false, FailureHandling.STOP_ON_FAILURE)
     }
     
     'clicks this model if it is present'
@@ -524,21 +338,6 @@ if (WebUI.verifyMatch(GlobalVariable.legacy, 'no', false, FailureHandling.OPTION
         WebUI.click(findTestObject('Homepage/VehicleSelectorAEM/models/LX'), FailureHandling.STOP_ON_FAILURE)
 
         WebUI.delay(1)
-
-        selectedModel = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/selected model'), FailureHandling.STOP_ON_FAILURE)
-
-        WebUI.verifyMatch(selectedModel, 'LX', false)
-
-        vehicleName = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle name'), FailureHandling.STOP_ON_FAILURE)
-
-        WebUI.verifyMatch(selectedModel, vehicleName, false)
-
-        previousImage = vehicleImage
-
-        vehicleImage = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle jelly'), 'src', FailureHandling.STOP_ON_FAILURE)
-
-        'if vehicle image has updated, its src should not match the previous value'
-        WebUI.verifyNotMatch(vehicleImage, previousImage, false, FailureHandling.STOP_ON_FAILURE)
     }
     
     WebUI.click(findTestObject('HomePage/VehicleSelectorAEM/categories/Coupes'), FailureHandling.STOP_ON_FAILURE)
@@ -548,21 +347,6 @@ if (WebUI.verifyMatch(GlobalVariable.legacy, 'no', false, FailureHandling.OPTION
         WebUI.click(findTestObject('Homepage/VehicleSelectorAEM/models/RC'), FailureHandling.STOP_ON_FAILURE)
 
         WebUI.delay(1)
-
-        selectedModel = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/selected model'), FailureHandling.STOP_ON_FAILURE)
-
-        WebUI.verifyMatch(selectedModel, 'RC', false)
-
-        vehicleName = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle name'), FailureHandling.STOP_ON_FAILURE)
-
-        WebUI.verifyMatch(selectedModel, vehicleName, false)
-
-        previousImage = vehicleImage
-
-        vehicleImage = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle jelly'), 'src', FailureHandling.STOP_ON_FAILURE)
-
-        'if vehicle image has updated, its src should not match the previous value'
-        WebUI.verifyNotMatch(vehicleImage, previousImage, false, FailureHandling.STOP_ON_FAILURE)
     }
     
     'clicks this model if it is present'
@@ -570,21 +354,6 @@ if (WebUI.verifyMatch(GlobalVariable.legacy, 'no', false, FailureHandling.OPTION
         WebUI.click(findTestObject('Homepage/VehicleSelectorAEM/models/RC F'), FailureHandling.STOP_ON_FAILURE)
 
         WebUI.delay(1)
-
-        selectedModel = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/selected model'), FailureHandling.STOP_ON_FAILURE)
-
-        WebUI.verifyMatch(selectedModel, 'RC F', false)
-
-        vehicleName = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle name'), FailureHandling.STOP_ON_FAILURE)
-
-        WebUI.verifyMatch(selectedModel, vehicleName, false)
-
-        previousImage = vehicleImage
-
-        vehicleImage = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle jelly'), 'src', FailureHandling.STOP_ON_FAILURE)
-
-        'if vehicle image has updated, its src should not match the previous value'
-        WebUI.verifyNotMatch(vehicleImage, previousImage, false, FailureHandling.STOP_ON_FAILURE)
     }
     
     'clicks this model if it is present'
@@ -592,21 +361,6 @@ if (WebUI.verifyMatch(GlobalVariable.legacy, 'no', false, FailureHandling.OPTION
         WebUI.click(findTestObject('Homepage/VehicleSelectorAEM/models/LC'), FailureHandling.STOP_ON_FAILURE)
 
         WebUI.delay(1)
-
-        selectedModel = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/selected model'), FailureHandling.STOP_ON_FAILURE)
-
-        WebUI.verifyMatch(selectedModel, 'LC', false)
-
-        vehicleName = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle name'), FailureHandling.STOP_ON_FAILURE)
-
-        WebUI.verifyMatch(selectedModel, vehicleName, false)
-
-        previousImage = vehicleImage
-
-        vehicleImage = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle jelly'), 'src', FailureHandling.STOP_ON_FAILURE)
-
-        'if vehicle image has updated, its src should not match the previous value'
-        WebUI.verifyNotMatch(vehicleImage, previousImage, false, FailureHandling.STOP_ON_FAILURE)
     }
     
     'clicks this model if it is present'
@@ -614,21 +368,6 @@ if (WebUI.verifyMatch(GlobalVariable.legacy, 'no', false, FailureHandling.OPTION
         WebUI.click(findTestObject('Homepage/VehicleSelectorAEM/models/LCh'), FailureHandling.STOP_ON_FAILURE)
 
         WebUI.delay(1)
-
-        selectedModel = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/selected model'), FailureHandling.STOP_ON_FAILURE)
-
-        WebUI.verifyMatch(selectedModel, 'LC HYBRID', false)
-
-        vehicleName = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle name'), FailureHandling.STOP_ON_FAILURE)
-
-        WebUI.verifyMatch(selectedModel, vehicleName, false)
-
-        previousImage = vehicleImage
-
-        vehicleImage = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle jelly'), 'src', FailureHandling.STOP_ON_FAILURE)
-
-        'if vehicle image has updated, its src should not match the previous value'
-        WebUI.verifyNotMatch(vehicleImage, previousImage, false, FailureHandling.STOP_ON_FAILURE)
     }
     
     'clicks this model if it is present'
@@ -636,21 +375,6 @@ if (WebUI.verifyMatch(GlobalVariable.legacy, 'no', false, FailureHandling.OPTION
         WebUI.click(findTestObject('Homepage/VehicleSelectorAEM/models/LC C'), FailureHandling.STOP_ON_FAILURE)
 
         WebUI.delay(1)
-
-        selectedModel = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/selected model'), FailureHandling.STOP_ON_FAILURE)
-
-        WebUI.verifyMatch(selectedModel, 'LC CONVERTIBLE', false)
-
-        vehicleName = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle name'), FailureHandling.STOP_ON_FAILURE)
-
-        WebUI.verifyMatch(selectedModel, vehicleName, false)
-
-        previousImage = vehicleImage
-
-        vehicleImage = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle jelly'), 'src', FailureHandling.STOP_ON_FAILURE)
-
-        'if vehicle image has updated, its src should not match the previous value'
-        WebUI.verifyNotMatch(vehicleImage, previousImage, false, FailureHandling.STOP_ON_FAILURE)
     }
     
     WebUI.click(findTestObject('HomePage/VehicleSelectorAEM/categories/Hybrids'), FailureHandling.STOP_ON_FAILURE)
@@ -660,21 +384,6 @@ if (WebUI.verifyMatch(GlobalVariable.legacy, 'no', false, FailureHandling.OPTION
         WebUI.click(findTestObject('Homepage/VehicleSelectorAEM/models/UXh'), FailureHandling.STOP_ON_FAILURE)
 
         WebUI.delay(1)
-
-        selectedModel = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/selected model'), FailureHandling.STOP_ON_FAILURE)
-
-        WebUI.verifyMatch(selectedModel, 'UX HYBRID', false)
-
-        vehicleName = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle name'), FailureHandling.STOP_ON_FAILURE)
-
-        WebUI.verifyMatch(selectedModel, vehicleName, false)
-
-        previousImage = vehicleImage
-
-        vehicleImage = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle jelly'), 'src', FailureHandling.STOP_ON_FAILURE)
-
-        'if vehicle image has updated, its src should not match the previous value'
-        WebUI.verifyNotMatch(vehicleImage, previousImage, false, FailureHandling.STOP_ON_FAILURE)
     }
     
     'clicks this model if it is present'
@@ -682,21 +391,6 @@ if (WebUI.verifyMatch(GlobalVariable.legacy, 'no', false, FailureHandling.OPTION
         WebUI.click(findTestObject('Homepage/VehicleSelectorAEM/models/NXh'), FailureHandling.STOP_ON_FAILURE)
 
         WebUI.delay(1)
-
-        selectedModel = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/selected model'), FailureHandling.STOP_ON_FAILURE)
-
-        WebUI.verifyMatch(selectedModel, 'NX HYBRID', false)
-
-        vehicleName = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle name'), FailureHandling.STOP_ON_FAILURE)
-
-        WebUI.verifyMatch(selectedModel, vehicleName, false)
-
-        previousImage = vehicleImage
-
-        vehicleImage = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle jelly'), 'src', FailureHandling.STOP_ON_FAILURE)
-
-        'if vehicle image has updated, its src should not match the previous value'
-        WebUI.verifyNotMatch(vehicleImage, previousImage, false, FailureHandling.STOP_ON_FAILURE)
     }
     
     'clicks this model if it is present'
@@ -704,21 +398,6 @@ if (WebUI.verifyMatch(GlobalVariable.legacy, 'no', false, FailureHandling.OPTION
         WebUI.click(findTestObject('Homepage/VehicleSelectorAEM/models/RXh'), FailureHandling.STOP_ON_FAILURE)
 
         WebUI.delay(1)
-
-        selectedModel = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/selected model'), FailureHandling.STOP_ON_FAILURE)
-
-        WebUI.verifyMatch(selectedModel, 'RX HYBRID', false)
-
-        vehicleName = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle name'), FailureHandling.STOP_ON_FAILURE)
-
-        WebUI.verifyMatch(selectedModel, vehicleName, false)
-
-        previousImage = vehicleImage
-
-        vehicleImage = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle jelly'), 'src', FailureHandling.STOP_ON_FAILURE)
-
-        'if vehicle image has updated, its src should not match the previous value'
-        WebUI.verifyNotMatch(vehicleImage, previousImage, false, FailureHandling.STOP_ON_FAILURE)
     }
     
     'clicks this model if it is present'
@@ -726,21 +405,6 @@ if (WebUI.verifyMatch(GlobalVariable.legacy, 'no', false, FailureHandling.OPTION
         WebUI.click(findTestObject('Homepage/VehicleSelectorAEM/models/ESh'), FailureHandling.STOP_ON_FAILURE)
 
         WebUI.delay(1)
-
-        selectedModel = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/selected model'), FailureHandling.STOP_ON_FAILURE)
-
-        WebUI.verifyMatch(selectedModel, 'ES HYBRID', false)
-
-        vehicleName = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle name'), FailureHandling.STOP_ON_FAILURE)
-
-        WebUI.verifyMatch(selectedModel, vehicleName, false)
-
-        previousImage = vehicleImage
-
-        vehicleImage = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle jelly'), 'src', FailureHandling.STOP_ON_FAILURE)
-
-        'if vehicle image has updated, its src should not match the previous value'
-        WebUI.verifyNotMatch(vehicleImage, previousImage, false, FailureHandling.STOP_ON_FAILURE)
     }
     
     'clicks this model if it is present'
@@ -748,21 +412,6 @@ if (WebUI.verifyMatch(GlobalVariable.legacy, 'no', false, FailureHandling.OPTION
         WebUI.click(findTestObject('Homepage/VehicleSelectorAEM/models/LSh'), FailureHandling.STOP_ON_FAILURE)
 
         WebUI.delay(1)
-
-        selectedModel = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/selected model'), FailureHandling.STOP_ON_FAILURE)
-
-        WebUI.verifyMatch(selectedModel, 'LS HYBRID', false)
-
-        vehicleName = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle name'), FailureHandling.STOP_ON_FAILURE)
-
-        WebUI.verifyMatch(selectedModel, vehicleName, false)
-
-        previousImage = vehicleImage
-
-        vehicleImage = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle jelly'), 'src', FailureHandling.STOP_ON_FAILURE)
-
-        'if vehicle image has updated, its src should not match the previous value'
-        WebUI.verifyNotMatch(vehicleImage, previousImage, false, FailureHandling.STOP_ON_FAILURE)
     }
     
     'clicks this model if it is present'
@@ -770,21 +419,6 @@ if (WebUI.verifyMatch(GlobalVariable.legacy, 'no', false, FailureHandling.OPTION
         WebUI.click(findTestObject('Homepage/VehicleSelectorAEM/models/LCh'), FailureHandling.STOP_ON_FAILURE)
 
         WebUI.delay(1)
-
-        selectedModel = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/selected model'), FailureHandling.STOP_ON_FAILURE)
-
-        WebUI.verifyMatch(selectedModel, 'LC HYBRID', false)
-
-        vehicleName = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle name'), FailureHandling.STOP_ON_FAILURE)
-
-        WebUI.verifyMatch(selectedModel, vehicleName, false)
-
-        previousImage = vehicleImage
-
-        vehicleImage = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle jelly'), 'src', FailureHandling.STOP_ON_FAILURE)
-
-        'if vehicle image has updated, its src should not match the previous value'
-        WebUI.verifyNotMatch(vehicleImage, previousImage, false, FailureHandling.STOP_ON_FAILURE)
     }
     
     WebUI.click(findTestObject('HomePage/VehicleSelectorAEM/categories/Performance'), FailureHandling.STOP_ON_FAILURE)
@@ -794,21 +428,6 @@ if (WebUI.verifyMatch(GlobalVariable.legacy, 'no', false, FailureHandling.OPTION
         WebUI.click(findTestObject('Homepage/VehicleSelectorAEM/models/RC F'), FailureHandling.STOP_ON_FAILURE)
 
         WebUI.delay(1)
-
-        selectedModel = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/selected model'), FailureHandling.STOP_ON_FAILURE)
-
-        WebUI.verifyMatch(selectedModel, 'RC F', false)
-
-        vehicleName = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle name'), FailureHandling.STOP_ON_FAILURE)
-
-        WebUI.verifyMatch(selectedModel, vehicleName, false)
-
-        previousImage = vehicleImage
-
-        vehicleImage = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle jelly'), 'src', FailureHandling.STOP_ON_FAILURE)
-
-        'if vehicle image has updated, its src should not match the previous value'
-        WebUI.verifyNotMatch(vehicleImage, previousImage, false, FailureHandling.STOP_ON_FAILURE)
     }
     
     'clicks this model if it is present'
@@ -816,21 +435,6 @@ if (WebUI.verifyMatch(GlobalVariable.legacy, 'no', false, FailureHandling.OPTION
         WebUI.click(findTestObject('Homepage/VehicleSelectorAEM/models/LC'), FailureHandling.STOP_ON_FAILURE)
 
         WebUI.delay(1)
-
-        selectedModel = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/selected model'), FailureHandling.STOP_ON_FAILURE)
-
-        WebUI.verifyMatch(selectedModel, 'LC', false)
-
-        vehicleName = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle name'), FailureHandling.STOP_ON_FAILURE)
-
-        WebUI.verifyMatch(selectedModel, vehicleName, false)
-
-        previousImage = vehicleImage
-
-        vehicleImage = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle jelly'), 'src', FailureHandling.STOP_ON_FAILURE)
-
-        'if vehicle image has updated, its src should not match the previous value'
-        WebUI.verifyNotMatch(vehicleImage, previousImage, false, FailureHandling.STOP_ON_FAILURE)
     }
     
     'clicks this model if it is present'
@@ -838,21 +442,6 @@ if (WebUI.verifyMatch(GlobalVariable.legacy, 'no', false, FailureHandling.OPTION
         WebUI.click(findTestObject('Homepage/VehicleSelectorAEM/models/LCh'), FailureHandling.STOP_ON_FAILURE)
 
         WebUI.delay(1)
-
-        selectedModel = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/selected model'), FailureHandling.STOP_ON_FAILURE)
-
-        WebUI.verifyMatch(selectedModel, 'LC HYBRID', false)
-
-        vehicleName = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle name'), FailureHandling.STOP_ON_FAILURE)
-
-        WebUI.verifyMatch(selectedModel, vehicleName, false)
-
-        previousImage = vehicleImage
-
-        vehicleImage = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle jelly'), 'src', FailureHandling.STOP_ON_FAILURE)
-
-        'if vehicle image has updated, its src should not match the previous value'
-        WebUI.verifyNotMatch(vehicleImage, previousImage, false, FailureHandling.STOP_ON_FAILURE)
     }
     
     'clicks this model if it is present'
@@ -860,21 +449,6 @@ if (WebUI.verifyMatch(GlobalVariable.legacy, 'no', false, FailureHandling.OPTION
         WebUI.click(findTestObject('Homepage/VehicleSelectorAEM/models/LC C'), FailureHandling.STOP_ON_FAILURE)
 
         WebUI.delay(1)
-
-        selectedModel = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/selected model'), FailureHandling.STOP_ON_FAILURE)
-
-        WebUI.verifyMatch(selectedModel, 'LC CONVERTIBLE', false)
-
-        vehicleName = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle name'), FailureHandling.STOP_ON_FAILURE)
-
-        WebUI.verifyMatch(selectedModel, vehicleName, false)
-
-        previousImage = vehicleImage
-
-        vehicleImage = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle jelly'), 'src', FailureHandling.STOP_ON_FAILURE)
-
-        'if vehicle image has updated, its src should not match the previous value'
-        WebUI.verifyNotMatch(vehicleImage, previousImage, false, FailureHandling.STOP_ON_FAILURE)
     }
 }
 

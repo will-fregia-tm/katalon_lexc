@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Performance - LCh</name>
+   <name>RXh</name>
    <tag></tag>
-   <elementGuidId>58b96d1e-5fdc-4483-9f6e-fec63ca07a0e</elementGuidId>
+   <elementGuidId>7e037f78-b279-40f8-a0fb-3b0033434a4e</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>#VehicleSelector div[class*=&quot;selected&quot;] img[src*=&quot;rxh&quot;]</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
-         <value>//li[contains(@data-category, 'Performance') and @data-model = 'LCh']</value>
+         <value>//li[contains(@data-category, 'Suvs') and @data-model = 'RXh']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,13 +35,13 @@
       <matchCondition>contains</matchCondition>
       <name>data-category</name>
       <type>Main</type>
-      <value>Performance</value>
+      <value>Suvs</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-model</name>
       <type>Main</type>
-      <value>LCh</value>
+      <value>RXh</value>
    </webElementProperties>
 </WebElementEntity>

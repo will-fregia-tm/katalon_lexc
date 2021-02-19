@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>SUVs - LX</name>
+   <name>NX</name>
    <tag></tag>
-   <elementGuidId>e029c924-6954-474a-965c-56bf1802dc68</elementGuidId>
+   <elementGuidId>3c89bd02-aff5-4090-b3ce-7ab0f8e8153d</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>#VehicleSelector div[class*=&quot;selected&quot;] img[src*=&quot;nx&quot;]</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
-         <value>//li[contains(@data-category, 'Suvs') and @data-model = 'LX']</value>
+         <value>//li[contains(@data-category, 'Suvs') and @data-model = 'NX']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,6 +42,6 @@
       <matchCondition>equals</matchCondition>
       <name>data-model</name>
       <type>Main</type>
-      <value>LX</value>
+      <value>NX</value>
    </webElementProperties>
 </WebElementEntity>

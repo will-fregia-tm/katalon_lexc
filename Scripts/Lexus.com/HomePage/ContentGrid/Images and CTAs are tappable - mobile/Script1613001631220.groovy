@@ -68,7 +68,7 @@ if (WebUI.verifyMatch(windowTitle, modifiedString, false, FailureHandling.OPTION
 
     href = WebUI.getAttribute(findTestObject('Homepage/ContentGrid/grid module 01 - tile1'), 'href')
 
-    href = ((href - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com')
+    href = ((href - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com' - 'https://prd-aem-lcom.origin.cepo-proxy.tms.aws.lexus.com')
 
     WebUI.navigateToUrl('https://www.lexus.com' + href)
 
@@ -107,7 +107,7 @@ if (WebUI.verifyMatch(windowTitle, modifiedString, false, FailureHandling.OPTION
 
     href = WebUI.getAttribute(findTestObject('Homepage/ContentGrid/grid module 01 - tile2'), 'href')
 
-    href = ((href - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com')
+    href = ((href - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com' - 'https://prd-aem-lcom.origin.cepo-proxy.tms.aws.lexus.com')
 
     WebUI.navigateToUrl('https://www.lexus.com' + href)
 
@@ -148,7 +148,7 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/ContentGrid/grid module 
 
         href = WebUI.getAttribute(findTestObject('Homepage/ContentGrid/grid module 01 - tile3'), 'href')
 
-        href = ((href - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com')
+        href = ((href - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com' - 'https://prd-aem-lcom.origin.cepo-proxy.tms.aws.lexus.com')
 
         WebUI.navigateToUrl('https://www.lexus.com' + href)
 
@@ -189,7 +189,7 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/ContentGrid/grid module 
 
             href = WebUI.getAttribute(findTestObject('Homepage/ContentGrid/grid module 01 - tile4'), 'href')
 
-            href = ((href - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com')
+            href = ((href - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com' - 'https://prd-aem-lcom.origin.cepo-proxy.tms.aws.lexus.com')
 
             WebUI.navigateToUrl('https://www.lexus.com' + href)
 

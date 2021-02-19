@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Sedans - ESh</name>
+   <name>ES</name>
    <tag></tag>
-   <elementGuidId>c4f664a5-5cc9-4844-8b25-14c7b98f96d3</elementGuidId>
+   <elementGuidId>81596204-db13-4d89-9e41-a47ae2a229a9</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>#VehicleSelector div[class*=&quot;selected&quot;] img[src*=&quot;es.png&quot;]</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
-         <value>//li[contains(@data-category, 'Sedans') and @data-model = 'ESh']</value>
+         <value>//li[contains(@data-category, 'Sedans') and @data-model = 'ES']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,6 +42,6 @@
       <matchCondition>equals</matchCondition>
       <name>data-model</name>
       <type>Main</type>
-      <value>ESh</value>
+      <value>ES</value>
    </webElementProperties>
 </WebElementEntity>

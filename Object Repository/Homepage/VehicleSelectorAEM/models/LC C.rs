@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Performance - LC</name>
+   <name>LC C</name>
    <tag></tag>
-   <elementGuidId>fadf35a3-8185-4e11-b0d3-5782bef21d67</elementGuidId>
+   <elementGuidId>094a3330-c01c-48fe-af71-fab71fe2ab86</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>#VehicleSelector div[class*=&quot;selected&quot;] img[src*=&quot;lcc&quot;]</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
-         <value>//li[contains(@data-category, 'Performance') and @data-model = 'LC']</value>
+         <value>//li[contains(@data-category, 'Coupes') and @data-model = 'LC C']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,13 +35,13 @@
       <matchCondition>contains</matchCondition>
       <name>data-category</name>
       <type>Main</type>
-      <value>Performance</value>
+      <value>Coupes</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-model</name>
       <type>Main</type>
-      <value>LC</value>
+      <value>LC C</value>
    </webElementProperties>
 </WebElementEntity>

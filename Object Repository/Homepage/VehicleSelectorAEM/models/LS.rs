@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>SUVs - NXh</name>
+   <name>LS</name>
    <tag></tag>
-   <elementGuidId>6424f7c8-f487-4e06-8848-b444ef5ede87</elementGuidId>
+   <elementGuidId>327911a9-ed22-4233-ba69-da00c37375fa</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>#VehicleSelector div[class*=&quot;selected&quot;] img[src*=&quot;ls&quot;]</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
-         <value>//li[contains(@data-category, 'Suvs') and @data-model = 'NXh']</value>
+         <value>//li[contains(@data-category, 'Sedans') and @data-model = 'LS']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,13 +35,13 @@
       <matchCondition>contains</matchCondition>
       <name>data-category</name>
       <type>Main</type>
-      <value>Suvs</value>
+      <value>Sedans</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-model</name>
       <type>Main</type>
-      <value>NXh</value>
+      <value>LS</value>
    </webElementProperties>
 </WebElementEntity>

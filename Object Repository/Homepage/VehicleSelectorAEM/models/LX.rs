@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Hybrids - GSh</name>
+   <name>LX</name>
    <tag></tag>
-   <elementGuidId>c77fcdb0-3c63-4e09-80f3-db7b945af8d1</elementGuidId>
+   <elementGuidId>e029c924-6954-474a-965c-56bf1802dc68</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>#VehicleSelector div[class*=&quot;selected&quot;] img[src*=&quot;lx&quot;]</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
-         <value>//li[contains(@data-category, 'Hybrids') and @data-model = 'GSh']</value>
+         <value>//li[contains(@data-category, 'Suvs') and @data-model = 'LX']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,13 +35,13 @@
       <matchCondition>contains</matchCondition>
       <name>data-category</name>
       <type>Main</type>
-      <value>Hybrids</value>
+      <value>Suvs</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-model</name>
       <type>Main</type>
-      <value>GSh</value>
+      <value>LX</value>
    </webElementProperties>
 </WebElementEntity>

@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>SUVs - UXh</name>
+   <name>LSh</name>
    <tag></tag>
-   <elementGuidId>cdb1c6b7-284e-4acd-82b5-9255b7dc7fe0</elementGuidId>
+   <elementGuidId>b766f2db-86a3-4daf-8ec9-e9d31022cf3c</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>#VehicleSelector div[class*=&quot;selected&quot;] img[src*=&quot;lsh&quot;]</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
-         <value>//li[contains(@data-category, 'Suvs') and @data-model = 'UXh']</value>
+         <value>//li[contains(@data-category, 'Sedans') and @data-model = 'LSh']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,13 +35,13 @@
       <matchCondition>contains</matchCondition>
       <name>data-category</name>
       <type>Main</type>
-      <value>Suvs</value>
+      <value>Sedans</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-model</name>
       <type>Main</type>
-      <value>UXh</value>
+      <value>LSh</value>
    </webElementProperties>
 </WebElementEntity>

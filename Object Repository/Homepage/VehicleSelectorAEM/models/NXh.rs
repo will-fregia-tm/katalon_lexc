@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Sedans - ES</name>
+   <name>NXh</name>
    <tag></tag>
-   <elementGuidId>81596204-db13-4d89-9e41-a47ae2a229a9</elementGuidId>
+   <elementGuidId>6424f7c8-f487-4e06-8848-b444ef5ede87</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>#VehicleSelector div[class*=&quot;selected&quot;] img[src*=&quot;nxh&quot;]</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
-         <value>//li[contains(@data-category, 'Sedans') and @data-model = 'ES']</value>
+         <value>//li[contains(@data-category, 'Suvs') and @data-model = 'NXh']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,13 +35,13 @@
       <matchCondition>contains</matchCondition>
       <name>data-category</name>
       <type>Main</type>
-      <value>Sedans</value>
+      <value>Suvs</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-model</name>
       <type>Main</type>
-      <value>ES</value>
+      <value>NXh</value>
    </webElementProperties>
 </WebElementEntity>

@@ -71,4 +71,16 @@
          <variableId>7ec398b2-4bb1-4bd7-9d5c-23e0de55e674</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>36de8cc7-4fd8-4bbc-87c6-ef7ba240725a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/HomePage/VehicleSelector/clickable vehicle selector thumbnails</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>587ff40d-9d81-4d2e-bd84-9c7215b71476</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>

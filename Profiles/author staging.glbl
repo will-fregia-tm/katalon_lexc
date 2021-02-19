@@ -101,7 +101,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>3</initValue>
+      <initValue>5</initValue>
       <name>dataColumn</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

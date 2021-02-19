@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Performance - RC F</name>
+   <name>GX</name>
    <tag></tag>
-   <elementGuidId>fa78e37b-7427-4304-88b0-a1e7083c7eaf</elementGuidId>
+   <elementGuidId>bfa5a889-7569-45d8-b252-b54da7f348fb</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>#VehicleSelector div[class*=&quot;selected&quot;] img[src*=&quot;gx&quot;]</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
-         <value>//li[contains(@data-category, 'Performance') and @data-model = 'RC F']</value>
+         <value>//li[contains(@data-category, 'Suvs') and @data-model = 'GX']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,13 +35,13 @@
       <matchCondition>contains</matchCondition>
       <name>data-category</name>
       <type>Main</type>
-      <value>Performance</value>
+      <value>Suvs</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-model</name>
       <type>Main</type>
-      <value>RC F</value>
+      <value>GX</value>
    </webElementProperties>
 </WebElementEntity>
