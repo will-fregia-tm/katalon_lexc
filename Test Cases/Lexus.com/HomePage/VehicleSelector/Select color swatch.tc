@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>When a user is viewing a vehicle (i.e. Coupes > RC F  > Ultra White) and the user selects an inactive swatch (i.e. the Infrared color swatch)
+Then the system shall:
+update the swatch to the selected state (infrared)
+update the model asset (infrared RC F)
+update color swatch name to the selected color (Infrared)</description>
+   <name>Select color swatch</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>26cdd0a0-e6b4-4b54-83bf-35f4646738a5</testCaseGuid>
+   <variable>
+      <defaultValue>'VehicleSelectorOffers'</defaultValue>
+      <description></description>
+      <id>e848b825-cee8-4160-88bd-8f67adacd574</id>
+      <masked>false</masked>
+      <name>HomePage</name>
+   </variable>
+</TestCaseEntity>

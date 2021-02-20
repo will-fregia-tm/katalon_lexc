@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>When a user selects a vehicle, then the system shall update the following:
-vehicle price
-vehicle shown pricing</description>
-   <name>Select Vehicle - correct prices are displayed</name>
+color swatches for the selected vehicle
+the default color selection selected</description>
+   <name>Select Vehicle - color swatches for selected vehicle</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>a81d48b3-48e2-45fd-a44b-838e9456db81</testCaseGuid>
+   <testCaseGuid>a6f1b38b-b56b-49c7-b427-6be4e3630d72</testCaseGuid>
    <variable>
       <defaultValue>'VehicleSelectorOffers'</defaultValue>
       <description></description>
-      <id>85def622-c9b3-4a06-b9e6-7b7fe99cb690</id>
+      <id>e0682d5c-3edc-49d9-a6ce-0acf028c9fde</id>
       <masked>false</masked>
       <name>HomePage</name>
    </variable>

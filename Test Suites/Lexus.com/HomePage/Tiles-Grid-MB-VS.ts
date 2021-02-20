@@ -95,4 +95,16 @@
          <variableId>85def622-c9b3-4a06-b9e6-7b7fe99cb690</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>227ed72c-7db7-443a-ae7d-54bbcf70471d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/HomePage/VehicleSelector/Select Vehicle - color swatches for selected vehicle</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e0682d5c-3edc-49d9-a6ce-0acf028c9fde</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>

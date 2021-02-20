@@ -170,7 +170,7 @@
    <testCaseLink>
       <guid>7454118d-e753-421f-99fe-d333a2dc3ce8</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Lexus.com/HomePage/HeroOffers/Shared Overlay - Change ZIP code CTA</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -182,7 +182,7 @@
    <testCaseLink>
       <guid>f855393b-fce2-417a-ad5a-585f185a22e1</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Lexus.com/HomePage/HeroOffers/Shared Overlay - Click X button</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -237,18 +237,6 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>b3b34c24-13ac-4ac1-b9aa-72e249bc8fd1</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>ae7b89a2-e1c4-4596-9c5d-b9a846743efb</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Lexus.com/HomePage/HeroOffers/Offer Cards - Carousel navigation (mobile)</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>5809c13b-3d63-4cfe-a426-8cfb787cb926</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
