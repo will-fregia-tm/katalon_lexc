@@ -65,6 +65,8 @@ if (WebUI.verifyMatch(GlobalVariable.legacy, 'yes', false, FailureHandling.OPTIO
 if (WebUI.verifyMatch(GlobalVariable.legacy, 'no', false, FailureHandling.OPTIONAL)) {
     WebUI.navigateToUrl(GlobalVariable.AEM_Domain)
 
+    WebUI.waitForElementPresent(findTestObject('Homepage/VehicleSelectorAEM/vehicle selector module'), 10, FailureHandling.OPTIONAL)
+
     'if the page renders slowly, it will be refreshed so the test can continue'
     if (WebUI.verifyElementNotPresent(findTestObject('GlobalNav/header/header - Lexus logo'), 3, FailureHandling.OPTIONAL)) {
         WebUI.refresh()

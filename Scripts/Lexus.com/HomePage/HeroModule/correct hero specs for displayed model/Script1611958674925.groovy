@@ -70,7 +70,31 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroModule/spec - starti
     modifiedString = (actualValue - expectedValue)
 
     'if the expected value is contained within the actual value, then the actual value without the expected value should not match the actual value'
-    WebUI.verifyNotMatch(modifiedString, actualValue, false, FailureHandling.STOP_ON_FAILURE)
+    not_run: WebUI.verifyNotMatch(modifiedString, actualValue, false, FailureHandling.STOP_ON_FAILURE)
+
+    'this should cover the rare situation in which specs are only present in slide 2'
+    if (WebUI.verifyNotMatch(modifiedString, actualValue, false, FailureHandling.OPTIONAL)) {
+        WebUI.click(findTestObject('Homepage/HeroModule/carousel slide 2 button'), FailureHandling.OPTIONAL)
+
+        WebUI.delay(2)
+
+        actualValue = WebUI.getText(findTestObject('Homepage/HeroModule/spec - starting at msrp'), FailureHandling.STOP_ON_FAILURE)
+
+        'this allows for null values in lower environments that do not have content updates'
+        actualValue = (actualValue + ' ')
+
+        'chooses column with data for test environment'
+        column = GlobalVariable.dataColumn
+
+        'gets homepage hero model value from HP test data'
+        expectedValue = findTestData('HP').getValue(column, 3)
+
+        'subtracts datasheet expected value from actual value displayed on page'
+        modifiedString = (actualValue - expectedValue)
+
+        'if the expected value is contained within the actual value, then the actual value without the expected value should not match the actual value'
+        WebUI.verifyNotMatch(modifiedString, actualValue, false, FailureHandling.STOP_ON_FAILURE)
+    }
 }
 
 'runs test if horsepower spec is present'
