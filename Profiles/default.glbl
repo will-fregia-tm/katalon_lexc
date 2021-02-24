@@ -71,7 +71,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'yes'</initValue>
+      <initValue>'no'</initValue>
       <name>legacy</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

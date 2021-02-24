@@ -44,9 +44,27 @@ if (WebUI.verifyElementNotPresent(findTestObject('GlobalNav/header/header - Lexu
 
 WebUI.delay(2)
 
-WebUI.waitForElementPresent(findTestObject('Homepage/VehicleSelectorAEM/vehicle selector module'), 0, FailureHandling.OPTIONAL)
+WebUI.waitForElementPresent(findTestObject('Homepage/QuickLinks/Quick Links'), 0, FailureHandling.OPTIONAL)
 
-WebUI.scrollToElement(findTestObject('Homepage/VehicleSelectorAEM/vehicle selector module'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.scrollToElement(findTestObject('Homepage/QuickLinks/Quick Links'), 0, FailureHandling.OPTIONAL)
+
+WebUI.scrollToElement(findTestObject('Homepage/DividerModule/divider 01'), 0, FailureHandling.OPTIONAL)
+
+WebUI.scrollToElement(findTestObject('Homepage/DividerModule/divider 02'), 0, FailureHandling.OPTIONAL)
+
+WebUI.scrollToElement(findTestObject('Homepage/VehicleSelectorAEM/vehicle selector heading'), 0, FailureHandling.OPTIONAL)
+
+'if the vehicle selector renders slowly, page will be refreshed so the test can continue'
+if (WebUI.verifyElementNotPresent(findTestObject('Homepage/VehicleSelectorAEM/vehicle selector module'), 3, FailureHandling.OPTIONAL)) {
+    WebUI.refresh()
+
+    WebUI.scrollToElement(findTestObject('Homepage/VehicleSelectorAEM/vehicle selector module'), 0, FailureHandling.OPTIONAL)
+
+    'if the vehicle selector renders slowly, page will be refreshed so the test can continue'
+    if (WebUI.verifyElementNotPresent(findTestObject('Homepage/VehicleSelectorAEM/vehicle selector module'), 3, FailureHandling.OPTIONAL)) {
+        WebUI.scrollToElement(findTestObject('Homepage/VehicleSelectorAEM/vehicle selector heading'), 0, FailureHandling.OPTIONAL)
+    }
+}
 
 WebUI.click(findTestObject('HomePage/VehicleSelectorAEM/categories/Sedans'), FailureHandling.STOP_ON_FAILURE)
 

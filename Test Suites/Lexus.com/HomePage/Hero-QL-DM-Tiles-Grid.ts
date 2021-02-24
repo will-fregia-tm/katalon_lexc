@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Hero-QL-DM</name>
+   <name>Hero-QL-DM-Tiles-Grid</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -165,6 +165,42 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>f45559d4-aff9-4dcc-b3f4-b1cbb907f583</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>6601e67c-2690-4998-8e70-325030684b82</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/HomePage/ContentGrid/Images and CTAs are clickable-tappable, and update on hover</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>2fe38b4f-c924-48d9-9e4b-422d068134ad</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>460d7c35-b74d-4926-95a2-9a94d5b6ffcb</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/HomePage/ContentTiles/Images and CTAs are clickable-tappable, and update on hover</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>2ae4a3c9-edc4-4d14-858f-21a5f2f32f26</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c74bde74-5aa0-455b-9372-7c17d86c23fa</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/HomePage/ContentTiles/Promo carousel for 4 or more tiles</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>721d3f12-e8ed-4df0-beb6-ed85c02c9b1b</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
