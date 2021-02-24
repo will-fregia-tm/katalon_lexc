@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>All color swatches should be the same size (regardless of # of swatches).  
+Each color swatch has a default/unselected-state and active-state
+unselected state: no stroke around swatch
+selected:
+gold stroke around swatch 
+color name renders under color swatch
+Only one color swatch can be active at a time
+Color swatches will enter a carousel when the number of swatches exceeds the breakpoints defined limit
+Mobile limit: 5
+Desktop limit: 8
+When carousel is enabled:
+Tap/Clickable arrows will appear
+Mobile carrousel will be swipe-able
+and if color-swatch name has a disclaimer
+then the disclaimer icon will appear as defined through the CMS
+when a user clicks on the icon, the disclaimer tooltip will appear in proximity to the asterisk </description>
+   <name>Color swatch carousel</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>625f1d22-b4e1-47aa-af15-e620f1532e38</testCaseGuid>
+   <variable>
+      <defaultValue>'VehicleSelectorOffers'</defaultValue>
+      <description></description>
+      <id>bd22425e-5ef8-4141-99a4-828aa8c6339e</id>
+      <masked>false</masked>
+      <name>HomePage</name>
+   </variable>
+</TestCaseEntity>

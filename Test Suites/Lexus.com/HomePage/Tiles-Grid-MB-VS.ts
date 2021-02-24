@@ -107,4 +107,28 @@
          <variableId>e0682d5c-3edc-49d9-a6ce-0acf028c9fde</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>85b0fa33-0ffa-442a-a42f-eebf502615f9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/HomePage/VehicleSelector/Select color swatch</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e848b825-cee8-4160-88bd-8f67adacd574</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>55435bdc-bae5-4264-9f0a-b0f85c1adac7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/HomePage/VehicleSelector/Color swatch carousel</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>bd22425e-5ef8-4141-99a4-828aa8c6339e</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>

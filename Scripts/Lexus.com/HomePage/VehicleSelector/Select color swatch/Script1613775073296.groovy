@@ -56,27 +56,64 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/model
 
     WebUI.delay(2)
 
-    swatch1 = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/selected swatch'), 'src', FailureHandling.OPTIONAL)
+    swatch1 = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/color 1 default'), 'src', FailureHandling.STOP_ON_FAILURE)
 
-    name1 = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/selected swatch name'), FailureHandling.OPTIONAL)
+    swatchBorder = WebUI.getCSSValue(findTestObject('Homepage/VehicleSelectorAEM/models/color 1 default'), 'border-top-color', 
+        FailureHandling.STOP_ON_FAILURE)
 
-    asset1 = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle jelly'), 'src', FailureHandling.OPTIONAL)
+    'verifies that this swatch has a visible border and is visibly selected'
+    if (WebUI.verifyNotMatch(swatchBorder, 'rgba(164, 139, 91, 1)', false, FailureHandling.OPTIONAL)) {
+        'verifies that this swatch has a visible border and is visibly selected'
+        WebUI.verifyMatch(swatchBorder, 'rgb(164, 139, 91)', false, FailureHandling.STOP_ON_FAILURE)
+    }
+    
+    swatchBorder = WebUI.getCSSValue(findTestObject('Homepage/VehicleSelectorAEM/models/color 2'), 'border-top-color', FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.click(findTestObject('Homepage/VehicleSelectorAEM/models/color 2'), FailureHandling.OPTIONAL)
+    'verifies that this swatch has no visible border and is not visibly selected'
+    if (WebUI.verifyNotMatch(swatchBorder, 'rgba(0, 0, 0, 0)', false, FailureHandling.OPTIONAL)) {
+        'verifies that this swatch has no visible border and is not visibly selected'
+        WebUI.verifyMatch(swatchBorder, 'rgb(0, 0, 0)', false, FailureHandling.STOP_ON_FAILURE)
+    }
+    
+    name1 = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/selected swatch name'), FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.delay(1)
+    asset1 = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle jelly'), 'src', FailureHandling.STOP_ON_FAILURE)
 
-    swatch2 = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/selected swatch'), 'src', FailureHandling.OPTIONAL)
+    WebUI.click(findTestObject('Homepage/VehicleSelectorAEM/models/color 2'), FailureHandling.STOP_ON_FAILURE)
 
-    name2 = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/selected swatch name'), FailureHandling.OPTIONAL)
+    WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-    asset2 = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle jelly'), 'src', FailureHandling.OPTIONAL)
+    swatch2 = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/color 2'), 'src', FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.verifyNotMatch(swatch1, swatch2, false, FailureHandling.OPTIONAL)
+    swatchBorder = WebUI.getCSSValue(findTestObject('Homepage/VehicleSelectorAEM/models/color 2'), 'border-top-color', FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.verifyNotMatch(name1, name2, false, FailureHandling.OPTIONAL)
+    'verifies that this swatch has a visible border and is visibly selected'
+    if (WebUI.verifyNotMatch(swatchBorder, 'rgba(164, 139, 91, 1)', false, FailureHandling.OPTIONAL)) {
+        'verifies that this swatch has a visible border and is visibly selected'
+        WebUI.verifyMatch(swatchBorder, 'rgb(164, 139, 91)', false, FailureHandling.STOP_ON_FAILURE)
+    }
+    
+    swatchBorder = WebUI.getCSSValue(findTestObject('Homepage/VehicleSelectorAEM/models/color 1 default'), 'border-top-color', 
+        FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.verifyNotMatch(asset1, asset2, false, FailureHandling.OPTIONAL)
+    'verifies that this swatch has no visible border and is not visibly selected'
+    if (WebUI.verifyNotMatch(swatchBorder, 'rgba(0, 0, 0, 0)', false, FailureHandling.OPTIONAL)) {
+        'verifies that this swatch has no visible border and is not visibly selected'
+        WebUI.verifyMatch(swatchBorder, 'rgb(0, 0, 0)', false, FailureHandling.STOP_ON_FAILURE)
+    }
+    
+    name2 = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/selected swatch name'), FailureHandling.STOP_ON_FAILURE)
+
+    asset2 = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle jelly'), 'src', FailureHandling.STOP_ON_FAILURE)
+
+    'verifies that swatch has been updated'
+    WebUI.verifyNotMatch(swatch1, swatch2, false, FailureHandling.STOP_ON_FAILURE)
+
+    'verifies that swatch name has been updated'
+    WebUI.verifyNotMatch(name1, name2, false, FailureHandling.STOP_ON_FAILURE)
+
+    'verifies that model asset has been updated'
+    WebUI.verifyNotMatch(asset1, asset2, false, FailureHandling.STOP_ON_FAILURE)
 }
 
 WebUI.click(findTestObject('HomePage/VehicleSelectorAEM/categories/SUVs'), FailureHandling.STOP_ON_FAILURE)
@@ -86,15 +123,133 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/model
     WebUI.click(findTestObject('Homepage/VehicleSelectorAEM/models/UX'), FailureHandling.STOP_ON_FAILURE)
 
     WebUI.delay(1)
+
+    swatch1 = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/color 1 default'), 'src', FailureHandling.STOP_ON_FAILURE)
+
+    swatchBorder = WebUI.getCSSValue(findTestObject('Homepage/VehicleSelectorAEM/models/color 1 default'), 'border-top-color', 
+        FailureHandling.STOP_ON_FAILURE)
+
+    'verifies that this swatch has a visible border and is visibly selected'
+    if (WebUI.verifyNotMatch(swatchBorder, 'rgba(164, 139, 91, 1)', false, FailureHandling.OPTIONAL)) {
+        'verifies that this swatch has a visible border and is visibly selected'
+        WebUI.verifyMatch(swatchBorder, 'rgb(164, 139, 91)', false, FailureHandling.STOP_ON_FAILURE)
+    }
+    
+    swatchBorder = WebUI.getCSSValue(findTestObject('Homepage/VehicleSelectorAEM/models/color 2'), 'border-top-color', FailureHandling.STOP_ON_FAILURE)
+
+    'verifies that this swatch has no visible border and is not visibly selected'
+    if (WebUI.verifyNotMatch(swatchBorder, 'rgba(0, 0, 0, 0)', false, FailureHandling.OPTIONAL)) {
+        'verifies that this swatch has no visible border and is not visibly selected'
+        WebUI.verifyMatch(swatchBorder, 'rgb(0, 0, 0)', false, FailureHandling.STOP_ON_FAILURE)
+    }
+    
+    name1 = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/selected swatch name'), FailureHandling.STOP_ON_FAILURE)
+
+    asset1 = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle jelly'), 'src', FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.click(findTestObject('Homepage/VehicleSelectorAEM/models/color 2'), FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+    swatch2 = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/color 2'), 'src', FailureHandling.STOP_ON_FAILURE)
+
+    swatchBorder = WebUI.getCSSValue(findTestObject('Homepage/VehicleSelectorAEM/models/color 2'), 'border-top-color', FailureHandling.STOP_ON_FAILURE)
+
+    'verifies that this swatch has a visible border and is visibly selected'
+    if (WebUI.verifyNotMatch(swatchBorder, 'rgba(164, 139, 91, 1)', false, FailureHandling.OPTIONAL)) {
+        'verifies that this swatch has a visible border and is visibly selected'
+        WebUI.verifyMatch(swatchBorder, 'rgb(164, 139, 91)', false, FailureHandling.STOP_ON_FAILURE)
+    }
+    
+    swatchBorder = WebUI.getCSSValue(findTestObject('Homepage/VehicleSelectorAEM/models/color 1 default'), 'border-top-color', 
+        FailureHandling.STOP_ON_FAILURE)
+
+    'verifies that this swatch has no visible border and is not visibly selected'
+    if (WebUI.verifyNotMatch(swatchBorder, 'rgba(0, 0, 0, 0)', false, FailureHandling.OPTIONAL)) {
+        'verifies that this swatch has no visible border and is not visibly selected'
+        WebUI.verifyMatch(swatchBorder, 'rgb(0, 0, 0)', false, FailureHandling.STOP_ON_FAILURE)
+    }
+    
+    name2 = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/selected swatch name'), FailureHandling.STOP_ON_FAILURE)
+
+    asset2 = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle jelly'), 'src', FailureHandling.STOP_ON_FAILURE)
+
+    'verifies that swatch has been updated'
+    WebUI.verifyNotMatch(swatch1, swatch2, false, FailureHandling.STOP_ON_FAILURE)
+
+    'verifies that swatch name has been updated'
+    WebUI.verifyNotMatch(name1, name2, false, FailureHandling.STOP_ON_FAILURE)
+
+    'verifies that model asset has been updated'
+    WebUI.verifyNotMatch(asset1, asset2, false, FailureHandling.STOP_ON_FAILURE)
 }
 
 WebUI.click(findTestObject('HomePage/VehicleSelectorAEM/categories/Coupes'), FailureHandling.STOP_ON_FAILURE)
 
 'clicks this model if it is present'
-if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/models/RC'), 3, FailureHandling.OPTIONAL)) {
-    WebUI.click(findTestObject('Homepage/VehicleSelectorAEM/models/RC'), FailureHandling.STOP_ON_FAILURE)
+if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/models/RC F'), 3, FailureHandling.OPTIONAL)) {
+    WebUI.click(findTestObject('Homepage/VehicleSelectorAEM/models/RC F'), FailureHandling.STOP_ON_FAILURE)
 
     WebUI.delay(1)
+
+    swatch1 = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/color 1 default'), 'src', FailureHandling.STOP_ON_FAILURE)
+
+    swatchBorder = WebUI.getCSSValue(findTestObject('Homepage/VehicleSelectorAEM/models/color 1 default'), 'border-top-color', 
+        FailureHandling.STOP_ON_FAILURE)
+
+    'verifies that this swatch has a visible border and is visibly selected'
+    if (WebUI.verifyNotMatch(swatchBorder, 'rgba(164, 139, 91, 1)', false, FailureHandling.OPTIONAL)) {
+        'verifies that this swatch has a visible border and is visibly selected'
+        WebUI.verifyMatch(swatchBorder, 'rgb(164, 139, 91)', false, FailureHandling.STOP_ON_FAILURE)
+    }
+    
+    swatchBorder = WebUI.getCSSValue(findTestObject('Homepage/VehicleSelectorAEM/models/color 2'), 'border-top-color', FailureHandling.STOP_ON_FAILURE)
+
+    'verifies that this swatch has no visible border and is not visibly selected'
+    if (WebUI.verifyNotMatch(swatchBorder, 'rgba(0, 0, 0, 0)', false, FailureHandling.OPTIONAL)) {
+        'verifies that this swatch has no visible border and is not visibly selected'
+        WebUI.verifyMatch(swatchBorder, 'rgb(0, 0, 0)', false, FailureHandling.STOP_ON_FAILURE)
+    }
+    
+    name1 = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/selected swatch name'), FailureHandling.STOP_ON_FAILURE)
+
+    asset1 = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle jelly'), 'src', FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.click(findTestObject('Homepage/VehicleSelectorAEM/models/color 2'), FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+    swatch2 = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/color 2'), 'src', FailureHandling.STOP_ON_FAILURE)
+
+    swatchBorder = WebUI.getCSSValue(findTestObject('Homepage/VehicleSelectorAEM/models/color 2'), 'border-top-color', FailureHandling.STOP_ON_FAILURE)
+
+    'verifies that this swatch has a visible border and is visibly selected'
+    if (WebUI.verifyNotMatch(swatchBorder, 'rgba(164, 139, 91, 1)', false, FailureHandling.OPTIONAL)) {
+        'verifies that this swatch has a visible border and is visibly selected'
+        WebUI.verifyMatch(swatchBorder, 'rgb(164, 139, 91)', false, FailureHandling.STOP_ON_FAILURE)
+    }
+    
+    swatchBorder = WebUI.getCSSValue(findTestObject('Homepage/VehicleSelectorAEM/models/color 1 default'), 'border-top-color', 
+        FailureHandling.STOP_ON_FAILURE)
+
+    'verifies that this swatch has no visible border and is not visibly selected'
+    if (WebUI.verifyNotMatch(swatchBorder, 'rgba(0, 0, 0, 0)', false, FailureHandling.OPTIONAL)) {
+        'verifies that this swatch has no visible border and is not visibly selected'
+        WebUI.verifyMatch(swatchBorder, 'rgb(0, 0, 0)', false, FailureHandling.STOP_ON_FAILURE)
+    }
+    
+    name2 = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/selected swatch name'), FailureHandling.STOP_ON_FAILURE)
+
+    asset2 = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle jelly'), 'src', FailureHandling.STOP_ON_FAILURE)
+
+    'verifies that swatch has been updated'
+    WebUI.verifyNotMatch(swatch1, swatch2, false, FailureHandling.STOP_ON_FAILURE)
+
+    'verifies that swatch name has been updated'
+    WebUI.verifyNotMatch(name1, name2, false, FailureHandling.STOP_ON_FAILURE)
+
+    'verifies that model asset has been updated'
+    WebUI.verifyNotMatch(asset1, asset2, false, FailureHandling.STOP_ON_FAILURE)
 }
 
 WebUI.click(findTestObject('HomePage/VehicleSelectorAEM/categories/Hybrids'), FailureHandling.STOP_ON_FAILURE)
@@ -104,6 +259,65 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/model
     WebUI.click(findTestObject('Homepage/VehicleSelectorAEM/models/NXh'), FailureHandling.STOP_ON_FAILURE)
 
     WebUI.delay(1)
+
+    swatch1 = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/color 1 default'), 'src', FailureHandling.STOP_ON_FAILURE)
+
+    swatchBorder = WebUI.getCSSValue(findTestObject('Homepage/VehicleSelectorAEM/models/color 1 default'), 'border-top-color', 
+        FailureHandling.STOP_ON_FAILURE)
+
+    'verifies that this swatch has a visible border and is visibly selected'
+    if (WebUI.verifyNotMatch(swatchBorder, 'rgba(164, 139, 91, 1)', false, FailureHandling.OPTIONAL)) {
+        'verifies that this swatch has a visible border and is visibly selected'
+        WebUI.verifyMatch(swatchBorder, 'rgb(164, 139, 91)', false, FailureHandling.STOP_ON_FAILURE)
+    }
+    
+    swatchBorder = WebUI.getCSSValue(findTestObject('Homepage/VehicleSelectorAEM/models/color 2'), 'border-top-color', FailureHandling.STOP_ON_FAILURE)
+
+    'verifies that this swatch has no visible border and is not visibly selected'
+    if (WebUI.verifyNotMatch(swatchBorder, 'rgba(0, 0, 0, 0)', false, FailureHandling.OPTIONAL)) {
+        'verifies that this swatch has no visible border and is not visibly selected'
+        WebUI.verifyMatch(swatchBorder, 'rgb(0, 0, 0)', false, FailureHandling.STOP_ON_FAILURE)
+    }
+    
+    name1 = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/selected swatch name'), FailureHandling.STOP_ON_FAILURE)
+
+    asset1 = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle jelly'), 'src', FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.click(findTestObject('Homepage/VehicleSelectorAEM/models/color 2'), FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+    swatch2 = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/color 2'), 'src', FailureHandling.STOP_ON_FAILURE)
+
+    swatchBorder = WebUI.getCSSValue(findTestObject('Homepage/VehicleSelectorAEM/models/color 2'), 'border-top-color', FailureHandling.STOP_ON_FAILURE)
+
+    'verifies that this swatch has a visible border and is visibly selected'
+    if (WebUI.verifyNotMatch(swatchBorder, 'rgba(164, 139, 91, 1)', false, FailureHandling.OPTIONAL)) {
+        'verifies that this swatch has a visible border and is visibly selected'
+        WebUI.verifyMatch(swatchBorder, 'rgb(164, 139, 91)', false, FailureHandling.STOP_ON_FAILURE)
+    }
+    
+    swatchBorder = WebUI.getCSSValue(findTestObject('Homepage/VehicleSelectorAEM/models/color 1 default'), 'border-top-color', 
+        FailureHandling.STOP_ON_FAILURE)
+
+    'verifies that this swatch has no visible border and is not visibly selected'
+    if (WebUI.verifyNotMatch(swatchBorder, 'rgba(0, 0, 0, 0)', false, FailureHandling.OPTIONAL)) {
+        'verifies that this swatch has no visible border and is not visibly selected'
+        WebUI.verifyMatch(swatchBorder, 'rgb(0, 0, 0)', false, FailureHandling.STOP_ON_FAILURE)
+    }
+    
+    name2 = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/selected swatch name'), FailureHandling.STOP_ON_FAILURE)
+
+    asset2 = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle jelly'), 'src', FailureHandling.STOP_ON_FAILURE)
+
+    'verifies that swatch has been updated'
+    WebUI.verifyNotMatch(swatch1, swatch2, false, FailureHandling.STOP_ON_FAILURE)
+
+    'verifies that swatch name has been updated'
+    WebUI.verifyNotMatch(name1, name2, false, FailureHandling.STOP_ON_FAILURE)
+
+    'verifies that model asset has been updated'
+    WebUI.verifyNotMatch(asset1, asset2, false, FailureHandling.STOP_ON_FAILURE)
 }
 
 'clicks this model if it is present'
@@ -111,6 +325,65 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/model
     WebUI.click(findTestObject('Homepage/VehicleSelectorAEM/models/LSh'), FailureHandling.STOP_ON_FAILURE)
 
     WebUI.delay(1)
+
+    swatch1 = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/color 1 default'), 'src', FailureHandling.STOP_ON_FAILURE)
+
+    swatchBorder = WebUI.getCSSValue(findTestObject('Homepage/VehicleSelectorAEM/models/color 1 default'), 'border-top-color', 
+        FailureHandling.STOP_ON_FAILURE)
+
+    'verifies that this swatch has a visible border and is visibly selected'
+    if (WebUI.verifyNotMatch(swatchBorder, 'rgba(164, 139, 91, 1)', false, FailureHandling.OPTIONAL)) {
+        'verifies that this swatch has a visible border and is visibly selected'
+        WebUI.verifyMatch(swatchBorder, 'rgb(164, 139, 91)', false, FailureHandling.STOP_ON_FAILURE)
+    }
+    
+    swatchBorder = WebUI.getCSSValue(findTestObject('Homepage/VehicleSelectorAEM/models/color 2'), 'border-top-color', FailureHandling.STOP_ON_FAILURE)
+
+    'verifies that this swatch has no visible border and is not visibly selected'
+    if (WebUI.verifyNotMatch(swatchBorder, 'rgba(0, 0, 0, 0)', false, FailureHandling.OPTIONAL)) {
+        'verifies that this swatch has no visible border and is not visibly selected'
+        WebUI.verifyMatch(swatchBorder, 'rgb(0, 0, 0)', false, FailureHandling.STOP_ON_FAILURE)
+    }
+    
+    name1 = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/selected swatch name'), FailureHandling.STOP_ON_FAILURE)
+
+    asset1 = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle jelly'), 'src', FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.click(findTestObject('Homepage/VehicleSelectorAEM/models/color 2'), FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+    swatch2 = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/color 2'), 'src', FailureHandling.STOP_ON_FAILURE)
+
+    swatchBorder = WebUI.getCSSValue(findTestObject('Homepage/VehicleSelectorAEM/models/color 2'), 'border-top-color', FailureHandling.STOP_ON_FAILURE)
+
+    'verifies that this swatch has a visible border and is visibly selected'
+    if (WebUI.verifyNotMatch(swatchBorder, 'rgba(164, 139, 91, 1)', false, FailureHandling.OPTIONAL)) {
+        'verifies that this swatch has a visible border and is visibly selected'
+        WebUI.verifyMatch(swatchBorder, 'rgb(164, 139, 91)', false, FailureHandling.STOP_ON_FAILURE)
+    }
+    
+    swatchBorder = WebUI.getCSSValue(findTestObject('Homepage/VehicleSelectorAEM/models/color 1 default'), 'border-top-color', 
+        FailureHandling.STOP_ON_FAILURE)
+
+    'verifies that this swatch has no visible border and is not visibly selected'
+    if (WebUI.verifyNotMatch(swatchBorder, 'rgba(0, 0, 0, 0)', false, FailureHandling.OPTIONAL)) {
+        'verifies that this swatch has no visible border and is not visibly selected'
+        WebUI.verifyMatch(swatchBorder, 'rgb(0, 0, 0)', false, FailureHandling.STOP_ON_FAILURE)
+    }
+    
+    name2 = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/selected swatch name'), FailureHandling.STOP_ON_FAILURE)
+
+    asset2 = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle jelly'), 'src', FailureHandling.STOP_ON_FAILURE)
+
+    'verifies that swatch has been updated'
+    WebUI.verifyNotMatch(swatch1, swatch2, false, FailureHandling.STOP_ON_FAILURE)
+
+    'verifies that swatch name has been updated'
+    WebUI.verifyNotMatch(name1, name2, false, FailureHandling.STOP_ON_FAILURE)
+
+    'verifies that model asset has been updated'
+    WebUI.verifyNotMatch(asset1, asset2, false, FailureHandling.STOP_ON_FAILURE)
 }
 
 WebUI.click(findTestObject('HomePage/VehicleSelectorAEM/categories/Performance'), FailureHandling.STOP_ON_FAILURE)
@@ -120,6 +393,65 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/model
     WebUI.click(findTestObject('Homepage/VehicleSelectorAEM/models/LC C'), FailureHandling.STOP_ON_FAILURE)
 
     WebUI.delay(1)
+
+    swatch1 = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/color 1 default'), 'src', FailureHandling.STOP_ON_FAILURE)
+
+    swatchBorder = WebUI.getCSSValue(findTestObject('Homepage/VehicleSelectorAEM/models/color 1 default'), 'border-top-color', 
+        FailureHandling.STOP_ON_FAILURE)
+
+    'verifies that this swatch has a visible border and is visibly selected'
+    if (WebUI.verifyNotMatch(swatchBorder, 'rgba(164, 139, 91, 1)', false, FailureHandling.OPTIONAL)) {
+        'verifies that this swatch has a visible border and is visibly selected'
+        WebUI.verifyMatch(swatchBorder, 'rgb(164, 139, 91)', false, FailureHandling.STOP_ON_FAILURE)
+    }
+    
+    swatchBorder = WebUI.getCSSValue(findTestObject('Homepage/VehicleSelectorAEM/models/color 2'), 'border-top-color', FailureHandling.STOP_ON_FAILURE)
+
+    'verifies that this swatch has no visible border and is not visibly selected'
+    if (WebUI.verifyNotMatch(swatchBorder, 'rgba(0, 0, 0, 0)', false, FailureHandling.OPTIONAL)) {
+        'verifies that this swatch has no visible border and is not visibly selected'
+        WebUI.verifyMatch(swatchBorder, 'rgb(0, 0, 0)', false, FailureHandling.STOP_ON_FAILURE)
+    }
+    
+    name1 = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/selected swatch name'), FailureHandling.STOP_ON_FAILURE)
+
+    asset1 = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle jelly'), 'src', FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.click(findTestObject('Homepage/VehicleSelectorAEM/models/color 2'), FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+    swatch2 = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/color 2'), 'src', FailureHandling.STOP_ON_FAILURE)
+
+    swatchBorder = WebUI.getCSSValue(findTestObject('Homepage/VehicleSelectorAEM/models/color 2'), 'border-top-color', FailureHandling.STOP_ON_FAILURE)
+
+    'verifies that this swatch has a visible border and is visibly selected'
+    if (WebUI.verifyNotMatch(swatchBorder, 'rgba(164, 139, 91, 1)', false, FailureHandling.OPTIONAL)) {
+        'verifies that this swatch has a visible border and is visibly selected'
+        WebUI.verifyMatch(swatchBorder, 'rgb(164, 139, 91)', false, FailureHandling.STOP_ON_FAILURE)
+    }
+    
+    swatchBorder = WebUI.getCSSValue(findTestObject('Homepage/VehicleSelectorAEM/models/color 1 default'), 'border-top-color', 
+        FailureHandling.STOP_ON_FAILURE)
+
+    'verifies that this swatch has no visible border and is not visibly selected'
+    if (WebUI.verifyNotMatch(swatchBorder, 'rgba(0, 0, 0, 0)', false, FailureHandling.OPTIONAL)) {
+        'verifies that this swatch has no visible border and is not visibly selected'
+        WebUI.verifyMatch(swatchBorder, 'rgb(0, 0, 0)', false, FailureHandling.STOP_ON_FAILURE)
+    }
+    
+    name2 = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/selected swatch name'), FailureHandling.STOP_ON_FAILURE)
+
+    asset2 = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle jelly'), 'src', FailureHandling.STOP_ON_FAILURE)
+
+    'verifies that swatch has been updated'
+    WebUI.verifyNotMatch(swatch1, swatch2, false, FailureHandling.STOP_ON_FAILURE)
+
+    'verifies that swatch name has been updated'
+    WebUI.verifyNotMatch(name1, name2, false, FailureHandling.STOP_ON_FAILURE)
+
+    'verifies that model asset has been updated'
+    WebUI.verifyNotMatch(asset1, asset2, false, FailureHandling.STOP_ON_FAILURE)
 }
 
 @com.kms.katalon.core.annotation.TearDownIfPassed

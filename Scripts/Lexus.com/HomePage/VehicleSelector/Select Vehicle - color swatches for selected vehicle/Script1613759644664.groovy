@@ -56,8 +56,17 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/model
 
     WebUI.delay(2)
 
-    selectedSwatch = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/selected swatch'), 'src')
+    selectedSwatch = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/current swatch'), 'src')
 
+    swatchBorder = WebUI.getCSSValue(findTestObject('Homepage/VehicleSelectorAEM/models/current swatch'), 'border-top-color', 
+        FailureHandling.STOP_ON_FAILURE)
+
+    'verifies that this swatch has a visible border and is visibly selected'
+    if (WebUI.verifyNotMatch(swatchBorder, 'rgba(164, 139, 91, 1)', false, FailureHandling.OPTIONAL)) {
+        'verifies that this swatch has a visible border and is visibly selected'
+        WebUI.verifyMatch(swatchBorder, 'rgb(164, 139, 91)', false, FailureHandling.STOP_ON_FAILURE)
+    }
+    
     defaultColor = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/color 1 default'), 'src')
 
     'verifies that the default color selection is selected'
@@ -77,8 +86,17 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/model
 
     previousSwatches = swatches
 
-    selectedSwatch = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/selected swatch'), 'src')
+    selectedSwatch = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/current swatch'), 'src')
 
+    swatchBorder = WebUI.getCSSValue(findTestObject('Homepage/VehicleSelectorAEM/models/current swatch'), 'border-top-color', 
+        FailureHandling.STOP_ON_FAILURE)
+
+    'verifies that this swatch has a visible border and is visibly selected'
+    if (WebUI.verifyNotMatch(swatchBorder, 'rgba(164, 139, 91, 1)', false, FailureHandling.OPTIONAL)) {
+        'verifies that this swatch has a visible border and is visibly selected'
+        WebUI.verifyMatch(swatchBorder, 'rgb(164, 139, 91)', false, FailureHandling.STOP_ON_FAILURE)
+    }
+    
     defaultColor = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/color 1 default'), 'src')
 
     'verifies that the default color selection is selected'
@@ -101,8 +119,17 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/model
 
     previousSwatches = swatches
 
-    selectedSwatch = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/selected swatch'), 'src')
+    selectedSwatch = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/current swatch'), 'src')
 
+    swatchBorder = WebUI.getCSSValue(findTestObject('Homepage/VehicleSelectorAEM/models/current swatch'), 'border-top-color', 
+        FailureHandling.STOP_ON_FAILURE)
+
+    'verifies that this swatch has a visible border and is visibly selected'
+    if (WebUI.verifyNotMatch(swatchBorder, 'rgba(164, 139, 91, 1)', false, FailureHandling.OPTIONAL)) {
+        'verifies that this swatch has a visible border and is visibly selected'
+        WebUI.verifyMatch(swatchBorder, 'rgb(164, 139, 91)', false, FailureHandling.STOP_ON_FAILURE)
+    }
+    
     defaultColor = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/color 1 default'), 'src')
 
     'verifies that the default color selection is selected'
@@ -125,8 +152,17 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/model
 
     previousSwatches = swatches
 
-    selectedSwatch = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/selected swatch'), 'src')
+    selectedSwatch = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/current swatch'), 'src')
 
+    swatchBorder = WebUI.getCSSValue(findTestObject('Homepage/VehicleSelectorAEM/models/current swatch'), 'border-top-color', 
+        FailureHandling.STOP_ON_FAILURE)
+
+    'verifies that this swatch has a visible border and is visibly selected'
+    if (WebUI.verifyNotMatch(swatchBorder, 'rgba(164, 139, 91, 1)', false, FailureHandling.OPTIONAL)) {
+        'verifies that this swatch has a visible border and is visibly selected'
+        WebUI.verifyMatch(swatchBorder, 'rgb(164, 139, 91)', false, FailureHandling.STOP_ON_FAILURE)
+    }
+    
     defaultColor = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/color 1 default'), 'src')
 
     'verifies that the default color selection is selected'
@@ -149,8 +185,17 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/model
 
     previousSwatches = swatches
 
-    selectedSwatch = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/selected swatch'), 'src')
+    selectedSwatch = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/current swatch'), 'src')
 
+    swatchBorder = WebUI.getCSSValue(findTestObject('Homepage/VehicleSelectorAEM/models/current swatch'), 'border-top-color', 
+        FailureHandling.STOP_ON_FAILURE)
+
+    'verifies that this swatch has a visible border and is visibly selected'
+    if (WebUI.verifyNotMatch(swatchBorder, 'rgba(164, 139, 91, 1)', false, FailureHandling.OPTIONAL)) {
+        'verifies that this swatch has a visible border and is visibly selected'
+        WebUI.verifyMatch(swatchBorder, 'rgb(164, 139, 91)', false, FailureHandling.STOP_ON_FAILURE)
+    }
+    
     defaultColor = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/color 1 default'), 'src')
 
     'verifies that the default color selection is selected'
@@ -175,8 +220,17 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/model
 
     previousSwatches = swatches
 
-    selectedSwatch = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/selected swatch'), 'src')
+    selectedSwatch = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/current swatch'), 'src')
 
+    swatchBorder = WebUI.getCSSValue(findTestObject('Homepage/VehicleSelectorAEM/models/current swatch'), 'border-top-color', 
+        FailureHandling.STOP_ON_FAILURE)
+
+    'verifies that this swatch has a visible border and is visibly selected'
+    if (WebUI.verifyNotMatch(swatchBorder, 'rgba(164, 139, 91, 1)', false, FailureHandling.OPTIONAL)) {
+        'verifies that this swatch has a visible border and is visibly selected'
+        WebUI.verifyMatch(swatchBorder, 'rgb(164, 139, 91)', false, FailureHandling.STOP_ON_FAILURE)
+    }
+    
     defaultColor = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/color 1 default'), 'src')
 
     'verifies that the default color selection is selected'
@@ -199,8 +253,17 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/model
 
     previousSwatches = swatches
 
-    selectedSwatch = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/selected swatch'), 'src')
+    selectedSwatch = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/current swatch'), 'src')
 
+    swatchBorder = WebUI.getCSSValue(findTestObject('Homepage/VehicleSelectorAEM/models/current swatch'), 'border-top-color', 
+        FailureHandling.STOP_ON_FAILURE)
+
+    'verifies that this swatch has a visible border and is visibly selected'
+    if (WebUI.verifyNotMatch(swatchBorder, 'rgba(164, 139, 91, 1)', false, FailureHandling.OPTIONAL)) {
+        'verifies that this swatch has a visible border and is visibly selected'
+        WebUI.verifyMatch(swatchBorder, 'rgb(164, 139, 91)', false, FailureHandling.STOP_ON_FAILURE)
+    }
+    
     defaultColor = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/color 1 default'), 'src')
 
     'verifies that the default color selection is selected'
@@ -225,7 +288,7 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/model
 
     previousSwatches = swatches
 
-    selectedSwatch = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/selected swatch'), 'src')
+    selectedSwatch = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/current swatch'), 'src')
 
     defaultColor = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/color 1 default'), 'src')
 
@@ -251,7 +314,7 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/model
 
     previousSwatches = swatches
 
-    selectedSwatch = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/selected swatch'), 'src')
+    selectedSwatch = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/current swatch'), 'src')
 
     defaultColor = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/color 1 default'), 'src')
 
@@ -277,7 +340,7 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/model
 
     previousSwatches = swatches
 
-    selectedSwatch = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/selected swatch'), 'src')
+    selectedSwatch = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/current swatch'), 'src')
 
     defaultColor = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/color 1 default'), 'src')
 
@@ -303,7 +366,7 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/model
 
     previousSwatches = swatches
 
-    selectedSwatch = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/selected swatch'), 'src')
+    selectedSwatch = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/current swatch'), 'src')
 
     defaultColor = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/color 1 default'), 'src')
 
@@ -327,7 +390,7 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/model
 
     previousSwatches = swatches
 
-    selectedSwatch = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/selected swatch'), 'src')
+    selectedSwatch = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/current swatch'), 'src')
 
     defaultColor = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/color 1 default'), 'src')
 
@@ -351,7 +414,7 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/model
 
     previousSwatches = swatches
 
-    selectedSwatch = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/selected swatch'), 'src')
+    selectedSwatch = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/current swatch'), 'src')
 
     defaultColor = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/color 1 default'), 'src')
 
@@ -377,8 +440,17 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/model
 
     previousSwatches = swatches
 
-    selectedSwatch = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/selected swatch'), 'src')
+    selectedSwatch = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/current swatch'), 'src')
 
+    swatchBorder = WebUI.getCSSValue(findTestObject('Homepage/VehicleSelectorAEM/models/current swatch'), 'border-top-color', 
+        FailureHandling.STOP_ON_FAILURE)
+
+    'verifies that this swatch has a visible border and is visibly selected'
+    if (WebUI.verifyNotMatch(swatchBorder, 'rgba(164, 139, 91, 1)', false, FailureHandling.OPTIONAL)) {
+        'verifies that this swatch has a visible border and is visibly selected'
+        WebUI.verifyMatch(swatchBorder, 'rgb(164, 139, 91)', false, FailureHandling.STOP_ON_FAILURE)
+    }
+    
     defaultColor = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/color 1 default'), 'src')
 
     'verifies that the default color selection is selected'
@@ -401,8 +473,17 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/model
 
     previousSwatches = swatches
 
-    selectedSwatch = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/selected swatch'), 'src')
+    selectedSwatch = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/current swatch'), 'src')
 
+    swatchBorder = WebUI.getCSSValue(findTestObject('Homepage/VehicleSelectorAEM/models/current swatch'), 'border-top-color', 
+        FailureHandling.STOP_ON_FAILURE)
+
+    'verifies that this swatch has a visible border and is visibly selected'
+    if (WebUI.verifyNotMatch(swatchBorder, 'rgba(164, 139, 91, 1)', false, FailureHandling.OPTIONAL)) {
+        'verifies that this swatch has a visible border and is visibly selected'
+        WebUI.verifyMatch(swatchBorder, 'rgb(164, 139, 91)', false, FailureHandling.STOP_ON_FAILURE)
+    }
+    
     defaultColor = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/color 1 default'), 'src')
 
     'verifies that the default color selection is selected'
@@ -425,7 +506,7 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/model
 
     previousSwatches = swatches
 
-    selectedSwatch = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/selected swatch'), 'src')
+    selectedSwatch = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/current swatch'), 'src')
 
     defaultColor = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/color 1 default'), 'src')
 
@@ -449,7 +530,7 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/model
 
     previousSwatches = swatches
 
-    selectedSwatch = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/selected swatch'), 'src')
+    selectedSwatch = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/current swatch'), 'src')
 
     defaultColor = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/color 1 default'), 'src')
 
@@ -473,7 +554,7 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/model
 
     previousSwatches = swatches
 
-    selectedSwatch = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/selected swatch'), 'src')
+    selectedSwatch = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/current swatch'), 'src')
 
     defaultColor = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/color 1 default'), 'src')
 
@@ -499,8 +580,17 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/model
 
     previousSwatches = swatches
 
-    selectedSwatch = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/selected swatch'), 'src')
+    selectedSwatch = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/current swatch'), 'src')
 
+    swatchBorder = WebUI.getCSSValue(findTestObject('Homepage/VehicleSelectorAEM/models/current swatch'), 'border-top-color', 
+        FailureHandling.STOP_ON_FAILURE)
+
+    'verifies that this swatch has a visible border and is visibly selected'
+    if (WebUI.verifyNotMatch(swatchBorder, 'rgba(164, 139, 91, 1)', false, FailureHandling.OPTIONAL)) {
+        'verifies that this swatch has a visible border and is visibly selected'
+        WebUI.verifyMatch(swatchBorder, 'rgb(164, 139, 91)', false, FailureHandling.STOP_ON_FAILURE)
+    }
+    
     defaultColor = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/color 1 default'), 'src')
 
     'verifies that the default color selection is selected'
@@ -523,8 +613,17 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/model
 
     previousSwatches = swatches
 
-    selectedSwatch = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/selected swatch'), 'src')
+    selectedSwatch = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/current swatch'), 'src')
 
+    swatchBorder = WebUI.getCSSValue(findTestObject('Homepage/VehicleSelectorAEM/models/current swatch'), 'border-top-color', 
+        FailureHandling.STOP_ON_FAILURE)
+
+    'verifies that this swatch has a visible border and is visibly selected'
+    if (WebUI.verifyNotMatch(swatchBorder, 'rgba(164, 139, 91, 1)', false, FailureHandling.OPTIONAL)) {
+        'verifies that this swatch has a visible border and is visibly selected'
+        WebUI.verifyMatch(swatchBorder, 'rgb(164, 139, 91)', false, FailureHandling.STOP_ON_FAILURE)
+    }
+    
     defaultColor = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/color 1 default'), 'src')
 
     'verifies that the default color selection is selected'
@@ -547,7 +646,7 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/model
 
     previousSwatches = swatches
 
-    selectedSwatch = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/selected swatch'), 'src')
+    selectedSwatch = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/current swatch'), 'src')
 
     defaultColor = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/color 1 default'), 'src')
 
@@ -571,7 +670,7 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/model
 
     previousSwatches = swatches
 
-    selectedSwatch = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/selected swatch'), 'src')
+    selectedSwatch = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/current swatch'), 'src')
 
     defaultColor = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/color 1 default'), 'src')
 
@@ -595,7 +694,7 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/model
 
     previousSwatches = swatches
 
-    selectedSwatch = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/selected swatch'), 'src')
+    selectedSwatch = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/current swatch'), 'src')
 
     defaultColor = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/color 1 default'), 'src')
 
@@ -619,7 +718,7 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/model
 
     previousSwatches = swatches
 
-    selectedSwatch = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/selected swatch'), 'src')
+    selectedSwatch = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/current swatch'), 'src')
 
     defaultColor = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/color 1 default'), 'src')
 
@@ -645,7 +744,7 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/model
 
     previousSwatches = swatches
 
-    selectedSwatch = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/selected swatch'), 'src')
+    selectedSwatch = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/current swatch'), 'src')
 
     defaultColor = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/color 1 default'), 'src')
 
@@ -669,7 +768,7 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/model
 
     previousSwatches = swatches
 
-    selectedSwatch = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/selected swatch'), 'src')
+    selectedSwatch = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/current swatch'), 'src')
 
     defaultColor = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/color 1 default'), 'src')
 
@@ -693,7 +792,7 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/model
 
     previousSwatches = swatches
 
-    selectedSwatch = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/selected swatch'), 'src')
+    selectedSwatch = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/current swatch'), 'src')
 
     defaultColor = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/color 1 default'), 'src')
 
@@ -717,8 +816,17 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/model
 
     previousSwatches = swatches
 
-    selectedSwatch = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/selected swatch'), 'src')
+    selectedSwatch = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/current swatch'), 'src')
 
+    swatchBorder = WebUI.getCSSValue(findTestObject('Homepage/VehicleSelectorAEM/models/current swatch'), 'border-top-color', 
+        FailureHandling.STOP_ON_FAILURE)
+
+    'verifies that this swatch has a visible border and is visibly selected'
+    if (WebUI.verifyNotMatch(swatchBorder, 'rgba(164, 139, 91, 1)', false, FailureHandling.OPTIONAL)) {
+        'verifies that this swatch has a visible border and is visibly selected'
+        WebUI.verifyMatch(swatchBorder, 'rgb(164, 139, 91)', false, FailureHandling.STOP_ON_FAILURE)
+    }
+    
     defaultColor = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/color 1 default'), 'src')
 
     'verifies that the default color selection is selected'

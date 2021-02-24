@@ -67,6 +67,17 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/model
 
     WebUI.verifyNotMatch(textWithoutExpectedMSRP, vehiclePrice, false, FailureHandling.STOP_ON_FAILURE)
 
+    'if color-swatch name has a disclaimer then the disclaimer icon will appear'
+    if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/price disclaimer'), 3, FailureHandling.OPTIONAL)) {
+        WebUI.click(findTestObject('Homepage/VehicleSelectorAEM/price disclaimer'), FailureHandling.STOP_ON_FAILURE)
+
+        WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+        WebUI.verifyElementVisibleInViewport(findTestObject('Homepage/GlobalMisc/disclaimer copy'), 0, FailureHandling.STOP_ON_FAILURE)
+
+        WebUI.getText(findTestObject('Homepage/GlobalMisc/disclaimer copy'), FailureHandling.STOP_ON_FAILURE)
+    }
+    
     'checks vehicle shown pricing if present'
     if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle shown pricing'), 2, FailureHandling.OPTIONAL)) {
         vehicleShownPrice = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle shown pricing'), FailureHandling.STOP_ON_FAILURE)
@@ -199,6 +210,17 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/model
 
     WebUI.verifyNotMatch(textWithoutExpectedMSRP, vehiclePrice, false, FailureHandling.STOP_ON_FAILURE)
 
+    'if color-swatch name has a disclaimer then the disclaimer icon will appear'
+    if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/price disclaimer'), 3, FailureHandling.OPTIONAL)) {
+        WebUI.click(findTestObject('Homepage/VehicleSelectorAEM/price disclaimer'), FailureHandling.STOP_ON_FAILURE)
+
+        WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+        WebUI.verifyElementVisibleInViewport(findTestObject('Homepage/GlobalMisc/disclaimer copy'), 0, FailureHandling.STOP_ON_FAILURE)
+
+        WebUI.getText(findTestObject('Homepage/GlobalMisc/disclaimer copy'), FailureHandling.STOP_ON_FAILURE)
+    }
+    
     'checks vehicle shown pricing if present'
     if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle shown pricing'), 2, FailureHandling.OPTIONAL)) {
         vehicleShownPrice = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle shown pricing'), FailureHandling.STOP_ON_FAILURE)
@@ -409,6 +431,17 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/model
 
     WebUI.verifyNotMatch(textWithoutExpectedMSRP, vehiclePrice, false, FailureHandling.STOP_ON_FAILURE)
 
+    'if color-swatch name has a disclaimer then the disclaimer icon will appear'
+    if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/price disclaimer'), 3, FailureHandling.OPTIONAL)) {
+        WebUI.click(findTestObject('Homepage/VehicleSelectorAEM/price disclaimer'), FailureHandling.STOP_ON_FAILURE)
+
+        WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+        WebUI.verifyElementVisibleInViewport(findTestObject('Homepage/GlobalMisc/disclaimer copy'), 0, FailureHandling.STOP_ON_FAILURE)
+
+        WebUI.getText(findTestObject('Homepage/GlobalMisc/disclaimer copy'), FailureHandling.STOP_ON_FAILURE)
+    }
+    
     'checks vehicle shown pricing if present'
     if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle shown pricing'), 2, FailureHandling.OPTIONAL)) {
         vehicleShownPrice = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle shown pricing'), FailureHandling.STOP_ON_FAILURE)
@@ -535,6 +568,17 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/model
 
     vehiclePrice = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle price'), FailureHandling.STOP_ON_FAILURE)
 
+    'if color-swatch name has a disclaimer then the disclaimer icon will appear'
+    if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/price disclaimer'), 3, FailureHandling.OPTIONAL)) {
+        WebUI.click(findTestObject('Homepage/VehicleSelectorAEM/price disclaimer'), FailureHandling.STOP_ON_FAILURE)
+
+        WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+        WebUI.verifyElementVisibleInViewport(findTestObject('Homepage/GlobalMisc/disclaimer copy'), 0, FailureHandling.STOP_ON_FAILURE)
+
+        WebUI.getText(findTestObject('Homepage/GlobalMisc/disclaimer copy'), FailureHandling.STOP_ON_FAILURE)
+    }
+    
     expectedMSRP = findTestData('MSRP').getValue(column, 74)
 
     textWithoutExpectedMSRP = (vehiclePrice - expectedMSRP)
@@ -699,6 +743,17 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/model
 
     WebUI.verifyNotMatch(textWithoutExpectedMSRP, vehiclePrice, false, FailureHandling.STOP_ON_FAILURE)
 
+    'if color-swatch name has a disclaimer then the disclaimer icon will appear'
+    if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/price disclaimer'), 3, FailureHandling.OPTIONAL)) {
+        WebUI.click(findTestObject('Homepage/VehicleSelectorAEM/price disclaimer'), FailureHandling.STOP_ON_FAILURE)
+
+        WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+        WebUI.verifyElementVisibleInViewport(findTestObject('Homepage/GlobalMisc/disclaimer copy'), 0, FailureHandling.STOP_ON_FAILURE)
+
+        WebUI.getText(findTestObject('Homepage/GlobalMisc/disclaimer copy'), FailureHandling.STOP_ON_FAILURE)
+    }
+    
     'checks vehicle shown pricing if present'
     if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle shown pricing'), 2, FailureHandling.OPTIONAL)) {
         vehicleShownPrice = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle shown pricing'), FailureHandling.STOP_ON_FAILURE)
