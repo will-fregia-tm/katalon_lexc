@@ -7,23 +7,23 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[(contains(text(), 'Shopping Tools') or contains(., 'Shopping Tools'))]</value>
+         <value>//h3[(contains(text(), 'SHOPPING TOOLS') or contains(., 'SHOPPING TOOLS'))]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>h1</value>
+      <value>h3</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>contains</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Shopping Tools</value>
+      <value>SHOPPING TOOLS</value>
    </webElementProperties>
 </WebElementEntity>

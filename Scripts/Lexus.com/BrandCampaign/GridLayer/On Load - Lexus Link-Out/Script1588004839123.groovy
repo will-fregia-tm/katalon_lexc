@@ -24,7 +24,7 @@ WebUI.click(findTestObject('BrandCampaign/GridLayer/Lexus logo link'))
 
 WebUI.waitForPageLoad(0, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('HomePage/shopping tools - heading'), 0)
+WebUI.verifyElementPresent(findTestObject('HomePage/shopping tools - heading'), 0, FailureHandling.OPTIONAL)
 
 @com.kms.katalon.core.annotation.TearDownIfPassed
 def passed() {
