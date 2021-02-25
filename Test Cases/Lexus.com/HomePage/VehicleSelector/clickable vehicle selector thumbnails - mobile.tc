@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Image thumbnails will be clickable.
+
+AC.02 | Select Vehicle
+When a user selects a vehicle, then the system shall update the following:
+
+update the selected model to its active state in the model-selector-bar
+
+Model details for the selected model
+vehicle name
+vehicle jelly
+</description>
+   <name>clickable vehicle selector thumbnails - mobile</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9da7711b-a78e-4fd6-889b-6c179a1dd799</testCaseGuid>
+   <variable>
+      <defaultValue>'VehicleSelectorOffers'</defaultValue>
+      <description></description>
+      <id>d0aad2b1-b5ed-44fe-a911-25e887720eb1</id>
+      <masked>false</masked>
+      <name>HomePage</name>
+   </variable>
+</TestCaseEntity>

@@ -71,4 +71,28 @@
          <variableId>c83daade-8378-4cc4-b784-3d8cd638ad13</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>f0f481aa-afa0-4218-8970-a9cef46abb61</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/HomePage/VehicleSelector/all vehicle segments clickable in vehicle selector - mobile</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>487523be-c13c-4872-bf48-e90cfd7ecbe8</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7e4d8779-073c-4cf8-9534-86b349b66c3b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/HomePage/VehicleSelector/clickable vehicle selector thumbnails - mobile</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d0aad2b1-b5ed-44fe-a911-25e887720eb1</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>

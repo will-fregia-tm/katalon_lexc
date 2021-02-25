@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Vehicle selector module shall contain the following clickable vehicle segments:
+- SEDANS
+- SUVS
+- COUPES
+- HYBRIDS
+- PERFORMANCE
+
+AC.01 | Model Category
+When a user tap / clicks on a model category (ie. COUPES)
+Then the system shall:
+
+update &quot;Coupes&quot; category to selected state
+Preselect the default model (defined in the CMS)
+Display background image for category
+Background will contain static image or video background. Video background for desktop only.
+</description>
+   <name>all vehicle segments clickable in vehicle selector - mobile</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2219c45e-b9f6-4897-af17-d5f7fde854ab</testCaseGuid>
+   <variable>
+      <defaultValue>'VehicleSelectorOffers'</defaultValue>
+      <description></description>
+      <id>487523be-c13c-4872-bf48-e90cfd7ecbe8</id>
+      <masked>false</masked>
+      <name>HomePage</name>
+   </variable>
+</TestCaseEntity>
