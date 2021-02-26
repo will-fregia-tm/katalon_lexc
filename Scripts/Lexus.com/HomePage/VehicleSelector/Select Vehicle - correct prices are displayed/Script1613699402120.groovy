@@ -72,7 +72,7 @@ WebUI.click(findTestObject('HomePage/VehicleSelectorAEM/categories/Sedans'), Fai
 if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/models/IS'), 3, FailureHandling.OPTIONAL)) {
     WebUI.click(findTestObject('Homepage/VehicleSelectorAEM/models/IS'), FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.delay(2)
+    WebUI.delay(4)
 
     'chooses column with data for test environment'
     column = GlobalVariable.dataColumn
@@ -554,7 +554,7 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/model
 if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/models/LC C'), 3, FailureHandling.OPTIONAL)) {
     WebUI.click(findTestObject('Homepage/VehicleSelectorAEM/models/LC C'), FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.delay(1)
+    WebUI.delay(2)
 
     vehiclePrice = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle price'), FailureHandling.STOP_ON_FAILURE)
 

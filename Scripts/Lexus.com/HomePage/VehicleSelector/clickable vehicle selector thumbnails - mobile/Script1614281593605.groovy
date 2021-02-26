@@ -269,7 +269,7 @@ if (WebUI.verifyMatch(GlobalVariable.legacy, 'no', false, FailureHandling.OPTION
     if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/models/IS'), 3, FailureHandling.OPTIONAL)) {
         WebUI.click(findTestObject('Homepage/VehicleSelectorAEM/models/IS'), FailureHandling.STOP_ON_FAILURE)
 
-        WebUI.delay(2)
+        WebUI.delay(3)
 
         selectedModel = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/selected model'), FailureHandling.STOP_ON_FAILURE)
 
@@ -286,7 +286,7 @@ if (WebUI.verifyMatch(GlobalVariable.legacy, 'no', false, FailureHandling.OPTION
     if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/models/ES'), 3, FailureHandling.OPTIONAL)) {
         WebUI.click(findTestObject('Homepage/VehicleSelectorAEM/models/ES'), FailureHandling.STOP_ON_FAILURE)
 
-        WebUI.delay(2)
+        WebUI.delay(3)
 
         selectedModel = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/selected model'), FailureHandling.STOP_ON_FAILURE)
 
@@ -308,7 +308,7 @@ if (WebUI.verifyMatch(GlobalVariable.legacy, 'no', false, FailureHandling.OPTION
     if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/models/ESh'), 3, FailureHandling.OPTIONAL)) {
         WebUI.click(findTestObject('Homepage/VehicleSelectorAEM/models/ESh'), FailureHandling.STOP_ON_FAILURE)
 
-        WebUI.delay(1)
+        WebUI.delay(3)
 
         selectedModel = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/selected model'), FailureHandling.STOP_ON_FAILURE)
 
@@ -330,7 +330,7 @@ if (WebUI.verifyMatch(GlobalVariable.legacy, 'no', false, FailureHandling.OPTION
     if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/models/LS'), 3, FailureHandling.OPTIONAL)) {
         WebUI.click(findTestObject('Homepage/VehicleSelectorAEM/models/LS'), FailureHandling.STOP_ON_FAILURE)
 
-        WebUI.delay(1)
+        WebUI.delay(3)
 
         selectedModel = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/selected model'), FailureHandling.STOP_ON_FAILURE)
 
@@ -352,7 +352,7 @@ if (WebUI.verifyMatch(GlobalVariable.legacy, 'no', false, FailureHandling.OPTION
     if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/models/LSh'), 3, FailureHandling.OPTIONAL)) {
         WebUI.click(findTestObject('Homepage/VehicleSelectorAEM/models/LSh'), FailureHandling.STOP_ON_FAILURE)
 
-        WebUI.delay(1)
+        WebUI.delay(3)
 
         selectedModel = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/selected model'), FailureHandling.STOP_ON_FAILURE)
 
@@ -376,7 +376,7 @@ if (WebUI.verifyMatch(GlobalVariable.legacy, 'no', false, FailureHandling.OPTION
     if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/models/UX'), 3, FailureHandling.OPTIONAL)) {
         WebUI.click(findTestObject('Homepage/VehicleSelectorAEM/models/UX'), FailureHandling.STOP_ON_FAILURE)
 
-        WebUI.delay(1)
+        WebUI.delay(3)
 
         selectedModel = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/selected model'), FailureHandling.STOP_ON_FAILURE)
 
@@ -398,7 +398,7 @@ if (WebUI.verifyMatch(GlobalVariable.legacy, 'no', false, FailureHandling.OPTION
     if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/models/UXh'), 3, FailureHandling.OPTIONAL)) {
         WebUI.click(findTestObject('Homepage/VehicleSelectorAEM/models/UXh'), FailureHandling.STOP_ON_FAILURE)
 
-        WebUI.delay(1)
+        WebUI.delay(4)
 
         selectedModel = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/selected model'), FailureHandling.STOP_ON_FAILURE)
 
@@ -420,7 +420,7 @@ if (WebUI.verifyMatch(GlobalVariable.legacy, 'no', false, FailureHandling.OPTION
     if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/models/NX'), 3, FailureHandling.OPTIONAL)) {
         WebUI.click(findTestObject('Homepage/VehicleSelectorAEM/models/NX'), FailureHandling.STOP_ON_FAILURE)
 
-        WebUI.delay(1)
+        WebUI.delay(4)
 
         selectedModel = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/selected model'), FailureHandling.STOP_ON_FAILURE)
 
@@ -442,7 +442,7 @@ if (WebUI.verifyMatch(GlobalVariable.legacy, 'no', false, FailureHandling.OPTION
     if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/models/NXh'), 3, FailureHandling.OPTIONAL)) {
         WebUI.click(findTestObject('Homepage/VehicleSelectorAEM/models/NXh'), FailureHandling.STOP_ON_FAILURE)
 
-        WebUI.delay(1)
+        WebUI.delay(5)
 
         selectedModel = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/selected model'), FailureHandling.STOP_ON_FAILURE)
 
@@ -464,7 +464,7 @@ if (WebUI.verifyMatch(GlobalVariable.legacy, 'no', false, FailureHandling.OPTION
     if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/models/RX'), 3, FailureHandling.OPTIONAL)) {
         WebUI.click(findTestObject('Homepage/VehicleSelectorAEM/models/RX'), FailureHandling.STOP_ON_FAILURE)
 
-        WebUI.delay(1)
+        WebUI.delay(3)
 
         selectedModel = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/selected model'), FailureHandling.STOP_ON_FAILURE)
 
@@ -486,7 +486,7 @@ if (WebUI.verifyMatch(GlobalVariable.legacy, 'no', false, FailureHandling.OPTION
     if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/models/RXh'), 3, FailureHandling.OPTIONAL)) {
         WebUI.click(findTestObject('Homepage/VehicleSelectorAEM/models/RXh'), FailureHandling.STOP_ON_FAILURE)
 
-        WebUI.delay(1)
+        WebUI.delay(4)
 
         selectedModel = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/selected model'), FailureHandling.STOP_ON_FAILURE)
 
@@ -508,7 +508,7 @@ if (WebUI.verifyMatch(GlobalVariable.legacy, 'no', false, FailureHandling.OPTION
     if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/models/GX'), 3, FailureHandling.OPTIONAL)) {
         WebUI.click(findTestObject('Homepage/VehicleSelectorAEM/models/GX'), FailureHandling.STOP_ON_FAILURE)
 
-        WebUI.delay(1)
+        WebUI.delay(4)
 
         selectedModel = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/selected model'), FailureHandling.STOP_ON_FAILURE)
 
@@ -530,7 +530,7 @@ if (WebUI.verifyMatch(GlobalVariable.legacy, 'no', false, FailureHandling.OPTION
     if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/models/LX'), 3, FailureHandling.OPTIONAL)) {
         WebUI.click(findTestObject('Homepage/VehicleSelectorAEM/models/LX'), FailureHandling.STOP_ON_FAILURE)
 
-        WebUI.delay(1)
+        WebUI.delay(3)
 
         selectedModel = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/selected model'), FailureHandling.STOP_ON_FAILURE)
 
@@ -554,7 +554,7 @@ if (WebUI.verifyMatch(GlobalVariable.legacy, 'no', false, FailureHandling.OPTION
     if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/models/RC'), 3, FailureHandling.OPTIONAL)) {
         WebUI.click(findTestObject('Homepage/VehicleSelectorAEM/models/RC'), FailureHandling.STOP_ON_FAILURE)
 
-        WebUI.delay(1)
+        WebUI.delay(3)
 
         selectedModel = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/selected model'), FailureHandling.STOP_ON_FAILURE)
 
@@ -576,7 +576,7 @@ if (WebUI.verifyMatch(GlobalVariable.legacy, 'no', false, FailureHandling.OPTION
     if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/models/RC F'), 3, FailureHandling.OPTIONAL)) {
         WebUI.click(findTestObject('Homepage/VehicleSelectorAEM/models/RC F'), FailureHandling.STOP_ON_FAILURE)
 
-        WebUI.delay(1)
+        WebUI.delay(3)
 
         selectedModel = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/selected model'), FailureHandling.STOP_ON_FAILURE)
 
@@ -598,7 +598,7 @@ if (WebUI.verifyMatch(GlobalVariable.legacy, 'no', false, FailureHandling.OPTION
     if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/models/LC'), 3, FailureHandling.OPTIONAL)) {
         WebUI.click(findTestObject('Homepage/VehicleSelectorAEM/models/LC'), FailureHandling.STOP_ON_FAILURE)
 
-        WebUI.delay(1)
+        WebUI.delay(3)
 
         selectedModel = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/selected model'), FailureHandling.STOP_ON_FAILURE)
 
@@ -620,7 +620,7 @@ if (WebUI.verifyMatch(GlobalVariable.legacy, 'no', false, FailureHandling.OPTION
     if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/models/LCh'), 3, FailureHandling.OPTIONAL)) {
         WebUI.click(findTestObject('Homepage/VehicleSelectorAEM/models/LCh'), FailureHandling.STOP_ON_FAILURE)
 
-        WebUI.delay(1)
+        WebUI.delay(3)
 
         selectedModel = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/selected model'), FailureHandling.STOP_ON_FAILURE)
 
@@ -642,7 +642,7 @@ if (WebUI.verifyMatch(GlobalVariable.legacy, 'no', false, FailureHandling.OPTION
     if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/models/LC C'), 3, FailureHandling.OPTIONAL)) {
         WebUI.click(findTestObject('Homepage/VehicleSelectorAEM/models/LC C'), FailureHandling.STOP_ON_FAILURE)
 
-        WebUI.delay(1)
+        WebUI.delay(3)
 
         selectedModel = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/selected model'), FailureHandling.STOP_ON_FAILURE)
 
@@ -666,7 +666,7 @@ if (WebUI.verifyMatch(GlobalVariable.legacy, 'no', false, FailureHandling.OPTION
     if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/models/UXh'), 3, FailureHandling.OPTIONAL)) {
         WebUI.click(findTestObject('Homepage/VehicleSelectorAEM/models/UXh'), FailureHandling.STOP_ON_FAILURE)
 
-        WebUI.delay(1)
+        WebUI.delay(3)
 
         selectedModel = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/selected model'), FailureHandling.STOP_ON_FAILURE)
 
@@ -688,7 +688,7 @@ if (WebUI.verifyMatch(GlobalVariable.legacy, 'no', false, FailureHandling.OPTION
     if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/models/NXh'), 3, FailureHandling.OPTIONAL)) {
         WebUI.click(findTestObject('Homepage/VehicleSelectorAEM/models/NXh'), FailureHandling.STOP_ON_FAILURE)
 
-        WebUI.delay(1)
+        WebUI.delay(3)
 
         selectedModel = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/selected model'), FailureHandling.STOP_ON_FAILURE)
 
@@ -710,7 +710,7 @@ if (WebUI.verifyMatch(GlobalVariable.legacy, 'no', false, FailureHandling.OPTION
     if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/models/RXh'), 3, FailureHandling.OPTIONAL)) {
         WebUI.click(findTestObject('Homepage/VehicleSelectorAEM/models/RXh'), FailureHandling.STOP_ON_FAILURE)
 
-        WebUI.delay(1)
+        WebUI.delay(4)
 
         selectedModel = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/selected model'), FailureHandling.STOP_ON_FAILURE)
 
@@ -732,7 +732,7 @@ if (WebUI.verifyMatch(GlobalVariable.legacy, 'no', false, FailureHandling.OPTION
     if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/models/ESh'), 3, FailureHandling.OPTIONAL)) {
         WebUI.click(findTestObject('Homepage/VehicleSelectorAEM/models/ESh'), FailureHandling.STOP_ON_FAILURE)
 
-        WebUI.delay(1)
+        WebUI.delay(3)
 
         selectedModel = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/selected model'), FailureHandling.STOP_ON_FAILURE)
 
@@ -754,7 +754,7 @@ if (WebUI.verifyMatch(GlobalVariable.legacy, 'no', false, FailureHandling.OPTION
     if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/models/LSh'), 3, FailureHandling.OPTIONAL)) {
         WebUI.click(findTestObject('Homepage/VehicleSelectorAEM/models/LSh'), FailureHandling.STOP_ON_FAILURE)
 
-        WebUI.delay(1)
+        WebUI.delay(3)
 
         selectedModel = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/selected model'), FailureHandling.STOP_ON_FAILURE)
 
@@ -776,7 +776,7 @@ if (WebUI.verifyMatch(GlobalVariable.legacy, 'no', false, FailureHandling.OPTION
     if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/models/LCh'), 3, FailureHandling.OPTIONAL)) {
         WebUI.click(findTestObject('Homepage/VehicleSelectorAEM/models/LCh'), FailureHandling.STOP_ON_FAILURE)
 
-        WebUI.delay(1)
+        WebUI.delay(3)
 
         selectedModel = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/selected model'), FailureHandling.STOP_ON_FAILURE)
 
@@ -800,7 +800,7 @@ if (WebUI.verifyMatch(GlobalVariable.legacy, 'no', false, FailureHandling.OPTION
     if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/models/RC F'), 3, FailureHandling.OPTIONAL)) {
         WebUI.click(findTestObject('Homepage/VehicleSelectorAEM/models/RC F'), FailureHandling.STOP_ON_FAILURE)
 
-        WebUI.delay(1)
+        WebUI.delay(3)
 
         selectedModel = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/selected model'), FailureHandling.STOP_ON_FAILURE)
 
@@ -822,7 +822,7 @@ if (WebUI.verifyMatch(GlobalVariable.legacy, 'no', false, FailureHandling.OPTION
     if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/models/LC'), 3, FailureHandling.OPTIONAL)) {
         WebUI.click(findTestObject('Homepage/VehicleSelectorAEM/models/LC'), FailureHandling.STOP_ON_FAILURE)
 
-        WebUI.delay(1)
+        WebUI.delay(3)
 
         selectedModel = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/selected model'), FailureHandling.STOP_ON_FAILURE)
 
@@ -844,7 +844,7 @@ if (WebUI.verifyMatch(GlobalVariable.legacy, 'no', false, FailureHandling.OPTION
     if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/models/LCh'), 3, FailureHandling.OPTIONAL)) {
         WebUI.click(findTestObject('Homepage/VehicleSelectorAEM/models/LCh'), FailureHandling.STOP_ON_FAILURE)
 
-        WebUI.delay(1)
+        WebUI.delay(4)
 
         selectedModel = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/selected model'), FailureHandling.STOP_ON_FAILURE)
 
@@ -866,7 +866,7 @@ if (WebUI.verifyMatch(GlobalVariable.legacy, 'no', false, FailureHandling.OPTION
     if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/models/LC C'), 3, FailureHandling.OPTIONAL)) {
         WebUI.click(findTestObject('Homepage/VehicleSelectorAEM/models/LC C'), FailureHandling.STOP_ON_FAILURE)
 
-        WebUI.delay(1)
+        WebUI.delay(4)
 
         selectedModel = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/selected model'), FailureHandling.STOP_ON_FAILURE)
 

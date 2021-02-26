@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//*[@id = 'VehicleSelector']//div[contains(@class, 'selected')])[2]//div[(contains(text(), 'STARTING AT') or contains(., 'STARTING AT'))]/following-sibling::div/span</value>
+         <value>(//*[@id = 'VehicleSelector']//div[contains(@class, 'selected')])[2]//div[(contains(text(), 'STAR') or contains(., 'STAR'))]/following-sibling::div/span</value>
       </entry>
       <entry>
          <key>BASIC</key>
