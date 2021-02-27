@@ -95,4 +95,28 @@
          <variableId>bd22425e-5ef8-4141-99a4-828aa8c6339e</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>3b89002d-3982-4b2e-881f-62adb02b2406</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/HomePage/VehicleSelector/Navigate models - Save users selection</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c94ffc9a-9ae3-4fed-8bd7-3eec85e97d20</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2a97249a-4e9d-439a-b82f-bd19eb169d79</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/HomePage/VehicleSelector/CTAs</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>5c7cd174-8b6b-4502-98e6-68caea03bab2</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>

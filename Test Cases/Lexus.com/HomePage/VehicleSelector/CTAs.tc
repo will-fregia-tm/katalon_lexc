@@ -10,7 +10,17 @@ if users location is known, cookies should be passed along to BYL
 When user clicks on the &quot;Explore&quot; CTA (i.e. for the RX)
 Then the system will navigate the user to the appropriate model’s model page (RX)
 remain in the same tab
-if users location is known, cookies should be passed along to model page</description>
+if users location is known, cookies should be passed along to model page
+
+HOVER OVER ELEMENTS {desktop only}
+if CTA-button, then the system shall display the CTA's hover state
+
+if Color-swatch, the system shall:
+
+Selected color swatch remains in Active-State
+Update the hovered over color swatch to its hovered state 
+Display gold stroke around swatch
+note name and image do not update</description>
    <name>CTAs</name>
    <tag></tag>
    <comment></comment>

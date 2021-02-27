@@ -66,6 +66,8 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroModule/slide 2'), 3,
 
     WebUI.click(findTestObject('Homepage/HeroModule/carousel slide 2 button'), FailureHandling.STOP_ON_FAILURE)
 
+    WebUI.delay(1)
+
     activeSlide1 = WebUI.getAttribute(findTestObject('Homepage/HeroModule/active slide'), 'data-index')
 
     WebUI.delay(4)
@@ -80,6 +82,8 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroModule/slide 2'), 3,
 
     WebUI.click(findTestObject('Homepage/HeroModule/carousel next slide button'), FailureHandling.STOP_ON_FAILURE)
 
+    WebUI.delay(2)
+
     activeSlide1 = WebUI.getAttribute(findTestObject('Homepage/HeroModule/active slide'), 'data-index')
 
     WebUI.delay(4)
@@ -93,6 +97,8 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroModule/slide 2'), 3,
     WebUI.waitForElementPresent(findTestObject('Homepage/HeroModule/carousel previous slide button'), 5, FailureHandling.OPTIONAL)
 
     WebUI.click(findTestObject('Homepage/HeroModule/carousel previous slide button'), FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.delay(2)
 
     activeSlide1 = WebUI.getAttribute(findTestObject('Homepage/HeroModule/active slide'), 'data-index')
 

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>When a user changes the default color of a vehicle (i.e. RC F to infrared) then navigates to a new model, then navigates back (to the RCF)
+The system shall still display the user's previously selected settings (i.e display the RC F in infrared)
+
+When a user selects a different vehicle from the default model in a Model Category,
+then navigates to a new Model Category,
+then navigates back to the previous Model Category
+Then the system shall
+
+save the users selection through the user page session/at a page state level
+display the user previously selected settings
+and if the user changes pages, the system shall clear the users session selection</description>
+   <name>Navigate models - Save users selection</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>567daa2d-069c-41d8-83b5-aef0e9611faa</testCaseGuid>
+   <variable>
+      <defaultValue>'VehicleSelectorOffers'</defaultValue>
+      <description></description>
+      <id>c94ffc9a-9ae3-4fed-8bd7-3eec85e97d20</id>
+      <masked>false</masked>
+      <name>HomePage</name>
+   </variable>
+</TestCaseEntity>

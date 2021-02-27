@@ -96,6 +96,8 @@ if (WebUI.verifyMatch(GlobalVariable.legacy, 'no', false, FailureHandling.OPTION
     
     WebUI.click(findTestObject('HomePage/VehicleSelectorAEM/categories/Sedans'), FailureHandling.STOP_ON_FAILURE)
 
+    WebUI.delay(2)
+
     selectedCategory = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/categories/selected category'), FailureHandling.STOP_ON_FAILURE)
 
     WebUI.verifyMatch(selectedCategory, 'SEDANS', false, FailureHandling.STOP_ON_FAILURE)
@@ -156,6 +158,8 @@ if (WebUI.verifyMatch(GlobalVariable.legacy, 'no', false, FailureHandling.OPTION
     }
     
     WebUI.click(findTestObject('HomePage/VehicleSelectorAEM/categories/SUVs'), FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.delay(2)
 
     selectedCategory = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/categories/selected category'), FailureHandling.STOP_ON_FAILURE)
 
@@ -218,6 +222,8 @@ if (WebUI.verifyMatch(GlobalVariable.legacy, 'no', false, FailureHandling.OPTION
     
     WebUI.click(findTestObject('HomePage/VehicleSelectorAEM/categories/Coupes'), FailureHandling.STOP_ON_FAILURE)
 
+    WebUI.delay(2)
+
     selectedCategory = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/categories/selected category'), FailureHandling.STOP_ON_FAILURE)
 
     WebUI.verifyMatch(selectedCategory, 'COUPES', false, FailureHandling.STOP_ON_FAILURE)
@@ -279,6 +285,8 @@ if (WebUI.verifyMatch(GlobalVariable.legacy, 'no', false, FailureHandling.OPTION
     
     WebUI.click(findTestObject('HomePage/VehicleSelectorAEM/categories/Hybrids'), FailureHandling.STOP_ON_FAILURE)
 
+    WebUI.delay(2)
+
     selectedCategory = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/categories/selected category'), FailureHandling.STOP_ON_FAILURE)
 
     WebUI.verifyMatch(selectedCategory, 'HYBRIDS', false, FailureHandling.STOP_ON_FAILURE)
@@ -339,6 +347,8 @@ if (WebUI.verifyMatch(GlobalVariable.legacy, 'no', false, FailureHandling.OPTION
     }
     
     WebUI.click(findTestObject('HomePage/VehicleSelectorAEM/categories/Performance'), FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.delay(2)
 
     selectedCategory = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/categories/selected category'), FailureHandling.STOP_ON_FAILURE)
 
