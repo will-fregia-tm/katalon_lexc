@@ -140,12 +140,13 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroOffers/offer cards r
         if (WebUI.verifyMatch(cookiedZIP, 'yes', false, FailureHandling.OPTIONAL)) {
             'will only be checked on prod to avoid missing pages'
             if (WebUI.verifyMatch(GlobalVariable.domain, 'prod', false, FailureHandling.OPTIONAL)) {
-                WebUI.click(findTestObject('GlobalNav/model offers section link'), FailureHandling.OPTIONAL)
-
                 WebUI.delay(5)
 
                 'if users location is known, cookies should be passed along to model page'
-                WebUI.verifyTextPresent('75218', false, FailureHandling.STOP_ON_FAILURE)
+                WebUI.verifyTextPresent('SEWELL', false, FailureHandling.STOP_ON_FAILURE)
+
+                'if users location is known, cookies should be passed along to model page'
+                WebUI.verifyTextPresent('75209', false, FailureHandling.STOP_ON_FAILURE)
             }
         }
         
@@ -250,12 +251,13 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroOffers/offer cards r
         if (WebUI.verifyMatch(cookiedZIP, 'yes', false, FailureHandling.OPTIONAL)) {
             'will only be checked on prod to avoid missing pages'
             if (WebUI.verifyMatch(GlobalVariable.domain, 'prod', false, FailureHandling.OPTIONAL)) {
-                WebUI.click(findTestObject('GlobalNav/model offers section link'), FailureHandling.OPTIONAL)
-
                 WebUI.delay(5)
 
                 'if users location is known, cookies should be passed along to model page'
-                WebUI.verifyTextPresent('75218', false, FailureHandling.STOP_ON_FAILURE)
+                WebUI.verifyTextPresent('SEWELL', false, FailureHandling.STOP_ON_FAILURE)
+
+                'if users location is known, cookies should be passed along to model page'
+                WebUI.verifyTextPresent('75209', false, FailureHandling.STOP_ON_FAILURE)
             }
         }
         
@@ -347,7 +349,7 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroOffers/offer cards r
 
         offersURL = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/offers/CTA - View Offers'), 'href')
 
-        offersURL = (((offersURL - GlobalVariable.AEM_Domain) - 'https://aem-author.toyota.com') - vehicleName - "lx")
+        offersURL = ((((offersURL - GlobalVariable.AEM_Domain) - 'https://aem-author.toyota.com') - vehicleName) - 'lx')
 
         'verifies that CTA href is correct for this model'
         WebUI.verifyMatch(offersURL, '/models//offers', false, FailureHandling.STOP_ON_FAILURE)
@@ -360,12 +362,13 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroOffers/offer cards r
         if (WebUI.verifyMatch(cookiedZIP, 'yes', false, FailureHandling.OPTIONAL)) {
             'will only be checked on prod to avoid missing pages'
             if (WebUI.verifyMatch(GlobalVariable.domain, 'prod', false, FailureHandling.OPTIONAL)) {
-                WebUI.click(findTestObject('GlobalNav/model offers section link'), FailureHandling.OPTIONAL)
-
                 WebUI.delay(5)
 
                 'if users location is known, cookies should be passed along to model page'
-                WebUI.verifyTextPresent('75218', false, FailureHandling.STOP_ON_FAILURE)
+                WebUI.verifyTextPresent('SEWELL', false, FailureHandling.STOP_ON_FAILURE)
+
+                'if users location is known, cookies should be passed along to model page'
+                WebUI.verifyTextPresent('75209', false, FailureHandling.STOP_ON_FAILURE)
             }
         }
         
@@ -457,7 +460,7 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroOffers/offer cards r
 
         offersURL = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/offers/CTA - View Offers'), 'href')
 
-        offersURL = (((offersURL - GlobalVariable.AEM_Domain) - 'https://aem-author.toyota.com') - vehicleName - "LCC")
+        offersURL = ((((offersURL - GlobalVariable.AEM_Domain) - 'https://aem-author.toyota.com') - vehicleName) - 'LCC')
 
         'verifies that CTA href is correct for this model'
         WebUI.verifyMatch(offersURL, '/models//offers', false, FailureHandling.STOP_ON_FAILURE)
@@ -470,12 +473,13 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroOffers/offer cards r
         if (WebUI.verifyMatch(cookiedZIP, 'yes', false, FailureHandling.OPTIONAL)) {
             'will only be checked on prod to avoid missing pages'
             if (WebUI.verifyMatch(GlobalVariable.domain, 'prod', false, FailureHandling.OPTIONAL)) {
-                WebUI.click(findTestObject('GlobalNav/model offers section link'), FailureHandling.OPTIONAL)
-
                 WebUI.delay(5)
 
                 'if users location is known, cookies should be passed along to model page'
-                WebUI.verifyTextPresent('75218', false, FailureHandling.STOP_ON_FAILURE)
+                WebUI.verifyTextPresent('SEWELL', false, FailureHandling.STOP_ON_FAILURE)
+
+                'if users location is known, cookies should be passed along to model page'
+                WebUI.verifyTextPresent('75209', false, FailureHandling.STOP_ON_FAILURE)
             }
         }
         
@@ -567,7 +571,7 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroOffers/offer cards r
 
         offersURL = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/offers/CTA - View Offers'), 'href')
 
-        offersURL = (((offersURL - GlobalVariable.AEM_Domain) - 'https://aem-author.toyota.com') - vehicleName - 'UXh')
+        offersURL = ((((offersURL - GlobalVariable.AEM_Domain) - 'https://aem-author.toyota.com') - vehicleName) - 'UXh')
 
         'verifies that CTA href is correct for this model'
         WebUI.verifyMatch(offersURL, '/models//offers', false, FailureHandling.STOP_ON_FAILURE)
@@ -580,12 +584,13 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroOffers/offer cards r
         if (WebUI.verifyMatch(cookiedZIP, 'yes', false, FailureHandling.OPTIONAL)) {
             'will only be checked on prod to avoid missing pages'
             if (WebUI.verifyMatch(GlobalVariable.domain, 'prod', false, FailureHandling.OPTIONAL)) {
-                WebUI.click(findTestObject('GlobalNav/model offers section link'), FailureHandling.OPTIONAL)
-
                 WebUI.delay(5)
 
                 'if users location is known, cookies should be passed along to model page'
-                WebUI.verifyTextPresent('75218', false, FailureHandling.STOP_ON_FAILURE)
+                WebUI.verifyTextPresent('SEWELL', false, FailureHandling.STOP_ON_FAILURE)
+
+                'if users location is known, cookies should be passed along to model page'
+                WebUI.verifyTextPresent('75209', false, FailureHandling.STOP_ON_FAILURE)
             }
         }
         
@@ -677,7 +682,7 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroOffers/offer cards r
 
         offersURL = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/offers/CTA - View Offers'), 'href')
 
-        offersURL = (((offersURL - GlobalVariable.AEM_Domain) - 'https://aem-author.toyota.com') - vehicleName - 'rcf')
+        offersURL = ((((offersURL - GlobalVariable.AEM_Domain) - 'https://aem-author.toyota.com') - vehicleName) - 'rcf')
 
         'verifies that CTA href is correct for this model'
         WebUI.verifyMatch(offersURL, '/models//offers', false, FailureHandling.STOP_ON_FAILURE)
@@ -690,12 +695,13 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroOffers/offer cards r
         if (WebUI.verifyMatch(cookiedZIP, 'yes', false, FailureHandling.OPTIONAL)) {
             'will only be checked on prod to avoid missing pages'
             if (WebUI.verifyMatch(GlobalVariable.domain, 'prod', false, FailureHandling.OPTIONAL)) {
-                WebUI.click(findTestObject('GlobalNav/model offers section link'), FailureHandling.OPTIONAL)
-
                 WebUI.delay(5)
 
                 'if users location is known, cookies should be passed along to model page'
-                WebUI.verifyTextPresent('75218', false, FailureHandling.STOP_ON_FAILURE)
+                WebUI.verifyTextPresent('SEWELL', false, FailureHandling.STOP_ON_FAILURE)
+
+                'if users location is known, cookies should be passed along to model page'
+                WebUI.verifyTextPresent('75209', false, FailureHandling.STOP_ON_FAILURE)
             }
         }
         
