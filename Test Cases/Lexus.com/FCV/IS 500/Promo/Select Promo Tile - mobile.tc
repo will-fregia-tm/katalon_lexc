@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Promo end caps follow relevant links to corresponding pages.</description>
+   <name>Select Promo Tile - mobile</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dd6ad121-91a8-47d8-9c07-d1b42031a6ca</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>8d8b5459-3c43-48bd-8a2a-bd57e1043c28</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>

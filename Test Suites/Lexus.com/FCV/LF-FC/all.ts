@@ -50,7 +50,7 @@
    <testCaseLink>
       <guid>5c030452-8f76-4482-83e3-52c751067bf5</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/FCV/LF-FC/Header/Lexus logo is present</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>

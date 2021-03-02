@@ -45,47 +45,40 @@ if (WebUI.verifyElementNotPresent(findTestObject('FCV/Hero/hero module'), 3, Fai
 
 WebUI.waitForElementPresent(findTestObject('FCV/Hero/hero module'), 3, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementPresent(findTestObject('FCV/Hero/Stay Informed button'), 5)
+WebUI.scrollToElement(findTestObject('FCV/Promo/promo module'), 5, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.scrollToPosition(0, 100)
+absoluteLink = WebUI.getAttribute(findTestObject('FCV/Promo/model card 1'), 'href', FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('FCV/Hero/Stay Informed button'), FailureHandling.STOP_ON_FAILURE)
+'removes domain from URL in order to create a relative link'
+relativeLink = (absoluteLink - GlobalVariable.AEM_Domain)
 
-WebUI.waitForElementPresent(findTestObject('FCV/SignupForm/form overlay'), 5, FailureHandling.STOP_ON_FAILURE)
+subtagText = WebUI.getText(findTestObject('FCV/Promo/model card 1 subtag'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('FCV/SignupForm/submit button'))
+WebUI.click(findTestObject('FCV/Promo/model card 1'), FailureHandling.STOP_ON_FAILURE)
 
-backgroundColor = WebUI.getCSSValue(findTestObject('FCV/SignupForm/input field - first name'), 'background-color')
+WebUI.waitForPageLoad(0, FailureHandling.STOP_ON_FAILURE)
 
-if (WebUI.verifyNotMatch(backgroundColor, 'rgba(254, 232, 232, 1)', false, FailureHandling.OPTIONAL)) {
-    WebUI.verifyMatch(backgroundColor, 'rgb(254, 232, 232)', false, FailureHandling.STOP_ON_FAILURE)
-}
+WebUI.navigateToUrl('https://www.lexus.com' + relativeLink, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('FCV/SignupForm/valid first name prompt'), 0)
+WebUI.waitForPageLoad(0, FailureHandling.STOP_ON_FAILURE)
 
-backgroundColor = WebUI.getCSSValue(findTestObject('FCV/SignupForm/input field - last name'), 'background-color')
+WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-if (WebUI.verifyNotMatch(backgroundColor, 'rgba(254, 232, 232, 1)', false, FailureHandling.OPTIONAL)) {
-    WebUI.verifyMatch(backgroundColor, 'rgb(254, 232, 232)', false, FailureHandling.STOP_ON_FAILURE)
-}
+WebUI.verifyTextPresent(subtagText, false, FailureHandling.OPTIONAL)
 
-WebUI.verifyElementPresent(findTestObject('FCV/SignupForm/valid last name prompt'), 0)
+WebUI.navigateToUrl(GlobalVariable.AEM_Domain_Unauthenticated + '/concept/LFSA')
 
-backgroundColor = WebUI.getCSSValue(findTestObject('FCV/SignupForm/input field - email'), 'background-color')
+WebUI.scrollToElement(findTestObject('FCV/Promo/promo module'), 5, FailureHandling.STOP_ON_FAILURE)
 
-if (WebUI.verifyNotMatch(backgroundColor, 'rgba(254, 232, 232, 1)', false, FailureHandling.OPTIONAL)) {
-    WebUI.verifyMatch(backgroundColor, 'rgb(254, 232, 232)', false, FailureHandling.STOP_ON_FAILURE)
-}
+subtagText = WebUI.getText(findTestObject('FCV/Promo/model card 2 subtag'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('FCV/SignupForm/valid email prompt'), 0)
+WebUI.click(findTestObject('FCV/Promo/model card 2'), FailureHandling.STOP_ON_FAILURE)
 
-backgroundColor = WebUI.getCSSValue(findTestObject('FCV/SignupForm/input field - zip code'), 'background-color')
+WebUI.waitForPageLoad(0, FailureHandling.STOP_ON_FAILURE)
 
-if (WebUI.verifyNotMatch(backgroundColor, 'rgba(254, 232, 232, 1)', false, FailureHandling.OPTIONAL)) {
-    WebUI.verifyMatch(backgroundColor, 'rgb(254, 232, 232)', false, FailureHandling.STOP_ON_FAILURE)
-}
+WebUI.verifyTextPresent(subtagText, false, FailureHandling.OPTIONAL)
 
-WebUI.verifyElementPresent(findTestObject('FCV/SignupForm/valid zip code prompt'), 0)
+WebUI.navigateToUrl(GlobalVariable.AEM_Domain_Unauthenticated + '/concept/LFSA')
 
 @com.kms.katalon.core.annotation.TearDownIfPassed
 def passed() {

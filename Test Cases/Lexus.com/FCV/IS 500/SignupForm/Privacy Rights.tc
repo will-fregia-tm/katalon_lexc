@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Privacy rights URLs and information are correct.</description>
+   <name>Privacy Rights</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8010018c-b31b-470d-9d82-e7d2b586426e</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>ca29616e-0d5d-4c10-b917-cf6c37c71833</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>

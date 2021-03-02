@@ -37,7 +37,7 @@ if (WebUI.verifyMatch(domain, 'staging', false, FailureHandling.OPTIONAL)) {
     WebUI.navigateToUrl(GlobalVariable.TS_Domain + GlobalVariable.legacyURL)
 }
 
-WebUI.navigateToUrl(GlobalVariable.AEM_Domain_Unauthenticated + '/concept/LFSA')
+WebUI.navigateToUrl(GlobalVariable.AEM_Domain_Unauthenticated + '/IS500')
 
 if (WebUI.verifyElementNotPresent(findTestObject('FCV/Hero/hero module'), 3, FailureHandling.OPTIONAL)) {
     WebUI.refresh()
@@ -45,47 +45,19 @@ if (WebUI.verifyElementNotPresent(findTestObject('FCV/Hero/hero module'), 3, Fai
 
 WebUI.waitForElementPresent(findTestObject('FCV/Hero/hero module'), 3, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementPresent(findTestObject('FCV/Hero/Stay Informed button'), 5)
+WebUI.waitForPageLoad(0)
 
-WebUI.scrollToPosition(0, 100)
+WebUI.scrollToElement(findTestObject('FCV/Gallery/gallery module'), 5)
 
-WebUI.click(findTestObject('FCV/Hero/Stay Informed button'), FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementNotPresent(findTestObject('FCV/Gallery/visible slide 1'), 5)
 
-WebUI.waitForElementPresent(findTestObject('FCV/SignupForm/form overlay'), 5, FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('FCV/Gallery/thumb 1'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('FCV/SignupForm/submit button'))
+WebUI.verifyElementPresent(findTestObject('FCV/Gallery/visible slide 1'), 5)
 
-backgroundColor = WebUI.getCSSValue(findTestObject('FCV/SignupForm/input field - first name'), 'background-color')
+WebUI.click(findTestObject('FCV/Gallery/exit button'))
 
-if (WebUI.verifyNotMatch(backgroundColor, 'rgba(254, 232, 232, 1)', false, FailureHandling.OPTIONAL)) {
-    WebUI.verifyMatch(backgroundColor, 'rgb(254, 232, 232)', false, FailureHandling.STOP_ON_FAILURE)
-}
-
-WebUI.verifyElementPresent(findTestObject('FCV/SignupForm/valid first name prompt'), 0)
-
-backgroundColor = WebUI.getCSSValue(findTestObject('FCV/SignupForm/input field - last name'), 'background-color')
-
-if (WebUI.verifyNotMatch(backgroundColor, 'rgba(254, 232, 232, 1)', false, FailureHandling.OPTIONAL)) {
-    WebUI.verifyMatch(backgroundColor, 'rgb(254, 232, 232)', false, FailureHandling.STOP_ON_FAILURE)
-}
-
-WebUI.verifyElementPresent(findTestObject('FCV/SignupForm/valid last name prompt'), 0)
-
-backgroundColor = WebUI.getCSSValue(findTestObject('FCV/SignupForm/input field - email'), 'background-color')
-
-if (WebUI.verifyNotMatch(backgroundColor, 'rgba(254, 232, 232, 1)', false, FailureHandling.OPTIONAL)) {
-    WebUI.verifyMatch(backgroundColor, 'rgb(254, 232, 232)', false, FailureHandling.STOP_ON_FAILURE)
-}
-
-WebUI.verifyElementPresent(findTestObject('FCV/SignupForm/valid email prompt'), 0)
-
-backgroundColor = WebUI.getCSSValue(findTestObject('FCV/SignupForm/input field - zip code'), 'background-color')
-
-if (WebUI.verifyNotMatch(backgroundColor, 'rgba(254, 232, 232, 1)', false, FailureHandling.OPTIONAL)) {
-    WebUI.verifyMatch(backgroundColor, 'rgb(254, 232, 232)', false, FailureHandling.STOP_ON_FAILURE)
-}
-
-WebUI.verifyElementPresent(findTestObject('FCV/SignupForm/valid zip code prompt'), 0)
+WebUI.verifyElementNotPresent(findTestObject('FCV/Gallery/visible slide 1'), 5)
 
 @com.kms.katalon.core.annotation.TearDownIfPassed
 def passed() {

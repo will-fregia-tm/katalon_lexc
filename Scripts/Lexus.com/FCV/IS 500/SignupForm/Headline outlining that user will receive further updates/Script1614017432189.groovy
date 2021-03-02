@@ -47,45 +47,26 @@ WebUI.waitForElementPresent(findTestObject('FCV/Hero/hero module'), 3, FailureHa
 
 WebUI.waitForElementPresent(findTestObject('FCV/Hero/Stay Informed button'), 5)
 
-WebUI.scrollToPosition(0, 100)
-
 WebUI.click(findTestObject('FCV/Hero/Stay Informed button'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForElementPresent(findTestObject('FCV/SignupForm/form overlay'), 5, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('FCV/SignupForm/submit button'))
+WebUI.verifyElementPresent(findTestObject('FCV/SignupForm/headline'), 0)
 
-backgroundColor = WebUI.getCSSValue(findTestObject('FCV/SignupForm/input field - first name'), 'background-color')
+actualValue = WebUI.getText(findTestObject('FCV/SignupForm/headline'), FailureHandling.STOP_ON_FAILURE)
 
-if (WebUI.verifyNotMatch(backgroundColor, 'rgba(254, 232, 232, 1)', false, FailureHandling.OPTIONAL)) {
-    WebUI.verifyMatch(backgroundColor, 'rgb(254, 232, 232)', false, FailureHandling.STOP_ON_FAILURE)
-}
+column = GlobalVariable.dataColumn
 
-WebUI.verifyElementPresent(findTestObject('FCV/SignupForm/valid first name prompt'), 0)
+expectedValue = findTestData('FCV').getValue(column, 1)
 
-backgroundColor = WebUI.getCSSValue(findTestObject('FCV/SignupForm/input field - last name'), 'background-color')
+modifiedString = (actualValue - expectedValue)
 
-if (WebUI.verifyNotMatch(backgroundColor, 'rgba(254, 232, 232, 1)', false, FailureHandling.OPTIONAL)) {
-    WebUI.verifyMatch(backgroundColor, 'rgb(254, 232, 232)', false, FailureHandling.STOP_ON_FAILURE)
-}
+'if the expected value is contained within the actual value, then the actual value without the expected value should not match the actual value'
+WebUI.verifyNotMatch(modifiedString, actualValue, false, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('FCV/SignupForm/valid last name prompt'), 0)
+WebUI.verifyElementPresent(findTestObject('FCV/SignupForm/subheader'), 0, FailureHandling.STOP_ON_FAILURE)
 
-backgroundColor = WebUI.getCSSValue(findTestObject('FCV/SignupForm/input field - email'), 'background-color')
-
-if (WebUI.verifyNotMatch(backgroundColor, 'rgba(254, 232, 232, 1)', false, FailureHandling.OPTIONAL)) {
-    WebUI.verifyMatch(backgroundColor, 'rgb(254, 232, 232)', false, FailureHandling.STOP_ON_FAILURE)
-}
-
-WebUI.verifyElementPresent(findTestObject('FCV/SignupForm/valid email prompt'), 0)
-
-backgroundColor = WebUI.getCSSValue(findTestObject('FCV/SignupForm/input field - zip code'), 'background-color')
-
-if (WebUI.verifyNotMatch(backgroundColor, 'rgba(254, 232, 232, 1)', false, FailureHandling.OPTIONAL)) {
-    WebUI.verifyMatch(backgroundColor, 'rgb(254, 232, 232)', false, FailureHandling.STOP_ON_FAILURE)
-}
-
-WebUI.verifyElementPresent(findTestObject('FCV/SignupForm/valid zip code prompt'), 0)
+WebUI.verifyElementPresent(findTestObject('FCV/SignupForm/field required notification'), 0, FailureHandling.STOP_ON_FAILURE)
 
 @com.kms.katalon.core.annotation.TearDownIfPassed
 def passed() {

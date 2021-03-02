@@ -45,47 +45,47 @@ if (WebUI.verifyElementNotPresent(findTestObject('FCV/Hero/hero module'), 3, Fai
 
 WebUI.waitForElementPresent(findTestObject('FCV/Hero/hero module'), 3, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementPresent(findTestObject('FCV/Hero/Stay Informed button'), 5)
+WebUI.verifyElementPresent(findTestObject('FCV/Hero/Stay Informed button'), 5)
 
-WebUI.scrollToPosition(0, 100)
+WebUI.verifyElementNotPresent(findTestObject('FCV/SignupForm/form overlay'), 0)
+
+WebUI.mouseOver(findTestObject('FCV/Hero/Stay Informed button'), FailureHandling.OPTIONAL)
 
 WebUI.click(findTestObject('FCV/Hero/Stay Informed button'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementPresent(findTestObject('FCV/SignupForm/form overlay'), 5, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('FCV/SignupForm/form overlay'), 0)
 
-WebUI.click(findTestObject('FCV/SignupForm/submit button'))
+WebUI.setText(findTestObject('FCV/SignupForm/input field - first name'), 'sendto', FailureHandling.STOP_ON_FAILURE)
 
-backgroundColor = WebUI.getCSSValue(findTestObject('FCV/SignupForm/input field - first name'), 'background-color')
+WebUI.setText(findTestObject('FCV/SignupForm/input field - last name'), 'adf', FailureHandling.STOP_ON_FAILURE)
 
-if (WebUI.verifyNotMatch(backgroundColor, 'rgba(254, 232, 232, 1)', false, FailureHandling.OPTIONAL)) {
-    WebUI.verifyMatch(backgroundColor, 'rgb(254, 232, 232)', false, FailureHandling.STOP_ON_FAILURE)
-}
+WebUI.setText(findTestObject('FCV/SignupForm/input field - email'), 'zach.smith@teamone-usa.com', FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('FCV/SignupForm/valid first name prompt'), 0)
+WebUI.setText(findTestObject('FCV/SignupForm/input field - zip code'), '90064', FailureHandling.STOP_ON_FAILURE)
 
-backgroundColor = WebUI.getCSSValue(findTestObject('FCV/SignupForm/input field - last name'), 'background-color')
+WebUI.mouseOver(findTestObject('FCV/SignupForm/submit button'), FailureHandling.OPTIONAL)
 
-if (WebUI.verifyNotMatch(backgroundColor, 'rgba(254, 232, 232, 1)', false, FailureHandling.OPTIONAL)) {
-    WebUI.verifyMatch(backgroundColor, 'rgb(254, 232, 232)', false, FailureHandling.STOP_ON_FAILURE)
-}
+WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('FCV/SignupForm/valid last name prompt'), 0)
+WebUI.click(findTestObject('FCV/SignupForm/submit button'), FailureHandling.STOP_ON_FAILURE)
 
-backgroundColor = WebUI.getCSSValue(findTestObject('FCV/SignupForm/input field - email'), 'background-color')
+WebUI.waitForElementVisible(findTestObject('FCV/SignupForm/thank you headline'), 0, FailureHandling.STOP_ON_FAILURE)
 
-if (WebUI.verifyNotMatch(backgroundColor, 'rgba(254, 232, 232, 1)', false, FailureHandling.OPTIONAL)) {
-    WebUI.verifyMatch(backgroundColor, 'rgb(254, 232, 232)', false, FailureHandling.STOP_ON_FAILURE)
-}
+WebUI.verifyElementVisibleInViewport(findTestObject('FCV/SignupForm/thank you headline'), 0, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('FCV/SignupForm/valid email prompt'), 0)
+WebUI.verifyElementVisibleInViewport(findTestObject('FCV/SignupForm/thank you subheadline'), 0, FailureHandling.STOP_ON_FAILURE)
 
-backgroundColor = WebUI.getCSSValue(findTestObject('FCV/SignupForm/input field - zip code'), 'background-color')
+WebUI.verifyElementVisibleInViewport(findTestObject('FCV/SignupForm/back to browsing CTA'), 0, FailureHandling.STOP_ON_FAILURE)
 
-if (WebUI.verifyNotMatch(backgroundColor, 'rgba(254, 232, 232, 1)', false, FailureHandling.OPTIONAL)) {
-    WebUI.verifyMatch(backgroundColor, 'rgb(254, 232, 232)', false, FailureHandling.STOP_ON_FAILURE)
-}
+WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('FCV/SignupForm/valid zip code prompt'), 0)
+WebUI.mouseOver(findTestObject('FCV/SignupForm/back to browsing CTA'), FailureHandling.OPTIONAL)
+
+WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('FCV/SignupForm/back to browsing CTA'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyElementNotPresent(findTestObject('FCV/SignupForm/form overlay'), 0, FailureHandling.STOP_ON_FAILURE)
 
 @com.kms.katalon.core.annotation.TearDownIfPassed
 def passed() {
