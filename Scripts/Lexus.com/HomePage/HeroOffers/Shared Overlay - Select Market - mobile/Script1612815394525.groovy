@@ -54,9 +54,17 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroOffers/zip code fiel
 
     WebUI.click(findTestObject('Homepage/HeroOffers/zip code field'))
 
+    WebUI.delay(1)
+
     WebUI.setText(findTestObject('Homepage/HeroOffers/zip code field'), '08008')
 
+    not_run: WebUI.sendKeys(findTestObject('Homepage/HeroOffers/zip code field'), '08008', FailureHandling.OPTIONAL)
+
+    WebUI.delay(1)
+
     WebUI.click(findTestObject('Homepage/HeroOffers/submit button'))
+
+    WebUI.delay(2)
 
     WebUI.waitForElementPresent(findTestObject('Homepage/HeroOffers/SharedMarketOverlay/headline copy'), 2, FailureHandling.OPTIONAL)
 
