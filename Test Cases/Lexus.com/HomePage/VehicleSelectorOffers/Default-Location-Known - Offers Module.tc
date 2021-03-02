@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>When user location is cookied OR entered as a valid Zipcode in the Zip-Gate entry then the system shall display the following after the vehicle selector module:
+
+- Dynamic Module-Title at top of the module centered, formatted: Current [Model Name] Offers
+- Model-Specific market offers cards will render below the Vehicle Selector module
+- CTA centered under the offer-cards
+- Return a maximum of 3 offers cards
+
+
+
+
+</description>
+   <name>Default-Location-Known - Offers Module</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bc46c831-edda-4725-a634-f856850dc2ec</testCaseGuid>
+   <variable>
+      <defaultValue>'VehicleSelectorOffers'</defaultValue>
+      <description></description>
+      <id>cc72d472-acbb-49e3-8100-a42dae8a7984</id>
+      <masked>false</masked>
+      <name>HomePage</name>
+   </variable>
+</TestCaseEntity>

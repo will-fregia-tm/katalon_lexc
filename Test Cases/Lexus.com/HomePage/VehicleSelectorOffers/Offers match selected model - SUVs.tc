@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Offers will display based on the series displaying in the module. Will be based on available offers regardless of model year. Display a maximum of 3 offer cards per vehicle.</description>
+   <name>Offers match selected model - SUVs</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6e0b8df7-76f3-4ac6-83df-0097420bb35e</testCaseGuid>
+   <variable>
+      <defaultValue>'VehicleSelectorOffers'</defaultValue>
+      <description></description>
+      <id>3478e216-8176-445f-9d5b-733b2984ec88</id>
+      <masked>false</masked>
+      <name>HomePage</name>
+   </variable>
+</TestCaseEntity>

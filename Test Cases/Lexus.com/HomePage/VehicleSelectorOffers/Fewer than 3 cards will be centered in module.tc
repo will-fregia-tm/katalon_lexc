@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Fewer cards will be featured centered in the module (i.e. 2 will display centered instead of the full 3)
+
+
+
+
+</description>
+   <name>Fewer than 3 cards will be centered in module</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e1a93760-be37-4e21-8b46-f6cd7b408ab0</testCaseGuid>
+   <variable>
+      <defaultValue>'VehicleSelectorOffers'</defaultValue>
+      <description></description>
+      <id>3f2e72c0-50a1-406b-a101-95736a7c5e13</id>
+      <masked>false</masked>
+      <name>HomePage</name>
+   </variable>
+</TestCaseEntity>

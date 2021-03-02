@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Offers will display based on the series displaying in the module. Will be based on available offers regardless of model year</description>
+   <name>Offers match selected model - sedans</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>42fa67b8-f151-413d-a9ee-919dda2b35b9</testCaseGuid>
+   <variable>
+      <defaultValue>'VehicleSelectorOffers'</defaultValue>
+      <description></description>
+      <id>4d9f1fce-3be1-472f-9b7a-f2c577bb78f0</id>
+      <masked>false</masked>
+      <name>HomePage</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>AC.06 | CTA - Find Dealer
+
+When a user clicks on the &quot;Find a dealer&quot; CTA the system will
+
+navigate the user to the Find A Dealer page Within the same tab (no new tab)
+User is redirected to the Find A Dealer page
+Because user's location is known, cookies should be passed along to Find A Dealer page  
+
+AC.07 | CTA - See Offers
+When a user clicks on the &quot;View [2 Letter Vehicle Name] Offers&quot; CTA (i.e. for the RX - &quot;View RX Offers&quot;) the system will:
+
+Within the same tab (no new tab)
+Deep link user to the Offers Module of the models (RX) Model page
+Because user's location is known, cookies should be passed along to offers page</description>
+   <name>CTAs</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>30511d4b-c391-4c12-94f7-75fa10f7f84a</testCaseGuid>
+   <variable>
+      <defaultValue>'VehicleSelectorOffers'</defaultValue>
+      <description></description>
+      <id>44bccceb-30b7-434a-b26a-55d0ae3dd924</id>
+      <masked>false</masked>
+      <name>HomePage</name>
+   </variable>
+</TestCaseEntity>

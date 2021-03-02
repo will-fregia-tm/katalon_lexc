@@ -36,6 +36,24 @@
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Custom</groupName>
+            <profileName>dev</profileName>
+            <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
+         </configuration>
+         <runEnabled>false</runEnabled>
+         <testSuiteEntity>Test Suites/Lexus.com/HomePage/HeroSalesEvent</testSuiteEntity>
+      </TestSuiteRunConfiguration>
+      <TestSuiteRunConfiguration>
+         <configuration>
+            <groupName>Custom</groupName>
+            <profileName>dev</profileName>
+            <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
+         </configuration>
+         <runEnabled>false</runEnabled>
+         <testSuiteEntity>Test Suites/Lexus.com/HomePage/VSSalesEvent</testSuiteEntity>
+      </TestSuiteRunConfiguration>
+      <TestSuiteRunConfiguration>
+         <configuration>
+            <groupName>Custom</groupName>
             <profileName>staging</profileName>
             <runConfigurationId>saucelabs_edge_win10</runConfigurationId>
          </configuration>
@@ -64,6 +82,24 @@
          <configuration>
             <groupName>Custom</groupName>
             <profileName>staging</profileName>
+            <runConfigurationId>saucelabs_chrome_macos10.15</runConfigurationId>
+         </configuration>
+         <runEnabled>false</runEnabled>
+         <testSuiteEntity>Test Suites/Lexus.com/HomePage/HeroSalesEvent</testSuiteEntity>
+      </TestSuiteRunConfiguration>
+      <TestSuiteRunConfiguration>
+         <configuration>
+            <groupName>Custom</groupName>
+            <profileName>staging</profileName>
+            <runConfigurationId>saucelabs_chrome_win7</runConfigurationId>
+         </configuration>
+         <runEnabled>false</runEnabled>
+         <testSuiteEntity>Test Suites/Lexus.com/HomePage/VSSalesEvent</testSuiteEntity>
+      </TestSuiteRunConfiguration>
+      <TestSuiteRunConfiguration>
+         <configuration>
+            <groupName>Custom</groupName>
+            <profileName>author prod</profileName>
             <runConfigurationId>saucelabs_chrome_win7</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
@@ -72,28 +108,37 @@
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Custom</groupName>
-            <profileName>author staging</profileName>
+            <profileName>author prod</profileName>
             <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
-         <runEnabled>false</runEnabled>
+         <runEnabled>true</runEnabled>
+         <testSuiteEntity>Test Suites/Lexus.com/HomePage/VSSalesEvent</testSuiteEntity>
+      </TestSuiteRunConfiguration>
+      <TestSuiteRunConfiguration>
+         <configuration>
+            <groupName>Custom</groupName>
+            <profileName>author prod</profileName>
+            <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
+         </configuration>
+         <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/HomePage/Hero-QL-DM-Tiles-Grid</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Custom</groupName>
-            <profileName>author staging</profileName>
+            <profileName>author prod</profileName>
             <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
-         <runEnabled>false</runEnabled>
+         <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/HomePage/MB-VS</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Custom</groupName>
-            <profileName>author staging</profileName>
+            <profileName>author prod</profileName>
             <runConfigurationId>saucelabs_chrome_android9_galaxys9</runConfigurationId>
          </configuration>
-         <runEnabled>false</runEnabled>
+         <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/HomePage/mobile tests</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
@@ -118,15 +163,6 @@
          <configuration>
             <groupName>Custom</groupName>
             <profileName>prod</profileName>
-            <runConfigurationId>saucelabs_chrome_win7</runConfigurationId>
-         </configuration>
-         <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/HomePage/Hero-QL-DM-Tiles-Grid</testSuiteEntity>
-      </TestSuiteRunConfiguration>
-      <TestSuiteRunConfiguration>
-         <configuration>
-            <groupName>Custom</groupName>
-            <profileName>prod</profileName>
             <runConfigurationId>saucelabs_edge_win10</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
@@ -138,16 +174,7 @@
             <profileName>prod</profileName>
             <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/HomePage/MB-VS</testSuiteEntity>
-      </TestSuiteRunConfiguration>
-      <TestSuiteRunConfiguration>
-         <configuration>
-            <groupName>Custom</groupName>
-            <profileName>prod</profileName>
-            <runConfigurationId>saucelabs_chrome_win7</runConfigurationId>
-         </configuration>
-         <runEnabled>true</runEnabled>
+         <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/HomePage/MB-VS</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
@@ -156,7 +183,7 @@
             <profileName>prod</profileName>
             <runConfigurationId>saucelabs_firefox_win10</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
+         <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/HomePage/MB-VS</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
@@ -203,6 +230,15 @@
          </configuration>
          <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/HomePage/HeroSalesEvent</testSuiteEntity>
+      </TestSuiteRunConfiguration>
+      <TestSuiteRunConfiguration>
+         <configuration>
+            <groupName>Custom</groupName>
+            <profileName>prod</profileName>
+            <runConfigurationId>saucelabs_chrome_macos10.15</runConfigurationId>
+         </configuration>
+         <runEnabled>false</runEnabled>
+         <testSuiteEntity>Test Suites/Lexus.com/HomePage/VSSalesEvent</testSuiteEntity>
       </TestSuiteRunConfiguration>
    </testSuiteRunConfigurations>
 </TestSuiteCollectionEntity>

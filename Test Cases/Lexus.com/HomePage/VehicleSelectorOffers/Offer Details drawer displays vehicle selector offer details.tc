@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Offer Details drawer will display offer details on user selection
+
+
+
+
+</description>
+   <name>Offer Details drawer displays vehicle selector offer details</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>95e8137d-ef2d-43f4-ab72-9ebf3c356b9a</testCaseGuid>
+   <variable>
+      <defaultValue>'VehicleSelectorOffers'</defaultValue>
+      <description></description>
+      <id>b7ee8f98-5f15-4e0f-b7e6-a2116ca82d4c</id>
+      <masked>false</masked>
+      <name>HomePage</name>
+   </variable>
+</TestCaseEntity>

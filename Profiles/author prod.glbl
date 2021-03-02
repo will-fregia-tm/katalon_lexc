@@ -86,7 +86,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'prod'</initValue>
+      <initValue>'authorProd'</initValue>
       <name>domain</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
