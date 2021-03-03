@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>If on national page, then:
+
+Will render SEO page breadcrumbs:
+
+- National breadcrumb (US) will be in active state but not clickable
+
+- State will be in inactive-state
+- Render: STATE: {ALL} (indicating that all states have are available
+
+- City tab will be in inactive-state
+
+Will display SEO text as a State List
+- Will dynamically render a state list of the available states in alphabetical order.
+Will only show continental-US state with Dealers. (any state outside of the continental US or without dealers will be hidden. PR, HA, ND)
+All states will be clickable and link to the state-page: https://www.lexus.com/offers/us/{state_name}#localized
+When a user selects a state it will anchor them to the SEO text section of the State Page</description>
+   <name>National Page</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bd567c70-62a6-4196-bb08-a4407bd9b24c</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>528ae118-caed-4990-bc6f-3e9a0da893d0</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>
