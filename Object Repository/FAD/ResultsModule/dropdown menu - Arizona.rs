@@ -6,16 +6,16 @@
    <elementGuidId>7ed61248-2973-4e34-8d67-ad5fdd204d97</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[contains(@class, 'Select__menu')]//*[contains(@class, 'Select__menu-list')]//*[(contains(text(), 'Arizona') or contains(., 'Arizona'))]</value>
+         <key>BASIC</key>
+         <value>//*[contains(@class, 'Select__menu-list')]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>div[class*=&quot;Select__menu&quot;]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[contains(@class, 'Select__menu-list')]</value>
+         <key>XPATH</key>
+         <value>//div[contains(@class, 'Select__menu')]//*[contains(@class, 'Select__menu-list')]//*[(contains(text(), 'Arizona') or contains(., 'Arizona'))]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
