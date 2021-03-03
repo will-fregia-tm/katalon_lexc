@@ -19,9 +19,9 @@ WebUI.navigateToUrl((GlobalVariable.TS_Domain + GlobalVariable.Overview_LSh) + '
 
 WebUI.waitForPageLoad(0)
 
-WebUI.verifyElementVisibleInViewport(findTestObject('ModelPages/Overlay/special edition module'), 0)
+not_run: WebUI.verifyElementVisibleInViewport(findTestObject('ModelPages/Overlay/special edition module'), 0)
 
-not_run: WebUI.verifyElementVisibleInViewport(findTestObject('ModelPages/SignupForm/form overlay'), 0)
+WebUI.verifyElementVisibleInViewport(findTestObject('ModelPages/SignupForm/form overlay'), 0)
 
 @com.kms.katalon.core.annotation.TearDownIfPassed
 def passed() {

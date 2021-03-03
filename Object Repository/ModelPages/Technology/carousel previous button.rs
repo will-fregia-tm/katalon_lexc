@@ -9,10 +9,14 @@
          <key>BASIC</key>
       </entry>
       <entry>
+         <key>CSS</key>
+         <value>#technology h2 + div button</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>//*[@id = 'technology']/div[2]/div/div/div/button</value>
+         <value></value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
 </WebElementEntity>

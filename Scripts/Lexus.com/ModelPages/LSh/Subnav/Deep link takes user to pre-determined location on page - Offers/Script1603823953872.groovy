@@ -19,11 +19,11 @@ WebUI.navigateToUrl((GlobalVariable.TS_Domain + GlobalVariable.Overview_LSh) + '
 
 WebUI.waitForPageLoad(0)
 
-WebUI.verifyElementVisibleInViewport(findTestObject('ModelPages/Overlay/special edition module'), 0)
+not_run: WebUI.verifyElementVisibleInViewport(findTestObject('ModelPages/Overlay/special edition module'), 0)
 
-not_run: WebUI.verifyElementVisibleInViewport(findTestObject('ModelPages/Offers/offers module'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementVisibleInViewport(findTestObject('ModelPages/Offers/offers module'), 0, FailureHandling.STOP_ON_FAILURE)
 
-not_run: WebUI.verifyElementVisibleInViewport(findTestObject('ModelPages/Offers/zip entry field'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementVisibleInViewport(findTestObject('ModelPages/Offers/zip entry field'), 0, FailureHandling.STOP_ON_FAILURE)
 
 @com.kms.katalon.core.annotation.TearDownIfPassed
 def passed() {

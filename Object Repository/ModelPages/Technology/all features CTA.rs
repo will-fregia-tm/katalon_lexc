@@ -10,12 +10,12 @@
          <value>//*[@id = 'AllSafety']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//*[contains(@class, 'App')]/div[3]/div/div/div/div[2]</value>
+         <key>CSS</key>
+         <value>#technology a[href*=&quot;Info&quot;]</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>#technology > div:nth-child(2) > div > div > div > div > div:nth-child(2) > div > div > div</value>
+         <key>XPATH</key>
+         <value>//*[contains(@class, 'App')]/div[3]/div/div/div/div[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

@@ -6,13 +6,17 @@
    <elementGuidId>ac0e4567-e222-4c0b-aed8-4f753683584b</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#design h2 + div button</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//*[@id = 'design']/div[2]/div/div/div/button</value>
       </entry>
-      <entry>
-         <key>BASIC</key>
-      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
 </WebElementEntity>
