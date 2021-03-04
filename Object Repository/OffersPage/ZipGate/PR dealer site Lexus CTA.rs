@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//a[contains(@href, 'lexuspr.com') and contains(@target, 'blank') and (contains(text(), 'VISIT PUERTO RICO DEALERS') or contains(., 'VISIT PUERTO RICO DEALERS'))]</value>
+         <value>//a[contains(@href, 'lexuspr.com') and (contains(text(), 'VISIT PUERTO RICO DEALERS') or contains(., 'VISIT PUERTO RICO DEALERS'))]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -27,7 +27,7 @@
       <value>lexuspr.com</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>contains</matchCondition>
       <name>target</name>
       <type>Main</type>

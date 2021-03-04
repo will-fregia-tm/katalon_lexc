@@ -68,6 +68,20 @@ WebUI.verifyElementPresent(findTestObject('OffersPage/ZipGate/puerto rico server
 
 WebUI.verifyElementPresent(findTestObject('OffersPage/ZipGate/PR dealer site Lexus CTA'), 0, FailureHandling.STOP_ON_FAILURE)
 
+'checks whether external link opens in a new tab in this environment'
+if (WebUI.verifyMatch(domain, 'staging', false, FailureHandling.OPTIONAL)) {
+    target = WebUI.getAttribute(findTestObject('OffersPage/ZipGate/PR dealer site Lexus CTA'), 'target', FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.verifyMatch(target, '_blank', false, FailureHandling.STOP_ON_FAILURE)
+}
+
+'checks whether external link opens in a new tab in this environment'
+if (WebUI.verifyMatch(domain, 'prod', false, FailureHandling.OPTIONAL)) {
+    target = WebUI.getAttribute(findTestObject('OffersPage/ZipGate/PR dealer site Lexus CTA'), 'target', FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.verifyMatch(target, '_blank', false, FailureHandling.STOP_ON_FAILURE)
+}
+
 WebUI.click(findTestObject('OffersPage/ZipGate/PR dealer site Lexus CTA'), FailureHandling.OPTIONAL)
 
 WebUI.delay(3)

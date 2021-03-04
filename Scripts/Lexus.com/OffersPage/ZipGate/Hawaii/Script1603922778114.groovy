@@ -66,6 +66,13 @@ WebUI.verifyElementPresent(findTestObject('OffersPage/ZipGate/hawaii server mess
 
 WebUI.verifyElementPresent(findTestObject('OffersPage/ZipGate/Servco Lexus CTA'), 0, FailureHandling.STOP_ON_FAILURE)
 
+'checks whether external link opens in a new tab in this environment'
+if (WebUI.verifyMatch(domain, 'prod', false, FailureHandling.OPTIONAL)) {
+    target = WebUI.getAttribute(findTestObject('OffersPage/ZipGate/Servco Lexus CTA'), 'target', FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.verifyMatch(target, '_blank', false, FailureHandling.STOP_ON_FAILURE)
+}
+
 WebUI.click(findTestObject('OffersPage/ZipGate/Servco Lexus CTA'), FailureHandling.OPTIONAL)
 
 WebUI.delay(3)

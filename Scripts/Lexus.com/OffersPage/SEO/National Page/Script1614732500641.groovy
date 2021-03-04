@@ -57,6 +57,7 @@ textState = WebUI.getText(findTestObject('OffersPage/SEO/breadcrumb - state'), F
 'Render: STATE: {ALL} (indicating that all states have are available'
 WebUI.verifyMatch(textState, 'STATE: ALL', false, FailureHandling.STOP_ON_FAILURE)
 
+'Will display SEO text as a State List'
 textState = WebUI.getText(findTestObject('OffersPage/SEO/state list'), FailureHandling.STOP_ON_FAILURE)
 
 textState = WebUI.getText(findTestObject('OffersPage/SEO/state 01'), FailureHandling.STOP_ON_FAILURE)

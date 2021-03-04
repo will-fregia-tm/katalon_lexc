@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//a[contains(@href, 'servcolexus.com') and contains(@target, 'blank') and (contains(text(), 'VISIT SERVCO LEXUS') or contains(., 'VISIT SERVCO LEXUS'))]</value>
+         <value>//a[contains(@href, 'servcolexus.com') and (contains(text(), 'VISIT SERVCO LEXUS') or contains(., 'VISIT SERVCO LEXUS'))]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -27,7 +27,7 @@
       <value>servcolexus.com</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>contains</matchCondition>
       <name>target</name>
       <type>Main</type>

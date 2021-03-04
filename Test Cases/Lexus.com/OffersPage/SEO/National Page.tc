@@ -11,7 +11,7 @@ Will render SEO page breadcrumbs:
 
 - City tab will be in inactive-state
 
-Will display SEO text as a State List
+- Will display SEO text as a State List
 - Will dynamically render a state list of the available states in alphabetical order.
 Will only show continental-US state with Dealers. (any state outside of the continental US or without dealers will be hidden. PR, HA, ND)
 All states will be clickable and link to the state-page: https://www.lexus.com/offers/us/{state_name}#localized
