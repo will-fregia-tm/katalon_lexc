@@ -35,7 +35,7 @@ if (WebUI.verifyElementNotPresent(findTestObject('ModelPages/offers/offers modul
 
 WebUI.scrollToElement(findTestObject('ModelPages/Offers/offers module'), 0)
 
-WebUI.setText(findTestObject('ModelPages/Offers/zip entry field'), '00000')
+WebUI.setText(findTestObject('ModelPages/Offers/zip entry field'), '00003')
 
 WebUI.click(findTestObject('ModelPages/Offers/search button'), FailureHandling.STOP_ON_FAILURE)
 
