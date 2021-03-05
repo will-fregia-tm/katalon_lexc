@@ -41,73 +41,78 @@ WebUI.navigateToUrl(GlobalVariable.SC_Domain + '/offers/us')
 
 WebUI.waitForElementPresent(findTestObject('OffersPage/SEO/breadcrumb - national'), 5, FailureHandling.OPTIONAL)
 
+WebUI.scrollToElement(findTestObject('OffersPage/SEO/state - Texas'), 0)
+
+WebUI.click(findTestObject('OffersPage/SEO/state - Texas'))
+
+WebUI.waitForElementPresent(findTestObject('OffersPage/SEO/state page title'), 5, FailureHandling.OPTIONAL)
+
+'Will display State page title and body copy'
+WebUI.verifyElementPresent(findTestObject('OffersPage/SEO/state page title'), 5, FailureHandling.STOP_ON_FAILURE)
+
+pageTitle = WebUI.getText(findTestObject('OffersPage/SEO/state page title'))
+
+WebUI.verifyMatch(pageTitle, 'TEXAS LEXUS OFFERS', false, FailureHandling.STOP_ON_FAILURE)
+
+'Will display State page title and body copy'
+WebUI.verifyElementPresent(findTestObject('OffersPage/SEO/state body copy'), 5, FailureHandling.STOP_ON_FAILURE)
+
+bodyCopy = WebUI.getText(findTestObject('OffersPage/SEO/state body copy'))
+
+WebUI.verifyMatch(bodyCopy, 'Narrow down your Lexus offer search by selecting a nearby City.', false, FailureHandling.STOP_ON_FAILURE)
+
 colorNational = WebUI.getCSSValue(findTestObject('OffersPage/SEO/breadcrumb - national'), 'color', FailureHandling.STOP_ON_FAILURE)
 
 colorState = WebUI.getCSSValue(findTestObject('OffersPage/SEO/breadcrumb - state'), 'color', FailureHandling.STOP_ON_FAILURE)
 
 colorCity = WebUI.getCSSValue(findTestObject('OffersPage/SEO/breadcrumb - city'), 'color', FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyMatch(colorState, colorCity, false, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyMatch(colorState, colorNational, false, FailureHandling.STOP_ON_FAILURE)
 
-'National breadcrumb (US) will be in active state but not clickable. State will be in inactive-state. City tab will be in inactive-state'
+'Will render Breadcrumbs: National and State will render in active-state, City will be in inactive-state'
 WebUI.verifyNotMatch(colorNational, colorCity, false, FailureHandling.STOP_ON_FAILURE)
 
 textState = WebUI.getText(findTestObject('OffersPage/SEO/breadcrumb - state'), FailureHandling.STOP_ON_FAILURE)
 
-'Render: STATE: {ALL} (indicating that all states have are available'
-WebUI.verifyMatch(textState, 'STATE: ALL', false, FailureHandling.STOP_ON_FAILURE)
+'State will display as STATE: {state_name}'
+WebUI.verifyMatch(textState, 'STATE: TEXAS', false, FailureHandling.STOP_ON_FAILURE)
 
-'Will display SEO text as a State List'
-stateList = WebUI.getText(findTestObject('OffersPage/SEO/state list'), FailureHandling.STOP_ON_FAILURE)
+textState = WebUI.getText(findTestObject('OffersPage/SEO/breadcrumb - city'), FailureHandling.STOP_ON_FAILURE)
 
-textState = WebUI.getText(findTestObject('OffersPage/SEO/state 01'), FailureHandling.STOP_ON_FAILURE)
+'City will display as CITY: ALL'
+WebUI.verifyMatch(textState, 'CITY: ALL', false, FailureHandling.STOP_ON_FAILURE)
 
-'Will dynamically render a state list of the available states in alphabetical order - which means Alabama should be first.'
-WebUI.verifyMatch(textState, 'ALABAMA', false, FailureHandling.OPTIONAL)
+'Will show all the available cities within the state that was selected or searched for in list format.'
+cityList = WebUI.getText(findTestObject('OffersPage/SEO/city list'), FailureHandling.STOP_ON_FAILURE)
 
-'Will only show continental-US state with Dealers. (any state outside of the continental US or without dealers will be hidden. PR, HA, ND)'
-WebUI.verifyElementNotPresent(findTestObject('OffersPage/SEO/state - Montana'), 0)
+cityLink = WebUI.getAttribute(findTestObject('OffersPage/SEO/city - Ft Worth'), 'href', FailureHandling.STOP_ON_FAILURE)
 
-'Will only show continental-US state with Dealers. (any state outside of the continental US or without dealers will be hidden. PR, HA, ND)'
-WebUI.verifyElementNotPresent(findTestObject('OffersPage/SEO/state - Wyoming'), 0)
+cityLink = ((cityLink - GlobalVariable.SC_Domain) - 'https://aem-author.toyota.com')
 
-'this is to verify whether checking for text is a valid test'
-not_run: WebUI.verifyTextNotPresent('CALIFORNIA', false, FailureHandling.OPTIONAL)
+WebUI.verifyMatch(cityLink, '/offers/us/texas/ft-worth#localized', false, FailureHandling.STOP_ON_FAILURE)
 
-'Will only show continental-US state with Dealers. (any state outside of the continental US or without dealers will be hidden. PR, HA, ND)'
-WebUI.verifyTextNotPresent('HAWAII', false, FailureHandling.STOP_ON_FAILURE)
+cityLink = WebUI.getAttribute(findTestObject('OffersPage/SEO/city - Plano'), 'href', FailureHandling.STOP_ON_FAILURE)
 
-'Will only show continental-US state with Dealers. (any state outside of the continental US or without dealers will be hidden. PR, HA, ND)'
-WebUI.verifyTextNotPresent('PUERTO RICO', false, FailureHandling.STOP_ON_FAILURE)
+cityLink = ((cityLink - GlobalVariable.SC_Domain) - 'https://aem-author.toyota.com')
 
-'Will only show continental-US state with Dealers. (any state outside of the continental US or without dealers will be hidden. PR, HA, ND)'
-WebUI.verifyTextNotPresent('NORTH DAKOTA', false, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyMatch(cityLink, '/offers/us/texas/plano#localized', false, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.scrollToElement(findTestObject('OffersPage/SEO/state - New York'), 0)
-
-stateLink = WebUI.getAttribute(findTestObject('OffersPage/SEO/state - New York'), 'href')
-
-stateLink = ((stateLink - GlobalVariable.SC_Domain) - 'https://aem-author.toyota.com')
-
-'All states will be clickable and link to the state-page: https://www.lexus.com/offers/us/{state_name}#localized'
-WebUI.verifyMatch(stateLink, '/offers/us/new-york#localized', false, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('OffersPage/SEO/state - New York'))
+WebUI.click(findTestObject('OffersPage/SEO/city - Plano'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForPageLoad(0, FailureHandling.OPTIONAL)
 
 WebUI.waitForElementPresent(findTestObject('OffersPage/ZipBar/zip entry field'), 5, FailureHandling.OPTIONAL)
 
-WebUI.delay(2)
+WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementPresent(findTestObject('OffersPage/ZipBar/zip entry field'), 5, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementNotVisibleInViewport(findTestObject('OffersPage/ZipBar/zip entry field'), 5, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('OffersPage/SEO/state page title'), 5, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('OffersPage/SEO/city page title'), 5, FailureHandling.STOP_ON_FAILURE)
 
-'When a user selects a state it will anchor them to the SEO text section of the State Page'
-WebUI.verifyElementVisibleInViewport(findTestObject('OffersPage/SEO/state page title'), 5, FailureHandling.STOP_ON_FAILURE)
+'If the user clicks on a city they will progress to the City page, anchoring them to the same SEO Text section of the page'
+WebUI.verifyElementVisibleInViewport(findTestObject('OffersPage/SEO/city page title'), 5, FailureHandling.STOP_ON_FAILURE)
 
 @com.kms.katalon.core.annotation.TearDownIfPassed
 def passed() {

@@ -77,4 +77,28 @@
          <variableId>0c7a2186-8114-443d-9c94-0f9301421920</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>a7fb3641-5a33-4c17-8933-70e56d38eb99</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/OffersPage/SEO/National Page - mobile</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c9d5ece5-d408-4234-8e16-c4efcdd6e8a8</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7fd497cc-4886-47bf-978d-4d53d010507a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/OffersPage/SEO/State Page - mobile</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>200ecf54-71fc-478f-b684-9f0af3392e4b</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>

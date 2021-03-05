@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>If on state page (then:
+
+- Will display State page title and body copy as defined through the Edgy JSon file
+
+Will render Breadcrumbs:
+- National and State will render in active-state
+- State will display as STATE: {state_name}
+- City will display as CITY: ALL and be in inactive-state
+
+- Will show all the available cities within the state that was selected or searched for in list format.
+
+- If the user clicks on a city they will progress to the City page, anchoring them to the same SEO Text section of the page
+
+- If the user clicks on the National breadcrumb or hits back on the browser, then the system will direct them back to the National page and anchor them to the SEO text section (Breadcrumbs + State list)</description>
+   <name>State Page</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>13022aaf-7bbd-4530-85d2-a6f9a52488db</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>ba9e5d16-569e-4561-be47-d54f25e5b575</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>

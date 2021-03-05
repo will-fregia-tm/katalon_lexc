@@ -23,4 +23,16 @@
          <variableId>528ae118-caed-4990-bc6f-3e9a0da893d0</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>c4d9bb37-d5b4-4030-95dd-51b4fa0b622b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/OffersPage/SEO/State Page</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ba9e5d16-569e-4561-be47-d54f25e5b575</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>

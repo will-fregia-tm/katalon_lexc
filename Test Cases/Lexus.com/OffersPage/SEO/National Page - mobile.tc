@@ -16,14 +16,14 @@ Will render SEO page breadcrumbs:
 - Will only show continental-US state with Dealers. (any state outside of the continental US or without dealers will be hidden. PR, HA, ND)
 - All states will be clickable and link to the state-page: https://www.lexus.com/offers/us/{state_name}#localized
 - When a user selects a state it will anchor them to the SEO text section of the State Page</description>
-   <name>National Page</name>
+   <name>National Page - mobile</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>bd567c70-62a6-4196-bb08-a4407bd9b24c</testCaseGuid>
+   <testCaseGuid>78f42142-3a1e-40fd-a144-2278c8e4020b</testCaseGuid>
    <variable>
       <defaultValue>'Header'</defaultValue>
       <description></description>
-      <id>528ae118-caed-4990-bc6f-3e9a0da893d0</id>
+      <id>c9d5ece5-d408-4234-8e16-c4efcdd6e8a8</id>
       <masked>false</masked>
       <name>GlobalNav</name>
    </variable>
