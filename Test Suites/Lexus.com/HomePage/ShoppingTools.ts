@@ -15,7 +15,7 @@
       <guid>3d9109f2-1a0d-4c4c-ad13-c0e383c3ef41</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/HomePage/ShoppingTools/links for BYL, FAD, Compare and Offers are present</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/HomePage/Legacy/links for BYL, FAD, Compare and Offers are present</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -27,7 +27,7 @@
       <guid>d64345e1-d75a-41c3-9588-8ffd9b554f7d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/HomePage/ShoppingTools/maximum 6 shopping links</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/HomePage/Legacy/maximum 6 shopping links</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>

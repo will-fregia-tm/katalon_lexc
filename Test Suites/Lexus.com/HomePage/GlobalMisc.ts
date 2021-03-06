@@ -15,7 +15,7 @@
       <guid>fd7c41ac-16be-4d16-8282-0d16154a6eda</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/HomePage/GlobalMisc/clickable disclaimer asterisks</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/HomePage/Legacy/clickable disclaimer asterisks</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -27,7 +27,7 @@
       <guid>d4aee30f-eeeb-4cde-a1a4-6b7a6bd1239f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/HomePage/GlobalMisc/nav bar has solid white background</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/HomePage/Legacy/nav bar has solid white background</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -39,7 +39,7 @@
       <guid>0036037d-03f3-4819-b720-69adbf589829</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/HomePage/GlobalMisc/page responsiveness</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/HomePage/Legacy/page responsiveness</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>

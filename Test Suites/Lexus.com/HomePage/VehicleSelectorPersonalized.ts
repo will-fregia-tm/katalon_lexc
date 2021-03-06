@@ -9,12 +9,13 @@
    <pageLoadTimeout>20</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>7b289f3a-1c7a-4af4-b1ac-7eca242108b9</testSuiteGuid>
    <testCaseLink>
       <guid>114bc099-5449-412e-9c18-3790248be9f6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/HomePage/VehicleSelectorPersonalized/personalized vehicle selector matches users segment-model - ES PMOI</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/HomePage/Legacy/personalized vehicle selector matches users segment-model - ES PMOI</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -26,7 +27,7 @@
       <guid>fe71a658-ee6b-40e0-a4e6-bacccf0b345d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Lexus.com/HomePage/VehicleSelectorPersonalized/personalized vehicle selector matches users segment-model - GS PMOI</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/HomePage/Legacy/personalized vehicle selector matches users segment-model - GS PMOI</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -38,7 +39,7 @@
       <guid>d65697b5-2488-4d65-b1fc-2c5aa224d6f4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/HomePage/VehicleSelectorPersonalized/personalized vehicle selector matches users segment-model - GX PMOI</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/HomePage/Legacy/personalized vehicle selector matches users segment-model - GX PMOI</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -50,7 +51,7 @@
       <guid>d48d465b-ffb3-49f2-a425-f4a31b7102fb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Lexus.com/HomePage/VehicleSelectorPersonalized/personalized vehicle selector matches users segment-model - IS PMOI</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/HomePage/Legacy/personalized vehicle selector matches users segment-model - IS PMOI</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -62,7 +63,7 @@
       <guid>0a7ab87e-02dc-47a0-9e22-f8edc9560a50</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/HomePage/VehicleSelectorPersonalized/personalized vehicle selector matches users segment-model - LC PMOI</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/HomePage/Legacy/personalized vehicle selector matches users segment-model - LC PMOI</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -74,7 +75,7 @@
       <guid>18e5791c-54c9-4508-92db-14451789f7b4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Lexus.com/HomePage/VehicleSelectorPersonalized/personalized vehicle selector matches users segment-model - LS PMOI</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/HomePage/Legacy/personalized vehicle selector matches users segment-model - LS PMOI</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -86,7 +87,7 @@
       <guid>24dd1b08-1c89-4d10-8b28-9420b6e28fe4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/HomePage/VehicleSelectorPersonalized/personalized vehicle selector matches users segment-model - LX PMOI</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/HomePage/Legacy/personalized vehicle selector matches users segment-model - LX PMOI</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -98,7 +99,7 @@
       <guid>df7fbd7b-2874-4e80-a593-465e8a826a17</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Lexus.com/HomePage/VehicleSelectorPersonalized/personalized vehicle selector matches users segment-model - NX PMOI</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/HomePage/Legacy/personalized vehicle selector matches users segment-model - NX PMOI</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -110,7 +111,7 @@
       <guid>2d378cdf-2ac7-488c-8021-e08e35266821</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/HomePage/VehicleSelectorPersonalized/personalized vehicle selector matches users segment-model - RC PMOI</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/HomePage/Legacy/personalized vehicle selector matches users segment-model - RC PMOI</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -122,7 +123,7 @@
       <guid>f0b509f3-2089-4c4d-9bd2-b2ffc49e3342</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Lexus.com/HomePage/VehicleSelectorPersonalized/personalized vehicle selector matches users segment-model - RX PMOI</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/HomePage/Legacy/personalized vehicle selector matches users segment-model - RX PMOI</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -134,7 +135,7 @@
       <guid>fac21ebe-a5dd-4b61-9bad-c657a3cc177a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/HomePage/VehicleSelectorPersonalized/personalized vehicle selector matches users segment-model - UX PMOI</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/HomePage/Legacy/personalized vehicle selector matches users segment-model - UX PMOI</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>

@@ -15,7 +15,7 @@
       <guid>770234f1-5746-43ac-aecb-27e034e7d063</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/HomePage/ContentModule/2 variations of CTA buttons in content module</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/HomePage/Legacy/2 variations of CTA buttons in content module</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -27,7 +27,7 @@
       <guid>20494adc-c069-4655-9cc5-6b545f6ae8e8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/HomePage/ContentModule/3 content blocks in content module</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/HomePage/Legacy/3 content blocks in content module</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -39,7 +39,7 @@
       <guid>b7ac63ae-9dd5-43d3-b893-19e39e27980f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/HomePage/ContentModule/clickable-tappable CTAs in each content block</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/HomePage/Legacy/clickable-tappable CTAs in each content block</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>

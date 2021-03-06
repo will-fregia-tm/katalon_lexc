@@ -9,12 +9,13 @@
    <pageLoadTimeout>20</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>912ea52b-823d-4d71-b84f-a667bb3727be</testSuiteGuid>
    <testCaseLink>
       <guid>55d7c7e2-7b82-4409-acc9-9c534f1cc849</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/HomePage/GridModule/1 CTA maximum per grid block</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/HomePage/Legacy/1 CTA maximum per grid block</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -26,7 +27,7 @@
       <guid>25e0e518-6ab1-4fb0-a020-a58b2a92dacd</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/HomePage/GridModule/grid images, CTAs are clickable-tappable</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/HomePage/Legacy/grid images, CTAs are clickable-tappable</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -38,7 +39,7 @@
       <guid>74d7e52d-093b-476f-9a56-cfa835e95831</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/HomePage/GridModule/maximum 4 grid blocks</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/HomePage/Legacy/maximum 4 grid blocks</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -50,7 +51,7 @@
       <guid>1e62d374-8805-4d7b-bc3e-addbb71b8245</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/HomePage/GridModule/minimum 2 grid blocks</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/HomePage/Legacy/minimum 2 grid blocks</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
