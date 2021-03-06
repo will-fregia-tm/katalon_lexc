@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>city list</name>
+   <name>dealer list</name>
    <tag></tag>
-   <elementGuidId>ea28693e-2408-4f57-a180-ae0601ea46a2</elementGuidId>
+   <elementGuidId>ecc80bd4-a442-430f-867c-c65d7b7366a8</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[contains(@href, 'offers/us/')]/parent::div/parent::div/parent::div</value>
+         <value>//a[contains(@href, 'offers?')]/parent::div/parent::div/parent::div/parent::div/parent::div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

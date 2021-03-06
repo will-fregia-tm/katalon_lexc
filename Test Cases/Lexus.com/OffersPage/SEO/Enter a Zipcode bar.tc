@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>if a user enters a zipcode into the zip entry bar, then the system will operate off of the Offer-Zip-Entry logic</description>
+   <name>Enter a Zipcode bar</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0e6fe14f-4ad7-414e-8ff0-359cedc4500c</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>8f79d480-c013-4a11-b298-0ee0bf59156f</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>

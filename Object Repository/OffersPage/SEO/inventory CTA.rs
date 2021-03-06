@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>city list</name>
+   <name>inventory CTA</name>
    <tag></tag>
-   <elementGuidId>ea28693e-2408-4f57-a180-ae0601ea46a2</elementGuidId>
+   <elementGuidId>e4818c4d-7339-4f77-9e4d-1d37ee837e96</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value>//a[(contains(text(), 'INVENTORY') or contains(., 'INVENTORY'))]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[contains(@href, 'offers/us/')]/parent::div/parent::div/parent::div</value>
+         <value>//*[@id = 'localized']//a[(contains(text(), 'INVENTORY') or contains(., 'INVENTORY'))]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -18,22 +19,22 @@
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>localized</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>contains</matchCondition>
-      <name>family</name>
-      <type>Main</type>
-      <value>nobel</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>not contain</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>STATE</value>
+      <value>INVENTORY</value>
    </webElementProperties>
 </WebElementEntity>

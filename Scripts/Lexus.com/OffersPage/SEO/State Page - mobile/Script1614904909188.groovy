@@ -43,6 +43,8 @@ WebUI.waitForElementPresent(findTestObject('OffersPage/SEO/breadcrumb - national
 
 WebUI.scrollToElement(findTestObject('OffersPage/SEO/state - Texas'), 0)
 
+WebUI.delay(1)
+
 WebUI.click(findTestObject('OffersPage/SEO/state - Texas'))
 
 WebUI.waitForElementPresent(findTestObject('OffersPage/SEO/state page title'), 5, FailureHandling.OPTIONAL)
@@ -91,11 +93,15 @@ cityLink = ((cityLink - GlobalVariable.SC_Domain) - 'https://aem-author.toyota.c
 
 WebUI.verifyMatch(cityLink, '/offers/us/texas/ft-worth#localized', false, FailureHandling.STOP_ON_FAILURE)
 
+WebUI.scrollToElement(findTestObject('OffersPage/SEO/city - Plano'), 0)
+
 cityLink = WebUI.getAttribute(findTestObject('OffersPage/SEO/city - Plano'), 'href', FailureHandling.STOP_ON_FAILURE)
 
 cityLink = ((cityLink - GlobalVariable.SC_Domain) - 'https://aem-author.toyota.com')
 
 WebUI.verifyMatch(cityLink, '/offers/us/texas/plano#localized', false, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(1)
 
 WebUI.click(findTestObject('OffersPage/SEO/city - Plano'), FailureHandling.STOP_ON_FAILURE)
 

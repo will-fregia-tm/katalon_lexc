@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>If on City Page:
+
+- Will display City page title and body copy
+- Will render Breadcrumbs:
+- National, State and City will render in active-state
+- State will display as STATE: \{state_name}
+- City will display as CITY: {city_name}
+
+
+- Will show all the available dealers for the LDA market of the city/metro that was selected.
+- Dealers will render in a dealer card format leveraged from Offer-Details page
+
+
+Dealer Cards will show:
+- Dealer Name - Will be clickable to drive users to dealer site homepage
+- Dealer Address - Dealer Address should be clickable on mobile
+- CTA 1 - View Offers:
+Will drive users to the Market Offers page based on the market that the dealer belongs to (using the dealer zip code)
+will cookie dealers zipcode
+- CTA 2 - Inventory - Will drive users to the Dealer Site Inventory page</description>
+   <name>City Page</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d9b4be3a-e709-4f74-aff7-a9640531a69d</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>bd3c764f-6bef-481e-bceb-d18442c607ec</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>

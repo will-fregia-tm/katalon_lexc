@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>CTA 2 - Inventory - Will drive users to the Dealer Site Inventory page. Should use correct search parameters for this dealer provider.</description>
+   <name>Inventory - DealerOn</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9aeab3b8-0266-467e-bc22-45578e90f47f</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>ec7f8868-3c2f-443f-88b3-b814b9c98f8c</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>
