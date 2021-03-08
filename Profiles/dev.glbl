@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GlobalVariableEntities>
    <description></description>
-   <name>default</name>
+   <name>dev</name>
    <tag></tag>
-   <defaultProfile>true</defaultProfile>
+   <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'lexus.com'</initValue>
@@ -31,7 +31,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Prod,ModelPages'</initValue>
+      <initValue>'Dev,ModelPages'</initValue>
       <name>profileTags</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -66,22 +66,22 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'prod'</initValue>
+      <initValue>'dev'</initValue>
       <name>domain</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'lexus.com'</initValue>
+      <initValue>'http://dev-aem-lcom.origin.cepo-proxy.tms.aws.lexus.com'</initValue>
       <name>AEM_Domain</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>2</initValue>
+      <initValue>4</initValue>
       <name>dataColumn</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'no'</initValue>
+      <initValue>'yes'</initValue>
       <name>lowerEnvironment</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
