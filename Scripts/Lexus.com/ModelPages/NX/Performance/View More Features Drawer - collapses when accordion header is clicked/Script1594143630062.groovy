@@ -19,27 +19,27 @@ WebUI.navigateToUrl(GlobalVariable.TS_Domain + GlobalVariable.Overview_NX)
 
 WebUI.waitForPageLoad(0)
 
-WebUI.scrollToElement(findTestObject('ModelPages/Performance/performance module'), 0)
+WebUI.scrollToElement(findTestObject('null'), 0)
 
-WebUI.verifyElementNotPresent(findTestObject('ModelPages/Performance/expanded feature'), 0)
+WebUI.verifyElementNotPresent(findTestObject('null'), 0)
 
-WebUI.click(findTestObject('ModelPages/Performance/more features CTA'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('null'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementVisibleInViewport(findTestObject('ModelPages/Performance/more features CTA'), 0)
+WebUI.verifyElementVisibleInViewport(findTestObject('null'), 0)
 
-WebUI.verifyElementVisibleInViewport(findTestObject('ModelPages/Performance/expand-collapse caret'), 0)
+WebUI.verifyElementVisibleInViewport(findTestObject('null'), 0)
 
-WebUI.verifyElementVisibleInViewport(findTestObject('ModelPages/Performance/expanded feature'), 0)
+WebUI.verifyElementVisibleInViewport(findTestObject('null'), 0)
 
 not_run: WebUI.scrollToElement(findTestObject('ModelPages/Performance/design module'), 0)
 
-WebUI.click(findTestObject('ModelPages/Performance/more features CTA'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('null'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementVisibleInViewport(findTestObject('ModelPages/Performance/more features CTA'), 0)
+WebUI.verifyElementVisibleInViewport(findTestObject('null'), 0)
 
-WebUI.verifyElementVisibleInViewport(findTestObject('ModelPages/Performance/expand-collapse caret'), 0)
+WebUI.verifyElementVisibleInViewport(findTestObject('null'), 0)
 
-WebUI.verifyElementNotPresent(findTestObject('ModelPages/Performance/expanded feature'), 0)
+WebUI.verifyElementNotPresent(findTestObject('null'), 0)
 
 @com.kms.katalon.core.annotation.TearDownIfPassed
 def passed() {

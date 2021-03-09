@@ -34,7 +34,7 @@ if (WebUI.verifyGreaterThan(pageWidth, '1204', FailureHandling.OPTIONAL)) {
 
     WebUI.verifyElementPresent(findTestObject('ModelPages/Styles/horizontal bar - desktop'), 0, FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.scrollToElement(findTestObject('ModelPages/Visualizer/visualizer'), 0)
+    WebUI.scrollToElement(findTestObject('null'), 0)
 
     WebUI.scrollToElement(findTestObject('ModelPages/Styles/styles module'), 0)
 

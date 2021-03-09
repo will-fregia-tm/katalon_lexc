@@ -29,7 +29,7 @@ WebUI.click(findTestObject('ModelPages/Offers/search button'), FailureHandling.S
 
 WebUI.waitForElementPresent(findTestObject('ModelPages/Offers/change CTA'), 0)
 
-WebUI.scrollToElement(findTestObject('ModelPages/Technology/technology module'), 0)
+WebUI.scrollToElement(findTestObject('null'), 0)
 
 WebUI.scrollToElement(findTestObject('ModelPages/Offers/offers module'), 0)
 

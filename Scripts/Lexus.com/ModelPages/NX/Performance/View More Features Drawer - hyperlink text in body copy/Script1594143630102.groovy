@@ -19,34 +19,34 @@ WebUI.navigateToUrl(GlobalVariable.TS_Domain + GlobalVariable.Overview_NX)
 
 WebUI.waitForPageLoad(0)
 
-WebUI.scrollToElement(findTestObject('ModelPages/Performance/performance module'), 0)
+WebUI.scrollToElement(findTestObject('null'), 0)
 
-WebUI.waitForElementVisible(findTestObject('ModelPages/Performance/more features CTA'), 0)
+WebUI.waitForElementVisible(findTestObject('null'), 0)
 
-WebUI.click(findTestObject('ModelPages/Performance/more features CTA'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('null'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.scrollToElement(findTestObject('ModelPages/Performance/more features CTA'), 0)
+WebUI.scrollToElement(findTestObject('null'), 0)
 
 WebUI.waitForPageLoad(0, FailureHandling.STOP_ON_FAILURE)
 
 pageWidth = WebUI.getPageWidth()
 
 if (WebUI.verifyGreaterThan(pageWidth, '960', FailureHandling.OPTIONAL)) {
-    WebUI.verifyElementVisibleInViewport(findTestObject('ModelPages/Performance/hyperlink text - desktop'), 0)
+    WebUI.verifyElementVisibleInViewport(findTestObject('null'), 0)
 
-    WebUI.verifyElementClickable(findTestObject('ModelPages/Performance/hyperlink text - desktop'), FailureHandling.STOP_ON_FAILURE)
+    WebUI.verifyElementClickable(findTestObject('null'), FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.click(findTestObject('ModelPages/Performance/hyperlink text - desktop'), FailureHandling.STOP_ON_FAILURE)
+    WebUI.click(findTestObject('null'), FailureHandling.STOP_ON_FAILURE)
 
     WebUI.waitForPageLoad(0, FailureHandling.OPTIONAL)
 }
 
 if (WebUI.verifyLessThan(pageWidth, '960', FailureHandling.OPTIONAL)) {
-    WebUI.verifyElementVisibleInViewport(findTestObject('ModelPages/Performance/hyperlink text - mobile'), 0)
+    WebUI.verifyElementVisibleInViewport(findTestObject('null'), 0)
 
-    WebUI.verifyElementClickable(findTestObject('ModelPages/Performance/hyperlink text - mobile'), FailureHandling.STOP_ON_FAILURE)
+    WebUI.verifyElementClickable(findTestObject('null'), FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.click(findTestObject('ModelPages/Performance/hyperlink text - mobile'), FailureHandling.STOP_ON_FAILURE)
+    WebUI.click(findTestObject('null'), FailureHandling.STOP_ON_FAILURE)
 
     WebUI.waitForPageLoad(0, FailureHandling.OPTIONAL)
 }

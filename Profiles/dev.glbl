@@ -6,68 +6,28 @@
    <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'lexus.com'</initValue>
+      <initValue>'https://lexus_user:G0rill@23@staging.lexus.com'</initValue>
       <name>TS_Domain</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'lexus.com'</initValue>
+      <initValue>'https://lexus_user:G0rill@23@www.review.lexus.com'</initValue>
       <name>SC_Domain</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'lexus.com'</initValue>
+      <initValue>'https://staging.lexus.com'</initValue>
       <name>TS_Domain_Unauthenticated</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'lexus.com'</initValue>
+      <initValue>'https://www.review.lexus.com'</initValue>
       <name>SC_Domain_Unauthenticated</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'/header'</initValue>
-      <name>Header</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'Dev,ModelPages'</initValue>
+      <initValue>'Dev,ModelPages,AEM'</initValue>
       <name>profileTags</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>''</initValue>
-      <name>currentTestCaseID</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'/models/NX'</initValue>
-      <name>Overview_NX</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'/models/NX-hybrid'</initValue>
-      <name>Overview_NXh</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'prod'</initValue>
-      <name>DS_version</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'/offers'</initValue>
-      <name>Offers</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'https://login.microsoftonline.com'</initValue>
-      <name>SSO_login</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'dev'</initValue>
-      <name>domain</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>

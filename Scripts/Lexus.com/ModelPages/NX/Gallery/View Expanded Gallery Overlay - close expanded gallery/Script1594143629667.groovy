@@ -34,7 +34,7 @@ WebUI.click(findTestObject('ModelPages/Gallery/expand image button'), FailureHan
 
 WebUI.verifyElementPresent(findTestObject('ModelPages/Gallery/expanded gallery overlay'), 0)
 
-not_run: if (WebUI.verifyElementPresent(findTestObject('ModelPages/development build button'), 0, FailureHandling.OPTIONAL)) {
+not_run: if (WebUI.verifyElementPresent(findTestObject('null'), 0, FailureHandling.OPTIONAL)) {
     not_run: WebUI.click(findTestObject('ModelPages/Gallery/exit button'))
 }
 

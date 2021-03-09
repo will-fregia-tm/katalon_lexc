@@ -19,7 +19,7 @@ WebUI.navigateToUrl(GlobalVariable.TS_Domain + GlobalVariable.Overview_NX)
 
 WebUI.waitForPageLoad(0)
 
-WebUI.waitForElementPresent(findTestObject('ModelPages/Hero/hero'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.waitForElementPresent(findTestObject('ModelPages/Hero/hero module'), 0, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementVisible(findTestObject('ModelPages/Hero/starting at MSRP'), FailureHandling.STOP_ON_FAILURE)
 

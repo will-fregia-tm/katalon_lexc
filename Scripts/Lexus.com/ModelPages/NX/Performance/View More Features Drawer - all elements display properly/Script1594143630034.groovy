@@ -21,50 +21,50 @@ WebUI.waitForPageLoad(0)
 
 WebUI.scrollToElement(findTestObject('ModelPages/Gallery/gallery module'), 0, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.scrollToElement(findTestObject('ModelPages/Performance/performance module'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.scrollToElement(findTestObject('null'), 0, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('ModelPages/Performance/more features CTA'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.waitForElementVisible(findTestObject('null'), 0, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('ModelPages/Performance/more features CTA'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('null'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.scrollToElement(findTestObject('ModelPages/Performance/more features CTA'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.scrollToElement(findTestObject('null'), 0, FailureHandling.STOP_ON_FAILURE)
 
 pageWidth = WebUI.getPageWidth()
 
 if (WebUI.verifyGreaterThan(pageWidth, '960', FailureHandling.OPTIONAL)) {
-    WebUI.verifyElementVisible(findTestObject('ModelPages/Performance/image - desktop'), FailureHandling.STOP_ON_FAILURE)
+    WebUI.verifyElementVisible(findTestObject('null'), FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.verifyElementVisible(findTestObject('ModelPages/Performance/headline - desktop'))
+    WebUI.verifyElementVisible(findTestObject('null'))
 
-    WebUI.verifyElementVisible(findTestObject('ModelPages/Performance/body copy - desktop'), FailureHandling.STOP_ON_FAILURE)
+    WebUI.verifyElementVisible(findTestObject('null'), FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.verifyElementVisible(findTestObject('ModelPages/Performance/all features CTA'), FailureHandling.STOP_ON_FAILURE)
+    WebUI.verifyElementVisible(findTestObject('null'), FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.verifyElementClickable(findTestObject('ModelPages/Performance/all features CTA'), FailureHandling.STOP_ON_FAILURE)
+    WebUI.verifyElementClickable(findTestObject('null'), FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.verifyElementVisible(findTestObject('ModelPages/Performance/more features CTA'))
+    WebUI.verifyElementVisible(findTestObject('null'))
 
-    WebUI.verifyElementClickable(findTestObject('ModelPages/Performance/more features CTA'), FailureHandling.CONTINUE_ON_FAILURE)
+    WebUI.verifyElementClickable(findTestObject('null'), FailureHandling.CONTINUE_ON_FAILURE)
 
-    WebUI.verifyElementVisible(findTestObject('ModelPages/Performance/expand-collapse caret'))
+    WebUI.verifyElementVisible(findTestObject('null'))
 }
 
 if (WebUI.verifyLessThan(pageWidth, '960', FailureHandling.OPTIONAL)) {
-    WebUI.verifyElementVisible(findTestObject('ModelPages/Performance/image - mobile'), FailureHandling.STOP_ON_FAILURE)
+    WebUI.verifyElementVisible(findTestObject('null'), FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.verifyElementVisible(findTestObject('ModelPages/Performance/headline - mobile'))
+    WebUI.verifyElementVisible(findTestObject('null'))
 
-    WebUI.verifyElementVisible(findTestObject('ModelPages/Performance/body copy - mobile'))
+    WebUI.verifyElementVisible(findTestObject('null'))
 
-    WebUI.verifyElementVisible(findTestObject('ModelPages/Performance/all features CTA'), FailureHandling.STOP_ON_FAILURE)
+    WebUI.verifyElementVisible(findTestObject('null'), FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.verifyElementClickable(findTestObject('ModelPages/Performance/all features CTA'), FailureHandling.STOP_ON_FAILURE)
+    WebUI.verifyElementClickable(findTestObject('null'), FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.verifyElementVisible(findTestObject('ModelPages/Performance/more features CTA'))
+    WebUI.verifyElementVisible(findTestObject('null'))
 
-    WebUI.verifyElementClickable(findTestObject('ModelPages/Performance/more features CTA'), FailureHandling.STOP_ON_FAILURE)
+    WebUI.verifyElementClickable(findTestObject('null'), FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.verifyElementVisible(findTestObject('ModelPages/Performance/expand-collapse caret'))
+    WebUI.verifyElementVisible(findTestObject('null'))
 }
 
 @com.kms.katalon.core.annotation.TearDownIfPassed

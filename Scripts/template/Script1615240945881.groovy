@@ -24,23 +24,23 @@ WebUI.openBrowser(GlobalVariable.SSO_login, FailureHandling.OPTIONAL)
 
 'these steps are added to handle lower environment authentication'
 if (WebUI.verifyMatch(GlobalVariable.lowerEnvironment, 'yes', false, FailureHandling.OPTIONAL)) {
-	cookieValue = findTestData('cookieValues').getValue(2, 1)
+    cookieValue = findTestData('cookieValues').getValue(2, 1)
 
-	Cookie ck = new Cookie('ESTSAUTH', cookieValue)
+    Cookie ck = new Cookie('ESTSAUTH', cookieValue)
 
-	WebDriver driver = DriverFactory.getWebDriver()
+    WebDriver driver = DriverFactory.getWebDriver()
 
-	driver.manage().addCookie(ck)
+    driver.manage().addCookie(ck)
 
-	WebUI.navigateToUrl(GlobalVariable.TS_Domain + GlobalVariable.legacyURL)
+    WebUI.navigateToUrl(GlobalVariable.TS_Domain + GlobalVariable.legacyURL)
 }
 
-WebUI.navigateToUrl(GlobalVariable.AEM_Domain + '/concept/LFSA')
+WebUI.navigateToUrl(GlobalVariable.AEM_Domain + '/models/NX')
 
 'this step is added to handle a slow or partial page load'
-if (WebUI.verifyElementNotPresent(findTestObject('FCV/hero module'), 3, FailureHandling.OPTIONAL)) {
-	WebUI.refresh()
+if (WebUI.verifyElementNotPresent(findTestObject('ModelPages/Hero/hero module'), 3, FailureHandling.OPTIONAL)) {
+    WebUI.refresh()
 }
 
-WebUI.waitForElementPresent(findTestObject('FCV/hero module'), 3, FailureHandling.STOP_ON_FAILURE)
+WebUI.waitForElementPresent(findTestObject('ModelPages/Hero/hero module'), 3, FailureHandling.STOP_ON_FAILURE)
 

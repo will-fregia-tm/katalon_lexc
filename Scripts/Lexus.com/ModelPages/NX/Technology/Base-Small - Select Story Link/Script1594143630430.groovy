@@ -19,37 +19,37 @@ WebUI.navigateToUrl(GlobalVariable.TS_Domain + GlobalVariable.Overview_NX)
 
 WebUI.waitForPageLoad(0)
 
-WebUI.scrollToElement(findTestObject('ModelPages/Technology/technology module'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.scrollToElement(findTestObject('null'), 0, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementPresent(findTestObject('ModelPages/Technology/first story link - selected'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.waitForElementPresent(findTestObject('null'), 0, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('ModelPages/Technology/first story link - selected'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('null'), 0, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('ModelPages/Technology/second story link - unselected'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('null'), 0, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementNotPresent(findTestObject('ModelPages/Technology/second story link - selected'), 0)
+WebUI.verifyElementNotPresent(findTestObject('null'), 0)
 
-WebUI.verifyElementPresent(findTestObject('ModelPages/Technology/second story link'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('null'), 0, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('ModelPages/Technology/second story link'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('null'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementPresent(findTestObject('ModelPages/Technology/first story link - unselected'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.waitForElementPresent(findTestObject('null'), 0, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('ModelPages/Technology/second story link'), 0)
+WebUI.verifyElementPresent(findTestObject('null'), 0)
 
-WebUI.verifyElementPresent(findTestObject('ModelPages/Technology/first story link - unselected'), 0)
+WebUI.verifyElementPresent(findTestObject('null'), 0)
 
-WebUI.verifyElementVisible(findTestObject('ModelPages/Technology/second story link - selected'))
+WebUI.verifyElementVisible(findTestObject('null'))
 
-WebUI.verifyElementVisibleInViewport(findTestObject('ModelPages/Technology/second story headline'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementVisibleInViewport(findTestObject('null'), 0, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementVisibleInViewport(findTestObject('ModelPages/Technology/second story body copy'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementVisibleInViewport(findTestObject('null'), 0, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('ModelPages/Technology/story image'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('null'), 0, FailureHandling.STOP_ON_FAILURE)
 
 'if there is no image visible, then video should be present'
-if (WebUI.verifyElementNotVisible(findTestObject('ModelPages/Technology/story image'), FailureHandling.OPTIONAL)) {
-    WebUI.verifyElementPresent(findTestObject('ModelPages/Technology/story video'), 0)
+if (WebUI.verifyElementNotVisible(findTestObject('null'), FailureHandling.OPTIONAL)) {
+    WebUI.verifyElementPresent(findTestObject('null'), 0)
 }
 
 @com.kms.katalon.core.annotation.TearDownIfPassed

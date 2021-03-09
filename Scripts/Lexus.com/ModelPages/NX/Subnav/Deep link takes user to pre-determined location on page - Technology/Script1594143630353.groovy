@@ -19,7 +19,7 @@ WebUI.navigateToUrl((GlobalVariable.TS_Domain + GlobalVariable.Overview_NX) + '/
 
 WebUI.waitForPageLoad(0)
 
-WebUI.verifyElementVisibleInViewport(findTestObject('ModelPages/Technology/technology module'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementVisibleInViewport(findTestObject('null'), 0, FailureHandling.STOP_ON_FAILURE)
 
 @com.kms.katalon.core.annotation.TearDownIfPassed
 def passed() {

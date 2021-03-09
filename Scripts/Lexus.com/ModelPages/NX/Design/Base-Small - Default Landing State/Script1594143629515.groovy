@@ -19,26 +19,26 @@ WebUI.navigateToUrl(GlobalVariable.TS_Domain + GlobalVariable.Overview_NX)
 
 WebUI.waitForPageLoad(0)
 
-WebUI.scrollToElement(findTestObject('ModelPages/Design/design module'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.scrollToElement(findTestObject('null'), 0, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('ModelPages/Design/more features CTA'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.waitForElementVisible(findTestObject('null'), 0, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('ModelPages/Design/first story link - selected'), 0)
+WebUI.verifyElementPresent(findTestObject('null'), 0)
 
-WebUI.verifyElementNotPresent(findTestObject('ModelPages/Design/second story link - selected'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementNotPresent(findTestObject('null'), 0, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('ModelPages/Design/first story headline'))
+WebUI.verifyElementVisible(findTestObject('null'))
 
-WebUI.verifyElementVisible(findTestObject('ModelPages/Design/first story body copy'))
+WebUI.verifyElementVisible(findTestObject('null'))
 
-WebUI.verifyElementPresent(findTestObject('ModelPages/Design/story image'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('null'), 0, FailureHandling.STOP_ON_FAILURE)
 
 'if there is no image visible, then video should be present'
-if (WebUI.verifyElementNotVisible(findTestObject('ModelPages/Design/story image'), FailureHandling.OPTIONAL)) {
-    WebUI.verifyElementPresent(findTestObject('ModelPages/Design/story video'), 0)
+if (WebUI.verifyElementNotVisible(findTestObject('null'), FailureHandling.OPTIONAL)) {
+    WebUI.verifyElementPresent(findTestObject('null'), 0)
 }
 
-WebUI.verifyElementVisible(findTestObject('ModelPages/Design/more features CTA'), FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('null'), FailureHandling.STOP_ON_FAILURE)
 
 @com.kms.katalon.core.annotation.TearDownIfPassed
 def passed() {

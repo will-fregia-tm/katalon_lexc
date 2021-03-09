@@ -19,37 +19,37 @@ WebUI.navigateToUrl(GlobalVariable.TS_Domain + GlobalVariable.Overview_NX)
 
 WebUI.waitForPageLoad(0)
 
-WebUI.scrollToElement(findTestObject('ModelPages/Visualizer/visualizer'), 0)
+WebUI.scrollToElement(findTestObject('null'), 0)
 
-WebUI.waitForElementVisible(findTestObject('ModelPages/Visualizer/interior swatches'), 0)
+WebUI.waitForElementVisible(findTestObject('null'), 0)
 
-WebUI.click(findTestObject('ModelPages/Visualizer/interior swatches'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('null'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('ModelPages/Visualizer/interior swatch 2'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('null'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementPresent(findTestObject('ModelPages/Visualizer/interior angle 1'), 5, FailureHandling.OPTIONAL)
+WebUI.waitForElementPresent(findTestObject('null'), 5, FailureHandling.OPTIONAL)
 
-WebUI.verifyElementPresent(findTestObject('ModelPages/Visualizer/angle 1'), 5)
+WebUI.verifyElementPresent(findTestObject('null'), 5)
 
-WebUI.verifyElementPresent(findTestObject('ModelPages/Visualizer/interior swatch 2 - highlighted'), 0)
+WebUI.verifyElementPresent(findTestObject('null'), 0)
 
-WebUI.verifyElementNotPresent(findTestObject('ModelPages/Visualizer/angle 2'), 0)
+WebUI.verifyElementNotPresent(findTestObject('null'), 0)
 
 pageWidth = WebUI.getPageWidth()
 
 if (WebUI.verifyGreaterThan(pageWidth, '960', FailureHandling.OPTIONAL)) {
-    WebUI.click(findTestObject('ModelPages/Visualizer/carousel arrow'), FailureHandling.STOP_ON_FAILURE)
+    WebUI.click(findTestObject('null'), FailureHandling.STOP_ON_FAILURE)
 }
 
 if (WebUI.verifyLessThan(pageWidth, '960', FailureHandling.OPTIONAL)) {
-    WebUI.click(findTestObject('ModelPages/Visualizer/carousel button 2'), FailureHandling.STOP_ON_FAILURE)
+    WebUI.click(findTestObject('null'), FailureHandling.STOP_ON_FAILURE)
 }
 
-WebUI.waitForElementPresent(findTestObject('ModelPages/Visualizer/interior angle 2'), 5, FailureHandling.OPTIONAL)
+WebUI.waitForElementPresent(findTestObject('null'), 5, FailureHandling.OPTIONAL)
 
-WebUI.verifyElementPresent(findTestObject('ModelPages/Visualizer/angle 2'), 0)
+WebUI.verifyElementPresent(findTestObject('null'), 0)
 
-WebUI.verifyElementPresent(findTestObject('ModelPages/Visualizer/interior swatch 2 - highlighted'), 0)
+WebUI.verifyElementPresent(findTestObject('null'), 0)
 
 @com.kms.katalon.core.annotation.TearDownIfPassed
 def passed() {

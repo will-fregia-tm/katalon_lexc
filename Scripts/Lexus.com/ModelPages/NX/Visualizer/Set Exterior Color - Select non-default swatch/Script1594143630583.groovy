@@ -19,115 +19,115 @@ WebUI.navigateToUrl(GlobalVariable.TS_Domain + GlobalVariable.Overview_NX)
 
 WebUI.waitForPageLoad(0)
 
-WebUI.scrollToElement(findTestObject('ModelPages/Visualizer/visualizer'), 0)
+WebUI.scrollToElement(findTestObject('null'), 0)
 
 pageWidth = WebUI.getPageWidth()
 
 if (WebUI.verifyGreaterThan(pageWidth, '960', FailureHandling.OPTIONAL)) {
-    WebUI.waitForElementVisible(findTestObject('ModelPages/Visualizer/image - first color - desktop'), 0)
+    WebUI.waitForElementVisible(findTestObject('null'), 0)
 }
 
 if (WebUI.verifyLessThan(pageWidth, '960', FailureHandling.OPTIONAL)) {
-    WebUI.waitForElementVisible(findTestObject('ModelPages/Visualizer/image - first color - mobile'), 0)
+    WebUI.waitForElementVisible(findTestObject('null'), 0)
 }
 
-WebUI.verifyElementVisible(findTestObject('ModelPages/Visualizer/swatch 1 - highlighted'))
+WebUI.verifyElementVisible(findTestObject('null'))
 
-WebUI.verifyElementVisible(findTestObject('ModelPages/Visualizer/color name - first color'))
+WebUI.verifyElementVisible(findTestObject('null'))
 
 if (WebUI.verifyGreaterThan(pageWidth, '960', FailureHandling.OPTIONAL)) {
-    WebUI.verifyElementVisible(findTestObject('ModelPages/Visualizer/image - first color - desktop'))
+    WebUI.verifyElementVisible(findTestObject('null'))
 }
 
 if (WebUI.verifyLessThan(pageWidth, '960', FailureHandling.OPTIONAL)) {
-    WebUI.verifyElementVisible(findTestObject('ModelPages/Visualizer/image - first color - mobile'))
+    WebUI.verifyElementVisible(findTestObject('null'))
 }
 
-WebUI.verifyElementNotPresent(findTestObject('ModelPages/Visualizer/swatch 2 - highlighted'), 0)
+WebUI.verifyElementNotPresent(findTestObject('null'), 0)
 
-WebUI.verifyElementNotPresent(findTestObject('ModelPages/Visualizer/color name - second color'), 0)
+WebUI.verifyElementNotPresent(findTestObject('null'), 0)
 
 if (WebUI.verifyGreaterThan(pageWidth, '960', FailureHandling.OPTIONAL)) {
-    WebUI.verifyElementNotPresent(findTestObject('ModelPages/Visualizer/image - second color - desktop'), 0)
+    WebUI.verifyElementNotPresent(findTestObject('null'), 0)
 }
 
 if (WebUI.verifyLessThan(pageWidth, '960', FailureHandling.OPTIONAL)) {
-    WebUI.verifyElementNotPresent(findTestObject('ModelPages/Visualizer/image - second color - mobile'), 0)
+    WebUI.verifyElementNotPresent(findTestObject('null'), 0)
 }
 
-WebUI.click(findTestObject('ModelPages/Visualizer/swatch 2'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('null'), FailureHandling.STOP_ON_FAILURE)
 
 if (WebUI.verifyGreaterThan(pageWidth, '960', FailureHandling.OPTIONAL)) {
-    WebUI.waitForElementVisible(findTestObject('ModelPages/Visualizer/image - second color - desktop'), 0)
+    WebUI.waitForElementVisible(findTestObject('null'), 0)
 
-    WebUI.verifyElementVisible(findTestObject('ModelPages/Visualizer/image - second color - desktop'))
+    WebUI.verifyElementVisible(findTestObject('null'))
 
-    WebUI.verifyElementNotPresent(findTestObject('ModelPages/Visualizer/image - first color - desktop'), 0)
+    WebUI.verifyElementNotPresent(findTestObject('null'), 0)
 }
 
 if (WebUI.verifyLessThan(pageWidth, '960', FailureHandling.OPTIONAL)) {
-    WebUI.waitForElementVisible(findTestObject('ModelPages/Visualizer/image - second color - mobile'), 0)
+    WebUI.waitForElementVisible(findTestObject('null'), 0)
 
-    WebUI.verifyElementVisible(findTestObject('ModelPages/Visualizer/image - second color - mobile'))
+    WebUI.verifyElementVisible(findTestObject('null'))
 
-    WebUI.verifyElementNotPresent(findTestObject('ModelPages/Visualizer/image - first color - mobile'), 0)
+    WebUI.verifyElementNotPresent(findTestObject('null'), 0)
 }
 
-WebUI.verifyElementVisible(findTestObject('ModelPages/Visualizer/swatch 2 - highlighted'))
+WebUI.verifyElementVisible(findTestObject('null'))
 
-WebUI.verifyElementVisible(findTestObject('ModelPages/Visualizer/color name - second color'))
+WebUI.verifyElementVisible(findTestObject('null'))
 
-WebUI.verifyElementNotPresent(findTestObject('ModelPages/Visualizer/swatch 1 - highlighted'), 0)
+WebUI.verifyElementNotPresent(findTestObject('null'), 0)
 
-WebUI.verifyElementNotPresent(findTestObject('ModelPages/Visualizer/color name - first color'), 0)
+WebUI.verifyElementNotPresent(findTestObject('null'), 0)
 
-WebUI.click(findTestObject('ModelPages/Visualizer/swatch 3'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('null'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('ModelPages/Visualizer/swatch 1'), 0)
+WebUI.waitForElementVisible(findTestObject('null'), 0)
 
-WebUI.verifyElementNotPresent(findTestObject('ModelPages/Visualizer/swatch 2 - highlighted'), 0)
+WebUI.verifyElementNotPresent(findTestObject('null'), 0)
 
-WebUI.verifyElementNotPresent(findTestObject('ModelPages/Visualizer/color name - second color'), 0)
+WebUI.verifyElementNotPresent(findTestObject('null'), 0)
 
 if (WebUI.verifyGreaterThan(pageWidth, '960', FailureHandling.OPTIONAL)) {
-    WebUI.verifyElementNotPresent(findTestObject('ModelPages/Visualizer/image - second color - desktop'), 0)
+    WebUI.verifyElementNotPresent(findTestObject('null'), 0)
 
-    WebUI.verifyElementNotPresent(findTestObject('ModelPages/Visualizer/image - first color - desktop'), 0)
+    WebUI.verifyElementNotPresent(findTestObject('null'), 0)
 }
 
 if (WebUI.verifyLessThan(pageWidth, '960', FailureHandling.OPTIONAL)) {
-    WebUI.verifyElementNotPresent(findTestObject('ModelPages/Visualizer/image - second color - mobile'), 0)
+    WebUI.verifyElementNotPresent(findTestObject('null'), 0)
 
-    WebUI.verifyElementNotPresent(findTestObject('ModelPages/Visualizer/image - first color - mobile'), 0)
+    WebUI.verifyElementNotPresent(findTestObject('null'), 0)
 }
 
-WebUI.verifyElementNotPresent(findTestObject('ModelPages/Visualizer/swatch 1 - highlighted'), 0)
+WebUI.verifyElementNotPresent(findTestObject('null'), 0)
 
-WebUI.verifyElementNotPresent(findTestObject('ModelPages/Visualizer/color name - first color'), 0)
+WebUI.verifyElementNotPresent(findTestObject('null'), 0)
 
-WebUI.click(findTestObject('ModelPages/Visualizer/swatch 1'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('null'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('ModelPages/Visualizer/swatch 2'), 0)
+WebUI.waitForElementVisible(findTestObject('null'), 0)
 
-WebUI.verifyElementVisible(findTestObject('ModelPages/Visualizer/swatch 1 - highlighted'))
+WebUI.verifyElementVisible(findTestObject('null'))
 
-WebUI.verifyElementVisible(findTestObject('ModelPages/Visualizer/color name - first color'))
+WebUI.verifyElementVisible(findTestObject('null'))
 
 if (WebUI.verifyGreaterThan(pageWidth, '960', FailureHandling.OPTIONAL)) {
-    WebUI.verifyElementVisible(findTestObject('ModelPages/Visualizer/image - first color - desktop'))
+    WebUI.verifyElementVisible(findTestObject('null'))
 
-    WebUI.verifyElementNotPresent(findTestObject('ModelPages/Visualizer/image - second color - desktop'), 0)
+    WebUI.verifyElementNotPresent(findTestObject('null'), 0)
 }
 
 if (WebUI.verifyLessThan(pageWidth, '960', FailureHandling.OPTIONAL)) {
-    WebUI.verifyElementVisible(findTestObject('ModelPages/Visualizer/image - first color - mobile'))
+    WebUI.verifyElementVisible(findTestObject('null'))
 
-    WebUI.verifyElementNotPresent(findTestObject('ModelPages/Visualizer/image - second color - mobile'), 0)
+    WebUI.verifyElementNotPresent(findTestObject('null'), 0)
 }
 
-WebUI.verifyElementNotPresent(findTestObject('ModelPages/Visualizer/swatch 2 - highlighted'), 0)
+WebUI.verifyElementNotPresent(findTestObject('null'), 0)
 
-WebUI.verifyElementNotPresent(findTestObject('ModelPages/Visualizer/color name - second color'), 0)
+WebUI.verifyElementNotPresent(findTestObject('null'), 0)
 
 @com.kms.katalon.core.annotation.TearDownIfPassed
 def passed() {

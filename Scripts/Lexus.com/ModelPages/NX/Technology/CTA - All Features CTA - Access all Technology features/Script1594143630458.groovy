@@ -19,29 +19,29 @@ WebUI.navigateToUrl(GlobalVariable.TS_Domain + GlobalVariable.Overview_NX)
 
 WebUI.waitForPageLoad(0)
 
-WebUI.scrollToElement(findTestObject('ModelPages/Visualizer/visualizer'), 0)
+WebUI.scrollToElement(findTestObject('null'), 0)
 
 WebUI.scrollToElement(findTestObject('ModelPages/Styles/styles module'), 0)
 
 WebUI.scrollToElement(findTestObject('ModelPages/Gallery/gallery module'), 0)
 
-WebUI.scrollToElement(findTestObject('ModelPages/Performance/performance module'), 0)
+WebUI.scrollToElement(findTestObject('null'), 0)
 
-WebUI.scrollToElement(findTestObject('ModelPages/Technology/technology module'), 0)
+WebUI.scrollToElement(findTestObject('null'), 0)
 
-if (WebUI.verifyElementNotVisibleInViewport(findTestObject('ModelPages/Technology/base-small'), 3, FailureHandling.OPTIONAL)) {
-    WebUI.scrollToElement(findTestObject('ModelPages/Technology/technology module'), 0)
+if (WebUI.verifyElementNotVisibleInViewport(findTestObject('null'), 3, FailureHandling.OPTIONAL)) {
+    WebUI.scrollToElement(findTestObject('null'), 0)
 }
 
-WebUI.verifyElementVisible(findTestObject('ModelPages/Technology/base-small'), FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('null'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('ModelPages/Technology/more features CTA'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('null'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementPresent(findTestObject('ModelPages/Technology/expanded feature'), 0)
+WebUI.waitForElementPresent(findTestObject('null'), 0)
 
-WebUI.verifyElementVisible(findTestObject('ModelPages/Technology/expanded feature'), FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('null'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('ModelPages/Technology/all features CTA'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('null'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForElementPresent(findTestObject('ModelPages/InformationLayer/third category'), 5)
 

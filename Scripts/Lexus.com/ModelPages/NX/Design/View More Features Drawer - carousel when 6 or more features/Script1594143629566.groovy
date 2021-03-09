@@ -19,35 +19,35 @@ WebUI.navigateToUrl(GlobalVariable.TS_Domain + GlobalVariable.Overview_NX)
 
 WebUI.waitForPageLoad(0)
 
-WebUI.scrollToElement(findTestObject('ModelPages/Design/design module'), 0)
+WebUI.scrollToElement(findTestObject('null'), 0)
 
-WebUI.waitForElementVisible(findTestObject('ModelPages/Design/more features CTA'), 0)
+WebUI.waitForElementVisible(findTestObject('null'), 0)
 
-WebUI.click(findTestObject('ModelPages/Design/more features CTA'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('null'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementVisibleInViewport(findTestObject('ModelPages/Design/feature 1'), 0)
+WebUI.verifyElementVisibleInViewport(findTestObject('null'), 0)
 
 pageWidth = WebUI.getPageWidth()
 
 if (WebUI.verifyGreaterThan(pageWidth, '960', FailureHandling.OPTIONAL)) {
-    if (WebUI.verifyElementPresent(findTestObject('ModelPages/Design/feature 6'), 0, FailureHandling.OPTIONAL)) {
-        WebUI.verifyElementVisibleInViewport(findTestObject('ModelPages/Design/carousel next button'), 0)
+    if (WebUI.verifyElementPresent(findTestObject('null'), 0, FailureHandling.OPTIONAL)) {
+        WebUI.verifyElementVisibleInViewport(findTestObject('null'), 0)
 
-        WebUI.verifyElementVisibleInViewport(findTestObject('ModelPages/Design/carousel previous button'), 0)
+        WebUI.verifyElementVisibleInViewport(findTestObject('null'), 0)
 
-        WebUI.click(findTestObject('ModelPages/Design/carousel next button'), FailureHandling.STOP_ON_FAILURE)
+        WebUI.click(findTestObject('null'), FailureHandling.STOP_ON_FAILURE)
 
-        WebUI.verifyElementVisibleInViewport(findTestObject('ModelPages/Design/feature 6'), 0)
+        WebUI.verifyElementVisibleInViewport(findTestObject('null'), 0)
 
-        WebUI.verifyElementVisibleInViewport(findTestObject('ModelPages/Design/carousel previous button'), 0)
+        WebUI.verifyElementVisibleInViewport(findTestObject('null'), 0)
 
-        WebUI.click(findTestObject('ModelPages/Design/carousel previous button'), FailureHandling.STOP_ON_FAILURE)
+        WebUI.click(findTestObject('null'), FailureHandling.STOP_ON_FAILURE)
 
-        WebUI.verifyElementVisibleInViewport(findTestObject('ModelPages/Design/feature 1'), 0)
+        WebUI.verifyElementVisibleInViewport(findTestObject('null'), 0)
 
-        WebUI.verifyElementVisibleInViewport(findTestObject('ModelPages/Design/carousel next button'), 0)
+        WebUI.verifyElementVisibleInViewport(findTestObject('null'), 0)
 
-        WebUI.verifyElementVisibleInViewport(findTestObject('ModelPages/Design/carousel previous button'), 0)
+        WebUI.verifyElementVisibleInViewport(findTestObject('null'), 0)
     }
 }
 

@@ -19,50 +19,50 @@ WebUI.navigateToUrl(GlobalVariable.TS_Domain + GlobalVariable.Overview_NX)
 
 WebUI.waitForPageLoad(0)
 
-WebUI.scrollToElement(findTestObject('ModelPages/Technology/technology module'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.scrollToElement(findTestObject('null'), 0, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('ModelPages/Technology/more features CTA'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.waitForElementVisible(findTestObject('null'), 0, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('ModelPages/Technology/more features CTA'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('null'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.scrollToElement(findTestObject('ModelPages/Technology/more features CTA'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.scrollToElement(findTestObject('null'), 0, FailureHandling.STOP_ON_FAILURE)
 
 pageWidth = WebUI.getPageWidth()
 
 if (WebUI.verifyGreaterThan(pageWidth, '960', FailureHandling.OPTIONAL)) {
-    WebUI.verifyElementVisible(findTestObject('ModelPages/Technology/image - desktop'), FailureHandling.STOP_ON_FAILURE)
+    WebUI.verifyElementVisible(findTestObject('null'), FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.verifyElementVisible(findTestObject('ModelPages/Technology/headline - desktop'))
+    WebUI.verifyElementVisible(findTestObject('null'))
 
-    WebUI.verifyElementVisible(findTestObject('ModelPages/Technology/body copy - desktop'), FailureHandling.STOP_ON_FAILURE)
+    WebUI.verifyElementVisible(findTestObject('null'), FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.verifyElementVisible(findTestObject('ModelPages/Technology/all features CTA'), FailureHandling.STOP_ON_FAILURE)
+    WebUI.verifyElementVisible(findTestObject('null'), FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.verifyElementClickable(findTestObject('ModelPages/Technology/all features CTA'), FailureHandling.STOP_ON_FAILURE)
+    WebUI.verifyElementClickable(findTestObject('null'), FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.verifyElementVisible(findTestObject('ModelPages/Technology/more features CTA'))
+    WebUI.verifyElementVisible(findTestObject('null'))
 
-    WebUI.verifyElementClickable(findTestObject('ModelPages/Technology/more features CTA'), FailureHandling.CONTINUE_ON_FAILURE)
+    WebUI.verifyElementClickable(findTestObject('null'), FailureHandling.CONTINUE_ON_FAILURE)
 
-    WebUI.verifyElementVisible(findTestObject('ModelPages/Technology/expand-collapse caret'))
+    WebUI.verifyElementVisible(findTestObject('null'))
 }
 
 if (WebUI.verifyLessThan(pageWidth, '960', FailureHandling.OPTIONAL)) {
-    WebUI.verifyElementVisible(findTestObject('ModelPages/Technology/image - mobile'), FailureHandling.STOP_ON_FAILURE)
+    WebUI.verifyElementVisible(findTestObject('null'), FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.verifyElementVisible(findTestObject('ModelPages/Technology/headline - mobile'))
+    WebUI.verifyElementVisible(findTestObject('null'))
 
-    WebUI.verifyElementVisible(findTestObject('ModelPages/Technology/body copy - mobile'))
+    WebUI.verifyElementVisible(findTestObject('null'))
 
-    WebUI.verifyElementVisible(findTestObject('ModelPages/Technology/all features CTA'), FailureHandling.STOP_ON_FAILURE)
+    WebUI.verifyElementVisible(findTestObject('null'), FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.verifyElementClickable(findTestObject('ModelPages/Technology/all features CTA'), FailureHandling.STOP_ON_FAILURE)
+    WebUI.verifyElementClickable(findTestObject('null'), FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.verifyElementVisible(findTestObject('ModelPages/Technology/more features CTA'))
+    WebUI.verifyElementVisible(findTestObject('null'))
 
-    WebUI.verifyElementClickable(findTestObject('ModelPages/Technology/more features CTA'), FailureHandling.STOP_ON_FAILURE)
+    WebUI.verifyElementClickable(findTestObject('null'), FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.verifyElementVisible(findTestObject('ModelPages/Technology/expand-collapse caret'))
+    WebUI.verifyElementVisible(findTestObject('null'))
 }
 
 @com.kms.katalon.core.annotation.TearDownIfPassed

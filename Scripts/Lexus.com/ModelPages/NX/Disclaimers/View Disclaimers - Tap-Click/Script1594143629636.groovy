@@ -36,9 +36,9 @@ not_run: WebUI.click(findTestObject('ModelPages/Disclaimers/hero disclaimer clos
 not_run: WebUI.verifyElementNotPresent(findTestObject('ModelPages/Disclaimers/hero disclaimer text'), 0)
 
 not_run: if (WebUI.verifyGreaterThan(pageWidth, '1025', FailureHandling.OPTIONAL)) {
-    not_run: WebUI.scrollToElement(findTestObject('ModelPages/Visualizer/visualizer'), 0)
+    not_run: WebUI.scrollToElement(findTestObject('null'), 0)
 
-    not_run: WebUI.click(findTestObject('ModelPages/Visualizer/interior swatches'))
+    not_run: WebUI.click(findTestObject('null'))
 
     not_run: WebUI.waitForElementVisible(findTestObject('ModelPages/Disclaimers/visualizer disclaimer asterisk'), 0)
 
@@ -66,9 +66,9 @@ not_run: if (WebUI.verifyGreaterThan(pageWidth, '1025', FailureHandling.OPTIONAL
 
     not_run: WebUI.verifyElementNotPresent(findTestObject('ModelPages/Disclaimers/styles disclaimer text'), 0)
 
-    not_run: WebUI.scrollToElement(findTestObject('ModelPages/Design/design module'), 0)
+    not_run: WebUI.scrollToElement(findTestObject('null'), 0)
 
-    not_run: WebUI.click(findTestObject('ModelPages/Design/more features CTA'), FailureHandling.STOP_ON_FAILURE)
+    not_run: WebUI.click(findTestObject('null'), FailureHandling.STOP_ON_FAILURE)
 
     not_run: WebUI.waitForElementVisible(findTestObject('ModelPages/Disclaimers/design disclaimer asterisk'), 0)
 
@@ -84,9 +84,9 @@ not_run: if (WebUI.verifyGreaterThan(pageWidth, '1025', FailureHandling.OPTIONAL
 }
 
 not_run: if (WebUI.verifyLessThan(pageWidth, '1025', FailureHandling.OPTIONAL)) {
-    not_run: WebUI.scrollToElement(findTestObject('ModelPages/Visualizer/visualizer'), 0)
+    not_run: WebUI.scrollToElement(findTestObject('null'), 0)
 
-    not_run: WebUI.click(findTestObject('ModelPages/Visualizer/interior swatches'))
+    not_run: WebUI.click(findTestObject('null'))
 
     not_run: WebUI.waitForElementVisible(findTestObject('ModelPages/Disclaimers/visualizer disclaimer asterisk'), 0)
 
@@ -105,7 +105,7 @@ not_run: WebUI.click(findTestObject('ModelPages/Disclaimers/hero disclaimer clos
 
 not_run: WebUI.verifyElementNotPresent(findTestObject('ModelPages/Disclaimers/hero disclaimer text'), 0)
 
-not_run: WebUI.scrollToElement(findTestObject('ModelPages/Design/technology module'), 0)
+not_run: WebUI.scrollToElement(findTestObject('null'), 0)
 
 not_run: WebUI.waitForElementVisible(findTestObject('ModelPages/Disclaimers/hero disclaimer asterisk'), 0)
 
@@ -117,7 +117,7 @@ not_run: WebUI.click(findTestObject('ModelPages/Disclaimers/hero disclaimer clos
 
 not_run: WebUI.verifyElementNotPresent(findTestObject('ModelPages/Disclaimers/hero disclaimer text'), 0)
 
-not_run: WebUI.scrollToElement(findTestObject('ModelPages/Design/performance module'), 0)
+not_run: WebUI.scrollToElement(findTestObject('null'), 0)
 
 not_run: WebUI.waitForElementVisible(findTestObject('ModelPages/Disclaimers/hero disclaimer asterisk'), 0)
 

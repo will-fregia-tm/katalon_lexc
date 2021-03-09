@@ -19,27 +19,27 @@ WebUI.navigateToUrl(GlobalVariable.TS_Domain + GlobalVariable.Overview_NX)
 
 WebUI.waitForPageLoad(0)
 
-WebUI.scrollToElement(findTestObject('ModelPages/Design/design module'), 0)
+WebUI.scrollToElement(findTestObject('null'), 0)
 
-WebUI.verifyElementNotPresent(findTestObject('ModelPages/Design/expanded feature'), 0)
+WebUI.verifyElementNotPresent(findTestObject('null'), 0)
 
-WebUI.click(findTestObject('ModelPages/Design/more features CTA'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('null'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementVisibleInViewport(findTestObject('ModelPages/Design/more features CTA'), 0)
+WebUI.verifyElementVisibleInViewport(findTestObject('null'), 0)
 
-WebUI.verifyElementVisibleInViewport(findTestObject('ModelPages/Design/expand-collapse caret'), 0)
+WebUI.verifyElementVisibleInViewport(findTestObject('null'), 0)
 
-WebUI.verifyElementVisibleInViewport(findTestObject('ModelPages/Design/expanded feature'), 0)
+WebUI.verifyElementVisibleInViewport(findTestObject('null'), 0)
 
-not_run: WebUI.scrollToElement(findTestObject('ModelPages/Design/design module'), 0)
+not_run: WebUI.scrollToElement(findTestObject('null'), 0)
 
-WebUI.click(findTestObject('ModelPages/Design/more features CTA'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('null'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementVisibleInViewport(findTestObject('ModelPages/Design/more features CTA'), 0)
+WebUI.verifyElementVisibleInViewport(findTestObject('null'), 0)
 
-WebUI.verifyElementVisibleInViewport(findTestObject('ModelPages/Design/expand-collapse caret'), 0)
+WebUI.verifyElementVisibleInViewport(findTestObject('null'), 0)
 
-WebUI.verifyElementNotPresent(findTestObject('ModelPages/Design/expanded feature'), 0)
+WebUI.verifyElementNotPresent(findTestObject('null'), 0)
 
 @com.kms.katalon.core.annotation.TearDownIfPassed
 def passed() {

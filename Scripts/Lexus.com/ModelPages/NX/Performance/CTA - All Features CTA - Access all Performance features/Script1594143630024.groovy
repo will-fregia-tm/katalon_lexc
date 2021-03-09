@@ -19,21 +19,21 @@ WebUI.navigateToUrl(GlobalVariable.TS_Domain + GlobalVariable.Overview_NX)
 
 WebUI.waitForPageLoad(0)
 
-WebUI.scrollToElement(findTestObject('ModelPages/Visualizer/visualizer'), 0)
+WebUI.scrollToElement(findTestObject('null'), 0)
 
 WebUI.scrollToElement(findTestObject('ModelPages/Gallery/gallery module'), 0)
 
-WebUI.scrollToElement(findTestObject('ModelPages/Performance/performance module'), 0)
+WebUI.scrollToElement(findTestObject('null'), 0)
 
-WebUI.verifyElementVisible(findTestObject('ModelPages/Performance/base-small'), FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('null'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('ModelPages/Performance/more features CTA'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('null'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementPresent(findTestObject('ModelPages/Performance/expanded feature'), 0)
+WebUI.waitForElementPresent(findTestObject('null'), 0)
 
-WebUI.verifyElementVisible(findTestObject('ModelPages/Performance/expanded feature'), FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('null'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('ModelPages/Performance/all features CTA'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('null'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForElementPresent(findTestObject('ModelPages/InformationLayer/fifth category'), 5)
 

@@ -19,31 +19,31 @@ WebUI.navigateToUrl(GlobalVariable.TS_Domain + GlobalVariable.Overview_NX)
 
 WebUI.waitForPageLoad(0)
 
-WebUI.scrollToElement(findTestObject('ModelPages/Visualizer/visualizer'), 0)
+WebUI.scrollToElement(findTestObject('null'), 0)
 
 WebUI.scrollToElement(findTestObject('ModelPages/Styles/styles module'), 0)
 
-WebUI.scrollToElement(findTestObject('ModelPages/Design/design module'), 0)
+WebUI.scrollToElement(findTestObject('null'), 0)
 
-WebUI.verifyElementVisible(findTestObject('ModelPages/Design/base-small'), FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('null'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementNotPresent(findTestObject('ModelPages/Design/expanded feature'), 0)
+WebUI.verifyElementNotPresent(findTestObject('null'), 0)
 
-WebUI.verifyElementPresent(findTestObject('ModelPages/Design/more features header'), 0)
+WebUI.verifyElementPresent(findTestObject('null'), 0)
 
-WebUI.verifyElementPresent(findTestObject('ModelPages/Design/expand-collapse caret'), 0)
+WebUI.verifyElementPresent(findTestObject('null'), 0)
 
-WebUI.click(findTestObject('ModelPages/Design/more features CTA'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('null'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementPresent(findTestObject('ModelPages/Design/expanded feature'), 0)
+WebUI.waitForElementPresent(findTestObject('null'), 0)
 
-WebUI.verifyElementVisible(findTestObject('ModelPages/Design/expanded feature'), FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('null'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('ModelPages/Design/more features header'))
+WebUI.verifyElementVisible(findTestObject('null'))
 
-WebUI.verifyElementVisible(findTestObject('ModelPages/Design/expand-collapse caret'), FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('null'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('ModelPages/Design/more features CTA'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('null'), FailureHandling.STOP_ON_FAILURE)
 
 @com.kms.katalon.core.annotation.TearDownIfPassed
 def passed() {

@@ -30,7 +30,7 @@ if (WebUI.verifyLessThan(pageWidth, '960', FailureHandling.OPTIONAL)) {
 
     WebUI.click(findTestObject('ModelPages/Subnav/design link'), FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.verifyElementVisibleInViewport(findTestObject('ModelPages/Design/design module'), 0, FailureHandling.STOP_ON_FAILURE)
+    WebUI.verifyElementVisibleInViewport(findTestObject('null'), 0, FailureHandling.STOP_ON_FAILURE)
 
     not_run: WebUI.click(findTestObject('ModelPages/Subnav/mobile nav button'), FailureHandling.STOP_ON_FAILURE)
 
@@ -52,7 +52,7 @@ if (WebUI.verifyLessThan(pageWidth, '960', FailureHandling.OPTIONAL)) {
 
     WebUI.click(findTestObject('ModelPages/Subnav/technology link'), FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.verifyElementVisibleInViewport(findTestObject('ModelPages/Design/technology module'), 0)
+    WebUI.verifyElementVisibleInViewport(findTestObject('null'), 0)
 
     WebUI.click(findTestObject('ModelPages/Subnav/mobile nav button'), FailureHandling.STOP_ON_FAILURE)
 
@@ -60,7 +60,7 @@ if (WebUI.verifyLessThan(pageWidth, '960', FailureHandling.OPTIONAL)) {
 
     WebUI.click(findTestObject('ModelPages/Subnav/performance link'), FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.verifyElementVisibleInViewport(findTestObject('ModelPages/Design/performance module'), 0)
+    WebUI.verifyElementVisibleInViewport(findTestObject('null'), 0)
 
     not_run: WebUI.click(findTestObject('ModelPages/Subnav/mobile nav button'), FailureHandling.STOP_ON_FAILURE)
 
@@ -84,7 +84,7 @@ if (WebUI.verifyGreaterThan(pageWidth, '960', FailureHandling.OPTIONAL)) {
 
     WebUI.click(findTestObject('ModelPages/Subnav/design link'), FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.verifyElementVisibleInViewport(findTestObject('ModelPages/Design/design module'), 0, FailureHandling.STOP_ON_FAILURE)
+    WebUI.verifyElementVisibleInViewport(findTestObject('null'), 0, FailureHandling.STOP_ON_FAILURE)
 
     WebUI.verifyElementVisibleInViewport(findTestObject('ModelPages/Subnav/styles link'), 0, FailureHandling.OPTIONAL)
 
@@ -100,13 +100,13 @@ if (WebUI.verifyGreaterThan(pageWidth, '960', FailureHandling.OPTIONAL)) {
 
     WebUI.click(findTestObject('ModelPages/Subnav/technology link'), FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.verifyElementVisibleInViewport(findTestObject('ModelPages/Design/technology module'), 0)
+    WebUI.verifyElementVisibleInViewport(findTestObject('null'), 0)
 
     WebUI.verifyElementVisibleInViewport(findTestObject('ModelPages/Subnav/performance link'), 0)
 
     WebUI.click(findTestObject('ModelPages/Subnav/performance link'), FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.verifyElementVisibleInViewport(findTestObject('ModelPages/Design/performance module'), 0)
+    WebUI.verifyElementVisibleInViewport(findTestObject('null'), 0)
 
     WebUI.verifyElementVisibleInViewport(findTestObject('ModelPages/Subnav/safety link'), 0, FailureHandling.OPTIONAL)
 
