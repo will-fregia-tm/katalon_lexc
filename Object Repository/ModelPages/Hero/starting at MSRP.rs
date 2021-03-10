@@ -6,15 +6,19 @@
    <elementGuidId>ef13018a-84b1-4987-816f-69e54d1277a4</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>(//*[contains(@id, 'ero')]//div[(text() = 'STARTING AT' or . = 'STARTING AT')]/following-sibling::div)[1]</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
-         <value>//div[(contains(text(), '$') or contains(., '$'))]</value>
+         <value>//div[(text() = 'STARTING AT' or . = 'STARTING AT')]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>[id^=&quot;ModelHero&quot;] > div > div > div:nth-child(2) > div > div:nth-child(2) > div > div</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -32,9 +36,9 @@
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>contains</matchCondition>
+      <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>$</value>
+      <value>STARTING AT</value>
    </webElementProperties>
 </WebElementEntity>

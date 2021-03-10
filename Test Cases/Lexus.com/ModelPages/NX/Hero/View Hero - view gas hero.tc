@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>User is able to view the following information in gas model hero:
+   <description>User is able to view the following information in model hero:
 
-gas asset (video or image)
+- gas/hybrid-specific asset (video or image)
+(hybrid tag)
 Model Name 
 Model Year
 Starting at MSRP
 As shown vehicle pricing 
 Disclaimer (when applicable)
 0 to 3 CTAs
-Sub-header text (TBD through CMS)</description>
+Sub-header text (TBD through CMS)
+</description>
    <name>View Hero - view gas hero</name>
    <tag></tag>
    <comment></comment>

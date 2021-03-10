@@ -92,91 +92,96 @@
    <GlobalVariableEntity>
       <description></description>
       <initValue>11</initValue>
-      <name>ISseriesKey</name>
+      <name>seriesKeyIS</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>12</initValue>
-      <name>ESseriesKey</name>
+      <name>seriesKeyES</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>13</initValue>
-      <name>EShseriesKey</name>
+      <name>seriesKeyESh</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>14</initValue>
-      <name>LSseriesKey</name>
+      <name>seriesKeyLS</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>15</initValue>
-      <name>LShseriesKey</name>
+      <name>seriesKeyLSh</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>18</initValue>
-      <name>UXseriesKey</name>
+      <name>seriesKeyUX</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>19</initValue>
-      <name>UXhseriesKey</name>
+      <name>seriesKeyUXh</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>20</initValue>
-      <name>NXseriesKey</name>
+      <name>seriesKeyNX</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>21</initValue>
-      <name>NXhseriesKey</name>
+      <name>seriesKeyNXh</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>22</initValue>
-      <name>RXseriesKey</name>
+      <name>seriesKeyRX</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>23</initValue>
-      <name>RXhseriesKey</name>
+      <name>seriesKeyRXh</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>24</initValue>
-      <name>GXseriesKey</name>
+      <name>seriesKeyGX</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>25</initValue>
-      <name>LXseriesKey</name>
+      <name>seriesKeyLX</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>28</initValue>
-      <name>RCseriesKey</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>29</initValue>
-      <name>RCFseriesKey</name>
+      <name>seriesKeyRC</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>30</initValue>
-      <name>LCseriesKey</name>
+      <name>seriesKeyRCF</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>30</initValue>
+      <name>seriesKeyLC</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>31</initValue>
-      <name>LChseriesKey</name>
+      <name>seriesKeyLCh</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>32</initValue>
-      <name>LCCseriesKey</name>
+      <name>seriesKeyLCC</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>11</initValue>
+      <name>seriesKey</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

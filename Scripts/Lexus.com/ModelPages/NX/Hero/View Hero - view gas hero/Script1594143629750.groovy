@@ -72,6 +72,15 @@ if (WebUI.verifyElementPresent(findTestObject('ModelPages/Hero/asset - video - m
     WebUI.verifyNotMatch(valueWithoutExpected, actualValue, false, FailureHandling.STOP_ON_FAILURE)
 }
 
+'checks whether this is a hybrid'
+actualValue = modelSeries
+
+expectedValue = 'h'
+
+valueWithoutExpected = (actualValue - expectedValue)
+
+WebUI.verifyNotMatch(valueWithoutExpected, actualValue, false, FailureHandling.OPTIONAL)
+
 @com.kms.katalon.core.annotation.TearDownIfPassed
 def passed() {
     WebUI.executeJavaScript('sauce:job-result=passed', [])
