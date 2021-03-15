@@ -58,9 +58,9 @@ WebUI.verifyElementPresent(findTestObject('Homepage/MessageBar/recall text'), 0,
 
 CTA = WebUI.getText(findTestObject('Homepage/MessageBar/recall CTA'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyMatch(CTA, 'RECALL INFORMATION', false, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyMatch(CTA, 'RECALL INFORMATION', false, FailureHandling.CONTINUE_ON_FAILURE)
 
-text = WebUI.getText(findTestObject('Homepage/MessageBar/recall text'), FailureHandling.STOP_ON_FAILURE)
+text = WebUI.getText(findTestObject('Homepage/MessageBar/recall text'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyMatch(text, 'YOUR SAFETY IS A TOP PRIORITY FOR LEXUS. VIEW INFORMATION ON SAFETY RECALLS AND FIND OUT IF YOUR LEXUS IS AFFECTED.', 
     false, FailureHandling.STOP_ON_FAILURE)
