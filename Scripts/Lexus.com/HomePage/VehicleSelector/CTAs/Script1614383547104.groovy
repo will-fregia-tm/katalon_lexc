@@ -148,7 +148,9 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/model
         }
     }
     
-    WebUI.back()
+    not_run: WebUI.back()
+
+    WebUI.navigateToUrl(GlobalVariable.AEM_Domain)
 
     WebUI.waitForElementPresent(findTestObject('Homepage/VehicleSelectorAEM/vehicle selector module'), 0, FailureHandling.OPTIONAL)
 
