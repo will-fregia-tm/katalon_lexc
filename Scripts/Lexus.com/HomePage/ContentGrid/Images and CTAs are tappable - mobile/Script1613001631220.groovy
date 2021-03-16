@@ -46,7 +46,9 @@ WebUI.verifyElementPresent(findTestObject('Homepage/HeroModule/hero module'), 0,
 
 WebUI.waitForElementPresent(findTestObject('Homepage/ContentGrid/grid module 01'), 0, FailureHandling.OPTIONAL)
 
-WebUI.scrollToElement(findTestObject('Homepage/ContentGrid/grid module 01'), 0, FailureHandling.OPTIONAL)
+not_run: WebUI.scrollToElement(findTestObject('Homepage/ContentGrid/grid module 01'), 0, FailureHandling.OPTIONAL)
+
+WebUI.scrollToElement(findTestObject('Homepage/ContentGrid/grid module 01 - tile1'), 0, FailureHandling.OPTIONAL)
 
 WebUI.verifyElementPresent(findTestObject('Homepage/ContentGrid/grid module 01 - tile1 image'), 0, FailureHandling.STOP_ON_FAILURE)
 
@@ -54,7 +56,7 @@ WebUI.verifyElementPresent(findTestObject('Homepage/ContentGrid/grid module 01 -
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Homepage/ContentGrid/grid module 01 - tile1'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Homepage/ContentGrid/grid module 01 - tile1'), FailureHandling.OPTIONAL)
 
 WebUI.waitForPageLoad(0)
 
@@ -68,7 +70,7 @@ if (WebUI.verifyMatch(windowTitle, modifiedString, false, FailureHandling.OPTION
 
     href = WebUI.getAttribute(findTestObject('Homepage/ContentGrid/grid module 01 - tile1'), 'href')
 
-    href = ((href - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com' - 'https://prd-aem-lcom.origin.cepo-proxy.tms.aws.lexus.com')
+    href = (((href - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com') - 'https://prd-aem-lcom.origin.cepo-proxy.tms.aws.lexus.com')
 
     WebUI.navigateToUrl('https://www.lexus.com' + href)
 
@@ -81,7 +83,9 @@ if (WebUI.verifyMatch(windowTitle, modifiedString, false, FailureHandling.OPTION
     WebUI.verifyNotMatch(windowTitle, modifiedString, false, FailureHandling.STOP_ON_FAILURE)
 }
 
-WebUI.back()
+not_run: WebUI.back()
+
+WebUI.navigateToUrl(GlobalVariable.AEM_Domain)
 
 WebUI.waitForElementPresent(findTestObject('Homepage/ContentGrid/grid module 01'), 0, FailureHandling.OPTIONAL)
 
@@ -93,7 +97,7 @@ WebUI.verifyElementPresent(findTestObject('Homepage/ContentGrid/grid module 01 -
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Homepage/ContentGrid/grid module 01 - tile2'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Homepage/ContentGrid/grid module 01 - tile2'), FailureHandling.OPTIONAL)
 
 WebUI.waitForPageLoad(0)
 
@@ -107,7 +111,7 @@ if (WebUI.verifyMatch(windowTitle, modifiedString, false, FailureHandling.OPTION
 
     href = WebUI.getAttribute(findTestObject('Homepage/ContentGrid/grid module 01 - tile2'), 'href')
 
-    href = ((href - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com' - 'https://prd-aem-lcom.origin.cepo-proxy.tms.aws.lexus.com')
+    href = (((href - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com') - 'https://prd-aem-lcom.origin.cepo-proxy.tms.aws.lexus.com')
 
     WebUI.navigateToUrl('https://www.lexus.com' + href)
 
@@ -120,7 +124,9 @@ if (WebUI.verifyMatch(windowTitle, modifiedString, false, FailureHandling.OPTION
     WebUI.verifyNotMatch(windowTitle, modifiedString, false, FailureHandling.STOP_ON_FAILURE)
 }
 
-WebUI.back()
+not_run: WebUI.back()
+
+WebUI.navigateToUrl(GlobalVariable.AEM_Domain)
 
 WebUI.waitForElementPresent(findTestObject('Homepage/ContentGrid/grid module 01'), 0, FailureHandling.OPTIONAL)
 
@@ -132,9 +138,11 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/ContentGrid/grid module 
 
     WebUI.verifyElementPresent(findTestObject('Homepage/ContentGrid/grid module 01 - tile3 CTA'), 0, FailureHandling.STOP_ON_FAILURE)
 
+    WebUI.scrollToElement(findTestObject('Homepage/ContentGrid/grid module 01 - tile3'), 0, FailureHandling.OPTIONAL)
+
     WebUI.delay(2)
 
-    WebUI.click(findTestObject('Homepage/ContentGrid/grid module 01 - tile3'), FailureHandling.STOP_ON_FAILURE)
+    WebUI.click(findTestObject('Homepage/ContentGrid/grid module 01 - tile3'), FailureHandling.OPTIONAL)
 
     WebUI.waitForPageLoad(0)
 
@@ -148,7 +156,7 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/ContentGrid/grid module 
 
         href = WebUI.getAttribute(findTestObject('Homepage/ContentGrid/grid module 01 - tile3'), 'href')
 
-        href = ((href - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com' - 'https://prd-aem-lcom.origin.cepo-proxy.tms.aws.lexus.com')
+        href = (((href - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com') - 'https://prd-aem-lcom.origin.cepo-proxy.tms.aws.lexus.com')
 
         WebUI.navigateToUrl('https://www.lexus.com' + href)
 
@@ -161,7 +169,9 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/ContentGrid/grid module 
         WebUI.verifyNotMatch(windowTitle, modifiedString, false, FailureHandling.STOP_ON_FAILURE)
     }
     
-    WebUI.back()
+    not_run: WebUI.back()
+
+    WebUI.navigateToUrl(GlobalVariable.AEM_Domain)
 
     WebUI.waitForElementPresent(findTestObject('Homepage/ContentGrid/grid module 01'), 0, FailureHandling.OPTIONAL)
 
@@ -173,9 +183,11 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/ContentGrid/grid module 
 
         WebUI.verifyElementPresent(findTestObject('Homepage/ContentGrid/grid module 01 - tile4 CTA'), 0, FailureHandling.STOP_ON_FAILURE)
 
+        WebUI.scrollToElement(findTestObject('Homepage/ContentGrid/grid module 01 - tile4'), 0, FailureHandling.OPTIONAL)
+
         WebUI.delay(2)
 
-        WebUI.click(findTestObject('Homepage/ContentGrid/grid module 01 - tile4'), FailureHandling.STOP_ON_FAILURE)
+        WebUI.click(findTestObject('Homepage/ContentGrid/grid module 01 - tile4'), FailureHandling.OPTIONAL)
 
         WebUI.waitForPageLoad(0)
 
@@ -189,7 +201,7 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/ContentGrid/grid module 
 
             href = WebUI.getAttribute(findTestObject('Homepage/ContentGrid/grid module 01 - tile4'), 'href')
 
-            href = ((href - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com' - 'https://prd-aem-lcom.origin.cepo-proxy.tms.aws.lexus.com')
+            href = (((href - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com') - 'https://prd-aem-lcom.origin.cepo-proxy.tms.aws.lexus.com')
 
             WebUI.navigateToUrl('https://www.lexus.com' + href)
 
@@ -202,7 +214,9 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/ContentGrid/grid module 
             WebUI.verifyNotMatch(windowTitle, modifiedString, false, FailureHandling.STOP_ON_FAILURE)
         }
         
-        WebUI.back()
+        not_run: WebUI.back()
+
+        WebUI.navigateToUrl(GlobalVariable.AEM_Domain)
 
         WebUI.waitForElementPresent(findTestObject('Homepage/ContentGrid/grid module 01'), 0, FailureHandling.OPTIONAL)
 

@@ -52,6 +52,8 @@ WebUI.click(findTestObject('Homepage/QuickLinks/BYL link'))
 
 WebUI.waitForPageLoad(0)
 
+WebUI.delay(3)
+
 windowTitle = WebUI.getWindowTitle()
 
 'these steps are added to handle environments in which BYL is not present'
@@ -82,6 +84,8 @@ WebUI.scrollToElement(findTestObject('Homepage/QuickLinks/Quick Links'), 0, Fail
 WebUI.click(findTestObject('Homepage/QuickLinks/FAD link'))
 
 WebUI.waitForPageLoad(0)
+
+WebUI.delay(3)
 
 windowTitle = WebUI.getWindowTitle()
 
@@ -117,6 +121,8 @@ WebUI.waitForElementPresent(findTestObject('Homepage/QuickLinks/Quick Links'), 0
 WebUI.click(findTestObject('Homepage/QuickLinks/Offers link'))
 
 WebUI.waitForPageLoad(0)
+
+WebUI.delay(3)
 
 windowTitle = WebUI.getWindowTitle()
 
