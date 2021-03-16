@@ -6,13 +6,17 @@
    <elementGuidId>96f3242d-d5ea-4a63-adaf-132f0b630aa8</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>#page section > section > section div > section:nth-child(2) div[style*=&quot;left: 360px&quot;] > div > div > div > div</value>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//*[@id = 'page']//section/div/section[2]//div[contains(@style, 'left: 360px')]//span/following-sibling::div//div[contains(@letter-spacing, 'narrow') and (contains(text(), '202') or contains(., '202'))]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
 </WebElementEntity>
