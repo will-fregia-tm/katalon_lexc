@@ -109,7 +109,11 @@ WebUI.waitForPageLoad(0, FailureHandling.OPTIONAL)
 
 WebUI.waitForElementPresent(findTestObject('OffersPage/ZipBar/zip entry field'), 5, FailureHandling.OPTIONAL)
 
+WebUI.refresh()
+
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.getUrl()
 
 WebUI.verifyElementPresent(findTestObject('OffersPage/ZipBar/zip entry field'), 5, FailureHandling.STOP_ON_FAILURE)
 

@@ -136,7 +136,7 @@
          <configuration>
             <groupName>Custom</groupName>
             <profileName>prod</profileName>
-            <runConfigurationId>saucelabs_chrome_android9_galaxys9</runConfigurationId>
+            <runConfigurationId>saucelabs_chrome_android10_pixel3</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/OffersPage/mobile tests</testSuiteEntity>

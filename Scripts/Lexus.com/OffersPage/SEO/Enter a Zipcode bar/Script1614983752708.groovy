@@ -59,7 +59,7 @@ WebUI.setText(findTestObject('OffersPage/ZipBar/zip entry field'), '75218', Fail
 
 WebUI.click(findTestObject('OffersPage/ZipGate/submit button'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementPresent(findTestObject('OffersPage/ZipGate/offers page with offers'), 5, FailureHandling.OPTIONAL)
+WebUI.waitForElementPresent(findTestObject('OffersPage/ZipGate/offers page with offers'), 20, FailureHandling.OPTIONAL)
 
 WebUI.verifyElementPresent(findTestObject('OffersPage/ZipGate/offers page with offers'), 0, FailureHandling.STOP_ON_FAILURE)
 
@@ -91,7 +91,7 @@ WebUI.setText(findTestObject('OffersPage/ZipBar/zip entry field'), '30303', Fail
 
 WebUI.click(findTestObject('OffersPage/ZipGate/submit button'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementPresent(findTestObject('OffersPage/ZipGate/offers page with offers'), 5, FailureHandling.OPTIONAL)
+WebUI.waitForElementPresent(findTestObject('OffersPage/ZipGate/offers page with offers'), 20, FailureHandling.OPTIONAL)
 
 WebUI.verifyElementPresent(findTestObject('OffersPage/ZipGate/offers page with offers'), 0, FailureHandling.STOP_ON_FAILURE)
 
@@ -115,7 +115,7 @@ WebUI.setText(findTestObject('OffersPage/ZipBar/zip entry field'), '75218', Fail
 
 WebUI.click(findTestObject('OffersPage/ZipGate/submit button'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementPresent(findTestObject('OffersPage/ZipGate/offers page with offers'), 5, FailureHandling.OPTIONAL)
+WebUI.waitForElementPresent(findTestObject('OffersPage/ZipGate/offers page with offers'), 20, FailureHandling.OPTIONAL)
 
 WebUI.verifyElementPresent(findTestObject('OffersPage/ZipGate/offers page with offers'), 0, FailureHandling.STOP_ON_FAILURE)
 
@@ -123,7 +123,7 @@ WebUI.verifyElementPresent(findTestObject('OffersPage/ZipGate/cookied zip code -
 
 WebUI.refresh(FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementPresent(findTestObject('OffersPage/ZipGate/offers page with offers'), 5, FailureHandling.OPTIONAL)
+WebUI.waitForElementPresent(findTestObject('OffersPage/ZipGate/offers page with offers'), 20, FailureHandling.OPTIONAL)
 
 WebUI.verifyElementPresent(findTestObject('OffersPage/ZipGate/offers page with offers'), 0, FailureHandling.STOP_ON_FAILURE)
 
