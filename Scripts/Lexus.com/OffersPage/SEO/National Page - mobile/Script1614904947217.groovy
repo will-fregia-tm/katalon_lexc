@@ -92,7 +92,7 @@ stateLink = ((stateLink - GlobalVariable.SC_Domain) - 'https://aem-author.toyota
 'All states will be clickable and link to the state-page: https://www.lexus.com/offers/us/{state_name}#localized'
 WebUI.verifyMatch(stateLink, '/offers/us/new-york#localized', false, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('OffersPage/SEO/state - New York'))
+WebUI.click(findTestObject('OffersPage/SEO/state - Ohio'))
 
 WebUI.waitForPageLoad(0, FailureHandling.OPTIONAL)
 
