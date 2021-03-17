@@ -55,6 +55,8 @@ WebUI.waitForElementPresent(findTestObject('OffersPage/ZipBar/zip entry field'),
 
 WebUI.scrollToElement(findTestObject('OffersPage/ZipBar/zip entry field'), 5, FailureHandling.STOP_ON_FAILURE)
 
+WebUI.delay(3)
+
 WebUI.setText(findTestObject('OffersPage/ZipBar/zip entry field'), '75218', FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('OffersPage/ZipGate/submit button'), FailureHandling.STOP_ON_FAILURE)
@@ -87,6 +89,8 @@ WebUI.waitForElementPresent(findTestObject('OffersPage/ZipBar/zip entry field'),
 
 WebUI.scrollToElement(findTestObject('OffersPage/ZipBar/zip entry field'), 5, FailureHandling.STOP_ON_FAILURE)
 
+WebUI.delay(3)
+
 WebUI.setText(findTestObject('OffersPage/ZipBar/zip entry field'), '30303', FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('OffersPage/ZipGate/submit button'), FailureHandling.STOP_ON_FAILURE)
@@ -110,6 +114,8 @@ WebUI.navigateToUrl(GlobalVariable.SC_Domain + '/offers/us')
 WebUI.waitForElementPresent(findTestObject('OffersPage/ZipBar/zip entry field'), 5, FailureHandling.OPTIONAL)
 
 WebUI.scrollToElement(findTestObject('OffersPage/ZipBar/zip entry field'), 5, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(3)
 
 WebUI.setText(findTestObject('OffersPage/ZipBar/zip entry field'), '75218', FailureHandling.STOP_ON_FAILURE)
 

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#page section > section > section div > section:nth-child(2) img[src*=&quot;png&quot;]</value>
+         <value>#page section > section > section div > section:nth-child(2) img[src*=&quot;image&quot;]</value>
       </entry>
       <entry>
          <key>BASIC</key>
