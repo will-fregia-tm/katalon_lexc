@@ -139,7 +139,56 @@ if (WebUI.verifyElementPresent(findTestObject('ModelPages/Hero/as shown MSRP'), 
 
 actualValue = WebUI.getText(findTestObject('ModelPages/Hero/disclaimer - left'))
 
+expectedValue = findTestData('modelData').getValue(GlobalVariable.dataColumn, seriesKey + 210)
+
+'only checks further if disclaimer text is actually expected'
+if (WebUI.verifyNotMatch(expectedValue, '', false, FailureHandling.OPTIONAL)) {
+    valueWithoutExpected = (actualValue - expectedValue)
+
+    'verifies that correct value appears'
+    WebUI.verifyNotMatch(valueWithoutExpected, actualValue, false, FailureHandling.OPTIONAL)
+}
+
 actualValue = WebUI.getText(findTestObject('ModelPages/Hero/disclaimer - right'))
+
+expectedValue = findTestData('modelData').getValue(GlobalVariable.dataColumn, seriesKey + 240)
+
+'only checks further if disclaimer text is actually expected'
+if (WebUI.verifyNotMatch(expectedValue, '', false, FailureHandling.OPTIONAL)) {
+    valueWithoutExpected = (actualValue - expectedValue)
+
+    'verifies that correct value appears'
+    WebUI.verifyNotMatch(valueWithoutExpected, actualValue, false, FailureHandling.OPTIONAL)
+}
+
+'tests if CTA is present'
+if (WebUI.verifyElementPresent(findTestObject('ModelPages/Hero/CTA1'), 3, FailureHandling.OPTIONAL)) {
+    WebUI.mouseOver(findTestObject('ModelPages/Hero/CTA1'), FailureHandling.OPTIONAL)
+
+    actualValue = WebUI.getText(findTestObject('ModelPages/Hero/CTA1'), FailureHandling.STOP_ON_FAILURE)
+
+    actualValue = WebUI.getAttribute(findTestObject('ModelPages/Hero/CTA1'), 'href')
+
+    'tests if CTA is present'
+    if (WebUI.verifyElementPresent(findTestObject('ModelPages/Hero/CTA2'), 3, FailureHandling.OPTIONAL)) {
+        WebUI.mouseOver(findTestObject('ModelPages/Hero/CTA2'), FailureHandling.OPTIONAL)
+
+        actualValue = WebUI.getText(findTestObject('ModelPages/Hero/CTA2'), FailureHandling.STOP_ON_FAILURE)
+
+        actualValue = WebUI.getAttribute(findTestObject('ModelPages/Hero/CTA2'), 'href')
+
+        'tests if CTA is present'
+        if (WebUI.verifyElementPresent(findTestObject('ModelPages/Hero/CTA3'), 3, FailureHandling.OPTIONAL)) {
+            WebUI.mouseOver(findTestObject('ModelPages/Hero/CTA3'), FailureHandling.OPTIONAL)
+
+            actualValue = WebUI.getText(findTestObject('ModelPages/Hero/CTA3'), FailureHandling.STOP_ON_FAILURE)
+
+            actualValue = WebUI.getAttribute(findTestObject('ModelPages/Hero/CTA3'), 'href')
+
+            WebUI.verifyElementNotPresent(findTestObject('ModelPages/Hero/CTA4'), 0)
+        }
+    }
+}
 
 @com.kms.katalon.core.annotation.TearDownIfPassed
 def passed() {

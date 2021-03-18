@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[contains(@id, 'ModelHero')]/div/div[2]/div/div/div[3]</value>
+         <value>(//*[contains(@id, 'ero')]//a)[3]</value>
       </entry>
       <entry>
          <key>BASIC</key>
