@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#page img[src*=&quot;ackground.jpg&quot;]</value>
+         <value>#page img[src*=&quot;image&quot;]</value>
       </entry>
       <entry>
          <key>BASIC</key>
