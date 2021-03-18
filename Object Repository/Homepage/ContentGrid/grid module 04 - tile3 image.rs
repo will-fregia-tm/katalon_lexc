@@ -15,7 +15,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//*[@id = 'content-grid'])[4]/div/div[3]/a[contains(@href, '/')]//img[contains(@src, '.jpg')]</value>
+         <value>(//*[@id = 'content-grid'])[4]/div/div[3]/a[contains(@href, '/')]//img[contains(@src, 'image')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

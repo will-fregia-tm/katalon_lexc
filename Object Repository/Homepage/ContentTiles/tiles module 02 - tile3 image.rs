@@ -6,16 +6,16 @@
    <elementGuidId>bda15eb2-b682-493e-88ec-49b99a011d58</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//div[1]/h3[@letter-spacing = 'wide' and (not(contains(text(), 'SHOPPING')) and not(contains(text(), 'EXPLORE')))]/following-sibling::div)[2]//*[@data-index = '2']//img[contains(@src, '.jpg')]</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//img[contains(@src, '.jpg')]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>div[spacing*=&quot;block&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//div[1]/h3[@letter-spacing = 'wide' and (not(contains(text(), 'SHOPPING')) and not(contains(text(), 'EXPLORE')))]/following-sibling::div)[2]//*[@data-index = '2']//img[contains(@src, 'image')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
