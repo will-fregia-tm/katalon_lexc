@@ -6,11 +6,15 @@
    <elementGuidId>bb94004a-7291-4294-998e-64fcc80b55fb</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//*[contains(@id, 'ero')]//div[(text() = 'STARTING AT' or . = 'STARTING AT')]/following-sibling::div[(contains(text(), 'VEHICLE SHOWN') or contains(., 'VEHICLE SHOWN'))]</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
-         <value>//div[(contains(text(), '$') or contains(., '$'))]</value>
+         <value>//div[(contains(text(), 'VEHICLE SHOWN') or contains(., 'VEHICLE SHOWN'))]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,6 +35,6 @@
       <matchCondition>contains</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>$</value>
+      <value>VEHICLE SHOWN</value>
    </webElementProperties>
 </WebElementEntity>

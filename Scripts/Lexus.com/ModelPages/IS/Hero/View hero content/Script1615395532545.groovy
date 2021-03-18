@@ -38,7 +38,7 @@ if (WebUI.verifyMatch(GlobalVariable.lowerEnvironment, 'yes', false, FailureHand
 
 modelSeries = findTestData('modelData').getValue(1, 1)
 
-seriesKey = (internal.GlobalVariable).('seriesKey' + modelSeries)
+int seriesKey = findTestData('modelData').getValue(1, 2).toInteger()
 
 'checks whether this is a hybrid'
 hybridValue = findTestData('modelData').getValue(2, seriesKey + 90)
@@ -118,12 +118,28 @@ WebUI.verifyElementVisible(findTestObject('ModelPages/Hero/starting at MSRP'))
 
 actualValue = WebUI.getText(findTestObject('ModelPages/Hero/starting at MSRP'))
 
-not_run: expectedValue = findTestData('modelData').getValue(GlobalVariable.dataColumn, seriesKey + 120)
+expectedValue = findTestData('modelData').getValue(GlobalVariable.dataColumn, seriesKey + 150)
 
-not_run: valueWithoutExpected = (actualValue - expectedValue)
+valueWithoutExpected = (actualValue - expectedValue)
 
 'verifies that correct price appears'
-not_run: WebUI.verifyNotMatch(valueWithoutExpected, actualValue, false, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyNotMatch(valueWithoutExpected, actualValue, false, FailureHandling.STOP_ON_FAILURE)
+
+'runs this test if As Shown pricing is present'
+if (WebUI.verifyElementPresent(findTestObject('ModelPages/Hero/as shown MSRP'), 3, FailureHandling.OPTIONAL)) {
+    actualValue = WebUI.getText(findTestObject('ModelPages/Hero/as shown MSRP'))
+
+    expectedValue = findTestData('modelData').getValue(GlobalVariable.dataColumn, seriesKey + 180)
+
+    valueWithoutExpected = (actualValue - expectedValue)
+
+    'verifies that correct price appears'
+    WebUI.verifyNotMatch(valueWithoutExpected, actualValue, false, FailureHandling.STOP_ON_FAILURE)
+}
+
+actualValue = WebUI.getText(findTestObject('ModelPages/Hero/disclaimer - left'))
+
+actualValue = WebUI.getText(findTestObject('ModelPages/Hero/disclaimer - right'))
 
 @com.kms.katalon.core.annotation.TearDownIfPassed
 def passed() {

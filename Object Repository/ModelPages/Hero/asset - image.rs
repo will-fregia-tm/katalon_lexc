@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>div[id*=&quot;ero&quot;] img[src*=&quot;.jpg&quot;]</value>
+         <value>div[id*=&quot;ero&quot;] img[src*=&quot;image&quot;]</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>
