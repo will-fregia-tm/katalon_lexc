@@ -137,7 +137,7 @@ if (WebUI.verifyElementPresent(findTestObject('ModelPages/Hero/as shown MSRP'), 
     WebUI.verifyNotMatch(valueWithoutExpected, actualValue, false, FailureHandling.STOP_ON_FAILURE)
 }
 
-actualValue = WebUI.getText(findTestObject('ModelPages/Hero/disclaimer - left'))
+actualValue = WebUI.getText(findTestObject('ModelPages/Hero/image disclaimer - left'))
 
 expectedValue = findTestData('modelData').getValue(GlobalVariable.dataColumn, seriesKey + 210)
 
@@ -149,7 +149,7 @@ if (WebUI.verifyNotMatch(expectedValue, '', false, FailureHandling.OPTIONAL)) {
     WebUI.verifyNotMatch(valueWithoutExpected, actualValue, false, FailureHandling.OPTIONAL)
 }
 
-actualValue = WebUI.getText(findTestObject('ModelPages/Hero/disclaimer - right'))
+actualValue = WebUI.getText(findTestObject('ModelPages/Hero/image disclaimer - right'))
 
 expectedValue = findTestData('modelData').getValue(GlobalVariable.dataColumn, seriesKey + 240)
 

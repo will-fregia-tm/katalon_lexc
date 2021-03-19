@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>disclaimer - right</name>
+   <name>image disclaimer - right</name>
    <tag></tag>
    <elementGuidId>bb5b3814-2418-4495-bc93-c72e0060d6c6</elementGuidId>
    <selectorCollection>
