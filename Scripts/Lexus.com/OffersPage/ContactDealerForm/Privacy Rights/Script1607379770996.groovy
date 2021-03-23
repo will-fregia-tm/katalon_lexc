@@ -80,6 +80,8 @@ WebUI.navigateToUrl('https://www.lexus.com' + relativeLink, FailureHandling.STOP
 
 WebUI.waitForPageLoad(0, FailureHandling.STOP_ON_FAILURE)
 
+WebUI.delay(3)
+
 WebUI.verifyTextPresent('PRIVACY RIGHTS', false, FailureHandling.STOP_ON_FAILURE)
 
 @com.kms.katalon.core.annotation.TearDownIfPassed
