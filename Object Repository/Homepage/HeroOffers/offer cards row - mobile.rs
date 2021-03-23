@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>section div[height*=&quot;385&quot;]</value>
+         <value>section div[height]</value>
       </entry>
       <entry>
          <key>BASIC</key>
