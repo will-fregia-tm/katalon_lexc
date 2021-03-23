@@ -38,6 +38,8 @@ WebUI.navigateToUrl(GlobalVariable.TS_Domain + '/models/categories/sedans')
 for (def index : (0..totalPages)) {
     WebUI.navigateToUrl(findTestData(GlobalVariable.DS_version + 'URLsDealerPages').getValue(dataColumn, dataRow))
 
+    WebUI.delay(3)
+
     WebUI.verifyElementNotPresent(findTestObject('error'), 0)
 
     if (WebUI.verifyElementNotPresent(findTestObject('title'), 3, FailureHandling.OPTIONAL)) {

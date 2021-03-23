@@ -44,7 +44,7 @@
    <testCaseLink>
       <guid>f8cb8e27-83d8-4a96-b4df-d0fb4934dbb3</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/MiscPages/no longer supported message appears</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>

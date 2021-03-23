@@ -38,7 +38,9 @@ WebUI.navigateToUrl(GlobalVariable.TS_Domain + '/models/categories/sedans')
 for (def index : (0..totalPages)) {
     WebUI.navigateToUrl(findTestData(GlobalVariable.DS_version + 'URLsFCVPages').getValue(dataColumn, dataRow))
 
-    if (WebUI.verifyElementNotPresent(findTestObject('GlobalNav/lexus logo'), 3, FailureHandling.OPTIONAL)) {
+    WebUI.delay(3)
+
+    not_run: if (WebUI.verifyElementNotPresent(findTestObject('GlobalNav/lexus logo'), 3, FailureHandling.OPTIONAL)) {
         WebUI.navigateToUrl(findTestData(GlobalVariable.DS_version + 'URLsFCVPages').getValue(dataColumn, dataRow))
 
         WebUI.verifyElementPresent(findTestObject('GlobalNav/lexus logo'), 0)
