@@ -1,20 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>styles module</name>
+   <name>visualizer module</name>
    <tag></tag>
-   <elementGuidId>4e2e74f4-e1df-4dc7-92d9-ad12fad1cef6</elementGuidId>
+   <elementGuidId>686d9bbb-c566-4d68-bf5b-1fde5d1e4289</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>CSS</key>
-         <value>[id*=&quot;styles&quot;]</value>
+         <value>[id*=&quot;Visualizer&quot;]</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

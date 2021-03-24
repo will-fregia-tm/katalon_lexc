@@ -1,30 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>trim 5 link</name>
+   <name>CTA - offers</name>
    <tag></tag>
-   <elementGuidId>bf163b33-8f00-4de2-bce9-aaf6d9e221bf</elementGuidId>
+   <elementGuidId>bf4b47a6-8aa6-4aa2-9585-6c8cae6e788c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//*[contains(@id, 'styles')]//li[@role = 'tab'])[5]</value>
+         <value>//*[contains(@id, 'ero')]//a[(contains(text(), 'OFFERS') or contains(., 'OFFERS'))]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#styles > div > div > div:nth-child(3) > div > div:nth-child(2) > div > ul > li:nth-child(5)</value>
+         <value>[id*=&quot;ero&quot;] a</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'react-tabs-48']</value>
+         <value>//a[(contains(text(), 'OFFERS') or contains(., 'OFFERS'))]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <matchCondition>contains</matchCondition>
+      <name>text</name>
       <type>Main</type>
-      <value>react-tabs-48</value>
+      <value>OFFERS</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
    </webElementProperties>
 </WebElementEntity>

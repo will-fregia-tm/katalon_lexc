@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id = 'styles']/div[1]/div[2]/div/div[2]/div/ul[1]/li[2]</value>
+         <value>(//*[contains(@id, 'styles')]//li[@role = 'tab'])[4]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -18,7 +18,7 @@
          <value>//*[@id = 'react-tabs-48']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

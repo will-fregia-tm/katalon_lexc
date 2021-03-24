@@ -47,6 +47,9 @@ int seriesKey = findTestData('modelData').getValue(1, 2).toInteger()
 'checks whether this is a hybrid'
 hybridValue = findTestData('modelData').getValue(2, seriesKey + 90)
 
+'checks whether sales event is active'
+salesEvent = findTestData('modelData').getValue(GlobalVariable.dataColumn, 3)
+
 WebUI.navigateToUrl(GlobalVariable.AEM_Domain + findTestData('modelData').getValue(GlobalVariable.dataColumn, seriesKey))
 
 'this step is added to handle a slow or partial page load'
@@ -55,45 +58,6 @@ if (WebUI.verifyElementNotPresent(findTestObject('ModelPages/Hero/hero module'),
 }
 
 WebUI.waitForElementPresent(findTestObject('ModelPages/Hero/hero module'), 3, FailureHandling.OPTIONAL)
-
-'tests URL if CTA is present'
-if (WebUI.verifyElementPresent(findTestObject('ModelPages/Hero/CTA1'), 3, FailureHandling.OPTIONAL)) {
-    WebUI.mouseOver(findTestObject('ModelPages/Hero/CTA1'), FailureHandling.OPTIONAL)
-
-    actualValue = WebUI.getAttribute(findTestObject('ModelPages/Hero/CTA1'), 'href')
-
-    expectedValue = findTestData('modelData').getValue(GlobalVariable.dataColumn, seriesKey + 360)
-
-    valueWithoutExpected = (actualValue - expectedValue)
-
-    WebUI.verifyNotMatch(valueWithoutExpected, actualValue, false, FailureHandling.STOP_ON_FAILURE)
-
-    'tests if CTA is present'
-    if (WebUI.verifyElementPresent(findTestObject('ModelPages/Hero/CTA2'), 3, FailureHandling.OPTIONAL)) {
-        WebUI.mouseOver(findTestObject('ModelPages/Hero/CTA2'), FailureHandling.OPTIONAL)
-
-        actualValue = WebUI.getAttribute(findTestObject('ModelPages/Hero/CTA2'), 'href')
-
-        expectedValue = findTestData('modelData').getValue(GlobalVariable.dataColumn, seriesKey + 390)
-
-        valueWithoutExpected = (actualValue - expectedValue)
-
-        WebUI.verifyNotMatch(valueWithoutExpected, actualValue, false, FailureHandling.STOP_ON_FAILURE)
-
-        'tests if CTA is present'
-        if (WebUI.verifyElementPresent(findTestObject('ModelPages/Hero/CTA3'), 3, FailureHandling.OPTIONAL)) {
-            WebUI.mouseOver(findTestObject('ModelPages/Hero/CTA3'), FailureHandling.OPTIONAL)
-
-            actualValue = WebUI.getAttribute(findTestObject('ModelPages/Hero/CTA3'), 'href')
-
-            expectedValue = findTestData('modelData').getValue(GlobalVariable.dataColumn, seriesKey + 420)
-
-            valueWithoutExpected = (actualValue - expectedValue)
-
-            WebUI.verifyNotMatch(valueWithoutExpected, actualValue, false, FailureHandling.STOP_ON_FAILURE)
-        }
-    }
-}
 
 'checks CTA hover states, with workaround for the firefox driver not being able to mouseOver'
 if (WebUI.verifyNotMatch(browser, 'firefox', false, FailureHandling.OPTIONAL)) {
@@ -140,7 +104,43 @@ if (WebUI.verifyNotMatch(browser, 'firefox', false, FailureHandling.OPTIONAL)) {
     }
 }
 
-'checks non-sales event CTAs'
+'runs this test if non-sales event content should be present'
+if (WebUI.verifyMatch(salesEvent, 'n', false, FailureHandling.OPTIONAL)) {
+    'outside of sales event - no offers or BYL CTAs are present in hero module on desktop'
+    WebUI.verifyElementNotPresent(findTestObject('ModelPages/Hero/CTA - offers'), 0, FailureHandling.STOP_ON_FAILURE)
+
+    'outside of sales event - no offers or BYL CTAs are present in hero module on desktop'
+    WebUI.verifyElementNotPresent(findTestObject('ModelPages/Hero/CTA - BYL'), 0, FailureHandling.STOP_ON_FAILURE)
+}
+
+'runs this test if sales event content should be present'
+if (WebUI.verifyMatch(salesEvent, 'y', false, FailureHandling.OPTIONAL)) {
+    'during sales event, - only the offers CTA is present on desktop'
+    WebUI.verifyElementPresent(findTestObject('ModelPages/Hero/CTA - offers'), 0, FailureHandling.STOP_ON_FAILURE)
+
+    actualValue = WebUI.getAttribute(findTestObject('ModelPages/Hero/CTA - offers'), 'href')
+
+    expectedValue = (findTestData('modelData').getValue(GlobalVariable.dataColumn, seriesKey) + '#model_offers')
+
+    valueWithoutExpected = (actualValue - expectedValue)
+
+    'offers CTA should have correct link to model offers section'
+    WebUI.verifyNotMatch(valueWithoutExpected, actualValue, false, FailureHandling.STOP_ON_FAILURE)
+
+    actualValue = WebUI.getAttribute(findTestObject('ModelPages/Hero/CTA - offers'), 'target')
+
+    expectedValue = '_self'
+
+    valueWithoutExpected = (actualValue - expectedValue)
+
+    'offers CTA link should remain in same browser tab'
+    WebUI.verifyNotMatch(valueWithoutExpected, actualValue, false, FailureHandling.STOP_ON_FAILURE)
+
+    'during sales event, - only the offers CTA is present on desktop'
+    WebUI.verifyElementNotPresent(findTestObject('ModelPages/Hero/CTA - BYL'), 0, FailureHandling.STOP_ON_FAILURE)
+}
+
+'tests URL if CTA is present'
 if (WebUI.verifyElementPresent(findTestObject('ModelPages/Hero/CTA1'), 3, FailureHandling.OPTIONAL)) {
     WebUI.mouseOver(findTestObject('ModelPages/Hero/CTA1'), FailureHandling.OPTIONAL)
 
@@ -151,6 +151,19 @@ if (WebUI.verifyElementPresent(findTestObject('ModelPages/Hero/CTA1'), 3, Failur
     valueWithoutExpected = (actualValue - expectedValue)
 
     WebUI.verifyNotMatch(valueWithoutExpected, actualValue, false, FailureHandling.STOP_ON_FAILURE)
+
+    'takes the user to a page/section that corresponds to the URL in the CTA'
+    WebUI.click(findTestObject('ModelPages/Hero/CTA1'), FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.waitForPageLoad(0)
+
+    WebUI.delay(2)
+
+    WebUI.navigateToUrl(GlobalVariable.AEM_Domain + findTestData('modelData').getValue(GlobalVariable.dataColumn, seriesKey))
+
+    WebUI.waitForPageLoad(0)
+
+    WebUI.delay(2)
 
     'tests if CTA is present'
     if (WebUI.verifyElementPresent(findTestObject('ModelPages/Hero/CTA2'), 3, FailureHandling.OPTIONAL)) {
@@ -164,6 +177,19 @@ if (WebUI.verifyElementPresent(findTestObject('ModelPages/Hero/CTA1'), 3, Failur
 
         WebUI.verifyNotMatch(valueWithoutExpected, actualValue, false, FailureHandling.STOP_ON_FAILURE)
 
+        'takes the user to a page/section that corresponds to the URL in the CTA'
+        WebUI.click(findTestObject('ModelPages/Hero/CTA2'), FailureHandling.STOP_ON_FAILURE)
+
+        WebUI.waitForPageLoad(0)
+
+        WebUI.delay(2)
+
+        WebUI.back()
+
+        WebUI.waitForPageLoad(0)
+
+        WebUI.delay(2)
+
         'tests if CTA is present'
         if (WebUI.verifyElementPresent(findTestObject('ModelPages/Hero/CTA3'), 3, FailureHandling.OPTIONAL)) {
             WebUI.mouseOver(findTestObject('ModelPages/Hero/CTA3'), FailureHandling.OPTIONAL)
@@ -175,6 +201,19 @@ if (WebUI.verifyElementPresent(findTestObject('ModelPages/Hero/CTA1'), 3, Failur
             valueWithoutExpected = (actualValue - expectedValue)
 
             WebUI.verifyNotMatch(valueWithoutExpected, actualValue, false, FailureHandling.STOP_ON_FAILURE)
+
+            'takes the user to a page/section that corresponds to the URL in the CTA'
+            WebUI.click(findTestObject('ModelPages/Hero/CTA3'), FailureHandling.STOP_ON_FAILURE)
+
+            WebUI.waitForPageLoad(0)
+
+            WebUI.delay(2)
+
+            WebUI.back()
+
+            WebUI.waitForPageLoad(0)
+
+            WebUI.delay(2)
         }
     }
 }

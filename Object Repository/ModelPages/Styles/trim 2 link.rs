@@ -6,19 +6,19 @@
    <elementGuidId>c316fa92-6dab-45b5-af36-6b7b3a033e30</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#styles > div > div > div:nth-child(3) > div > div:nth-child(2) > div > ul > li:nth-child(2)</value>
+         <key>XPATH</key>
+         <value>(//*[contains(@id, 'styles')]//li[@role = 'tab'])[2]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@id = 'styles']/div[1]/div[2]/div/div[2]/div/ul[1]/li[2]</value>
+         <key>CSS</key>
+         <value>#styles > div > div > div:nth-child(3) > div > div:nth-child(2) > div > ul > li:nth-child(2)</value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>//*[@id = 'react-tabs-48']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
