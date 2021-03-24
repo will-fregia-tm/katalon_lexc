@@ -31,7 +31,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'http://dev-aem-lcom.origin.cepo-proxy.tms.aws.lexus.com'</initValue>
+      <initValue>'https://dev-aem-lcom.origin.cepo-proxy.tms.aws.lexus.com'</initValue>
       <name>AEM_Domain</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

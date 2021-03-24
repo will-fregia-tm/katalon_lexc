@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>design link</name>
+   <name>design module</name>
    <tag></tag>
-   <elementGuidId>b9179f95-7f28-4c53-be3e-57b48121a8af</elementGuidId>
+   <elementGuidId>cb5ebd92-724d-4f7a-87ca-aba60c2d11b3</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>[id*=&quot;subnav&quot;] a[href*=&quot;design&quot;]</value>
+         <value>[id*=&quot;design&quot;]</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

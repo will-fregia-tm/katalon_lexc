@@ -31,7 +31,7 @@ WebUI.verifyElementVisibleInViewport(findTestObject('null'), 0)
 
 WebUI.verifyElementVisibleInViewport(findTestObject('null'), 0)
 
-not_run: WebUI.scrollToElement(findTestObject('ModelPages/Performance/design module'), 0)
+not_run: WebUI.scrollToElement(findTestObject('ModelPages/Performance/performance module'), 0)
 
 WebUI.click(findTestObject('null'), FailureHandling.STOP_ON_FAILURE)
 
