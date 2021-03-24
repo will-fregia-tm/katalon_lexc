@@ -47,8 +47,6 @@ WebUI.waitForElementPresent(findTestObject('FCV/Hero/hero module'), 3, FailureHa
 
 WebUI.waitForElementPresent(findTestObject('FCV/Hero/Stay Informed button'), 5)
 
-WebUI.verifyElementPresent(findTestObject('GlobalNav/lexus logo'), 0)
-
 WebUI.click(findTestObject('FCV/Hero/Stay Informed button'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForElementPresent(findTestObject('FCV/SignupForm/form overlay'), 5, FailureHandling.STOP_ON_FAILURE)
