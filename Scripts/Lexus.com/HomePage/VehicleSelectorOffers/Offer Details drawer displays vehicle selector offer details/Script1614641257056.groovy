@@ -156,7 +156,7 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroOffers/offer cards r
 
             WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
-            WebUI.verifyElementNotPresent(findTestObject('Homepage/VehicleSelectorAEM/offers/offer card 01 - offer type'), 
+            WebUI.verifyElementNotPresent(findTestObject('Homepage/VehicleSelectorAEM/offers/offer card 01 - details'), 
                 0, FailureHandling.STOP_ON_FAILURE)
         }
     }
