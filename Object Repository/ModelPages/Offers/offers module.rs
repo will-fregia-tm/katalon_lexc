@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#offers</value>
+         <value>[id*=&quot;offers&quot;]</value>
       </entry>
       <entry>
          <key>BASIC</key>

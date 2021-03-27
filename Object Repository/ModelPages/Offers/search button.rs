@@ -6,15 +6,19 @@
    <elementGuidId>9c8e9d16-9ce8-4257-95ac-dbdf657035f2</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//button[contains(@class, 'ZipcodeSearch')]</value>
+         <key>CSS</key>
+         <value>[id*=&quot;offers&quot;] button[type*=&quot;ubmit&quot;]</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//*[@id = 'offers']/div/div/div/div/div/div/form/button</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[contains(@class, 'ZipcodeSearch')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

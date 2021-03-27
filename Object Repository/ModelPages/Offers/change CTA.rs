@@ -6,15 +6,15 @@
    <elementGuidId>c3f561cc-6476-4888-a95f-e6e5f89c7bd5</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//*[contains(@id, 'offers')]//span[(contains(text(), 'SHOWING RESULTS FOR') or contains(., 'SHOWING RESULTS FOR'))]/following-sibling::button[(contains(text(), 'CHANGE') or contains(., 'CHANGE'))]</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
          <value>//button[(contains(text(), 'CHANGE') or contains(., 'CHANGE')) and contains(@class, 'OffersSearchBar')]</value>
       </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//*[@id = 'offers']/div/div/div/div/div/button</value>
-      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

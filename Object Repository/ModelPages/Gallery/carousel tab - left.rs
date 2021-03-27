@@ -6,17 +6,25 @@
    <elementGuidId>16ea1474-e930-453d-8dab-747432159859</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@id = 'gallery']/div/div/button[2]</value>
+         <key>BASIC</key>
+         <value>//*[contains(@id, 'gallery')]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#gallery > div > div > div:nth-child(2) > button:nth-child(2)</value>
+         <value>img[alt*=&quot;revious&quot;]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>(//*[contains(@id, 'gallery')]//div[contains(@tabindex, '0')]//button)[1]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>gallery</value>
+   </webElementProperties>
 </WebElementEntity>

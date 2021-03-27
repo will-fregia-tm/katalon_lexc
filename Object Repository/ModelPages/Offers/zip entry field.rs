@@ -9,8 +9,12 @@
          <key>BASIC</key>
          <value>//input[@placeholder = 'Enter Zip' and @type = 'tel']</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+         <value>[id*=&quot;offers&quot;] input[aria-label*=&quot;input&quot;]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

@@ -6,17 +6,32 @@
    <elementGuidId>93ed639b-15fb-4fdf-bc30-b2ee447efee2</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@id = 'gallery']/div/div/button[4]</value>
+         <key>BASIC</key>
+         <value>//img[contains(@alt, 'ext')]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#gallery > div > div > div:nth-child(2) > button:nth-child(5)</value>
+         <value>img[alt*=&quot;ext&quot;]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>(//*[contains(@id, 'gallery')]//div[contains(@tabindex, '0')]//button)[2]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>ext</value>
+   </webElementProperties>
 </WebElementEntity>

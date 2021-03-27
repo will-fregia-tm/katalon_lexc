@@ -6,19 +6,19 @@
    <elementGuidId>aaf960af-15a1-47de-aa34-7155fec8b16e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@id = 'gallery']/div/div[4]/div/button</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>[id^=&quot;GalleryComponent&quot;] > div:nth-child(5) > div > div:nth-child(2)</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//button[(text() = 'Close Overlay' or . = 'Close Overlay')]</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button[aria-label*=&quot;Close Overlay&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id = 'gallery']/div/div[4]/div/button</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
