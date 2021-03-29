@@ -108,7 +108,9 @@ WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.switchToWindowIndex(0, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('OffersPage/ContactDealerForm/thank you headline'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.waitForElementVisible(findTestObject('OffersPage/ContactDealerForm/thank you headline'), 0, FailureHandling.OPTIONAL)
 
 WebUI.verifyElementVisibleInViewport(findTestObject('OffersPage/ContactDealerForm/thank you - dealer distance'), 0, FailureHandling.STOP_ON_FAILURE)
 
@@ -138,7 +140,9 @@ WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.switchToWindowIndex(0, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('OffersPage/ContactDealerForm/thank you headline'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.waitForElementVisible(findTestObject('OffersPage/ContactDealerForm/thank you headline'), 0, FailureHandling.OPTIONAL)
 
 WebUI.verifyElementVisibleInViewport(findTestObject('OffersPage/ContactDealerForm/thank you - back to offers CTA'), 0, FailureHandling.STOP_ON_FAILURE)
 
@@ -148,7 +152,9 @@ WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('OffersPage/ContactDealerForm/thank you - back to offers CTA'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('OffersPage/OfferRow/row 02 - Inventory'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.waitForElementVisible(findTestObject('OffersPage/OfferRow/row 02 - Inventory'), 0, FailureHandling.OPTIONAL)
 
 WebUI.verifyElementNotPresent(findTestObject('OffersPage/ContactDealerForm/thank you headline'), 0, FailureHandling.STOP_ON_FAILURE)
 

@@ -6,12 +6,12 @@
    <elementGuidId>5bd07b52-a5aa-4044-9d17-3eb3360ac78d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//button[(contains(text(), 'LEASE') or contains(., 'LEASE'))]</value>
+         <key>XPATH</key>
+         <value>//h3[(contains(text(), 'APPLIED FILTERS') or contains(., 'APPLIED FILTERS'))]/following-sibling::div/button[(contains(text(), 'LEASE') or contains(., 'LEASE'))]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@id=&quot;page&quot;]//section/section/section/div[5]//button[(contains(text(), 'LEASE') or contains(., 'LEASE'))]</value>
+         <key>BASIC</key>
+         <value>//button[(contains(text(), 'LEASE') or contains(., 'LEASE'))]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

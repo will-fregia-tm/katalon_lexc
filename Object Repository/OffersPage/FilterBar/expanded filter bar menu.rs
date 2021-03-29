@@ -12,7 +12,11 @@
          <key>CSS</key>
          <value>#page section > section > section > div:nth-child(5) > section</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[(contains(text(), 'APPLY') or contains(., 'APPLY'))]/parent::div</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
 </WebElementEntity>
