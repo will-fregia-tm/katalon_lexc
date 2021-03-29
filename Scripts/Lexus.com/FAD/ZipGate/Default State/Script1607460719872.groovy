@@ -44,14 +44,14 @@ WebUI.verifyElementPresent(findTestObject('FAD/ZipGate/background asset'), 5, Fa
 WebUI.verifyElementPresent(findTestObject('FAD/ZipGate/zip entry dialog box'), 5, FailureHandling.STOP_ON_FAILURE)
 
 'verifies centering'
-position = WebUI.getCSSValue(findTestObject('FAD/ZipGate/zip gate box'), 'position', FailureHandling.STOP_ON_FAILURE)
+not_run: position = WebUI.getCSSValue(findTestObject('FAD/ZipGate/zip gate box'), 'position', FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyMatch(position, 'absolute', false, FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.verifyMatch(position, 'absolute', false, FailureHandling.STOP_ON_FAILURE)
 
 'verifies position above background asset'
-zIndex = WebUI.getCSSValue(findTestObject('FAD/ZipGate/zip gate box'), 'z-index', FailureHandling.STOP_ON_FAILURE)
+not_run: zIndex = WebUI.getCSSValue(findTestObject('FAD/ZipGate/zip gate box'), 'z-index', FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyMatch(zIndex, '1', false, FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.verifyMatch(zIndex, '1', false, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementPresent(findTestObject('FAD/ZipGate/headline'), 5, FailureHandling.STOP_ON_FAILURE)
 
