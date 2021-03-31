@@ -122,9 +122,9 @@ if (WebUI.verifyElementPresent(findTestObject('ModelPages/Safety/asterisk discla
 
 'continues testing if there is a More Features drawer'
 if (WebUI.verifyElementPresent(findTestObject('ModelPages/Safety/drawer/more features link'), 3, FailureHandling.OPTIONAL)) {
-    WebUI.scrollToElement(findTestObject('ModelPages/Safety/drawer/more features link'), 0)
+    not_run: WebUI.scrollToElement(findTestObject('ModelPages/Safety/drawer/more features link'), 0)
 
-    WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
+    not_run: WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
 
     WebUI.click(findTestObject('ModelPages/Safety/drawer/more features link'))
 

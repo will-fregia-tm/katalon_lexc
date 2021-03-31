@@ -164,9 +164,9 @@ if (WebUI.verifyElementPresent(findTestObject('ModelPages/Design/story link 3'),
 
 'continues testing if there is a More Features drawer'
 if (WebUI.verifyElementPresent(findTestObject('ModelPages/Design/drawer/more features link'), 3, FailureHandling.OPTIONAL)) {
-    WebUI.scrollToElement(findTestObject('ModelPages/Design/drawer/more features link'), 0)
+    not_run: WebUI.scrollToElement(findTestObject('ModelPages/Design/drawer/more features link'), 0)
 
-    WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
+    not_run: WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
 
     WebUI.click(findTestObject('ModelPages/Design/drawer/more features link'))
 
