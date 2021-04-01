@@ -138,7 +138,7 @@
             <profileName>staging</profileName>
             <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
+         <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/ModelPages/RCF/Design</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
@@ -147,7 +147,7 @@
             <profileName>staging</profileName>
             <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
+         <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/ModelPages/RCF/Disclaimers</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
@@ -156,7 +156,7 @@
             <profileName>staging</profileName>
             <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
+         <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/ModelPages/RCF/Gallery</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
@@ -165,7 +165,7 @@
             <profileName>staging</profileName>
             <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
+         <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/ModelPages/RCF/Hero</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
@@ -174,7 +174,7 @@
             <profileName>staging</profileName>
             <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
+         <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/ModelPages/RCF/InformationLayer_Desktop</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
@@ -210,7 +210,7 @@
             <profileName>staging</profileName>
             <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
+         <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/ModelPages/RCF/Performance</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
@@ -219,7 +219,7 @@
             <profileName>staging</profileName>
             <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
+         <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/ModelPages/RCF/Styles_Desktop</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
@@ -237,7 +237,7 @@
             <profileName>staging</profileName>
             <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
+         <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/ModelPages/RCF/Subnav</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
@@ -246,7 +246,7 @@
             <profileName>staging</profileName>
             <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
+         <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/ModelPages/RCF/Technology</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
@@ -255,7 +255,7 @@
             <profileName>staging</profileName>
             <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
+         <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/ModelPages/RCF/Visualizer</testSuiteEntity>
       </TestSuiteRunConfiguration>
    </testSuiteRunConfigurations>
