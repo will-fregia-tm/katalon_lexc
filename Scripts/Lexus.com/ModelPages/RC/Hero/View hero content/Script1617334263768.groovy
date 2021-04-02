@@ -98,10 +98,10 @@ WebUI.verifyElementVisible(findTestObject('ModelPages/Hero/model name'))
 modelName = WebUI.getText(findTestObject('ModelPages/Hero/model name'))
 
 'edits model names (e.g. ESh) to match series names (e.g. ES)'
-modelName = ((modelName - ' C') - 'h')
+modelSeries2 = ((modelSeries - ' C') - 'h')
 
 'verifies correct model name text'
-WebUI.verifyMatch(modelName, modelSeries, false)
+WebUI.verifyMatch(modelName, modelSeries2, false)
 
 WebUI.verifyElementVisible(findTestObject('ModelPages/Hero/model year'))
 
@@ -137,7 +137,7 @@ if (WebUI.verifyElementPresent(findTestObject('ModelPages/Hero/as shown MSRP'), 
     WebUI.verifyNotMatch(valueWithoutExpected, actualValue, false, FailureHandling.STOP_ON_FAILURE)
 }
 
-actualValue = WebUI.getText(findTestObject('ModelPages/Hero/image disclaimer - left'))
+actualValue = WebUI.getText(findTestObject('ModelPages/Hero/image disclaimer'))
 
 expectedValue = findTestData('modelData').getValue(GlobalVariable.dataColumn, seriesKey + 210)
 
@@ -149,7 +149,7 @@ if (WebUI.verifyNotMatch(expectedValue, '', false, FailureHandling.OPTIONAL)) {
     WebUI.verifyNotMatch(valueWithoutExpected, actualValue, false, FailureHandling.OPTIONAL)
 }
 
-actualValue = WebUI.getText(findTestObject('ModelPages/Hero/image disclaimer - right'))
+actualValue = WebUI.getText(findTestObject('ModelPages/Hero/video disclaimer'), FailureHandling.OPTIONAL)
 
 expectedValue = findTestData('modelData').getValue(GlobalVariable.dataColumn, seriesKey + 240)
 
