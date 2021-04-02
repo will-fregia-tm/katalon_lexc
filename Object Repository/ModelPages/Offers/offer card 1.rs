@@ -6,12 +6,12 @@
    <elementGuidId>d52520ca-f908-4002-bdd0-6eb236bafe97</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//*[contains(@id, 'offers')]//span[(text() = '1' or . = '1')]//ancestor::div[contains(@style, 'absolute')]</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//span[(text() = '1' or . = '1')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[contains(@id, 'offers')]//span[(text() = '1' or . = '1')]//ancestor::div[contains(@letter-spacing, 'narrow')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

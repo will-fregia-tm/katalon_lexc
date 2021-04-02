@@ -4,7 +4,7 @@
    <name>RX</name>
    <tag></tag>
    <executionMode>PARALLEL</executionMode>
-   <maxConcurrentInstances>18</maxConcurrentInstances>
+   <maxConcurrentInstances>12</maxConcurrentInstances>
    <testSuiteRunConfigurations>
       <TestSuiteRunConfiguration>
          <configuration>
