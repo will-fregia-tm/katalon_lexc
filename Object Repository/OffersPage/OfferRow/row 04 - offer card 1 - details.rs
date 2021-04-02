@@ -6,11 +6,11 @@
    <elementGuidId>5b8fda49-2508-44d3-b590-4f157744d412</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
+         <key>CSS</key>
+         <value>#page section > section > section div > section:nth-child(4) div[style*=&quot;width: 3&quot;]:nth-child(2) h2</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>#page section > section > section div > section:nth-child(4) div[style*=&quot;left: 360px&quot;] h2</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

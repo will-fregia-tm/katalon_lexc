@@ -6,16 +6,16 @@
    <elementGuidId>56408ba9-8ef8-4803-92e7-1e932eff910c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@id=&quot;page&quot;]//section/section/section//section[2]//button[(contains(text(), 'CONTACT DEALER') or contains(., 'CONTACT DEALER''))]</value>
+         <key>BASIC</key>
+         <value>//div[contains(@style, '360')]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#page section > section > section div > section:nth-child(2) div[style*=&quot;left: 360px&quot;] button[type*=&quot;button&quot;]</value>
+         <value>#page section > section > section div > section:nth-child(2) div[style*=&quot;width&quot;] div[style*=&quot;width&quot;]:nth-child(2)  button[type*=&quot;button&quot;]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//div[contains(@style, '360')]</value>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;page&quot;]//section/section/section//section[2]//button[(contains(text(), 'CONTACT DEALER') or contains(., 'CONTACT DEALER''))]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

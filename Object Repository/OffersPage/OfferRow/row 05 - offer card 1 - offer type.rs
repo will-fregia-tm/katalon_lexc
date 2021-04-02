@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#page section > section > section div > section:nth-child(5) div[style*=&quot;left: 360px&quot;] span > span</value>
+         <value>#page section > section > section div > section:nth-child(5) div[style*=&quot;width: 3&quot;]:nth-child(2) span > span</value>
       </entry>
       <entry>
          <key>BASIC</key>

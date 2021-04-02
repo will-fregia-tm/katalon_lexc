@@ -14,7 +14,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id = 'page']//section/div/section[2]//div[contains(@style, 'left: 360px')]//span/following-sibling::div//div[contains(@letter-spacing, 'narrow') and (contains(text(), '20') or contains(., '20'))]</value>
+         <value>(//*[@id = 'page']//section/div/section[2]//div[contains(@style, 'width')]//div[contains(@style, 'width')]//span/following-sibling::div//div[contains(@letter-spacing, 'narrow') and (contains(text(), '20') or contains(., '20'))])[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#page section > section > section div > section:nth-child(1) div[style*=&quot;left: 360px&quot;] svg path</value>
+         <value>#page section > section > section div > section:nth-child(1) div[style*=&quot;width: 3&quot;]:nth-child(2) svg path</value>
       </entry>
       <entry>
          <key>BASIC</key>
