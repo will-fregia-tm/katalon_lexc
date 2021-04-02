@@ -10,9 +10,13 @@
          <value>//*[@id = 'gallery']/div/div/div/div/div//div/div[contains(@class, 'slick-current')]/div/div/div/div/img</value>
       </entry>
       <entry>
+         <key>CSS</key>
+         <value>[id*=&quot;gallery&quot;] div[data-index=&quot;0&quot;] img</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
 </WebElementEntity>

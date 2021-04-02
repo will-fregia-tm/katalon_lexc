@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;SubPageOverlayScroll&quot;]/div[2]/div/div[2]/div/div/div[2]/div[2]/div/div/div[3]</value>
+         <value>(//*[contains(@id, 'model_info')]//button[(text() = 'REMOVE' or . = 'REMOVE')]/parent::div)[3]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -17,6 +17,6 @@
          <key>BASIC</key>
       </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
 </WebElementEntity>
