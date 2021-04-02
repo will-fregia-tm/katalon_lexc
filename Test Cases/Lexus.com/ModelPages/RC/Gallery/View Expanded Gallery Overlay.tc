@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Given that I am a model page guest who is viewing the Gallery, when I click on &quot;Image-A&quot; to view the expanded gallery overlay:
+
+- display full size gallery overlay with &quot;Image-A&quot; in focus
+- provide the ability to close out of the overlay
+- provide carousel arrows in both directions to navigate to the previous/next image
+- user is able to exit the expanded gallery and return to the default gallery.</description>
+   <name>View Expanded Gallery Overlay</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6a73bad4-3ae7-4f1a-8fc4-6c297e27c2ce</testCaseGuid>
+   <variable>
+      <defaultValue>'LCHero'</defaultValue>
+      <description></description>
+      <id>a3ab3c1e-1a72-4a95-b11d-14af8ce55405</id>
+      <masked>false</masked>
+      <name>ModelPages</name>
+   </variable>
+</TestCaseEntity>

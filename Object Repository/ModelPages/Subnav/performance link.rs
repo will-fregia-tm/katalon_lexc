@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>[id*=&quot;subnav&quot;] a[href*=&quot;performance&quot;]</value>
+         <value>[id*=&quot;sub&quot;] a[href*=&quot;performance&quot;]</value>
       </entry>
       <entry>
          <key>BASIC</key>
