@@ -184,4 +184,9 @@
       <initValue>11</initValue>
       <name>seriesKey</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>currentTestSuiteID</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

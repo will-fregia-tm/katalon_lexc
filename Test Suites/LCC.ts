@@ -4,7 +4,7 @@
    <name>LCC</name>
    <tag></tag>
    <executionMode>PARALLEL</executionMode>
-   <maxConcurrentInstances>12</maxConcurrentInstances>
+   <maxConcurrentInstances>18</maxConcurrentInstances>
    <testSuiteRunConfigurations>
       <TestSuiteRunConfiguration>
          <configuration>

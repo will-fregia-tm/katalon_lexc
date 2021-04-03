@@ -24,12 +24,12 @@ import com.kms.katalon.core.context.TestSuiteContext
 
 import com.kms.katalon.keyword.excel.ExcelKeywords as ExcelKeywords
 
-class BeforeTest {
+/* class BeforeTest {
 	/**
 	 * Executes before every test case starts.
 	 * @param testCaseContext related information of the executed test case.
 	 */
-	@BeforeTestCase
+	/* @BeforeTestCase
 	def sampleBeforeTestCase(TestCaseContext testCaseContext) {
 		println testCaseContext.getTestCaseId()
 		println testCaseContext.getTestCaseVariables()
@@ -50,4 +50,4 @@ class BeforeTest {
         ExcelKeywords.setValueToCellByIndex(sheet01, 0, 0, textToWrite)}
 		ExcelKeywords.saveWorkbook(excelFilePath, workbook01)
 	}
-}
+} */

@@ -12,6 +12,12 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>e981003c-6f82-486e-8e97-5982423cef93</testSuiteGuid>
    <testCaseLink>
+      <guid>ae00caa4-745f-4fc4-8581-03422745c090</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/RC/model series settings</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>b92dfbbe-f81c-4c2c-b90d-83ce4bac55bd</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

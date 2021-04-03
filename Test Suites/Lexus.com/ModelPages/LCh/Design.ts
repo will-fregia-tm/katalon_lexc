@@ -12,6 +12,12 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>7d259208-aaad-45e6-85eb-d200e89392f3</testSuiteGuid>
    <testCaseLink>
+      <guid>fef83108-4923-48d9-bb87-7d7ed7ee9318</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/LCh/model series settings</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>4e514d34-3ba1-44d4-9a39-790358bf4a4c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
