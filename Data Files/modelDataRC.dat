@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
    <description></description>
-   <name>modelDataLC</name>
+   <name>modelDataRC</name>
    <tag></tag>
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>2b8765a5-d8a7-4e19-bd6d-6da1b9a07fd3</dataFileGUID>
    <dataSourceUrl></dataSourceUrl>
    <driver>InternalData</driver>
-   <data>LC</data>
-   <data>30</data>
+   <data>RC</data>
+   <data>28</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
       <name>1</name>

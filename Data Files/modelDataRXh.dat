@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
    <description></description>
-   <name>modelDataLC</name>
+   <name>modelDataRXh</name>
    <tag></tag>
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>2b8765a5-d8a7-4e19-bd6d-6da1b9a07fd3</dataFileGUID>
    <dataSourceUrl></dataSourceUrl>
    <driver>InternalData</driver>
-   <data>LC</data>
-   <data>30</data>
+   <data>RXh</data>
+   <data>23</data>
+   <data>null</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
       <name>1</name>
-      <size>2</size>
+      <size>3</size>
    </internalDataColumns>
    <isInternalPath>false</isInternalPath>
    <query></query>

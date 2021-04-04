@@ -4,11 +4,11 @@
    <name>All Features CTA - Access all Performance features</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>fb055351-2c9a-4b00-8b2d-d5d2b67a810d</testCaseGuid>
+   <testCaseGuid>a4e2f04b-2149-4f83-86fa-58234cdf260c</testCaseGuid>
    <variable>
       <defaultValue>'LCHero'</defaultValue>
       <description></description>
-      <id>6c8874f7-2731-4f47-a69e-4335111bb001</id>
+      <id>c3c80009-eb79-4cd0-9ce0-582912bd4fe2</id>
       <masked>false</masked>
       <name>ModelPages</name>
    </variable>

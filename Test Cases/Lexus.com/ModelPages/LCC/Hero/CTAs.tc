@@ -18,11 +18,11 @@ BYL CTA is present in hero on mobile, but offers CTA is not.
    <name>CTAs</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>92abc11e-25e9-4ba7-8849-98d1307fd543</testCaseGuid>
+   <testCaseGuid>b03749be-4ebe-4ef0-bdca-29206e240610</testCaseGuid>
    <variable>
       <defaultValue>'LCHero'</defaultValue>
       <description></description>
-      <id>19a7de26-4b88-45d6-85e5-7b168af3d87a</id>
+      <id>7c164456-76ec-48e5-9932-8ac26bbeebd3</id>
       <masked>false</masked>
       <name>ModelPages</name>
    </variable>

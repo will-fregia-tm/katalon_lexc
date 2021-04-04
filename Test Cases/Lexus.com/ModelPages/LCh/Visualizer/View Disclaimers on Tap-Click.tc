@@ -13,11 +13,11 @@ And
    <name>View Disclaimers on Tap-Click</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>15e4cfed-945b-4142-a640-3b3e452415d8</testCaseGuid>
+   <testCaseGuid>ec4b3c28-2b35-4570-bfec-332252451729</testCaseGuid>
    <variable>
       <defaultValue>'LCHero'</defaultValue>
       <description></description>
-      <id>2ebe574d-d979-4285-a44e-b826da1be193</id>
+      <id>c29b2232-7298-4722-a7d2-237c037d17d3</id>
       <masked>false</masked>
       <name>ModelPages</name>
    </variable>
