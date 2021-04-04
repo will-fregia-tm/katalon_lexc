@@ -4,11 +4,11 @@
    <name>All Features CTA - Access all Design features</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>7c9a5edf-a71c-4f9e-bee2-b1785f0ded82</testCaseGuid>
+   <testCaseGuid>95257f73-2cad-4fd6-a0e3-46aba5afadfa</testCaseGuid>
    <variable>
       <defaultValue>'LCHero'</defaultValue>
       <description></description>
-      <id>9d76b0ea-b011-4faf-9099-115f9274213b</id>
+      <id>482e0df5-7050-4260-8ccc-c4610ec368be</id>
       <masked>false</masked>
       <name>ModelPages</name>
    </variable>

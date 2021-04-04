@@ -4,11 +4,11 @@
    <name>All Features CTA - Access all Technology features</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>e45eb14c-6491-4c27-8f60-2b67f19026ef</testCaseGuid>
+   <testCaseGuid>9f5819f3-998a-4454-854c-695578ef0b70</testCaseGuid>
    <variable>
       <defaultValue>'LCHero'</defaultValue>
       <description></description>
-      <id>aea844c4-ee3b-4097-b873-bfa566064ea3</id>
+      <id>861fe62d-d163-41d5-ab49-bb27979d06a0</id>
       <masked>false</masked>
       <name>ModelPages</name>
    </variable>

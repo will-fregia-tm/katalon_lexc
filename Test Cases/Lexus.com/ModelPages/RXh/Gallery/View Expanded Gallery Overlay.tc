@@ -9,11 +9,11 @@
    <name>View Expanded Gallery Overlay</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>3caeaf26-6b1f-481b-a3b2-26e45ef5c323</testCaseGuid>
+   <testCaseGuid>e6a53cec-ad15-47f9-bebc-0997bc38e12e</testCaseGuid>
    <variable>
       <defaultValue>'LCHero'</defaultValue>
       <description></description>
-      <id>fbb71bfa-2828-4d7f-9013-f33a16fd7dc0</id>
+      <id>625ec2d4-02fc-4bc1-957e-16f8528d5288</id>
       <masked>false</masked>
       <name>ModelPages</name>
    </variable>

@@ -13,11 +13,11 @@
    <name>Browse Offers</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>e50872ea-8a1f-4514-99fa-75631e2dc56e</testCaseGuid>
+   <testCaseGuid>9f5e37ec-0e7f-42d1-8502-4e98b7994b7b</testCaseGuid>
    <variable>
       <defaultValue>'LCHero'</defaultValue>
       <description></description>
-      <id>06ce7fe9-0c19-47fb-b459-a8002a29fafa</id>
+      <id>77256859-e0ba-40e9-9616-cc0aa8862a0b</id>
       <masked>false</masked>
       <name>ModelPages</name>
    </variable>

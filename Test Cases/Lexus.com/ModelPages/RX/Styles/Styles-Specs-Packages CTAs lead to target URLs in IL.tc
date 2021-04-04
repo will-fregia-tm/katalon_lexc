@@ -7,11 +7,11 @@
    <name>Styles-Specs-Packages CTAs lead to target URLs in IL</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>f91b92bf-229b-4764-a268-06f1aa43f56d</testCaseGuid>
+   <testCaseGuid>7003c1c0-c9c8-42f3-8bc2-11aebf03af17</testCaseGuid>
    <variable>
       <defaultValue>'LCHero'</defaultValue>
       <description></description>
-      <id>c89f0b2c-757e-427b-9054-f69f0120adac</id>
+      <id>23cf5b90-dfa3-4f53-ab01-d73d3ec969dc</id>
       <masked>false</masked>
       <name>ModelPages</name>
    </variable>

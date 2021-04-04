@@ -12,11 +12,11 @@
    <name>View Gallery</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>75997a72-2ff5-4a80-aed8-22d693d0d254</testCaseGuid>
+   <testCaseGuid>86410b1c-ce32-462c-8687-341522b81612</testCaseGuid>
    <variable>
       <defaultValue>'LCHero'</defaultValue>
       <description></description>
-      <id>80a9a8f8-dd9e-4cdd-b164-366f15326971</id>
+      <id>8e8fd6fc-77e4-46de-8feb-620fc4038093</id>
       <masked>false</masked>
       <name>ModelPages</name>
    </variable>

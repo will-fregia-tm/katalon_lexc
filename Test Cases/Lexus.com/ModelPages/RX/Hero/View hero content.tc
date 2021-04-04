@@ -19,11 +19,11 @@
    <name>View hero content</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>6e64bde4-cd5c-46a2-b09b-d729e66e2388</testCaseGuid>
+   <testCaseGuid>6e380505-3649-47a2-9ed9-5424c41f792e</testCaseGuid>
    <variable>
       <defaultValue>'LCHero'</defaultValue>
       <description></description>
-      <id>63524388-7fb8-4c37-a9c9-43a4a8a89220</id>
+      <id>a143bfb9-4d63-4155-834e-4c467bda091e</id>
       <masked>false</masked>
       <name>ModelPages</name>
    </variable>

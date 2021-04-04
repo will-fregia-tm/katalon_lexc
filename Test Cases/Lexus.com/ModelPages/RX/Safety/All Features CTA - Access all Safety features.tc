@@ -4,11 +4,11 @@
    <name>All Features CTA - Access all Safety features</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>b95409ad-1f3a-43d4-aba3-5b6ab4edd415</testCaseGuid>
+   <testCaseGuid>752a086c-f01d-4f3f-9275-2d8fa1ffa36d</testCaseGuid>
    <variable>
       <defaultValue>'LCHero'</defaultValue>
       <description></description>
-      <id>679f9d9b-3ae6-4d89-9d1f-a236d1afdac5</id>
+      <id>e95973f3-d25c-490e-95e5-b04b72b4ce54</id>
       <masked>false</masked>
       <name>ModelPages</name>
    </variable>
