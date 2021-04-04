@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User is able to view the following information in gas model hero:
+
+- gas/hybrid-specific asset (video or image)
+
+- (hybrid tag)
+
+- Model Name 
+
+- Model Year
+
+- Pricing (Starting at MSRP, As Shown) -or- Sub-header text
+
+- Disclaimer (when applicable)
+
+- 0 to 3 CTAs
+</description>
+   <name>View hero content</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3b474f22-2fcb-4ac3-80ed-70928be5177c</testCaseGuid>
+   <variable>
+      <defaultValue>'LCHero'</defaultValue>
+      <description></description>
+      <id>ead5e8cc-33ac-4e21-8dd9-68eaaf6026b9</id>
+      <masked>false</masked>
+      <name>ModelPages</name>
+   </variable>
+</TestCaseEntity>

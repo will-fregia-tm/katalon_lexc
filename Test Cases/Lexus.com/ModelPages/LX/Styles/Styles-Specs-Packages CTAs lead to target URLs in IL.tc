@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>CTAs link out to the target URL as defined through the CMS:
+- Clicking on &quot;Compare Styles&quot; CTA opens IL features tab with (selected model-style visibly highlighted - not properly covered because of pseudo element).
+- Clicking on &quot;Specs&quot; CTA opens IL specs tab with (selected model-style visibly highlighted - not properly covered because of pseudo element).
+- Clicking on &quot;Packages&quot; CTA opens overlay with relevant packages displayed.</description>
+   <name>Styles-Specs-Packages CTAs lead to target URLs in IL</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e3ac1988-251c-4636-8d1c-66ff31655ef8</testCaseGuid>
+   <variable>
+      <defaultValue>'LCHero'</defaultValue>
+      <description></description>
+      <id>73473f60-167a-4489-ab08-57049978991f</id>
+      <masked>false</masked>
+      <name>ModelPages</name>
+   </variable>
+</TestCaseEntity>

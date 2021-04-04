@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>- CTAs update on mouseover
+
+When a user tap/clicks on any CTA in the hero module
+Then the system shall:
+- take the user to a page/section that corresponds to the URL in the CTA
+
+There are 2 CTA states for the model page hero section – (1) during sales event, and (2) outside of sales event
+(1) during sales event,
+- Only the offers CTA is present on desktop.
+Both the offers and BYL CTAs are present on mobile.
+(2) outside of sales event
+- No offers or BYL CTAs are present in hero module on desktop.
+BYL CTA is present in hero on mobile, but offers CTA is not.
+
+</description>
+   <name>CTAs</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f1552b18-7beb-4f74-aa77-da5605cbccba</testCaseGuid>
+   <variable>
+      <defaultValue>'LCHero'</defaultValue>
+      <description></description>
+      <id>c23c6601-4ece-4cd2-b8ce-837d205c986f</id>
+      <masked>false</masked>
+      <name>ModelPages</name>
+   </variable>
+</TestCaseEntity>

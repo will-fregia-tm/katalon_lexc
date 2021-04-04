@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>All required elements are present in the gallery:
+
+- 1 primary, 2 secondary images
+- Pagination (1 of N)
+- Carousel tabs (in both directions)
+- User is able to navigate gallery by using carousel arrows.
+- Primary image updates
+- Pagination updates
+</description>
+   <name>View Gallery</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e0e2097a-2437-44ff-ae5f-8ef1874c49dc</testCaseGuid>
+   <variable>
+      <defaultValue>'LCHero'</defaultValue>
+      <description></description>
+      <id>dcd2ccb4-b641-4222-975e-a09c43d0ea26</id>
+      <masked>false</masked>
+      <name>ModelPages</name>
+   </variable>
+</TestCaseEntity>
