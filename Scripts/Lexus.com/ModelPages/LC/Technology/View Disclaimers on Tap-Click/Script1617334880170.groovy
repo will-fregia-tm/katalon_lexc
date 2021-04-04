@@ -21,6 +21,20 @@ import org.openqa.selenium.WebDriver as WebDriver
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 import com.kms.katalon.keyword.excel.ExcelKeywords as ExcelKeywords
 
+def modelSeries = GlobalVariable.currentTestCaseID //get current testcase name
+
+String[] parts = modelSeries.split('/' //split it to using delimeter /
+    )
+
+String three = parts[(parts.length - 3)]
+
+modelSeries = three
+
+int seriesKey = findTestData('modelData' + modelSeries).getValue(1, 2).toInteger()
+
+'checks whether this is a hybrid'
+hybridValue = findTestData('modelData').getValue(2, seriesKey + 90)
+
 WebUI.openBrowser(GlobalVariable.SSO_login, FailureHandling.OPTIONAL)
 
 'these steps are added to handle lower environment authentication'
@@ -35,13 +49,6 @@ if (WebUI.verifyMatch(GlobalVariable.lowerEnvironment, 'yes', false, FailureHand
 
     WebUI.navigateToUrl(GlobalVariable.TS_Domain + GlobalVariable.legacyURL)
 }
-
-modelSeries = findTestData('modelData').getValue(1, 1)
-
-int seriesKey = findTestData('modelData').getValue(1, 2).toInteger()
-
-'checks whether this is a hybrid'
-hybridValue = findTestData('modelData').getValue(2, seriesKey + 90)
 
 WebUI.navigateToUrl(GlobalVariable.AEM_Domain + findTestData('modelData').getValue(GlobalVariable.dataColumn, seriesKey))
 

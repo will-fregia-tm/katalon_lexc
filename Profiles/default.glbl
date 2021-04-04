@@ -161,7 +161,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>30</initValue>
+      <initValue>29</initValue>
       <name>seriesKeyRCF</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -181,12 +181,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>11</initValue>
-      <name>seriesKey</name>
+      <initValue>''</initValue>
+      <name>currentTestSuiteID</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>''</initValue>
-      <name>currentTestSuiteID</name>
+      <initValue>'yes'</initValue>
+      <name>modelData</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
