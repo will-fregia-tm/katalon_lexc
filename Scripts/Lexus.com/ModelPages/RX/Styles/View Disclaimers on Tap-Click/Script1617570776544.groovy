@@ -166,14 +166,18 @@ if (WebUI.verifyElementPresent(findTestObject('ModelPages/Styles/trim 2 link'), 
         'When a user tap/clicks on the disclaimer tooltip close button (X)'
         WebUI.click(findTestObject('ModelPages/Disclaimers/disclaimer close button'), FailureHandling.STOP_ON_FAILURE)
 
-        WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
+        WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
         'Then the system shall hide the tooltip'
         WebUI.verifyElementNotPresent(findTestObject('ModelPages/Disclaimers/disclaimer copy'), 0, FailureHandling.STOP_ON_FAILURE)
 
         'tests if asterisk disclaimer is present'
         if (WebUI.verifyElementPresent(findTestObject('ModelPages/Styles/asterisk disclaimer 2'), 3, FailureHandling.OPTIONAL)) {
-            WebUI.click(findTestObject('ModelPages/Styles/asterisk disclaimer 2'), FailureHandling.STOP_ON_FAILURE)
+            WebUI.click(findTestObject('ModelPages/Styles/trim 2 link'), FailureHandling.OPTIONAL)
+
+            WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+            WebUI.click(findTestObject('ModelPages/Styles/asterisk disclaimer 2'), FailureHandling.OPTIONAL)
 
             WebUI.delay(2)
 
