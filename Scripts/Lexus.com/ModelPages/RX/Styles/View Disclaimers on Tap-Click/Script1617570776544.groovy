@@ -140,7 +140,7 @@ if (WebUI.verifyElementPresent(findTestObject('ModelPages/Styles/asterisk discla
 
 'continues testing if there is another trim available'
 if (WebUI.verifyElementPresent(findTestObject('ModelPages/Styles/trim 2 link'), 3, FailureHandling.OPTIONAL)) {
-    WebUI.click(findTestObject('ModelPages/Styles/trim 2 link'))
+    WebUI.click(findTestObject('ModelPages/Styles/trim 2 link'), FailureHandling.OPTIONAL)
 
     WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
 
@@ -175,7 +175,7 @@ if (WebUI.verifyElementPresent(findTestObject('ModelPages/Styles/trim 2 link'), 
         if (WebUI.verifyElementPresent(findTestObject('ModelPages/Styles/asterisk disclaimer 2'), 3, FailureHandling.OPTIONAL)) {
             WebUI.click(findTestObject('ModelPages/Styles/asterisk disclaimer 2'), FailureHandling.STOP_ON_FAILURE)
 
-            WebUI.delay(1)
+            WebUI.delay(2)
 
             WebUI.verifyElementPresent(findTestObject('ModelPages/Disclaimers/disclaimer copy'), 0)
 
@@ -190,7 +190,7 @@ if (WebUI.verifyElementPresent(findTestObject('ModelPages/Styles/trim 2 link'), 
 
             WebUI.click(findTestObject('ModelPages/Disclaimers/disclaimer close button'), FailureHandling.STOP_ON_FAILURE)
 
-            WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
+            WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
             WebUI.verifyElementNotPresent(findTestObject('ModelPages/Disclaimers/disclaimer copy'), 0, FailureHandling.STOP_ON_FAILURE)
 
@@ -223,7 +223,7 @@ if (WebUI.verifyElementPresent(findTestObject('ModelPages/Styles/trim 2 link'), 
 
 'continues testing if there is another trim available'
 if (WebUI.verifyElementPresent(findTestObject('ModelPages/Styles/trim 3 link'), 3, FailureHandling.OPTIONAL)) {
-    WebUI.click(findTestObject('ModelPages/Styles/trim 3 link'))
+    WebUI.click(findTestObject('ModelPages/Styles/trim 3 link'), FailureHandling.OPTIONAL)
 
     WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
 

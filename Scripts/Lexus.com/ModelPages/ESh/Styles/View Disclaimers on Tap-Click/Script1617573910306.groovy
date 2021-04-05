@@ -223,7 +223,7 @@ if (WebUI.verifyElementPresent(findTestObject('ModelPages/Styles/trim 2 link'), 
 
 'continues testing if there is another trim available'
 if (WebUI.verifyElementPresent(findTestObject('ModelPages/Styles/trim 3 link'), 3, FailureHandling.OPTIONAL)) {
-    WebUI.click(findTestObject('ModelPages/Styles/trim 3 link'))
+    WebUI.click(findTestObject('ModelPages/Styles/trim 3 link'), FailureHandling.OPTIONAL)
 
     WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
 

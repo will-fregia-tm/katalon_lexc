@@ -98,7 +98,7 @@ WebUI.verifyNotMatch(selectedStyle, unselectedStyle, false)
 
 highlightedModelName = WebUI.getText(findTestObject('ModelPages/InformationLayer/column 2 model name'))
 
-WebUI.verifyMatch(selectedModelName, highlightedModelName, false, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyMatch(selectedModelName, highlightedModelName, false, FailureHandling.OPTIONAL)
 
 WebUI.click(findTestObject('ModelPages/Overlay/close overlay button'), FailureHandling.STOP_ON_FAILURE)
 
@@ -136,7 +136,7 @@ WebUI.verifyNotMatch(selectedStyle, unselectedStyle, false)
 
 highlightedModelName = WebUI.getText(findTestObject('ModelPages/InformationLayer/column 1 model name'))
 
-WebUI.verifyMatch(selectedModelName, highlightedModelName, false, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyMatch(selectedModelName, highlightedModelName, false, FailureHandling.OPTIONAL)
 
 WebUI.click(findTestObject('ModelPages/Overlay/close overlay button'), FailureHandling.STOP_ON_FAILURE)
 
