@@ -52,14 +52,12 @@ if (WebUI.verifyMatch(GlobalVariable.lowerEnvironment, 'yes', false, FailureHand
 
 WebUI.navigateToUrl(GlobalVariable.AEM_Domain + findTestData('modelData').getValue(GlobalVariable.dataColumn, seriesKey))
 
-WebUI.waitForPageLoad(0)
-
 'this step is added to handle a slow or partial page load'
-if (WebUI.verifyElementNotPresent(findTestObject('ModelPages/Hero/hero module'), 10, FailureHandling.OPTIONAL)) {
+if (WebUI.verifyElementNotPresent(findTestObject('ModelPages/Hero/hero module'), 3, FailureHandling.OPTIONAL)) {
     WebUI.refresh()
 }
 
-WebUI.waitForElementPresent(findTestObject('ModelPages/Hero/hero module'), 20, FailureHandling.OPTIONAL)
+WebUI.waitForElementPresent(findTestObject('ModelPages/Hero/hero module'), 3, FailureHandling.OPTIONAL)
 
 WebUI.verifyElementVisible(findTestObject('ModelPages/Hero/asset - image'))
 

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As a site-owner, I want to be able to display legal disclaimers next to necessary copy and content, so that I can ensure that all legal requirements are fulfilled.
+
+*AC: Tap/Click &quot;*&quot;*
+- When a user tap/clicks on a disclaimer &quot;*&quot; on the model page
+Then the system shall:
+- * display the appropriate disclaimer text in a disclaimer tooltip dialog box
+- * provide the ability to close the tooltip
+And
+- When a user tap/clicks on the disclaimer tooltip close button (X)
+- Then the system shall hide the tooltip</description>
+   <name>View Disclaimers on Tap-Click - mobile</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0f9b0b56-6a7c-462e-a95b-2965dbbabe17</testCaseGuid>
+   <variable>
+      <defaultValue>'LCHero'</defaultValue>
+      <description></description>
+      <id>9a927540-aaf1-4b4d-866f-7101664eca36</id>
+      <masked>false</masked>
+      <name>ModelPages</name>
+   </variable>
+</TestCaseEntity>
