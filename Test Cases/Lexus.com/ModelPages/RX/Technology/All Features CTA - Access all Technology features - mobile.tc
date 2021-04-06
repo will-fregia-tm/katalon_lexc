@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>- Clicking on All Technology CTA leads to IL features tab with open Technology accordion.</description>
+   <name>All Features CTA - Access all Technology features - mobile</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b305e222-2d6a-45d2-b57e-43126e23dcba</testCaseGuid>
+   <variable>
+      <defaultValue>'LCHero'</defaultValue>
+      <description></description>
+      <id>3538daa5-e58b-4f28-9070-2f803c5881cb</id>
+      <masked>false</masked>
+      <name>ModelPages</name>
+   </variable>
+</TestCaseEntity>

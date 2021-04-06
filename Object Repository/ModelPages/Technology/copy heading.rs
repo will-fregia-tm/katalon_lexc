@@ -1,20 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>mobile nav button</name>
+   <name>copy heading</name>
    <tag></tag>
-   <elementGuidId>a775e313-0fcd-4033-bf0a-c2bf58b81088</elementGuidId>
+   <elementGuidId>865d1d02-5bab-4e7d-b13e-c6ebc46d8c2f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-      </entry>
-      <entry>
          <key>CSS</key>
-         <value>[id*=&quot;sub&quot;] button</value>
+         <value>[id*=&quot;technology&quot;] h4</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@id=&quot;root&quot;]/div/div[1]/div/div/div/div[2]/button</value>
+         <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>
