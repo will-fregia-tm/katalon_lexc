@@ -215,4 +215,16 @@
          <variableId>1ff82562-5077-412f-a344-d3fc05a675bd</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>68913c05-082e-4a13-94bb-226aa6ed7ac0</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/GX/Subnav/Deep link takes user to pre-determined location on page - Signup Form</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>385471bc-6df8-4a5b-917a-dd9457e497f7</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>

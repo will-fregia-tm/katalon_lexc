@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>When following a deep linking URL the appropriate data is displayed on the form.</description>
+   <name>Deep link takes user to pre-determined location on page - Signup Form</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3cd7b43a-46ad-4f4a-82e2-9332a2b3fd56</testCaseGuid>
+   <variable>
+      <defaultValue>'LCHero'</defaultValue>
+      <description></description>
+      <id>ab3fea28-7dc7-469c-ba9e-74e20ad4fcbc</id>
+      <masked>false</masked>
+      <name>ModelPages</name>
+   </variable>
+</TestCaseEntity>

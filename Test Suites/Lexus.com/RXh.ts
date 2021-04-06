@@ -215,4 +215,16 @@
          <variableId>89044e59-e658-429f-aaca-160b5fc00e8d</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>e7c37a2b-3c72-421d-9704-e5af95589dde</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/RXh/Subnav/Deep link takes user to pre-determined location on page - Signup Form</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>1c6031d6-0943-4988-8118-3a98066e4888</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>

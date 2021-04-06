@@ -108,7 +108,7 @@ modelName = WebUI.getText(findTestObject('ModelPages/Hero/model name'))
 modelSeries2 = ((modelSeries - ' C') - 'h')
 
 'verifies correct model name text'
-WebUI.verifyMatch(modelName, modelSeries2, false)
+WebUI.verifyMatch(modelName, 'RC F', false)
 
 WebUI.verifyElementVisible(findTestObject('ModelPages/Hero/model year'))
 

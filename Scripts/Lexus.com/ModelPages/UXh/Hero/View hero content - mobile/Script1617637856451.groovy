@@ -68,7 +68,7 @@ expectedValue = findTestData('modelData').getValue(GlobalVariable.dataColumn, se
 
 valueWithoutExpected = (actualValue - expectedValue)
 
-WebUI.verifyNotMatch(valueWithoutExpected, actualValue, false, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyNotMatch(valueWithoutExpected, actualValue, false, FailureHandling.CONTINUE_ON_FAILURE)
 
 'tests this if video asset is present'
 if (WebUI.verifyElementPresent(findTestObject('ModelPages/Hero/asset - video - mp4'), 3, FailureHandling.OPTIONAL)) {
@@ -105,7 +105,7 @@ WebUI.verifyElementVisible(findTestObject('ModelPages/Hero/model name'))
 modelName = WebUI.getText(findTestObject('ModelPages/Hero/model name'))
 
 'edits model names (e.g. ESh) to match series names (e.g. ES)'
-modelSeries2 = ((modelSeries - ' C') - 'h')
+modelSeries2 = (modelSeries - 'h')
 
 'verifies correct model name text'
 WebUI.verifyMatch(modelName, modelSeries2, false)

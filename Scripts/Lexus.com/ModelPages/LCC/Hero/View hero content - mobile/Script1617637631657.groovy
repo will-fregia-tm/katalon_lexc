@@ -105,7 +105,7 @@ WebUI.verifyElementVisible(findTestObject('ModelPages/Hero/model name'))
 modelName = WebUI.getText(findTestObject('ModelPages/Hero/model name'))
 
 'edits model names (e.g. ESh) to match series names (e.g. ES)'
-modelSeries2 = ((modelSeries - ' C') - 'h')
+modelSeries2 = ((modelSeries - 'C') - 'h')
 
 'verifies correct model name text'
 WebUI.verifyMatch(modelName, modelSeries2, false)

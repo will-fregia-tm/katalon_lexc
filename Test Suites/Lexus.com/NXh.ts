@@ -215,4 +215,16 @@
          <variableId>a68042e5-c33b-41c8-a078-93c5f9d52901</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>5767211b-b09c-4ab6-a7c7-3b39e33aad9e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/NXh/Subnav/Deep link takes user to pre-determined location on page - Signup Form</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d28ef5fc-e9e5-4627-bfb0-89cfdb9dc2b3</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>

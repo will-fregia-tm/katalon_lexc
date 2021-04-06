@@ -189,4 +189,14 @@
       <initValue>'yes'</initValue>
       <name>modelData</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'#model_design'</initValue>
+      <name>deeplinkDesign</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'?link[model_overlay_signup][SHOW_PAGE]=true'</initValue>
+      <name>deeplinkSignup</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

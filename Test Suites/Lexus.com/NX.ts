@@ -215,4 +215,16 @@
          <variableId>545de78b-640a-4caa-9fc9-07a46bd009d9</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>c4138d93-c18a-48c1-b00a-15a71b6cde6d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/NX/Subnav/Deep link takes user to pre-determined location on page - Signup Form</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>cb5545a1-de38-4e50-ac6d-1ce1940d6b9a</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>
