@@ -6,12 +6,11 @@
    <elementGuidId>9aa707b6-89ff-456a-bb23-6300f8e32144</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//*[contains(@id, 'Selector')]/parent::div/following-sibling::div//div[contains(@style, '360')][1]</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//*[contains(@id, 'Selector')]/parent::div/following-sibling::div//div[contains(@style, 'width: 35')][1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

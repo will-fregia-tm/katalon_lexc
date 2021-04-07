@@ -6,12 +6,12 @@
    <elementGuidId>3c8d5096-2a27-42e9-9b61-4116e8e7462e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//*[contains(@id, 'Selector')]/parent::div/following-sibling::div//div[contains(@style, '360')][3]//span/following-sibling::div/div[(contains(text(), '20') or contains(., '20'))]</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//*[(contains(text(), '20') or contains(., '20'))]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//*[contains(@id, 'Selector')]/parent::div/following-sibling::div//span/following-sibling::div/div[(contains(text(), '20') or contains(., '20'))])[3]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

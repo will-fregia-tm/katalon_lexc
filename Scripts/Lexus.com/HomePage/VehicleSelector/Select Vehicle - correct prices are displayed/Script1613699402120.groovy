@@ -476,7 +476,7 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/model
 if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/models/RC F'), 3, FailureHandling.OPTIONAL)) {
     WebUI.click(findTestObject('Homepage/VehicleSelectorAEM/models/RC F'), FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.delay(1)
+    WebUI.delay(3)
 
     vehiclePrice = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle price'), FailureHandling.STOP_ON_FAILURE)
 

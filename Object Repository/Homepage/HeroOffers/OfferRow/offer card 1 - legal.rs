@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>div[style*=&quot;left: 0px&quot;] div[role*=&quot;tabpanel&quot;] p</value>
+         <value>#page section  div[style*=&quot;width: 3&quot;]:nth-of-type(1) div[role*=&quot;tabpanel&quot;] p</value>
       </entry>
       <entry>
          <key>BASIC</key>
