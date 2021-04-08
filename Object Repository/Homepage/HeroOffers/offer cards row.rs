@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>section div[height]</value>
+         <value>#page section  div[style*=&quot;width: 10&quot;]:nth-of-type(1)</value>
       </entry>
       <entry>
          <key>BASIC</key>

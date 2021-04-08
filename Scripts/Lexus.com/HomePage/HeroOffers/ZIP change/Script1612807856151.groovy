@@ -93,7 +93,7 @@ if (WebUI.verifyMatch(GlobalVariable.legacy, 'no', false, FailureHandling.OPTION
     if (WebUI.verifyElementNotPresent(findTestObject('GlobalNav/header/header - Lexus logo'), 3, FailureHandling.OPTIONAL)) {
         WebUI.refresh()
 
-        WebUI.delay(2)
+        WebUI.delay(4)
     }
     
     WebUI.verifyElementVisibleInViewport(findTestObject('Homepage/HeroModule/hero module'), 0, FailureHandling.STOP_ON_FAILURE)
