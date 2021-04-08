@@ -227,4 +227,28 @@
          <variableId>385471bc-6df8-4a5b-917a-dd9457e497f7</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>28d93559-9f9f-4ecd-8ad5-f19c98e42291</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/GX/InfoLayer/Features - Correct MSRPs for each trim</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>b7f87806-8afc-4a7f-9e0a-532839dad20e</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>75ae5086-f7ae-46ef-92f5-25b941993cdd</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/GX/InfoLayer/Specs - Correct MSRPs for each trim</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7aaeda67-0e45-4cc8-a1d0-cbdd11d4ed20</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>

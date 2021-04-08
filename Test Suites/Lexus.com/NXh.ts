@@ -227,4 +227,28 @@
          <variableId>d28ef5fc-e9e5-4627-bfb0-89cfdb9dc2b3</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>a2159f87-80d2-4a82-833d-63a9f589702a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/NXh/InfoLayer/Features - Correct MSRPs for each trim</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c13d50bf-57c7-457d-81c9-3edc42a5fbab</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>58aa5331-f6f6-4646-ba97-2cd9d6f550a3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/NXh/InfoLayer/Specs - Correct MSRPs for each trim</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a453489a-d841-49cc-be93-71bd378ba9fc</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>
