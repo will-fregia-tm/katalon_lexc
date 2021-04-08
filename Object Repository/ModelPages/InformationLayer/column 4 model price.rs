@@ -15,7 +15,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//*[contains(@id, 'model_info')]//span/parent::div[(contains(text(), '$') or contains(., '$'))])[4]</value>
+         <value>(//*[contains(@id, 'model_info')]//span/parent::div/parent::div[(contains(text(), '$') or contains(., '$'))])[4]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
