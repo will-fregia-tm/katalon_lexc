@@ -60,11 +60,11 @@ WebUI.click(findTestObject('ModelPages/Subnav/styles link'), FailureHandling.OPT
 
 WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.mouseOver(findTestObject('ModelPages/Styles/Compare Styles CTA'), FailureHandling.OPTIONAL)
+WebUI.mouseOver(findTestObject('ModelPages/Styles/Specs CTA'), FailureHandling.OPTIONAL)
 
 WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('ModelPages/Styles/Compare Styles CTA'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('ModelPages/Styles/Specs CTA'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
@@ -82,15 +82,15 @@ valueWithoutExpected = (actualValue - expectedValue)
 WebUI.verifyNotMatch(valueWithoutExpected, actualValue, false, FailureHandling.STOP_ON_FAILURE)
 
 'continues testing if there is another model price'
-not_run: if (WebUI.verifyElementPresent(findTestObject('ModelPages/InformationLayer/column 2 model price'), 3, FailureHandling.OPTIONAL)) {
+if (WebUI.verifyElementPresent(findTestObject('ModelPages/InformationLayer/column 2 model price'), 3, FailureHandling.OPTIONAL)) {
     'these steps validate that the actual value contains an expected value'
     actualValue = WebUI.getText(findTestObject('ModelPages/InformationLayer/column 2 model price'), FailureHandling.STOP_ON_FAILURE)
 
     modelName = WebUI.getText(findTestObject('ModelPages/InformationLayer/column 2 model name'), FailureHandling.STOP_ON_FAILURE)
 
-    int trimCode = findTestData('trimCode_' + modelName).getValue(1, 1).toInteger()
+    int trimCode2 = findTestData('trimCode_' + modelName).getValue(1, 1).toInteger()
 
-    expectedValue = findTestData('MSRP').getValue(GlobalVariable.dataColumn, trimCode)
+    expectedValue = findTestData('MSRP').getValue(GlobalVariable.dataColumn, trimCode2)
 
     valueWithoutExpected = (actualValue - expectedValue)
 
@@ -103,9 +103,9 @@ not_run: if (WebUI.verifyElementPresent(findTestObject('ModelPages/InformationLa
 
         modelName = WebUI.getText(findTestObject('ModelPages/InformationLayer/column 3 model name'), FailureHandling.STOP_ON_FAILURE)
 
-        int trimCode = findTestData('trimCode_' + modelName).getValue(1, 1).toInteger()
+        int trimCode3 = findTestData('trimCode_' + modelName).getValue(1, 1).toInteger()
 
-        expectedValue = findTestData('MSRP').getValue(GlobalVariable.dataColumn, trimCode)
+        expectedValue = findTestData('MSRP').getValue(GlobalVariable.dataColumn, trimCode3)
 
         valueWithoutExpected = (actualValue - expectedValue)
 
@@ -118,9 +118,9 @@ not_run: if (WebUI.verifyElementPresent(findTestObject('ModelPages/InformationLa
 
             modelName = WebUI.getText(findTestObject('ModelPages/InformationLayer/column 4 model name'), FailureHandling.STOP_ON_FAILURE)
 
-            int trimCode = findTestData('trimCode_' + modelName).getValue(1, 1).toInteger()
+            int trimCode4 = findTestData('trimCode_' + modelName).getValue(1, 1).toInteger()
 
-            expectedValue = findTestData('MSRP').getValue(GlobalVariable.dataColumn, trimCode)
+            expectedValue = findTestData('MSRP').getValue(GlobalVariable.dataColumn, trimCode4)
 
             valueWithoutExpected = (actualValue - expectedValue)
 
@@ -133,9 +133,9 @@ not_run: if (WebUI.verifyElementPresent(findTestObject('ModelPages/InformationLa
 
                 modelName = WebUI.getText(findTestObject('ModelPages/InformationLayer/column 5 model name'), FailureHandling.STOP_ON_FAILURE)
 
-                int trimCode = findTestData('trimCode_' + modelName).getValue(1, 1).toInteger()
+                int trimCode5 = findTestData('trimCode_' + modelName).getValue(1, 1).toInteger()
 
-                expectedValue = findTestData('MSRP').getValue(GlobalVariable.dataColumn, trimCode)
+                expectedValue = findTestData('MSRP').getValue(GlobalVariable.dataColumn, trimCode5)
 
                 valueWithoutExpected = (actualValue - expectedValue)
 
@@ -148,9 +148,9 @@ not_run: if (WebUI.verifyElementPresent(findTestObject('ModelPages/InformationLa
 
                     modelName = WebUI.getText(findTestObject('ModelPages/InformationLayer/column 6 model name'), FailureHandling.STOP_ON_FAILURE)
 
-                    int trimCode = findTestData('trimCode_' + modelName).getValue(1, 1).toInteger()
+                    int trimCode6 = findTestData('trimCode_' + modelName).getValue(1, 1).toInteger()
 
-                    expectedValue = findTestData('MSRP').getValue(GlobalVariable.dataColumn, trimCode)
+                    expectedValue = findTestData('MSRP').getValue(GlobalVariable.dataColumn, trimCode6)
 
                     valueWithoutExpected = (actualValue - expectedValue)
 
@@ -165,9 +165,9 @@ not_run: if (WebUI.verifyElementPresent(findTestObject('ModelPages/InformationLa
 
                         modelName = WebUI.getText(findTestObject('ModelPages/InformationLayer/column 7 model name'), FailureHandling.STOP_ON_FAILURE)
 
-                        int trimCode = findTestData('trimCode_' + modelName).getValue(1, 1).toInteger()
+                        int trimCode7 = findTestData('trimCode_' + modelName).getValue(1, 1).toInteger()
 
-                        expectedValue = findTestData('MSRP').getValue(GlobalVariable.dataColumn, trimCode)
+                        expectedValue = findTestData('MSRP').getValue(GlobalVariable.dataColumn, trimCode7)
 
                         valueWithoutExpected = (actualValue - expectedValue)
 
@@ -183,9 +183,9 @@ not_run: if (WebUI.verifyElementPresent(findTestObject('ModelPages/InformationLa
                             modelName = WebUI.getText(findTestObject('ModelPages/InformationLayer/column 8 model name'), 
                                 FailureHandling.STOP_ON_FAILURE)
 
-                            int trimCode = findTestData('trimCode_' + modelName).getValue(1, 1).toInteger()
+                            int trimCode8 = findTestData('trimCode_' + modelName).getValue(1, 1).toInteger()
 
-                            expectedValue = findTestData('MSRP').getValue(GlobalVariable.dataColumn, trimCode)
+                            expectedValue = findTestData('MSRP').getValue(GlobalVariable.dataColumn, trimCode8)
 
                             valueWithoutExpected = (actualValue - expectedValue)
 
@@ -201,9 +201,9 @@ not_run: if (WebUI.verifyElementPresent(findTestObject('ModelPages/InformationLa
                                 modelName = WebUI.getText(findTestObject('ModelPages/InformationLayer/column 9 model name'), 
                                     FailureHandling.STOP_ON_FAILURE)
 
-                                int trimCode = findTestData('trimCode_' + modelName).getValue(1, 1).toInteger()
+                                int trimCode9 = findTestData('trimCode_' + modelName).getValue(1, 1).toInteger()
 
-                                expectedValue = findTestData('MSRP').getValue(GlobalVariable.dataColumn, trimCode)
+                                expectedValue = findTestData('MSRP').getValue(GlobalVariable.dataColumn, trimCode9)
 
                                 valueWithoutExpected = (actualValue - expectedValue)
 
@@ -219,9 +219,9 @@ not_run: if (WebUI.verifyElementPresent(findTestObject('ModelPages/InformationLa
                                     modelName = WebUI.getText(findTestObject('ModelPages/InformationLayer/column 10 model name'), 
                                         FailureHandling.STOP_ON_FAILURE)
 
-                                    int trimCode = findTestData('trimCode_' + modelName).getValue(1, 1).toInteger()
+                                    int trimCode10 = findTestData('trimCode_' + modelName).getValue(1, 1).toInteger()
 
-                                    expectedValue = findTestData('MSRP').getValue(GlobalVariable.dataColumn, trimCode)
+                                    expectedValue = findTestData('MSRP').getValue(GlobalVariable.dataColumn, trimCode10)
 
                                     valueWithoutExpected = (actualValue - expectedValue)
 
@@ -237,9 +237,9 @@ not_run: if (WebUI.verifyElementPresent(findTestObject('ModelPages/InformationLa
                                         modelName = WebUI.getText(findTestObject('ModelPages/InformationLayer/column 11 model name'), 
                                             FailureHandling.STOP_ON_FAILURE)
 
-                                        int trimCode = findTestData('trimCode_' + modelName).getValue(1, 1).toInteger()
+                                        int trimCode11 = findTestData('trimCode_' + modelName).getValue(1, 1).toInteger()
 
-                                        expectedValue = findTestData('MSRP').getValue(GlobalVariable.dataColumn, trimCode)
+                                        expectedValue = findTestData('MSRP').getValue(GlobalVariable.dataColumn, trimCode11)
 
                                         valueWithoutExpected = (actualValue - expectedValue)
 
@@ -255,9 +255,9 @@ not_run: if (WebUI.verifyElementPresent(findTestObject('ModelPages/InformationLa
                                             modelName = WebUI.getText(findTestObject('ModelPages/InformationLayer/column 12 model name'), 
                                                 FailureHandling.STOP_ON_FAILURE)
 
-                                            int trimCode = findTestData('trimCode_' + modelName).getValue(1, 1).toInteger()
+                                            int trimCode12 = findTestData('trimCode_' + modelName).getValue(1, 1).toInteger()
 
-                                            expectedValue = findTestData('MSRP').getValue(GlobalVariable.dataColumn, trimCode)
+                                            expectedValue = findTestData('MSRP').getValue(GlobalVariable.dataColumn, trimCode12)
 
                                             valueWithoutExpected = (actualValue - expectedValue)
 

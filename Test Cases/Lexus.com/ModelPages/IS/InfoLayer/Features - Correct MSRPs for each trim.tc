@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>Correct MSRP values appear for each trim in IL features tab.</description>
-   <name>Features - Correct MSRPs for each trim - Copy</name>
+   <name>Features - Correct MSRPs for each trim</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>13106c32-c19f-4a5f-9044-0fdd1b96dee3</testCaseGuid>
+   <testCaseGuid>4e2d6a07-8ffe-4ab3-b076-9fd23e21adc6</testCaseGuid>
    <variable>
       <defaultValue>'LCHero'</defaultValue>
       <description></description>
-      <id>b8db70b8-f72c-418c-97ba-11558adfaed9</id>
+      <id>b737d721-320f-41de-b113-60273b155039</id>
       <masked>false</masked>
       <name>ModelPages</name>
    </variable>
