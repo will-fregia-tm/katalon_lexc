@@ -31,7 +31,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Prod,OffersPage'</initValue>
+      <initValue>'Prod,OffersPage,AEM'</initValue>
       <name>profileTags</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

@@ -26,7 +26,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'originStaging,OffersPage'</initValue>
+      <initValue>'originStaging,OffersPage,AEM'</initValue>
       <name>profileTags</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
