@@ -130,7 +130,7 @@ expectedValue = findTestData('modelData').getValue(GlobalVariable.dataColumn, se
 valueWithoutExpected = (actualValue - expectedValue)
 
 'verifies that correct price appears'
-WebUI.verifyNotMatch(valueWithoutExpected, actualValue, false, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyNotMatch(valueWithoutExpected, actualValue, false, FailureHandling.CONTINUE_ON_FAILURE)
 
 'runs this test if As Shown pricing is present'
 if (WebUI.verifyElementPresent(findTestObject('ModelPages/Hero/as shown MSRP'), 3, FailureHandling.OPTIONAL)) {
