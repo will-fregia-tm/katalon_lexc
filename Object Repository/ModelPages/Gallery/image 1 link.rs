@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>[id*=&quot;gallery&quot;] [data-index=&quot;0&quot;] a</value>
+         <value>[id*=&quot;gallery&quot;] [data-index=&quot;0&quot;] button</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>
