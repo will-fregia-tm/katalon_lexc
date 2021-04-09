@@ -7,13 +7,16 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[(contains(text(), 'lose') or contains(., 'lose'))]/following-sibling::div/div/div/div//button[2]/preceding-sibling::button</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>#SubPageOverlayScroll > div > div > button:nth-child(2)</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
 </WebElementEntity>

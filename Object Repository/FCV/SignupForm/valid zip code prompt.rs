@@ -6,11 +6,11 @@
    <elementGuidId>4e377374-3d2f-4843-807b-b37b07db210c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@id=&quot;SubPageOverlayScroll&quot;]/div/div/div/form/div[4]/label/span[text()[contains(.,'Please enter a valid 5 digit ZIP Code')]]</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//form[@action = 'POST']/parent::div/parent::div/parent::div/parent::div/parent::div//div[contains(@id, 'o')]//span[text()[contains(.,'Please enter a valid 5 digit ZIP Code')]]</value>
       </entry>
       <entry>
          <key>CSS</key>

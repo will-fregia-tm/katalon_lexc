@@ -7,13 +7,16 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[@action = 'POST']/parent::div/parent::div/parent::div/parent::div/parent::div//button</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>#page > div > div > div > div > div:nth-child(4) > div > div > div > button</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
 </WebElementEntity>

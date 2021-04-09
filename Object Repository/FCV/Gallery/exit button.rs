@@ -7,13 +7,16 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[(contains(text(), 'lose') or contains(., 'lose'))]/following-sibling::div//button</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#page > div > div > div > div > div:nth-child(2) > div > div:nth-child(2) > div > div > button</value>
+         <value></value>
       </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
 </WebElementEntity>

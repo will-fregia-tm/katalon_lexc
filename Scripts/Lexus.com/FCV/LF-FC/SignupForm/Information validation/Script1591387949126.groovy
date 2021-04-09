@@ -53,34 +53,34 @@ WebUI.waitForElementPresent(findTestObject('FCV/SignupForm/form overlay'), 5, Fa
 
 WebUI.click(findTestObject('FCV/SignupForm/submit button'))
 
-backgroundColor = WebUI.getCSSValue(findTestObject('FCV/SignupForm/input field - first name'), 'background-color')
+backgroundColor = WebUI.getCSSValue(findTestObject('FCV/SignupForm/input field - first name'), 'border-top-color')
 
-if (WebUI.verifyNotMatch(backgroundColor, 'rgba(254, 232, 232, 1)', false, FailureHandling.OPTIONAL)) {
-    WebUI.verifyMatch(backgroundColor, 'rgb(254, 232, 232)', false, FailureHandling.STOP_ON_FAILURE)
+if (WebUI.verifyNotMatch(backgroundColor, 'rgba(251, 13, 27, 1)', false, FailureHandling.OPTIONAL)) {
+    WebUI.verifyMatch(backgroundColor, 'rgb(251, 13, 27)', false, FailureHandling.STOP_ON_FAILURE)
 }
 
 WebUI.verifyElementPresent(findTestObject('FCV/SignupForm/valid first name prompt'), 0)
 
-backgroundColor = WebUI.getCSSValue(findTestObject('FCV/SignupForm/input field - last name'), 'background-color')
+backgroundColor = WebUI.getCSSValue(findTestObject('FCV/SignupForm/input field - last name'), 'border-top-color')
 
-if (WebUI.verifyNotMatch(backgroundColor, 'rgba(254, 232, 232, 1)', false, FailureHandling.OPTIONAL)) {
-    WebUI.verifyMatch(backgroundColor, 'rgb(254, 232, 232)', false, FailureHandling.STOP_ON_FAILURE)
+if (WebUI.verifyNotMatch(backgroundColor, 'rgba(251, 13, 27, 1)', false, FailureHandling.OPTIONAL)) {
+    WebUI.verifyMatch(backgroundColor, 'rgb(251, 13, 27)', false, FailureHandling.STOP_ON_FAILURE)
 }
 
 WebUI.verifyElementPresent(findTestObject('FCV/SignupForm/valid last name prompt'), 0)
 
-backgroundColor = WebUI.getCSSValue(findTestObject('FCV/SignupForm/input field - email'), 'background-color')
+backgroundColor = WebUI.getCSSValue(findTestObject('FCV/SignupForm/input field - email'), 'border-top-color')
 
-if (WebUI.verifyNotMatch(backgroundColor, 'rgba(254, 232, 232, 1)', false, FailureHandling.OPTIONAL)) {
-    WebUI.verifyMatch(backgroundColor, 'rgb(254, 232, 232)', false, FailureHandling.STOP_ON_FAILURE)
+if (WebUI.verifyNotMatch(backgroundColor, 'rgba(251, 13, 27, 1)', false, FailureHandling.OPTIONAL)) {
+    WebUI.verifyMatch(backgroundColor, 'rgb(251, 13, 27)', false, FailureHandling.STOP_ON_FAILURE)
 }
 
 WebUI.verifyElementPresent(findTestObject('FCV/SignupForm/valid email prompt'), 0)
 
-backgroundColor = WebUI.getCSSValue(findTestObject('FCV/SignupForm/input field - zip code'), 'background-color')
+backgroundColor = WebUI.getCSSValue(findTestObject('FCV/SignupForm/input field - zip code'), 'border-top-color')
 
-if (WebUI.verifyNotMatch(backgroundColor, 'rgba(254, 232, 232, 1)', false, FailureHandling.OPTIONAL)) {
-    WebUI.verifyMatch(backgroundColor, 'rgb(254, 232, 232)', false, FailureHandling.STOP_ON_FAILURE)
+if (WebUI.verifyNotMatch(backgroundColor, 'rgba(251, 13, 27, 1)', false, FailureHandling.OPTIONAL)) {
+    WebUI.verifyMatch(backgroundColor, 'rgb(251, 13, 27)', false, FailureHandling.STOP_ON_FAILURE)
 }
 
 WebUI.verifyElementPresent(findTestObject('FCV/SignupForm/valid zip code prompt'), 0)

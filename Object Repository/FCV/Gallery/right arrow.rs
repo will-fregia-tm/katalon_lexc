@@ -7,13 +7,31 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
+         <value>//button[contains(@class, ' ')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[(contains(text(), 'lose') or contains(., 'lose'))]/following-sibling::div/div/div/div//button[2]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>#SubPageOverlayScroll > div > div > button:nth-child(3)</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value> </value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
 </WebElementEntity>

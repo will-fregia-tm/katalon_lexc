@@ -7,13 +7,31 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
+         <value>//div[@data-index = '1']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[(contains(text(), 'lose') or contains(., 'lose'))]/following-sibling::div//div[@data-index = '0']//img</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>#SubPageOverlayScroll > div > div > div > div > div > div > div:nth-child(3) > div > button > div > div > img</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-index</name>
+      <type>Main</type>
+      <value>1</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
 </WebElementEntity>

@@ -7,7 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[(contains(text(), 'lose') or contains(., 'lose'))]/following-sibling::div//div[@data-index = '0']//img</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -15,6 +18,6 @@
 </value>
       </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
 </WebElementEntity>

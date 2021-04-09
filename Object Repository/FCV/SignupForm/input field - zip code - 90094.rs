@@ -7,13 +7,16 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[@action = 'POST']/parent::div/parent::div/parent::div/parent::div/parent::div//div[contains(@id, 'o')]//input[@value = '90094']</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>#SubPageOverlayScroll > div > div > div > form > div:nth-child(4) > label > input[value='90094']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
 </WebElementEntity>

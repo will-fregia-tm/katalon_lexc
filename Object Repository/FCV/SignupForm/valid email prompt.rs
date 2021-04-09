@@ -6,11 +6,11 @@
    <elementGuidId>97493b91-158e-4020-a7db-ba1dc50309ce</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@id=&quot;SubPageOverlayScroll&quot;]/div/div/div/form/div[3]/label/span[text()[contains(.,'Please enter a valid email address')]]</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//form[@action = 'POST']/parent::div/parent::div/parent::div/parent::div/parent::div//div[contains(@id, 'o')]//span[text()[contains(.,'Please enter a valid email address')]]</value>
       </entry>
       <entry>
          <key>CSS</key>

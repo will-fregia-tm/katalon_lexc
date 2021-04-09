@@ -6,13 +6,17 @@
    <elementGuidId>410b97df-2e33-4fc9-ab6e-128d3ca9c6f8</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[@action = 'POST']/parent::div/parent::div/parent::div/parent::div/parent::div//div[contains(@id, 'o')]//input[@name = 'firstName']</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>#SubPageOverlayScroll > div > div > div > form > div:nth-child(1) > label > input</value>
       </entry>
-      <entry>
-         <key>BASIC</key>
-      </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
 </WebElementEntity>

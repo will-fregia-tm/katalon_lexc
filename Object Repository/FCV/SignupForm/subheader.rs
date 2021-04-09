@@ -6,12 +6,11 @@
    <elementGuidId>f0483709-e116-4ca0-9cc7-a0d67e1006a7</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@id=&quot;SubPageOverlayScroll&quot;]/div/div/div/div[1]/div[text()[contains(.,'Get the latest Lexus news')]]</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//form[@action = 'POST']/parent::div/parent::div/parent::div/parent::div/parent::div//div[contains(@id, 'o')]//div[text()[contains(.,'Get the latest Lexus news')]]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
