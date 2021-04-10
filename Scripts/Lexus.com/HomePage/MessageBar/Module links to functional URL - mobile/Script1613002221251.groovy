@@ -60,14 +60,22 @@ WebUI.verifyElementPresent(findTestObject('Homepage/MessageBar/recall CTA'), 0, 
 
 WebUI.verifyElementPresent(findTestObject('Homepage/MessageBar/recall text'), 0, FailureHandling.STOP_ON_FAILURE)
 
-CTA = WebUI.getText(findTestObject('Homepage/MessageBar/recall CTA'), FailureHandling.STOP_ON_FAILURE)
+actualValue = WebUI.getText(findTestObject('Homepage/MessageBar/recall CTA'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyMatch(CTA, 'RECALL INFORMATION', false, FailureHandling.STOP_ON_FAILURE)
+expectedValue = 'RECALL'
 
-text = WebUI.getText(findTestObject('Homepage/MessageBar/recall text'), FailureHandling.STOP_ON_FAILURE)
+valueWithoutExpected = (actualValue - expectedValue)
 
-WebUI.verifyMatch(text, 'YOUR SAFETY IS A TOP PRIORITY FOR LEXUS. VIEW INFORMATION ON SAFETY RECALLS AND FIND OUT IF YOUR LEXUS IS AFFECTED.', 
-    false, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyNotMatch(valueWithoutExpected, actualValue, false, FailureHandling.STOP_ON_FAILURE)
+
+'these steps validate that the actual value contains an expected value'
+actualValue = WebUI.getText(findTestObject('Homepage/MessageBar/recall text'), FailureHandling.CONTINUE_ON_FAILURE)
+
+expectedValue = 'YOUR SAFETY'
+
+valueWithoutExpected = (actualValue - expectedValue)
+
+WebUI.verifyNotMatch(valueWithoutExpected, actualValue, false, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Homepage/MessageBar/recall bar'), FailureHandling.STOP_ON_FAILURE)
 

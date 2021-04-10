@@ -6,11 +6,11 @@
    <elementGuidId>a0c83a07-bba0-4875-9863-1ae855b79566</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
+         <key>CSS</key>
+         <value>a[href*=&quot;/recall&quot;] span:nth-child(2)</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>a[href*=&quot;/recall&quot;] span:nth-child(1)</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>
