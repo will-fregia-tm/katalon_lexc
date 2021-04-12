@@ -6,6 +6,10 @@
    <elementGuidId>ce1be66b-1238-4fc7-ab2d-7537c3f7134d</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>button[aria-label*=&quot;Close Overlay&quot;]</value>
       </entry>
