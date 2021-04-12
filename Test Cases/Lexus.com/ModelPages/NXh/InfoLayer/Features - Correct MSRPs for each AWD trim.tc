@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Correct secondary/AWD MSRP values appear for each trim in IL features tab.</description>
+   <name>Features - Correct MSRPs for each AWD trim</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e77b027b-3429-4945-bb96-7a9dcc4e656e</testCaseGuid>
+   <variable>
+      <defaultValue>'LCHero'</defaultValue>
+      <description></description>
+      <id>0d7b6a87-0e9d-40fa-a0ac-1ebb256c0c6c</id>
+      <masked>false</masked>
+      <name>ModelPages</name>
+   </variable>
+</TestCaseEntity>

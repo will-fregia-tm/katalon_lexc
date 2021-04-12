@@ -251,4 +251,28 @@
          <variableId>61e03501-e034-4bff-b361-3d98e8dbc476</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>8d0a61cd-92d9-4ee1-9856-7f42036bec38</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/RXh/InfoLayer/Features - Correct MSRPs for each AWD trim</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c36d331a-9c46-4e30-9e9f-2e3e1c68c414</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>272fc49e-1151-446d-a084-2fe01bc19c53</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/RXh/InfoLayer/Specs - Correct MSRPs for each AWD trim</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d2697a69-6b73-41a8-b1c9-bd0c746753dc</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>

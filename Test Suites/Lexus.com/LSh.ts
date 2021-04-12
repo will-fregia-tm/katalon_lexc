@@ -251,4 +251,28 @@
          <variableId>4d2c91c3-e315-4e5c-92bd-08c0bfdefcfd</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>b10ac2c4-1bb2-43ad-bdfd-2a6f452f0633</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/LSh/InfoLayer/Features - Correct MSRPs for each AWD trim</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>43e7b4a5-1f52-441a-9ae4-7d435fca8aa1</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d392516d-d4ad-41de-b1c3-5fc181816760</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/LSh/InfoLayer/Specs - Correct MSRPs for each AWD trim</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>b5dde028-bb61-4b37-b890-fc49f0520177</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>
