@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Correct MSRPs appear in promo overlay.</description>
+   <name>Correct MSRPs in overlay</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>575df87c-a0e2-4931-84e7-ac26755fc7f1</testCaseGuid>
+   <variable>
+      <defaultValue>'LCHero'</defaultValue>
+      <description></description>
+      <id>c64ae1ba-7335-4d86-8837-6c503a299ab0</id>
+      <masked>false</masked>
+      <name>ModelPages</name>
+   </variable>
+</TestCaseEntity>

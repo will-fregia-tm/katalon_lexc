@@ -25,12 +25,12 @@ WebUI.scrollToElement(findTestObject('ModelPages/Overlay/special edition module'
 
 WebUI.click(findTestObject('ModelPages/Overlay/overlay CTA'), FailureHandling.OPTIONAL)
 
-if (WebUI.verifyElementPresent(findTestObject('ModelPages/Overlay/overlay MSRP'), 0, FailureHandling.OPTIONAL)) {
-    WebUI.verifyElementVisible(findTestObject('ModelPages/Overlay/overlay MSRP'), FailureHandling.STOP_ON_FAILURE)
+if (WebUI.verifyElementPresent(findTestObject('ModelPages/Overlay/starting at price 1'), 0, FailureHandling.OPTIONAL)) {
+    WebUI.verifyElementVisible(findTestObject('ModelPages/Overlay/starting at price 1'), FailureHandling.STOP_ON_FAILURE)
 
-    textWithMSRP = WebUI.getText(findTestObject('ModelPages/Overlay/overlay MSRP'), FailureHandling.STOP_ON_FAILURE)
+    textWithMSRP = WebUI.getText(findTestObject('ModelPages/Overlay/starting at price 1'), FailureHandling.STOP_ON_FAILURE)
 
-    'NX 300h F SPORT AWD BLACK LINE SPECIAL EDITION​'
+   
     expectedMSRP = findTestData(GlobalVariable.DS_version + 'MSRPs').getValue(4, 43)
 
     textWithoutExpectedMSRP = (textWithMSRP - expectedMSRP)

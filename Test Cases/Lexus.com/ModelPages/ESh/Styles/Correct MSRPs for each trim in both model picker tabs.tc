@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Correct MSRP values appear for each trim in Styles module.
+
+When there are two tabs, selecting tabs is represented visually and displays model-style info for selected tab.</description>
+   <name>Correct MSRPs for each trim in both model picker tabs</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b8a9ff11-63a5-4101-8c87-5328654be0d7</testCaseGuid>
+   <variable>
+      <defaultValue>'LCHero'</defaultValue>
+      <description></description>
+      <id>45800dc6-87ef-43dc-b03f-9ec25cddb890</id>
+      <masked>false</masked>
+      <name>ModelPages</name>
+   </variable>
+</TestCaseEntity>

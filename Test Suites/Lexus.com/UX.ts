@@ -231,24 +231,48 @@
       <guid>26a9a23b-c60e-43cb-9a8d-6e131b62aea3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/ModelPages/RXh/InfoLayer/Features - Correct MSRPs for each trim</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/UX/InfoLayer/Features - Correct MSRPs for each trim</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>f651475a-33b1-47b4-b684-069d0243d73d</variableId>
+         <variableId>49c94622-992a-4915-991e-70ac5f581bfe</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>225042e0-af95-4834-9585-fb878728923c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/ModelPages/RXh/InfoLayer/Specs - Correct MSRPs for each trim</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/UX/InfoLayer/Specs - Correct MSRPs for each trim</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>61e03501-e034-4bff-b361-3d98e8dbc476</variableId>
+         <variableId>25bfe438-851d-44c7-9070-93c39920c1f6</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f798ac8d-e079-4af6-b140-a711fce2ed7a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/UX/Styles/Correct MSRPs for each trim</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>bfb15e75-899e-48d5-af9f-2be69a018de9</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>60dbf6aa-e2da-4bc0-af02-fbc4f27383a8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/UX/Promo/Correct MSRPs in overlay</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>fc0ad99c-1193-44b5-925e-36bd8129dccf</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

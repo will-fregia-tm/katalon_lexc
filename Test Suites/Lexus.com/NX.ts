@@ -275,4 +275,28 @@
          <variableId>ed8a8d94-d106-435b-9b43-578833fbe996</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>d01299ee-c750-4cbf-9cf9-1b874a2eece0</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/NX/Styles/Correct MSRPs for each trim</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>5a9f8ef7-81ca-4656-ab14-3b48dfbf6648</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8df2db9d-ef86-479b-91d6-c4a9968ed1e8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/NX/Promo/Correct MSRPs in overlay</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>42b20912-2703-457f-9db9-3242f5f1f94a</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>

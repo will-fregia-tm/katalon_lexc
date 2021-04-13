@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>overlay MSRP</name>
+   <name>trim model name 1</name>
    <tag></tag>
-   <elementGuidId>21fb1d53-8fc4-4c3e-84bc-1b256cfd4ace</elementGuidId>
+   <elementGuidId>acf1cab8-40ae-40da-8b45-251a096df21c</elementGuidId>
    <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//*[contains(@id, 'styles')]//*[(text() = 'STARTING AT' or . = 'STARTING AT')]/parent::div/parent::div/parent::div//span)[1]</value>
+      </entry>
       <entry>
          <key>BASIC</key>
          <value></value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//*[@id=&quot;SpecialEditionHeroInner&quot;]//*[(contains(text(), '$') or contains(., '$'))]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

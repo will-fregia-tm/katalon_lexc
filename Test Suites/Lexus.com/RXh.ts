@@ -275,4 +275,28 @@
          <variableId>d2697a69-6b73-41a8-b1c9-bd0c746753dc</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>3e2ea3c2-7009-4f2b-ba7c-81cee901bfd2</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/RXh/Styles/Correct MSRPs for each trim</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c4687c94-0908-48c6-95a1-fc1260f0c70d</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>fe86fc1e-2149-4e58-81fa-2d1bd89fa8b8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/RXh/Promo/Correct MSRPs in overlay</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>3b3b0fc7-fb61-4ede-bcef-84d07302f287</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>

@@ -251,4 +251,28 @@
          <variableId>935fc33a-5211-41f4-bdd9-69fa051e8e3f</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>ca309d01-4eb0-4a84-a6a8-55d720b95098</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/ES/Styles/Correct MSRPs for each trim in both model picker tabs</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>14808426-6bc1-423e-b53f-c2de2b6316ff</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>6fa3652e-c3e7-4c7f-b8af-ad49f15b4110</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/ES/Promo/Correct MSRPs in overlay</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ed568a1d-e64c-48fd-84f7-a1159f217faf</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>
