@@ -6,16 +6,16 @@
    <elementGuidId>97195588-159e-40b4-8700-9b9740ef51b2</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[1]/h3[@letter-spacing = 'wide' and (not(contains(text(), 'SHOPPING')) and not(contains(text(), 'EXPLORE')))]/following-sibling::div/button/following-sibling::div//div[contains(@class, 'slick-current')]</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//div[contains(@class, 'slick-current')]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>div[spacing*=&quot;block&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[1]/h3[@letter-spacing = 'wide' and (not(contains(text(), 'SHOPPING')) and not(contains(text(), 'EXPLORE')))]/following-sibling::div//button/following-sibling::div//div[contains(@class, 'slick-current')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
