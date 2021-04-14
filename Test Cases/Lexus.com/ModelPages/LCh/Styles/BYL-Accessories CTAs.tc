@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>BYL CTA should open appropriate model series page in same tab.
+Accessories CTA should open Drivers accessories page in same tab.</description>
+   <name>BYL-Accessories CTAs</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8637c0ba-96c1-47ae-86fc-641246386e50</testCaseGuid>
+   <variable>
+      <defaultValue>'LCHero'</defaultValue>
+      <description></description>
+      <id>94ad1014-6b0d-49e1-a44e-cdcf918ffa3e</id>
+      <masked>false</masked>
+      <name>ModelPages</name>
+   </variable>
+</TestCaseEntity>

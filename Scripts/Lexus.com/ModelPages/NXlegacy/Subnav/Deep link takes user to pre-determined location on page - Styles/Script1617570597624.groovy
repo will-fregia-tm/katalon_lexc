@@ -52,13 +52,13 @@ if (WebUI.verifyGreaterThan(pageWidth, '1204', FailureHandling.OPTIONAL)) {
 
     WebUI.verifyElementPresent(findTestObject('ModelPages/Styles/Compare CTA - desktop'), 0, FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.verifyElementPresent(findTestObject('ModelPages/Styles/BYL CTA - desktop'), 0, FailureHandling.STOP_ON_FAILURE)
+    WebUI.verifyElementPresent(findTestObject('ModelPages/Styles/BYL CTA'), 0, FailureHandling.STOP_ON_FAILURE)
 
     WebUI.verifyElementPresent(findTestObject('ModelPages/Styles/Specs link - desktop'), 0, FailureHandling.STOP_ON_FAILURE)
 
     WebUI.verifyElementPresent(findTestObject('ModelPages/Styles/Packages link - desktop'), 0, FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.verifyElementPresent(findTestObject('ModelPages/Styles/Accessories link - desktop'), 0, FailureHandling.STOP_ON_FAILURE)
+    WebUI.verifyElementPresent(findTestObject('ModelPages/Styles/Accessories link'), 0, FailureHandling.STOP_ON_FAILURE)
 }
 
 if (WebUI.verifyLessThan(pageWidth, '1204', FailureHandling.OPTIONAL)) {

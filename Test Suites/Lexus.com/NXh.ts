@@ -299,4 +299,16 @@
          <variableId>69d22b47-0a84-471a-ba1d-51ec9f94258c</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>7d36eb29-ee45-40fa-925e-c2ac2f5e786e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/NXh/Styles/BYL-Accessories CTAs</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>45061dcf-b4e2-4f47-a424-d2ed4b9ff31a</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>

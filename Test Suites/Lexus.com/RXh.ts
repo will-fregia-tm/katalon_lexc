@@ -299,4 +299,16 @@
          <variableId>3b3b0fc7-fb61-4ede-bcef-84d07302f287</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>d81d8141-6ec8-47bc-9bdb-3a8b22b98f95</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/RXh/Styles/BYL-Accessories CTAs</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d919dbb5-5d55-4c1f-82f5-28068cf469e7</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>

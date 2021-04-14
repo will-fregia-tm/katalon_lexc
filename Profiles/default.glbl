@@ -199,4 +199,9 @@
       <initValue>'?link[model_overlay_signup][SHOW_PAGE]=true'</initValue>
       <name>deeplinkSignup</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://www.lexus.com'</initValue>
+      <name>AEM_Domain_nonauthor</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

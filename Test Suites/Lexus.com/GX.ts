@@ -275,4 +275,16 @@
          <variableId>145490cd-1f68-4936-ba7c-878997a4d3cf</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>84f0dd6e-8ed8-4345-bb80-5dddce5c5814</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/GX/Styles/BYL-Accessories CTAs</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>cda0b2a6-1907-4265-a14a-4f9b81a527a4</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>

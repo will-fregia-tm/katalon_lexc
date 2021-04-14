@@ -275,4 +275,16 @@
          <variableId>c64ae1ba-7335-4d86-8837-6c503a299ab0</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>99e595e9-fbda-4750-8c87-cb5db2aad30b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/UXh/Styles/BYL-Accessories CTAs</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>0cd7ce2f-f5a2-4b9d-ab9e-1e014a92201d</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>
