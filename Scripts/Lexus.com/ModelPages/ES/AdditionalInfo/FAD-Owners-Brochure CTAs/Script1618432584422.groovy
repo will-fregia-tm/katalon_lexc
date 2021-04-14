@@ -64,20 +64,10 @@ WebUI.mouseOver(findTestObject('ModelPages/Styles/BYL CTA'), FailureHandling.OPT
 
 WebUI.delay(2)
 
-not_run: BYLURL = WebUI.getAttribute(findTestObject('ModelPages/Styles/BYL CTA'), 'href')
+BYLURL = WebUI.getAttribute(findTestObject('ModelPages/Styles/BYL CTA'), 'href')
 
-not_run: WebUI.verifyMatch(BYLURL, (GlobalVariable.AEM_Domain_nonauthor + '/build-your-lexus/#!/series/') + findTestData(
-        'modelData').getValue(GlobalVariable.dataColumn, seriesKey + 1320), false, FailureHandling.CONTINUE_ON_FAILURE)
-
-'these steps validate that the actual value contains an expected value'
-actualValue = WebUI.getAttribute(findTestObject('ModelPages/Styles/BYL CTA'), 'href')
-
-expectedValue = ('/build-your-lexus/#!/series/' + findTestData('modelData').getValue(GlobalVariable.dataColumn, seriesKey + 
-    1320))
-
-valueWithoutExpected = (actualValue - expectedValue)
-
-WebUI.verifyNotMatch(valueWithoutExpected, actualValue, false, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyMatch(BYLURL, (GlobalVariable.AEM_Domain_nonauthor + '/build-your-lexus/#!/series/') + findTestData('modelData').getValue(
+        GlobalVariable.dataColumn, seriesKey + 1320), false, FailureHandling.CONTINUE_ON_FAILURE)
 
 BYLTarget = WebUI.getAttribute(findTestObject('ModelPages/Styles/BYL CTA'), 'target')
 
