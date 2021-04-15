@@ -287,4 +287,16 @@
          <variableId>cda0b2a6-1907-4265-a14a-4f9b81a527a4</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>7af481d1-529c-4a0d-a57a-2933bda16fa7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/GX/AdditionalInfo/FAD-Owners-Brochure CTAs</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>5d0b16c4-6966-4269-8eef-0b1015a614f6</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>

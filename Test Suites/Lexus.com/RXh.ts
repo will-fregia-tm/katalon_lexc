@@ -311,4 +311,16 @@
          <variableId>d919dbb5-5d55-4c1f-82f5-28068cf469e7</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>635918c6-0859-44ce-a5da-aad81bdbafcd</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/RXh/AdditionalInfo/FAD-Owners-Brochure CTAs</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>fce16ca9-c9c6-453b-acaf-7f4df7cc6fda</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>

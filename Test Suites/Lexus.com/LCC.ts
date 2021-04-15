@@ -287,4 +287,16 @@
          <variableId>05848298-f8e9-46fb-96a2-4802f59279a4</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>e33076b6-653e-4dd4-a9f6-92e71b8b792a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/LCC/AdditionalInfo/FAD-Owners-Brochure CTAs</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f915f8fb-739f-4d5e-a403-bca405059fc0</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>

@@ -311,4 +311,16 @@
          <variableId>c7ea09a7-d0be-45fa-8457-fabefdd14054</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>8bacefb2-097f-4389-9c56-cd9ef644018b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/NX/AdditionalInfo/FAD-Owners-Brochure CTAs</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a59e1e50-7b8d-41ec-bca4-2485663fb8c8</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>

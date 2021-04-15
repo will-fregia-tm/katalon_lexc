@@ -6,12 +6,12 @@
    <elementGuidId>f8075937-8e6e-4e0a-80d1-8b6f34674c22</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[contains(@id, 'o')]</value>
+         <key>XPATH</key>
+         <value>//h3[(contains(text(), 'ADDITIONAL') or contains(., 'ADDITIONAL'))]/parent::div[contains(@id, 'mo')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//h3[(contains(text(), 'ADDITIONAL') or contains(., 'ADDITIONAL'))]/parent::div[contains(@id, 'mod')]</value>
+         <key>BASIC</key>
+         <value>//*[contains(@id, 'o')]</value>
       </entry>
       <entry>
          <key>CSS</key>
