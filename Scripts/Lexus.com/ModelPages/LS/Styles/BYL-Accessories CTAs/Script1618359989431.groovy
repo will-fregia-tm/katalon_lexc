@@ -77,9 +77,9 @@ accessoriesURL = WebUI.getAttribute(findTestObject('ModelPages/Styles/Accessorie
 
 WebUI.verifyMatch(accessoriesURL, 'https://parts.lexus.com/accessories/Lexus__.html', false, FailureHandling.CONTINUE_ON_FAILURE)
 
-accessoriesTarget = WebUI.getAttribute(findTestObject('ModelPages/Styles/Accessories link'), 'target')
+not_run: accessoriesTarget = WebUI.getAttribute(findTestObject('ModelPages/Styles/Accessories link'), 'target')
 
-WebUI.verifyMatch(accessoriesTarget, '_self', false, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyMatch(accessoriesTarget, '_blank', false, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.click(findTestObject('ModelPages/Styles/BYL CTA'), FailureHandling.OPTIONAL)
 
