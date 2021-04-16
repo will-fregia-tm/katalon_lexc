@@ -58,6 +58,8 @@ WebUI.waitForElementPresent(findTestObject('ModelPages/Hero/hero module'), 6, Fa
 
 WebUI.verifyElementPresent(findTestObject('ModelPages/Hero/hero module'), 6, FailureHandling.STOP_ON_FAILURE)
 
+WebUI.verifyElementNotPresent(findTestObject('ModelPages/Global/lexus app in same browser tab'), 6, FailureHandling.CONTINUE_ON_FAILURE)
+
 WebUI.verifyElementNotPresent(findTestObject('ModelPages/Global/external link in same browser tab 1'), 6, FailureHandling.CONTINUE_ON_FAILURE)
 
 'keeps checking for more external links that open in the same tab'
