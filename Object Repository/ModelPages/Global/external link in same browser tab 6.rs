@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//a[not(contains(@href, 'dealers')) and not(contains(@href, 'model_')) and not(contains(@href, '#')) and not(contains(@href, 'lexus.com')) and not(contains(@href, 'enform')) and not(contains(@href, 'brochure')) and not(contains(@target, '_blank'))])[6]</value>
+         <value>(//a[not(contains(@href, 'dealers')) and not(contains(@href, 'model_')) and not(contains(@href, '#')) and not(contains(@href, 'lexus.com')) and not(contains(@href, 'brochure')) and not(contains(@target, '_blank'))])[6]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
