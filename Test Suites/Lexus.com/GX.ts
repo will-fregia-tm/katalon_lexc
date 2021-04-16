@@ -299,4 +299,16 @@
          <variableId>5d0b16c4-6966-4269-8eef-0b1015a614f6</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>7b6b065c-864f-405f-8cf4-366bae9a7534</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/GX/Global/External links should open in a new tab</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d05e1e11-1b95-4387-8f55-97f5422a38be</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>

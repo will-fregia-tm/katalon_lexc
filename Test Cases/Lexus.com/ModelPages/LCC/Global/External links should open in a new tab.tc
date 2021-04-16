@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Hyperlinks outside of Lexus.com should open in a new browser tab.</description>
+   <name>External links should open in a new tab</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4f57f42c-cfa6-4a60-bf10-02c107ac2640</testCaseGuid>
+   <variable>
+      <defaultValue>'LCHero'</defaultValue>
+      <description></description>
+      <id>3ea17c10-56c0-47bd-b884-066f781da111</id>
+      <masked>false</masked>
+      <name>ModelPages</name>
+   </variable>
+</TestCaseEntity>

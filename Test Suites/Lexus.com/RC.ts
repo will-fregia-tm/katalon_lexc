@@ -323,4 +323,16 @@
          <variableId>189d2d68-d2aa-4bde-81ce-004b30dd2e68</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>380f87bb-9c28-43d4-94c7-0b33b2f45d0c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/RC/Global/External links should open in a new tab</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>9f4aea31-6d36-4689-a30f-f90210935c3a</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>

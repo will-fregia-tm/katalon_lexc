@@ -299,4 +299,16 @@
          <variableId>4e81c04f-2e4b-4e22-a290-36e9688573aa</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>994bd468-7367-4a38-8a6e-dc0f0c2052ac</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/LCh/Global/External links should open in a new tab</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7983d882-bc80-4816-8c87-7068a8ea7be8</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>

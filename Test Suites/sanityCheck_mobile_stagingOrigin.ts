@@ -13,7 +13,7 @@
             <runConfigurationId>saucelabs_chrome_android10_pixel3</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/ES - mobile</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Lexus.com/mobile test suites/ES - mobile</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -22,7 +22,7 @@
             <runConfigurationId>saucelabs_chrome_android10_pixel3</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/ESh - mobile</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Lexus.com/mobile test suites/ESh - mobile</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -31,7 +31,7 @@
             <runConfigurationId>saucelabs_chrome_android10_pixel3</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/GX - mobile</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Lexus.com/mobile test suites/GX - mobile</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -40,7 +40,7 @@
             <runConfigurationId>saucelabs_chrome_android10_pixel3</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/IS - mobile</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Lexus.com/mobile test suites/IS - mobile</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -49,7 +49,7 @@
             <runConfigurationId>saucelabs_chrome_android10_pixel3</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/LC - mobile</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Lexus.com/mobile test suites/LC - mobile</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -58,7 +58,7 @@
             <runConfigurationId>saucelabs_chrome_android10_pixel3</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/LCC - mobile</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Lexus.com/mobile test suites/LCC - mobile</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -67,7 +67,7 @@
             <runConfigurationId>saucelabs_chrome_android10_pixel3</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/LCh - mobile</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Lexus.com/mobile test suites/LCh - mobile</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -76,7 +76,7 @@
             <runConfigurationId>saucelabs_chrome_android10_pixel3</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/LS - mobile</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Lexus.com/mobile test suites/LS - mobile</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -85,7 +85,7 @@
             <runConfigurationId>saucelabs_chrome_android10_pixel3</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/LSh - mobile</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Lexus.com/mobile test suites/LSh - mobile</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -94,7 +94,7 @@
             <runConfigurationId>saucelabs_chrome_android10_pixel3</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/LX - mobile</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Lexus.com/mobile test suites/LX - mobile</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -103,7 +103,7 @@
             <runConfigurationId>saucelabs_chrome_android10_pixel3</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/NX - mobile</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Lexus.com/mobile test suites/NX - mobile</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -112,7 +112,7 @@
             <runConfigurationId>saucelabs_chrome_android10_pixel3</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/NXh - mobile</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Lexus.com/mobile test suites/NXh - mobile</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -121,7 +121,7 @@
             <runConfigurationId>saucelabs_chrome_android10_pixel3</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/RC - mobile</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Lexus.com/mobile test suites/RC - mobile</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -130,7 +130,7 @@
             <runConfigurationId>saucelabs_chrome_android10_pixel3</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/RCF - mobile</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Lexus.com/mobile test suites/RCF - mobile</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -139,7 +139,7 @@
             <runConfigurationId>saucelabs_chrome_android10_pixel3</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/RX - mobile</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Lexus.com/mobile test suites/RX - mobile</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -148,7 +148,7 @@
             <runConfigurationId>saucelabs_chrome_android10_pixel3</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/RXh - mobile</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Lexus.com/mobile test suites/RXh - mobile</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -157,7 +157,7 @@
             <runConfigurationId>saucelabs_chrome_android10_pixel3</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/UX - mobile</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Lexus.com/mobile test suites/UX - mobile</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -166,7 +166,7 @@
             <runConfigurationId>saucelabs_chrome_android10_pixel3</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Lexus.com/UXh - mobile</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Lexus.com/mobile test suites/UXh - mobile</testSuiteEntity>
       </TestSuiteRunConfiguration>
    </testSuiteRunConfigurations>
 </TestSuiteCollectionEntity>

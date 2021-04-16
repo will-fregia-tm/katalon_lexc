@@ -323,4 +323,16 @@
          <variableId>a59e1e50-7b8d-41ec-bca4-2485663fb8c8</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>6420e41a-aa61-4b98-b81d-ec07429327d7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/NX/Global/External links should open in a new tab</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>5dcc300e-36d6-49f1-a228-f0194b456cd4</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>
