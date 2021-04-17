@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//*[contains(@id, 'Visualizer')]//button[contains(@aria-label, 'isclaimer')])[3]</value>
+         <value>(//*[contains(@id, 'isualizer')]//button[contains(@aria-label, 'isclaimer')])[3]</value>
       </entry>
       <entry>
          <key>BASIC</key>
