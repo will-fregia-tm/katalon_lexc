@@ -335,4 +335,16 @@
          <variableId>5dcc300e-36d6-49f1-a228-f0194b456cd4</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>d0603f84-fe70-42b0-94a3-845e3876f6b2</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/NX/Styles/Learn More CTA leads to special edition overlay</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a325c6f4-a8f6-4d11-980b-7df83c36c3c7</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>

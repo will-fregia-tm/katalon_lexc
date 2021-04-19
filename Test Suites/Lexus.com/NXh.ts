@@ -335,4 +335,16 @@
          <variableId>b7c2068d-57d4-43f0-893d-c888bdd254e8</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>44901588-0bdf-4140-8bd8-49191e1cd49c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/NXh/Styles/Learn More CTA leads to special edition overlay</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>21e71b90-b48d-46bd-a4df-a0575e528b31</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>

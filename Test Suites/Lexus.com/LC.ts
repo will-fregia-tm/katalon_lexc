@@ -311,4 +311,16 @@
          <variableId>96759bd7-9519-4fa5-ba66-98ee4478de95</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>e3d18cee-d843-4ddd-bc40-5f54f8e24b19</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/LC/Styles/Learn More CTA leads to special edition overlay</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>afa188d3-a5da-4e5a-9c37-b5f39971fe8e</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>

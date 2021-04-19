@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>BYL CTA should open appropriate model series page in same tab.
-Accessories CTA should open Drivers accessories page in same tab.</description>
+Accessories CTA should open Drivers accessories page in new tab.</description>
    <name>BYL-Accessories CTAs</name>
    <tag></tag>
    <comment></comment>

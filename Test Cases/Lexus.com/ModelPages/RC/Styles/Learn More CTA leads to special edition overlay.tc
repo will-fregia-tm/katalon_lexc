@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Learn More CTA for special edition trim should open appropriate special edition overlay.</description>
+   <name>Learn More CTA leads to special edition overlay</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bc8e4b0b-6876-4343-bafe-4efba874c06a</testCaseGuid>
+   <variable>
+      <defaultValue>'LCHero'</defaultValue>
+      <description></description>
+      <id>9c48cab4-98ae-4cff-8a2e-bd63081cfb2e</id>
+      <masked>false</masked>
+      <name>ModelPages</name>
+   </variable>
+</TestCaseEntity>

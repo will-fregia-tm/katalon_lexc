@@ -335,4 +335,16 @@
          <variableId>c8a77019-ce65-47ba-bd0b-20f905dca487</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>fea8c706-2cde-4dbd-b79a-70b8203947b3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/RX/Styles/Learn More CTA leads to special edition overlay</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>99bfcf77-81e9-42ce-9859-ca663910d478</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>
