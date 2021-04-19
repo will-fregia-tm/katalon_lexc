@@ -347,4 +347,16 @@
          <variableId>21e71b90-b48d-46bd-a4df-a0575e528b31</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>67492eda-e62c-4278-ad82-98467cbb8237</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/NXh/Visualizer/Select Visualizer Model-Style</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>5bee3587-2e88-4204-8ebe-ad3b5769c1ee</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>

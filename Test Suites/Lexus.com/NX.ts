@@ -347,4 +347,16 @@
          <variableId>a325c6f4-a8f6-4d11-980b-7df83c36c3c7</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>abef2308-40a4-4415-9f8c-35c704f6238e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/NX/Visualizer/Select Visualizer Model-Style</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c8618d6a-91bc-41c0-9f73-e96f343dece7</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>

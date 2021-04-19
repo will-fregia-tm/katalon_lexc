@@ -311,4 +311,16 @@
          <variableId>02615a3d-13f1-4523-9293-9f76b6ac8b9e</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>186b6fc6-1f00-4a88-95fd-954beeb1ca99</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/ES/Visualizer/Select Visualizer Model-Style</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>bd558212-86f4-49b9-ad43-5ed0aab717da</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>

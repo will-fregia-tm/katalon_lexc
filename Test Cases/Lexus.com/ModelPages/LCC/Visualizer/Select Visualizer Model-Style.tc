@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>- Visualizer defaults to exterior
+- display relevant swatches (i.e. exterior)
+- preselected color swatch matches visualizer asset
+- color name is displayed for selected swatch
+- allows user to select exterior
+- allows user to select interior
+- allows user to select wheels
+
+- Selecting a non-base model-style remains in same exterior/interior/wheels tab
+- indicates selected model-style
+- updates to correct default asset
+- updates swatches to those available for selected model-style.</description>
+   <name>Select Visualizer Model-Style</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5f1102d9-fff5-4242-8fb0-e2a6d41dcb62</testCaseGuid>
+   <variable>
+      <defaultValue>'LCHero'</defaultValue>
+      <description></description>
+      <id>452a2587-5eac-4eb0-acd6-8b84ff4c0948</id>
+      <masked>false</masked>
+      <name>ModelPages</name>
+   </variable>
+</TestCaseEntity>

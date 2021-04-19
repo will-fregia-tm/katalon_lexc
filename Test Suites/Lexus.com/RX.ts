@@ -347,4 +347,16 @@
          <variableId>99bfcf77-81e9-42ce-9859-ca663910d478</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>a5ec5667-72c2-4bbd-aa0d-258e5300ce8f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/RX/Visualizer/Select Visualizer Model-Style</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>25fd1537-4f6b-4436-900c-a271fcc2238f</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>

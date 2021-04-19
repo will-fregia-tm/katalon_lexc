@@ -92,7 +92,7 @@ WebUI.verifyNotMatch(valueWithoutExpected, actualValue, false, FailureHandling.C
 
 target = WebUI.getAttribute(findTestObject('ModelPages/AdditionalInfo/owners CTA'), 'target')
 
-not_run: WebUI.verifyMatch(target, '_blank', false, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyMatch(target, '_blank', false, FailureHandling.CONTINUE_ON_FAILURE)
 
 'these steps validate that the actual value contains an expected value'
 actualValue = WebUI.getAttribute(findTestObject('ModelPages/AdditionalInfo/brochure CTA'), 'href')
