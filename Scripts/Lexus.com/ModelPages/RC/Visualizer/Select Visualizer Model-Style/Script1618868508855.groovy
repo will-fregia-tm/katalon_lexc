@@ -108,76 +108,76 @@ WebUI.delay(1)
 
 trim1asset = WebUI.getAttribute(findTestObject('ModelPages/Visualizer/visualizer asset'), 'src', FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('ModelPages/Visualizer/model-style 2'), FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.click(findTestObject('ModelPages/Visualizer/model-style 2'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(1)
+not_run: WebUI.delay(1)
 
-trim2asset = WebUI.getAttribute(findTestObject('ModelPages/Visualizer/visualizer asset'), 'src', FailureHandling.STOP_ON_FAILURE)
+not_run: trim2asset = WebUI.getAttribute(findTestObject('ModelPages/Visualizer/visualizer asset'), 'src', FailureHandling.STOP_ON_FAILURE)
 
 'updates to correct default asset'
-WebUI.verifyNotMatch(trim1asset, trim2asset, false)
+not_run: WebUI.verifyNotMatch(trim1asset, trim2asset, false)
 
-selectionState = WebUI.getAttribute(findTestObject('ModelPages/Visualizer/exterior tab'), 'aria-selected', FailureHandling.STOP_ON_FAILURE)
+not_run: selectionState = WebUI.getAttribute(findTestObject('ModelPages/Visualizer/exterior tab'), 'aria-selected', FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyMatch(selectionState, 'false', false)
+not_run: WebUI.verifyMatch(selectionState, 'false', false)
 
-selectionState = WebUI.getAttribute(findTestObject('ModelPages/Visualizer/interior tab'), 'aria-selected', FailureHandling.STOP_ON_FAILURE)
+not_run: selectionState = WebUI.getAttribute(findTestObject('ModelPages/Visualizer/interior tab'), 'aria-selected', FailureHandling.STOP_ON_FAILURE)
 
 'Selecting a non-base model-style remains in same exterior/interior/wheels tab'
-WebUI.verifyMatch(selectionState, 'true', false)
+not_run: WebUI.verifyMatch(selectionState, 'true', false)
 
-selectionState = WebUI.getAttribute(findTestObject('ModelPages/Visualizer/model-style 1'), 'aria-selected', FailureHandling.STOP_ON_FAILURE)
+not_run: selectionState = WebUI.getAttribute(findTestObject('ModelPages/Visualizer/model-style 1'), 'aria-selected', FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyMatch(selectionState, 'false', false)
+not_run: WebUI.verifyMatch(selectionState, 'false', false)
 
-selectionState = WebUI.getAttribute(findTestObject('ModelPages/Visualizer/model-style 2'), 'aria-selected', FailureHandling.STOP_ON_FAILURE)
+not_run: selectionState = WebUI.getAttribute(findTestObject('ModelPages/Visualizer/model-style 2'), 'aria-selected', FailureHandling.STOP_ON_FAILURE)
 
 'indicates selected model-style'
-WebUI.verifyMatch(selectionState, 'true', false)
+not_run: WebUI.verifyMatch(selectionState, 'true', false)
 
-actualValue = WebUI.getAttribute(findTestObject('ModelPages/Visualizer/swatch 01'), 'src', FailureHandling.STOP_ON_FAILURE)
+not_run: actualValue = WebUI.getAttribute(findTestObject('ModelPages/Visualizer/swatch 01'), 'src', FailureHandling.STOP_ON_FAILURE)
 
-expectedValue = 'interior'
+not_run: expectedValue = 'interior'
 
-valueWithoutExpected = (actualValue - expectedValue)
+not_run: valueWithoutExpected = (actualValue - expectedValue)
 
 'displays relevant swatches (i.e. interior)'
-WebUI.verifyNotMatch(valueWithoutExpected, actualValue, false, FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.verifyNotMatch(valueWithoutExpected, actualValue, false, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('ModelPages/Visualizer/wheels tab'), FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.click(findTestObject('ModelPages/Visualizer/wheels tab'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(1)
+not_run: WebUI.delay(1)
 
-trim2swatch = WebUI.getAttribute(findTestObject('ModelPages/Visualizer/swatch 01'), 'src', FailureHandling.STOP_ON_FAILURE)
+not_run: trim2swatch = WebUI.getAttribute(findTestObject('ModelPages/Visualizer/swatch 01'), 'src', FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('ModelPages/Visualizer/model-style 1'), FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.click(findTestObject('ModelPages/Visualizer/model-style 1'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(1)
+not_run: WebUI.delay(1)
 
-trim1swatch = WebUI.getAttribute(findTestObject('ModelPages/Visualizer/swatch 01'), 'src', FailureHandling.STOP_ON_FAILURE)
+not_run: trim1swatch = WebUI.getAttribute(findTestObject('ModelPages/Visualizer/swatch 01'), 'src', FailureHandling.STOP_ON_FAILURE)
 
 'updates swatches to those available for selected model-style'
-WebUI.verifyNotMatch(trim1swatch, trim2swatch, false)
+not_run: WebUI.verifyNotMatch(trim1swatch, trim2swatch, false)
 
-WebUI.delay(1)
+not_run: WebUI.delay(1)
 
-selectionState = WebUI.getAttribute(findTestObject('ModelPages/Visualizer/interior tab'), 'aria-selected', FailureHandling.STOP_ON_FAILURE)
+not_run: selectionState = WebUI.getAttribute(findTestObject('ModelPages/Visualizer/interior tab'), 'aria-selected', FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyMatch(selectionState, 'false', false)
+not_run: WebUI.verifyMatch(selectionState, 'false', false)
 
-selectionState = WebUI.getAttribute(findTestObject('ModelPages/Visualizer/wheels tab'), 'aria-selected', FailureHandling.STOP_ON_FAILURE)
+not_run: selectionState = WebUI.getAttribute(findTestObject('ModelPages/Visualizer/wheels tab'), 'aria-selected', FailureHandling.STOP_ON_FAILURE)
 
 'Selecting a non-base model-style remains in same exterior/interior/wheels tab'
-WebUI.verifyMatch(selectionState, 'true', false)
+not_run: WebUI.verifyMatch(selectionState, 'true', false)
 
-selectionState = WebUI.getAttribute(findTestObject('ModelPages/Visualizer/model-style 2'), 'aria-selected', FailureHandling.STOP_ON_FAILURE)
+not_run: selectionState = WebUI.getAttribute(findTestObject('ModelPages/Visualizer/model-style 2'), 'aria-selected', FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyMatch(selectionState, 'false', false)
+not_run: WebUI.verifyMatch(selectionState, 'false', false)
 
-selectionState = WebUI.getAttribute(findTestObject('ModelPages/Visualizer/model-style 1'), 'aria-selected', FailureHandling.STOP_ON_FAILURE)
+not_run: selectionState = WebUI.getAttribute(findTestObject('ModelPages/Visualizer/model-style 1'), 'aria-selected', FailureHandling.STOP_ON_FAILURE)
 
 'indicates selected model-style'
-WebUI.verifyMatch(selectionState, 'true', false)
+not_run: WebUI.verifyMatch(selectionState, 'true', false)
 
 @com.kms.katalon.core.annotation.TearDownIfPassed
 def passed() {

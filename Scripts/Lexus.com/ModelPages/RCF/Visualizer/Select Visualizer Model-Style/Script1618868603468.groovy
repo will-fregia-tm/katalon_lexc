@@ -157,7 +157,7 @@ WebUI.delay(1)
 trim1swatch = WebUI.getAttribute(findTestObject('ModelPages/Visualizer/swatch 01'), 'src', FailureHandling.STOP_ON_FAILURE)
 
 'updates swatches to those available for selected model-style'
-WebUI.verifyNotMatch(trim1swatch, trim2swatch, false)
+not_run: WebUI.verifyNotMatch(trim1swatch, trim2swatch, false)
 
 WebUI.delay(1)
 
