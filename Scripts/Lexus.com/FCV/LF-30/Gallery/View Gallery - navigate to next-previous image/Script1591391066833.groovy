@@ -55,6 +55,8 @@ WebUI.verifyElementPresent(findTestObject('FCV/Gallery/visible slide 1'), 5)
 
 WebUI.click(findTestObject('FCV/Gallery/right arrow'), FailureHandling.STOP_ON_FAILURE)
 
+WebUI.delay(1)
+
 WebUI.verifyElementPresent(findTestObject('FCV/Gallery/image 2'), 0)
 
 WebUI.verifyElementPresent(findTestObject('FCV/Gallery/visible slide 2'), 5)

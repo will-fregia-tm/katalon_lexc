@@ -7,13 +7,16 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>#page > div > div > div > div > div:nth-child(2) > div > div > div:nth-child(3) > button > img</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//img/parent::button/img)[3]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
 </WebElementEntity>

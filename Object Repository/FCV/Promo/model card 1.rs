@@ -7,13 +7,24 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
+         <value>//*[(text() = 'YOU MAY ALSO BE INTERESTED IN' or . = 'YOU MAY ALSO BE INTERESTED IN')]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>#page > div > div > div > div > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > a:nth-child(1)</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//*[(text() = 'YOU MAY ALSO BE INTERESTED IN' or . = 'YOU MAY ALSO BE INTERESTED IN')]/following-sibling::div//a)[1]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>YOU MAY ALSO BE INTERESTED IN</value>
+   </webElementProperties>
 </WebElementEntity>

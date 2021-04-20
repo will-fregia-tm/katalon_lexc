@@ -7,16 +7,31 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//form[@action = 'POST']/parent::div/parent::div/parent::div/parent::div/parent::div//button</value>
+         <value>//button[(contains(text(), 'lose') or contains(., 'lose'))]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>#page > div > div > div > div > div:nth-child(4) > div > div > div > button</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[(contains(text(), 'lose') or contains(., 'lose'))]/following-sibling::div//button</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>lose</value>
+   </webElementProperties>
 </WebElementEntity>

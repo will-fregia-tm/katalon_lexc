@@ -7,12 +7,24 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value>//*[(not(contains(text(), 'MENU')) or not(contains(., 'MENU')))]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#page > div > div > div > div > div:nth-child(1) > div > div:nth-child(2) > div:nth-child(2) > div > h2</value>
+         <value>h2</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div/preceding-sibling::h2[(not(contains(text(), 'MENU')) or not(contains(., 'MENU')))]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>not contain</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>MENU</value>
+   </webElementProperties>
 </WebElementEntity>

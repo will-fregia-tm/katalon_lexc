@@ -10,9 +10,13 @@
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#page > div > div > div > div > div:nth-child(1) > div > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) > p</value>
+         <value>div > p</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div/parent::div/following-sibling::div/p</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
 </WebElementEntity>
