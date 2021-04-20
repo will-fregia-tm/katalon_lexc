@@ -15,7 +15,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//img[contains(@src, 'ero')]/parent::div/following-sibling::div//div[(text() = 'CONCEPT' or . = 'CONCEPT' or text() = 'FUTURE' or . = 'FUTURE')]/following-sibling::div[(contains(text(), 'L') or contains(., 'L'))]</value>
+         <value>//img[contains(@src, 'ero')]/parent::div/following-sibling::div//div[(text() = 'CONCEPT' or . = 'CONCEPT' or text() = 'FUTURE' or . = 'FUTURE' or text() = 'LEXUS' or . = 'LEXUS')]/following-sibling::div[(contains(text(), 'L') or contains(., 'L'))]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
