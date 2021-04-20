@@ -6,12 +6,12 @@
    <elementGuidId>ec5c24b7-54db-4e71-acd8-11c821c68d42</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//*[contains(@id, 'Selector')]/parent::div/following-sibling::div//*[(contains(text(), 'OFFERS') or contains(., 'OFFERS')) and @letter-spacing = 'wide']</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//*[(contains(text(), 'OFFERS') or contains(., 'OFFERS')) and @letter-spacing = 'wide']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[contains(@id, 'Selector')]/parent::div/parent::div/following-sibling::div//*[(contains(text(), 'OFFERS') or contains(., 'OFFERS')) and @letter-spacing = 'wide']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

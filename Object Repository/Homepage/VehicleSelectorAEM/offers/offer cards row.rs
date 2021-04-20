@@ -15,7 +15,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//*[contains(@id, 'Selector')]/parent::div/following-sibling::div//h3/following-sibling::div/div)[1]</value>
+         <value>(//*[contains(@id, 'Selector')]/parent::div/parent::div/following-sibling::div//h3/following-sibling::div/div)[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

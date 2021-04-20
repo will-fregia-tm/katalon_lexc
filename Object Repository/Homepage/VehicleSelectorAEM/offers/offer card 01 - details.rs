@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[contains(@id, 'Selector')]/parent::div/following-sibling::div//div[contains(@style, 'width: 3')][1]//button/following-sibling::div</value>
+         <value>//*[contains(@id, 'Selector')]/parent::div/parent::div/following-sibling::div//div[contains(@style, 'width: 3')][1]//button/following-sibling::div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

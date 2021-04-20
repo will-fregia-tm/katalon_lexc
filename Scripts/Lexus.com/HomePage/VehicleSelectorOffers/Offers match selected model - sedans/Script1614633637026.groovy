@@ -149,40 +149,43 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroOffers/offer cards r
     
     'clicks this model if it is present'
     if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/models/ESh'), 3, FailureHandling.OPTIONAL)) {
-        WebUI.click(findTestObject('Homepage/VehicleSelectorAEM/models/ESh'), FailureHandling.STOP_ON_FAILURE)
+        'these steps are only run with prod data'
+        if (WebUI.verifyMatch(GlobalVariable.DS_version, 'prod', false, FailureHandling.OPTIONAL)) {
+            WebUI.click(findTestObject('Homepage/VehicleSelectorAEM/models/ESh'), FailureHandling.STOP_ON_FAILURE)
 
-        WebUI.delay(2)
+            WebUI.delay(2)
 
-        WebUI.scrollToElement(findTestObject('Homepage/VehicleSelectorAEM/offers/offers module title'), 0, FailureHandling.OPTIONAL)
+            WebUI.scrollToElement(findTestObject('Homepage/VehicleSelectorAEM/offers/offers module title'), 0, FailureHandling.OPTIONAL)
 
-        selectedModel = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle name'), FailureHandling.STOP_ON_FAILURE)
+            selectedModel = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle name'), FailureHandling.STOP_ON_FAILURE)
 
-        'Model-Specific market offers cards will render below the Vehicle Selector module'
-        offerCardModel = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/offers/offer card 01 - model name'), 
-            FailureHandling.STOP_ON_FAILURE)
+            'Model-Specific market offers cards will render below the Vehicle Selector module'
+            offerCardModel = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/offers/offer card 01 - model name'), 
+                FailureHandling.STOP_ON_FAILURE)
 
-        textWithoutSelectedModel = (offerCardModel - selectedModel)
+            textWithoutSelectedModel = (offerCardModel - selectedModel)
 
-        'Offers will display based on the series displaying in the module'
-        WebUI.verifyNotMatch(textWithoutSelectedModel, offerCardModel, false, FailureHandling.STOP_ON_FAILURE)
+            'Offers will display based on the series displaying in the module'
+            WebUI.verifyNotMatch(textWithoutSelectedModel, offerCardModel, false, FailureHandling.STOP_ON_FAILURE)
 
-        'Model-Specific market offers cards will render below the Vehicle Selector module'
-        offerCardModel = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/offers/offer card 02 - model name'), 
-            FailureHandling.STOP_ON_FAILURE)
+            'Model-Specific market offers cards will render below the Vehicle Selector module'
+            offerCardModel = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/offers/offer card 02 - model name'), 
+                FailureHandling.STOP_ON_FAILURE)
 
-        textWithoutSelectedModel = (offerCardModel - selectedModel)
+            textWithoutSelectedModel = (offerCardModel - selectedModel)
 
-        'Offers will display based on the series displaying in the module'
-        WebUI.verifyNotMatch(textWithoutSelectedModel, offerCardModel, false, FailureHandling.STOP_ON_FAILURE)
+            'Offers will display based on the series displaying in the module'
+            WebUI.verifyNotMatch(textWithoutSelectedModel, offerCardModel, false, FailureHandling.STOP_ON_FAILURE)
 
-        'Model-Specific market offers cards will render below the Vehicle Selector module'
-        offerCardModel = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/offers/offer card 03 - model name'), 
-            FailureHandling.STOP_ON_FAILURE)
+            'Model-Specific market offers cards will render below the Vehicle Selector module'
+            offerCardModel = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/offers/offer card 03 - model name'), 
+                FailureHandling.STOP_ON_FAILURE)
 
-        textWithoutSelectedModel = (offerCardModel - selectedModel)
+            textWithoutSelectedModel = (offerCardModel - selectedModel)
 
-        'Offers will display based on the series displaying in the module'
-        WebUI.verifyNotMatch(textWithoutSelectedModel, offerCardModel, false, FailureHandling.STOP_ON_FAILURE)
+            'Offers will display based on the series displaying in the module'
+            WebUI.verifyNotMatch(textWithoutSelectedModel, offerCardModel, false, FailureHandling.STOP_ON_FAILURE)
+        }
     }
     
     'clicks this model if it is present'

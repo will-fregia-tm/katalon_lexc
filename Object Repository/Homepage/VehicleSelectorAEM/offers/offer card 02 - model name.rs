@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//*[contains(@id, 'Selector')]/parent::div/following-sibling::div//span/following-sibling::div/div[(contains(text(), '20') or contains(., '20'))])[2]</value>
+         <value>(//*[contains(@id, 'Selector')]/parent::div/parent::div/following-sibling::div//span/following-sibling::div/div[(contains(text(), '20') or contains(., '20'))])[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
