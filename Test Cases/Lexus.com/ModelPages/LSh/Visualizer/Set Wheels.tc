@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Selecting a different wheel:
+
+updates the shown asset
+keeps the same angle
+indicates which wheel is selected via name 
+indicates which wheel is selected via highlighting
+
+Selecting a different interior angle:
+
+updates the shown asset
+keeps the same wheel option</description>
+   <name>Set Wheels</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>18333dcf-313c-4793-8f45-2aea2153619b</testCaseGuid>
+   <variable>
+      <defaultValue>'LCHero'</defaultValue>
+      <description></description>
+      <id>f414f1a3-bbbd-4911-a327-6f7e58fbc757</id>
+      <masked>false</masked>
+      <name>ModelPages</name>
+   </variable>
+</TestCaseEntity>

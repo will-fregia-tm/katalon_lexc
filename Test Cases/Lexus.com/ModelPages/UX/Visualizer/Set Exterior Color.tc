@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Changing exterior color in visualizer: 
+
+- updates the highlighting 
+- updates the swatch name
+- updates the asset </description>
+   <name>Set Exterior Color</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dc132681-f141-4bfc-8b1c-f006ff5e5e96</testCaseGuid>
+   <variable>
+      <defaultValue>'LCHero'</defaultValue>
+      <description></description>
+      <id>075a6378-b6f9-456c-97aa-209d3d1f2537</id>
+      <masked>false</masked>
+      <name>ModelPages</name>
+   </variable>
+</TestCaseEntity>

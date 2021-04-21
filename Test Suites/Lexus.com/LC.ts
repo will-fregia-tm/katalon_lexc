@@ -335,4 +335,52 @@
          <variableId>9b721f9a-b4a7-4e4f-95c5-955a42e50205</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>51e8280c-aeef-4da6-bce7-552220a27e65</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/LC/Visualizer/Set Exterior Color</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>3596a219-bf88-4532-a696-326995e4e080</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>15e7f8bb-a982-4966-8284-fc7d5d618a5e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/LC/Visualizer/Set Interior Color</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a4699726-6bdc-4d17-977c-a8632b6470c0</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>0490aa63-393b-4874-b2e9-29b3100115a8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/LC/Visualizer/Set Wheels</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a68429d6-7e7b-42b8-9216-75e670445888</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>af6fdd7d-e23b-49da-86f1-9f1a97e739ad</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/LC/Visualizer/Swatch carousel</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>b599ac92-13e3-4c38-bde8-4ff11c059ba1</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>

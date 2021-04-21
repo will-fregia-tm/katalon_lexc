@@ -359,4 +359,40 @@
          <variableId>c8618d6a-91bc-41c0-9f73-e96f343dece7</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>9a47c280-9fc9-472c-aa8a-49465bcea52a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/NX/Visualizer/Set Exterior Color</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>5883b6c3-5e42-449e-b1e6-bc1f34e2b297</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>92eef016-3476-44eb-93fd-e35052d96266</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/NX/Visualizer/Set Interior Color</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>1cd3521f-1e46-4529-a55e-06622a9cc191</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b6bdad11-6d3a-4417-8722-7232f92ddf5b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/NX/Visualizer/Set Wheels</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>558c4be6-836b-4e67-ba63-a93e62647a41</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>

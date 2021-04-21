@@ -335,4 +335,40 @@
          <variableId>38b90eb9-6238-4cae-95ed-094cd6d33b95</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>92792dea-e8ca-4eda-af38-a9b08c5e84ae</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/LX/Visualizer/Set Exterior Color</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>10756fd6-239b-4cc2-b134-6c398ba14baf</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3f59e198-47a6-45d6-adad-a55839969191</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/LX/Visualizer/Set Wheels</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f07c66c0-89a8-4aa3-b371-1e44ad4310e0</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8316339f-3a80-4132-9892-16cbe3bd8e24</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/LX/Visualizer/Set Interior Color</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>63e3be6b-f33c-42f8-b228-8824773c5a8a</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>

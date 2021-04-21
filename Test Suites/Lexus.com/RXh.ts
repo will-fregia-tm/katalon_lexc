@@ -359,4 +359,52 @@
          <variableId>4192476b-40d6-4d29-9951-a82ddd940364</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>c19b60ff-852c-4162-b164-cd1d60257616</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/RXh/Visualizer/Hybrid content is preselected by default</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>6ab93a04-3e22-4620-bc18-88f1caeff731</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>6d691107-0b64-4f3c-a881-0bc7cfbd87db</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/RXh/Visualizer/Set Exterior Color</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>0810edc9-22f3-40dd-82b3-f7ea22b00fe7</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>74100f8e-e4f4-4a9c-b273-bc1c7f429c26</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/RXh/Visualizer/Set Interior Color</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>41e9ca71-b8a9-4545-95c6-690f60f60946</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>02b9ac3e-3895-4eff-9cf8-033b24d2b81d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/RXh/Visualizer/Set Wheels</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>1561f34f-beca-4e32-b63f-a363f7283d2b</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>

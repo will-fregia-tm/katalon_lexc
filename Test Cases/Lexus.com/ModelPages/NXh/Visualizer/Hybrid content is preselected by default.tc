@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>hybrid model-style is preselected in visualizer module</description>
+   <name>Hybrid content is preselected by default</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>815743ce-329a-4885-9408-4a8963d6cd44</testCaseGuid>
+   <variable>
+      <defaultValue>'LCHero'</defaultValue>
+      <description></description>
+      <id>88e57baa-ebd7-4123-b4f8-4b10b015e53c</id>
+      <masked>false</masked>
+      <name>ModelPages</name>
+   </variable>
+</TestCaseEntity>

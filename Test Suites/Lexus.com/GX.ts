@@ -323,4 +323,40 @@
          <variableId>e79e0f50-2777-4f8e-9f57-318e0e29f420</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>2480cf18-b644-4353-8b3a-6c700c5ce542</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/GX/Visualizer/Set Exterior Color</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>eb1d81b8-a651-4736-8f69-3d4a9e180d22</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>08894571-abcb-4ba9-a25b-d8260403ca5a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/GX/Visualizer/Set Interior Color</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>350864a3-2410-4830-af63-f5777bf32655</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ca7701aa-bd5b-433a-a4d8-13dc6daf00ea</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/GX/Visualizer/Set Wheels</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>b0ed9ea8-865d-442a-9a39-bd8b88d8968a</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>

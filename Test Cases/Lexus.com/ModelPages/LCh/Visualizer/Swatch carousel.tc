@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Carousel is present for 11+ swatches on desktop, 5+ swatches on mobile.</description>
+   <name>Swatch carousel</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1a9b5f44-a0e6-4c56-a0cf-de12c5b7e659</testCaseGuid>
+   <variable>
+      <defaultValue>'LCHero'</defaultValue>
+      <description></description>
+      <id>a4c61728-ca69-46e2-872b-549b38f8ab12</id>
+      <masked>false</masked>
+      <name>ModelPages</name>
+   </variable>
+</TestCaseEntity>

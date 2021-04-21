@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>convertible model-style is preselected in visualizer module</description>
+   <name>Convertible is preselected by default</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e69d30ca-2504-412d-a9ae-8191e19d414a</testCaseGuid>
+   <variable>
+      <defaultValue>'LCHero'</defaultValue>
+      <description></description>
+      <id>b251f242-5ead-405a-825f-80fb44193d6f</id>
+      <masked>false</masked>
+      <name>ModelPages</name>
+   </variable>
+</TestCaseEntity>

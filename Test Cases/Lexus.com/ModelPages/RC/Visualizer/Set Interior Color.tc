@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Selecting a different interior color:
+- updates the shown asset
+keeps the same angle
+- indicates which color is selected via name 
+- indicates which color is selected via highlighting.
+
+Selecting a different interior angle:
+- updates the shown asset
+- keeps the same color.</description>
+   <name>Set Interior Color</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f23639af-0137-4cc1-9b1a-bacb37aa8a90</testCaseGuid>
+   <variable>
+      <defaultValue>'LCHero'</defaultValue>
+      <description></description>
+      <id>b9468c92-7585-4f94-a493-2c3b688a8749</id>
+      <masked>false</masked>
+      <name>ModelPages</name>
+   </variable>
+</TestCaseEntity>

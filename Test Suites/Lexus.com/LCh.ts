@@ -335,4 +335,64 @@
          <variableId>a230addb-7f23-4a54-809f-6fe1ee69b22a</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>a8b4595f-af56-41ee-a3cb-85f8b569b2b5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/LCh/Visualizer/Hybrid content is preselected by default</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>2b0b6cf9-1125-4a9a-a7b7-c81d520502fe</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>debea3d0-ab4e-487f-9e57-5e974c629e69</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/LCh/Visualizer/Set Exterior Color</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>72806fc7-4cde-4f52-9a0a-cd7b5ac9eb35</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>cf50b838-14af-4276-a426-3f00b30d85ce</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/LCh/Visualizer/Set Interior Color</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>8b1e5391-c143-44e1-b7c3-c66ede242a1c</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7290b52c-32ec-4f38-bfff-e8e51c92b53b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/LCh/Visualizer/Set Wheels</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>91113929-6898-4535-9a26-eed97b3e6082</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8c5049c4-2527-4d3f-9581-9a4e218023f6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/LCh/Visualizer/Swatch carousel</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a4c61728-ca69-46e2-872b-549b38f8ab12</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>
