@@ -69,6 +69,10 @@ WebUI.click(findTestObject('ModelPages/Visualizer/wheels tab'))
 
 WebUI.delay(2)
 
+WebUI.click(findTestObject('ModelPages/Visualizer/model-style 2'))
+
+WebUI.delay(2)
+
 highlightBeforeUpdate = WebUI.getAttribute(findTestObject('ModelPages/Visualizer/highlighted swatch'), 'src')
 
 assetBeforeUpdate = WebUI.getAttribute(findTestObject('ModelPages/Visualizer/visualizer asset'), 'src')

@@ -77,7 +77,7 @@ if (WebUI.verifyElementPresent(findTestObject('ModelPages/Visualizer/swatch 11')
 
     WebUI.delay(2)
 
-    WebUI.click(findTestObject('ModelPages/Visualizer/slide carousel left arrow'), FailureHandling.STOP_ON_FAILURE)
+    WebUI.click(findTestObject('ModelPages/Visualizer/swatch carousel left arrow'), FailureHandling.STOP_ON_FAILURE)
 
     WebUI.delay(2)
 
