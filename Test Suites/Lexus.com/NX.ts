@@ -395,4 +395,16 @@
          <variableId>558c4be6-836b-4e67-ba63-a93e62647a41</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>8ca52ad1-db64-4d54-95a4-459be6df4aae</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/NX/MessageBar/Module has rollover state, and links to signup form</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>b1908033-b9c5-4661-a31d-8f11e82e414f</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>

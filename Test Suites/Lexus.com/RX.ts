@@ -395,4 +395,16 @@
          <variableId>7e308157-188e-4aed-95f4-eae892fe6d13</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>557d2fc0-815d-4c52-b0aa-4f4f78b3ca77</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/RX/MessageBar/Module has rollover state, and links to signup form</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e762ecb4-cbfb-4208-b031-63e1e8906251</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>

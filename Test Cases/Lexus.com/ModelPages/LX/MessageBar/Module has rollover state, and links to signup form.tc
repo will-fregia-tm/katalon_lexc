@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>- Clicking on sign-up link takes user to form with model preselected
+
+- When a user hovers over anywhere in the module, then the system shall update the module to its hover over state</description>
+   <name>Module has rollover state, and links to signup form</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e5045c4c-1965-4eaa-b6c0-312f2323c2ef</testCaseGuid>
+   <variable>
+      <defaultValue>'LCHero'</defaultValue>
+      <description></description>
+      <id>9382afab-024e-44a8-adbc-e4291f5bdce2</id>
+      <masked>false</masked>
+      <name>ModelPages</name>
+   </variable>
+</TestCaseEntity>

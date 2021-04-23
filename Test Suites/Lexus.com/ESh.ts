@@ -371,4 +371,16 @@
          <variableId>04682a74-cd42-4560-879f-10ef21c6b3dd</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>1da2b3f0-b6f3-45fe-8242-1e3683e4966e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/ESh/MessageBar/Module has rollover state, and links to signup form</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>2a46033d-68e8-437a-8db9-83de192c3283</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>

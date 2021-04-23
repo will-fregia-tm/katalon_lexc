@@ -359,4 +359,16 @@
          <variableId>b0ed9ea8-865d-442a-9a39-bd8b88d8968a</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>907d708a-bba5-44b2-b36e-f2a65f3a4154</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/GX/MessageBar/Module has rollover state, and links to signup form</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a74590e0-b070-4851-a555-37273543c073</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>

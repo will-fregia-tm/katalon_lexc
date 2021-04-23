@@ -383,4 +383,16 @@
          <variableId>b599ac92-13e3-4c38-bde8-4ff11c059ba1</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>990256a1-434a-4c4b-ae12-fa10a71c76b2</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/LC/MessageBar/Module has rollover state, and links to signup form</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>3055b212-8973-40eb-a678-a2284569823e</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>
