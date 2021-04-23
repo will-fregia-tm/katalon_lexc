@@ -52,15 +52,17 @@ WebUI.click(findTestObject('FAD/ResultsModule/dealer details link'), FailureHand
 
 WebUI.waitForElementPresent(findTestObject('FAD/DealerDetails/page title'), 0, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('FAD/DealerDetails/gallery heading'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(5, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyElementPresent(findTestObject('FAD/DealerDetails/gallery heading'), 5, FailureHandling.STOP_ON_FAILURE)
 
 if (WebUI.verifyElementNotPresent(findTestObject('FAD/DealerDetails/open overlay'), 3, FailureHandling.OPTIONAL)) {
     WebUI.refresh()
 }
 
-WebUI.scrollToElement(findTestObject('FAD/DealerDetails/gallery component'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.scrollToElement(findTestObject('FAD/DealerDetails/gallery component'), 5, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('FAD/DealerDetails/gallery pagination'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('FAD/DealerDetails/gallery pagination'), 5, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(15, FailureHandling.STOP_ON_FAILURE)
 
@@ -96,6 +98,8 @@ WebUI.click(findTestObject('FAD/DealerDetails/back to dealer results CTA'), Fail
 
 WebUI.waitForElementPresent(findTestObject('FAD/ZipGate/search icon'), 0, FailureHandling.STOP_ON_FAILURE)
 
+WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
+
 'should be a dealership with one gallery image'
 WebUI.setText(findTestObject('FAD/ZipGate/zip entry dialog box'), '34233', FailureHandling.STOP_ON_FAILURE)
 
@@ -130,6 +134,8 @@ WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
 WebUI.click(findTestObject('FAD/DealerDetails/back to dealer results CTA'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForElementPresent(findTestObject('FAD/ZipGate/search icon'), 0, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
 'should be a dealership with no gallery images'
 WebUI.setText(findTestObject('FAD/ZipGate/zip entry dialog box'), '08234', FailureHandling.STOP_ON_FAILURE)
