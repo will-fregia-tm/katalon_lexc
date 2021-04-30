@@ -248,7 +248,7 @@ if (WebUI.verifyElementNotPresent(findTestObject('Homepage/HeroOffers/zip code f
         'verifies that image is full width'
         WebUI.verifyMatch(imageWidth, pageWidth, false, FailureHandling.STOP_ON_FAILURE)
 
-        actualValue = WebUI.getAttribute(findTestObject('Homepage/HeroModule/image - slide 2'), 'alt', FailureHandling.STOP_ON_FAILURE)
+        actualValue = WebUI.getAttribute(findTestObject('Homepage/HeroModule/image - slide 2'), 'src', FailureHandling.STOP_ON_FAILURE)
 
         'this allows for null values in lower environments that do not have content updates'
         actualValue = (actualValue + ' ')

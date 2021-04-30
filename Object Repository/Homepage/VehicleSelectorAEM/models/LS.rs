@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#VehicleSelector div[class*=&quot;selected&quot;] img[src*=&quot;ls&quot;]</value>
+         <value>#VehicleSelector div[class*=&quot;selected&quot;] img[alt=&quot;LS&quot;]</value>
       </entry>
       <entry>
          <key>BASIC</key>
