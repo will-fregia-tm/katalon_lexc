@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@tabindex = '-1' and contains(@style, 'width: 100%')]//*[(contains(text(), 'Open Overlay') or contains(., 'Open Overlay'))]</value>
+         <value>(//div[@tabindex = '-1' and contains(@style, 'width: 100%')]//button)[1]</value>
       </entry>
       <entry>
          <key>BASIC</key>
