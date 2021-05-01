@@ -7,24 +7,28 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[not(contains(@href, 'dealers')) and @target = '_self']</value>
+         <value>//*[contains(@class, 'container')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//a[not(contains(@href, 'dealers')) and not(contains(@href, 'model_')) and not(contains(@href, '#')) and not(contains(@href, 'lexus.com')) and not(contains(@href, 'brochure')) and not(contains(@target, '_blank'))])[1]</value>
+         <value>((//*[contains(@class, 'container')])[2]//a[not(contains(@href, 'dealers')) and not(contains(@href, 'model_')) and not(contains(@href, '#')) and not(contains(@href, 'lexus.com')) and not(contains(@href, 'brochure')) and not(contains(@target, '_blank'))])[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>not contain</matchCondition>
       <name>href</name>
       <type>Main</type>
       <value>dealers</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>target</name>
       <type>Main</type>
@@ -36,5 +40,19 @@
       <name>text</name>
       <type>Main</type>
       <value>lexus</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>container</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>not contain</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>footer</value>
    </webElementProperties>
 </WebElementEntity>
