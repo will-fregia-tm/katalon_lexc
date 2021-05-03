@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>- first name is a required field
+- last name is a required field
+- email is a required field
+- email field requires valid @ tag
+- zipcode is a required field
+- zipcode field autofills if user's location is known (e.g. zip is already cookied)
+- zipcode field only accepts 5 digits - numbers only
+- models of interest dropdown is present
+- model of current model page is preselected in models of interest dropwdown
+- user can select up to three models in models of interest dropdown
+- there's no way to remove all models of interest
+- purchase plan dropdown is present
+- it's possible to select one of these options in purchase plan dropdown: 0-1 Months, 2-3 Months, 4-6 Months, 7-12 Months, 12+ Months
+- dealer opt-in box can be checked/unchecked</description>
+   <name>Model Newsletter registration info</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>004cbb07-12c8-4ae7-ad03-a1ce33aec463</testCaseGuid>
+   <variable>
+      <defaultValue>'LCHero'</defaultValue>
+      <description></description>
+      <id>d011a01f-d73b-4e97-86d9-6a094b813786</id>
+      <masked>false</masked>
+      <name>ModelPages</name>
+   </variable>
+</TestCaseEntity>

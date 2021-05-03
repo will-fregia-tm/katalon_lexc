@@ -419,4 +419,16 @@
          <variableId>3d8244f7-bd6f-4932-8579-a67330bfc70e</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>b8eb528a-c4ea-473f-9d53-f82966231b3e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/NXh/SignupForm/Model Newsletter registration info</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>63adad81-4e99-499e-8a83-ccb7ba41cc8b</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>

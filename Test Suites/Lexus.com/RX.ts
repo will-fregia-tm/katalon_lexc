@@ -407,4 +407,16 @@
          <variableId>e762ecb4-cbfb-4208-b031-63e1e8906251</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>8eb80d21-900b-4d8a-a54d-823f2ab125c0</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/RX/SignupForm/Model Newsletter registration info</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>3d8fb3f4-9332-46fd-a652-3dc8ad06e030</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>

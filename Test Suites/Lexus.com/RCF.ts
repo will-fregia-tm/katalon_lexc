@@ -371,4 +371,16 @@
          <variableId>61607bb5-eca1-4cbd-95e4-7e77fcc23c0a</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>15efbfab-2ce3-4894-8fc9-cd3574d6a711</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/RCF/SignupForm/Model Newsletter registration info</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>8ff8c00e-1735-4ee4-a49a-db33a1ad9e16</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>

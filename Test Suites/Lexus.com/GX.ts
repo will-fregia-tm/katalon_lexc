@@ -371,4 +371,16 @@
          <variableId>a74590e0-b070-4851-a555-37273543c073</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>a4482f8e-720c-463f-9a18-f6cbc5f0aa8c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/GX/SignupForm/Model Newsletter registration info</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ab816042-a43f-43ac-9247-9f6924a5c874</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>

@@ -407,4 +407,16 @@
          <variableId>b08a0248-8eaf-4318-afd4-6f887a709efb</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>60b5ae6e-d424-4f0d-854a-56ea4e261d68</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/LSh/SignupForm/Model Newsletter registration info</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d011a01f-d73b-4e97-86d9-6a094b813786</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>

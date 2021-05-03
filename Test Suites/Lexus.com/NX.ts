@@ -407,4 +407,16 @@
          <variableId>b1908033-b9c5-4661-a31d-8f11e82e414f</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>037a17f4-5ec5-41a4-8d2d-3b83ef5209bf</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/NX/SignupForm/Model Newsletter registration info</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>dbcf5400-9448-48a8-b294-2abdd813086f</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>

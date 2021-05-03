@@ -419,4 +419,16 @@
          <variableId>ac2aed2d-ff02-4132-9288-e7fe2e658283</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>c9c35da2-a982-4131-912e-4060d550fc42</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/RXh/SignupForm/Model Newsletter registration info</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>cd12b5cd-aa24-453b-93cb-31cc5dac28ae</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>
