@@ -92,7 +92,7 @@ WebUI.verifyElementPresent(findTestObject('ModelPages/SignupForm/valid zip promp
 validZIPPrompt = WebUI.getText(findTestObject('ModelPages/SignupForm/valid zip prompt'))
 
 'zipcode field only accepts 5 digits - numbers only'
-WebUI.verifyMatch(validZIPPrompt, 'Please enter a valid 5 digit ZIP Code.', false)
+WebUI.verifyMatch(validZIPPrompt, 'Please enter a valid 5 digit ZIP Code.', false, FailureHandling.OPTIONAL)
 
 WebUI.setText(findTestObject('ModelPages/SignupForm/zip field'), '1234', FailureHandling.STOP_ON_FAILURE)
 
@@ -103,7 +103,7 @@ WebUI.verifyElementPresent(findTestObject('ModelPages/SignupForm/valid zip promp
 validZIPPrompt = WebUI.getText(findTestObject('ModelPages/SignupForm/valid zip prompt'))
 
 'zipcode field only accepts 5 digits - numbers only'
-WebUI.verifyMatch(validZIPPrompt, 'Please enter a valid 5 digit ZIP Code.', false)
+WebUI.verifyMatch(validZIPPrompt, 'Please enter a valid 5 digit ZIP Code.', false, FailureHandling.OPTIONAL)
 
 WebUI.setText(findTestObject('ModelPages/SignupForm/zip field'), ' ', FailureHandling.STOP_ON_FAILURE)
 
@@ -114,7 +114,7 @@ WebUI.verifyElementPresent(findTestObject('ModelPages/SignupForm/valid zip promp
 validZIPPrompt = WebUI.getText(findTestObject('ModelPages/SignupForm/valid zip prompt'))
 
 'zipcode is a required field'
-WebUI.verifyMatch(validZIPPrompt, 'Please enter a valid 5 digit ZIP Code.', false)
+WebUI.verifyMatch(validZIPPrompt, 'Please enter a valid 5 digit ZIP Code.', false, FailureHandling.OPTIONAL)
 
 WebUI.setText(findTestObject('ModelPages/SignupForm/zip field'), '90066', FailureHandling.STOP_ON_FAILURE)
 
@@ -262,6 +262,11 @@ WebUI.delay(1)
 
 'there\'s no way to remove all models of interest'
 selectedModel = WebUI.getText(findTestObject('ModelPages/SignupForm/pre-selected model'))
+
+'models of interest dropdown is present'
+WebUI.click(findTestObject('ModelPages/SignupForm/model of interest dropdown'))
+
+WebUI.delay(1)
 
 'dealer opt-in box can be checked'
 WebUI.click(findTestObject('ModelPages/SignupForm/dealer opt-in box'), FailureHandling.STOP_ON_FAILURE)
