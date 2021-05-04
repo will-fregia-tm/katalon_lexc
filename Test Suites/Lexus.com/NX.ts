@@ -419,4 +419,16 @@
          <variableId>dbcf5400-9448-48a8-b294-2abdd813086f</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>910012ba-e194-40e6-a291-e42e8132e001</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/NX/SignupForm/Privacy Rights</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>01e270f9-f737-4198-a212-6ca74d7a14c4</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>

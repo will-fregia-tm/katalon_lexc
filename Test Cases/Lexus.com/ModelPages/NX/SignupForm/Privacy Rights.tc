@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Privacy copy present below submit button
+Learn more link present below submit button
+Learn More link should take the user to expected privacy URL</description>
+   <name>Privacy Rights</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>940dfab0-8cb2-42dd-a6f5-39f43b412c84</testCaseGuid>
+   <variable>
+      <defaultValue>'LCHero'</defaultValue>
+      <description></description>
+      <id>01e270f9-f737-4198-a212-6ca74d7a14c4</id>
+      <masked>false</masked>
+      <name>ModelPages</name>
+   </variable>
+</TestCaseEntity>

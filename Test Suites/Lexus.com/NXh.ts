@@ -431,4 +431,16 @@
          <variableId>63adad81-4e99-499e-8a83-ccb7ba41cc8b</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>da811287-950a-4d03-a9aa-6106205588c4</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/NXh/SignupForm/Privacy Rights</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f4782d2e-96d6-4112-bd39-c5b70f7e0d39</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>

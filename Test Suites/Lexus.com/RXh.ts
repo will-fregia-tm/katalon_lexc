@@ -431,4 +431,16 @@
          <variableId>cd12b5cd-aa24-453b-93cb-31cc5dac28ae</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>fc4726b4-79b4-4ac1-a71a-5571affac186</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/RXh/SignupForm/Privacy Rights</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>8e2b4c8a-7cd4-4c50-bda6-35d7f07e41c9</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>

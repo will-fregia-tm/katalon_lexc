@@ -383,4 +383,16 @@
          <variableId>ab816042-a43f-43ac-9247-9f6924a5c874</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>29c460ac-2140-4654-9b7b-251a63029d25</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/GX/SignupForm/Privacy Rights</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>5aa89ffc-fe33-497a-b6bb-4be041e5fc03</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>

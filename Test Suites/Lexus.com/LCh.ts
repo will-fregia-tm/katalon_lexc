@@ -419,4 +419,16 @@
          <variableId>97c55d59-367b-436c-8a96-4e2583589030</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>94293b1c-1801-4475-bc88-e5b4471eff2d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/LCh/SignupForm/Privacy Rights</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>3685ff6b-6a58-41b0-ad88-683b11472328</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>
