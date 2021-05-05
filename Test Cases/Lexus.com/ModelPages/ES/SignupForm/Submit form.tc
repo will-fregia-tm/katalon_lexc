@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Submit form
+Thank You message indicates that submission is complete
+user can exit Thank You message and return to model page</description>
+   <name>Submit form</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>72f4ee20-565e-4c64-9798-40ff1fc6c2e9</testCaseGuid>
+   <variable>
+      <defaultValue>'LCHero'</defaultValue>
+      <description></description>
+      <id>3cef6658-686e-4fdc-8120-e4165f3d7af2</id>
+      <masked>false</masked>
+      <name>ModelPages</name>
+   </variable>
+</TestCaseEntity>

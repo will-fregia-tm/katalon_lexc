@@ -395,4 +395,28 @@
          <variableId>9c4c68ef-3703-43de-9a91-4472d91497b1</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>88942d67-2473-4812-9523-5fbe899202a2</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/IS/SignupForm/Submit form</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>191edcb4-485f-4033-8d74-fcdf5f3d048b</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f6a32bd8-2c6a-4981-8534-63fe4b7c87f2</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/IS/SignupForm/User opts in to be contacted</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d6f39c4e-e4a1-40c9-b991-91eb206ce753</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>

@@ -443,4 +443,28 @@
          <variableId>f4782d2e-96d6-4112-bd39-c5b70f7e0d39</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>96e989b2-6001-4459-b3bc-c7f64dcf9644</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/NXh/SignupForm/Submit form</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>42be63e2-930b-486d-b7d6-1dbd1317082e</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9450cefa-492f-40d7-ad6f-74026481bd37</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/NXh/SignupForm/User opts in to be contacted</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>78f69912-deb3-4d6e-9cc8-5d0df8b9e4fc</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>
