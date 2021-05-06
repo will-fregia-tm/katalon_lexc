@@ -21,6 +21,16 @@ totalPages = (findTestData(GlobalVariable.DS_version + 'URLsModelPagesFeatures')
 
 WebUI.openBrowser(GlobalVariable.TS_Domain + GlobalVariable.Header)
 
+cookieValue = findTestData('cookieValues').getValue(2, 1)
+
+Cookie ck = new Cookie('ESTSAUTH', cookieValue)
+
+WebDriver driver = DriverFactory.getWebDriver()
+
+driver.manage().addCookie(ck)
+
+WebUI.navigateToUrl(GlobalVariable.TS_Domain + '/models/categories/sedans')
+
 for (def index : (0..totalPages)) {
     WebUI.navigateToUrl(findTestData(GlobalVariable.DS_version + 'URLsModelPagesFeatures').getValue(dataColumn, dataRow))
 
