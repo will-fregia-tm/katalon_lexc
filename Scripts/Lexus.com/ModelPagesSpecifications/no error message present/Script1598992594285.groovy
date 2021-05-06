@@ -16,18 +16,27 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 import com.kms.katalon.keyword.excel.ExcelKeywords as ExcelKeywords
+import com.kms.katalon.core.testobject.RequestObject as RequestObject
+import org.openqa.selenium.Cookie as Cookie
+import org.openqa.selenium.WebDriver as WebDriver
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
 totalPages = (findTestData(GlobalVariable.DS_version + 'URLsModelPagesSpecifications').getRowNumbers() - 1)
 
-WebUI.openBrowser(GlobalVariable.TS_Domain + GlobalVariable.Header)
+WebUI.openBrowser(GlobalVariable.SSO_login)
 
-cookieValue = findTestData('cookieValues').getValue(2, 1)
+'these steps are added to handle lower environment authentication'
+if (WebUI.verifyMatch(GlobalVariable.lowerEnvironment, 'yes', false, FailureHandling.OPTIONAL)) {
+    cookieValue = findTestData('cookieValues').getValue(2, 1)
 
-Cookie ck = new Cookie('ESTSAUTH', cookieValue)
+    Cookie ck = new Cookie('ESTSAUTH', cookieValue)
 
-WebDriver driver = DriverFactory.getWebDriver()
+    WebDriver driver = DriverFactory.getWebDriver()
 
-driver.manage().addCookie(ck)
+    driver.manage().addCookie(ck)
+
+    WebUI.navigateToUrl(GlobalVariable.TS_Domain + GlobalVariable.Header)
+}
 
 WebUI.navigateToUrl(GlobalVariable.TS_Domain + '/models/categories/sedans')
 
@@ -38,7 +47,7 @@ for (def index : (0..totalPages)) {
         WebUI.navigateToUrl(findTestData(GlobalVariable.DS_version + 'URLsModelPagesSpecifications').getValue(dataColumn, 
                 dataRow))
 
-        WebUI.verifyElementPresent(findTestObject('GlobalNav/lexus logo'), 0)
+        WebUI.verifyElementPresent(findTestObject('GlobalNav/lexus logo'), 0, FailureHandling.OPTIONAL)
     }
     
     WebUI.verifyElementNotPresent(findTestObject('error'), 0)
