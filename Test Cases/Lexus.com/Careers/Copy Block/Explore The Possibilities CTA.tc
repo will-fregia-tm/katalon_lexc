@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>CTA:
+
+type: 
+Text link: 
+Link label: Learn more
+
+https://tmm.taleo.net/careersection/10020/jobsearch.ftl?lang=en
+
+open in new tab</description>
+   <name>Explore The Possibilities CTA</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>765ffe10-34bd-4795-8177-6ad3e544bc91</testCaseGuid>
+</TestCaseEntity>

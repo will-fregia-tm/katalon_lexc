@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>CTA:
+
+type: 
+Text link: 
+Link label: Linkedin Toyota North America
+
+https://www.linkedin.com/company/toyota-north-america
+
+open in new tab</description>
+   <name>Linkedin CTA</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8e8ad499-af83-4e1d-b6c7-42b1d1adead0</testCaseGuid>
+</TestCaseEntity>

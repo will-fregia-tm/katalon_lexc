@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Take a look is present</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a2b2c8a3-b404-4cba-aab4-e92492007d3c</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>524773c0-0686-45d3-bfd6-f0e7a8c2c2ff</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>

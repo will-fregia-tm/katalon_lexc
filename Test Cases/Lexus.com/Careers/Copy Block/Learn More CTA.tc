@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>CTA:
+
+type: 
+Text link: 
+Link label: Learn more
+
+https://www.toyota.com/usa/careers/index.html
+
+open in new tab</description>
+   <name>Learn More CTA</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7998719e-625d-48f9-9a8c-8a6a6214fedd</testCaseGuid>
+</TestCaseEntity>

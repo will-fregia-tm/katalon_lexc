@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Ready to join is present</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d3244403-1084-4dc4-bd71-0e1de6cc51c0</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>76f3d18b-4d19-4397-95de-cea9ae613faa</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>

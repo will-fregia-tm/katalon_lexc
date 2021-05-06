@@ -40,15 +40,29 @@ if (WebUI.verifyMatch(domain, 'staging', false, FailureHandling.OPTIONAL)) {
 WebUI.navigateToUrl(GlobalVariable.AEM_Domain + '/careers')
 
 'this step is added to handle a slow or partial page load'
-not_run: if (WebUI.verifyElementNotPresent(findTestObject('FCV/hero module'), 3, FailureHandling.OPTIONAL)) {
+if (WebUI.verifyElementNotPresent(findTestObject('Careers/Header Lexus Careers'), 3, FailureHandling.OPTIONAL)) {
     WebUI.refresh()
 }
 
-WebUI.waitForElementPresent(findTestObject('Careers/Header'), 4, FailureHandling.STOP_ON_FAILURE)
+WebUI.waitForElementPresent(findTestObject('Careers/Header Lexus Careers'), 4, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('Careers/Header'), 4, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('Careers/Learn More CTA'), 4, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('GlobalNav/lexus logo'), 4)
+href = WebUI.getAttribute(findTestObject('Careers/Learn More CTA'), 'href', FailureHandling.STOP_ON_FAILURE)
+
+target = WebUI.getAttribute(findTestObject('Careers/Learn More CTA'), 'target', FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyMatch(target, '_blank', false, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.verifyMatch(href, 'http://www.toyota.com/careers', false, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.mouseOver(findTestObject('Careers/Learn More CTA'), FailureHandling.OPTIONAL)
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Careers/Learn More CTA'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.waitForPageLoad(0, FailureHandling.STOP_ON_FAILURE)
 
 @com.kms.katalon.core.annotation.TearDownIfPassed
 def passed() {

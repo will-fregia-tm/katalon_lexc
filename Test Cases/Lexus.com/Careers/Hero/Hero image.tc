@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Hero image
+display in full width in any resolution.</description>
+   <name>Hero image</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>28fc5f8a-ee96-4c7c-8b8a-c0d1ca9caafa</testCaseGuid>
+</TestCaseEntity>

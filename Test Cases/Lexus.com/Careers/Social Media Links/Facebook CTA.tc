@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>CTA:
+
+type: 
+Text link: 
+Link label: Glassdoor Toyota North America
+
+https://www.glassdoor.com/Overview/Working-at-Toyota-North-America-EI_IE3544.11,31.htm
+
+open in new tab</description>
+   <name>Facebook CTA</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>99073dd1-dd2b-47b1-83fb-f8c9d4c9fe5d</testCaseGuid>
+</TestCaseEntity>
