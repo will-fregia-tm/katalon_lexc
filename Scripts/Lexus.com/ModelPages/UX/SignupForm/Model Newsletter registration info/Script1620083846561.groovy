@@ -273,7 +273,10 @@ WebUI.click(findTestObject('ModelPages/SignupForm/dealer opt-in box'), FailureHa
 
 WebUI.delay(1)
 
-WebUI.verifyElementPresent(findTestObject('ModelPages/SignupForm/preferred dealers heading'), 0)
+'these steps will run in environments that require valid content'
+if (WebUI.verifyMatch(GlobalVariable.contentValidation, 'yes', false, FailureHandling.OPTIONAL)) {
+    WebUI.verifyElementPresent(findTestObject('ModelPages/SignupForm/preferred dealers heading'), 0)
+}
 
 'dealer opt-in box can be unchecked'
 WebUI.click(findTestObject('ModelPages/SignupForm/dealer opt-in box'), FailureHandling.STOP_ON_FAILURE)

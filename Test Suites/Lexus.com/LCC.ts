@@ -434,7 +434,7 @@
    <testCaseLink>
       <guid>a41ae148-60aa-4caf-9800-b8d81a334926</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Lexus.com/ModelPages/LCC/SignupForm/Submit form</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>

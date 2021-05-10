@@ -117,10 +117,13 @@ WebUI.delay(3)
 
 WebUI.verifyElementPresent(findTestObject('ModelPages/SignupForm/form overlay'), 0, FailureHandling.STOP_ON_FAILURE)
 
-selectedModel = WebUI.getText(findTestObject('ModelPages/SignupForm/pre-selected model'))
+'these steps will run in environments that require valid content'
+if (WebUI.verifyMatch(GlobalVariable.contentValidation, 'yes', false, FailureHandling.OPTIONAL)) {
+    selectedModel = WebUI.getText(findTestObject('ModelPages/SignupForm/pre-selected model'))
 
-'Clicking on sign-up link takes user to form with model preselected'
-WebUI.verifyMatch(selectedModel, findTestData('modelData').getValue(1, seriesKey + 1380), false)
+    'Clicking on sign-up link takes user to form with model preselected'
+    WebUI.verifyMatch(selectedModel, findTestData('modelData').getValue(1, seriesKey + 1380), false)
+}
 
 @com.kms.katalon.core.annotation.TearDownIfPassed
 def passed() {

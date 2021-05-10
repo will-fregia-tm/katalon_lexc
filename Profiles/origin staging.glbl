@@ -49,4 +49,9 @@
       <initValue>'https://stg-aem-lcom.origin.cepo-proxy.tms.aws.lexus.com'</initValue>
       <name>AEM_Domain_nonauthor</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'no'</initValue>
+      <name>contentValidation</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

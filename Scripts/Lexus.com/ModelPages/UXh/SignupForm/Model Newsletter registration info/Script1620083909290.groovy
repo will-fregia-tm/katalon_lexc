@@ -73,10 +73,13 @@ WebUI.delay(3)
 
 WebUI.verifyElementPresent(findTestObject('ModelPages/SignupForm/form overlay'), 0, FailureHandling.STOP_ON_FAILURE)
 
-selectedModel = WebUI.getText(findTestObject('ModelPages/SignupForm/pre-selected model'))
+'these steps will run in environments that require valid content'
+if (WebUI.verifyMatch(GlobalVariable.contentValidation, 'yes', false, FailureHandling.OPTIONAL)) {
+    selectedModel = WebUI.getText(findTestObject('ModelPages/SignupForm/pre-selected model'))
 
-'model of current model page is preselected in models of interest dropwdown'
-WebUI.verifyMatch(selectedModel, findTestData('modelData').getValue(1, seriesKey + 1380), false)
+    'model of current model page is preselected in models of interest dropwdown'
+    WebUI.verifyMatch(selectedModel, findTestData('modelData').getValue(1, seriesKey + 1380), false)
+}
 
 'zipcode field autofills if user\'s location is known'
 zipCode = WebUI.getAttribute(findTestObject('ModelPages/SignupForm/zip field'), 'value')
@@ -240,15 +243,18 @@ WebUI.click(findTestObject('ModelPages/SignupForm/dropwdown option 2'))
 
 WebUI.delay(1)
 
-'user can select up to three models in models of interest dropdown'
-WebUI.verifyElementPresent(findTestObject('ModelPages/SignupForm/selection limited message'), 0)
+'these steps will run in environments that require valid content'
+if (WebUI.verifyMatch(GlobalVariable.contentValidation, 'yes', false, FailureHandling.OPTIONAL)) {
+    'user can select up to three models in models of interest dropdown'
+    WebUI.verifyElementPresent(findTestObject('ModelPages/SignupForm/selection limited message'), 0)
 
-WebUI.getText(findTestObject('ModelPages/SignupForm/selection limited message'))
+    WebUI.getText(findTestObject('ModelPages/SignupForm/selection limited message'))
 
-'user can select up to three models in models of interest dropdown'
-WebUI.click(findTestObject('ModelPages/SignupForm/model of interest - remove button 3'))
+    'user can select up to three models in models of interest dropdown'
+    WebUI.click(findTestObject('ModelPages/SignupForm/model of interest - remove button 3'))
 
-WebUI.delay(1)
+    WebUI.delay(1)
+}
 
 'user can select up to three models in models of interest dropdown'
 WebUI.click(findTestObject('ModelPages/SignupForm/model of interest - remove button 2'))
@@ -260,8 +266,11 @@ WebUI.click(findTestObject('ModelPages/SignupForm/model of interest - remove but
 
 WebUI.delay(1)
 
-'there\'s no way to remove all models of interest'
-selectedModel = WebUI.getText(findTestObject('ModelPages/SignupForm/pre-selected model'))
+'these steps will run in environments that require valid content'
+if (WebUI.verifyMatch(GlobalVariable.contentValidation, 'yes', false, FailureHandling.OPTIONAL)) {
+    'there\'s no way to remove all models of interest'
+    selectedModel = WebUI.getText(findTestObject('ModelPages/SignupForm/pre-selected model'))
+}
 
 'models of interest dropdown is present'
 WebUI.click(findTestObject('ModelPages/SignupForm/model of interest dropdown'))
@@ -273,7 +282,10 @@ WebUI.click(findTestObject('ModelPages/SignupForm/dealer opt-in box'), FailureHa
 
 WebUI.delay(1)
 
-WebUI.verifyElementPresent(findTestObject('ModelPages/SignupForm/preferred dealers heading'), 0)
+'these steps will run in environments that require valid content'
+if (WebUI.verifyMatch(GlobalVariable.contentValidation, 'yes', false, FailureHandling.OPTIONAL)) {
+    WebUI.verifyElementPresent(findTestObject('ModelPages/SignupForm/preferred dealers heading'), 0)
+}
 
 'dealer opt-in box can be unchecked'
 WebUI.click(findTestObject('ModelPages/SignupForm/dealer opt-in box'), FailureHandling.STOP_ON_FAILURE)

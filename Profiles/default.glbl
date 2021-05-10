@@ -204,4 +204,9 @@
       <initValue>'https://www.lexus.com'</initValue>
       <name>AEM_Domain_nonauthor</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'yes'</initValue>
+      <name>contentValidation</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
