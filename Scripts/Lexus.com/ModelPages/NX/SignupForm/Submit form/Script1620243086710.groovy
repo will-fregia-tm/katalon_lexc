@@ -86,9 +86,12 @@ WebUI.click(findTestObject('ModelPages/SignupForm/dealer opt-in box'), FailureHa
 
 WebUI.delay(1)
 
-WebUI.verifyElementPresent(findTestObject('ModelPages/SignupForm/preferred dealers heading'), 0)
+'these steps will run in environments that require valid content'
+if (WebUI.verifyMatch(GlobalVariable.contentValidation, 'yes', false, FailureHandling.OPTIONAL)) {
+    WebUI.verifyElementPresent(findTestObject('ModelPages/SignupForm/preferred dealers heading'), 0)
 
-WebUI.scrollToElement(findTestObject('ModelPages/SignupForm/preferred dealers heading'), 0)
+    WebUI.scrollToElement(findTestObject('ModelPages/SignupForm/preferred dealers heading'), 0)
+}
 
 WebUI.mouseOver(findTestObject('ModelPages/SignupForm/submit button'), FailureHandling.OPTIONAL)
 

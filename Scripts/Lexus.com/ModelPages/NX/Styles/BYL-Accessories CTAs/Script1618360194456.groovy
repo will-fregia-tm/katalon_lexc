@@ -79,7 +79,10 @@ WebUI.verifyMatch(accessoriesURL, 'https://parts.lexus.com/accessories/Lexus__.h
 
 accessoriesTarget = WebUI.getAttribute(findTestObject('ModelPages/Styles/Accessories link'), 'target')
 
-WebUI.verifyMatch(accessoriesTarget, '_blank', false, FailureHandling.CONTINUE_ON_FAILURE)
+'these steps will run in environments that require valid content'
+if (WebUI.verifyMatch(GlobalVariable.contentValidation, 'yes', false, FailureHandling.OPTIONAL)) {
+    WebUI.verifyMatch(accessoriesTarget, '_blank', false, FailureHandling.CONTINUE_ON_FAILURE)
+}
 
 WebUI.click(findTestObject('ModelPages/Styles/BYL CTA'), FailureHandling.OPTIONAL)
 

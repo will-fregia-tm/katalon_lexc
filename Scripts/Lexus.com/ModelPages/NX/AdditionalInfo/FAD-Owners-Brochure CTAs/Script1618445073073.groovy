@@ -92,7 +92,10 @@ WebUI.verifyNotMatch(valueWithoutExpected, actualValue, false, FailureHandling.C
 
 target = WebUI.getAttribute(findTestObject('ModelPages/AdditionalInfo/owners CTA'), 'target')
 
-WebUI.verifyMatch(target, '_blank', false, FailureHandling.CONTINUE_ON_FAILURE)
+'these steps will run in environments that require valid content'
+if (WebUI.verifyMatch(GlobalVariable.contentValidation, 'yes', false, FailureHandling.OPTIONAL)) {
+    WebUI.verifyMatch(target, '_blank', false, FailureHandling.CONTINUE_ON_FAILURE)
+}
 
 'these steps validate that the actual value contains an expected value'
 actualValue = WebUI.getAttribute(findTestObject('ModelPages/AdditionalInfo/brochure CTA'), 'href')
@@ -105,7 +108,10 @@ WebUI.verifyNotMatch(valueWithoutExpected, actualValue, false, FailureHandling.S
 
 target = WebUI.getAttribute(findTestObject('ModelPages/AdditionalInfo/brochure CTA'), 'target')
 
-WebUI.verifyMatch(target, '_blank', false, FailureHandling.STOP_ON_FAILURE)
+'these steps will run in environments that require valid content'
+if (WebUI.verifyMatch(GlobalVariable.contentValidation, 'yes', false, FailureHandling.OPTIONAL)) {
+    WebUI.verifyMatch(target, '_blank', false, FailureHandling.STOP_ON_FAILURE)
+}
 
 WebUI.click(findTestObject('ModelPages/AdditionalInfo/FAD CTA'), FailureHandling.OPTIONAL)
 

@@ -110,16 +110,19 @@ modelSeries2 = ((modelSeries - ' C') - 'h')
 'verifies correct model name text'
 WebUI.verifyMatch(modelName, modelSeries2, false)
 
-WebUI.verifyElementVisible(findTestObject('ModelPages/Hero/model year'))
+'these steps will run in environments that require valid content'
+if (WebUI.verifyMatch(GlobalVariable.contentValidation, 'yes', false, FailureHandling.OPTIONAL)) {
+    WebUI.verifyElementVisible(findTestObject('ModelPages/Hero/model year'))
 
-actualValue = WebUI.getText(findTestObject('ModelPages/Hero/model year'))
+    actualValue = WebUI.getText(findTestObject('ModelPages/Hero/model year'))
 
-expectedValue = findTestData('modelData').getValue(GlobalVariable.dataColumn, seriesKey + 120)
+    expectedValue = findTestData('modelData').getValue(GlobalVariable.dataColumn, seriesKey + 120)
 
-valueWithoutExpected = (actualValue - expectedValue)
+    valueWithoutExpected = (actualValue - expectedValue)
 
-'verifies that correct model year appears'
-WebUI.verifyNotMatch(valueWithoutExpected, actualValue, false, FailureHandling.STOP_ON_FAILURE)
+    'verifies that correct model year appears'
+    WebUI.verifyNotMatch(valueWithoutExpected, actualValue, false, FailureHandling.STOP_ON_FAILURE)
+}
 
 WebUI.verifyElementVisible(findTestObject('ModelPages/Hero/starting at MSRP'))
 

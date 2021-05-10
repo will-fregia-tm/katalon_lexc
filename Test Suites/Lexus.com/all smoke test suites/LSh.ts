@@ -35,16 +35,4 @@
          <variableId>b5dde028-bb61-4b37-b890-fc49f0520177</variableId>
       </variableLink>
    </testCaseLink>
-   <testCaseLink>
-      <guid>158d4d68-18c6-427f-a504-c275c43ac278</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/ModelPages/LSh/SignupForm/Submit form</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>47898fbf-afee-44b9-8eed-bbe8c701204f</variableId>
-      </variableLink>
-   </testCaseLink>
 </TestSuiteEntity>
