@@ -47,4 +47,16 @@
          <variableId>2995f3c7-5440-4889-ba48-9332b132aca3</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>fccb5737-6d8b-4b62-ac11-1fe36dfeafa6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/NXh/AdditionalInfo/FAD-Owners-Brochure CTAs - mobile</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>dfbb5980-5e8c-4296-be93-1fe795a578e8</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>

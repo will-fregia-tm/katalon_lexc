@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>*Find a Dealer*
+- links to find a dealer page
+
+*Owner Benefits*
+- links out to owner benefits page
+
+*Brochure*
+- links to appropriate model brochure file</description>
+   <name>FAD-Owners-Brochure CTAs - mobile</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7464a724-e06e-481e-a778-210ce9aff8a9</testCaseGuid>
+   <variable>
+      <defaultValue>'LCHero'</defaultValue>
+      <description></description>
+      <id>7d0359d3-bf53-4fc6-91fe-abfb3350d21b</id>
+      <masked>false</masked>
+      <name>ModelPages</name>
+   </variable>
+</TestCaseEntity>

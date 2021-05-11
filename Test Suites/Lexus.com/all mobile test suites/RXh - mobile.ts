@@ -47,4 +47,16 @@
          <variableId>36294e4a-a0a1-45a6-945e-9f7f2874baa6</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>42b4efd4-0388-4e32-a70b-72b9fa461503</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/RXh/AdditionalInfo/FAD-Owners-Brochure CTAs - mobile</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>0d679050-8b55-4651-bff4-b364bf5155e8</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>
