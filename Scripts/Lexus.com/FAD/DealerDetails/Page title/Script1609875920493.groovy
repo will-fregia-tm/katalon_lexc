@@ -67,6 +67,8 @@ WebUI.click(findTestObject('FAD/DealerDetails/back to dealer results CTA'), Fail
 
 WebUI.waitForElementPresent(findTestObject('FAD/ZipGate/search icon'), 0, FailureHandling.STOP_ON_FAILURE)
 
+WebUI.delay(2)
+
 WebUI.setText(findTestObject('FAD/ZipGate/zip entry dialog box'), '75218', FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('FAD/ZipGate/search icon'), FailureHandling.STOP_ON_FAILURE)
