@@ -64,7 +64,7 @@
          <configuration>
             <groupName>Custom</groupName>
             <profileName>prod</profileName>
-            <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
+            <runConfigurationId>saucelabs_firefox_macos10.15</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/ModelPagesAccessories</testSuiteEntity>
@@ -118,7 +118,7 @@
          <configuration>
             <groupName>Custom</groupName>
             <profileName>prod</profileName>
-            <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
+            <runConfigurationId>saucelabs_firefox_win10</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/ModelPagesOwners</testSuiteEntity>
