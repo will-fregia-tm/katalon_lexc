@@ -26,7 +26,7 @@
    <testCaseLink>
       <guid>92ba1095-4262-44e6-b3a4-af572483e611</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Lexus.com/ModelPages/NX/Technology/All Features CTA - Access all Technology features - mobile</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>

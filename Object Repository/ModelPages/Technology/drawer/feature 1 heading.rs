@@ -6,12 +6,11 @@
    <elementGuidId>66d0dca4-fa0f-4445-9ab8-670fecc96ae8</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>(//button[(contains(text(), 'MORE TECHNOLOGY') or contains(., 'MORE TECHNOLOGY'))]/following-sibling::*[(contains(text(), ',') or contains(., ','))]//h3)[1]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(//*[contains(@id, 'technology')]/parent::div//following-sibling::div//h3)[1]</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

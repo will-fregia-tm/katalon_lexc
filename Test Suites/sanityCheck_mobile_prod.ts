@@ -63,8 +63,8 @@
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Custom</groupName>
-            <profileName>default</profileName>
-            <runConfigurationId>saucelabs_safari_ios14_iphone11pro</runConfigurationId>
+            <profileName>prod</profileName>
+            <runConfigurationId>saucelabs_safari_ios14_iphone12</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/all mobile test suites/LCh - mobile</testSuiteEntity>
@@ -82,7 +82,7 @@
          <configuration>
             <groupName>Custom</groupName>
             <profileName>prod</profileName>
-            <runConfigurationId>saucelabs_chrome_android10_pixel3</runConfigurationId>
+            <runConfigurationId>saucelabs_chrome_android11_pixel3a_xl</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/all mobile test suites/LSh - mobile</testSuiteEntity>
@@ -91,7 +91,7 @@
          <configuration>
             <groupName>Custom</groupName>
             <profileName>prod</profileName>
-            <runConfigurationId>saucelabs_safari_ios14_iphone11pro</runConfigurationId>
+            <runConfigurationId>saucelabs_safari_ios14_iphone12</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/all mobile test suites/LX - mobile</testSuiteEntity>
@@ -135,7 +135,7 @@
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Custom</groupName>
-            <profileName>default</profileName>
+            <profileName>prod</profileName>
             <runConfigurationId>saucelabs_safari_ios14_iphone11pro</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
@@ -145,7 +145,7 @@
          <configuration>
             <groupName>Custom</groupName>
             <profileName>prod</profileName>
-            <runConfigurationId>saucelabs_safari_ios14_iphone11pro</runConfigurationId>
+            <runConfigurationId>saucelabs_safari_ios14_iphone12</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/all mobile test suites/RXh - mobile</testSuiteEntity>

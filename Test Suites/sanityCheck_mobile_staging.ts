@@ -28,7 +28,7 @@
          <configuration>
             <groupName>Custom</groupName>
             <profileName>staging</profileName>
-            <runConfigurationId>saucelabs_chrome_android10_pixel3</runConfigurationId>
+            <runConfigurationId>saucelabs_chrome_android11_pixel3a_xl</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/all mobile test suites/GX - mobile</testSuiteEntity>
@@ -55,7 +55,7 @@
          <configuration>
             <groupName>Custom</groupName>
             <profileName>staging</profileName>
-            <runConfigurationId>saucelabs_chrome_android10_pixel3</runConfigurationId>
+            <runConfigurationId>saucelabs_chrome_android11_pixel3a_xl</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/all mobile test suites/LCC - mobile</testSuiteEntity>
@@ -82,7 +82,7 @@
          <configuration>
             <groupName>Custom</groupName>
             <profileName>staging</profileName>
-            <runConfigurationId>saucelabs_chrome_android10_pixel3</runConfigurationId>
+            <runConfigurationId>saucelabs_chrome_android11_pixel3a_xl</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/all mobile test suites/LSh - mobile</testSuiteEntity>
@@ -109,7 +109,7 @@
          <configuration>
             <groupName>Custom</groupName>
             <profileName>staging</profileName>
-            <runConfigurationId>saucelabs_chrome_android10_pixel3</runConfigurationId>
+            <runConfigurationId>saucelabs_chrome_android11_pixel3a_xl</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/all mobile test suites/NXh - mobile</testSuiteEntity>
@@ -136,7 +136,7 @@
          <configuration>
             <groupName>Custom</groupName>
             <profileName>staging</profileName>
-            <runConfigurationId>saucelabs_chrome_android10_pixel3</runConfigurationId>
+            <runConfigurationId>saucelabs_chrome_android11_pixel3a_xl</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/all mobile test suites/RX - mobile</testSuiteEntity>
@@ -163,7 +163,7 @@
          <configuration>
             <groupName>Custom</groupName>
             <profileName>staging</profileName>
-            <runConfigurationId>saucelabs_chrome_android10_pixel3</runConfigurationId>
+            <runConfigurationId>saucelabs_chrome_android11_pixel3a_xl</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/all mobile test suites/UXh - mobile</testSuiteEntity>

@@ -45,6 +45,8 @@ if (WebUI.verifyMatch(GlobalVariable.lowerEnvironment, 'yes', false, FailureHand
     driver.manage().addCookie(ck)
 
     WebUI.navigateToUrl(GlobalVariable.TS_Domain + GlobalVariable.legacyURL)
+
+    WebUI.waitForPageLoad(0)
 }
 
 WebUI.navigateToUrl(GlobalVariable.AEM_Domain + findTestData('modelData').getValue(GlobalVariable.dataColumn, seriesKey))

@@ -86,7 +86,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'/models/categories/sedans'</initValue>
+      <initValue>'/IS500/'</initValue>
       <name>legacyURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
