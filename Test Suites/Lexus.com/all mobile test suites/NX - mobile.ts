@@ -59,4 +59,28 @@
          <variableId>af6a9507-552d-4263-b5d5-b0560113c331</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>aafc1ab1-71bd-4548-bef5-90b9d719c501</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/NX/Design/All Features CTA - Access all Design features - mobile</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>832b961a-c910-4b6e-b0ae-e3592aa21c49</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c60406da-38c9-4fd4-8258-104b5356ac10</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/NX/Gallery/View Expanded Gallery Overlay - mobile</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e5371cbe-05a6-4430-be05-27d36fdeb4ad</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>

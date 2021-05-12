@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>- Clicking on All Design CTA leads to IL features tab with open Design accordion.</description>
+   <name>All Features CTA - Access all Design features - mobile</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>baa281f1-f5a2-4c0d-925c-a64e000299b9</testCaseGuid>
+   <variable>
+      <defaultValue>'LCHero'</defaultValue>
+      <description></description>
+      <id>1a485847-54c2-4839-a9c1-e1ecfd4bd034</id>
+      <masked>false</masked>
+      <name>ModelPages</name>
+   </variable>
+</TestCaseEntity>

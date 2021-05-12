@@ -59,4 +59,28 @@
          <variableId>2410370b-442d-452b-b140-e28ef9b54513</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>7de55164-adf3-40ee-ac4f-e45cab8f69cb</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/IS/Design/All Features CTA - Access all Design features - mobile</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ef2bf51c-6cec-4c9d-9337-e4971cede4a9</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>08d2551b-191e-4b19-a6e9-9583997ce88d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/IS/Gallery/View Expanded Gallery Overlay - mobile</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e4843f79-0ba6-4136-ac8b-acfbed0d2d44</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>
