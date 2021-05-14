@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>- Clicking on All Safety CTA leads to IL features tab with open Performance accordion.</description>
+   <name>All Features CTA - Access all Safety features - mobile</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9b5ec977-dde9-47e1-9190-e81f9513afc1</testCaseGuid>
+   <variable>
+      <defaultValue>'LCHero'</defaultValue>
+      <description></description>
+      <id>8a6af7e7-cf2e-48f2-bf8c-e1768d62998e</id>
+      <masked>false</masked>
+      <name>ModelPages</name>
+   </variable>
+</TestCaseEntity>

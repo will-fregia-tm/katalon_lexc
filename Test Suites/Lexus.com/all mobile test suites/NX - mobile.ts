@@ -83,4 +83,76 @@
          <variableId>e5371cbe-05a6-4430-be05-27d36fdeb4ad</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>9988bdfe-f4a7-44b0-bb46-302317972d5e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/NX/Offers/Browse Offers - mobile</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f62df8d9-d990-4641-b80d-55cc88321c54</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>0676700c-1ce5-4527-8ce1-6f34e37dc7c2</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/NX/Performance/All Features CTA - Access all Performance features - mobile</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>b4d61eb5-d6ff-469e-8936-0a8b972d60ba</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>282b5533-97a4-4569-9d5d-850c9904db59</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/NX/Safety/All Features CTA - Access all Safety features - mobile</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f68ca9ef-c072-48c8-acd7-0cd97fde7f6c</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f40e284f-1356-4524-9fdd-fadbd95ed4a1</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/NX/SignupForm/User opts in to be contacted - mobile</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f26de5aa-7878-4536-acde-7216937e8e11</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>687caa40-d455-4ba6-b133-654b68dabe2c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/NX/Styles/BYL-Accessories CTAs - mobile</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ab6f25c0-f18b-494a-bd3d-8c45aad273a0</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a6d722c1-f313-4013-939c-41162c625f3b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/NX/Visualizer/Select Visualizer Model-Style - mobile</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>0e3b27dc-34d2-429e-83ed-93e68151a58b</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>

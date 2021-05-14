@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Entering zip for a region with offers displays:
+
+- current market/zip
+- ability to change Market/zip
+- ability to toggle between gas/hybrid offers
+- ability to select a model Style 
+- 2 Offer Cards
+* offer card carousel for 4+ offers
+* View Inventory CTA
+</description>
+   <name>Browse Offers - mobile</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ab556e78-b752-4587-aab3-5b0ecdf77c68</testCaseGuid>
+   <variable>
+      <defaultValue>'LCHero'</defaultValue>
+      <description></description>
+      <id>b30a26c8-9296-42f8-a58d-c7f30511c0e6</id>
+      <masked>false</masked>
+      <name>ModelPages</name>
+   </variable>
+</TestCaseEntity>

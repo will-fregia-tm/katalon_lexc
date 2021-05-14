@@ -83,4 +83,76 @@
          <variableId>272d5b7c-b6bc-4f93-93b1-cfa5460206f4</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>df65cec2-9f14-426e-8c42-56efde9e5507</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/LSh/Offers/Browse Offers - mobile</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>30fd0a47-f3f0-47f7-8006-54291a5f2cfb</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>0214af86-56de-4198-a546-91ea54e2ccd5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/LSh/Performance/All Features CTA - Access all Performance features - mobile</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>401d6ba6-ee6d-405a-8157-0f0e685b5cd3</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ac405f87-28f0-4f29-a02a-6bd4122933c7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/LSh/Safety/All Features CTA - Access all Safety features - mobile</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>373a44ca-c82f-4c08-9d76-f329dab62f38</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>bb4e4b2c-0ff7-4db4-9928-2ab67ede17fb</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/LSh/SignupForm/User opts in to be contacted - mobile</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>2bf06eb6-b461-4e66-8d73-72280ae32106</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>de8243af-2e6e-439f-9631-ac8c0e771bf2</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/LSh/Styles/BYL-Accessories CTAs - mobile</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>acc073d4-e5ca-4c3f-ac91-f6c5d4b0c60c</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4f72f197-da0e-4bfd-96ca-c4749ee9dddc</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/LSh/Visualizer/Select Visualizer Model-Style - mobile</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>92f2ee5e-8ee9-4123-ad9a-aab5f022f2df</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>

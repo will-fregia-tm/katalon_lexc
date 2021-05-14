@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>- Check dealer opt-in box.
+- Verify that telephone number field displays.
+- Verify that preferred dealer for user's market displays.
+- Verify that if there are multiple possible dealers for the user's market, user can select one of them.
+ </description>
+   <name>User opts in to be contacted - mobile</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>36b17b5a-7d2a-45b6-8b11-97ed882acb8e</testCaseGuid>
+   <variable>
+      <defaultValue>'LCHero'</defaultValue>
+      <description></description>
+      <id>3bfa524c-cde5-478c-a652-a83845f1c727</id>
+      <masked>false</masked>
+      <name>ModelPages</name>
+   </variable>
+</TestCaseEntity>
