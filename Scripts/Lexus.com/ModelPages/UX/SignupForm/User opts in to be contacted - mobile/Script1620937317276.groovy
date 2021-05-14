@@ -90,29 +90,32 @@ WebUI.delay(1)
 'Verify that telephone number field displays.'
 WebUI.verifyElementPresent(findTestObject('ModelPages/SignupForm/telephone number field'), 0)
 
-WebUI.verifyElementPresent(findTestObject('ModelPages/SignupForm/preferred dealers heading'), 0)
+'these steps will run in environments that require valid content'
+if (WebUI.verifyMatch(GlobalVariable.contentValidation, 'yes', false, FailureHandling.OPTIONAL)) {
+    WebUI.verifyElementPresent(findTestObject('ModelPages/SignupForm/preferred dealers heading'), 0)
 
-WebUI.scrollToElement(findTestObject('ModelPages/SignupForm/preferred dealers heading'), 0)
+    WebUI.scrollToElement(findTestObject('ModelPages/SignupForm/preferred dealers heading'), 0)
 
-'Verify that preferred dealer for user\'s market displays.'
-WebUI.verifyElementPresent(findTestObject('ModelPages/SignupForm/preferred dealer 1'), 0)
+    'Verify that preferred dealer for user\'s market displays.'
+    WebUI.verifyElementPresent(findTestObject('ModelPages/SignupForm/preferred dealer 1'), 0)
 
-WebUI.getText(findTestObject('ModelPages/SignupForm/preferred dealer 1'))
+    WebUI.getText(findTestObject('ModelPages/SignupForm/preferred dealer 1'))
 
-WebUI.verifyElementPresent(findTestObject('ModelPages/SignupForm/preferred dealer 2'), 0)
+    WebUI.verifyElementPresent(findTestObject('ModelPages/SignupForm/preferred dealer 2'), 0)
 
-WebUI.getText(findTestObject('ModelPages/SignupForm/preferred dealer 2'))
+    WebUI.getText(findTestObject('ModelPages/SignupForm/preferred dealer 2'))
 
-beforeClick = WebUI.getCSSValue(findTestObject('ModelPages/SignupForm/preferred dealer selector 2'), 'background-color')
+    beforeClick = WebUI.getCSSValue(findTestObject('ModelPages/SignupForm/preferred dealer selector 2'), 'background-color')
 
-'Verify that if there are multiple possible dealers for the user\'s market, user can select one of them.'
-WebUI.click(findTestObject('ModelPages/SignupForm/preferred dealer selector 2'))
+    'Verify that if there are multiple possible dealers for the user\'s market, user can select one of them.'
+    WebUI.click(findTestObject('ModelPages/SignupForm/preferred dealer selector 2'))
 
-WebUI.delay(1)
+    WebUI.delay(1)
 
-afterClick = WebUI.getCSSValue(findTestObject('ModelPages/SignupForm/preferred dealer selector 2'), 'background-color')
+    afterClick = WebUI.getCSSValue(findTestObject('ModelPages/SignupForm/preferred dealer selector 2'), 'background-color')
 
-WebUI.verifyNotMatch(beforeClick, afterClick, false, FailureHandling.STOP_ON_FAILURE)
+    WebUI.verifyNotMatch(beforeClick, afterClick, false, FailureHandling.STOP_ON_FAILURE)
+}
 
 @com.kms.katalon.core.annotation.TearDownIfPassed
 def passed() {

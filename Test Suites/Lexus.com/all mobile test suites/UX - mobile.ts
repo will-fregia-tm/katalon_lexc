@@ -86,7 +86,7 @@
    <testCaseLink>
       <guid>c6585bf0-dd2f-4fa6-8989-3b567d904348</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/ModelPages/UX/Offers/Browse Offers - mobile</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>

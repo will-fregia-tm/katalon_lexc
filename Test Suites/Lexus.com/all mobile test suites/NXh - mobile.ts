@@ -86,7 +86,7 @@
    <testCaseLink>
       <guid>ccbfdf9a-0ebb-48b6-b457-229523fd515b</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/ModelPages/NXh/Offers/Browse Offers - mobile</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>

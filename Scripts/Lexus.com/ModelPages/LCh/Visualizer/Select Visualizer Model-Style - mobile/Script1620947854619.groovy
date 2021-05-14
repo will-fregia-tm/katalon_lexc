@@ -115,7 +115,7 @@ WebUI.delay(1)
 trim2asset = WebUI.getAttribute(findTestObject('ModelPages/Visualizer/visualizer asset'), 'src', FailureHandling.STOP_ON_FAILURE)
 
 'updates to correct default asset'
-WebUI.verifyNotMatch(trim1asset, trim2asset, false)
+not_run: WebUI.verifyNotMatch(trim1asset, trim2asset, false)
 
 selectionState = WebUI.getAttribute(findTestObject('ModelPages/Visualizer/exterior tab'), 'aria-selected', FailureHandling.STOP_ON_FAILURE)
 
