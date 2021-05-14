@@ -53,11 +53,19 @@ WebUI.click(findTestObject('OffersPage/SEO/city - Plano'), FailureHandling.STOP_
 
 WebUI.waitForElementPresent(findTestObject('OffersPage/ZipBar/zip entry field'), 5, FailureHandling.OPTIONAL)
 
-WebUI.scrollToElement(findTestObject('OffersPage/ZipBar/zip entry field'), 5, FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(2)
 
-WebUI.delay(3)
+WebUI.scrollToPosition(0, 0)
+
+WebUI.delay(2)
+
+WebUI.scrollToPosition(0, 0)
+
+WebUI.delay(2)
 
 WebUI.setText(findTestObject('OffersPage/ZipBar/zip entry field'), '75218', FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(2)
 
 WebUI.click(findTestObject('OffersPage/ZipGate/submit button'), FailureHandling.STOP_ON_FAILURE)
 
@@ -87,11 +95,19 @@ WebUI.click(findTestObject('OffersPage/SEO/state - Texas'))
 
 WebUI.waitForElementPresent(findTestObject('OffersPage/ZipBar/zip entry field'), 5, FailureHandling.OPTIONAL)
 
-WebUI.scrollToElement(findTestObject('OffersPage/ZipBar/zip entry field'), 5, FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(2)
 
-WebUI.delay(3)
+WebUI.scrollToPosition(0, 0)
+
+WebUI.delay(2)
+
+WebUI.scrollToPosition(0, 0)
+
+WebUI.delay(2)
 
 WebUI.setText(findTestObject('OffersPage/ZipBar/zip entry field'), '30303', FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(2)
 
 WebUI.click(findTestObject('OffersPage/ZipGate/submit button'), FailureHandling.STOP_ON_FAILURE)
 
@@ -115,11 +131,19 @@ WebUI.navigateToUrl(GlobalVariable.SC_Domain + '/offers/us')
 
 WebUI.waitForElementPresent(findTestObject('OffersPage/ZipBar/zip entry field'), 5, FailureHandling.OPTIONAL)
 
-WebUI.scrollToElement(findTestObject('OffersPage/ZipBar/zip entry field'), 5, FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(2)
 
-WebUI.delay(3)
+WebUI.scrollToPosition(0, 0)
+
+WebUI.delay(2)
+
+WebUI.scrollToPosition(0, 0)
+
+WebUI.delay(2)
 
 WebUI.setText(findTestObject('OffersPage/ZipBar/zip entry field'), '75218', FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(2)
 
 WebUI.click(findTestObject('OffersPage/ZipGate/submit button'), FailureHandling.STOP_ON_FAILURE)
 
