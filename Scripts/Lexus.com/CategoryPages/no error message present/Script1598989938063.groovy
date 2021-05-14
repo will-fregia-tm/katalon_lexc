@@ -16,15 +16,31 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 import com.kms.katalon.keyword.excel.ExcelKeywords as ExcelKeywords
+import com.kms.katalon.core.testobject.RequestObject as RequestObject
+import org.openqa.selenium.Cookie as Cookie
+import org.openqa.selenium.WebDriver as WebDriver
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
 totalPages = (findTestData(GlobalVariable.DS_version + 'URLsCategoryPages').getRowNumbers() - 1)
 
-WebUI.openBrowser(GlobalVariable.TS_Domain + GlobalVariable.Header)
+WebUI.openBrowser(GlobalVariable.SSO_login, FailureHandling.OPTIONAL)
+
+cookieValue = findTestData('cookieValues').getValue(2, 1)
+
+Cookie ck = new Cookie('ESTSAUTH', cookieValue)
+
+WebDriver driver = DriverFactory.getWebDriver()
+
+driver.manage().addCookie(ck)
+
+WebUI.navigateToUrl(GlobalVariable.TS_Domain + GlobalVariable.Header)
+
+WebUI.delay(2)
 
 for (def index : (0..totalPages)) {
     WebUI.navigateToUrl(findTestData(GlobalVariable.DS_version + 'URLsCategoryPages').getValue(dataColumn, dataRow))
 
-    if (WebUI.verifyElementNotPresent(findTestObject('GlobalNav/lexus logo'), 3, FailureHandling.OPTIONAL)) {
+    not_run: if (WebUI.verifyElementNotPresent(findTestObject('GlobalNav/lexus logo'), 3, FailureHandling.OPTIONAL)) {
         WebUI.navigateToUrl(findTestData(GlobalVariable.DS_version + 'URLsCategoryPages').getValue(dataColumn, dataRow))
 
         WebUI.verifyElementPresent(findTestObject('GlobalNav/lexus logo'), 0)
@@ -33,7 +49,9 @@ for (def index : (0..totalPages)) {
     WebUI.verifyElementNotPresent(findTestObject('error'), 0)
 
     if (WebUI.verifyElementNotPresent(findTestObject('title'), 3, FailureHandling.OPTIONAL)) {
-        WebUI.verifyElementPresent(findTestObject('title - privacy'), 0)
+        if (WebUI.verifyElementNotPresent(findTestObject('title - plural'), 3, FailureHandling.OPTIONAL)) {
+            WebUI.verifyElementPresent(findTestObject('title - e'), 0)
+        }
     }
     
     dataRow = (dataRow + 1)
