@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Visiting via deeplink scrolls to predetermined location, with necessary elements preselected/shown/active.</description>
+   <name>Deep link takes user to pre-determined location on page - Visualizer</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e5178495-5f8f-4f9a-afe4-ff30ca87b6fa</testCaseGuid>
+   <variable>
+      <defaultValue>'LCHero'</defaultValue>
+      <description></description>
+      <id>e33ca249-b498-48c3-bb56-08a8f1841953</id>
+      <masked>false</masked>
+      <name>ModelPages</name>
+   </variable>
+</TestCaseEntity>

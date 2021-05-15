@@ -455,4 +455,112 @@
          <variableId>2aa9a531-0db8-4012-bd7e-e3d40b76395e</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>a1892421-12e6-431c-aa1f-f036d74a7dd5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/LSh/Subnav/Deep link takes user to pre-determined location on page - Design</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>1926ba30-7b15-4eda-9d5e-f6252ee55b24</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>5e33a482-74e6-4597-91b2-5477c12f503d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/LSh/Subnav/Deep link takes user to pre-determined location on page - Gallery</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>176580b7-3967-4574-8b56-825f45d5c379</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b8bb79e3-2783-4a1f-b3de-d45155e9d0e6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/LSh/Subnav/Deep link takes user to pre-determined location on page - Info Layer</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d48c678f-8dc5-4cf1-9d32-9f33b7a11025</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d15528e0-7a0a-4d2c-aedb-c22aca5e1dc6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/LSh/Subnav/Deep link takes user to pre-determined location on page - Offers</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>56c9e919-3a21-40a5-ad24-3ab62867bd71</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4ca61618-2d14-4fbe-9aa0-37cc330b9d28</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/LSh/Subnav/Deep link takes user to pre-determined location on page - Performance</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>5d7749b7-0436-40ef-98d9-6ca229aa254a</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>754e1a2e-c21c-4f45-b56c-24f73e4c9347</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/LSh/Subnav/Deep link takes user to pre-determined location on page - Safety</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>aded6fb4-1dc6-4e73-ae78-60f99571ac8f</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>08e44bbd-0fc3-4a4e-8e50-df07d504466f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/LSh/Subnav/Deep link takes user to pre-determined location on page - Styles</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>8d9a0c5a-8f7b-44f7-b9f6-a0db10299bcb</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ffd1b22d-cd51-4bf6-a2d4-e904fadb3a34</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/LSh/Subnav/Deep link takes user to pre-determined location on page - Technology</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>35899daa-a004-4deb-ab0d-20882cce0e50</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7e9f5792-2174-4956-abd2-b829d730ccc5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/LSh/Subnav/Deep link takes user to pre-determined location on page - Visualizer</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>fa208d7d-ee80-44f5-804c-e8cdcd5d215c</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>

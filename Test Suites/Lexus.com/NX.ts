@@ -455,4 +455,112 @@
          <variableId>785cb0aa-d483-4492-a29b-cf642e32aecd</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>2ea2695c-8bf9-4d1e-b31c-22cc6d0627c7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/NX/Subnav/Deep link takes user to pre-determined location on page - Design</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>961ca7a5-ec56-42e0-a893-7b70aad22ef6</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a4a14c21-e34b-474e-a47f-04938569c722</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/NX/Subnav/Deep link takes user to pre-determined location on page - Gallery</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ebef16e7-04ef-45f5-bfde-58e471eacfeb</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>15284573-c90b-48bd-8365-58b49d31de36</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/NX/Subnav/Deep link takes user to pre-determined location on page - Info Layer</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>88f2e49f-fee5-4f97-91d8-b1ea6a88a0eb</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1e3125af-dbc4-4af6-b886-f7e1ac4a9bb9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/NX/Subnav/Deep link takes user to pre-determined location on page - Offers</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>5806c417-9912-4ed8-a5cc-090258cbb69c</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>18500122-aa63-4522-9332-2d0cdb8d90ea</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/NX/Subnav/Deep link takes user to pre-determined location on page - Performance</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c2481666-7ba1-4dcf-9bb5-6762ed9c40b2</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f08c1c9f-25d9-473f-b27e-fe46dd31ae1e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/NX/Subnav/Deep link takes user to pre-determined location on page - Safety</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>30621da8-8005-4466-a269-b64c0b5d8f57</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d50a3259-88ab-4db4-b66f-85e9a06783f8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/NX/Subnav/Deep link takes user to pre-determined location on page - Styles</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f33c1c9a-beb6-4ddf-85b6-e2805ce6e7fa</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d938cb3d-93bb-445b-b468-2c176a8cded1</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/NX/Subnav/Deep link takes user to pre-determined location on page - Technology</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c3643146-d844-49b6-9e8e-575aaddd7328</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c7ee36b2-5950-4ddc-9735-fbddf7cfd487</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/ModelPages/NX/Subnav/Deep link takes user to pre-determined location on page - Visualizer</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d2fa2448-2d10-4ac2-abbe-2e40a9e10885</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>
