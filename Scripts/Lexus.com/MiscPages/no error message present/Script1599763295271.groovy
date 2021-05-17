@@ -33,7 +33,7 @@ WebDriver driver = DriverFactory.getWebDriver()
 
 driver.manage().addCookie(ck)
 
-WebUI.navigateToUrl(GlobalVariable.TS_Domain + '/models/categories/sedans')
+WebUI.navigateToUrl(GlobalVariable.TS_Domain + '/IS500/')
 
 WebUI.delay(2)
 
