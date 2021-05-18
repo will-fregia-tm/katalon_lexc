@@ -68,6 +68,10 @@ WebUI.click(findTestObject('ModelPages/Styles/Compare Styles CTA'), FailureHandl
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
+WebUI.click(findTestObject('ModelPages/InformationLayer/navigate left'))
+
+WebUI.delay(1)
+
 'these steps validate that the actual value contains an expected value'
 actualValue = WebUI.getText(findTestObject('ModelPages/InformationLayer/column 1 model price'), FailureHandling.STOP_ON_FAILURE)
 
@@ -230,6 +234,10 @@ if (WebUI.verifyElementPresent(findTestObject('ModelPages/InformationLayer/colum
                                     'continues testing if there is another model price'
                                     if (WebUI.verifyElementPresent(findTestObject('ModelPages/InformationLayer/column 11 model price'), 
                                         3, FailureHandling.OPTIONAL)) {
+                                        WebUI.click(findTestObject('ModelPages/InformationLayer/navigate right'))
+
+                                        WebUI.delay(1)
+
                                         'these steps validate that the actual value contains an expected value'
                                         actualValue = WebUI.getText(findTestObject('ModelPages/InformationLayer/column 11 model price'), 
                                             FailureHandling.STOP_ON_FAILURE)
