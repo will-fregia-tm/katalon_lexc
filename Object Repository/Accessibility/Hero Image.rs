@@ -11,11 +11,10 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value></value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#promo-module img[src*=&quot;images/accessibility&quot;]</value>
+         <value>#promo-module img[src*=&quot;hero&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>
