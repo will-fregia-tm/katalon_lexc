@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>AC.00: PAGE 
+
+Lexus Accessibility | Lexus.com should display in browser tab
+</description>
+   <name>Title</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e14bab88-38ce-48ee-b91c-dce8dfd16dbc</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>4e1910a8-8f2c-45c9-bff2-8be2a0797903</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>

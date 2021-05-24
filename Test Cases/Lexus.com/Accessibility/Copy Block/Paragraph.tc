@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>AC.03 | Copy Block 1
+(Needs to match Prod)
+
+Copy Line 1/Title: Accessibility
+Copy Line 2/Paragraph: Lexus is committed…
+Text Link: Lexus.com Link: www.Lexus.com|http://www.lexus.com/
+Text Link: contact us Link: https://lexus2.custhelp.com/app/ask</description>
+   <name>Paragraph</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6f5ece43-352e-47fc-8e9d-3de76573a630</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>4b514d5a-7b00-44ac-b499-6d3392a4bbf7</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Hero image should be displayed in large promo format and image layout bleeds off page.</description>
+   <name>Hero Large Promo</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d1aa5434-56aa-4e85-8ee1-d3586a5d6f6f</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>9c0f49ec-84a2-4e4d-bf01-fedd9cb53b37</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>
