@@ -251,4 +251,16 @@
          <variableId>a13d115d-3c8f-4add-8a23-ad3c2fb42f20</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>9dbca3aa-5e0a-4005-a095-debd01e43f2f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/HomePage/HeroOffers/Available offers display when ZIP code is entered, and other content is unaffected</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>54370857-76fb-4205-80a9-59846ad7a278</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>

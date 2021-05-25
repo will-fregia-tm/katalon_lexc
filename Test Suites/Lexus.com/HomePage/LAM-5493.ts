@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>LAM-5493</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>20</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>37774715-ae8c-4a36-abfc-b5994741bd26</testSuiteGuid>
+   <testCaseLink>
+      <guid>01635d01-7aa7-4e8b-aa88-28700c379ba6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/HomePage/HeroOffers/Available offers display when ZIP code is entered, and other content is unaffected</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>54370857-76fb-4205-80a9-59846ad7a278</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>6f2e207a-ad6a-44d3-b4eb-d213307e2798</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/HomePage/HeroOffers/Available offers display when ZIP code is entered, and other content is unaffected</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>54370857-76fb-4205-80a9-59846ad7a278</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e247b024-0178-4f60-8841-3cdff76fc388</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/HomePage/HeroOffers/Available offers display when ZIP code is entered, and other content is unaffected</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>54370857-76fb-4205-80a9-59846ad7a278</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4f3cfceb-34a9-4226-a353-acc0c16117e8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/HomePage/HeroOffers/Available offers display when ZIP code is entered, and other content is unaffected</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>54370857-76fb-4205-80a9-59846ad7a278</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>83b2b83f-074d-4451-81d6-75da8399df43</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/HomePage/HeroOffers/Available offers display when ZIP code is entered, and other content is unaffected</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>54370857-76fb-4205-80a9-59846ad7a278</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a75d57f2-6a26-4f46-bce8-f83c0bbb52be</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/HomePage/HeroOffers/Available offers display when ZIP code is entered, and other content is unaffected</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>54370857-76fb-4205-80a9-59846ad7a278</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>158160c6-bf74-46d0-9fa1-e711ceecf917</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/HomePage/HeroOffers/Available offers display when ZIP code is entered, and other content is unaffected</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>54370857-76fb-4205-80a9-59846ad7a278</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>83e1a3ac-d2da-4ee1-8735-7007ead3b5db</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/HomePage/HeroOffers/Available offers display when ZIP code is entered, and other content is unaffected</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>54370857-76fb-4205-80a9-59846ad7a278</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e767f73d-73bf-465f-ad32-b9a2d1c1f46a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/HomePage/HeroOffers/Available offers display when ZIP code is entered, and other content is unaffected</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>54370857-76fb-4205-80a9-59846ad7a278</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>52f090fd-f173-49f1-a883-f4cee753aafe</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/HomePage/HeroOffers/Available offers display when ZIP code is entered, and other content is unaffected</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>54370857-76fb-4205-80a9-59846ad7a278</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

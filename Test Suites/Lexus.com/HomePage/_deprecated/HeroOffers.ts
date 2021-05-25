@@ -15,7 +15,7 @@
       <guid>ebdade1c-a826-4ba1-91b1-847cfbd55521</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/HomePage/HeroOffers/hero offers display based on entered zip code</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/HomePage/Legacy/hero offers display based on entered zip code</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -27,7 +27,7 @@
       <guid>8abe67f4-dca0-4069-91d2-b183f21c9fb9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/HomePage/HeroOffers/hero offers display for market selected in shared zip overlay</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/HomePage/Legacy/hero offers display for market selected in shared zip overlay</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -39,7 +39,7 @@
       <guid>b88fd26d-5f00-43a7-badb-8ce3417bd343</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/HomePage/HeroOffers/invalid zip code validation for hero offers</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/HomePage/Legacy/invalid zip code validation for hero offers</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -51,7 +51,7 @@
       <guid>33ec06b1-ca12-4f94-b6c8-aaa6acfef248</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/HomePage/HeroOffers/market LDA title for hero offers</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/HomePage/Legacy/market LDA title for hero offers</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -63,7 +63,7 @@
       <guid>93a29bcc-9f39-4019-a01d-37ec56e29327</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/HomePage/HeroOffers/shared zip overlay for hero offers</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/HomePage/Legacy/shared zip overlay for hero offers</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -75,7 +75,7 @@
       <guid>e76f4ca5-d8e1-4676-ada9-ddb5c142c592</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/HomePage/HeroOffers/tooltip displays hero offer details</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/HomePage/Legacy/tooltip displays hero offer details</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -87,7 +87,7 @@
       <guid>3994e506-4865-435c-8752-35276f532e34</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/HomePage/HeroOffers/unassigned zip code validation for hero offers</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/HomePage/Legacy/unassigned zip code validation for hero offers</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -111,7 +111,7 @@
       <guid>3e406c24-8cdc-427e-a236-4f80e8c5d657</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/HomePage/HeroOffers/zip code character cap for hero offers</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/HomePage/Legacy/zip code character cap for hero offers</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>

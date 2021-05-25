@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>- available offers display when ZIP code is entered
+- other content is unaffected</description>
+   <name>Available offers display when ZIP code is entered, and other content is unaffected</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5419b3a6-2629-4f8e-b43c-9d3e5ddb052e</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>54370857-76fb-4205-80a9-59846ad7a278</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>
