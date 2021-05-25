@@ -37,12 +37,29 @@ if (WebUI.verifyMatch(GlobalVariable.lowerEnvironment, 'yes', false, FailureHand
 
 WebUI.navigateToUrl(GlobalVariable.AEM_Domain)
 
+WebUI.delay(4)
+
+WebUI.waitForElementPresent(findTestObject('Homepage/HeroModule/hero module'), 10, FailureHandling.OPTIONAL)
+
 'if the page renders slowly, it will be refreshed so the test can continue'
-if (WebUI.verifyElementNotPresent(findTestObject('GlobalNav/header/header - Lexus logo'), 3, FailureHandling.OPTIONAL)) {
+if (WebUI.verifyElementNotPresent(findTestObject('Homepage/HeroModule/hero module'), 3, FailureHandling.OPTIONAL)) {
     WebUI.refresh()
+
+    WebUI.delay(10)
+
+    WebUI.waitForElementPresent(findTestObject('Homepage/HeroModule/hero module'), 10, FailureHandling.OPTIONAL)
+
+    'if the page renders slowly, it will be refreshed so the test can continue'
+    if (WebUI.verifyElementNotPresent(findTestObject('Homepage/HeroModule/hero module'), 3, FailureHandling.OPTIONAL)) {
+        WebUI.refresh()
+
+        WebUI.delay(10)
+
+        WebUI.waitForElementPresent(findTestObject('Homepage/HeroModule/hero module'), 10, FailureHandling.OPTIONAL)
+    }
 }
 
-WebUI.delay(2)
+WebUI.verifyElementVisibleInViewport(findTestObject('Homepage/HeroModule/hero module'), 0, FailureHandling.STOP_ON_FAILURE)
 
 cookiedZIP = 'no'
 

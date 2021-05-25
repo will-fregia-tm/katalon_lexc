@@ -73,7 +73,7 @@
          <configuration>
             <groupName>Custom</groupName>
             <profileName>staging</profileName>
-            <runConfigurationId>saucelabs_chrome_android8_galaxys8</runConfigurationId>
+            <runConfigurationId>saucelabs_chrome_android10_pixel3</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/HomePage/mobile tests</testSuiteEntity>
@@ -84,7 +84,7 @@
             <profileName>staging</profileName>
             <runConfigurationId>saucelabs_chrome_macos10.15</runConfigurationId>
          </configuration>
-         <runEnabled>false</runEnabled>
+         <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/HomePage/HeroSalesEvent</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
@@ -93,7 +93,7 @@
             <profileName>staging</profileName>
             <runConfigurationId>saucelabs_chrome_win7</runConfigurationId>
          </configuration>
-         <runEnabled>false</runEnabled>
+         <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/HomePage/VSSalesEvent</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
@@ -102,7 +102,7 @@
             <profileName>author staging</profileName>
             <runConfigurationId>saucelabs_chrome_win7</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
+         <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/HomePage/HeroSalesEvent</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
@@ -111,7 +111,7 @@
             <profileName>author staging</profileName>
             <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
+         <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/HomePage/VSSalesEvent</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>

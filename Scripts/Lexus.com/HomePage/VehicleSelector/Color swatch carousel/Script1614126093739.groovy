@@ -152,7 +152,7 @@ WebUI.click(findTestObject('HomePage/VehicleSelectorAEM/categories/SUVs'), Failu
 if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/models/RX'), 3, FailureHandling.OPTIONAL)) {
     WebUI.click(findTestObject('Homepage/VehicleSelectorAEM/models/RX'), FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.delay(1)
+    WebUI.delay(2)
 
     swatch1size = WebUI.getCSSValue(findTestObject('Homepage/VehicleSelectorAEM/models/swatch 1'), 'width', FailureHandling.STOP_ON_FAILURE)
 
@@ -232,7 +232,7 @@ WebUI.click(findTestObject('HomePage/VehicleSelectorAEM/categories/Coupes'), Fai
 if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/models/LC'), 3, FailureHandling.OPTIONAL)) {
     WebUI.click(findTestObject('Homepage/VehicleSelectorAEM/models/LC'), FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.delay(1)
+    WebUI.delay(2)
 
     swatch1size = WebUI.getCSSValue(findTestObject('Homepage/VehicleSelectorAEM/models/swatch 1'), 'width', FailureHandling.STOP_ON_FAILURE)
 
@@ -312,7 +312,7 @@ WebUI.click(findTestObject('HomePage/VehicleSelectorAEM/categories/Hybrids'), Fa
 if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/models/RXh'), 3, FailureHandling.OPTIONAL)) {
     WebUI.click(findTestObject('Homepage/VehicleSelectorAEM/models/RXh'), FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.delay(1)
+    WebUI.delay(2)
 
     swatch1size = WebUI.getCSSValue(findTestObject('Homepage/VehicleSelectorAEM/models/swatch 1'), 'width', FailureHandling.STOP_ON_FAILURE)
 
@@ -392,7 +392,7 @@ WebUI.click(findTestObject('HomePage/VehicleSelectorAEM/categories/Performance')
 if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/models/LC C'), 3, FailureHandling.OPTIONAL)) {
     WebUI.click(findTestObject('Homepage/VehicleSelectorAEM/models/LC C'), FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.delay(1)
+    WebUI.delay(2)
 
     swatch1size = WebUI.getCSSValue(findTestObject('Homepage/VehicleSelectorAEM/models/swatch 1'), 'width', FailureHandling.STOP_ON_FAILURE)
 

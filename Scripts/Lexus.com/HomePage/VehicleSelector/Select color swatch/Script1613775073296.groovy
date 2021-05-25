@@ -99,7 +99,7 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/model
 
     WebUI.click(findTestObject('Homepage/VehicleSelectorAEM/models/color 2'), FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
+    WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
     swatch2 = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/color 2'), 'src', FailureHandling.STOP_ON_FAILURE)
 
@@ -140,7 +140,7 @@ WebUI.click(findTestObject('HomePage/VehicleSelectorAEM/categories/SUVs'), Failu
 if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/models/UX'), 3, FailureHandling.OPTIONAL)) {
     WebUI.click(findTestObject('Homepage/VehicleSelectorAEM/models/UX'), FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.delay(1)
+    WebUI.delay(2)
 
     swatch1 = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/color 1 default'), 'src', FailureHandling.STOP_ON_FAILURE)
 
@@ -167,7 +167,7 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/model
 
     WebUI.click(findTestObject('Homepage/VehicleSelectorAEM/models/color 2'), FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
+    WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
     swatch2 = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/color 2'), 'src', FailureHandling.STOP_ON_FAILURE)
 
@@ -208,7 +208,7 @@ WebUI.click(findTestObject('HomePage/VehicleSelectorAEM/categories/Coupes'), Fai
 if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/models/RC F'), 3, FailureHandling.OPTIONAL)) {
     WebUI.click(findTestObject('Homepage/VehicleSelectorAEM/models/RC F'), FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.delay(1)
+    WebUI.delay(2)
 
     swatch1 = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/color 1 default'), 'src', FailureHandling.STOP_ON_FAILURE)
 
@@ -235,7 +235,7 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/model
 
     WebUI.click(findTestObject('Homepage/VehicleSelectorAEM/models/color 2'), FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
+    WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
     swatch2 = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/color 2'), 'src', FailureHandling.STOP_ON_FAILURE)
 
@@ -276,7 +276,7 @@ WebUI.click(findTestObject('HomePage/VehicleSelectorAEM/categories/Hybrids'), Fa
 if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/models/NXh'), 3, FailureHandling.OPTIONAL)) {
     WebUI.click(findTestObject('Homepage/VehicleSelectorAEM/models/NXh'), FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.delay(1)
+    WebUI.delay(2)
 
     swatch1 = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/color 1 default'), 'src', FailureHandling.STOP_ON_FAILURE)
 
@@ -303,7 +303,7 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/model
 
     WebUI.click(findTestObject('Homepage/VehicleSelectorAEM/models/color 2'), FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
+    WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
     swatch2 = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/color 2'), 'src', FailureHandling.STOP_ON_FAILURE)
 
@@ -342,7 +342,7 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/model
 if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/models/LSh'), 3, FailureHandling.OPTIONAL)) {
     WebUI.click(findTestObject('Homepage/VehicleSelectorAEM/models/LSh'), FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.delay(1)
+    WebUI.delay(2)
 
     swatch1 = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/color 1 default'), 'src', FailureHandling.STOP_ON_FAILURE)
 
@@ -369,7 +369,7 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/model
 
     WebUI.click(findTestObject('Homepage/VehicleSelectorAEM/models/color 2'), FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
+    WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
     swatch2 = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/color 2'), 'src', FailureHandling.STOP_ON_FAILURE)
 
@@ -410,7 +410,7 @@ WebUI.click(findTestObject('HomePage/VehicleSelectorAEM/categories/Performance')
 if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/models/LC C'), 3, FailureHandling.OPTIONAL)) {
     WebUI.click(findTestObject('Homepage/VehicleSelectorAEM/models/LC C'), FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.delay(1)
+    WebUI.delay(2)
 
     swatch1 = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/color 1 default'), 'src', FailureHandling.STOP_ON_FAILURE)
 
@@ -437,7 +437,7 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/model
 
     WebUI.click(findTestObject('Homepage/VehicleSelectorAEM/models/color 2'), FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
+    WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
     swatch2 = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/models/color 2'), 'src', FailureHandling.STOP_ON_FAILURE)
 
