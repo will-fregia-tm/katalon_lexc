@@ -206,7 +206,7 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroOffers/offer cards r
     if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/models/LCh'), 3, FailureHandling.OPTIONAL)) {
         WebUI.click(findTestObject('Homepage/VehicleSelectorAEM/models/LCh'), FailureHandling.STOP_ON_FAILURE)
 
-        WebUI.delay(2)
+        WebUI.delay(3)
 
         WebUI.scrollToElement(findTestObject('Homepage/VehicleSelectorAEM/offers/offers module title'), 0, FailureHandling.OPTIONAL)
 
@@ -244,7 +244,7 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroOffers/offer cards r
     if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/models/LC C'), 3, FailureHandling.OPTIONAL)) {
         WebUI.click(findTestObject('Homepage/VehicleSelectorAEM/models/LC C'), FailureHandling.STOP_ON_FAILURE)
 
-        WebUI.delay(2)
+        WebUI.delay(3)
 
         WebUI.scrollToElement(findTestObject('Homepage/VehicleSelectorAEM/offers/offers module title'), 0, FailureHandling.OPTIONAL)
 

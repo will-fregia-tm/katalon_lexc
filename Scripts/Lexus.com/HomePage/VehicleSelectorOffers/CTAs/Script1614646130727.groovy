@@ -115,7 +115,7 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroOffers/offer cards r
 
         dealersURL = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/offers/CTA - FAD'), 'href')
 
-        dealersURL = ((dealersURL - GlobalVariable.AEM_Domain) - 'https://aem-author.toyota.com')
+        dealersURL = (((dealersURL - GlobalVariable.AEM_Domain) - 'https://aem-author.toyota.com') - 'https://stage-aem.author.toyota.com')
 
         'verifies that CTA href is correct'
         WebUI.verifyMatch(dealersURL, '/dealers', false, FailureHandling.STOP_ON_FAILURE)
@@ -127,7 +127,8 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroOffers/offer cards r
 
         offersURL = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/offers/CTA - View Offers'), 'href')
 
-        offersURL = (((offersURL - GlobalVariable.AEM_Domain) - 'https://aem-author.toyota.com') - vehicleName)
+        offersURL = ((((offersURL - GlobalVariable.AEM_Domain) - 'https://aem-author.toyota.com') - 'https://stage-aem.author.toyota.com') - 
+        vehicleName)
 
         'verifies that CTA href is correct for this model'
         WebUI.verifyMatch(offersURL, '/models//offers', false, FailureHandling.STOP_ON_FAILURE)
@@ -155,6 +156,12 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroOffers/offer cards r
         WebUI.navigateToUrl(GlobalVariable.AEM_Domain)
 
         WebUI.waitForElementPresent(findTestObject('Homepage/VehicleSelectorAEM/vehicle selector module'), 0, FailureHandling.STOP_ON_FAILURE)
+
+        WebUI.delay(2)
+
+        WebUI.scrollToElement(findTestObject('Homepage/VehicleSelectorAEM/vehicle selector module'), 0, FailureHandling.STOP_ON_FAILURE)
+
+        WebUI.delay(2)
 
         WebUI.scrollToElement(findTestObject('Homepage/VehicleSelectorAEM/offers/offers module title'), 0, FailureHandling.STOP_ON_FAILURE)
 
@@ -226,7 +233,7 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroOffers/offer cards r
 
         dealersURL = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/offers/CTA - FAD'), 'href')
 
-        dealersURL = ((dealersURL - GlobalVariable.AEM_Domain) - 'https://aem-author.toyota.com')
+        dealersURL = (((dealersURL - GlobalVariable.AEM_Domain) - 'https://aem-author.toyota.com') - 'https://stage-aem.author.toyota.com')
 
         'verifies that CTA href is correct'
         WebUI.verifyMatch(dealersURL, '/dealers', false, FailureHandling.STOP_ON_FAILURE)
@@ -238,7 +245,7 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroOffers/offer cards r
 
         offersURL = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/offers/CTA - View Offers'), 'href')
 
-        offersURL = (((offersURL - GlobalVariable.AEM_Domain) - 'https://aem-author.toyota.com') - vehicleName)
+        offersURL = ((((offersURL - GlobalVariable.AEM_Domain) - 'https://aem-author.toyota.com') - 'https://stage-aem.author.toyota.com') - vehicleName)
 
         'verifies that CTA href is correct for this model'
         WebUI.verifyMatch(offersURL, '/models//offers', false, FailureHandling.STOP_ON_FAILURE)
@@ -337,7 +344,7 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroOffers/offer cards r
 
         dealersURL = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/offers/CTA - FAD'), 'href')
 
-        dealersURL = ((dealersURL - GlobalVariable.AEM_Domain) - 'https://aem-author.toyota.com')
+        dealersURL = (((dealersURL - GlobalVariable.AEM_Domain) - 'https://aem-author.toyota.com') - 'https://stage-aem.author.toyota.com')
 
         'verifies that CTA href is correct'
         WebUI.verifyMatch(dealersURL, '/dealers', false, FailureHandling.STOP_ON_FAILURE)
@@ -349,7 +356,7 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroOffers/offer cards r
 
         offersURL = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/offers/CTA - View Offers'), 'href')
 
-        offersURL = ((((offersURL - GlobalVariable.AEM_Domain) - 'https://aem-author.toyota.com') - vehicleName) - 'lx')
+        offersURL = (((((offersURL - GlobalVariable.AEM_Domain) - 'https://aem-author.toyota.com') - 'https://stage-aem.author.toyota.com') - vehicleName) - 'lx')
 
         'verifies that CTA href is correct for this model'
         WebUI.verifyMatch(offersURL, '/models//offers', false, FailureHandling.STOP_ON_FAILURE)
@@ -448,7 +455,7 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroOffers/offer cards r
 
         dealersURL = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/offers/CTA - FAD'), 'href')
 
-        dealersURL = ((dealersURL - GlobalVariable.AEM_Domain) - 'https://aem-author.toyota.com')
+        dealersURL = (((dealersURL - GlobalVariable.AEM_Domain) - 'https://aem-author.toyota.com') - 'https://stage-aem.author.toyota.com')
 
         'verifies that CTA href is correct'
         WebUI.verifyMatch(dealersURL, '/dealers', false, FailureHandling.STOP_ON_FAILURE)
@@ -460,7 +467,7 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroOffers/offer cards r
 
         offersURL = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/offers/CTA - View Offers'), 'href')
 
-        offersURL = ((((offersURL - GlobalVariable.AEM_Domain) - 'https://aem-author.toyota.com') - vehicleName) - 'LCC')
+        offersURL = ((((((offersURL - GlobalVariable.AEM_Domain) - 'https://aem-author.toyota.com') - 'https://stage-aem.author.toyota.com') - vehicleName) - 'LCC') - 'lc-convertible')
 
         'verifies that CTA href is correct for this model'
         WebUI.verifyMatch(offersURL, '/models//offers', false, FailureHandling.STOP_ON_FAILURE)
@@ -559,7 +566,7 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroOffers/offer cards r
 
         dealersURL = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/offers/CTA - FAD'), 'href')
 
-        dealersURL = ((dealersURL - GlobalVariable.AEM_Domain) - 'https://aem-author.toyota.com')
+        dealersURL = (((dealersURL - GlobalVariable.AEM_Domain) - 'https://aem-author.toyota.com') - 'https://stage-aem.author.toyota.com')
 
         'verifies that CTA href is correct'
         WebUI.verifyMatch(dealersURL, '/dealers', false, FailureHandling.STOP_ON_FAILURE)
@@ -571,7 +578,7 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroOffers/offer cards r
 
         offersURL = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/offers/CTA - View Offers'), 'href')
 
-        offersURL = ((((offersURL - GlobalVariable.AEM_Domain) - 'https://aem-author.toyota.com') - vehicleName) - 'UXh')
+        offersURL = (((((offersURL - GlobalVariable.AEM_Domain) - 'https://aem-author.toyota.com') - 'https://stage-aem.author.toyota.com') - vehicleName) - 'UXh')
 
         'verifies that CTA href is correct for this model'
         WebUI.verifyMatch(offersURL, '/models//offers', false, FailureHandling.STOP_ON_FAILURE)
@@ -670,7 +677,7 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroOffers/offer cards r
 
         dealersURL = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/offers/CTA - FAD'), 'href')
 
-        dealersURL = ((dealersURL - GlobalVariable.AEM_Domain) - 'https://aem-author.toyota.com')
+        dealersURL = (((dealersURL - GlobalVariable.AEM_Domain) - 'https://aem-author.toyota.com') - 'https://stage-aem.author.toyota.com')
 
         'verifies that CTA href is correct'
         WebUI.verifyMatch(dealersURL, '/dealers', false, FailureHandling.STOP_ON_FAILURE)
@@ -682,7 +689,7 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroOffers/offer cards r
 
         offersURL = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/offers/CTA - View Offers'), 'href')
 
-        offersURL = ((((offersURL - GlobalVariable.AEM_Domain) - 'https://aem-author.toyota.com') - vehicleName) - 'rcf')
+        offersURL = (((((offersURL - GlobalVariable.AEM_Domain) - 'https://aem-author.toyota.com') - 'https://stage-aem.author.toyota.com') - vehicleName) - 'rcf')
 
         'verifies that CTA href is correct for this model'
         WebUI.verifyMatch(offersURL, '/models//offers', false, FailureHandling.STOP_ON_FAILURE)

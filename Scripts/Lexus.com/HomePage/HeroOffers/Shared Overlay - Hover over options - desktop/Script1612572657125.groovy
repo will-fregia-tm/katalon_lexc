@@ -60,26 +60,30 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroOffers/zip code fiel
 
     WebUI.waitForElementPresent(findTestObject('Homepage/HeroOffers/SharedMarketOverlay/headline copy'), 2, FailureHandling.OPTIONAL)
 
-    noHover = WebUI.getCSSValue(findTestObject('Homepage/HeroOffers/SharedMarketOverlay/displayed market name - New York, New Jersey, Connecticut Dealers'), 
-        'background-color', FailureHandling.STOP_ON_FAILURE)
-
-    WebUI.mouseOver(findTestObject('Homepage/HeroOffers/SharedMarketOverlay/displayed market name - New York, New Jersey, Connecticut Dealers'), 
-        FailureHandling.OPTIONAL)
-
-    hoverState = WebUI.getCSSValue(findTestObject('Homepage/HeroOffers/SharedMarketOverlay/displayed market name - New York, New Jersey, Connecticut Dealers'), 
-        'background-color', FailureHandling.STOP_ON_FAILURE)
-
-    WebUI.verifyNotMatch(hoverState, noHover, false, FailureHandling.STOP_ON_FAILURE)
-
-    WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
-
     noHover = WebUI.getCSSValue(findTestObject('Homepage/HeroOffers/SharedMarketOverlay/displayed market name - New Jersey, Delaware, Pennsylvania Dealers'), 
         'background-color', FailureHandling.STOP_ON_FAILURE)
 
     WebUI.mouseOver(findTestObject('Homepage/HeroOffers/SharedMarketOverlay/displayed market name - New Jersey, Delaware, Pennsylvania Dealers'), 
         FailureHandling.OPTIONAL)
 
+    WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
+
     hoverState = WebUI.getCSSValue(findTestObject('Homepage/HeroOffers/SharedMarketOverlay/displayed market name - New Jersey, Delaware, Pennsylvania Dealers'), 
+        'background-color', FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.verifyNotMatch(hoverState, noHover, false, FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
+
+    noHover = WebUI.getCSSValue(findTestObject('Homepage/HeroOffers/SharedMarketOverlay/displayed market name - New York, New Jersey, Connecticut Dealers'), 
+        'background-color', FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.mouseOver(findTestObject('Homepage/HeroOffers/SharedMarketOverlay/displayed market name - New York, New Jersey, Connecticut Dealers'), 
+        FailureHandling.OPTIONAL)
+
+    hoverState = WebUI.getCSSValue(findTestObject('Homepage/HeroOffers/SharedMarketOverlay/displayed market name - New York, New Jersey, Connecticut Dealers'), 
         'background-color', FailureHandling.STOP_ON_FAILURE)
 
     WebUI.verifyNotMatch(hoverState, noHover, false, FailureHandling.STOP_ON_FAILURE)

@@ -10,9 +10,21 @@
          <value>section > div > div > button[aria-label*=&quot;Close Overlay&quot;]</value>
       </entry>
       <entry>
+         <key>XPATH</key>
+         <value>//*[(text() = 'SELECT AN AREA TO VIEW OFFERS' or . = 'SELECT AN AREA TO VIEW OFFERS')]/following-sibling::div//button[(text() = 'CHANGE' or . = 'CHANGE')]</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
+         <value>//*[(text() = 'CHANGE' or . = 'CHANGE')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>CHANGE</value>
+   </webElementProperties>
 </WebElementEntity>
