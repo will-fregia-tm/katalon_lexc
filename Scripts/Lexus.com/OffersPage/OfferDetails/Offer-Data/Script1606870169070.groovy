@@ -79,7 +79,8 @@ WebUI.verifyMatch(detailJelly, offerJelly, false, FailureHandling.STOP_ON_FAILUR
 if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferDetails/jelly-disclaimer'), 3, FailureHandling.OPTIONAL)) {
     detailDisclaimer = WebUI.getText(findTestObject('OffersPage/OfferDetails/jelly-disclaimer'), FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.verifyMatch(detailDisclaimer, jellyDisclaimer, false, FailureHandling.STOP_ON_FAILURE)
+    'this is now optional because the disclaimer may appear here, but not in the offers row when there are only offers for one model year'
+    WebUI.verifyMatch(detailDisclaimer, jellyDisclaimer, false, FailureHandling.OPTIONAL)
 }
 
 detailTitle = WebUI.getText(findTestObject('OffersPage/OfferDetails/model-model year'), FailureHandling.STOP_ON_FAILURE)
