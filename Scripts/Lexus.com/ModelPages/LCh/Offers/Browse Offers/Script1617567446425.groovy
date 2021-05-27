@@ -151,20 +151,20 @@ if (WebUI.verifyMatch(hybridSeries, 'convertible', false, FailureHandling.OPTION
 'Entering zip for a region with offers displays ability to select a model Style '
 WebUI.verifyElementPresent(findTestObject('ModelPages/Offers/styles dropdown button'), 0)
 
-'Entering zip for a region with offers displays 3 Offer Cards'
+'Entering zip for a region with offers displays up to 3 Offer Cards'
 WebUI.verifyElementPresent(findTestObject('ModelPages/Offers/offer card 1'), 0)
 
 WebUI.getText(findTestObject('ModelPages/Offers/offer card 1'))
 
-'Entering zip for a region with offers displays 3 Offer Cards'
+'Entering zip for a region with offers displays up to 3 Offer Cards'
 WebUI.verifyElementPresent(findTestObject('ModelPages/Offers/offer card 2'), 0)
 
 WebUI.getText(findTestObject('ModelPages/Offers/offer card 2'))
 
-'Entering zip for a region with offers displays 3 Offer Cards'
-WebUI.verifyElementPresent(findTestObject('ModelPages/Offers/offer card 3'), 0)
+'Entering zip for a region with offers displays up to 3 Offer Cards'
+WebUI.verifyElementPresent(findTestObject('ModelPages/Offers/offer card 3'), 0, FailureHandling.OPTIONAL)
 
-WebUI.getText(findTestObject('ModelPages/Offers/offer card 3'))
+WebUI.getText(findTestObject('ModelPages/Offers/offer card 3'), FailureHandling.OPTIONAL)
 
 'continues testing if there are at least 4 Offer Cards'
 if (WebUI.verifyElementPresent(findTestObject('ModelPages/Offers/offer card 4'), 3, FailureHandling.OPTIONAL)) {
