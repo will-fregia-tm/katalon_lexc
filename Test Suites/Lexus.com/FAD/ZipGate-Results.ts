@@ -98,7 +98,7 @@
    <testCaseLink>
       <guid>d5324e7e-413d-444e-961b-7c29ac17f6d3</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Lexus.com/FAD/Header/logo is present</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
