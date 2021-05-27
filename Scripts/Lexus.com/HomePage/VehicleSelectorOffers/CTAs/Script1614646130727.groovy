@@ -245,7 +245,8 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroOffers/offer cards r
 
         offersURL = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/offers/CTA - View Offers'), 'href')
 
-        offersURL = ((((offersURL - GlobalVariable.AEM_Domain) - 'https://aem-author.toyota.com') - 'https://stage-aem.author.toyota.com') - vehicleName)
+        offersURL = ((((offersURL - GlobalVariable.AEM_Domain) - 'https://aem-author.toyota.com') - 'https://stage-aem.author.toyota.com') - 
+        vehicleName)
 
         'verifies that CTA href is correct for this model'
         WebUI.verifyMatch(offersURL, '/models//offers', false, FailureHandling.STOP_ON_FAILURE)
@@ -356,7 +357,8 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroOffers/offer cards r
 
         offersURL = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/offers/CTA - View Offers'), 'href')
 
-        offersURL = (((((offersURL - GlobalVariable.AEM_Domain) - 'https://aem-author.toyota.com') - 'https://stage-aem.author.toyota.com') - vehicleName) - 'lx')
+        offersURL = (((((offersURL - GlobalVariable.AEM_Domain) - 'https://aem-author.toyota.com') - 'https://stage-aem.author.toyota.com') - 
+        vehicleName) - 'lx')
 
         'verifies that CTA href is correct for this model'
         WebUI.verifyMatch(offersURL, '/models//offers', false, FailureHandling.STOP_ON_FAILURE)
@@ -467,7 +469,8 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroOffers/offer cards r
 
         offersURL = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/offers/CTA - View Offers'), 'href')
 
-        offersURL = ((((((offersURL - GlobalVariable.AEM_Domain) - 'https://aem-author.toyota.com') - 'https://stage-aem.author.toyota.com') - vehicleName) - 'LCC') - 'lc-convertible')
+        offersURL = ((((((offersURL - GlobalVariable.AEM_Domain) - 'https://aem-author.toyota.com') - 'https://stage-aem.author.toyota.com') - 
+        vehicleName) - 'LCC') - 'lc-convertible')
 
         'verifies that CTA href is correct for this model'
         WebUI.verifyMatch(offersURL, '/models//offers', false, FailureHandling.STOP_ON_FAILURE)
@@ -578,7 +581,8 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroOffers/offer cards r
 
         offersURL = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/offers/CTA - View Offers'), 'href')
 
-        offersURL = (((((offersURL - GlobalVariable.AEM_Domain) - 'https://aem-author.toyota.com') - 'https://stage-aem.author.toyota.com') - vehicleName) - 'UXh')
+        offersURL = (((((offersURL - GlobalVariable.AEM_Domain) - 'https://aem-author.toyota.com') - 'https://stage-aem.author.toyota.com') - 
+        vehicleName) - 'UXh')
 
         'verifies that CTA href is correct for this model'
         WebUI.verifyMatch(offersURL, '/models//offers', false, FailureHandling.STOP_ON_FAILURE)
@@ -684,12 +688,16 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroOffers/offer cards r
 
         offersTarget = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/offers/CTA - View Offers'), 'target')
 
-        'navigates the user within the same tab'
-        WebUI.verifyMatch(offersTarget, '_self', false, FailureHandling.STOP_ON_FAILURE)
-
+        'this content check only needs to occur on prod'
+        if (WebUI.verifyMatch(GlobalVariable.DS_version, 'prod', false, FailureHandling.OPTIONAL)) {
+            'navigates the user within the same tab'
+            WebUI.verifyMatch(offersTarget, '_self', false, FailureHandling.STOP_ON_FAILURE)
+        }
+        
         offersURL = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/offers/CTA - View Offers'), 'href')
 
-        offersURL = (((((offersURL - GlobalVariable.AEM_Domain) - 'https://aem-author.toyota.com') - 'https://stage-aem.author.toyota.com') - vehicleName) - 'rcf')
+        offersURL = (((((offersURL - GlobalVariable.AEM_Domain) - 'https://aem-author.toyota.com') - 'https://stage-aem.author.toyota.com') - 
+        vehicleName) - 'rcf')
 
         'verifies that CTA href is correct for this model'
         WebUI.verifyMatch(offersURL, '/models//offers', false, FailureHandling.STOP_ON_FAILURE)
