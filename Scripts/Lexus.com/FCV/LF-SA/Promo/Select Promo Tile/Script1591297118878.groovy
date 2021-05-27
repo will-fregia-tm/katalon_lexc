@@ -80,6 +80,8 @@ WebUI.click(findTestObject('FCV/Promo/model card 2'), FailureHandling.STOP_ON_FA
 
 WebUI.waitForPageLoad(0, FailureHandling.STOP_ON_FAILURE)
 
+WebUI.delay(3)
+
 WebUI.verifyTextPresent(subtagText, false, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.navigateToUrl(GlobalVariable.AEM_Domain_Unauthenticated + '/concept/LFSA')
@@ -93,6 +95,8 @@ subtagText = WebUI.getText(findTestObject('FCV/Promo/model card 3 subtag'), Fail
 WebUI.click(findTestObject('FCV/Promo/model card 3'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForPageLoad(0)
+
+WebUI.delay(3)
 
 WebUI.verifyTextPresent(subtagText, false)
 

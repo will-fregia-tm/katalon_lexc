@@ -62,7 +62,7 @@ WebUI.navigateToUrl('https://www.lexus.com' + relativeLink, FailureHandling.STOP
 
 WebUI.waitForPageLoad(0, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyTextPresent(subtagText, false, FailureHandling.OPTIONAL)
 
@@ -75,6 +75,8 @@ subtagText = WebUI.getText(findTestObject('FCV/Promo/model card 2 subtag'), Fail
 WebUI.click(findTestObject('FCV/Promo/model card 2'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForPageLoad(0, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(3)
 
 WebUI.verifyTextPresent(subtagText, false, FailureHandling.OPTIONAL)
 

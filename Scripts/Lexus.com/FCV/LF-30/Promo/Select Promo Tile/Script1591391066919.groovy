@@ -53,6 +53,8 @@ WebUI.click(findTestObject('FCV/Promo/model card 1'), FailureHandling.STOP_ON_FA
 
 WebUI.waitForPageLoad(0)
 
+WebUI.delay(3)
+
 WebUI.verifyTextPresent(subtagText, false)
 
 WebUI.back()
@@ -64,6 +66,8 @@ subtagText = WebUI.getText(findTestObject('FCV/Promo/model card 2 subtag'), Fail
 WebUI.click(findTestObject('FCV/Promo/model card 2'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForPageLoad(0)
+
+WebUI.delay(3)
 
 WebUI.verifyTextPresent(subtagText, false)
 
@@ -77,6 +81,8 @@ WebUI.click(findTestObject('FCV/Promo/model card 3'), FailureHandling.STOP_ON_FA
 
 WebUI.waitForPageLoad(0)
 
+WebUI.delay(3)
+
 WebUI.verifyTextPresent(subtagText, false)
 
 WebUI.back()
@@ -89,6 +95,8 @@ WebUI.click(findTestObject('FCV/Promo/model card 4'), FailureHandling.STOP_ON_FA
 
 WebUI.waitForPageLoad(0)
 
+WebUI.delay(3)
+
 WebUI.verifyTextPresent(subtagText, false)
 
 WebUI.back()
@@ -100,6 +108,8 @@ subtagText = WebUI.getText(findTestObject('FCV/Promo/model card 5 subtag'), Fail
 WebUI.click(findTestObject('FCV/Promo/model card 5 subtag'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForPageLoad(0)
+
+WebUI.delay(3)
 
 WebUI.verifyTextPresent(subtagText, false)
 
