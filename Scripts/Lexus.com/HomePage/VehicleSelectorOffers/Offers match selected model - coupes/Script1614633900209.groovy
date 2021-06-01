@@ -84,7 +84,7 @@ WebUI.scrollToElement(findTestObject('Homepage/VehicleSelectorAEM/vehicle select
 
 'runs these tests on sales event version of page'
 if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroOffers/offer cards row'), 5, FailureHandling.OPTIONAL)) {
-    WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/offers/offers module title'), 0, FailureHandling.STOP_ON_FAILURE)
+    WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/offers/offers module title'), 0, FailureHandling.OPTIONAL)
 
     WebUI.click(findTestObject('HomePage/VehicleSelectorAEM/categories/Coupes'), FailureHandling.STOP_ON_FAILURE)
 

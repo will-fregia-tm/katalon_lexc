@@ -37,12 +37,29 @@ if (WebUI.verifyMatch(GlobalVariable.lowerEnvironment, 'yes', false, FailureHand
 
 WebUI.navigateToUrl(GlobalVariable.AEM_Domain)
 
+WebUI.delay(4)
+
+WebUI.waitForElementPresent(findTestObject('Homepage/HeroModule/hero module'), 10, FailureHandling.OPTIONAL)
+
 'if the page renders slowly, it will be refreshed so the test can continue'
-if (WebUI.verifyElementNotPresent(findTestObject('GlobalNav/header/header - Lexus logo'), 3, FailureHandling.OPTIONAL)) {
+if (WebUI.verifyElementNotPresent(findTestObject('Homepage/HeroModule/hero module'), 3, FailureHandling.OPTIONAL)) {
     WebUI.refresh()
+
+    WebUI.delay(10)
+
+    WebUI.waitForElementPresent(findTestObject('Homepage/HeroModule/hero module'), 10, FailureHandling.OPTIONAL)
+
+    'if the page renders slowly, it will be refreshed so the test can continue'
+    if (WebUI.verifyElementNotPresent(findTestObject('Homepage/HeroModule/hero module'), 3, FailureHandling.OPTIONAL)) {
+        WebUI.refresh()
+
+        WebUI.delay(10)
+
+        WebUI.waitForElementPresent(findTestObject('Homepage/HeroModule/hero module'), 10, FailureHandling.OPTIONAL)
+    }
 }
 
-WebUI.delay(2)
+WebUI.verifyElementVisibleInViewport(findTestObject('Homepage/HeroModule/hero module'), 0, FailureHandling.STOP_ON_FAILURE)
 
 cookiedZIP = 'no'
 
@@ -67,6 +84,8 @@ WebUI.scrollToElement(findTestObject('Homepage/VehicleSelectorAEM/vehicle select
 
 'runs these tests on sales event version of page'
 if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroOffers/offer cards row'), 5, FailureHandling.OPTIONAL)) {
+    WebUI.delay(3)
+
     WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/offers/offers module title'), 0, FailureHandling.STOP_ON_FAILURE)
 
     textAlignment = WebUI.getCSSValue(findTestObject('Homepage/VehicleSelectorAEM/offers/offers module title'), 'text-align', 
@@ -396,11 +415,14 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroOffers/offer cards r
 
         selectedModel = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/models/vehicle name'), FailureHandling.STOP_ON_FAILURE)
 
-        moduleTitle = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/offers/offers module title'), FailureHandling.STOP_ON_FAILURE)
+        'these steps will be run in environments in which specific content is important'
+        if (WebUI.verifyMatch(GlobalVariable.DS_version, 'prod', false, FailureHandling.OPTIONAL)) {
+            moduleTitle = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/offers/offers module title'), FailureHandling.STOP_ON_FAILURE)
 
-        'Displays the two-letter vehicle name of the vehicle formatted: Current [Model Name] Offers'
-        WebUI.verifyMatch(moduleTitle, ('CURRENT ' + selectedModel) + ' OFFERS', false, FailureHandling.STOP_ON_FAILURE)
-
+            'Displays the two-letter vehicle name of the vehicle formatted: Current [Model Name] Offers'
+            WebUI.verifyMatch(moduleTitle, ('CURRENT ' + selectedModel) + ' OFFERS', false, FailureHandling.STOP_ON_FAILURE)
+        }
+        
         'Model-Specific market offers cards will render below the Vehicle Selector module'
         offerCardModel = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/offers/offer card 01 - model name'), 
             FailureHandling.STOP_ON_FAILURE)

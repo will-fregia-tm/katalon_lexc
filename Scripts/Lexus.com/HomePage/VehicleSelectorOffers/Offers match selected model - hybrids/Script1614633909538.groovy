@@ -45,7 +45,7 @@ WebUI.waitForElementPresent(findTestObject('Homepage/HeroModule/hero module'), 1
 if (WebUI.verifyElementNotPresent(findTestObject('Homepage/HeroModule/hero module'), 3, FailureHandling.OPTIONAL)) {
     WebUI.refresh()
 
-    WebUI.delay(4)
+    WebUI.delay(10)
 
     WebUI.waitForElementPresent(findTestObject('Homepage/HeroModule/hero module'), 10, FailureHandling.OPTIONAL)
 

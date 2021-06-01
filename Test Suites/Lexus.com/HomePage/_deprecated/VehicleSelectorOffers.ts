@@ -15,7 +15,7 @@
       <guid>007c7ee4-eb54-456a-9837-bb362c44993e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/HomePage/VehicleSelectorOffers/all vehicle segments clickable in vehicle selector</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/HomePage/Legacy/all vehicle segments clickable in vehicle selector</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -27,7 +27,7 @@
       <guid>40770ddb-aa7c-4dd4-9cc3-04fd802effb9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/HomePage/VehicleSelectorOffers/background image for vehicle selector</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/HomePage/Legacy/background image for vehicle selector</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -39,7 +39,7 @@
       <guid>965eb081-6dab-4bd0-a263-86351aeae5b9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/HomePage/VehicleSelectorOffers/clickable vehicle selector thumbnails</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/HomePage/Legacy/clickable vehicle selector thumbnails</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -51,7 +51,7 @@
       <guid>50c3d394-c2a3-4c19-8505-ce8861c9fa01</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/HomePage/VehicleSelectorOffers/nav arrows for 9 or more vehicle selector color swatches</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/HomePage/Legacy/nav arrows for 9 or more vehicle selector color swatches</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -63,7 +63,7 @@
       <guid>e5b1830b-1987-4392-9c1d-59f8f4d4b7b8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/HomePage/VehicleSelectorOffers/tooltip displays vehicle selector offer details</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/HomePage/Legacy/tooltip displays vehicle selector offer details</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -75,7 +75,7 @@
       <guid>c47803bf-8439-44b2-b814-00a188caa3d2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/HomePage/VehicleSelectorOffers/vehicle selector offers display after entering zip</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/HomePage/Legacy/vehicle selector offers display after entering zip</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -87,7 +87,7 @@
       <guid>b3856d93-bcef-4c17-9564-bd5573795cd8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/HomePage/VehicleSelectorOffers/vehicle selector offers match selected model</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/HomePage/Legacy/vehicle selector offers match selected model</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -99,7 +99,7 @@
       <guid>0ea6f417-34c3-4716-955e-86129938ebd9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Lexus.com/HomePage/VehicleSelectorOffers/vehicle selector offers match zip code in hero module</testCaseId>
+      <testCaseId>Test Cases/Lexus.com/HomePage/Legacy/vehicle selector offers match zip code in hero module</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>

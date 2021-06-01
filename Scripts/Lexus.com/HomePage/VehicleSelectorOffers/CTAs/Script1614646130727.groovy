@@ -37,6 +37,30 @@ if (WebUI.verifyMatch(GlobalVariable.lowerEnvironment, 'yes', false, FailureHand
 
 WebUI.navigateToUrl(GlobalVariable.AEM_Domain)
 
+WebUI.delay(4)
+
+WebUI.waitForElementPresent(findTestObject('Homepage/HeroModule/hero module'), 10, FailureHandling.OPTIONAL)
+
+'if the page renders slowly, it will be refreshed so the test can continue'
+if (WebUI.verifyElementNotPresent(findTestObject('Homepage/HeroModule/hero module'), 3, FailureHandling.OPTIONAL)) {
+    WebUI.refresh()
+
+    WebUI.delay(10)
+
+    WebUI.waitForElementPresent(findTestObject('Homepage/HeroModule/hero module'), 10, FailureHandling.OPTIONAL)
+
+    'if the page renders slowly, it will be refreshed so the test can continue'
+    if (WebUI.verifyElementNotPresent(findTestObject('Homepage/HeroModule/hero module'), 3, FailureHandling.OPTIONAL)) {
+        WebUI.refresh()
+
+        WebUI.delay(10)
+
+        WebUI.waitForElementPresent(findTestObject('Homepage/HeroModule/hero module'), 10, FailureHandling.OPTIONAL)
+    }
+}
+
+WebUI.verifyElementVisibleInViewport(findTestObject('Homepage/HeroModule/hero module'), 0, FailureHandling.STOP_ON_FAILURE)
+
 'if the page renders slowly, it will be refreshed so the test can continue'
 if (WebUI.verifyElementNotPresent(findTestObject('GlobalNav/header/header - Lexus logo'), 3, FailureHandling.OPTIONAL)) {
     WebUI.refresh()
@@ -59,6 +83,8 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroOffers/zip code fiel
     cookiedZIP = 'yes'
 
     WebUI.waitForElementPresent(findTestObject('Homepage/HeroOffers/offer cards row - mobile'), 5, FailureHandling.OPTIONAL)
+
+    WebUI.delay(5)
 }
 
 WebUI.waitForElementPresent(findTestObject('Homepage/VehicleSelectorAEM/vehicle selector module'), 0, FailureHandling.OPTIONAL)
