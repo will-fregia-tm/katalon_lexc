@@ -53,6 +53,8 @@ WebUI.scrollToElement(findTestObject('OffersPage/OfferRow/row 01'), 0, FailureHa
 
 dropdownText = WebUI.getText(findTestObject('OffersPage/OfferRow/row 02 - dropdown button'), FailureHandling.STOP_ON_FAILURE)
 
+dropdownText = (dropdownText - ' Arrow Icon')
+
 WebUI.verifyMatch(dropdownText, 'ALL STYLES', false, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.mouseOver(findTestObject('OffersPage/OfferRow/row 02 - dropdown button'), FailureHandling.OPTIONAL)
@@ -64,6 +66,8 @@ WebUI.mouseOver(findTestObject('OffersPage/OfferRow/row 02 - dropdown button - m
 WebUI.click(findTestObject('OffersPage/OfferRow/row 02 - dropdown button - model-style 1'), FailureHandling.STOP_ON_FAILURE)
 
 dropdownText = WebUI.getText(findTestObject('OffersPage/OfferRow/row 02 - dropdown button'), FailureHandling.STOP_ON_FAILURE)
+
+dropdownText = (dropdownText - ' Arrow Icon')
 
 'dropdown should default to ALL STYLES'
 WebUI.verifyNotMatch(dropdownText, 'ALL STYLES', false, FailureHandling.STOP_ON_FAILURE)
@@ -82,6 +86,8 @@ if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 02 - drop
     WebUI.click(findTestObject('OffersPage/OfferRow/row 02 - dropdown button'), FailureHandling.STOP_ON_FAILURE)
 
     dropdownText = WebUI.getText(findTestObject('OffersPage/OfferRow/row 02 - dropdown button - model-style 2'), FailureHandling.STOP_ON_FAILURE)
+
+    dropdownText = (dropdownText - ' Arrow Icon')
 
     WebUI.mouseOver(findTestObject('OffersPage/OfferRow/row 02 - dropdown button - model-style 2'), FailureHandling.OPTIONAL)
 
@@ -265,6 +271,8 @@ if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 03'), 3, 
 
     dropdownText = WebUI.getText(findTestObject('OffersPage/OfferRow/row 03 - dropdown button'), FailureHandling.STOP_ON_FAILURE)
 
+    dropdownText = (dropdownText - ' Arrow Icon')
+
     WebUI.verifyMatch(dropdownText, 'ALL STYLES', false, FailureHandling.STOP_ON_FAILURE)
 
     WebUI.mouseOver(findTestObject('OffersPage/OfferRow/row 03 - dropdown button'), FailureHandling.OPTIONAL)
@@ -276,6 +284,8 @@ if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 03'), 3, 
     WebUI.click(findTestObject('OffersPage/OfferRow/row 03 - dropdown button - model-style 1'), FailureHandling.STOP_ON_FAILURE)
 
     dropdownText = WebUI.getText(findTestObject('OffersPage/OfferRow/row 03 - dropdown button'), FailureHandling.STOP_ON_FAILURE)
+
+    dropdownText = (dropdownText - ' Arrow Icon')
 
     'dropdown should default to ALL STYLES'
     WebUI.verifyNotMatch(dropdownText, 'ALL STYLES', false, FailureHandling.STOP_ON_FAILURE)
@@ -290,6 +300,8 @@ if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 03'), 3, 
 
         dropdownText = WebUI.getText(findTestObject('OffersPage/OfferRow/row 04 - dropdown button'), FailureHandling.STOP_ON_FAILURE)
 
+        dropdownText = (dropdownText - ' Arrow Icon')
+
         WebUI.verifyMatch(dropdownText, 'ALL STYLES', false, FailureHandling.STOP_ON_FAILURE)
 
         WebUI.mouseOver(findTestObject('OffersPage/OfferRow/row 04 - dropdown button'), FailureHandling.OPTIONAL)
@@ -301,6 +313,8 @@ if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 03'), 3, 
         WebUI.click(findTestObject('OffersPage/OfferRow/row 04 - dropdown button - model-style 1'), FailureHandling.STOP_ON_FAILURE)
 
         dropdownText = WebUI.getText(findTestObject('OffersPage/OfferRow/row 04 - dropdown button'), FailureHandling.STOP_ON_FAILURE)
+
+        dropdownText = (dropdownText - ' Arrow Icon')
 
         'dropdown should default to ALL STYLES'
         WebUI.verifyNotMatch(dropdownText, 'ALL STYLES', false, FailureHandling.STOP_ON_FAILURE)
@@ -315,6 +329,8 @@ if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 03'), 3, 
 
             dropdownText = WebUI.getText(findTestObject('OffersPage/OfferRow/row 05 - dropdown button'), FailureHandling.STOP_ON_FAILURE)
 
+            dropdownText = (dropdownText - ' Arrow Icon')
+
             WebUI.verifyMatch(dropdownText, 'ALL STYLES', false, FailureHandling.STOP_ON_FAILURE)
 
             WebUI.mouseOver(findTestObject('OffersPage/OfferRow/row 05 - dropdown button'), FailureHandling.OPTIONAL)
@@ -326,6 +342,8 @@ if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 03'), 3, 
             WebUI.click(findTestObject('OffersPage/OfferRow/row 05 - dropdown button - model-style 1'), FailureHandling.STOP_ON_FAILURE)
 
             dropdownText = WebUI.getText(findTestObject('OffersPage/OfferRow/row 05 - dropdown button'), FailureHandling.STOP_ON_FAILURE)
+
+            dropdownText = (dropdownText - ' Arrow Icon')
 
             'dropdown should default to ALL STYLES'
             WebUI.verifyNotMatch(dropdownText, 'ALL STYLES', false, FailureHandling.STOP_ON_FAILURE)
@@ -340,6 +358,8 @@ if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 03'), 3, 
 
                 dropdownText = WebUI.getText(findTestObject('OffersPage/OfferRow/row 06 - dropdown button'), FailureHandling.STOP_ON_FAILURE)
 
+                dropdownText = (dropdownText - ' Arrow Icon')
+
                 WebUI.verifyMatch(dropdownText, 'ALL STYLES', false, FailureHandling.STOP_ON_FAILURE)
 
                 WebUI.mouseOver(findTestObject('OffersPage/OfferRow/row 06 - dropdown button'), FailureHandling.OPTIONAL)
@@ -351,6 +371,8 @@ if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 03'), 3, 
                 WebUI.click(findTestObject('OffersPage/OfferRow/row 06 - dropdown button - model-style 1'), FailureHandling.STOP_ON_FAILURE)
 
                 dropdownText = WebUI.getText(findTestObject('OffersPage/OfferRow/row 06 - dropdown button'), FailureHandling.STOP_ON_FAILURE)
+
+                dropdownText = (dropdownText - ' Arrow Icon')
 
                 'dropdown should default to ALL STYLES'
                 WebUI.verifyNotMatch(dropdownText, 'ALL STYLES', false, FailureHandling.STOP_ON_FAILURE)
@@ -365,6 +387,8 @@ if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 03'), 3, 
 
                     dropdownText = WebUI.getText(findTestObject('OffersPage/OfferRow/row 07 - dropdown button'), FailureHandling.STOP_ON_FAILURE)
 
+                    dropdownText = (dropdownText - ' Arrow Icon')
+
                     WebUI.verifyMatch(dropdownText, 'ALL STYLES', false, FailureHandling.STOP_ON_FAILURE)
 
                     WebUI.mouseOver(findTestObject('OffersPage/OfferRow/row 07 - dropdown button'), FailureHandling.OPTIONAL)
@@ -376,6 +400,8 @@ if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 03'), 3, 
                     WebUI.click(findTestObject('OffersPage/OfferRow/row 07 - dropdown button - model-style 1'), FailureHandling.STOP_ON_FAILURE)
 
                     dropdownText = WebUI.getText(findTestObject('OffersPage/OfferRow/row 07 - dropdown button'), FailureHandling.STOP_ON_FAILURE)
+
+                    dropdownText = (dropdownText - ' Arrow Icon')
 
                     'dropdown should default to ALL STYLES'
                     WebUI.verifyNotMatch(dropdownText, 'ALL STYLES', false, FailureHandling.STOP_ON_FAILURE)
@@ -391,6 +417,8 @@ if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 03'), 3, 
 
                         dropdownText = WebUI.getText(findTestObject('OffersPage/OfferRow/row 08 - dropdown button'), FailureHandling.STOP_ON_FAILURE)
 
+                        dropdownText = (dropdownText - ' Arrow Icon')
+
                         WebUI.verifyMatch(dropdownText, 'ALL STYLES', false, FailureHandling.STOP_ON_FAILURE)
 
                         WebUI.mouseOver(findTestObject('OffersPage/OfferRow/row 08 - dropdown button'), FailureHandling.OPTIONAL)
@@ -403,6 +431,8 @@ if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 03'), 3, 
                         WebUI.click(findTestObject('OffersPage/OfferRow/row 08 - dropdown button - model-style 1'), FailureHandling.STOP_ON_FAILURE)
 
                         dropdownText = WebUI.getText(findTestObject('OffersPage/OfferRow/row 08 - dropdown button'), FailureHandling.STOP_ON_FAILURE)
+
+                        dropdownText = (dropdownText - ' Arrow Icon')
 
                         'dropdown should default to ALL STYLES'
                         WebUI.verifyNotMatch(dropdownText, 'ALL STYLES', false, FailureHandling.STOP_ON_FAILURE)
@@ -419,6 +449,8 @@ if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 03'), 3, 
                             dropdownText = WebUI.getText(findTestObject('OffersPage/OfferRow/row 09 - dropdown button'), 
                                 FailureHandling.STOP_ON_FAILURE)
 
+                            dropdownText = (dropdownText - ' Arrow Icon')
+
                             WebUI.verifyMatch(dropdownText, 'ALL STYLES', false, FailureHandling.STOP_ON_FAILURE)
 
                             WebUI.mouseOver(findTestObject('OffersPage/OfferRow/row 09 - dropdown button'), FailureHandling.OPTIONAL)
@@ -433,6 +465,8 @@ if (WebUI.verifyElementPresent(findTestObject('OffersPage/OfferRow/row 03'), 3, 
 
                             dropdownText = WebUI.getText(findTestObject('OffersPage/OfferRow/row 09 - dropdown button'), 
                                 FailureHandling.STOP_ON_FAILURE)
+
+                            dropdownText = (dropdownText - ' Arrow Icon')
 
                             'dropdown should default to ALL STYLES'
                             WebUI.verifyNotMatch(dropdownText, 'ALL STYLES', false, FailureHandling.STOP_ON_FAILURE)

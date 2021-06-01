@@ -100,10 +100,14 @@ WebUI.verifyMatch(colorNational, colorCity, false, FailureHandling.STOP_ON_FAILU
 
 textState = WebUI.getText(findTestObject('OffersPage/SEO/breadcrumb - state'), FailureHandling.STOP_ON_FAILURE)
 
+textState = (textState - 'Arrow Icon')
+
 'State will display as STATE: {state_name}'
 WebUI.verifyMatch(textState, 'STATE: TEXAS', false, FailureHandling.STOP_ON_FAILURE)
 
 textState = WebUI.getText(findTestObject('OffersPage/SEO/breadcrumb - city'), FailureHandling.STOP_ON_FAILURE)
+
+textState = (textState - 'Arrow Icon')
 
 'City will display as CITY: {city_name}'
 WebUI.verifyMatch(textState, 'CITY: PLANO', false, FailureHandling.STOP_ON_FAILURE)

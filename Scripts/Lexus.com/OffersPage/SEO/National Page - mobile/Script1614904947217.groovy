@@ -41,6 +41,8 @@ WebUI.navigateToUrl(GlobalVariable.SC_Domain + '/offers/us')
 
 WebUI.waitForElementPresent(findTestObject('OffersPage/SEO/breadcrumb - national'), 5, FailureHandling.OPTIONAL)
 
+WebUI.delay(5)
+
 colorNational = WebUI.getCSSValue(findTestObject('OffersPage/SEO/breadcrumb - national'), 'color', FailureHandling.STOP_ON_FAILURE)
 
 colorState = WebUI.getCSSValue(findTestObject('OffersPage/SEO/breadcrumb - state'), 'color', FailureHandling.STOP_ON_FAILURE)
@@ -54,6 +56,8 @@ WebUI.verifyNotMatch(colorNational, colorCity, false, FailureHandling.STOP_ON_FA
 
 textState = WebUI.getText(findTestObject('OffersPage/SEO/breadcrumb - state'), FailureHandling.STOP_ON_FAILURE)
 
+textState = (textState - 'Arrow Icon')
+
 'Render: STATE: {ALL} (indicating that all states have are available'
 WebUI.verifyMatch(textState, 'STATE: ALL', false, FailureHandling.STOP_ON_FAILURE)
 
@@ -61,6 +65,8 @@ WebUI.verifyMatch(textState, 'STATE: ALL', false, FailureHandling.STOP_ON_FAILUR
 stateList = WebUI.getText(findTestObject('OffersPage/SEO/state list'), FailureHandling.STOP_ON_FAILURE)
 
 textState = WebUI.getText(findTestObject('OffersPage/SEO/state 01'), FailureHandling.STOP_ON_FAILURE)
+
+textState = (textState - 'Arrow Icon')
 
 'Will dynamically render a state list of the available states in alphabetical order - which means Alabama should be first.'
 WebUI.verifyMatch(textState, 'ALABAMA', false, FailureHandling.OPTIONAL)
