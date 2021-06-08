@@ -53,6 +53,14 @@ WebUI.waitForElementPresent(findTestObject('FAD/DealerDetails/contact heading'),
 
 WebUI.verifyElementPresent(findTestObject('FAD/DealerDetails/contact heading'), 0, FailureHandling.STOP_ON_FAILURE)
 
+WebUI.verifyElementPresent(findTestObject('FAD/DealerDetails/back to dealer results CTA'), 0)
+
+WebUI.delay(4)
+
+WebUI.scrollToPosition(0, 0)
+
+WebUI.delay(1)
+
 WebUI.click(findTestObject('FAD/DealerDetails/back to dealer results CTA'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForElementPresent(findTestObject('FAD/ZipGate/search icon'), 0, FailureHandling.STOP_ON_FAILURE)
