@@ -73,7 +73,7 @@ WebUI.verifyMatch(selectionState, 'true', false)
 
 actualValue = WebUI.getAttribute(findTestObject('ModelPages/Visualizer/swatch 01'), 'src', FailureHandling.STOP_ON_FAILURE)
 
-expectedValue = 'exterior'
+expectedValue = 'xterior'
 
 valueWithoutExpected = (actualValue - expectedValue)
 
@@ -137,12 +137,12 @@ WebUI.verifyMatch(selectionState, 'true', false)
 
 actualValue = WebUI.getAttribute(findTestObject('ModelPages/Visualizer/swatch 01'), 'src', FailureHandling.STOP_ON_FAILURE)
 
-expectedValue = 'interior'
+expectedValue = 'xterior'
 
 valueWithoutExpected = (actualValue - expectedValue)
 
-'displays relevant swatches (i.e. interior)'
-WebUI.verifyNotMatch(valueWithoutExpected, actualValue, false, FailureHandling.STOP_ON_FAILURE)
+'displays relevant swatches (i.e. not exterior)'
+WebUI.verifyMatch(valueWithoutExpected, actualValue, false, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('ModelPages/Visualizer/wheels tab'), FailureHandling.STOP_ON_FAILURE)
 

@@ -73,7 +73,7 @@ WebUI.verifyMatch(selectionState, 'true', false)
 
 actualValue = WebUI.getAttribute(findTestObject('ModelPages/Visualizer/swatch 01'), 'src', FailureHandling.STOP_ON_FAILURE)
 
-expectedValue = 'exterior'
+expectedValue = 'xterior'
 
 valueWithoutExpected = (actualValue - expectedValue)
 
