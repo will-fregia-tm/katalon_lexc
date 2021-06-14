@@ -65,6 +65,8 @@ if (WebUI.verifyNotMatch(windowTitle, 'Build Your Own Lexus | Lexus Configurator
     href = (href - 'https://dev-aem-lcom.origin.cepo-proxy.tms.aws.lexus.com')
 
     href = (href - 'https://stage-aem.author.toyota.com')
+	
+	href = (href - 'https://aem-author.toyota.com')
 
     WebUI.navigateToUrl('https://www.lexus.com' + href)
 
@@ -98,6 +100,8 @@ if (WebUI.verifyNotMatch(windowTitle, 'Lexus - Find a Dealer', false, FailureHan
     href = (href - 'https://dev-aem-lcom.origin.cepo-proxy.tms.aws.lexus.com')
 
     href = (href - 'https://stage-aem.author.toyota.com')
+	
+	href = (href - 'https://aem-author.toyota.com')
 
     WebUI.navigateToUrl('https://www.lexus.com' + href)
 
@@ -135,6 +139,8 @@ if (WebUI.verifyNotMatch(windowTitle, 'Lexus Offers | Experience Amazing', false
     href = (href - 'https://dev-aem-lcom.origin.cepo-proxy.tms.aws.lexus.com')
 
     href = (href - 'https://stage-aem.author.toyota.com')
+	
+	href = (href - 'https://aem-author.toyota.com')
 
     WebUI.navigateToUrl('https://www.lexus.com' + href)
 
