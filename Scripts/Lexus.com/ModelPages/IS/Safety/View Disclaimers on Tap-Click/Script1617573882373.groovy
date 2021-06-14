@@ -84,7 +84,7 @@ if (WebUI.verifyElementPresent(findTestObject('ModelPages/Safety/asterisk discla
     WebUI.verifyNotMatch(valueWithoutExpected, actualValue, false, FailureHandling.STOP_ON_FAILURE)
 
     'When a user tap/clicks on the disclaimer tooltip close button (X)'
-    WebUI.click(findTestObject('ModelPages/Disclaimers/disclaimer close button'), FailureHandling.STOP_ON_FAILURE)
+    WebUI.click(findTestObject('ModelPages/Disclaimers/disclaimer close button'), FailureHandling.OPTIONAL)
 
     WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
 
@@ -115,7 +115,7 @@ if (WebUI.verifyElementPresent(findTestObject('ModelPages/Safety/asterisk discla
         WebUI.verifyNotMatch(valueWithoutExpected, actualValue, false, FailureHandling.STOP_ON_FAILURE)
 
         'When a user tap/clicks on the disclaimer tooltip close button (X)'
-        WebUI.click(findTestObject('ModelPages/Disclaimers/disclaimer close button'), FailureHandling.STOP_ON_FAILURE)
+        WebUI.click(findTestObject('ModelPages/Disclaimers/disclaimer close button'), FailureHandling.OPTIONAL)
 
         WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
 
@@ -156,7 +156,7 @@ if (WebUI.verifyElementPresent(findTestObject('ModelPages/Safety/drawer/more fea
         WebUI.verifyNotMatch(valueWithoutExpected, actualValue, false, FailureHandling.STOP_ON_FAILURE)
 
         'When a user tap/clicks on the disclaimer tooltip close button (X)'
-        WebUI.click(findTestObject('ModelPages/Disclaimers/disclaimer close button'), FailureHandling.STOP_ON_FAILURE)
+        WebUI.click(findTestObject('ModelPages/Disclaimers/disclaimer close button'), FailureHandling.OPTIONAL)
 
         WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
 
@@ -180,7 +180,7 @@ if (WebUI.verifyElementPresent(findTestObject('ModelPages/Safety/drawer/more fea
 
             WebUI.verifyNotMatch(valueWithoutExpected, actualValue, false, FailureHandling.STOP_ON_FAILURE)
 
-            WebUI.click(findTestObject('ModelPages/Disclaimers/disclaimer close button'), FailureHandling.STOP_ON_FAILURE)
+            WebUI.click(findTestObject('ModelPages/Disclaimers/disclaimer close button'), FailureHandling.OPTIONAL)
 
             WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
 
@@ -203,7 +203,7 @@ if (WebUI.verifyElementPresent(findTestObject('ModelPages/Safety/drawer/more fea
 
                 WebUI.verifyNotMatch(valueWithoutExpected, actualValue, false, FailureHandling.STOP_ON_FAILURE)
 
-                WebUI.click(findTestObject('ModelPages/Disclaimers/disclaimer close button'), FailureHandling.STOP_ON_FAILURE)
+                WebUI.click(findTestObject('ModelPages/Disclaimers/disclaimer close button'), FailureHandling.OPTIONAL)
 
                 WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
 
