@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Offers will display based on the series and model year displaying in the module.</description>
+   <name>Offer Cards match displayed model series-year</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7494abe2-4a56-4997-a506-c6f5bbec674a</testCaseGuid>
+   <variable>
+      <defaultValue>'Header'</defaultValue>
+      <description></description>
+      <id>a69e468c-5da1-47b8-b325-229e7b53c9ab</id>
+      <masked>false</masked>
+      <name>GlobalNav</name>
+   </variable>
+</TestCaseEntity>

@@ -263,4 +263,16 @@
          <variableId>54370857-76fb-4205-80a9-59846ad7a278</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>c10e9351-a4c4-4ff9-8f91-56faf7b027a0</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lexus.com/HomePage/HeroOffers/Offer Cards match displayed model series-year</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a69e468c-5da1-47b8-b325-229e7b53c9ab</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>
