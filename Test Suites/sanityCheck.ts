@@ -300,7 +300,7 @@
             <profileName>staging</profileName>
             <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
+         <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/BrandCampaign/DetailLayer</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
@@ -309,7 +309,7 @@
             <profileName>staging</profileName>
             <runConfigurationId>saucelabs_chrome_win10</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
+         <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/BrandCampaign/GridLayer</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
@@ -318,7 +318,7 @@
             <profileName>staging</profileName>
             <runConfigurationId>saucelabs_chrome_macos10.15</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
+         <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/BrandCampaign/DetailLayer</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
@@ -327,7 +327,7 @@
             <profileName>staging</profileName>
             <runConfigurationId>saucelabs_chrome_macos10.15</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
+         <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/BrandCampaign/GridLayer</testSuiteEntity>
       </TestSuiteRunConfiguration>
    </testSuiteRunConfigurations>
