@@ -49,7 +49,9 @@ for (def index : (0..totalPages)) {
     WebUI.verifyElementNotPresent(findTestObject('error'), 0)
 
     if (WebUI.verifyElementNotPresent(findTestObject('title'), 3, FailureHandling.OPTIONAL)) {
-        WebUI.verifyElementPresent(findTestObject('title - privacy'), 0)
+        if (WebUI.verifyElementNotPresent(findTestObject('title - privacy'), 3, FailureHandling.OPTIONAL)) {
+            WebUI.verifyElementPresent(findTestObject('title - request'), 0)
+        }
     }
     
     WebUI.delay(2)
