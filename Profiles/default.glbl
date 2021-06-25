@@ -86,7 +86,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'/IS500/'</initValue>
+      <initValue>'/build-your-lexus/#!/'</initValue>
       <name>legacyURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
