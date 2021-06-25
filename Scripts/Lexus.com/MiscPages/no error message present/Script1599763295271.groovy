@@ -43,7 +43,7 @@ for (def index : (0..totalPages)) {
     if (WebUI.verifyElementNotPresent(findTestObject('GlobalNav/lexus logo'), 3, FailureHandling.OPTIONAL)) {
         WebUI.navigateToUrl(findTestData(GlobalVariable.DS_version + 'URLsMiscPages').getValue(dataColumn, dataRow))
 
-        not_run: WebUI.verifyElementPresent(findTestObject('GlobalNav/lexus logo'), 0)
+        WebUI.verifyElementPresent(findTestObject('GlobalNav/lexus logo'), 0)
     }
     
     WebUI.verifyElementNotPresent(findTestObject('error'), 0)
