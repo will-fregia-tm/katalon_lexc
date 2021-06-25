@@ -6,12 +6,12 @@
    <elementGuidId>5845ad91-5864-47c7-b0e2-9156e17ae1de</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@id = 'logo']</value>
+         <key>CSS</key>
+         <value>button[aria-label*=&quot;Lexus Logo&quot;]</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>#logo</value>
+         <key>BASIC</key>
+         <value>//*[@id = 'logo']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>
