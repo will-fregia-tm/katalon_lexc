@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>button[aria-label*=&quot;Lexus Logo&quot;]</value>
+         <value>[aria-label*=&quot;Lexus Logo&quot;]</value>
       </entry>
       <entry>
          <key>BASIC</key>
