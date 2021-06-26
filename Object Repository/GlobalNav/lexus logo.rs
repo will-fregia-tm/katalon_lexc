@@ -9,6 +9,10 @@
          <key>BASIC</key>
          <value>//*[@id = 'logo']</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[(text() = 'QUICK LINKS' or . = 'QUICK LINKS')]//following-sibling::p</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -18,5 +22,12 @@
       <name>id</name>
       <type>Main</type>
       <value>logo</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>QUICK LINKS</value>
    </webElementProperties>
 </WebElementEntity>

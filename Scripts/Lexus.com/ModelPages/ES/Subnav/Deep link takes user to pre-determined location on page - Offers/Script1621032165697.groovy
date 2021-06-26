@@ -50,6 +50,12 @@ if (WebUI.verifyMatch(GlobalVariable.lowerEnvironment, 'yes', false, FailureHand
 WebUI.navigateToUrl((GlobalVariable.AEM_Domain + findTestData('modelData').getValue(GlobalVariable.dataColumn, seriesKey)) + 
     GlobalVariable.deeplinkOffers)
 
+'these steps are added to handle author environment URLs'
+if (WebUI.verifyMatch(GlobalVariable.author, 'yes', false, FailureHandling.OPTIONAL)) {
+    WebUI.navigateToUrl((GlobalVariable.AEM_Domain + findTestData('modelData').getValue(GlobalVariable.dataColumn, seriesKey)) + 
+        GlobalVariable.authorQuery)
+}
+
 WebUI.waitForElementPresent(findTestObject('ModelPages/Offers/offers module'), 10, FailureHandling.OPTIONAL)
 
 WebUI.delay(4)
@@ -67,8 +73,8 @@ WebUI.navigateToUrl('https://www.lexus.com/')
 
 WebUI.waitForPageLoad(0)
 
-WebUI.navigateToUrl(((GlobalVariable.AEM_Domain + findTestData('modelData').getValue(GlobalVariable.dataColumn, seriesKey)) + '?zip=75218' + 
-    GlobalVariable.deeplinkOffers))
+WebUI.navigateToUrl(((GlobalVariable.AEM_Domain + findTestData('modelData').getValue(GlobalVariable.dataColumn, seriesKey)) + 
+    '?zip=75218') + GlobalVariable.deeplinkOffers)
 
 WebUI.waitForElementPresent(findTestObject('ModelPages/Offers/offers module'), 10, FailureHandling.OPTIONAL)
 

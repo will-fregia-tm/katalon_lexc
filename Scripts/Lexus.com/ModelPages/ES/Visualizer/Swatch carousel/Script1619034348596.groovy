@@ -50,10 +50,22 @@ if (WebUI.verifyMatch(GlobalVariable.lowerEnvironment, 'yes', false, FailureHand
 WebUI.navigateToUrl((GlobalVariable.AEM_Domain + findTestData('modelData').getValue(GlobalVariable.dataColumn, seriesKey)) + 
     '#model_visualizer')
 
+'these steps are added to handle author environment URLs'
+if (WebUI.verifyMatch(GlobalVariable.author, 'yes', false, FailureHandling.OPTIONAL)) {
+    WebUI.navigateToUrl(((GlobalVariable.AEM_Domain + findTestData('modelData').getValue(GlobalVariable.dataColumn, seriesKey)) + 
+        GlobalVariable.authorQuery) + '#model_visualizer')
+}
+
 WebUI.delay(6)
 
 WebUI.navigateToUrl((GlobalVariable.AEM_Domain + findTestData('modelData').getValue(GlobalVariable.dataColumn, seriesKey)) + 
     '#model_visualizer')
+
+'these steps are added to handle author environment URLs'
+if (WebUI.verifyMatch(GlobalVariable.author, 'yes', false, FailureHandling.OPTIONAL)) {
+    WebUI.navigateToUrl(((GlobalVariable.AEM_Domain + findTestData('modelData').getValue(GlobalVariable.dataColumn, seriesKey)) + 
+        GlobalVariable.authorQuery) + '#model_visualizer')
+}
 
 WebUI.delay(6)
 
@@ -62,6 +74,12 @@ if (WebUI.verifyElementNotPresent(findTestObject('ModelPages/Visualizer/visualiz
     WebUI.navigateToUrl((GlobalVariable.AEM_Domain + findTestData('modelData').getValue(GlobalVariable.dataColumn, seriesKey)) + 
         '#model_visualizer')
 
+    'these steps are added to handle author environment URLs'
+    if (WebUI.verifyMatch(GlobalVariable.author, 'yes', false, FailureHandling.OPTIONAL)) {
+        WebUI.navigateToUrl(((GlobalVariable.AEM_Domain + findTestData('modelData').getValue(GlobalVariable.dataColumn, 
+                seriesKey)) + GlobalVariable.authorQuery) + '#model_visualizer')
+    }
+    
     WebUI.delay(8)
 }
 

@@ -264,4 +264,14 @@
       <initValue>'?link[model_overlay_infolayer][SHOW_PAGE]=true&amp;link[model_infolayer][setActiveTab]=3'</initValue>
       <name>deeplinkInfoLayerOptions</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'no'</initValue>
+      <name>author</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'.html?wcmmode=disabled'</initValue>
+      <name>authorQuery</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
