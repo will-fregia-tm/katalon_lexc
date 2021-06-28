@@ -52,8 +52,8 @@ WebUI.navigateToUrl((GlobalVariable.AEM_Domain + findTestData('modelData').getVa
 
 'these steps are added to handle author environment URLs'
 if (WebUI.verifyMatch(GlobalVariable.author, 'yes', false, FailureHandling.OPTIONAL)) {
-    WebUI.navigateToUrl((GlobalVariable.AEM_Domain + findTestData('modelData').getValue(GlobalVariable.dataColumn, seriesKey)) + 
-        GlobalVariable.authorQuery)
+    WebUI.navigateToUrl(((GlobalVariable.AEM_Domain + findTestData('modelData').getValue(GlobalVariable.dataColumn, seriesKey)) + 
+        GlobalVariable.authorQuery) + GlobalVariable.deeplinkSafety)
 }
 
 WebUI.waitForElementPresent(findTestObject('ModelPages/Safety/safety module'), 10, FailureHandling.OPTIONAL)
@@ -61,7 +61,7 @@ WebUI.waitForElementPresent(findTestObject('ModelPages/Safety/safety module'), 1
 WebUI.delay(4)
 
 'Visiting via deeplink scrolls to predetermined location, with necessary elements preselected/shown/active.'
-WebUI.verifyElementPresent(findTestObject('ModelPages/Safety/safety module'), 5, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementVisibleInViewport(findTestObject('ModelPages/Safety/safety module'), 5, FailureHandling.STOP_ON_FAILURE)
 
 'these steps will run in environments that require valid content'
 if (WebUI.verifyMatch(GlobalVariable.contentValidation, 'yes', false, FailureHandling.OPTIONAL)) {

@@ -100,6 +100,12 @@ WebUI.delay(8, FailureHandling.OPTIONAL)
 WebUI.navigateToUrl(GlobalVariable.AEM_Domain + findTestData('modelData').getValue(GlobalVariable.dataColumn, seriesKey), 
     FailureHandling.OPTIONAL)
 
+'these steps are added to handle author environment URLs'
+if (WebUI.verifyMatch(GlobalVariable.author, 'yes', false, FailureHandling.OPTIONAL)) {
+    WebUI.navigateToUrl((GlobalVariable.AEM_Domain + findTestData('modelData').getValue(GlobalVariable.dataColumn, seriesKey)) + 
+        GlobalVariable.authorQuery)
+}
+
 WebUI.waitForElementPresent(findTestObject('ModelPages/Hero/hero module'), 6, FailureHandling.OPTIONAL)
 
 WebUI.click(findTestObject('ModelPages/Subnav/mobile nav button'), FailureHandling.OPTIONAL)

@@ -274,4 +274,29 @@
       <initValue>'.html?wcmmode=disabled'</initValue>
       <name>authorQuery</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'&amp;link[model_overlay_infolayer][SHOW_PAGE]=true&amp;link[model_infolayer][setActiveTab]=0'</initValue>
+      <name>deeplinkInfoLayerFeatures2</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'&amp;link[model_overlay_infolayer][SHOW_PAGE]=true&amp;link[model_infolayer][setActiveTab]=1'</initValue>
+      <name>deeplinkInfoLayerSpecs2</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'&amp;link[model_overlay_infolayer][SHOW_PAGE]=true&amp;link[model_infolayer][setActiveTab]=2'</initValue>
+      <name>deeplinkInfoLayerPackages2</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'&amp;link[model_overlay_infolayer][SHOW_PAGE]=true&amp;link[model_infolayer][setActiveTab]=3'</initValue>
+      <name>deeplinkInfoLayerOptions2</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'&amp;link[model_overlay_signup][SHOW_PAGE]=true'</initValue>
+      <name>deeplinkSignup2</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

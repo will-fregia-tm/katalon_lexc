@@ -52,8 +52,8 @@ WebUI.navigateToUrl((GlobalVariable.AEM_Domain + findTestData('modelData').getVa
 
 'these steps are added to handle author environment URLs'
 if (WebUI.verifyMatch(GlobalVariable.author, 'yes', false, FailureHandling.OPTIONAL)) {
-    WebUI.navigateToUrl((GlobalVariable.AEM_Domain + findTestData('modelData').getValue(GlobalVariable.dataColumn, seriesKey)) + 
-        GlobalVariable.authorQuery)
+    WebUI.navigateToUrl(((GlobalVariable.AEM_Domain + findTestData('modelData').getValue(GlobalVariable.dataColumn, seriesKey)) + 
+        GlobalVariable.authorQuery) + GlobalVariable.deeplinkVisualizer)
 }
 
 WebUI.waitForElementPresent(findTestObject('ModelPages/Visualizer/visualizer module'), 10, FailureHandling.OPTIONAL)

@@ -52,8 +52,8 @@ WebUI.navigateToUrl((GlobalVariable.AEM_Domain + findTestData('modelData').getVa
 
 'these steps are added to handle author environment URLs'
 if (WebUI.verifyMatch(GlobalVariable.author, 'yes', false, FailureHandling.OPTIONAL)) {
-    WebUI.navigateToUrl((GlobalVariable.AEM_Domain + findTestData('modelData').getValue(GlobalVariable.dataColumn, seriesKey)) + 
-        GlobalVariable.authorQuery)
+    WebUI.navigateToUrl(((GlobalVariable.AEM_Domain + findTestData('modelData').getValue(GlobalVariable.dataColumn, seriesKey)) + 
+        GlobalVariable.authorQuery) + GlobalVariable.deeplinkInfoLayerFeatures2)
 }
 
 WebUI.waitForElementPresent(findTestObject('ModelPages/Hero/hero module'), 10, FailureHandling.OPTIONAL)
@@ -89,6 +89,12 @@ if (WebUI.verifyMatch(GlobalVariable.contentValidation, 'yes', false, FailureHan
 WebUI.navigateToUrl((GlobalVariable.AEM_Domain + findTestData('modelData').getValue(GlobalVariable.dataColumn, seriesKey)) + 
     GlobalVariable.deeplinkInfoLayerSpecs)
 
+'these steps are added to handle author environment URLs'
+if (WebUI.verifyMatch(GlobalVariable.author, 'yes', false, FailureHandling.OPTIONAL)) {
+    WebUI.navigateToUrl(((GlobalVariable.AEM_Domain + findTestData('modelData').getValue(GlobalVariable.dataColumn, seriesKey)) + 
+        GlobalVariable.authorQuery) + GlobalVariable.deeplinkInfoLayerSpecs2)
+}
+
 WebUI.waitForElementPresent(findTestObject('ModelPages/Hero/hero module'), 10, FailureHandling.OPTIONAL)
 
 WebUI.delay(4)
@@ -122,6 +128,12 @@ if (WebUI.verifyMatch(GlobalVariable.contentValidation, 'yes', false, FailureHan
 WebUI.navigateToUrl((GlobalVariable.AEM_Domain + findTestData('modelData').getValue(GlobalVariable.dataColumn, seriesKey)) + 
     GlobalVariable.deeplinkInfoLayerPackages)
 
+'these steps are added to handle author environment URLs'
+if (WebUI.verifyMatch(GlobalVariable.author, 'yes', false, FailureHandling.OPTIONAL)) {
+    WebUI.navigateToUrl(((GlobalVariable.AEM_Domain + findTestData('modelData').getValue(GlobalVariable.dataColumn, seriesKey)) + 
+        GlobalVariable.authorQuery) + GlobalVariable.deeplinkInfoLayerPackages2)
+}
+
 WebUI.waitForElementPresent(findTestObject('ModelPages/Hero/hero module'), 10, FailureHandling.OPTIONAL)
 
 WebUI.delay(4)
@@ -154,6 +166,12 @@ if (WebUI.verifyMatch(GlobalVariable.contentValidation, 'yes', false, FailureHan
 
 WebUI.navigateToUrl((GlobalVariable.AEM_Domain + findTestData('modelData').getValue(GlobalVariable.dataColumn, seriesKey)) + 
     GlobalVariable.deeplinkInfoLayerOptions)
+
+'these steps are added to handle author environment URLs'
+if (WebUI.verifyMatch(GlobalVariable.author, 'yes', false, FailureHandling.OPTIONAL)) {
+    WebUI.navigateToUrl(((GlobalVariable.AEM_Domain + findTestData('modelData').getValue(GlobalVariable.dataColumn, seriesKey)) + 
+        GlobalVariable.authorQuery) + GlobalVariable.deeplinkInfoLayerOptions2)
+}
 
 WebUI.waitForElementPresent(findTestObject('ModelPages/Hero/hero module'), 10, FailureHandling.OPTIONAL)
 

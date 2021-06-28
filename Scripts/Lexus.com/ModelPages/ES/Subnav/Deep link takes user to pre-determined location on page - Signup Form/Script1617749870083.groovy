@@ -52,11 +52,13 @@ WebUI.navigateToUrl(((GlobalVariable.AEM_Domain + findTestData('modelData').getV
 
 'these steps are added to handle author environment URLs'
 if (WebUI.verifyMatch(GlobalVariable.author, 'yes', false, FailureHandling.OPTIONAL)) {
-    WebUI.navigateToUrl((GlobalVariable.AEM_Domain + findTestData('modelData').getValue(GlobalVariable.dataColumn, seriesKey)) + 
-        GlobalVariable.authorQuery)
+    WebUI.navigateToUrl((((GlobalVariable.AEM_Domain + findTestData('modelData').getValue(GlobalVariable.dataColumn, seriesKey)) + 
+        GlobalVariable.authorQuery) + GlobalVariable.deeplinkSignup2) + '&zip=75218')
 }
 
 WebUI.waitForElementPresent(findTestObject('ModelPages/SignupForm/form overlay'), 10, FailureHandling.OPTIONAL)
+
+WebUI.verifyElementVisibleInViewport(findTestObject('ModelPages/SignupForm/form overlay'), 10, FailureHandling.STOP_ON_FAILURE)
 
 presetZIP = WebUI.getAttribute(findTestObject('ModelPages/SignupForm/zip field'), 'value', FailureHandling.STOP_ON_FAILURE)
 

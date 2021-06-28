@@ -52,8 +52,8 @@ WebUI.navigateToUrl((GlobalVariable.AEM_Domain + findTestData('modelData').getVa
 
 'these steps are added to handle author environment URLs'
 if (WebUI.verifyMatch(GlobalVariable.author, 'yes', false, FailureHandling.OPTIONAL)) {
-    WebUI.navigateToUrl((GlobalVariable.AEM_Domain + findTestData('modelData').getValue(GlobalVariable.dataColumn, seriesKey)) + 
-        GlobalVariable.authorQuery)
+    WebUI.navigateToUrl(((GlobalVariable.AEM_Domain + findTestData('modelData').getValue(GlobalVariable.dataColumn, seriesKey)) + 
+        GlobalVariable.authorQuery) + GlobalVariable.deeplinkOffers)
 }
 
 WebUI.waitForElementPresent(findTestObject('ModelPages/Offers/offers module'), 10, FailureHandling.OPTIONAL)
@@ -61,7 +61,7 @@ WebUI.waitForElementPresent(findTestObject('ModelPages/Offers/offers module'), 1
 WebUI.delay(4)
 
 'Visiting via deeplink scrolls to predetermined location, with necessary elements preselected/shown/active.'
-WebUI.verifyElementPresent(findTestObject('ModelPages/Offers/offers module'), 5, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementVisibleInViewport(findTestObject('ModelPages/Offers/offers module'), 5, FailureHandling.STOP_ON_FAILURE)
 
 'these steps will run in environments that require valid content'
 if (WebUI.verifyMatch(GlobalVariable.contentValidation, 'yes', false, FailureHandling.OPTIONAL)) {
@@ -76,11 +76,17 @@ WebUI.waitForPageLoad(0)
 WebUI.navigateToUrl(((GlobalVariable.AEM_Domain + findTestData('modelData').getValue(GlobalVariable.dataColumn, seriesKey)) + 
     '?zip=75218') + GlobalVariable.deeplinkOffers)
 
+'these steps are added to handle author environment URLs'
+if (WebUI.verifyMatch(GlobalVariable.author, 'yes', false, FailureHandling.OPTIONAL)) {
+    WebUI.navigateToUrl((((GlobalVariable.AEM_Domain + findTestData('modelData').getValue(GlobalVariable.dataColumn, seriesKey)) + 
+        GlobalVariable.authorQuery) + '&zip=75218') + GlobalVariable.deeplinkOffers)
+}
+
 WebUI.waitForElementPresent(findTestObject('ModelPages/Offers/offers module'), 10, FailureHandling.OPTIONAL)
 
 WebUI.delay(4)
 
-WebUI.verifyElementPresent(findTestObject('ModelPages/Offers/offers module'), 5, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementVisibleInViewport(findTestObject('ModelPages/Offers/offers module'), 5, FailureHandling.STOP_ON_FAILURE)
 
 displayedZIP = WebUI.getText(findTestObject('ModelPages/Offers/current market-zip'), FailureHandling.STOP_ON_FAILURE)
 

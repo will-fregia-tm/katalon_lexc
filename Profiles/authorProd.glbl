@@ -36,7 +36,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>5</initValue>
+      <initValue>10</initValue>
       <name>dataColumn</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -46,7 +46,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://prd-aem-lcom.origin.cepo-proxy.tms.aws.lexus.com'</initValue>
+      <initValue>'https://aem-author.toyota.com'</initValue>
       <name>AEM_Domain_nonauthor</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

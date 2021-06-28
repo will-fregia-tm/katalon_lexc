@@ -130,7 +130,7 @@ if (WebUI.verifyMatch(salesEvent, 'y', false, FailureHandling.OPTIONAL)) {
 
     actualValue = WebUI.getAttribute(findTestObject('ModelPages/Hero/CTA - offers'), 'href')
 
-    expectedValue = (findTestData('modelData').getValue(GlobalVariable.dataColumn, seriesKey) + '#model_offers')
+    expectedValue = findTestData('modelData').getValue(GlobalVariable.dataColumn, seriesKey + 1470)
 
     valueWithoutExpected = (actualValue - expectedValue)
 
