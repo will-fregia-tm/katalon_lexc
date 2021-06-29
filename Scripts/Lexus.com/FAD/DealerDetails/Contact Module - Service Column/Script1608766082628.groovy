@@ -66,20 +66,41 @@ modifiedString = (schedule - '.com')
 'verifies that a link to dealer\'s website is included in the schedule service URL'
 WebUI.verifyNotMatch(modifiedString, schedule, false, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('FAD/DealerDetails/schedule service link'), FailureHandling.STOP_ON_FAILURE)
+'runs these tests if the carousel is not present'
+if (WebUI.verifyElementNotPresent(findTestObject('FAD/DealerDetails/carousel - contact module'), 5, FailureHandling.OPTIONAL)) {
+    WebUI.click(findTestObject('FAD/DealerDetails/schedule service link'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForPageLoad(0)
+    WebUI.waitForPageLoad(0)
 
-WebUI.switchToWindowIndex(1, FailureHandling.STOP_ON_FAILURE)
+    WebUI.switchToWindowIndex(1, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(2)
+    WebUI.delay(2)
 
-windowTitle = WebUI.getWindowTitle(FailureHandling.STOP_ON_FAILURE)
+    windowTitle = WebUI.getWindowTitle(FailureHandling.STOP_ON_FAILURE)
 
-modifiedString = (windowTitle - 'Schedule')
+    modifiedString = (windowTitle - 'Schedule')
 
-'verifies that schedule service URL leads to a dealer service page'
-WebUI.verifyNotMatch(modifiedString, windowTitle, false, FailureHandling.STOP_ON_FAILURE)
+    'verifies that schedule service URL leads to a dealer service page'
+    WebUI.verifyNotMatch(modifiedString, windowTitle, false, FailureHandling.STOP_ON_FAILURE)
+}
+
+'runs these tests if the carousel is present'
+if (WebUI.verifyElementPresent(findTestObject('FAD/DealerDetails/carousel - contact module'), 5, FailureHandling.OPTIONAL)) {
+    WebUI.click(findTestObject('FAD/DealerDetails/schedule service link - visible in carousel'), FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.waitForPageLoad(0)
+
+    WebUI.switchToWindowIndex(1, FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.delay(2)
+
+    windowTitle = WebUI.getWindowTitle(FailureHandling.STOP_ON_FAILURE)
+
+    modifiedString = (windowTitle - 'Schedule')
+
+    'verifies that schedule service URL leads to a dealer service page'
+    WebUI.verifyNotMatch(modifiedString, windowTitle, false, FailureHandling.STOP_ON_FAILURE)
+}
 
 @com.kms.katalon.core.annotation.TearDownIfPassed
 def passed() {

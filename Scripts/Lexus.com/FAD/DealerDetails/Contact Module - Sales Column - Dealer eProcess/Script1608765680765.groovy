@@ -71,20 +71,41 @@ modifiedString = (inventory - 'search/?tp=new')
 'verifies that Dealer eProcess parameter is included in the inventory URL'
 WebUI.verifyNotMatch(modifiedString, inventory, false, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('FAD/DealerDetails/inventory link'), FailureHandling.STOP_ON_FAILURE)
+'runs these tests if the carousel is not present'
+if (WebUI.verifyElementNotPresent(findTestObject('FAD/DealerDetails/carousel - contact module'), 5, FailureHandling.OPTIONAL)) {
+    WebUI.click(findTestObject('FAD/DealerDetails/inventory link'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForPageLoad(0, FailureHandling.STOP_ON_FAILURE)
+    WebUI.waitForPageLoad(0, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.switchToWindowIndex(1, FailureHandling.STOP_ON_FAILURE)
+    WebUI.switchToWindowIndex(1, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(3)
+    WebUI.delay(3)
 
-windowTitle = WebUI.getWindowTitle(FailureHandling.STOP_ON_FAILURE)
+    windowTitle = WebUI.getWindowTitle(FailureHandling.STOP_ON_FAILURE)
 
-modifiedString = (windowTitle - 'New')
+    modifiedString = (windowTitle - 'New')
 
-'verifies that inventory URL leads to a dealer inventory page'
-WebUI.verifyNotMatch(modifiedString, windowTitle, false, FailureHandling.STOP_ON_FAILURE)
+    'verifies that inventory URL leads to a dealer inventory page'
+    WebUI.verifyNotMatch(modifiedString, windowTitle, false, FailureHandling.STOP_ON_FAILURE)
+}
+
+'runs these tests if the carousel is present'
+if (WebUI.verifyElementPresent(findTestObject('FAD/DealerDetails/carousel - contact module'), 5, FailureHandling.OPTIONAL)) {
+    WebUI.click(findTestObject('FAD/DealerDetails/inventory link - visible in carousel'), FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.waitForPageLoad(0, FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.switchToWindowIndex(1, FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.delay(3)
+
+    windowTitle = WebUI.getWindowTitle(FailureHandling.STOP_ON_FAILURE)
+
+    modifiedString = (windowTitle - 'New')
+
+    'verifies that inventory URL leads to a dealer inventory page'
+    WebUI.verifyNotMatch(modifiedString, windowTitle, false, FailureHandling.STOP_ON_FAILURE)
+}
 
 @com.kms.katalon.core.annotation.TearDownIfPassed
 def passed() {
