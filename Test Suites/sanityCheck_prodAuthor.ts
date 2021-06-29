@@ -172,7 +172,7 @@
          <configuration>
             <groupName>Custom</groupName>
             <profileName>authorProd</profileName>
-            <runConfigurationId>saucelabs_safari_ios13_iphone8</runConfigurationId>
+            <runConfigurationId>saucelabs_chrome_android10_pixel3</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/all mobile test suites/ES - mobile</testSuiteEntity>
@@ -181,7 +181,7 @@
          <configuration>
             <groupName>Custom</groupName>
             <profileName>authorProd</profileName>
-            <runConfigurationId>saucelabs_chrome_android10_pixel3</runConfigurationId>
+            <runConfigurationId>saucelabs_chrome_android9_galaxys9</runConfigurationId>
          </configuration>
          <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/Lexus.com/all mobile test suites/ESh - mobile</testSuiteEntity>

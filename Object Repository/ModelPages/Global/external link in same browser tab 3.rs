@@ -6,12 +6,12 @@
    <elementGuidId>c92bb5a0-024e-420c-851e-10693cc39fe8</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[not(contains(@href, 'dealers')) and @target = '_self']</value>
+         <key>XPATH</key>
+         <value>((//*[contains(@class, 'container')])[2]//a[not(contains(@href, 'dealers')) and not(contains(@href, 'model_')) and not(contains(@href, '#')) and not(contains(@href, 'lexus.com')) and not(contains(@href, 'offers')) and not(contains(@href, 'brochure')) and not(contains(@target, '_blank'))])[3]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>((//*[contains(@class, 'container')])[2]//a[not(contains(@href, 'dealers')) and not(contains(@href, 'model_')) and not(contains(@href, '#')) and not(contains(@href, 'lexus.com')) and not(contains(@href, 'brochure')) and not(contains(@target, '_blank'))])[3]</value>
+         <key>BASIC</key>
+         <value>//*[not(contains(@href, 'dealers')) and @target = '_self']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

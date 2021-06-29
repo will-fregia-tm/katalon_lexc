@@ -11,11 +11,10 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>((//*[contains(@class, 'container')])[2]//a[not(contains(@href, 'dealers')) and not(contains(@href, 'model_')) and not(contains(@href, '#')) and not(contains(@href, 'lexus.com')) and not(contains(@href, 'brochure')) and not(contains(@target, '_blank'))])[1]</value>
+         <value>((//*[contains(@class, 'container')])[2]//a[not(contains(@href, 'dealers')) and not(contains(@href, 'model_')) and not(contains(@href, '#')) and not(contains(@href, 'lexus.com')) and not(contains(@href, 'offers')) and not(contains(@href, 'brochure')) and not(contains(@target, '_blank'))])[1]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
