@@ -35,7 +35,7 @@ int seriesKey = findTestData('modelData' + modelSeries).getValue(1, 2).toInteger
 WebUI.openBrowser(GlobalVariable.SSO_login, FailureHandling.OPTIONAL)
 
 'these steps are added to handle lower environment authentication'
-if (WebUI.verifyMatch(GlobalVariable.lowerEnvironment, 'yes', false, FailureHandling.OPTIONAL)) {
+not_run: if (WebUI.verifyMatch(GlobalVariable.lowerEnvironment, 'yes', false, FailureHandling.OPTIONAL)) {
     cookieValue = findTestData('cookieValues').getValue(2, 1)
 
     Cookie ck = new Cookie('ESTSAUTH', cookieValue)

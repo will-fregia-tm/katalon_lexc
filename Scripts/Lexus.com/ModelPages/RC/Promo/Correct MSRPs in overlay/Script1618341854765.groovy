@@ -57,6 +57,8 @@ if (WebUI.verifyElementNotPresent(findTestObject('ModelPages/Overlay/overlay'), 
 
 WebUI.waitForElementPresent(findTestObject('ModelPages/Overlay/overlay'), 10, FailureHandling.STOP_ON_FAILURE)
 
+WebUI.verifyElementPresent(findTestObject('ModelPages/Overlay/overlay'), 3, FailureHandling.STOP_ON_FAILURE)
+
 'continues testing if there is an MSRP present'
 if (WebUI.verifyElementPresent(findTestObject('ModelPages/Overlay/starting at price 1'), 3, FailureHandling.OPTIONAL)) {
     modelName = WebUI.getText(findTestObject('ModelPages/Overlay/trim model name 1'), FailureHandling.STOP_ON_FAILURE)

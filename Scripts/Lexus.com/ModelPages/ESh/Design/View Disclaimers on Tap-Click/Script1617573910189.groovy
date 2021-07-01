@@ -35,7 +35,7 @@ int seriesKey = findTestData('modelData' + modelSeries).getValue(1, 2).toInteger
 WebUI.openBrowser(GlobalVariable.SSO_login, FailureHandling.OPTIONAL)
 
 'these steps are added to handle lower environment authentication'
-if (WebUI.verifyMatch(GlobalVariable.lowerEnvironment, 'yes', false, FailureHandling.OPTIONAL)) {
+not_run: if (WebUI.verifyMatch(GlobalVariable.lowerEnvironment, 'yes', false, FailureHandling.OPTIONAL)) {
     cookieValue = findTestData('cookieValues').getValue(2, 1)
 
     Cookie ck = new Cookie('ESTSAUTH', cookieValue)
@@ -50,7 +50,7 @@ if (WebUI.verifyMatch(GlobalVariable.lowerEnvironment, 'yes', false, FailureHand
 WebUI.navigateToUrl(GlobalVariable.AEM_Domain + findTestData('modelData').getValue(GlobalVariable.dataColumn, seriesKey))
 
 'these steps are added to handle author environment URLs'
-if (WebUI.verifyMatch(GlobalVariable.author, 'yes', false, FailureHandling.OPTIONAL)) {
+not_run: if (WebUI.verifyMatch(GlobalVariable.author, 'yes', false, FailureHandling.OPTIONAL)) {
     WebUI.navigateToUrl((GlobalVariable.AEM_Domain + findTestData('modelData').getValue(GlobalVariable.dataColumn, seriesKey)) + 
         GlobalVariable.authorQuery)
 }
