@@ -109,4 +109,9 @@
       <initValue>'no'</initValue>
       <name>lowerEnvironment</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'12'</initValue>
+      <name>BYLcolumn</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

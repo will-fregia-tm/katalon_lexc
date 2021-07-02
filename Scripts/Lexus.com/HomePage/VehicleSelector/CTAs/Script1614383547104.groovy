@@ -117,7 +117,8 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/model
 
     vehicleName = findTestData('MSRP').getValue(11, 16)
 
-    exploreURL = ((((exploreURL - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com' - 'https://aem-author.toyota.com')) - vehicleName)
+    exploreURL = ((((exploreURL - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com') - 'https://aem-author.toyota.com') - 
+    vehicleName)
 
     'verifies that CTA href is correct for this model'
     WebUI.verifyMatch(exploreURL, '/models/', false, FailureHandling.STOP_ON_FAILURE)
@@ -126,7 +127,8 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/model
 
     buildURL = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/CTA - Build'), 'href')
 
-    buildURL = ((((buildURL - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com') - 'https://aem-author.toyota.com') - vehicleName)
+    buildURL = ((((buildURL - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com') - 'https://aem-author.toyota.com') - 
+    vehicleName)
 
     'verifies that CTA href is correct for this model'
     WebUI.verifyMatch(buildURL, '/build-your-lexus/#!/series/', false, FailureHandling.STOP_ON_FAILURE)
@@ -190,7 +192,8 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/model
 
     vehicleName = findTestData('MSRP').getValue(11, 9)
 
-    exploreURL = ((((exploreURL - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com' - 'https://aem-author.toyota.com')) - vehicleName)
+    exploreURL = ((((exploreURL - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com') - 'https://aem-author.toyota.com') - 
+    vehicleName)
 
     'verifies that CTA href is correct for this model'
     WebUI.verifyMatch(exploreURL, '/models/', false, FailureHandling.STOP_ON_FAILURE)
@@ -199,7 +202,8 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/model
 
     buildURL = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/CTA - Build'), 'href')
 
-    not_run: buildURL = ((((buildURL - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com') - 'https://aem-author.toyota.com') - vehicleName)
+    not_run: buildURL = ((((buildURL - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com') - 'https://aem-author.toyota.com') - 
+    vehicleName)
 
     'verifies that CTA href is correct for this model'
     not_run: WebUI.verifyMatch(buildURL, '/build-your-lexus/#!/series/', false, FailureHandling.STOP_ON_FAILURE)
@@ -215,7 +219,8 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/model
 
     vehicleName = findTestData('MSRP').getValue(11, 12)
 
-    exploreURL = ((((exploreURL - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com' - 'https://aem-author.toyota.com')) - vehicleName)
+    exploreURL = ((((exploreURL - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com') - 'https://aem-author.toyota.com') - 
+    vehicleName)
 
     'verifies that CTA href is correct for this model'
     WebUI.verifyMatch(exploreURL, '/models/', false, FailureHandling.STOP_ON_FAILURE)
@@ -224,7 +229,8 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/model
 
     buildURL = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/CTA - Build'), 'href')
 
-    buildURL = ((((buildURL - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com') - 'https://aem-author.toyota.com') - vehicleName)
+    buildURL = ((((buildURL - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com') - 'https://aem-author.toyota.com') - 
+    vehicleName)
 
     'verifies that CTA href is correct for this model'
     WebUI.verifyMatch(buildURL, '/build-your-lexus/#!/series/', false, FailureHandling.STOP_ON_FAILURE)
@@ -240,7 +246,8 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/model
 
     vehicleName = findTestData('MSRP').getValue(11, 44)
 
-    exploreURL = ((((exploreURL - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com' - 'https://aem-author.toyota.com')) - vehicleName)
+    exploreURL = ((((exploreURL - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com') - 'https://aem-author.toyota.com') - 
+    vehicleName)
 
     'verifies that CTA href is correct for this model'
     WebUI.verifyMatch(exploreURL, '/models/', false, FailureHandling.STOP_ON_FAILURE)
@@ -249,7 +256,8 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/model
 
     buildURL = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/CTA - Build'), 'href')
 
-    buildURL = ((((buildURL - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com') - 'https://aem-author.toyota.com') - vehicleName)
+    buildURL = ((((buildURL - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com') - 'https://aem-author.toyota.com') - 
+    vehicleName)
 
     'verifies that CTA href is correct for this model'
     WebUI.verifyMatch(buildURL, '/build-your-lexus/#!/series/', false, FailureHandling.STOP_ON_FAILURE)
@@ -265,7 +273,8 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/model
 
     vehicleName = findTestData('MSRP').getValue(11, 48)
 
-    exploreURL = ((((exploreURL - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com' - 'https://aem-author.toyota.com')) - vehicleName)
+    exploreURL = ((((exploreURL - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com') - 'https://aem-author.toyota.com') - 
+    vehicleName)
 
     'verifies that CTA href is correct for this model'
     WebUI.verifyMatch(exploreURL, '/models/', false, FailureHandling.STOP_ON_FAILURE)
@@ -274,7 +283,8 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/model
 
     buildURL = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/CTA - Build'), 'href')
 
-    buildURL = ((((buildURL - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com') - 'https://aem-author.toyota.com') - vehicleName)
+    buildURL = ((((buildURL - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com') - 'https://aem-author.toyota.com') - 
+    vehicleName)
 
     'verifies that CTA href is correct for this model'
     WebUI.verifyMatch(buildURL, '/build-your-lexus/#!/series/', false, FailureHandling.STOP_ON_FAILURE)
@@ -292,7 +302,8 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/model
 
     vehicleName = findTestData('MSRP').getValue(11, 72)
 
-    exploreURL = ((((exploreURL - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com' - 'https://aem-author.toyota.com')) - vehicleName)
+    exploreURL = ((((exploreURL - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com') - 'https://aem-author.toyota.com') - 
+    vehicleName)
 
     'verifies that CTA href is correct for this model'
     WebUI.verifyMatch(exploreURL, '/models/', false, FailureHandling.STOP_ON_FAILURE)
@@ -301,7 +312,8 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/model
 
     buildURL = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/CTA - Build'), 'href')
 
-    buildURL = ((((buildURL - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com') - 'https://aem-author.toyota.com') - vehicleName)
+    buildURL = ((((buildURL - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com') - 'https://aem-author.toyota.com') - 
+    vehicleName)
 
     'verifies that CTA href is correct for this model'
     WebUI.verifyMatch(buildURL, '/build-your-lexus/#!/series/', false, FailureHandling.STOP_ON_FAILURE)
@@ -317,7 +329,8 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/model
 
     vehicleName = findTestData('MSRP').getValue(11, 74)
 
-    exploreURL = ((((exploreURL - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com' - 'https://aem-author.toyota.com')) - vehicleName)
+    exploreURL = ((((exploreURL - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com') - 'https://aem-author.toyota.com') - 
+    vehicleName)
 
     'verifies that CTA href is correct for this model'
     WebUI.verifyMatch(exploreURL, '/models/', false, FailureHandling.STOP_ON_FAILURE)
@@ -326,7 +339,8 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/model
 
     buildURL = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/CTA - Build'), 'href')
 
-    buildURL = ((((buildURL - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com') - 'https://aem-author.toyota.com') - vehicleName)
+    buildURL = ((((buildURL - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com') - 'https://aem-author.toyota.com') - 
+    vehicleName)
 
     'verifies that CTA href is correct for this model'
     WebUI.verifyMatch(buildURL, '/build-your-lexus/#!/series/', false, FailureHandling.STOP_ON_FAILURE)
@@ -342,7 +356,8 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/model
 
     vehicleName = findTestData('MSRP').getValue(11, 34)
 
-    exploreURL = ((((exploreURL - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com' - 'https://aem-author.toyota.com')) - vehicleName)
+    exploreURL = ((((exploreURL - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com') - 'https://aem-author.toyota.com') - 
+    vehicleName)
 
     'verifies that CTA href is correct for this model'
     WebUI.verifyMatch(exploreURL, '/models/', false, FailureHandling.STOP_ON_FAILURE)
@@ -351,7 +366,8 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/model
 
     buildURL = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/CTA - Build'), 'href')
 
-    buildURL = ((((buildURL - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com') - 'https://aem-author.toyota.com') - vehicleName)
+    buildURL = ((((buildURL - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com') - 'https://aem-author.toyota.com') - 
+    vehicleName)
 
     'verifies that CTA href is correct for this model'
     WebUI.verifyMatch(buildURL, '/build-your-lexus/#!/series/', false, FailureHandling.STOP_ON_FAILURE)
@@ -367,7 +383,8 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/model
 
     vehicleName = findTestData('MSRP').getValue(11, 40)
 
-    exploreURL = ((((exploreURL - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com' - 'https://aem-author.toyota.com')) - vehicleName)
+    exploreURL = ((((exploreURL - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com') - 'https://aem-author.toyota.com') - 
+    vehicleName)
 
     'verifies that CTA href is correct for this model'
     WebUI.verifyMatch(exploreURL, '/models/', false, FailureHandling.STOP_ON_FAILURE)
@@ -376,7 +393,8 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/model
 
     buildURL = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/CTA - Build'), 'href')
 
-    buildURL = ((((buildURL - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com') - 'https://aem-author.toyota.com') - vehicleName)
+    buildURL = ((((buildURL - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com') - 'https://aem-author.toyota.com') - 
+    vehicleName)
 
     'verifies that CTA href is correct for this model'
     WebUI.verifyMatch(buildURL, '/build-your-lexus/#!/series/', false, FailureHandling.STOP_ON_FAILURE)
@@ -392,7 +410,8 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/model
 
     vehicleName = findTestData('MSRP').getValue(11, 54)
 
-    exploreURL = ((((exploreURL - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com' - 'https://aem-author.toyota.com')) - vehicleName)
+    exploreURL = ((((exploreURL - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com') - 'https://aem-author.toyota.com') - 
+    vehicleName)
 
     'verifies that CTA href is correct for this model'
     WebUI.verifyMatch(exploreURL, '/models/', false, FailureHandling.STOP_ON_FAILURE)
@@ -401,7 +420,8 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/model
 
     buildURL = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/CTA - Build'), 'href')
 
-    buildURL = ((((buildURL - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com') - 'https://aem-author.toyota.com') - vehicleName)
+    buildURL = ((((buildURL - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com') - 'https://aem-author.toyota.com') - 
+    vehicleName)
 
     'verifies that CTA href is correct for this model'
     WebUI.verifyMatch(buildURL, '/build-your-lexus/#!/series/', false, FailureHandling.STOP_ON_FAILURE)
@@ -417,7 +437,8 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/model
 
     vehicleName = findTestData('MSRP').getValue(11, 60)
 
-    exploreURL = ((((exploreURL - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com' - 'https://aem-author.toyota.com')) - vehicleName)
+    exploreURL = ((((exploreURL - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com') - 'https://aem-author.toyota.com') - 
+    vehicleName)
 
     'verifies that CTA href is correct for this model'
     WebUI.verifyMatch(exploreURL, '/models/', false, FailureHandling.STOP_ON_FAILURE)
@@ -426,7 +447,8 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/model
 
     buildURL = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/CTA - Build'), 'href')
 
-    buildURL = ((((buildURL - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com') - 'https://aem-author.toyota.com') - vehicleName)
+    buildURL = ((((buildURL - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com') - 'https://aem-author.toyota.com') - 
+    vehicleName)
 
     'verifies that CTA href is correct for this model'
     WebUI.verifyMatch(buildURL, '/build-your-lexus/#!/series/', false, FailureHandling.STOP_ON_FAILURE)
@@ -442,7 +464,8 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/model
 
     vehicleName = findTestData('MSRP').getValue(11, 28)
 
-    exploreURL = ((((exploreURL - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com' - 'https://aem-author.toyota.com')) - vehicleName)
+    exploreURL = ((((exploreURL - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com') - 'https://aem-author.toyota.com') - 
+    vehicleName)
 
     'verifies that CTA href is correct for this model'
     WebUI.verifyMatch(exploreURL, '/models/', false, FailureHandling.STOP_ON_FAILURE)
@@ -451,7 +474,8 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/model
 
     buildURL = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/CTA - Build'), 'href')
 
-    buildURL = ((((buildURL - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com') - 'https://aem-author.toyota.com') - vehicleName)
+    buildURL = ((((buildURL - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com') - 'https://aem-author.toyota.com') - 
+    vehicleName)
 
     'verifies that CTA href is correct for this model'
     WebUI.verifyMatch(buildURL, '/build-your-lexus/#!/series/', false, FailureHandling.STOP_ON_FAILURE)
@@ -467,7 +491,8 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/model
 
     vehicleName = findTestData('MSRP').getValue(11, 31)
 
-    exploreURL = ((((exploreURL - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com' - 'https://aem-author.toyota.com')) - vehicleName)
+    exploreURL = ((((exploreURL - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com') - 'https://aem-author.toyota.com') - 
+    vehicleName)
 
     'verifies that CTA href is correct for this model'
     WebUI.verifyMatch(exploreURL, '/models/', false, FailureHandling.STOP_ON_FAILURE)
@@ -476,7 +501,8 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/model
 
     buildURL = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/CTA - Build'), 'href')
 
-    buildURL = ((((buildURL - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com') - 'https://aem-author.toyota.com') - vehicleName)
+    buildURL = ((((buildURL - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com') - 'https://aem-author.toyota.com') - 
+    vehicleName)
 
     'verifies that CTA href is correct for this model'
     WebUI.verifyMatch(buildURL, '/build-your-lexus/#!/series/', false, FailureHandling.STOP_ON_FAILURE)
@@ -494,7 +520,8 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/model
 
     vehicleName = findTestData('MSRP').getValue(11, 1)
 
-    exploreURL = ((((exploreURL - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com' - 'https://aem-author.toyota.com')) - vehicleName)
+    exploreURL = ((((exploreURL - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com') - 'https://aem-author.toyota.com') - 
+    vehicleName)
 
     'verifies that CTA href is correct for this model'
     WebUI.verifyMatch(exploreURL, '/models/', false, FailureHandling.STOP_ON_FAILURE)
@@ -503,7 +530,8 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/model
 
     buildURL = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/CTA - Build'), 'href')
 
-    buildURL = ((((buildURL - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com') - 'https://aem-author.toyota.com') - vehicleName)
+    buildURL = ((((buildURL - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com') - 'https://aem-author.toyota.com') - 
+    vehicleName)
 
     'verifies that CTA href is correct for this model'
     WebUI.verifyMatch(buildURL, '/build-your-lexus/#!/series/', false, FailureHandling.STOP_ON_FAILURE)
@@ -519,7 +547,8 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/model
 
     vehicleName = findTestData('MSRP').getValue(11, 52)
 
-    exploreURL = ((((exploreURL - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com' - 'https://aem-author.toyota.com')) - vehicleName)
+    exploreURL = ((((exploreURL - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com') - 'https://aem-author.toyota.com') - 
+    vehicleName)
 
     'verifies that CTA href is correct for this model'
     WebUI.verifyMatch(exploreURL, '/models/', false, FailureHandling.STOP_ON_FAILURE)
@@ -528,7 +557,8 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/model
 
     buildURL = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/CTA - Build'), 'href')
 
-    buildURL = ((((buildURL - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com') - 'https://aem-author.toyota.com') - vehicleName)
+    buildURL = ((((buildURL - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com') - 'https://aem-author.toyota.com') - 
+    vehicleName)
 
     'verifies that CTA href is correct for this model'
     WebUI.verifyMatch(buildURL, '/build-your-lexus/#!/series/', false, FailureHandling.STOP_ON_FAILURE)
@@ -544,7 +574,8 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/model
 
     vehicleName = findTestData('MSRP').getValue(11, 69)
 
-    exploreURL = ((((exploreURL - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com' - 'https://aem-author.toyota.com')) - vehicleName)
+    exploreURL = ((((exploreURL - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com') - 'https://aem-author.toyota.com') - 
+    vehicleName)
 
     'verifies that CTA href is correct for this model'
     WebUI.verifyMatch(exploreURL, '/models/', false, FailureHandling.STOP_ON_FAILURE)
@@ -553,7 +584,8 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/model
 
     buildURL = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/CTA - Build'), 'href')
 
-    buildURL = ((((buildURL - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com') - 'https://aem-author.toyota.com') - vehicleName)
+    buildURL = ((((buildURL - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com') - 'https://aem-author.toyota.com') - 
+    vehicleName)
 
     'verifies that CTA href is correct for this model'
     WebUI.verifyMatch(buildURL, '/build-your-lexus/#!/series/', false, FailureHandling.STOP_ON_FAILURE)
@@ -569,7 +601,8 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/model
 
     vehicleName = findTestData('MSRP').getValue(11, 70)
 
-    exploreURL = ((((exploreURL - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com' - 'https://aem-author.toyota.com')) - vehicleName)
+    exploreURL = ((((exploreURL - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com') - 'https://aem-author.toyota.com') - 
+    vehicleName)
 
     'verifies that CTA href is correct for this model'
     WebUI.verifyMatch(exploreURL, '/models/', false, FailureHandling.STOP_ON_FAILURE)
@@ -578,7 +611,8 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/model
 
     buildURL = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/CTA - Build'), 'href')
 
-    buildURL = ((((buildURL - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com') - 'https://aem-author.toyota.com') - vehicleName)
+    buildURL = ((((buildURL - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com') - 'https://aem-author.toyota.com') - 
+    vehicleName)
 
     'verifies that CTA href is correct for this model'
     WebUI.verifyMatch(buildURL, '/build-your-lexus/#!/series/', false, FailureHandling.STOP_ON_FAILURE)
@@ -594,19 +628,26 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/model
 
     vehicleName = findTestData('MSRP').getValue(11, 71)
 
-    exploreURL = ((((exploreURL - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com' - 'https://aem-author.toyota.com')) - vehicleName)
+    exploreURL = ((((exploreURL - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com') - 'https://aem-author.toyota.com') - 
+    vehicleName)
 
     'verifies that CTA href is correct for this model'
     WebUI.verifyMatch(exploreURL, '/models/', false, FailureHandling.STOP_ON_FAILURE)
+
+    column = GlobalVariable.BYLcolumn
 
     vehicleName = findTestData('MSRP').getValue(12, 71)
 
     buildURL = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/CTA - Build'), 'href')
 
-    buildURL = ((((buildURL - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com') - 'https://aem-author.toyota.com') - vehicleName)
+    buildURL = ((((buildURL - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com') - 'https://aem-author.toyota.com') - 
+    vehicleName)
 
-    'verifies that CTA href is correct for this model'
-    WebUI.verifyMatch(buildURL, '/build-your-lexus/#!/series/', false, FailureHandling.STOP_ON_FAILURE)
+    'only runs in environments which require correct content'
+    if (WebUI.verifyMatch(GlobalVariable.DS_version, 'prod', false, FailureHandling.OPTIONAL)) {
+        'verifies that CTA href is correct for this model'
+        WebUI.verifyMatch(buildURL, '/build-your-lexus/#!/series/', false, FailureHandling.STOP_ON_FAILURE)
+    }
 }
 
 WebUI.click(findTestObject('HomePage/VehicleSelectorAEM/categories/Hybrids'), FailureHandling.STOP_ON_FAILURE)
@@ -621,7 +662,8 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/model
 
     vehicleName = findTestData('MSRP').getValue(11, 74)
 
-    exploreURL = ((((exploreURL - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com' - 'https://aem-author.toyota.com')) - vehicleName)
+    exploreURL = ((((exploreURL - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com') - 'https://aem-author.toyota.com') - 
+    vehicleName)
 
     'verifies that CTA href is correct for this model'
     WebUI.verifyMatch(exploreURL, '/models/', false, FailureHandling.STOP_ON_FAILURE)
@@ -630,7 +672,8 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/model
 
     buildURL = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/CTA - Build'), 'href')
 
-    buildURL = ((((buildURL - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com') - 'https://aem-author.toyota.com') - vehicleName)
+    buildURL = ((((buildURL - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com') - 'https://aem-author.toyota.com') - 
+    vehicleName)
 
     'verifies that CTA href is correct for this model'
     WebUI.verifyMatch(buildURL, '/build-your-lexus/#!/series/', false, FailureHandling.STOP_ON_FAILURE)
@@ -646,7 +689,8 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/model
 
     vehicleName = findTestData('MSRP').getValue(11, 40)
 
-    exploreURL = ((((exploreURL - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com' - 'https://aem-author.toyota.com')) - vehicleName)
+    exploreURL = ((((exploreURL - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com') - 'https://aem-author.toyota.com') - 
+    vehicleName)
 
     'verifies that CTA href is correct for this model'
     WebUI.verifyMatch(exploreURL, '/models/', false, FailureHandling.STOP_ON_FAILURE)
@@ -655,7 +699,8 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/model
 
     buildURL = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/CTA - Build'), 'href')
 
-    buildURL = ((((buildURL - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com') - 'https://aem-author.toyota.com') - vehicleName)
+    buildURL = ((((buildURL - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com') - 'https://aem-author.toyota.com') - 
+    vehicleName)
 
     'verifies that CTA href is correct for this model'
     WebUI.verifyMatch(buildURL, '/build-your-lexus/#!/series/', false, FailureHandling.STOP_ON_FAILURE)
@@ -671,7 +716,8 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/model
 
     vehicleName = findTestData('MSRP').getValue(11, 60)
 
-    exploreURL = ((((exploreURL - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com' - 'https://aem-author.toyota.com')) - vehicleName)
+    exploreURL = ((((exploreURL - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com') - 'https://aem-author.toyota.com') - 
+    vehicleName)
 
     'verifies that CTA href is correct for this model'
     WebUI.verifyMatch(exploreURL, '/models/', false, FailureHandling.STOP_ON_FAILURE)
@@ -680,7 +726,8 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/model
 
     buildURL = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/CTA - Build'), 'href')
 
-    buildURL = ((((buildURL - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com') - 'https://aem-author.toyota.com') - vehicleName)
+    buildURL = ((((buildURL - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com') - 'https://aem-author.toyota.com') - 
+    vehicleName)
 
     'verifies that CTA href is correct for this model'
     WebUI.verifyMatch(buildURL, '/build-your-lexus/#!/series/', false, FailureHandling.STOP_ON_FAILURE)
@@ -696,7 +743,8 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/model
 
     vehicleName = findTestData('MSRP').getValue(11, 12)
 
-    exploreURL = ((((exploreURL - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com' - 'https://aem-author.toyota.com')) - vehicleName)
+    exploreURL = ((((exploreURL - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com') - 'https://aem-author.toyota.com') - 
+    vehicleName)
 
     'verifies that CTA href is correct for this model'
     WebUI.verifyMatch(exploreURL, '/models/', false, FailureHandling.STOP_ON_FAILURE)
@@ -705,7 +753,8 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/model
 
     buildURL = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/CTA - Build'), 'href')
 
-    buildURL = ((((buildURL - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com') - 'https://aem-author.toyota.com') - vehicleName)
+    buildURL = ((((buildURL - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com') - 'https://aem-author.toyota.com') - 
+    vehicleName)
 
     'verifies that CTA href is correct for this model'
     WebUI.verifyMatch(buildURL, '/build-your-lexus/#!/series/', false, FailureHandling.STOP_ON_FAILURE)
@@ -721,7 +770,8 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/model
 
     vehicleName = findTestData('MSRP').getValue(11, 48)
 
-    exploreURL = ((((exploreURL - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com' - 'https://aem-author.toyota.com')) - vehicleName)
+    exploreURL = ((((exploreURL - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com') - 'https://aem-author.toyota.com') - 
+    vehicleName)
 
     'verifies that CTA href is correct for this model'
     WebUI.verifyMatch(exploreURL, '/models/', false, FailureHandling.STOP_ON_FAILURE)
@@ -730,7 +780,8 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/model
 
     buildURL = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/CTA - Build'), 'href')
 
-    buildURL = ((((buildURL - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com') - 'https://aem-author.toyota.com') - vehicleName)
+    buildURL = ((((buildURL - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com') - 'https://aem-author.toyota.com') - 
+    vehicleName)
 
     'verifies that CTA href is correct for this model'
     WebUI.verifyMatch(buildURL, '/build-your-lexus/#!/series/', false, FailureHandling.STOP_ON_FAILURE)
@@ -746,7 +797,8 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/model
 
     vehicleName = findTestData('MSRP').getValue(11, 70)
 
-    exploreURL = ((((exploreURL - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com' - 'https://aem-author.toyota.com')) - vehicleName)
+    exploreURL = ((((exploreURL - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com') - 'https://aem-author.toyota.com') - 
+    vehicleName)
 
     'verifies that CTA href is correct for this model'
     WebUI.verifyMatch(exploreURL, '/models/', false, FailureHandling.STOP_ON_FAILURE)
@@ -755,7 +807,8 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/model
 
     buildURL = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/CTA - Build'), 'href')
 
-    buildURL = ((((buildURL - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com') - 'https://aem-author.toyota.com') - vehicleName)
+    buildURL = ((((buildURL - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com') - 'https://aem-author.toyota.com') - 
+    vehicleName)
 
     'verifies that CTA href is correct for this model'
     WebUI.verifyMatch(buildURL, '/build-your-lexus/#!/series/', false, FailureHandling.STOP_ON_FAILURE)
@@ -773,7 +826,8 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/model
 
     vehicleName = findTestData('MSRP').getValue(11, 52)
 
-    exploreURL = ((((exploreURL - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com' - 'https://aem-author.toyota.com')) - vehicleName)
+    exploreURL = ((((exploreURL - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com') - 'https://aem-author.toyota.com') - 
+    vehicleName)
 
     'verifies that CTA href is correct for this model'
     WebUI.verifyMatch(exploreURL, '/models/', false, FailureHandling.STOP_ON_FAILURE)
@@ -782,7 +836,8 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/model
 
     buildURL = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/CTA - Build'), 'href')
 
-    buildURL = ((((buildURL - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com') - 'https://aem-author.toyota.com') - vehicleName)
+    buildURL = ((((buildURL - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com') - 'https://aem-author.toyota.com') - 
+    vehicleName)
 
     'verifies that CTA href is correct for this model'
     WebUI.verifyMatch(buildURL, '/build-your-lexus/#!/series/', false, FailureHandling.STOP_ON_FAILURE)
@@ -798,7 +853,8 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/model
 
     vehicleName = findTestData('MSRP').getValue(11, 69)
 
-    exploreURL = ((((exploreURL - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com' - 'https://aem-author.toyota.com')) - vehicleName)
+    exploreURL = ((((exploreURL - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com') - 'https://aem-author.toyota.com') - 
+    vehicleName)
 
     'verifies that CTA href is correct for this model'
     WebUI.verifyMatch(exploreURL, '/models/', false, FailureHandling.STOP_ON_FAILURE)
@@ -807,7 +863,8 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/model
 
     buildURL = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/CTA - Build'), 'href')
 
-    buildURL = ((((buildURL - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com') - 'https://aem-author.toyota.com') - vehicleName)
+    buildURL = ((((buildURL - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com') - 'https://aem-author.toyota.com') - 
+    vehicleName)
 
     'verifies that CTA href is correct for this model'
     WebUI.verifyMatch(buildURL, '/build-your-lexus/#!/series/', false, FailureHandling.STOP_ON_FAILURE)
@@ -823,7 +880,8 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/model
 
     vehicleName = findTestData('MSRP').getValue(11, 70)
 
-    exploreURL = ((((exploreURL - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com' - 'https://aem-author.toyota.com')) - vehicleName)
+    exploreURL = ((((exploreURL - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com') - 'https://aem-author.toyota.com') - 
+    vehicleName)
 
     'verifies that CTA href is correct for this model'
     WebUI.verifyMatch(exploreURL, '/models/', false, FailureHandling.STOP_ON_FAILURE)
@@ -832,7 +890,8 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/model
 
     buildURL = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/CTA - Build'), 'href')
 
-    buildURL = ((((buildURL - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com') - 'https://aem-author.toyota.com') - vehicleName)
+    buildURL = ((((buildURL - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com') - 'https://aem-author.toyota.com') - 
+    vehicleName)
 
     'verifies that CTA href is correct for this model'
     WebUI.verifyMatch(buildURL, '/build-your-lexus/#!/series/', false, FailureHandling.STOP_ON_FAILURE)
@@ -848,19 +907,26 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/model
 
     vehicleName = findTestData('MSRP').getValue(11, 71)
 
-    exploreURL = ((((exploreURL - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com' - 'https://aem-author.toyota.com')) - vehicleName)
+    exploreURL = ((((exploreURL - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com') - 'https://aem-author.toyota.com') - 
+    vehicleName)
 
     'verifies that CTA href is correct for this model'
     WebUI.verifyMatch(exploreURL, '/models/', false, FailureHandling.STOP_ON_FAILURE)
+
+    column = GlobalVariable.BYLcolumn
 
     vehicleName = findTestData('MSRP').getValue(12, 71)
 
     buildURL = WebUI.getAttribute(findTestObject('Homepage/VehicleSelectorAEM/CTA - Build'), 'href')
 
-    buildURL = ((((buildURL - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com') - 'https://aem-author.toyota.com') - vehicleName)
+    buildURL = ((((buildURL - GlobalVariable.AEM_Domain) - 'https://stage-aem.author.toyota.com') - 'https://aem-author.toyota.com') - 
+    vehicleName)
 
-    'verifies that CTA href is correct for this model'
-    WebUI.verifyMatch(buildURL, '/build-your-lexus/#!/series/', false, FailureHandling.STOP_ON_FAILURE)
+    'only runs in environments which require correct content'
+    if (WebUI.verifyMatch(GlobalVariable.DS_version, 'prod', false, FailureHandling.OPTIONAL)) {
+        'verifies that CTA href is correct for this model'
+        WebUI.verifyMatch(buildURL, '/build-your-lexus/#!/series/', false, FailureHandling.STOP_ON_FAILURE)
+    }
 }
 
 @com.kms.katalon.core.annotation.TearDownIfPassed
