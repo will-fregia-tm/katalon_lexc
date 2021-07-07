@@ -129,20 +129,24 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroOffers/offer cards r
         'Offers will display based on the series displaying in the module'
         WebUI.verifyNotMatch(textWithoutSelectedModel, offerCardModel, false, FailureHandling.STOP_ON_FAILURE)
 
-        'Model-Specific market offers cards will render below the Vehicle Selector module'
-        offerCardModel = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/offers/offer card 03 - model name'), 
-            FailureHandling.STOP_ON_FAILURE)
+        'checks this offer card if it is present'
+        if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/offers/offer card 03 - model name'), 
+            3, FailureHandling.OPTIONAL)) {
+            'Model-Specific market offers cards will render below the Vehicle Selector module'
+            offerCardModel = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/offers/offer card 03 - model name'), 
+                FailureHandling.STOP_ON_FAILURE)
 
-        textWithoutSelectedModel = (offerCardModel - selectedModel)
+            textWithoutSelectedModel = (offerCardModel - selectedModel)
 
-        'Offers will display based on the series displaying in the module'
-        WebUI.verifyNotMatch(textWithoutSelectedModel, offerCardModel, false, FailureHandling.STOP_ON_FAILURE)
+            'Offers will display based on the series displaying in the module'
+            WebUI.verifyNotMatch(textWithoutSelectedModel, offerCardModel, false, FailureHandling.STOP_ON_FAILURE)
 
-        textAlignment = WebUI.getCSSValue(findTestObject('Homepage/VehicleSelectorAEM/offers/CTAs'), 'text-align', FailureHandling.STOP_ON_FAILURE)
+            textAlignment = WebUI.getCSSValue(findTestObject('Homepage/VehicleSelectorAEM/offers/CTAs'), 'text-align', FailureHandling.STOP_ON_FAILURE)
 
-        'CTA centered under the offer-cards'
-        WebUI.verifyMatch(textAlignment, 'center', false, FailureHandling.STOP_ON_FAILURE)
-
+            'CTA centered under the offer-cards'
+            WebUI.verifyMatch(textAlignment, 'center', false, FailureHandling.STOP_ON_FAILURE)
+        }
+        
         'Return a maximum of 3 offers cards'
         WebUI.verifyElementNotPresent(findTestObject('Homepage/VehicleSelectorAEM/offers/offer card 04'), 0)
     }
@@ -180,20 +184,24 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroOffers/offer cards r
         'Offers will display based on the series displaying in the module'
         WebUI.verifyNotMatch(textWithoutSelectedModel, offerCardModel, false, FailureHandling.STOP_ON_FAILURE)
 
-        'Model-Specific market offers cards will render below the Vehicle Selector module'
-        offerCardModel = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/offers/offer card 03 - model name'), 
-            FailureHandling.STOP_ON_FAILURE)
+        'checks this offer card if it is present'
+        if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/offers/offer card 03 - model name'), 
+            3, FailureHandling.OPTIONAL)) {
+            'Model-Specific market offers cards will render below the Vehicle Selector module'
+            offerCardModel = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/offers/offer card 03 - model name'), 
+                FailureHandling.STOP_ON_FAILURE)
 
-        textWithoutSelectedModel = (offerCardModel - selectedModel)
+            textWithoutSelectedModel = (offerCardModel - selectedModel)
 
-        'Offers will display based on the series displaying in the module'
-        WebUI.verifyNotMatch(textWithoutSelectedModel, offerCardModel, false, FailureHandling.STOP_ON_FAILURE)
+            'Offers will display based on the series displaying in the module'
+            WebUI.verifyNotMatch(textWithoutSelectedModel, offerCardModel, false, FailureHandling.STOP_ON_FAILURE)
 
-        textAlignment = WebUI.getCSSValue(findTestObject('Homepage/VehicleSelectorAEM/offers/CTAs'), 'text-align', FailureHandling.STOP_ON_FAILURE)
+            textAlignment = WebUI.getCSSValue(findTestObject('Homepage/VehicleSelectorAEM/offers/CTAs'), 'text-align', FailureHandling.STOP_ON_FAILURE)
 
-        'CTA centered under the offer-cards'
-        WebUI.verifyMatch(textAlignment, 'center', false, FailureHandling.STOP_ON_FAILURE)
-
+            'CTA centered under the offer-cards'
+            WebUI.verifyMatch(textAlignment, 'center', false, FailureHandling.STOP_ON_FAILURE)
+        }
+        
         'Return a maximum of 3 offers cards'
         WebUI.verifyElementNotPresent(findTestObject('Homepage/VehicleSelectorAEM/offers/offer card 04'), 0)
     }
@@ -385,20 +393,24 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroOffers/offer cards r
         'Offers will display based on the series displaying in the module'
         WebUI.verifyNotMatch(textWithoutSelectedModel, offerCardModel, false, FailureHandling.STOP_ON_FAILURE)
 
-        'Model-Specific market offers cards will render below the Vehicle Selector module'
-        offerCardModel = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/offers/offer card 03 - model name'), 
-            FailureHandling.STOP_ON_FAILURE)
+        'checks this offer card if it is present'
+        if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/offers/offer card 03 - model name'), 
+            3, FailureHandling.OPTIONAL)) {
+            'Model-Specific market offers cards will render below the Vehicle Selector module'
+            offerCardModel = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/offers/offer card 03 - model name'), 
+                FailureHandling.STOP_ON_FAILURE)
 
-        textWithoutSelectedModel = (offerCardModel - selectedModel)
+            textWithoutSelectedModel = (offerCardModel - selectedModel)
 
-        'Offers will display based on the series displaying in the module'
-        WebUI.verifyNotMatch(textWithoutSelectedModel, offerCardModel, false, FailureHandling.STOP_ON_FAILURE)
+            'Offers will display based on the series displaying in the module'
+            WebUI.verifyNotMatch(textWithoutSelectedModel, offerCardModel, false, FailureHandling.STOP_ON_FAILURE)
 
-        textAlignment = WebUI.getCSSValue(findTestObject('Homepage/VehicleSelectorAEM/offers/CTAs'), 'text-align', FailureHandling.STOP_ON_FAILURE)
+            textAlignment = WebUI.getCSSValue(findTestObject('Homepage/VehicleSelectorAEM/offers/CTAs'), 'text-align', FailureHandling.STOP_ON_FAILURE)
 
-        'CTA centered under the offer-cards'
-        WebUI.verifyMatch(textAlignment, 'center', false, FailureHandling.STOP_ON_FAILURE)
-
+            'CTA centered under the offer-cards'
+            WebUI.verifyMatch(textAlignment, 'center', false, FailureHandling.STOP_ON_FAILURE)
+        }
+        
         'Return a maximum of 3 offers cards'
         WebUI.verifyElementNotPresent(findTestObject('Homepage/VehicleSelectorAEM/offers/offer card 04'), 0)
     }

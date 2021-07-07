@@ -230,14 +230,18 @@ if (WebUI.verifyElementPresent(findTestObject('Homepage/HeroOffers/offer cards r
         'Offers will display based on the series displaying in the module'
         WebUI.verifyNotMatch(textWithoutSelectedModel, offerCardModel, false, FailureHandling.STOP_ON_FAILURE)
 
-        'Model-Specific market offers cards will render below the Vehicle Selector module'
-        offerCardModel = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/offers/offer card 03 - model name'), 
-            FailureHandling.STOP_ON_FAILURE)
+        'checks offer card 3 if it is present'
+        if (WebUI.verifyElementPresent(findTestObject('Homepage/VehicleSelectorAEM/offers/offer card 03 - model name'), 
+            3, FailureHandling.OPTIONAL)) {
+            'Model-Specific market offers cards will render below the Vehicle Selector module'
+            offerCardModel = WebUI.getText(findTestObject('Homepage/VehicleSelectorAEM/offers/offer card 03 - model name'), 
+                FailureHandling.STOP_ON_FAILURE)
 
-        textWithoutSelectedModel = (offerCardModel - selectedModel)
+            textWithoutSelectedModel = (offerCardModel - selectedModel)
 
-        'Offers will display based on the series displaying in the module'
-        WebUI.verifyNotMatch(textWithoutSelectedModel, offerCardModel, false, FailureHandling.STOP_ON_FAILURE)
+            'Offers will display based on the series displaying in the module'
+            WebUI.verifyNotMatch(textWithoutSelectedModel, offerCardModel, false, FailureHandling.STOP_ON_FAILURE)
+        }
     }
     
     'clicks this model if it is present'
