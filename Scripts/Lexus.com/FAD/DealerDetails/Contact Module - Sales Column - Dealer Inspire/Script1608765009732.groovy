@@ -79,7 +79,7 @@ if (WebUI.verifyElementNotPresent(findTestObject('FAD/DealerDetails/carousel - c
 
     WebUI.switchToWindowIndex(1, FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.delay(3)
+    WebUI.delay(6)
 
     windowTitle = WebUI.getWindowTitle(FailureHandling.STOP_ON_FAILURE)
 
@@ -97,7 +97,7 @@ if (WebUI.verifyElementPresent(findTestObject('FAD/DealerDetails/carousel - cont
 
     WebUI.switchToWindowIndex(1, FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.delay(3)
+    WebUI.delay(6)
 
     windowTitle = WebUI.getWindowTitle(FailureHandling.STOP_ON_FAILURE)
 
